@@ -56,18 +56,18 @@
   "media": [
     {
       "type": "setup",
-      "url": "modules/ravanno-dnd5e-es/assets/setup-cover.png",
+      "url": "modules/marcelo-player-dnd5e-2024-es/assets/setup-cover.png",
       "loop": false,
       "flags": {}
     },
     {
       "type": "cover",
-      "url": "modules/ravanno-dnd5e-es/assets/logo.png",
+      "url": "modules/marcelo-player-dnd5e-2024-es/assets/logo.png",
       "loop": false,
       "flags": {}
     }
   ],
-  "url": "https://github.com/ravanno/ravanno-dnd5e-es",
-  "manifest": "https://raw.githubusercontent.com/ravanno/ravanno-dnd5e-es/main/module.json",
-  "download": "https://github.com/ravanno/ravanno-dnd5e-es/archive/refs/heads/main.zip"
+  "url": "https://github.com/MarceloArro/dnd-player-manual-es",
+  "manifest": "https://raw.githubusercontent.com/MarceloArro/dnd-player-manual-es/refs/heads/main/module.json?token=GHSAT0AAAAAADAGAVHRGIRMV3XZCI7FMQS4Z6M557A",
+  "download": "https://github.com/marcelo-player-dnd5e-2024-es/archive/refs/heads/main.zip"
 }

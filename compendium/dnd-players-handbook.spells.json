@@ -1,4 +1,17 @@
 {
 	"label": "Spells",
+	"folders": {
+		"1st Level": "Nivel 1",
+        "2nd Level": "Nivel 2",
+		"3rd Level": "Nivel 3",
+		"4th Level": "Nivel 4",
+		"5th Level": "Nivel 5",
+		"6th Level": "Nivel 6",
+		"7th Level": "Nivel 7",
+		"8th Level": "Nivel 8",
+		"9th Level": "Nivel 9",
+		"Cantrips": "Trucos",
+		"Supplemental Items":"Objetos Complementarios"
+	},
 	"entries": {}
 }

@@ -1,4 +1,26 @@
 {
-	"label": "Actors",
+	"label": "Actores",
+	"folders": {
+		"Companions":"Compañeros",
+		"Otherworldly Steeds":"Corceles de Otro Mundo",
+		"Primal Companions":"Compañeros Primordiales",
+		"Conjurations":"Conjuraciones",
+		"Animated Objects":"Objetos Animados",
+		"Conjured Elementals":"Conjurar Elementales",
+		"Creatures":"Creaturas",
+		"Example Characters":"Ejemplos de Personajes",
+		"Summons":"Invocaciones",
+		"Aberrant Spirits":"Espíritus Aberrantes",
+		"Bestial Spirits":"Espíritus Bestiales",
+		"Celestial Spirits":"Espíritus Celestiales",
+		"Construct Spirits":"Espíritus Autómatas",
+		"Elemental Spirits":"Espíritus Elementales",
+		"Fey Spirits":"Espíritus Feéricos",
+		"Fiendish Spirits":"Espíritus Infernales",
+		"Giant Insects":"Insectos Gigantes",
+		"Summon Templates":"Plantillas para Invocar",
+		"Undead Spirits":"Espíritus No Muertos",
+		"Vehicles":"Vehículos"
+	},
 	"entries": {}
 }

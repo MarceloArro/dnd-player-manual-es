@@ -1,4 +1,10 @@
 {
-	"label": "Feats",
+	"label": "Rasgos",
+	"folders": {
+		"Epic Boon ": "Bendición Epica",
+		"Fighting Style Feats": "Rasgos Estilo de Combate",
+		"General Feats": "Rasgos Generales",
+		"Origin Feats": "Rasgos de Origen"
+	},
 	"entries": {}
 }

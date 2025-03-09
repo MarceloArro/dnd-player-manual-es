@@ -1,4 +1,19 @@
 {
-	"label": "Character Origins",
+	"label": "Orígenes de los Personajes",
+	"folders":{
+		"Backgrounds":"Transfondos",
+		"Species": "Especies",
+		"Traits": "Rasgos",
+		"Aasimar":"Aasimar",
+		"Dragonborn":"Dracónido",
+		"Dwarf":"Enano",
+		"Elf":"Elfo",
+		"Gnome":"Gnomo",
+		"Goliath":"Goliat",
+		"Halfling":"Mediano",
+		"Orc":"Orco",
+		"Human":"Humano",
+		"Tiefling":"Tiefling"
+	},
 	"entries": {}
 }

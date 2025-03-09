@@ -1,4 +1,12 @@
 {
 	"label": "Roll Tables",
+	"folders": {
+		"Chapter 2": "Capítulo 2",
+		"Chapter 3": "Capítulo 3",
+		"Chapter 7": "Capítulo 7",
+		"Descriptions by Ability Score": "Descripciones por Puntuaciones de Característica",
+		"Personality Traits by Alignment": "Rasgos de Personalidad por Alineamiento",
+		"Reincarnated Lineages":"Linajes reencarnados"
+	},
 	"entries": {}
 }

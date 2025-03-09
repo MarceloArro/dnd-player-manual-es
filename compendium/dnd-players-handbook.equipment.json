@@ -1,4 +1,31 @@
 {
-	"label": "Equipment",
+	"label": "Equipo",
+	"folders": {
+        "Ammunition": "Munición",
+        "Armor": "Armadura",
+		"Simple Melee": "Cuerpo a C. Sencilla",
+		"Simple Ranged": "Distancia Sencilla",
+		"Martial Melee": "Cuerpo a C. Marcial",
+		"Martial Ranged": "Distancia Marcial",
+		"Equipment": "Equipo",
+		"Adventuring Gear":"Equipo de Aventurero",
+		"Equipment Packs": "Paquetes de Equipo",
+		"Spellcasting Focuses":"Focos para Lanzar Conjuros",
+		"Scroll": "Pergamino",
+		"Tools": "Herramientas",
+		"Artisan": "Artesano",
+		"Other": "Otras",
+		"Gaming Set": "Juegos",
+		"Musical Instrument":"Instrumentos Musicales",
+		"Weapons": "Armas",
+		"Heavy":"Pesada",
+		"Light":"Ligera",
+ 		"Medium":"Media",
+		"Arcane Focus": "Foco Aracano",
+		"Druidic Focus": "Foco Druídico",
+		"Holy Symbol": "Foco Sagrado",
+		"Star Maps":"Mapas Estelares"
+
+    },
 	"entries": {}
 }

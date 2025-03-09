@@ -1,5 +1,5 @@
 {
-	"label": "Clases de personajes",
+	"label": "Clases",
 	"folders": {
 		"Barbarian": "Bárbaro",
 		"Bard": "Bardo",
@@ -13,8 +13,8 @@
 		"Sorcerer": "Hechicero",
 		"Warlock": "Brujo",
 		"Wizard": "Mago",
-		"Class Feature": "Rasgo de Clase",
-		"Subclass Features": "Rasgo de SubClase"
+		"Class Features": "Rasgos de Clase",
+		"Subclass Features": "Rasgos de SubClase"
 	},
 	"entries": {
 		"Barbarian": {

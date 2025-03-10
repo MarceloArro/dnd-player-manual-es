@@ -259,7 +259,7 @@
 		},
 		"Wand": {
 			"name": "Varita",
-			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco Arcano} que está enjoyado o tallado para canalizar magia arcana. Un Hechicero, Brujo o Mago puede usar este objeto como Foco para Lanzamiento de Conjuros.</p><p>Este objeto funciona como un  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}</p><section class=\"secret\" id=\"secret-wJ4SJVg9unbYSBJb\"><p><strong>Notas Foundry</strong></p><p>Este objeto se ha configurado con las propiedades adicionales de un Bastón.</p></section>"
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco Arcano} que está enjoyado o tallado para canalizar magia arcana. Un Hechicero, Brujo o Mago puede usar este objeto como Foco para Lanzamiento de Conjuros.</p><p>Este objeto funciona como un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}</p><section class=\"secret\" id=\"secret-wJ4SJVg9unbYSBJb\"><p><strong>Notas Foundry</strong></p><p>Este objeto se ha configurado con las propiedades adicionales de un Bastón.</p></section>"
 		},
 		"Sprig of mistletoe": {
 			"name": "Rama de Muérdago",
@@ -271,7 +271,7 @@
 		},
 		"Yew wand": {
 			"name": "Varita de Tejo",
-			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Foco Druídico} tiene una de las formas de la tabla de Focos Druídicos y está tallado, atado con una cinta o pintado para canalizar la magia primigenia. Un Druida o Explorador puede usar un objeto de este tipo como un Foco para Lanzamiento de Conjuros.</p></p><p>Este objeto funciona como un  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}</p><section class=\"secret\" id=\"secret-XEbhgCaozZsnw6QT\"><p><strong>Notas Foundry</strong></p><p>Este objeto se ha configurado con las propiedades adicionales de un Bastón.</p></section>"
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Foco Druídico} tiene una de las formas de la tabla de Focos Druídicos y está tallado, atado con una cinta o pintado para canalizar la magia primigenia. Un Druida o Explorador puede usar un objeto de este tipo como un Foco para Lanzamiento de Conjuros.</p></p><p>Este objeto funciona como un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}</p><section class=\"secret\" id=\"secret-XEbhgCaozZsnw6QT\"><p><strong>Notas Foundry</strong></p><p>Este objeto se ha configurado con las propiedades adicionales de un Bastón.</p></section>"
 		},
 		"Amulet": {
 			"name": "Amuleto",
@@ -395,7 +395,7 @@
 		},
 		"Burglar's Pack": {
 			"name": "Paquete de Ladrón",
-			"description": "<p>Un Paquete de Ladrón contiene los siguiente objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Bolas de Metal}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Campana}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{Velas}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Palanqueta}, @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Linterna Sorda}, 7 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Frascos de Aceite}, 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}, and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Cantimplora}.</p>"
+			"description": "<p>Un Paquete de Ladrón contiene los siguiente objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Bolas de Metal}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Campana}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{Velas}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Palanqueta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLanternHood]{Linterna Sorda}, 7 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Frascos de Aceite}, 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}, and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Cantimplora}.</p>"
 		},
 		"Caltrops": {
 			"name": "Abrojos",
@@ -447,7 +447,7 @@
 		},
 		"Diplomat's Pack": {
 			"name": "Paquete de Diplomático",
-			"description": "<p>Un paquete de diplomatico contiene los siguientes elementos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Cofre}, @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Ropas de Calidad}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Tinta}, 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Plumas para escribir}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lámpara}, 2 @UUID[Compendium.dnd5e.items.Item.5mIeX824uMklU3xq]{Estuche para Mapa o Pergamino}, 4 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Frascos de Aceite}, 5 Hojas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Papel}, 5 Hojas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergamino}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}, y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}.</p>"
+			"description": "<p>Un paquete de diplomatico contiene los siguientes elementos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Cofre}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]{Ropas de Calidad}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Tinta}, 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Plumas para escribir}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lámpara}, 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseMaporSc]{Estuche para Mapa o Pergamino}, 4 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Frascos de Aceite}, 5 Hojas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Papel}, 5 Hojas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergamino}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}, y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}.</p>"
 		},
 		"Dungeoneer's Pack": {
 			"name": "Paquete de Explorador de Mazmorras",
@@ -644,6 +644,70 @@
 		"Alchemist's Supplies": {
 			"name": "Suministros de Alquimista",
 			"description": "<p class=\"phb-meta\"><strong>Habilidad:</strong> &Reference[int]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Identificar una sustancia (DC 15), o encender un fuego (DC 15)</p> <p class=\"phb-meta\"><strong>Creación:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAcid0000000]{Acido}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAlchemistsF]{Fuego de Alquimista}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagComponentPo]{Saquito de Componentes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Papel}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}</p>"
+		},
+		"Brewer's Supplies": {
+			"name": "Suministros de Cervecero",
+			"description": "<p class=\"phb-meta\"><strong>Habilidad:</strong> &Reference[int]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Identificar bebidas envenenadas (DC 15), o identificar alcohol (DC 15)</p> <p class=\"phb-meta\"><strong>Creación:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntitoxin00]{Antitoxina}</p>"
+		},
+		"Calligrapher's Supplies": {
+			"name": "Suministros de Calígrafo",
+			"description": "<p class=\"phb-meta\"><strong>Habilidad:</strong> &Reference[dex]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Escribir texto con florituras impresionantes que protegen contra la falsificación (DC 15) </p> <p class=\"phb-meta\"><strong>Creación:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Tinta}, Pergaminos de Conjuros</p>"
+		},
+		"Carpenter's Tools": {
+			"name": "Herramientas de Carpintero",
+			"description": "<p class=\"phb-meta\"><strong>Habilidad:</strong> &Reference[str]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Sellar o abrir una puerta o un contenedor (DC 20) </p> <p class=\"phb-meta\"> <strong>Creación:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{Garrote}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{Greatclub}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Garrote Grande}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBarrel00000]{Barril}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Cofre}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLadder00000]{Escalera}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000]{Vara}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRamPortable]{Ariete Portátil}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Antorcha}</p>"
+		},
+		"Cartographer's Tools": {
+			"name": "Herramientas de Cartógrafo",
+			"description": "<p class=\"phb-meta\"><strong>Habilidad:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Dibujar un mapa de una zona pequeña (DC 20) </p> <p class=\"phb-meta\"> <strong>Creación:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMap00000000]{Mapa}</p>"
+		},
+		"Cobbler's Tools": {
+			"name": "Herramientas de Zapatero",
+			"description": "<p class=\"phb-meta\"><strong>Habilidad:</strong> &Reference[dex]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Modifica el calzado para dar Ventaja en el siguiente Prueba de Caracteristica de Destreza (&Reference[acr]) del portador. </p> <p class=\"phb-meta\"> <strong>Creación:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClimbersKit]{Útiles de Escalada}</p>"
+		},
+		"Cook's Utensils": {
+			"name": "Útiles de Cocinero",
+			"description": "<p class=\"phb-meta\"><strong>Habilidad:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Mejorar el sabor de la comida (DC 10), o detecta comida estropeada o envenenada (DC 15) </p> <p class=\"phb-meta\"> <strong>Creación:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}</p>"
+		},
+		"Glassblower's Tools": {
+			"name": "Herramientas de Soplador de Vidrio",
+			"description": "<p class=\"phb-meta\"><strong>Habilidad:</strong> &Reference[int]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Distinguir lo que ha contenido un objeto de cristal en las últimas 24 horas (DC 15) </p> <p class=\"phb-meta\"> <strong>Creación:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBottleGlass]{Botella de cristal}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMagnifyingG]{Lupa}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpyglass100]{Catalejo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagVial0000000]{Vial} </p>"
+		},
+		"Jeweler's Tools": {
+			"name": "Herramientas de Joyero",
+			"description": "<p class=\"phb-meta\"><strong>Habilidad:</strong> &Reference[int]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Distinguir el valor de una gema (DC 15) </p> <p class=\"phb-meta\"> <strong>Creación:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Focos Arcanos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Símbolos Sagrados}</p>"
+		},
+		"Leatherworker's Tools": {
+			"name": "Herramientas de Curtidor",
+			"description": "<p class=\"phb-meta\"><strong>Habilidad:</strong> &Reference[dex]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Añade un diseño a un objeto de cuero (DC 10) </p> <p class=\"phb-meta\"> <strong>Creación:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSling00000]{Honda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepWhip000000]{Látigo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmHideArmor0]{Armadura de Pieles}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]{Armadura de Cuero}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmStuddedLea]{Armadura de Cuero Tachonado}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]{Estuche para Virotes de ballesta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseMaporSc]{Estuche para Mapas y Pergaminos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergaminos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Aljaba}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Cantimplora}</p>"
+		},
+		"Mason's Tools": {
+			"name": "Herramientas de Albañil",
+			"description": "<p class=\"phb-meta\"><strong>Habilidad:</strong> &Reference[str]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Cincelar un símbolo o un agujero en piedra (DC 10) </p> <p class=\"phb-meta\"> <strong>Creación:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlockandTac]{Polipasto o Aparejo de Poleas}</p>"
+		},
+		"Painter's Supplies": {
+			"name": "Suministros de Pintor",
+			"description": "<p class=\"phb-meta\"><strong>Habilidad:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Pinta una imagen reconocible de algo que hayas visto (DC 10) </p> <p class=\"phb-meta\"> <strong>Creación:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Focos Druídicos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Símbolos Sagrados}</p>"
+		},
+		"Potter's Tools": {
+			"name": "Herramientas de Alfarero",
+			"description": "<p class=\"phb-meta\"><strong>Habilidad:</strong> &Reference[int]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Discernir lo que ha contenido un objeto de cerámica en las últimas 24 horas (DC 15) </p> <p class=\"phb-meta\"> <strong>Creación:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagJug00000000]{Jarro}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lampara} </p>"
+		},
+		"Smith's Tools": {
+			"name": "Herramientas de Herrero",
+			"description": "<p class=\"phb-meta\"><strong>Habilidad:</strong> &Reference[str]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Forzar una puerta o un contenedor (DC 20) </p> <p class=\"phb-meta\"> <strong>Creación:</strong> Cualquier Arma Cuerpo a Cuerpo (excepto Garrote, Garrote Grande, Bastón, and Látigo), Armadura Mediana (excepto Armadura de Pieles), Armaduras Pesadas, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Bolas de Metal}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBucket00000]{Cubo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Abrojos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChain000000]{Cadena}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Palanqueta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsFir]{Balas para Armas de Fuego}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagGrapplingHo]{Garfio de Escalada}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPotIron0000]{Olla de Hierro}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpikesIron0]{Pinchos, Hierro}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsSli]{Balas para Honda}</p>"
+		},
+		"Tinker's Tools": {
+			"name": "Herramientas de Manitas",
+			"description": "<p class=\"phb-meta\"><strong>Habilidad:</strong> &Reference[dex]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Ensamblar un objeto diminuto compuesto de chatarra, que se deshace en 1 minuto (DC 20) </p> <p class=\"phb-meta\"> <strong>Creación:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepMusket0000]{Mosquete}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepPistol0000]{Pistola}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Campana}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLanternBull]{Linterna Ojo de Buey}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagFlask000000]{Frasco}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLanternHood]{Linterna Sorda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHuntingTrap]{Trampa para Cazar}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLock0000000]{Cerradura}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000]{Esposas}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Espejo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000]{Pala}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSignalWhist]{Silbato de Supervivencia}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}</p>"
+		},
+		"Weaver's Tools": {
+			"name": "Herramientas de Tejedor",
+			"description": "<p class=\"phb-meta\"><strong>Habilidad:</strong> &Reference[dex]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Reparar un desgarro en la ropa (DC 10), o coser un diseño diminuto (DC 10) </p> <p class=\"phb-meta\"> <strong>Creación:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmPaddedArmo]{Padded Armor}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBasket00000]{Cesta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Petate}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]{Manta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]{Ropas de Calidad}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagNet00000000]{Red}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Túnica}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSack0000000]{Saco}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagString00000]{Aguja}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTent0000000]{Tienda de Campaña}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Ropas de Viajero}</p>"
+		},
+		"Woodcarver's Tools": {
+			"name": "Herramientas de Ebanista",
+			"description": "<p class=\"phb-meta\"><strong>Habilidad:</strong> &Reference[dex]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Tallar un diseño en madera (DC10) </p> <p class=\"phb-meta\"> <strong>Creación:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{Garrote}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{Garrote Grande}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}, Armas a Distancia (excepto Pistolas, Mosquetes, y Hondas), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Focos Arcanos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Flechas}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000]{Virotes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Focos Druídicos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Pluma para Escribir}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoNeedles000]{Agujas}</p>"
 		},
 	}
 }

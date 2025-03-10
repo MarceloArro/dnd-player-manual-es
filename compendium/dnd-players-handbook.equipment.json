@@ -1,31 +1,580 @@
 {
 	"label": "Equipo",
 	"folders": {
-        "Ammunition": "Munición",
-        "Armor": "Armadura",
+		"Ammunition": "Munición",
+		"Armor": "Armadura",
 		"Simple Melee": "Cuerpo a C. Sencilla",
 		"Simple Ranged": "Distancia Sencilla",
 		"Martial Melee": "Cuerpo a C. Marcial",
 		"Martial Ranged": "Distancia Marcial",
 		"Equipment": "Equipo",
-		"Adventuring Gear":"Equipo de Aventurero",
+		"Adventuring Gear": "Equipo de Aventurero",
 		"Equipment Packs": "Paquetes de Equipo",
-		"Spellcasting Focuses":"Focos para Lanzar Conjuros",
+		"Spellcasting Focuses": "Focos para Lanzamiento de Conjuros",
 		"Scroll": "Pergamino",
 		"Tools": "Herramientas",
 		"Artisan": "Artesano",
 		"Other": "Otras",
 		"Gaming Set": "Juegos",
-		"Musical Instrument":"Instrumentos Musicales",
+		"Musical Instrument": "Instrumentos Musicales",
 		"Weapons": "Armas",
-		"Heavy":"Pesada",
-		"Light":"Ligera",
- 		"Medium":"Media",
-		"Arcane Focus": "Foco Aracano",
-		"Druidic Focus": "Foco Druídico",
-		"Holy Symbol": "Foco Sagrado",
-		"Star Maps":"Mapas Estelares"
-
-    },
-	"entries": {}
-}
+		"Heavy": "Pesada",
+		"Light": "Ligera",
+		"Medium": "Media",
+		"Arcane Focus": "Focos Arcanos",
+		"Druidic Focus": "Focos Druídicos",
+		"Holy Symbol": "Símbolos Sagrados",
+		"Star Maps": "Mapas Estelares"
+	},
+	"entries": {
+		"Padded Armor": {
+			"name": "Armadura Acolchada",
+			"description": "<p>La armadura acolchada está hecha de varias capas de tela guateada. La armadura acolchada ofrece un nivel de protección comparable al del cuero rígido, pero es algo menos molesto para el usuario.</p>"
+		},
+		"Leather Armor": {
+			"name": "Armadura de Cuero",
+			"description": "<p>Los protectores de peto y hombros de esta armadura están hechos de cuero que se ha endurecido al hervirlos en aceite. El resto de la armadura está hecha de materiales más suaves y flexibles.</p>"
+		},
+		"Studded Leather Armor": {
+			"name": "Armadura de Cuero Tachonado",
+			"description": "<p>Hecha de cuero resistente pero flexible, la armadura de cuero tachonado está reforzada con pinchos o remaches dispuestos muy juntos</p>"
+		},
+		"Breastplate": {
+			"name": "Coraza",
+			"description": "<p>Esta armadura consiste en una placa de metal ajustada al pecho mediante tiras de cuero flexible. Aunque deja las extremidades relativamente expuestas ofrece buena protección para los órganos vitales sin afectar en demasía la libertad de movimientos</p>"
+		},
+		"Chain Shirt": {
+			"name": "Camisa de Malla",
+			"description": "<p>La camisa de malla está hecha de anillos de metal entrelazados y se viste entre capas de tela o cuero. Esta armadura ofrece una protección razonable para el torso y es bastante silenciosa, pues el sonido de los anillos rozándose entre ellos es apagado por las capas más exteriores.</p>"
+		},
+		"Half Plate Armor": {
+			"name": "Media Armadura",
+			"description": "<p>Esta armadura está compuesta de placas de metal forjadas para ajustarse a la forma del cuerpo y cubre la mayor parte de este. Sin embargo, no incluye protección para las piernas más allá de unas grebas sujetas con tiras de cuero.</p>"
+		},
+		"Hide Armor": {
+			"name": "Armadura de Pieles",
+			"description": "<p>Esta primitiva armadura está fabricada a partir de pelajes y pieles gruesas. Es común verla en tribus bárbaras, humanoides malvados y, en general, cualquiera que no disponga de las herramientas o materiales necesarios para crear una armadura mejor.</p>"
+		},
+		"Scale Mail": {
+			"name": "Cota de Escamas",
+			"description": "<p>Esta armadura está compuesta de un chaquetón y unas perneras (y a veces una falda aparte) de cuero cubiertos de trozos de metal superpuestos, parecidos a las escamas de un pez. Esta cota incluye guanteletes.</p>"
+		},
+		"Chain Mail": {
+			"name": "Cota de Malla",
+			"description": "<p>Esta armadura está fabricada a base de anillos metálicos entrelazados, que se apoyan sobre un gambesón que impide que la piel se irrite y amortigua el impacto de los golpes. Esta cota incluye los guanteletes.</p>"
+		},
+		"Plate Armor": {
+			"name": "Armadura de Placas",
+			"description": "<p>También llamada armadura completa, está compuesta de placas de metal enganchadas entre sí, que se ajustan a la forma del cuerpo para cubrirlo por completo. La armadura de placas incluye guanteletes, un par de resistentes botas de cuero y un yelmo con visor, y se viste encima de un gambesón. El peso de esta armadura queda distribuido por todo el cuerpo mediante numerosas tiras y hebillas.</p>"
+		},
+		"Ring Mail": {
+			"name": "Cota Guarnecida",
+			"description": "<p>Esta armadura está hecha de una base de cuero sobre la que se cosen pesados anillos de metal, que ayudan a reforzarla contra los golpes de espadas y hachas. La cota guarnecida es inferior a la cota de malla, por lo que solo suelen llevarla aquellos que no se pueden permitir una armadura mejor.</p>"
+		},
+		"Splint Armor": {
+			"name": "Armadura de Bandas",
+			"description": "<p>Esta armadura está confeccionada a partir de estrechas bandas metálicas verticales clavadas a una capa de cuero que se viste encima de ropa acolchada. Además, las articulaciones están cubiertas por fragmentos flexibles de cota de malla.</p>"
+		},
+		"Shield": {
+			"name": "Escudo",
+			"description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Blandir un escudo aumenta tu Clase de armadura en +2. Puedes beneficiarte de solo un escudo a la vez.</p>"
+		},
+		"Unarmed Strike": {
+			"name": "Ataque Sin Armas",
+			"description": "<p>Puedes atacar en cuerpo a cuerpo estando desarmado mediante un ataque sin armas, ya se trate de un puñetazo, patada, cabezazo o cualquier otro impacto enérgico. En caso de impactar, causarás 1 + tu modificador de Fuerza de daño contundente. Siempre eres competente con tus ataques sin armas.@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.xJjJ4lhymAYXAOvO]{Reglas Ataque sin Armas}</p>"
+		},
+		"Club": {
+			"name": "Garrote",
+			"description": "<p>Un robusto palo de madera forma un simple, pero eficaz, garrote. Estas armas se utilizan para aporrear a los enemigos, magullando la carne y rompiendo los huesos.</p>"
+		},
+		"Dagger": {
+			"name": "Daga",
+			"description": "<p>Una corta hoja de metal montada en una pequeña empuñadura y una guarda cruzada. La daga es un arma secundaria eficaz para los guerreros curtidos o una hoja oculta para asesinos y ladrones.</p>"
+		},
+		"Greatclub": {
+			"name": "Garrote Grande",
+			"description": "<p>Una versión más grande del garrote común, un enorme palo de madera con un gran nudo de madera en el extremo que inflige un terrible daño contundente a los desafortunados enemigos.</p>"
+		},
+		"Handaxe": {
+			"name": "Hacha de Mano",
+			"description": "<p>Esta hacha de una mano es ligera y equilibrada para lanzarla sin dejar de ser útil en el combate cuerpo a cuerpo.</p>"
+		},
+		"Javelin": {
+			"name": "Jabalina",
+			"description": "<p>Esta lanza ligera y flexible está diseñada para ser lanzada, pero es lo suficientemente versátil como para ser utilizada también en el combate cuerpo a cuerpo.</p>"
+		},
+		"Light Hammer": {
+			"name": "Martillo Ligero",
+			"description": "<p>Este robusto martillo es lo suficientemente pequeño como para ser blandido ágilmente o usado en combinación con otra arma.</p>"
+		},
+		"Mace": {
+			"name": "Maza",
+			"description": "<p>Una pesada arma contundente montada sobre un mango de metal. La cabeza tiene pinchos y cuchillas diseñadas para perforar la armadura y destrozar los huesos.</p>"
+		},
+		"Quarterstaff": {
+			"name": "Bastón",
+			"description": "<p>Un grueso palo de madera envuelto con una firme empuñadura hace que sea un arma muy funcional, además de un robusto bastón para caminar.</p>"
+		},
+		"Sickle": {
+			"name": "Hoz",
+			"description": "<p>Una cuchilla con forma de gancho montada sobre un mango corto, lo suficientemente ligera como para manejarla con una sola mano para segar cultivos o enemigos.</p>"
+		},
+		"Spear": {
+			"name": "Lanza",
+			"description": "<p>Con una punta de acero reluciente sobre un robusto mango de madera, la lanza puede blandirse con una o dos manos y puede atravesar la armadura más pesada con una fuerza mortal.</p>"
+		},
+		"Dart": {
+			"name": "Dardo",
+			"description": "<p>Pequeño instrumento arrojadizo fabricado con un asta corta de madera y plumas cruzadas con una punta afilada de madera o metal. Los dardos pueden lanzarse con la fuerza suficiente para perforar la piel.</p>"
+		},
+		"Light Crossbow": {
+			"name": "Ballesta Ligera",
+			"description": "<p>Una pequeña ballesta con un mango de madera y una cuerda tensa que es capaz de disparar un virote que puede perforar incluso armaduras pesadas a corta distancia.</p>"
+		},
+		"Shortbow": {
+			"name": "Arco Corto",
+			"description": "<p>Este arco a dos manos es algo más pequeño que la variante tradicional del arco largo, lo que lo hace muy adecuado para ataques rápidos en movimiento o montado a caballo.</p>"
+		},
+		"Sling": {
+			"name": "Honda",
+			"description": "<p>Una tira de cuero flexible fijado a un mango de madera que es capaz de arrojar rocas o balas de metal con una velocidad mortal.</p>"
+		},
+		"Battleaxe": {
+			"name": "Hacha de Guerra",
+			"description": "<p>Una robusta hoja de media luna montada sobre un grueso mango envuelto en una firme empuñadura. Esta hacha es lo suficientemente grande como para ser empuñada a dos manos y está adornada con pinchos en el reverso de la hoja y en la parte superior del asta.</p>"
+		},
+		"Flail": {
+			"name": "Flagelo",
+			"description": "<p>Un conjunto de bolas con púas unidas a un robusto mango de madera. El mayal inflige un daño devastador al girar en un arco mortal.</p>"
+		},
+		"Glaive": {
+			"name": "Guja",
+			"description": "<p>Una hoja de media luna montada en el extremo de un largo mango de metal. Esta arma de asta proporciona la capacidad de atacar con una eficacia mortal desde una mayor distancia que las típicas armas de cuerpo a cuerpo.</p>"
+		},
+		"Greataxe": {
+			"name": "Hacha a Dos Manos",
+			"description": "<p>Esta enorme hacha cuenta con dos hojas gemelas en forma de media luna montadas a ambos lados de un largo mango con púas. Está diseñada para ser blandida a dos manos y partir a los enemigos en dos.</p>"
+		},
+		"Greatsword": {
+			"name": "Espadón",
+			"description": "<p>Una poderosa espada a dos manos de más de metro y medio de largo y casi diez centímetros de ancho. Esta arma requiere un gran entrenamiento marcial, pero los que dominan su uso se convierten en extraordinarios guerreros.</p>"
+		},
+		"Halberd": {
+			"name": "Alabarda",
+			"description": "<p>La alabarda, un asta de metal con punta de lanza acompañada de una hoja de media luna, es un arma defensiva resistente que permite al guerrero rechazar a los enemigos utilizando el alcance del asta para atacar desde una distancia segura.</p>"
+		},
+		"Lance": {
+			"name": "Lanza de Caballería",
+			"description": "<p>Una punta de acero brillante que perfora las defensas del enemigo más resistente, impulsada por la fuerza de un corcel al galope. Aunque es más adecuada para el combate a caballo, la lanza puede tener un efecto letal a pie en las manos adecuadas.</p><p><strong>Especial.</strong> Tienes desventaja cuando usas una lanza para atacar a un objetivo a menos de 5 pies de ti. Además, una lanza requiere dos manos para empuñar cuando no estás montado.</p>"
+		},
+		"Longsword": {
+			"name": "Espada Larga",
+			"description": "<p>Una hoja larga y recta diseñada para asestar tajos a los enemigos. La espada larga es un arma muy versátil que también puede blandirse a dos manos para dar golpes más demoledores.</p>"
+		},
+		"Maul": {
+			"name": "Maza a Dos Manos",
+			"description": "<p>Esta pesada maza a dos manos aplasta el metal y el hueso con una fuerza demoledora.</p>"
+		},
+		"Morningstar": {
+			"name": "Lucero del Alba",
+			"description": "<p>Una esfera de metal con pinchos montada en el extremo de un robusto mango, hace que sea un arma mortal que puede perforar la armadura y la carne por igual.</p>"
+		},
+		"Pike": {
+			"name": "Pica",
+			"description": "<p>Una robusta hoja montada en el extremo de un largo mango de metal. Diseñada como arma defensiva con un alcance considerable para rechazar y amenazar a los enemigos.</p>"
+		},
+		"Rapier": {
+			"name": "Estoque",
+			"description": "<p>Una fina hoja de metal flexible, ligera pero de gran alcance, diseñada para realizar rápidos ataques en los puntos débiles de las defensas enemigas con la mayor rapidez.</p>"
+		},
+		"Scimitar": {
+			"name": "Cimitarra",
+			"description": "<p>Esta espada curvada es ancha cerca de la empuñadura envolvente, pero se arquea y se estrecha hacia la brillante punta.</p>"
+		},
+		"Shortsword": {
+			"name": "Espada Corta",
+			"description": "<p>Una hoja de tamaño medio con una firme guarda cruzada y una empuñadura forrada de cuero. Un arma versátil que compensa en versatilidad lo que le falta en alcance.</p>"
+		},
+		"Trident": {
+			"name": "Tridente",
+			"description": "<p>Una lanza con varias puntas diseñada para empalar a un objetivo en varios lugares, inmovilizándolo. A menudo se utiliza en combinación con una red para atrapar y hostigar a los enemigos.</p>"
+		},
+		"War Pick": {
+			"name": "Pico de Guerra",
+			"description": "<p>Un brutal pico curvo montado en la parte posterior de un robusto mango, diseñado para perforar armaduras con una fuerza letal.</p>"
+		},
+		"Whip": {
+			"name": "Látigo",
+			"description": "<p>Un lazo tensado hecho de cuero, cuerda o cadena que puede azotar a los enemigos cercanos, causándoles laceraciones y molestándolos a distancia.</p>"
+		},
+		"Blowgun": {
+			"name": "Cerbatana",
+			"description": "<p>Un arma primitiva, pero mortal, muy utilizada por las tribus y los guerrilleros. Los dardos que se disparan con esta arma pueden clavarse y suministrar dosis letales de veneno.</p>"
+		},
+		"Hand Crossbow": {
+			"name": "Ballesta de Mano",
+			"description": "<p>Una ballesta liviana diseñada para ser sostenida en una mano o atada a la muñeca para disparar virotes pequeños.</p>"
+		},
+		"Heavy Crossbow": {
+			"name": "Ballesta Pesada",
+			"description": "<p>Una ballesta de gran tamaño montada sobre un robusto soporte de madera que se carga mediante una manivela y dispara gruesos virotes de acero con una aceleración mortal que atraviesa armaduras y carne.</p>"
+		},
+		"Longbow": {
+			"name": "Arco largo",
+			"description": "<p>Un grueso astil de madera laminada es arqueado por una cuerda tensa capaz de lanzar flechas mortales a largas distancias.</p>"
+		},
+		"Musket": {
+			"name": "Mosquete"
+		},
+		"Pistol": {
+			"name": "Pistola"
+		},
+		"Arcane Focus (Varies)": {
+			"name": "Foco Arcano (Variedades)",
+			"description": "<p>Un Foco Arcano tiene una de las formas de la tabla de Focos Arcanos y está enjoyado o tallado para canalizar magia arcana. Un Hechicero, Brujo o Mago puede usar un objeto de este tipo como un Foco para Lanzamiento de Conjuros.</p> <table> <caption>Focos Arcanos</caption> <thead> <tr> <td>Focos</td> <td>Peso</td> <td>Costo</td> </tr> </thead> <tbody> <tr> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcCrystal000]{Cristal}</td> <td>1 lb.</td> <td>10 PO</td> </tr> <tr> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcOrb0000000]{Orbe}</td> <td>3 lb.</td> <td>20 PO</td> </tr> <tr> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcRod0000000]{Vara}</td> <td>2 lb.</td> <td>10 PO</td> </tr> <tr> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{Bastón} (o un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón})</td> <td>4 lb.</td> <td>5 PO</td> </tr> <tr> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcWand000000]{Varita}</td> <td>1 lb.</td> <td>10 PO</td> </tr> </tbody> </table>"
+		},
+		"Druidic Focus (Varies)": {
+			"name": "Foco Druídico (Variedades)",
+			"description": "<p>Un Foco Druídico tiene una de las formas de la tabla de Focos Druídicos y está tallado, atado con una cinta o pintado para canalizar la magia primigenia. Un Druida o Explorador puede usar un objeto de este tipo como un Foco para Lanzamiento de Conjuros.</p> <table> <caption>Foco Druídico (Variación)</caption> <thead> <tr> <td>Focos</td> <td>Peso</td> <td>Costo</td> </tr> </thead> <tbody> <tr> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcSprigofmis]{Rama de muérdago}</td> <td>-</td> <td>1 PO</td> </tr> <tr> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcWoodenstaf]{Bastón de Madera} (o un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón} )</td> <td>4 lb.</td> <td>5 PO</td> </tr> <tr> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcYewwand000]{Varita de tejo}/td> <td>1 lb.</td> <td>10 PO</td> </tr> </tbody> </table>"
+		},
+		"Holy Symbol (Varies)": {
+			"name": "Símbolo Sagrado (Variedades)",
+			"description": "<p>Un Símbolo Sagrado tiene una de las formas de la tabla de Símbolos Sagrados y está enjoyado o pintado para canalizar la magia divina. Un Clérigo o Paladín puede usar un objeto de este tipo como un Foco para Lanzamiento de Conjuros.</p> <p>La tabla indica si un Símbolo Sagrado debe sostenerse, llevarse o portarse en una tela (como un tabardo o estandarte) o un Escudo.</p> <table> <caption>Símbolo Sagrado (Variación)</caption> <thead> <tr> <td>Símbolo</td> <td>Peso</td> <td>Costo</td> </tr> </thead> <tbody> <tr> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyAmuletworn]{Amuleto} (llevar o sostener)</td> <td>1 lb.</td> <td>5 PO</td> </tr> <tr> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyEmblemborn]{Emblema} (envuelta en tela o un escudo)</td> <td>-</td> <td>5 PO</td> </tr> <tr> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyReliquaryh]{Relicario} (sostener)</td> <td>2 lb.</td> <td>10 PO</td> </tr> </tbody> </table>"
+		},
+		"Crytal": {
+			"name": "Cristal",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco Arcano} que está enjoyado o tallado para canalizar magia arcana. Un Hechicero, Brujo o Mago puede usar este objeto como Foco para Lanzamiento de Conjuros.</p>"
+		},
+		"Orb": {
+			"name": "Orbe",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco Arcano} que está enjoyado o tallado para canalizar magia arcana. Un Hechicero, Brujo o Mago puede usar este objeto como Foco para Lanzamiento de Conjuros.</p>"
+		},
+		"Rod": {
+			"name": "Vara",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco Arcano} que está enjoyado o tallado para canalizar magia arcana. Un Hechicero, Brujo o Mago puede usar este objeto como Foco para Lanzamiento de Conjuros.</p>"
+		},
+		"Staff": {
+			"name": "Bastón",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco Arcano} que está enjoyado o tallado para canalizar magia arcana. Un Hechicero, Brujo o Mago puede usar este objeto como Foco para Lanzamiento de Conjuros.</p>"
+		},
+		"Wand": {
+			"name": "Varita",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Foco Arcano} que está enjoyado o tallado para canalizar magia arcana. Un Hechicero, Brujo o Mago puede usar este objeto como Foco para Lanzamiento de Conjuros.</p><p>Este objeto funciona como un  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}</p><section class=\"secret\" id=\"secret-wJ4SJVg9unbYSBJb\"><p><strong>Notas Foundry</strong></p><p>Este objeto se ha configurado con las propiedades adicionales de un Bastón.</p></section>"
+		},
+		"Sprig of mistletoe": {
+			"name": "Rama de Muérdago",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Foco Druídico} tiene una de las formas de la tabla de Focos Druídicos y está tallado, atado con una cinta o pintado para canalizar la magia primigenia. Un Druida o Explorador puede usar un objeto de este tipo como un Foco para Lanzamiento de Conjuros.</p>"
+		},
+		"Wooden staff": {
+			"name": "Bastón de Madera",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Foco Druídico} tiene una de las formas de la tabla de Focos Druídicos y está tallado, atado con una cinta o pintado para canalizar la magia primigenia. Un Druida o Explorador puede usar un objeto de este tipo como un Foco para Lanzamiento de Conjuros.</p>"
+		},
+		"Yew wand": {
+			"name": "Varita de Tejo",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Foco Druídico} tiene una de las formas de la tabla de Focos Druídicos y está tallado, atado con una cinta o pintado para canalizar la magia primigenia. Un Druida o Explorador puede usar un objeto de este tipo como un Foco para Lanzamiento de Conjuros.</p></p><p>Este objeto funciona como un  @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}</p><section class=\"secret\" id=\"secret-XEbhgCaozZsnw6QT\"><p><strong>Notas Foundry</strong></p><p>Este objeto se ha configurado con las propiedades adicionales de un Bastón.</p></section>"
+		},
+		"Amulet": {
+			"name": "Amuleto",
+			"description": "<p><em><strong>Requisitos de uso: </strong>Sostenerse</em></p><p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Símbolo Sagrado} tiene una de las formas de la tabla de Símbolos Sagrados y está enjoyado o pintado para canalizar la magia divina. Un Clérigo o Paladín puede usar un objeto de este tipo como un Foco para Lanzamiento de Conjuros.</p>"
+		},
+		"Emblem": {
+			"name": "Emblema",
+			"description": "<p><em><strong>Requisitos de uso: </strong>En tela o en Escudo</em></p><p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Símbolo Sagrado} tiene una de las formas de la tabla de Símbolos Sagrados y está enjoyado o pintado para canalizar la magia divina. Un Clérigo o Paladín puede usar un objeto de este tipo como un Foco para Lanzamiento de Conjuros.</p>"
+		},
+		"Reliquary": {
+			"name": "Relicario",
+			"description": "<p><em><strong>Requisitos de uso: </strong>Sostenerse</em></p><p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Símbolo Sagrado} tiene una de las formas de la tabla de Símbolos Sagrados y está enjoyado o pintado para canalizar la magia divina. Un Clérigo o Paladín puede usar un objeto de este tipo como un Foco para Lanzamiento de Conjuros.</p>"
+		},
+		"Constellations Scroll": {
+			"name": "Pergamino de Constelaciones",
+			"descrption": "<p>Pergamino con representaciones de constelaciones que los druidas del Círculo de las Estrellas pueden utilizar como Focos para Lanzamiento de Conjuros. Es un objeto diminuto.</p>"
+		},
+		"Ebony-bound Atlas": {
+			"name": "Atlas Encuadernado en Ébano",
+			"descrption": "<p>Una colección de mapas encuadernados en una cubierta de ébano que los druidas del Círculo de las Estrellas pueden utilizar como Focos para Lanzamiento de Conjuros. Es un objeto diminuto.</p>"
+		},
+		"Engraved Crystal": {
+			"name": "Cristal Grabado",
+			"descrption": "<p>Un cristal grabado que proyecta patrones de estrellas cuando se coloca frente a la luz que los druidas del Círculo de las Estrellas pueden utilizar como Focos para Lanzamiento de Conjuros. Es un objeto diminuto.</p>"
+		},
+		"Etched Glass Disk": {
+			"name": "Disco de Vidrio Grabado",
+			"descrption": "<p>Un disco de cristal grabado que representan distintas constelaciones que los druidas del Círculo de las Estrellas pueden utilizar como Focos para Lanzamiento de Conjuros. Es un objeto diminuto.</p>"
+		},
+		"Stone Tablet": {
+			"name": "Tablilla de Piedra",
+			"descrption": "<p>Una tablilla de piedra perforada con pequeños agujeros que los druidas del Círculo de las Estrellas pueden utilizar como Focos para Lanzamiento de Conjuros. Es un objeto diminuto.</p>"
+		},
+		"Tooled Owlbear Hide": {
+			"name": "Piel de Oso lechuza Moteada",
+			"descrption": "<p>Un trozo de piel moteada de oso lechuza, decorada con grabados que los druidas del Círculo de las Estrellas pueden utilizar como Focos para Lanzamiento de Conjuros. Es un objeto diminuto.</p>"
+		},
+		"Ammunition (Varies)": {
+			"name": "Munición (Variedades)",
+			"description": "<p>La munición es necesaria para un arma que tenga la propiedad Munición. La descripción de un arma especifica el tipo de munición que utiliza el arma. La tabla de Munición lista los diferentes tipos y la cantidad que obtienes al comprarlos. La tabla también enumera el objeto que se utiliza normalmente para almacenar cada tipo; el Contenerdor debe comprarse por separado.</p> <table> <caption>Munición</caption> <thead> <tr> <td>Tipo</td> <td>Cantidad</td> <td>Contenerdor</td> <td>Peso</td> <td>Costo</td> </tr> </thead> <tbody> <tr> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Flechas}</td> <td>20</td> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Aljaba}</td> <td>1 lb.</td> <td>1 PO</td> </tr> <tr> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000]{Virotes}</td> <td>20</td> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]{Estuche}</td> <td>1½ lb.</td> <td>1 PO</td> </tr> <tr> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsFir]{Balas, Armas de Fuego}</td> <td>10</td> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</td> <td>2 lb.</td> <td>3 PO</td> </tr> <tr> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsSli]{Balas, Honda}</td> <td>20</td> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</td> <td>1½ lb.</td> <td>4 CP</td> </tr> <tr> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoNeedles000]{Agujas}</td> <td>50</td> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</td> <td>1 lb.</td> <td>1 PO</td> </tr> </tbody> </table>"
+		},
+		"Arrows": {
+			"name": "Flechas",
+			"description": "<p><em><strong>Contenedor:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Aljaba}</em></p><p>La @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munición} es necesaria para un arma que tenga la propiedad Munición. La descripción de un arma especifica el tipo de munición que utiliza el arma. La tabla de Munición lista los diferentes tipos y la cantidad que obtienes al comprarlos. La tabla también enumera el objeto que se utiliza normalmente para almacenar cada tipo; el Contenerdor debe comprarse por separado.</p>"
+		},
+		"Bolts": {
+			"name": "Virotes",
+			"description": "<p><em><strong>Contenedor:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]{Estuche}</em></p><p>La @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munición} es necesaria para un arma que tenga la propiedad Munición. La descripción de un arma especifica el tipo de munición que utiliza el arma. La tabla de Munición lista los diferentes tipos y la cantidad que obtienes al comprarlos. La tabla también enumera el objeto que se utiliza normalmente para almacenar cada tipo; el Contenerdor debe comprarse por separado.</p>"
+		},
+		"Bullets, Firearm": {
+			"name": "Balas, Armas de Fuego",
+			"description": "<p><em><strong>Contenedor:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</em></p><p>La @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munición} es necesaria para un arma que tenga la propiedad Munición. La descripción de un arma especifica el tipo de munición que utiliza el arma. La tabla de Munición lista los diferentes tipos y la cantidad que obtienes al comprarlos. La tabla también enumera el objeto que se utiliza normalmente para almacenar cada tipo; el Contenerdor debe comprarse por separado.</p>"
+		},
+		"Bullets, Sling": {
+			"name": "Balas, Honda",
+			"description": "<p><em><strong>Contenedor:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</em></p><p>La @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munición} es necesaria para un arma que tenga la propiedad Munición. La descripción de un arma especifica el tipo de munición que utiliza el arma. La tabla de Munición lista los diferentes tipos y la cantidad que obtienes al comprarlos. La tabla también enumera el objeto que se utiliza normalmente para almacenar cada tipo; el Contenerdor debe comprarse por separado.</p>"
+		},
+		"Needles": {
+			"name": "Agujas",
+			"description": "<p><em><strong>Contenedor:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</em></p><p>La @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munición} es necesaria para un arma que tenga la propiedad Munición. La descripción de un arma especifica el tipo de munición que utiliza el arma. La tabla de Munición lista los diferentes tipos y la cantidad que obtienes al comprarlos. La tabla también enumera el objeto que se utiliza normalmente para almacenar cada tipo; el Contenerdor debe comprarse por separado.</p>"
+		},
+		"Acid": {
+			"name": "Ácido",
+			"description": "<p>Cuando realizas la acción Atacar, puedes sustituir uno de tus ataques por lanzar un Vial de Ácido. Apunta a una criatura o objeto que puedas ver a un máximo de 20 pies, rompiéndose el vial con el impacto. En ambos casos, El objetivo debe tener exito en una tirada de salvación de destreza (CD 8 + tu Modificador de Destreza + Bonificador por Competencia) o recibir [[/damage 2d4 type=acid]].</p>"
+		},
+		"Alchemist's Fire": {
+			"name": "Fuego de Alquimista",
+			"description": "<p>Cuando realizas la acción Atacar, puedes sustituir uno de tus ataques por lanzar un Vial de Fuego de alquimista. Apunta a una criatura o objeto que puedas ver a un máximo de 20 pies, rompiéndose el vial con el impacto. En ambos casos, El objetivo debe tener exito en una tirada de salvación de destreza (CD 8 + tu Modificador de Destreza + Bonificador por Competencia) o recibir [[/damage 1d4 type=fire]] y &Reference[burning].</p>"
+		},
+		"Antitoxin": {
+			"name": "Antitoxina",
+			"description": "<p>Como acción adicional, puedes beber un Vial de Antitoxina para ganar ventaja en las tiradas de salvación para evitar o terminar la condición de &Reference[poisoned] por 1 hora. No obstante, no tendrá efecto en muertos vivientes o autómatas.</p>"
+		},
+		"Backpack": {
+			"name": "Mochila",
+			"description": "<p>Una mochila puede contener un pie cúbico o 30 libras de equipo. También puede atar objetos, como un saco de dormir o un rollo de cuerda, en su exterior y se puede usar como alforja.</p>"
+		},
+		"Ball Bearings": {
+			"name": "Bolas de Metal",
+			"description": "<p>Puedes usar tu acción para esparcir estas pequeñas esferas metálicas, que vienen en una bolsita, cubriendo un cuadrado de 10 pies de lado a un máximo de 10 pies de ti. Las criaturas que se muevan a través de la zona afectada deberán superar una tirada de salvación de Destreza CD 10 o serán &Reference[Prone]. Se tarda 10 minutos en recuperar las Bolas de Metal.</p><section class=\"secret\" id=\"secret-bbcC5syRGw0PCZnG\"><p><strong>Notas Foundry</strong></p><p>La Actividad <strong>Recuperar Bolas de Metal</strong> concede otro uso a este objeto.</p></section>"
+		},
+		"Barrel": {
+			"name": "Barril",
+			"description": "<p>Un barril puede contener 40 galones de líquido o 4 pies cúbicos de sólidos.</p>"
+		},
+		"Basket": {
+			"name": "Cesta",
+			"description": "<p>Una cesta puede contener 2 pies cúbicos o 40 libras de equipo.</p>"
+		},
+		"Bedroll": {
+			"name": "Petate",
+			"description": "<p>Rollo de tela usado por los viajeros para dormir para una criatura pequeña o mediana. Cuando estás en un petate, tienes éxito automáticamente en las tiradas de salvación contra el frío extremo (consulta la Guía del Dungeon Master).</p>"
+		},
+		"Bell": {
+			"name": "Campana",
+			"description": "<p>Cuando se usa como una acción de Utilizar, una Campana produce un sonido que se puede oír hasta 60 pies de distancia.</p>"
+		},
+		"Blanket": {
+			"name": "Manta",
+			"description": "<p>Mientras estés envuelto en una manta, tienes Ventaja en las tiradas de salvación contra el frío extremo (consulta la Guía del Dungeon Master)..</p>"
+		},
+		"Block and Tackle": {
+			"name": "Polipasto o Aparejo de Poleas",
+			"description": "<p>Un conjunto de poleas recorridas por un cable que termina en un gancho, que se puede fijar a un objeto. Un polipasto te permite alzar cuatro veces el peso que podrías levantar en condiciones normales.</p>"
+		},
+		"Book": {
+			"name": "Libro",
+			"description": "<p>Un libro podría contener poemas, registros históricos, información específica a un área de conocimiento concreta, diagramas y notas sobre artilugios gnomos o prácticamente cualquier cosa que sea susceptible de ser representada usando texto o dibujos. Un libro que contenga conjuros recibe el nombre de libro de conjuros.</p><p>Si consultas un Libro preciso sobre su tema, obtienes un bonificador +5 a las tiradas de inteligencia (&Reference[Arcana], &Reference[History], &Reference[Nature], or &Reference[Religion]).</p>"
+		},
+		"Bottle, Glass": {
+			"name": "Botella, Cristal",
+			"description": "<p>Una botella contiene 1½ pintas de líquido.</p>"
+		},
+		"Bucket": {
+			"name": "Cubo",
+			"description": "<p>Un cubo puede contener 3 galones de líquido o ½ pie cúbico de sólidos.</p>"
+		},
+		"Bullseye Lantern": {
+			"name": "Linterna Ojo de Buey",
+			"description": "<p>Esta linterna emite luz brillante en un cono de 60 pies y luz tenue 60 pies más allá. Puede estar encendida hasta 6 horas con un frasco (1 pinta, 0,45 l) de aceite.</p>"
+		},
+		"Burglar's Pack": {
+			"name": "Paquete de Ladrón",
+			"description": "<p>Un Paquete de Ladrón contiene los siguiente objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Bolas de Metal}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Campana}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{Velas}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Palanqueta}, @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Linterna Sorda}, 7 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Frascos de Aceite}, 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}, and @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Cantimplora}.</p>"
+		},
+		"Caltrops": {
+			"name": "Abrojos",
+			"description": "<p>Como una acción de Utilizar puedes esparcir una bolsa de abrojos sobre una superficie, cubriendo un cuadrado de 5 pies de lado a un máximo de 5 pies de ti. Una criatura que entre por primera vez en su turno deberá superar una tirada de salvación de Destreza CD 15 o su velocidad se reducira a 0 hasta el comienzo de su siguiente turno y sufrirá [[/damage 1 type=piercing]]. Se tarda 10 minutos en recuperar los Abrojos.</p>"
+		},
+		"Candle": {
+			"name": "Vela",
+			"description": "<p>Emite luz brillante en un radio de 5 pies y luz tenue 5 pies más allá durante 1 hora.</p>"
+		},
+		"Case, Crossbow Bolt": {
+			"name": "Estuche, Virotes de ballesta",
+			"description": "<p>Esta caja de madera tiene capacidad para albergar hasta veinte virotes de ballesta.</p>"
+		},
+		"Case, Map or Scroll": {
+			"name": "Estuche, Mapa o Pergamino",
+			"description": "<p>Esta caja de cuero cilíndrica puede contener hasta diez hojas de papel o cinco hojas de pergamino, enrolladas en ambos casos.</p>"
+		},
+		"Chain": {
+			"name": "Cadena",
+			"description": "<p>Como acción de Utilizar, puedes envolver con una Cadena a una criatura a menos de 5 pies de ti que tenga la condición &Reference[Grappled], &Reference[Incapacitated], o &Reference[Restrained] si tienes éxito en un Pruebas de característica DC 13 de Fuerza (&Reference[ath]). Si la criatura tiene las piernas atadas, tiene la condición &Reference[Restrained] hasta que escape. Escapar de la Cadena requiere que la criatura tenga exito en una Prueba de Característica DC 18 de Destreza (&Reference[acr]) como acción. Romper la cadena requiere una Prueba de Característica DC 20 de Fuerza (&Reference[ath]) como acción.</p>"
+		},
+		"Chest": {
+			"name": "Cofre",
+			"description": "<p>Un cofre contiene 12 pies cúbicos o 300 libras de equipo.</p>"
+		},
+		"Climber's Kit": {
+			"name": "Útiles de Escalada",
+			"description": "<p>Entre estos útiles se incluyen pitones especiales, puntas para las botas y un arnés. Puedes invertir una acción para anclarte empleando estos útiles. Una vez hecho esto, no podrás caer más de 25 pies desde el punto en el que te anclaste, pero tampoco podrás subir más de 25 pies sin deshacer el anclaje como acción adicional</p>"
+		},
+		"Clothes, Fine": {
+			"name": "Ropas, Calidad",
+			"description": "<p>Conjunto de ropa que se confecciona con tejidos caros y se adorna con detalles elaborados por expertos. En algunos eventos y lugares solo se admiten personas que lleven estas prendas. diseñado específicamente para ser caro y demostrarlo.</p>"
+		},
+		"Clothes, Traveler's": {
+			"name": "Ropas, Viajero",
+			"description": "<p>Prendas resistentes diseñadas para viajar en diversos entornos.</p>"
+		},
+		"Component Pouch": {
+			"name": "Saquito de Componentes",
+			"description": "<p>Un saquito de componentes es una pequeña bolsa de cuero para el cinturón con bolsillos en los que contener todos los componentes materiales y otros objetos especiales necesarios para lanzar conjuros. No incluye los componentes que tienen un coste especifico (estos se indican en la descripción de cada conjuro).</p>"
+		},
+		"Costume": {
+			"name": "Disfraz",
+			"description": "<p>Un disfraz completo que suelen utilizar los artistas en todo tipo de salas de espectáculos o para aquellos que simplemente se niegan a salir del personaje. Mientras lleves un Disfraz, tienes Ventaja en cualquier Prueba de Caracteristica que hagas para hacerte pasar por la persona o tipo de persona que representas.</p>"
+		},
+		"Crowbar": {
+			"name": "Palanqueta",
+			"description": "<p>Una palanqueta te da ventaja en aquellas pruebas de Fuerza en las que hacer palanca pueda ser usada.</p>"
+		},
+		"Diplomat's Pack": {
+			"name": "Paquete de Diplomático",
+			"description": "<p>Un paquete de diplomatico contiene los siguientes elementos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Cofre}, @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Ropas de Calidad}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Tinta}, 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Plumas para escribir}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lámpara}, 2 @UUID[Compendium.dnd5e.items.Item.5mIeX824uMklU3xq]{Estuche para Mapa o Pergamino}, 4 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Frascos de Aceite}, 5 Hojas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Papel}, 5 Hojas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergamino}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}, y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}.</p>"
+		},
+		"Dungeoneer's Pack": {
+			"name": "Paquete de Explorador de Mazmorras",
+			"description": "<p>Un Paquete de Explorador de Mazmorras contiene los siguientes elementos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Abrojos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Palanqueta}, 2 frascos de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, 10 días de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Antorchas}, y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Cantimplora}</p>."
+		},
+		"Explorer's Pack": {
+			"name": "Paquete de Explorador",
+			"description": "<p>Un Paquete de Explorador contiene los siguientes elementos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Petate}, 2 frascos de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, 10 días de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Antorchas}, y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Cantimplora}."
+		},
+		"Fine Clothes": {
+			"name": "Ropas de Calidad",
+			"description": "<p>Conjunto de ropa diseñado específicamente para ser caro y demostrarlo.</p>"
+		},
+		"Flask": {
+			"name": "Frasco",
+			"description": "<p>Un frasco puede contener 1 pinta de líquido.</p>"
+		},
+		"Grappling Hook": {
+			"name": "Garfio de Escalada",
+			"description": "<p>uando se usa como una acción de Utilizar puedes lanzar el Garfio de Escalada a una barandilla, una cornisa, u otra agarradera a menos de 50 pies de ti, el gancho se engancha si tienes éxito en una Prueba de Característica de Destreza (&Reference[acr]) DC 13. Si has atado una cuerda al gancho, puedes trepar por ella.</p>"
+		},
+		"Healer's Kit": {
+			"name": "Útiles de Sanador",
+			"description": "<p>Los Útiles de Sanador tiene díes usos. Como Acción de Utilizar, puedes gastar uno de sus usos para estabilizar a una criatura Inconsciente que tenga 0 Puntos de Golpe sin necesidad de hacer un Prueba de Característica Sabiduría (&Reference[med]).</p>"
+		},
+		"Holy Water": {
+			"name": "Agua Bendita",
+			"description": "<p>Cuando realizas la Acción Atacar, puedes sustituir uno de tus ataques para lanzar un Frasco de Agua Bendita. Apunta a una criatura que puedas ver a un máximo de 20 pies, rompiéndose el frasco con el impacto. En ambos casos, El objetivo debe tener exito en una tirada de salvación de destreza (CD 8 + tu Modificador de Destreza + Bonificador por Competencia) o recibir [[/damage 2d4 type=radiant]]. Si es &Reference[fiend] o un &Reference[undead]</p>"
+		},
+		"Hunting Trap": {
+			"name": "Trampa para Cazar",
+			"description": "<p>Como Acción de Utilizar puedes para preparar una Trampa para Cazar, es un anillo de afilados dientes de acero que se cierra cuando una criatura pisa la placa de presión que está en su centro. La trampa está fijada mediante una pesada cadena a cualquier objeto inmóvil, como un árbol o una estaca clavada en el suelo. Si una criatura pisa la placa deberá superar una tirada de salvación de Destreza CD 13 o su movimiento se reducira a 0 hasta el comienzo de su siguiente turno y sufrirá [[/damage 1d4 type=piercing]]. A partir de ese momento, y hasta que la criatura se libre de la trampa, su movimiento se verá limitado por la longitud de la cadena (normalmente 3 pies). Una criatura puede utilizar su acción en hacer una prueba de Fuerza (&Reference[ath]) CD 13, logrando liberarse a sí misma o a otra criatura dentro de su alcance si tiene éxito. Cada prueba fallida causa 1 de daño perforante a la criatura atrapada.</p>"
+		},
+		"Hooded Lantern": {
+			"name": "Linterna Sorda",
+			"description": "<p>Esta linterna emite luz brillante en un radio de 30 pies y luz tenue 30 pies más allá. Puede estar encendida hasta 6 horas con un frasco (1 pinta) de aceite. Como acción, puedes cubrir la abertura con una tapa haciendo que la linterna solo emita luz tenue en un radio de 5 pies.</p>"
+		},
+		"Ink": {
+			"name": "Tinta",
+			"description": "<p>Un pequeño frasco de tinta para escribir sobre pergamino o un papel. Viene en un frasco de 1 onza, que proporciona tinta suficiente para escribir unas 500 páginas</p>"
+		},
+		"Ink Pen": {
+			"name": "Pluma para Escribir",
+			"description": "<p>Utensilio utilizado en combinación con la tinta para escribir o dibujar en una hoja de papel.</p>"
+		},
+		"Lock": {
+			"name": "Cerradura",
+			"description": "<p>La cerradura viene acompañada de una llave. Si no se dispone de ella, una criatura puede utilizar @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{herramientas de ladrón} puede forzar la cerradura superando una prueba de [[/tool thief dex 15]]. Tu DM podría decidir que hay cerraduras mejores disponibles, pero serán más caras.</p>"
+		},
+		"Lantern, Hooded": {
+			"name": "Linterna, Sorda",
+			"description": "<p>Esta linterna emite luz brillante en un radio de 30 pies y luz tenue 30 pies más allá. Puede estar encendida hasta 6 horas con un frasco (1 pinta) de aceite. Como acción, puedes cubrir la abertura con una tapa haciendo que la linterna solo emita luz tenue en un radio de 5 pies.</p>"
+		},
+		"Lantern, Bullseye": {
+			"name": "Linterna, Ojo de Buey",
+			"description": "<p>Esta linterna emite luz brillante en un cono de 60 pies y luz tenue 60 pies más allá. Puede estar encendida hasta 6 horas con un frasco (1 pinta, 0,45 l) de aceite.</p>"
+		},
+		"Lamp": {
+			"name": "Lámpara",
+			"description": "<p>Esta lámpara emite luz brillante en un radio de 15 pies y luz tenue 30 pies más allá. Puede estar encendida hasta 6 horas con un frasco (1 pinta) de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}.</p>"
+		},
+		"Ladder": {
+			"name": "Escalera",
+			"description": "<p>Una escalera de 10 pies de largo, tan robusta o desvencijada como la mano que la haya fabricado o montado. Debes trepar para subir o bajar.</p>"
+		},
+		"Jug": {
+			"name": "Jarro",
+			"description": "<p>Un jarro que puede contener 1 galón de líquido.</p>"
+		},
+		"Magnifying Glass": {
+			"name": "Lupa",
+			"description": "<p>Esta lente permite ver de cerca los objetos pequeños. También es útil como sustituto del pedernal y el acero a la hora de encender el fuego. Encender un fuego con una lupa requiere una luz tan brillante como la del sol para enfocar, yesca para encender y unos 5 minutos para que el fuego se encienda. Una lupa otorga ventaja en cualquier tirada de habilidad realizada para valorar o inspeccionar un objeto que sea pequeño o muy detallado.</p>"
+		},
+		"Manacles": {
+			"name": "Esposas",
+			"description": "<p>Como Acción de Utilizar puedes utilizar Estos grilletes de metal para atar a una criatura Pequeña o Mediana a menos de 5 pies de ti que tengan la condición de &Reference[Grappled], &Reference[Incapacitated], o &Reference[Restrained] si tienes exito en una Prueba de Característica de Destreza DC 13 (&Reference[sleight of hand]). Mientras está atada, la criatura tiene Desventaja en las tiradas de ataque, y la criatura está &Reference[Restrained] si las Esposas están unidas a una cadena o gancho que esté fijo en su lugar. Para escapar es necesaria una prueba de Destreza CD 20 (&Reference[sleight of hand]) como acción y para romperlos una de Fuerza CD 25 (&Reference[ath]) como acción. Las esposas vienen con una llave. Si no se dispone de ella, una criatura puede utilizar @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{herramientas de ladrón} puede forzar la cerradura superando una prueba de [[/tool thief dex 15]]. Los grilletes tienen 15 puntos de golpe.</p>"
+		},
+		"Map": {
+			"name": "Mapa",
+			"description": "<p>Si consultas un Mapa preciso, obtienes un bonificador +5 a las Pruebas de característica de Sabiduría (&Reference[sur]) que hagas para orientarte en el lugar representado en él.</p>"
+		},
+		"Parchment": {
+			"name": "Pergamino",
+			"description": "<p>Una única hoja de papel de pergamino más grueso que puede contener unas 250 palabras escritas a mano.</p>"
+		},
+		"Perfume": {
+			"name": "Perfume",
+			"description": "<p>El Perfume viene en un frasco de 4 onzas. Durante 1 hora después de aplicarte el Perfume, tienes Ventaja en las Prueba de Característica de Carisma (&Reference[per]) realizados para influir en un &Reference[humanoid] Indiferente a 5 pies de ti.</p>"
+		},
+		"Poison, Basic": {
+			"name": "Veneno, Básico",
+			"description": "<p>Como Acción Adicional puedes usar el veneno contenido en este vial para untar un arma cortante o perforante o hasta tres unidades de munición. Cualquier criatura impactada por el arma o munición envenenadas sufrirá [[/damage 1d4 type=poison]] extra. Una vez aplicado al arma o munición, el veneno mantendrá su efectividad durante 1 minuto o hasta que el daño sea aplicado lo que ocurra primero, tras el cual se habrá secado.</p><section class=\"secret\" id=\"secret-YwO5GX35V4XweNWL\"><p><strong>Notas Foundry</strong></p><p>Este objeto incluye una tirada para el daño de Veneno.</p></section>"
+		},
+		"Pole": {
+			"name": "Vara",
+			"description": "<p>Una vara de diez pies de largo de madera robusta. Puedes utilizarla para tocar algo que este hasta una distancia de 10pies. Si tienes que hacer un Prueba de Caracteristica de Fuerza (&Reference[ath]) como parte de un Salto de Altura o de Longitud, puedes usar la vara para saltar, dándote Ventaja en la tirada.</p>"
+		},
+		"Pot, Iron": {
+			"name": "Olla, Hierro",
+			"description": "<p>Una olla de hierro que puede contener 1 galón de líquido.</p>"
+		},
+		"Potion of Healing": {
+			"name": "Poción de Curación",
+			"description": "<p>Esta Poción es un objeto mágico. Como Acción Adicional puedes beberlo o darselo a una criatura que se encuentre a 5 pies de ti. La criatura que beba el fluido rojo que destella cuando es agitado de este vial recupera [[/heal formula=2d4+2 type=healing]]. Puedes beber o administrar esta poción como Acción de Ataque para agitar el vial y regenar el maximo de la formula [[/heal formula=8+2 type=healing]]</p>"
+		},
+		"Pouch": {
+			"name": "Bolsa",
+			"description": "<p>Una bolsita de cuero o tela que puede contener hasta 20 balas de honda o 50 dardos de cerbatana, entre otras cosas. Las bolsas con compartimentos para componentes de conjuros reciben el nombre de saquitos de componentes. Puede contener ⅕ pies cúbicos o 6 libras de equipo.</p>"
+		},
+		"Priest's Pack": {
+			"name": "Paquete de Sacerdote",
+			"description": "<p>Un Paquete de Sacerdote contiene lo siguiente: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]{Manta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolyWater00]{Agua Bendita}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lampara}, 7 días de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Túnica}, y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}.</p>"
+		},
+		"Quiver": {
+			"name": "Aljaba",
+			"description": "<p>Una aljaba puede contener hasta 20 flechas</p>"
+		},
+		"Ram, Portable": {
+			"name": "Ariete, Portátil",
+			"description": "<p>Puedes usar este ariete portátil para echar puertas abajo. Te proporcionará un bonificador de +4 a tus pruebas de Fuerza dedicadas a este fin. Además, si otro personaje te ayuda a usar el ariete tendrás ventaja en estas pruebas.</p>"
+		},
+		"Rations": {
+			"name": "Raciones",
+			"description": "<p>Raciones compactas y secas que resisten viajes largos. Incluyen cecina, fruta deshidratada, galletas y nueces. Consulta &Reference[Malnutrition] en el glosario de reglas para conocer los riesgos de no comer.</p>"
+		},
+		"Robe": {
+			"name": "Túnica",
+			"description": "<p>Una Túnica tiene un significado vocacional o ceremonial. En algunos eventos y lugares solo se admiten personas que lleven una túnica con determinados colores o símbolos.</p>"
+		}
+	}

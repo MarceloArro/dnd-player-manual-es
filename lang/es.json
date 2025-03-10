@@ -2334,7 +2334,7 @@
 },
 "DND5E.Focus": {
   "Label": "Foco para Lanzamiento de Conjuros",
-  "Arcane": "Foco Aracano",
+  "Arcane": "Foco Arcano",
   "Druidic": "Foco Druídico",
   "Holy": "Foco Sagrado"
 },

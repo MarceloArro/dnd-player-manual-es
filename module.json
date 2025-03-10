@@ -2,7 +2,7 @@
   "id": "marcelo-player-dnd5e-2024-es",
   "title": "Translation: Español manual de jugador [DnD5e 2024]",
   "description": "Traducción al español del manual del jugador  de Dungeons &amp; Dragons 5E 2024.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "compatibility": {
     "minimum": "11.315",
     "verified": "12"

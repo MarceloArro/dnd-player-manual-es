@@ -335,15 +335,15 @@
 		},
 		"Acid": {
 			"name": "Ácido",
-			"description": "<p>Cuando realizas la acción Atacar, puedes sustituir uno de tus ataques por lanzar un Vial de Ácido. Apunta a una criatura o objeto que puedas ver a un máximo de 20 pies, rompiéndose el vial con el impacto. En ambos casos, El objetivo debe tener exito en una tirada de salvación de destreza (CD 8 + tu Modificador de Destreza + Bonificador por Competencia) o recibir [[/damage 2d4 type=acid]].</p>"
+			"description": "<p>Cuando realizas la Acción Atacar, puedes sustituir uno de tus ataques por lanzar un Vial de Ácido. Apunta a una criatura o objeto que puedas ver a un máximo de 20 pies, rompiéndose el vial con el impacto. En ambos casos, El objetivo debe tener exito en una tirada de salvación de destreza (CD 8 + tu Modificador de Destreza + Bonificador por Competencia) o recibir [[/damage 2d4 type=acid]].</p>"
 		},
 		"Alchemist's Fire": {
 			"name": "Fuego de Alquimista",
-			"description": "<p>Cuando realizas la acción Atacar, puedes sustituir uno de tus ataques por lanzar un Vial de Fuego de alquimista. Apunta a una criatura o objeto que puedas ver a un máximo de 20 pies, rompiéndose el vial con el impacto. En ambos casos, El objetivo debe tener exito en una tirada de salvación de destreza (CD 8 + tu Modificador de Destreza + Bonificador por Competencia) o recibir [[/damage 1d4 type=fire]] y &Reference[burning].</p>"
+			"description": "<p>Cuando realizas la Acción Atacar, puedes sustituir uno de tus ataques por lanzar un Vial de Fuego de alquimista. Apunta a una criatura o objeto que puedas ver a un máximo de 20 pies, rompiéndose el vial con el impacto. En ambos casos, El objetivo debe tener exito en una tirada de salvación de destreza (CD 8 + tu Modificador de Destreza + Bonificador por Competencia) o recibir [[/damage 1d4 type=fire]] y &Reference[burning].</p>"
 		},
 		"Antitoxin": {
 			"name": "Antitoxina",
-			"description": "<p>Como acción adicional, puedes beber un Vial de Antitoxina para ganar ventaja en las tiradas de salvación para evitar o terminar la condición de &Reference[poisoned] por 1 hora. No obstante, no tendrá efecto en muertos vivientes o autómatas.</p>"
+			"description": "<p>Como Acción Adicional, puedes beber un Vial de Antitoxina para ganar ventaja en las tiradas de salvación para evitar o terminar la condición de &Reference[poisoned] por 1 hora. No obstante, no tendrá efecto en muertos vivientes o autómatas.</p>"
 		},
 		"Backpack": {
 			"name": "Mochila",
@@ -351,7 +351,7 @@
 		},
 		"Ball Bearings": {
 			"name": "Bolas de Metal",
-			"description": "<p>Puedes usar tu acción para esparcir estas pequeñas esferas metálicas, que vienen en una bolsita, cubriendo un cuadrado de 10 pies de lado a un máximo de 10 pies de ti. Las criaturas que se muevan a través de la zona afectada deberán superar una tirada de salvación de Destreza CD 10 o serán &Reference[Prone]. Se tarda 10 minutos en recuperar las Bolas de Metal.</p><section class=\"secret\" id=\"secret-bbcC5syRGw0PCZnG\"><p><strong>Notas Foundry</strong></p><p>La Actividad <strong>Recuperar Bolas de Metal</strong> concede otro uso a este objeto.</p></section>"
+			"description": "<p>Puedes usar tu Acción para esparcir estas pequeñas esferas metálicas, que vienen en una bolsita, cubriendo un cuadrado de 10 pies de lado a un máximo de 10 pies de ti. Las criaturas que se muevan a través de la zona afectada deberán superar una tirada de salvación de Destreza CD 10 o serán &Reference[Prone]. Se tarda 10 minutos en recuperar las Bolas de Metal.</p><section class=\"secret\" id=\"secret-bbcC5syRGw0PCZnG\"><p><strong>Notas Foundry</strong></p><p>La Actividad <strong>Recuperar Bolas de Metal</strong> concede otro uso a este objeto.</p></section>"
 		},
 		"Barrel": {
 			"name": "Barril",
@@ -367,7 +367,7 @@
 		},
 		"Bell": {
 			"name": "Campana",
-			"description": "<p>Cuando se usa como una acción de Utilizar, una Campana produce un sonido que se puede oír hasta 60 pies de distancia.</p>"
+			"description": "<p>Cuando se usa como una Acción de Utilizar, una Campana produce un sonido que se puede oír hasta 60 pies de distancia.</p>"
 		},
 		"Blanket": {
 			"name": "Manta",
@@ -399,7 +399,7 @@
 		},
 		"Caltrops": {
 			"name": "Abrojos",
-			"description": "<p>Como una acción de Utilizar puedes esparcir una bolsa de abrojos sobre una superficie, cubriendo un cuadrado de 5 pies de lado a un máximo de 5 pies de ti. Una criatura que entre por primera vez en su turno deberá superar una tirada de salvación de Destreza CD 15 o su velocidad se reducira a 0 hasta el comienzo de su siguiente turno y sufrirá [[/damage 1 type=piercing]]. Se tarda 10 minutos en recuperar los Abrojos.</p>"
+			"description": "<p>Como una Acción de Utilizar puedes esparcir una bolsa de abrojos sobre una superficie, cubriendo un cuadrado de 5 pies de lado a un máximo de 5 pies de ti. Una criatura que entre por primera vez en su turno deberá superar una tirada de salvación de Destreza CD 15 o su velocidad se reducira a 0 hasta el comienzo de su siguiente turno y sufrirá [[/damage 1 type=piercing]]. Se tarda 10 minutos en recuperar los Abrojos.</p>"
 		},
 		"Candle": {
 			"name": "Vela",
@@ -415,7 +415,7 @@
 		},
 		"Chain": {
 			"name": "Cadena",
-			"description": "<p>Como acción de Utilizar, puedes envolver con una Cadena a una criatura a menos de 5 pies de ti que tenga la condición &Reference[Grappled], &Reference[Incapacitated], o &Reference[Restrained] si tienes éxito en un Pruebas de característica DC 13 de Fuerza (&Reference[ath]). Si la criatura tiene las piernas atadas, tiene la condición &Reference[Restrained] hasta que escape. Escapar de la Cadena requiere que la criatura tenga exito en una Prueba de Característica DC 18 de Destreza (&Reference[acr]) como acción. Romper la cadena requiere una Prueba de Característica DC 20 de Fuerza (&Reference[ath]) como acción.</p>"
+			"description": "<p>Como Acción de Utilizar, puedes envolver con una Cadena a una criatura a menos de 5 pies de ti que tenga la condición &Reference[Grappled], &Reference[Incapacitated], o &Reference[Restrained] si tienes éxito en un Pruebas de característica DC 13 de Fuerza (&Reference[ath]). Si la criatura tiene las piernas atadas, tiene la condición &Reference[Restrained] hasta que escape. Escapar de la Cadena requiere que la criatura tenga exito en una Prueba de Característica DC 18 de Destreza (&Reference[acr]) como Acción. Romper la cadena requiere una Prueba de Característica DC 20 de Fuerza (&Reference[ath]) como Acción.</p>"
 		},
 		"Chest": {
 			"name": "Cofre",
@@ -423,7 +423,7 @@
 		},
 		"Climber's Kit": {
 			"name": "Útiles de Escalada",
-			"description": "<p>Entre estos útiles se incluyen pitones especiales, puntas para las botas y un arnés. Puedes invertir una acción para anclarte empleando estos útiles. Una vez hecho esto, no podrás caer más de 25 pies desde el punto en el que te anclaste, pero tampoco podrás subir más de 25 pies sin deshacer el anclaje como acción adicional</p>"
+			"description": "<p>Entre estos útiles se incluyen pitones especiales, puntas para las botas y un arnés. Puedes invertir una Acción para anclarte empleando estos útiles. Una vez hecho esto, no podrás caer más de 25 pies desde el punto en el que te anclaste, pero tampoco podrás subir más de 25 pies sin deshacer el anclaje como Acción Adicional</p>"
 		},
 		"Clothes, Fine": {
 			"name": "Ropas, Calidad",
@@ -467,7 +467,7 @@
 		},
 		"Grappling Hook": {
 			"name": "Garfio de Escalada",
-			"description": "<p>uando se usa como una acción de Utilizar puedes lanzar el Garfio de Escalada a una barandilla, una cornisa, u otra agarradera a menos de 50 pies de ti, el gancho se engancha si tienes éxito en una Prueba de Característica de Destreza (&Reference[acr]) DC 13. Si has atado una cuerda al gancho, puedes trepar por ella.</p>"
+			"description": "<p>uando se usa como una Acción de Utilizar puedes lanzar el Garfio de Escalada a una barandilla, una cornisa, u otra agarradera a menos de 50 pies de ti, el gancho se engancha si tienes éxito en una Prueba de Característica de Destreza (&Reference[acr]) DC 13. Si has atado una cuerda al gancho, puedes trepar por ella.</p>"
 		},
 		"Healer's Kit": {
 			"name": "Útiles de Sanador",
@@ -479,11 +479,11 @@
 		},
 		"Hunting Trap": {
 			"name": "Trampa para Cazar",
-			"description": "<p>Como Acción de Utilizar puedes para preparar una Trampa para Cazar, es un anillo de afilados dientes de acero que se cierra cuando una criatura pisa la placa de presión que está en su centro. La trampa está fijada mediante una pesada cadena a cualquier objeto inmóvil, como un árbol o una estaca clavada en el suelo. Si una criatura pisa la placa deberá superar una tirada de salvación de Destreza CD 13 o su movimiento se reducira a 0 hasta el comienzo de su siguiente turno y sufrirá [[/damage 1d4 type=piercing]]. A partir de ese momento, y hasta que la criatura se libre de la trampa, su movimiento se verá limitado por la longitud de la cadena (normalmente 3 pies). Una criatura puede utilizar su acción en hacer una prueba de Fuerza (&Reference[ath]) CD 13, logrando liberarse a sí misma o a otra criatura dentro de su alcance si tiene éxito. Cada prueba fallida causa 1 de daño perforante a la criatura atrapada.</p>"
+			"description": "<p>Como Acción de Utilizar puedes para preparar una Trampa para Cazar, es un anillo de afilados dientes de acero que se cierra cuando una criatura pisa la placa de presión que está en su centro. La trampa está fijada mediante una pesada cadena a cualquier objeto inmóvil, como un árbol o una estaca clavada en el suelo. Si una criatura pisa la placa deberá superar una tirada de salvación de Destreza CD 13 o su movimiento se reducira a 0 hasta el comienzo de su siguiente turno y sufrirá [[/damage 1d4 type=piercing]]. A partir de ese momento, y hasta que la criatura se libre de la trampa, su movimiento se verá limitado por la longitud de la cadena (normalmente 3 pies). Una criatura puede utilizar su Acción en hacer una prueba de Fuerza (&Reference[ath]) CD 13, logrando liberarse a sí misma o a otra criatura dentro de su alcance si tiene éxito. Cada prueba fallida causa 1 de daño perforante a la criatura atrapada.</p>"
 		},
 		"Hooded Lantern": {
 			"name": "Linterna Sorda",
-			"description": "<p>Esta linterna emite luz brillante en un radio de 30 pies y luz tenue 30 pies más allá. Puede estar encendida hasta 6 horas con un frasco (1 pinta) de aceite. Como acción, puedes cubrir la abertura con una tapa haciendo que la linterna solo emita luz tenue en un radio de 5 pies.</p>"
+			"description": "<p>Esta linterna emite luz brillante en un radio de 30 pies y luz tenue 30 pies más allá. Puede estar encendida hasta 6 horas con un frasco (1 pinta) de aceite. Como Acción, puedes cubrir la abertura con una tapa haciendo que la linterna solo emita luz tenue en un radio de 5 pies.</p>"
 		},
 		"Ink": {
 			"name": "Tinta",
@@ -499,7 +499,7 @@
 		},
 		"Lantern, Hooded": {
 			"name": "Linterna, Sorda",
-			"description": "<p>Esta linterna emite luz brillante en un radio de 30 pies y luz tenue 30 pies más allá. Puede estar encendida hasta 6 horas con un frasco (1 pinta) de aceite. Como acción, puedes cubrir la abertura con una tapa haciendo que la linterna solo emita luz tenue en un radio de 5 pies.</p>"
+			"description": "<p>Esta linterna emite luz brillante en un radio de 30 pies y luz tenue 30 pies más allá. Puede estar encendida hasta 6 horas con un frasco (1 pinta) de aceite. Como Acción, puedes cubrir la abertura con una tapa haciendo que la linterna solo emita luz tenue en un radio de 5 pies.</p>"
 		},
 		"Lantern, Bullseye": {
 			"name": "Linterna, Ojo de Buey",
@@ -523,7 +523,7 @@
 		},
 		"Manacles": {
 			"name": "Esposas",
-			"description": "<p>Como Acción de Utilizar puedes utilizar Estos grilletes de metal para atar a una criatura Pequeña o Mediana a menos de 5 pies de ti que tengan la condición de &Reference[Grappled], &Reference[Incapacitated], o &Reference[Restrained] si tienes exito en una Prueba de Característica de Destreza DC 13 (&Reference[sleight of hand]). Mientras está atada, la criatura tiene Desventaja en las tiradas de ataque, y la criatura está &Reference[Restrained] si las Esposas están unidas a una cadena o gancho que esté fijo en su lugar. Para escapar es necesaria una prueba de Destreza CD 20 (&Reference[sleight of hand]) como acción y para romperlos una de Fuerza CD 25 (&Reference[ath]) como acción. Las esposas vienen con una llave. Si no se dispone de ella, una criatura puede utilizar @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{herramientas de ladrón} puede forzar la cerradura superando una prueba de [[/tool thief dex 15]]. Los grilletes tienen 15 puntos de golpe.</p>"
+			"description": "<p>Como Acción de Utilizar puedes utilizar Estos grilletes de metal para atar a una criatura Pequeña o Mediana a menos de 5 pies de ti que tengan la condición de &Reference[Grappled], &Reference[Incapacitated], o &Reference[Restrained] si tienes exito en una Prueba de Característica de Destreza DC 13 (&Reference[sleight of hand]). Mientras está atada, la criatura tiene Desventaja en las tiradas de ataque, y la criatura está &Reference[Restrained] si las Esposas están unidas a una cadena o gancho que esté fijo en su lugar. Para escapar es necesaria una prueba de Destreza CD 20 (&Reference[sleight of hand]) como Acción y para romperlos una de Fuerza CD 25 (&Reference[ath]) como Acción. Las esposas vienen con una llave. Si no se dispone de ella, una criatura puede utilizar @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{herramientas de ladrón} puede forzar la cerradura superando una prueba de [[/tool thief dex 15]]. Los grilletes tienen 15 puntos de golpe.</p>"
 		},
 		"Map": {
 			"name": "Mapa",
@@ -576,5 +576,74 @@
 		"Robe": {
 			"name": "Túnica",
 			"description": "<p>Una Túnica tiene un significado vocacional o ceremonial. En algunos eventos y lugares solo se admiten personas que lleven una túnica con determinados colores o símbolos.</p>"
-		}
+		},
+		"Rope": {
+			"name": "Cuerda",
+			"description": "<p>Como Acción de Utilizar, puedes hacer un nudo con la cuerda si tienes éxito en una Prueba de Caracteristica de Destreza (&Reference[slt]) DC 10. Puedes romper la cuerda teniendo éxito en una Prueba de Caracteristica de Fuerza (&Reference[ath]) DC20.</p><p>Puedes atar a una criatura que no quiera con la Cuerda sólo si la criatura tiene la condición &Reference[Grappled], &Reference[Incapacitated], o &Reference[Restrained]. Si la criatura tiene las piernas atadas, tiene la condición &Reference[Restrained] hasta que escape. Escapar de la cuerda requiere que la criatura tenga éxito en una Prueba de Caracteristica de Destreza (&Reference[acr]) DC 15 como Acción.</p>"
+		},
+		"Sack": {
+			"name": "Saco",
+			"description": "<p>Un saco puede contener hasta 1 pie cúbico o 30 libras de equipo.</p>"
+		},
+		"Scholar's Pack": {
+			"name": "Paquete de Erudito",
+			"description": "<p>Un Paquete de Erudito contiene los siguiente objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000]{Libro}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Tinta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Pluma para Escribir}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lampara}, 10 frascos de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, 10 sheets of @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergamino}, y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}.</p>"
+		},
+		"Shovel": {
+			"name": "Pala",
+			"description": "<p>Una herramienta con una hoja ancha y lados generalmente hacia arriba, utilizada para mover carbón, tierra, nieve u otro material. Trabajando durante 1 hora, puedes utilizar una pala para cavar un agujero de 5 pies de lado en tierra o material similar.</p>"
+		},
+		"Signal Whistle": {
+			"name": "Silbato de Supervivencia",
+			"description": "<p>Un silbato puede producir ruido específico. Cuando se sopla como una Acción de Utilizar, un Silbato de Supervivencia produce un sonido que se puede oír hasta 600 pies de distancia.</p>"
+		},
+		"Spell Scroll, Cantrip": {
+			"name": "Pergamino de Conjuro, Truco",
+			"description": "<p>Un Pergamino de Conjuro(Truco) o @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpellScroll]{Un Pergamino de Conjuro(Nivel 1)} es un objeto magico que contiene las palabras de un único conjuro, escritas usando un código mágico. Si el conjuro pertenece a los que tu clase puede lanzar, puedes leer el pergamino y lanzar el conjuro sin tener que aportar ninguno de sus componentes, usando el tiempo de lanzamiento normal. De lo contrario, el conjuro es ininteligible para ti.</p></p><p>Una vez lanzado, las palabras escritas en el pergamino desaparecen y el propio pergamino se deshace, convertido en polvo.</p><p>Si el hechizo requiere una tirada de salvación o una tirada de ataque, la DC de salvación es 13 y el bonificador de ataque es +5. El pergamino se desintegra cuando se completa el lanzamiento. </p><p>Un conjuro de mago en un pergamino de conjuro puede ser copiado del mismo modo que los conjuros en un libro de conjuros. Cuando se copia de un pergamino, el que lo hace debe tener éxito en una prueba de Inteligencia (Conocimiento Arcano) con CD igual a 10. Si lo consigue, la copia del conjuro se realiza con éxito. Independientemente de que la prueba tenga éxito o fracase, el pergamino de conjuro queda destruido.</p>"
+		},
+		"Spell Scroll, Level 1": {
+			"name": "Pergamino de Conjuro, Nivel 1",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCantripScro]{Pergamino de Conjuro(Truco)} o Un Pergamino de Conjuro(Nivel 1) es un objeto magico que contiene las palabras de un único conjuro, escritas usando un código mágico. Si el conjuro pertenece a los que tu clase puede lanzar, puedes leer el pergamino y lanzar el conjuro sin tener que aportar ninguno de sus componentes, usando el tiempo de lanzamiento normal. De lo contrario, el conjuro es ininteligible para ti.</p></p><p>Una vez lanzado, las palabras escritas en el pergamino desaparecen y el propio pergamino se deshace, convertido en polvo.</p><p>Si el hechizo requiere una tirada de salvación o una tirada de ataque, la DC de salvación es 13 y el bonificador de ataque es +5. El pergamino se desintegra cuando se completa el lanzamiento. </p><p>Un conjuro de mago en un pergamino de conjuro puede ser copiado del mismo modo que los conjuros en un libro de conjuros. Cuando se copia de un pergamino, el que lo hace debe tener éxito en una prueba de Inteligencia (Conocimiento Arcano) con CD igual a 10. Si lo consigue, la copia del conjuro se realiza con éxito. Independientemente de que la prueba tenga éxito o fracase, el pergamino de conjuro queda destruido.</p>"
+		},
+		"Spikes, Iron": {
+			"name": "Pinchos, Hierro",
+			"description": "<p>Lia Pinchoa de Hierro viene en una bolsa con 10 unidades. Como Acción de Utilizar puedes usar un objeto romo, como un Martillo Ligero, para clavar un pincho en madera, tierra o un material similar. Puedes hacerlo para atrancar una puerta o para atar una cuerda o cadena al pincho. Tienen 10 pulgadas de largo.</p>"
+		},
+		"Spyglass": {
+			"name": "Catalejo",
+			"description": "<p>Los objetos observados a través de un catalejo se ven al doble de su tamaño real.</p>"
+		},
+		"String": {
+			"name": "Cordel",
+			"description": "El cordel mide 10 pies de largo. Puedes hacer un nudo como Acción de Utilizar."
+		},
+		"Tent": {
+			"name": "Tienda de Campaña",
+			"description": "<p>Una lona bajo la que guarecerse, sencilla y transportable, en la que pueden dormir dos criaturas pequeñas o medianas</p>"
+		},
+		"Tinderbox": {
+			"name": "Yesquero",
+			"description": "<p>Esta pequeña caja contiene pedernal, chispero y yescas (normalmente ropa seca untada en aceite); todo lo necesario para encender fuego. Puedes utilizarla para prender una vela, antorcha, lampara, linterna (o alguna otra cosa altamente inflamable) gastando una Acción Adicional. Se tarda 1 minuto en encender cualquier otro tipo de fuego.</p>"
+		},
+		"Torch": {
+			"name": "Antorcha",
+			"description": "<p>Arde durante 1 hora emitiendo luz brillante en un radio de 20 pies y luz tenue 20 pies más allá. Si haces un ataque cuerpo a cuerpo como arma sencilla cuerpo a cuerpo con una antorcha encendida e impactas, causarás [[/damage 1 type=fire]]</p>"
+		},
+		"Vial": {
+			"name": "Vial",
+			"description": "<p>Un vial puede contener hasta 4 onzas de líquido.</p>"
+		},
+		"Water (Pint)": {
+			"name": "Agua (Pinta)",
+			"description": "Si no se bebe la suficiente agua, corre el riesgo de &Reference[dehydration]."
+		},
+		"Waterskin": {
+			"name": "Cantimplora",
+			"description": "<p>Una piel de cuero cosida que puede contener hasta 4 pintas de líquido. Pesa 5 libras cuando está lleno; una pinta de agua es aproximadamente 1 libra. Si no se bebe la suficiente agua, corre el riesgo de &Reference[dehydration].</p>"
+		},
+		"Alchemist's Supplies": {
+			"name": "Suministros de Alquimista",
+			"description": "<p class=\"phb-meta\"><strong>Habilidad:</strong> &Reference[int]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Identificar una sustancia (DC 15), o encender un fuego (DC 15)</p> <p class=\"phb-meta\"><strong>Creación:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAcid0000000]{Acido}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAlchemistsF]{Fuego de Alquimista}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagComponentPo]{Saquito de Componentes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Papel}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}</p>"
+		},
 	}
+}

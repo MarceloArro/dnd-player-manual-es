@@ -14,14 +14,14 @@ Actualizando para DnD5e 4.3.1 y Foundry 11.315 (Verificado 12)
 - [_] Orígenes
 - [_] Rasgos
 - [_] Conjuros
-- [_] Equipo
+- [X] Equipo
 - [_] Tablas
 - [_] Actores
 - [_] Libro
 
 
 ## Lista de Prioridades:
-- [_] Equipo
+- [X] Equipo
 - [_] Rasgos Generales
 - [_] Rasgos Orígen
 - [_] Orígenes Transfondos

@@ -461,6 +461,10 @@
 			"name": "Paquete de Explorador",
 			"description": "<p>Un Paquete de Explorador contiene los siguientes elementos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Petate}, 2 frascos de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, 10 días de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Antorchas}, y una @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Cantimplora}."
 		},
+		"Entertainer's Pack": {
+			"name": "Paquete de Artista",
+			"description": "<p>Un Paquete de Axplorador contiene los siguientes elementos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Tapete}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Campana}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Linterna Ojo de Buey }, 3 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Disfrazes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Mirror}, 8 frascos de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, 9 días de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}, y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Cantimplora}.</p>"
+		},
 		"Fine Clothes": {
 			"name": "Ropas de Calidad",
 			"description": "<p>Conjunto de ropa diseñado específicamente para ser caro y demostrarlo.</p>"
@@ -471,7 +475,7 @@
 		},
 		"Grappling Hook": {
 			"name": "Garfio de Escalada",
-			"description": "<p>uando se usa como una Acción de Utilizar puedes lanzar el Garfio de Escalada a una barandilla, una cornisa, u otra agarradera a menos de 50 pies de ti, el gancho se engancha si tienes éxito en una Prueba de Característica de Destreza (&Reference[acr]) DC 13. Si has atado una cuerda al gancho, puedes trepar por ella.</p>"
+			"description": "<p>Cuando se usa como una Acción de Utilizar puedes lanzar el Garfio de Escalada a una barandilla, una cornisa, u otra agarradera a menos de 50 pies de ti, el gancho se engancha si tienes éxito en una Prueba de Característica[[/check acr dc=13]]. Si has atado una cuerda al gancho, puedes trepar por ella.</p>"
 		},
 		"Healer's Kit": {
 			"name": "Útiles de Sanador",
@@ -483,7 +487,7 @@
 		},
 		"Hunting Trap": {
 			"name": "Trampa para Cazar",
-			"description": "<p>Como Acción de Utilizar puedes para preparar una Trampa para Cazar, es un anillo de afilados dientes de acero que se cierra cuando una criatura pisa la placa de presión que está en su centro. La trampa está fijada mediante una pesada cadena a cualquier objeto inmóvil, como un árbol o una estaca clavada en el suelo. Si una criatura pisa la placa deberá superar una tirada de salvación de Destreza CD 13 o su movimiento se reducira a 0 hasta el comienzo de su siguiente turno y sufrirá [[/damage 1d4 type=piercing]] de daño. A partir de ese momento, y hasta que la criatura se libre de la trampa, su movimiento se verá limitado por la longitud de la cadena (normalmente 3 pies). Una criatura puede utilizar su Acción en hacer una prueba de Fuerza (&Reference[ath]) CD 13, logrando liberarse a sí misma o a otra criatura dentro de su alcance si tiene éxito. Cada prueba fallida causa 1 de daño perforante a la criatura atrapada.</p>"
+			"description": "<p>Como Acción de Utilizar puedes para preparar una Trampa para Cazar, es un anillo de afilados dientes de acero que se cierra cuando una criatura pisa la placa de presión que está en su centro. La trampa está fijada mediante una pesada cadena a cualquier objeto inmóvil, como un árbol o una estaca clavada en el suelo. Si una criatura pisa la placa deberá superar una tirada de salvación de[[/save dex dc=13]] o su movimiento se reducirá a 0 hasta el comienzo de su siguiente turno y sufrirá [[/damage 1d4 type=piercing]].</p><p>A partir de ese momento, y hasta que la criatura se libre de la trampa, su movimiento se verá limitado por la longitud de la cadena (normalmente 3 pies).</p><p>Una criatura puede utilizar su Acción en hacer una prueba de [[/check ath dc=13]] logrando liberarse a sí misma o a otra criatura dentro de su alcance si tiene éxito. Cada prueba fallida causa [[/damage 1 type=piercing]] a la criatura atrapada.</p>"
 		},
 		"Hooded Lantern": {
 			"name": "Linterna Sorda",
@@ -527,11 +531,27 @@
 		},
 		"Manacles": {
 			"name": "Esposas",
-			"description": "<p>Como Acción de Utilizar puedes utilizar Estos grilletes de metal para atar a una criatura Pequeña o Mediana a menos de 5 pies de ti que tengan la condición de &Reference[Grappled], &Reference[Incapacitated], o &Reference[Restrained] si tienes exito en una Prueba de Característica de Destreza DC 13 (&Reference[sleight of hand]). Mientras está atada, la criatura tiene Desventaja en las tiradas de ataque, y la criatura está &Reference[Restrained] si las Esposas están unidas a una cadena o gancho que esté fijo en su lugar. Para escapar es necesaria una prueba de Destreza CD 20 (&Reference[sleight of hand]) como Acción y para romperlos una de Fuerza CD 25 (&Reference[ath]) como Acción. Las esposas vienen con una llave. Si no se dispone de ella, una criatura puede utilizar @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{herramientas de ladrón} puede forzar la cerradura superando una prueba de [[/tool thief dex 15]]. Los grilletes tienen 15 puntos de golpe.</p>"
+			"description": "<p>Como Acción de Utilizar puedes utilizar Estos grilletes de metal para atar a una criatura Pequeña o Mediana a menos de 5 pies de ti que tengan la condición de &Reference[Grappled], &Reference[Incapacitated], o &Reference[Restrained] si tienes exito en una Prueba de [[/check slt dc=13]]. <br><br>Mientras está atada, la criatura tiene Desventaja en las tiradas de ataque, y la criatura está &Reference[Restrained] si las Esposas están unidas a una cadena o gancho que esté fijo en su lugar. <br><br>Para escapar es necesaria una prueba de[[/check slt dc=20]] como Acción y para romperlos una prueba de [[/check ath dc=25]] como Acción. <br><br>Las esposas vienen con una llave. Si no se dispone de ella, una criatura puede utilizar @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{herramientas de ladrón} puede forzar la cerradura superando una prueba de [[/tool thief dex 15]]. Los grilletes tienen 15 puntos de golpe.</p>"
 		},
 		"Map": {
 			"name": "Mapa",
 			"description": "<p>Si consultas un Mapa preciso, obtienes un bonificador +5 a las Pruebas de característica de Sabiduría (&Reference[sur]) que hagas para orientarte en el lugar representado en él.</p>"
+		},
+		"Mirror": {
+			"name": "Espejo",
+			"description": "<p>Un espejo de mano de acero es útil para la cosmética personal, pero también para asomarse por las esquinas y reflejar la luz como señal.</p>"
+		},
+		"Net": {
+			"name": "Red",
+			"description": "<p>Cuando realizas la acción de Ataque, puedes reemplazar uno de tus ataques por lanzar una Red. Apunta a una criatura que puedas ver en un radio de 15 pies de ti. El objetivo debe tener éxito en una tirada de salvación de Destreza (DC 8 más tu modificador de Destreza y Bonificador de Competencia) o tener la condición &Referencia[Restringido] hasta que escape. El objetivo tiene éxito automáticamente si es de tamaño Enorme o Grande./p><p>Para escapar, el objetivo o una criatura a menos de 5 pies de él debe realizar una acción para hacer un chequeo de [[/skill ath 10]] , liberando a la criatura &Reference[Restrained]  si tiene éxito. Destruir la Red (DC 10; 5 PV; Inmunidad al &Reference[bludgeoning], &Reference[poison], &Reference[psychic]) también libera al objetivo, poniendo fin al efecto.</p>"
+		},
+		"Oil": {
+			"name": "Aceite ",
+			"description": "<p>Puedes rociar a una criatura, objeto o espacio con Aceite o utilizarlo como combustible, tal y como se detalla a continuación.</p> <p><strong>Rociar una criatura o un objeto</strong>. Cuando realizas la Acción de Ataque, puedes reemplazar uno de tus ataques por lanzar un frasco de Aceite. Apunta a una criatura u objeto en un radio de 20 pies de ti. El objetivo debe tener éxito en una tirada de salvación de Destreza (DC 8 más tu modificador de Destreza y Bonificador de Competencia) o quedar cubierto de aceite. Si el objetivo recibe daño de Fuego antes de que el aceite se seque (después de 1 minuto), el objetivo recibe un daño [[/damage 5 type=fire]] extra de aceite quemado.</p> <p><strong>Rociar un espacio.</strong> Puedes realizar la Acción de Utilizar para verter un frasco de Aceite en suelo llano para cubrir un área de 5 pies cuadrados en un radio de 5 pies de ti. Si se enciende, el aceite arde hasta el final de la segunda ronda desde que se encendió el aceite (o 12 segundos) e inflige [[/damage 5 type=fire]] de daño a cualquier criatura que entre en el área o termine su turno allí. Una criatura solo puede recibir este daño una vez por turno.</p> <p><strong>Combustible</strong>. El aceite sirve como combustible para Lámparas y Linternas. Una vez encendido, un frasco de Aceite arde durante 6 horas en una Lámpara o Linterna. Esa duración no tiene por qué ser consecutiva; puedes apagar el Aceite ardiendo (como Acción de Utilizar) y volver a encenderlo hasta que haya ardido un total de 6 horas.</p>"
+		},
+		"Paper": {
+			"name": "Papel",
+			"description": "<p>Una única hoja de papel puede contener 250 palabras escrítas a mano.</p>"
 		},
 		"Parchment": {
 			"name": "Pergamino",
@@ -583,7 +603,7 @@
 		},
 		"Rope": {
 			"name": "Cuerda",
-			"description": "<p>Como Acción de Utilizar, puedes hacer un nudo con la cuerda si tienes éxito en una Prueba de Caracteristica de Destreza (&Reference[slt]) DC 10. Puedes romper la cuerda teniendo éxito en una Prueba de Caracteristica de Fuerza (&Reference[ath]) DC20.</p><p>Puedes atar a una criatura que no quiera con la Cuerda sólo si la criatura tiene la condición &Reference[Grappled], &Reference[Incapacitated], o &Reference[Restrained]. Si la criatura tiene las piernas atadas, tiene la condición &Reference[Restrained] hasta que escape. Escapar de la cuerda requiere que la criatura tenga éxito en una Prueba de Caracteristica de Destreza (&Reference[acr]) DC 15 como Acción.</p>"
+			"description": "<p>Como Acción de Utilizar, puedes hacer un nudo con la cuerda si tienes éxito en una Prueba [[/check slt dc=10]]. Puedes romper la cuerda teniendo éxito en una Prueba [[/check ath dc=20]]</p><p>Puedes atar a una criatura que no quiera con la Cuerda solo si la criatura tiene la condición &Reference[Grappled], &Reference[Incapacitated], o &Reference[Restrained]. Si la criatura tiene las piernas atadas, tiene la condición &Reference[Restrained] hasta que escape. Escapar de la cuerda requiere que la criatura tenga éxito en una Prueba [[/check acr dc=15]] como Acción.</p>"
 		},
 		"Sack": {
 			"name": "Saco",

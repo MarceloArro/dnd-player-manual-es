@@ -6,5 +6,206 @@
 		"General Feats": "Rasgos Generales",
 		"Origin Feats": "Rasgos de Origen"
 	},
-	"entries": {}
+	"entries": {
+		"Ability Score Improvement": {
+			"name": "Mejora de Puntuación de característica",
+			"description": "<p><em>Rasgo General (Prerrequisito: Nivel 4+)</em></p><p>Cuando alcances los niveles 4, 8, 12 y 16, podrás elegir una puntuación de característica y aumentarla en 2 o dos puntuaciones de característica y aumentarlas en 1 cada una. Como es habitual, no puedes aumentar una puntuación de característica por encima de 20.</p><p><strong>Repetible.</strong> Puedes obtener este rasgo más de una vez.</p>"
+		},
+		"Actor": {
+			"name": "Actor",
+			"description": "<p><em>Prerrequisito: Carisma 13+</em></p><p>Debido a tu habilidad para la imitación y el arte dramático, recibes los beneficios siguientes</p><p><strong>Mejora de característica.</strong>incrementa tu puntuación de Carísma en 1, hasta un máxino de 20.</p><p><strong>Personificación.</strong>Mientras estés disfrazado de una persona real o ficticia, tienes ventaja en las pruebas de Carisma (&Reference[dec] o &Reference[prf]) para convencer a los demás de que eres esa persona.</p><p><strong>Imitación.</strong> <p><strong>Mimetismo.</strong> Puedes imitar los sonidos de otras criaturas, incluido el habla. Una criatura que oiga la imitación debe tener éxito en un prueba de Sabiduría (&Reference[ins]) para determinar que el efecto es fingido (DC 8 + tu modificador de Carisma + Bonificador de Competencia).</p><section class=\"secret\" id=\"secret-tOhwF8l7gqyVJOOB\"><p><strong>Notas Foundry</strong></p><p><strong>Imitación</strong> incluye una actividad con la DC correcta.</p><p>Este Rasgo no automatiza la ventaja en la tirada.</p></section>"
+		},
+		"Athlete": {
+			"name": "Atleta",
+			"description": "<p><em>Prerrequisito: Fuerza o Destreza 13+</em></p> <p>Ganas los siguientes beneficios.</p> <p><strong>Mejora de característica.</strong> Tu puntuación de &Reference[str] o &Reference[dex] aumenta en 1, hasta un máximo de 20.</p> <p><strong>Velocidad Trepar.</strong> Ganas una velocidad para trepar es igual a tu movimiento.</p> <p><strong>Levantarse.</strong> Cuando tienes la condición &Reference[Prone], puedes levantarte utilizando solo 5 pies de tu movimiento</p> <p><strong>Saltar.</strong> Puedes hacer un salto con carrerilla, tanto &Reference[Long Jump]{Largo} o &Referencia[Alto] tras haberte movido tan sólo 5 pies.</p> <section class=\"secret\" id=\"secret-HwMnjjLPfn97FUqL\"> <p><strong>Notas Foundry</strong></p> <p>Esta hazaña no automatiza los efectos. Puedes añadir tu movimiento de trepar activando el modo «Editar» de tu hoja y haciendo clic en el icono «Engranaje» encima de «Caminar».</p> </section>"
+		},
+		"Charger": {
+			"name": "Atacante a la Carga",
+			"description": ""
+		},
+		"Chef": {
+			"name": "Chef",
+			"description": ""
+		},
+		"Crossbow Expert": {
+			"name": "Experto en Ballestas",
+			"description": ""
+		},
+		"Crusher": {
+			"name": "Triturador",
+			"description": ""
+		},
+		"Defensive Duelist": {
+			"name": "Duelista Defensivo",
+			"description": ""
+		},
+		"Dual Wielder": {
+			"name": "Combatiente con Dos Armas",
+			"description": ""
+		},
+		"Durable": {
+			"name": "Resistente",
+			"description": ""
+		},
+		"Elemental Adept": {
+			"name": "Versado en un Elemento",
+			"description": ""
+		},
+		"Fey-Touched": {
+			"name": "Toque Feérico",
+			"description": ""
+		},
+		"Grappler": {
+			"name": "Apresador",
+			"description": ""
+		},
+		"Great Weapon Master": {
+			"name": "Maestro en Armas Pesadas",
+			"description": ""
+		},
+		"Heavily Armored": {
+			"name": "Muy Acorazado",
+			"description": ""
+		},
+		"Heavy Armor Master": {
+			"name": "Maestro en Armaduras Pesadas",
+			"description": ""
+		},
+		"Inspiring Leader": {
+			"name": "Líder Inspirador",
+			"description": ""
+		},
+		"Keen Mind": {
+			"name": "Mente Aguda",
+			"description": ""
+		},
+		"Lightly Armored": {
+			"name": "Ligeramente Acorazado",
+			"description": ""
+		},
+		"Mage Slayer": {
+			"name": "Azote de Magos",
+			"description": ""
+		},
+		"Martial Weapon Training": {
+			"name": "",
+			"description": ""
+		},
+		"Medium Armor Master": {
+			"name": "Maestro en Armaduras Medias",
+			"description": ""
+		},
+		"Moderately Armored": {
+			"name": "Moderadamente Acorazado",
+			"description": ""
+		},
+		"Mounted Combatant": {
+			"name": "Combatiente Montado",
+			"description": ""
+		},
+		"Observant": {
+			"name": "Observador",
+			"description": ""
+		},
+		"Piercer": {
+			"name": "Perforador",
+			"description": ""
+		},
+		"Poisoner": {
+			"name": "Envenenador",
+			"description": ""
+		},
+		"Polearm Master": {
+			"name": "Maestro en Armas de Asta",
+			"description": ""
+		},
+		"Resilient": {
+			"name": "Resiliente",
+			"description": ""
+		},
+		"Ritual Caster": {
+			"name": "Lanzador Ritual",
+			"description": ""
+		},
+		"Sentinel": {
+			"name": "Centinela",
+			"description": ""
+		},
+		"Shadow-Touched": {
+			"name": "Toque Sombrío",
+			"description": ""
+		},
+		"Sharpshooter": {
+			"name": "Tirador de Primera",
+			"description": ""
+		},
+		"Shield Master": {
+			"name": "Maestro en Escudos",
+			"description": ""
+		},
+		"Skill Expert": {
+			"name": "Experto en Habilidades",
+			"description": ""
+		},
+		"Skulker": {
+			"name": "Acechador",
+			"description": ""
+		},
+		"Slasher": {
+			"name": "Rebanador",
+			"description": ""
+		},
+		"Speedy": {
+			"name": "Velocista",
+			"description": ""
+		},
+		"Spell Sniper": {
+			"name": "Lanzador Preciso",
+			"description": ""
+		},
+		"Telekinetic": {
+			"name": "Telequinético",
+			"description": ""
+		},
+		"Alert": {
+			"name": "Alerta",
+			"description": ""
+		},
+		"Crafter": {
+			"name": "Artesano",
+			"description": ""
+		},
+		"Sanador": {
+			"name": "Curador",
+			"description": ""
+		},
+		"Lucky": {
+			"name": "Afortunado",
+			"description": ""
+		},
+		"Magic Initiate": {
+			"name": "Iniciado en la Magia",
+			"description": ""
+		},
+		"Musician": {
+			"name": "Musico",
+			"description": ""
+		},
+		"Savage Attacker": {
+			"name": "Atacante Salvaje",
+			"description": ""
+		},
+		"Skilled": {
+			"name": "Habilidoso",
+			"description": ""
+		},
+		"Tavern Brawler": {
+			"name": "Matón de Taberna",
+			"description": ""
+		},
+		"Tough": {
+			"name": "Duro",
+			"description": ""
+		}
+	}
 }

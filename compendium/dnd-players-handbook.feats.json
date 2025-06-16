@@ -1,9 +1,9 @@
 {
 	"label": "Rasgos",
 	"folders": {
-		"Epic Boon Feats": "Rasgos de Bendición Epica",
-		"Fighting Style Feats": "Rasgos de Estilos de Combates",
-		"General Feats": "Rasgos Generales",
+		"Epic Boon Feats": "Dotes de don Épico",
+		"Fighting Style Feats": "Dotes de Estilo de Combate",
+		"General Feats": "Dotes Generales",
 		"Origin Feats": "Rasgos de Origen"
 	},
 	"entries": {
@@ -254,6 +254,6 @@
 		"Unarmed Fighting": {
 			"name": "Combate sin Armas",
 			"description": ""
-		},
+		}
 	}
 }

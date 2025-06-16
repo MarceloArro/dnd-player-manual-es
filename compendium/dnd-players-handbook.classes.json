@@ -14,17 +14,88 @@
 		"Warlock": "Brujo",
 		"Wizard": "Mago",
 		"Class Features": "Rasgos de Clase",
-		"Subclass Features": "Rasgos de SubClase"
+		"Subclass Features": "Rasgos de Subclase"
 	},
 	"entries": {
 		"Barbarian": {
 			"name": "Bárbaro",
-			"description": "<blockquote> <p>Un Ferroz Luchador de Furia Primigenia</p> </blockquote> <h3>Competencias Base del Bárbaro</h3> <table class=\"core-class-traits\"> <tbody><tr> <th scope=\"row\"> <p>Característica Principal</p> </th> <td> <p>Fuerza</p> </td> </tr><tr> <th> <p><strong>Dado de Puntos de Golpe</strong></p> </th> <td> <p>D12 por nivel de Bárbaro</p> </td> </tr><tr> <th> <p><strong>Competencias en Tiradas de Salvación</strong></p> </th> <td> <p>Fuerza y Constitución</p> </td> </tr><tr> <th> <p><strong>Competencias en Habilidades</strong></p> </th> <td> <p><em>Elige 2:</em> Atletismo, Intimidación, Naturaleza, Percepción, or Supervivencia y Trato con Animales</p> </td> </tr><tr> <th> <p><strong>Competencias en Armas</strong></p> </th> <td> <p>Armas Sencillas y Marciales</p> </td> </tr><tr> <th> <p><strong>Entrenamiento en armadura</strong></p> </th> <td> <p>Armaduras Ligeras y Medias, Escudos</p> </td> </tr><tr> <th> <p><strong>Equipo inicial</strong></p> </th> <td> <p><em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreataxe00]{Hacha a dos manos}, 4 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepHandaxe000]{Hacha de mano}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagExplorersPa]{Paquete de explorador}, y [[/award 15GP]]; o (B) [[/award 75GP]]</p> </td> </tr></tbody> </table> <p>Los bárbaros son poderosos luchadores impulsados por las fuerzas primigenias del multiverso que se manifiestan en forma de Furia. Más que una simple emoción -y no se limita a la ira-, esta Furia es la encarnación de la ferocidad de un depredador, la furia de una tormenta y la agitación de un mar.</p> <p>Algunos Bárbaros personifican su Furia como un espíritu feroz o un antepasado venerado. Otros la ven como una conexión con el dolor y la angustia del mundo, como una amalgama impersonal de magia salvaje o como una expresión de su yo más profundo. Para cada Bárbaro, su Rabia es un poder que no sólo alimenta la destreza en la batalla, sino también unos reflejos asombrosos y unos sentidos agudizados.</p> <p>Los bárbaros suelen actuar como protectores y líderes de sus comunidades. Se lanzan de cabeza al peligro para que los que están bajo su protección no tengan que hacerlo. Su valentía ante el peligro hace que los Bárbaros sean perfectos para la aventura.</p> <h2>Creando un Bárbaro …</h2> <h3>Como Personaje de Nivel 1</h3> <ul> <li>Obtienes todos los rasgos de la tabla de rasgos básicos del bárbaro.</li> <li>Obtienes todos los rasgos de nivel 1 del bárbaro, que se enumeran en la tabla de rasgos del bárbaro.</li> </ul> <h3>Como Personaje Multiclase</h3> <ul> <li>Obtienes los rasgos de la tabla de rasgos básicos del bárbaro: Dado de Puntos de Golpe, Competencias con Armas Marciales, y Entrenamiento con Escudos.</li> <li>Obtienes todos los rasgos de nivel 1 del bárbaro, que se enumeran en la tabla de rasgos del bárbaro.</li> </ul>"
+			"description": "<blockquote> <p>Luchadores feroces con una Furia Primigenia</p> </blockquote> <h3>Atríbutos básicos de Bárbaro</h3> <table class=\"core-class-traits\"> <tbody><tr> <th scope=\"row\"> <p>Característica Principal</p> </th> <td> <p>Fuerza</p> </td> </tr><tr> <th> <p><strong>Dado de Puntos de Golpe</strong></p> </th> <td> <p>1d12 por nivel de Bárbaro</p> </td> </tr><tr> <th> <p><strong>Competencias en Tiradas de Salvación</strong></p> </th> <td> <p>Fuerza y Constitución</p> </td> </tr><tr> <th> <p><strong>Competencias en Habilidades</strong></p> </th> <td> <p><em>Elige 2:</em> Atletismo, Intimidación, Naturaleza, Percepción, Supervivencia o Trato con Animales</p> </td> </tr><tr> <th> <p><strong>Competencias con Armas</strong></p> </th> <td> <p>Armas Sencillas y Marciales</p> </td> </tr><tr> <th> <p><strong>Entrenamiento con armadura</strong></p> </th> <td> <p>Armaduras Ligeras y Medias y Escudos</p> </td> </tr><tr> <th> <p><strong>Equipo inicial</strong></p> </th> <td> <p><em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreataxe00]{Hacha a dos manos}, 4 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepHandaxe000]{Hachas de mano}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagExplorersPa]{Paquete de explorador}, y [[/award 15GP]]; o (B) [[/award 75GP]]</p> </td> </tr></tbody> </table> <p>Los bárbaros son poderosos combatientes que se alimentan de las fuerzas primigenias del multiverso que se manifiestan en modo de Furia. No se trata de una simple emoción, ni mucho menos un enfado: esta Furia es el reflejo de la ferocidad de un depredador, la violencia de una tormenta y la agitación de un mar.</p> <p>Algunos Bárbaros conciben su Furia como si fuera un espíritu feroz o un antepasado al que veneran. Otros la ven como una conexión con el dolor y la angustia del mundo, como una maraña impersonal de magia salvaje o como la expresión de su yo más profundo. Para todos los Bárbaros, la Furia es un poder que no sólo aviva su arrojo en la batalla, sino que también afila sus asombrosos reflejos y agudiza sus sentidos.</p> <p>Los bárbaros normalmente actuan como protectores y líderes de sus comunidades, por lo que no dudan en lanzarse al peligro para evitar que sus protegidos tengan que hacerlo. El valor frente a la adversidad los convierte en excelentes aventureros.</p> <h2>Convertirse en un Bárbaro</h2> <h3>Como Personaje de Nivel 1</h3> <ul> <li>Obtienes todos los atributos de la tabla Atributos básicos del bárbaro.</li> <li>Obtienes los rasgos de nivel 1 de bárbaro, que se muestran en la tabla de Rasgos del bárbaro.</li> </ul> <h3>Como Personaje Multiclase</h3> <ul> <li>Obtienes los siguitentes atributos de la tabla de Atributos básicos de bárbaro: Dado de Puntos de Golpe, Competencias con Armas Marciales, y Entrenamiento con Escudos.</li> <li>Obtienes los rasgos de nivel 1 del bárbaro, que se muestran en la tabla Rasgos del bárbaro.</li> </ul>"
+		},
+		"Brutal Strike": {
+			"name": "Golpe Brutal",
+			"description": "<p>Si utilizas [[/item Ataque Temerario]], puedes renunciar a cualquier ventaja en una tirada de ataque de tu elección basada en la Fuerza en tu turno. La tirada de ataque elegida no debe tener desventaja. Si la tirada de ataque elegida acierta, el objetivo sufre [[lookup @scale.barbarian.brutal-strike]] de daño adicional del mismo tipo que inflija el arma o el Ataque sin Armas y puedes causar un efecto de Golpe Brutal de tu elección. Tienes las siguientes opciones de efectos.</p><p><strong>Golpe Enérgico</strong>. El objetivo es empujado 15ft (4,5 m) respecto a ti en línea recta. Luego puedes moverte hasta la mitad de tu velocidad directamente hacia el objetivo sin provocar &Reference[Opportunity Attacks].</p><p><strong>Golpe Ralentizador</strong>. La velocidad del objetivo se reduce en 15ft (4,5 m) hasta el principio de tu siguiente turno. Un objetivo solo puede sufrir un golpe ralentizador cada vez: el más reciente.</p><section class=\"secret\" id=\"secret-vLb1SoKHWW2796Ko\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo para el Golpe Ralentizador el cual puede ser aplicado al objetivo</p><p>El daño escala automáticamente cuando ganas Golpe Brutal Mejora (2).</p></section>"
 		},
 		"Danger Sense": {
 			"name": "Sentir el Peligro",
-			"description": "<p>Obtienes un asombroso sentido de cuando las cosas no son como deberían ser, lo que te da ventaja cuando esquivas peligros. Tienes Ventaja en las tiradas de salvación de Destreza a menos que tengas la condición &Reference[Incapacitated].</p>"
+			"description": "Eres capaz de percibir de forma casi sobrenatural cuándo las cosas no son como deberían. Gracias a ello, se te da bien evitar el peligro. Tienes ventaja en las Tiradas de Dalvación de Destreza salvo que tengas el estado de &Reference[Incapacitated]."
+		},
+		"Epic Boon": {
+			"name": "Don Épico",
+			"description": "<p>Obtienes una @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Dote de Don Épico} (consulta el capítulo 5) u otra dote de tu elección para la que cumplas las condiciones.</p>"
+		},
+		"Extra Attack": {
+			"name": "Ataque Adicional",
+			"description": "<p>Cuando lleves a cabo la acción de atacar en tu turno, podrás hacer dos ataques en lugar de uno.</p>"
+		},
+		"Fast Movement": {
+			"name": "Movimiento Rápido",
+			"description": "<p>Tu velocidad aumenta en 10ft (3m) si no llevas armadura pesada.</p><section class=\"secret\" id=\"secret-6cmMiIJhUk5cpOGz\"><p><strong>Nota Foundry</strong></p><p>Este Rasgo incluye un Efecto Activo que automaticamente aumenta la Velocidad de Movimiento. Recuerda desactivar el rasgo si llevas Armadura Pesada.</p></section>"
+		},
+		"Feral Instinct": {
+			"name": "Instinto Salvaje",
+			"description": "<p>Tus instintos están tan afinados que tienes ventaja en las tiradas de iniciativa.</p>"
+		},
+		"Improved Brutal Strike": {
+			"name": "Golpe Brutal Mejorado",
+			"description": "<p>Has perfeccionado tus formas de atacar con fiereza. Entre las opciones de Golpe brutal se encuentran ahora los siguientes efectos:<br></p><p><strong>Golpe abrumador.</strong> El objetivo tiene desventaja en la siguiente tirada de salvación que haga y no puede llevar a cabo ataques de oportunidad hasta el principio de tu siguiente turno.<br></p><p><strong>Golpe desgarrador.</strong> Antes del principio de tu siguiente turno, la próxima tirada de ataque realizada por otra criatura contra el objetivo obtiene un bonificador de +5. Una tirada de ataque puede obtener solo un bonificador de un golpe desgarrador.</p><section class=\"secret\" id=\"secret-5KFPx8fyh5NldmJp\"><p><strong>Nota Foundry</strong></p><p>Este Rasgo incluye una actividad por cada opción que incluyen un Efecto Activo para el seguimiento del Golpe Abrumador y Golpe Desgarrador, pero no automatiza sus efectos.</p></section>"
+		},
+		"Improved Brutal Strike (2)": {
+			"name": "Golpe Brutal Mejorado (2)",
+			"description": "<p>El daño adicional de tu Golpe brutal aumenta a 2d10. Además, puedes utilizar dos efectos diferentes de Golpe Brutal siempre que uses tu rasgo Golpe Brutal.</p><section class=\"secret\" id=\"secret-XCUecJBPB6amtvj9\"><p><strong>Nota Foundry</strong></p><p>La tirada de ataque en Golpe Brutal escala automáticamente para utilizar este nuevo valor.</p></section>"
+		},
+		"Indomitable Might": {
+			"name": "Poderío indómito",
+			"description": "<p>Si tu resultado en una prueba de Fuerza o una tirada de salvación de Fuerza es inferior a tu puntuación de Fuerza, puedes usar esa puntuación en lugar del resultado.</p>"
+		},
+		"Instinctive Pounce": {
+			"name": "Salto Instintivo",
+			"description": "<p>Como parte de la Acción Adicional para dejarte llevar por la Furia, puedes moverte hasta la mitad de tu Velocidad.</p>"
+		},
+		"Persistent Rage": {
+			"name": "Furia Persistente",
+			"description": "<p>Cuando tires Iniciativa, puedes recuperar todos los usos gastados de la Furia. Tras recuperar los usos de la Furia de esta manera, no podrás volver a hacerlo hasta que finalices un Descanso Largo.<br></p><p>Además, tu Furia es tan intensa que ahora dura 10 minutos sin necesidad de hacer nada para prolongarla de un asalto a otro. Tu Furia termina antes si recibes el estado de &Reference[Unconscious] (no solo el de &Reference[Incapacitated]) o te pones una Armadura Pesada.</p><section class=\"secret\" id=\"secret-3IS0iUbWZ04tp74k\"> <p><strong>Nota Foundry</strong></p><p>Este Rasgo incluye una actividad que puede ser usada cuando tires Iniciativa que recargara todos tus usos de Furia</p></section>"
+		},
+		"Primal Champion": {
+			"name": "Campeón Primordial",
+			"description": "<p>Encarnas un poder primigenio. Tus puntuaciones de Fuerza y Constitución aumentan en 4, hasta un máximo de 25.</p>"
+		},
+		"Primal Knowledge": {
+			"name": "Conocimiento Primigenio",
+			"description": "<p>Ganas competencia en otra habilidad de tu elección de la lista de habilidades disponibles para los bárbaros en el nivel 1.</p><p>Además, mientras estés enfurecido, puedes canalizar el poder primigenio cuando intentes determinadas tareas. Siempre que hagas una prueba de característica con una de las siguientes habilidades, podrás hacerla como una prueba de Fuerza, incluso si normalmente utiliza otra característica: Acrobacias, Intimidación, Percepción, Sigilo o Supervivencia. Cuando utilizas esta capacidad, tu Fuerza representa el poder primigenio que fluye por ti y agudiza tu agilidad, porte y sentidos.</p><section class=\"secret\" id=\"secret-himIRZuFGInNkZgU\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que hará que tus características automáticamente utilicen tu modificador de Fuerza si es que es superior a la Puntuación de Habilidad normal asociada a la Habilidad.</p></section>"
+		},
+		"Rage": {
+			"name": "Furia",
+			"description": "<p>Puedes imbuirte de un poder primigenio llamado Furia, que te otorga una fuerza y resistencia extraordinarias. Puedes dejarte llevar por ella como Acción Adicional si no llevas puesta una Armadura Pesada.</p><p><br>Puedes dejarte llevar por la furia tantas veces como se indica para tu nivel de bárbaro en la columna “N.º de furias” de la tabla “Rasgos de bárbaro” (Actualmente [[lookup @scale.barbarian.rages]]). Recuperas uno de los usos gastados tras finalizar un Descanso Corto y todos tras finalizar un Descanso Largo.</p><p> </p><p>Mientras estés enfurecido, usa las siguientes reglas.</p><p><strong>Resistencia al daño</strong>. Tienes resistencia al daño &Reference[bludgeoning], &Reference[slashing] y &Reference[piercing].</p><p><strong>Daño por furia.</strong> Cuando llevas a cabo un ataque que use la Fuerza (ya sea con un Arma o un Ataque sin Armas) y causas daño al objetivo, obtienes un bonificador al daño que aumenta conforme subes de nivel de Bárbaro, como se muestra en la columna “Daño por Furia” de la tabla “Rasgos de Bárbaro”.</p><p><strong>Ventaja en Fuerza.</strong> Tienes ventaja en las pruebas de Fuerza y en las tiradas de salvación de Fuerza.<span> </span></p><p><strong>Sin concentración ni conjuros.</strong> No puedes mantener la Concentración ni lanzar conjuros.</p><p><strong>Duración.</strong> La Furia dura hasta el final de tu siguiente turno y termina antes si te pones una Armadura Pesada o recibes el estado de &Reference[Incapacitated]. Si la Furia sigue activa en tu siguiente turno, puedes prolongarla otro asalto de una de las siguientes formas:</p><ul><li><p>Haces una tirada de ataque contra un enemigo.</p></li><li><p>Obligas a un enemigo a hacer una tirada de salvación.</p></li><li><p>Empleas una acción adicional para prolongar tu furia.</p></li></ul><p>Cada vez que prolongues la Furia, durará hasta el final de tu siguiente turno. Puedes mantener una Furia hasta 10 minutos.</p><section class=\"secret\" id=\"secret-o72MSFMdhSQC7kYa\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que automatiza la Resistencia y Daño Adicional. Además, automatiza la recarga de la Furia usada en un Descanso Corto y Descanso Largo.</p></section>"
+		},
+		"Reckless Attack": {
+			"name": "Ataque Temerario",
+			"description": "<p>Puedes abandonar por completo tu defensa para atacar con una mayor fiereza. Cuando vayas a realizar la primera tirada de ataque de tu turno, puedes decidir Atacar Temerariamente. Si lo haces, tendrás ventaja en las tiradas de ataque que utilicen la Fuerza hasta el principio de tu siguiente turno, pero las tiradas de ataque contra ti también tendrán ventaja durante ese tiempo.</p><section class=\"secret\" id=\"secret-W7MI2ZVKsMQcSW6d\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo para saber si eres temerario o no, pero NO automatiza la Ventaja en tus ataques o en los ataques contra ti.</p></section>"
+		},
+		"Relentless Rage": {
+			"name": "Furia Implacable",
+			"description": "<p>Tu Furia te permite seguir luchando incluso tras sufrir heridas graves. Si tus Puntos de Golpe se reducen a 0 mientras estás Enfurecido, pero no mueres inmediatamente, puedes hacer una tirada de Salvación de Constitución con CD 10. Si la superas, tus Puntos de Golpe pasarán a ser una cantidad igual al doble de tu nivel de Bárbaro.</p><p>Siempre que uses este rasgo después de la primera vez, la CD aumenta en 5. Tras finalizar un Descanso Corto o un Descanso Largo. La CD vuelve a ser 10.</p><section class=\"secret\" id=\"secret-GTpuSHXh1ZobcQYd\"><p><strong>Nota Foundry</strong></p><p>Este rasgo aumentará automáticamente la CD en 5 si consumes el recurso al activarlo. También se restablecerá automáticamente a 10 tras un Descanso Corto o Largo.</p></section>"
+		},
+		"Unarmed Strike": {
+			"name": "Ataque sin Armas",
+			"description": "@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.xJjJ4lhymAYXAOvO]{Reglas Ataque sin Armas}."
+		},
+		"Unarmored Defense":{
+			"name":"Defensa sin Armadura",
+			"description":"<p>Mientras no lleves armadura alguna, tu Clase de Armadura base será igual a 10 más tus modificadores por Destreza y Constitución. Obtienes este beneficio aunque lleves un escudo.</p>"
+		},
+		"Weapon Mastery":{
+			"name":"Maestría con Armas",
+			"desciption":"<p>Tu entrenamiento con armas te permite utilizar las propiedades de maestría con dos tipos de Armas Cuerpo a Cuerpo Sencillas o Marciales de tu elección, como las Hachas a dos Manos y las Hachas de Mano. Tras finalizar un Descanso Largo, puedes llevar a cabo ejercicios con armas y cambiar una de dichas elecciones.</p><p>Cuando alcances ciertos niveles de Bárbaro, adquirirás la capacidad de usar las propiedades de maestría con más tipos de armas, como se muestra en la columna “Maestría con Armas” de la tabla “Rasgos de Bárbaro”.</p>"
 		}
-		
 	}
 }

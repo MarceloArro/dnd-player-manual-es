@@ -206,6 +206,54 @@
 		"Tough": {
 			"name": "Duro",
 			"description": ""
-		}
+		},
+		"Archery": {
+			"name": "Tiro con Arco",
+			"description": ""
+		},
+		"Blessed Warrior": {
+			"name": "Guerrero Bendito",
+			"description": ""
+		},
+		"Blind Fighting": {
+			"name": "Lucha a Ciegas",
+			"description": ""
+		},
+		"Defense": {
+			"name": "Defensa",
+			"description": ""
+		},
+		"Druidic Warrior": {
+			"name": "Guerrero Druídico",
+			"description": ""
+		},
+		"Dueling": {
+			"name": "Duelo",
+			"description": ""
+		},
+		"Great Weapon Fighting": {
+			"name": "Combate con Armas a Dos Manos",
+			"description": ""
+		},
+		"Interception": {
+			"name": "Intercepción",
+			"description": ""
+		},
+		"Protection": {
+			"name": "Protección",
+			"description": ""
+		},
+		"Thrown Weapon Fighting": {
+			"name": "Combate con Armas Arrojadizas",
+			"description": ""
+		},
+		"Two-Weapon Fighting": {
+			"name": "Combate con Dos Armas",
+			"description": ""
+		},
+		"Unarmed Fighting": {
+			"name": "Combate sin Armas",
+			"description": ""
+		},
 	}
 }

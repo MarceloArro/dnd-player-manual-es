@@ -24,12 +24,13 @@ Actualizando para DnD5e 4.3.1 y Foundry 11.315 (Verificado 12)
 - [X] Equipo
 - [_] Rasgos Generales
 - [_] Rasgos Orígen
+- [_] Rasgos Estilos de Combate
 - [_] Orígenes Transfondos
 - [_] Orígenes Especies
 - [_] Trucos
 - [_] Conjuros Lvl 1 - Lvl 3
 - [_] Nombres de Tablas y descipciones
-- [_] Otros Rasgos
+- [_] Epic boons feats
 - [_] Clases
 - [_] Actores
 - [_] Restantes

@@ -6,18 +6,18 @@
 		"Chapter 7": "Capítulo 7",
 		"Descriptions by Ability Score": "Descripciones por Puntuacion de Características",
 		"Personality Traits by Alignment": "Rasgos Personalidad por Alineamiento",
-		"Reincarnated Lineages":"Linajes reencarnados"
+		"Reincarnated Lineages": "Linajes reencarnados"
 	},
 	"entries": {
 		"Cardinal Directions": {
-			"name": "Direcciones cardinales",
+			"name": "Direcciones Cardinales",
 			"description": "",
 			"results": {
-                "1-1": "Norte",
+				"1-1": "Norte",
 				"2-2": "Sur",
 				"3-3": "Este",
 				"4-4": "Oeste"
-            }
+			}
 		},
 		"Chaotic Rasgos": {
 			"name": "Rasgos Caóticos",
@@ -29,24 +29,35 @@
 		},
 		"Charisma": {
 			"name": "Carisma",
-			"description": "<p>Esta tabla proporciona cuatro descripciones que se pueden utilizar para tu personaje dependiendo de si su puntuación de habilidad es <strong>alta</strong> o <strong>baja</strong>.</p>",
+			"description": "<p>Esta tabla proporciona cuatro descripciones que se pueden utilizar para tu personaje según sus puntuaciones de característica<strong>Altas</strong> o <strong>Bajas</strong>.</p>",
 			"1-1": "<strong>Alta:</strong> Encantador. <strong>  Baja:</strong> Pedante.",
-			"2-2": "<strong>Alta:</strong> Lider. <strong>Baja:</strong> Sin humor.",
-			"3-3": "<strong>Alta:</strong> Hilarante. <strong> Baja:</strong> Reservado.",
-			"4-4": "<strong>Alta:</strong> Inspirador. <strong> Baja:</strong> Sin Tacto."
+			"2-2": "<strong>Alta:</strong> Dominante. <strong>Baja:</strong> Soso.",
+			"3-3": "<strong>Alta:</strong> Divertido. <strong> Baja:</strong> Reservado.",
+			"4-4": "<strong>Alta:</strong> Inspirador. <strong> Baja:</strong> Insensible."
 		},
 		"Confusion Behavior": {
 			"name": "Comportamiento Confusión ",
 			"description": "<p>Comportamiento para el turno</p>"
-		
 		},
 		"Constitution": {
-			"name": "Constitution",
-			"description": "<p>This table provides four descriptors that can be used for your character dependent on whether their ability score is <strong>high</strong> or <strong>low</strong>.</p>"
+			"name": "Constitución",
+			"description": "<p>Esta tabla proporciona cuatro descripciones que se pueden utilizar para tu personaje según sus puntuaciones de característica<strong>Altas</strong> o <strong>Bajas</strong>.</p>",
+			"results": {
+				"1-1": "<strong>Alta:</strong> Enérgico. <strong>Baja:</strong> Frágil.",
+				"2-2": "<strong>Alta:</strong> Saludable. <strong>Baja:</strong> Aprensivo.",
+				"3-3": "<strong>Alta:</strong> Afable. <strong>Baja:</strong> Apático.",
+				"4-4": "<strong>Alta:</strong> Estable. <strong>Baja:</strong> Vulnerable."
+			}
 		},
 		"Dexterity": {
-			"name": "Dexterity",
-			"description": "<p>This table provides four descriptors that can be used for your character dependent on whether their ability score is <strong>high</strong> or <strong>low</strong>.</p>"
+			"name": "Destreza",
+			"description": "<p>Esta tabla proporciona cuatro descripciones que se pueden utilizar para tu personaje según sus puntuaciones de característica<strong>Altas</strong> o <strong>Bajas</strong>.</p>",
+			"results": {
+				"1-1": "<strong>Alta:</strong> Ágil. <strong>Baja:</strong> Nervioso.",
+				"2-2": "<strong>Alta:</strong> Dinamico. <strong>Baja:</strong> Torpe.",
+				"3-3": "<strong>Alta:</strong> Inquieto. <strong>Baja:</strong> Indeciso.",
+				"4-4": "<strong>Alta:</strong> Equilibrado. <strong>Baja:</strong> Inseguro."
+			}
 		},
 		"Elven Lineage": {
 			"name": "Elven Lineage",
@@ -73,8 +84,14 @@
 			"description": ""
 		},
 		"Intelligence": {
-			"name": "Intelligence",
-			"description": "<p>This table provides four descriptors that can be used for your character dependent on whether their ability score is <strong>high</strong> or <strong>low</strong>.</p>"
+			"name": "Inteligencia",
+			"description": "<p>Esta tabla proporciona cuatro descripciones que se pueden utilizar para tu personaje según sus puntuaciones de característica<strong>Altas</strong> o <strong>Bajas</strong>.</p>",
+			"results": {
+				"1-1": "<strong>Alta:</strong> Decidido. <strong>Baja:</strong> Tosco.",
+				"2-2": "<strong>Alta:</strong> Lógico. <strong>Baja:</strong> Ilógico.",
+				"3-3": "<strong>Alta:</strong> Instructivo. <strong>Baja:</strong> Ignorante.",
+				"4-4": "<strong>Alta:</strong> Curioso. <strong>Baja:</strong> Frívolo."
+			}
 		},
 		"Lawful Rasgos": {
 			"name": "Lawful Rasgos",
@@ -101,20 +118,38 @@
 			"description": "<p>Roll [[/r 1d10]] and consult the table below to determine the body’s species, or the DM chooses another playable species.</p>"
 		},
 		"Standard Languages": {
-			"name": "Standard Languages",
-			"description": ""
+			"name": "Idiomas Estándar ",
+			"results": {
+				"1-1": "Sub-Languages Table"
+			}
 		},
 		"Star Map Forms": {
 			"name": "Star Map Forms",
 			"description": ""
 		},
 		"Strength": {
-			"name": "Strength",
-			"description": "<p>This table provides four descriptors that can be used for your character dependent on whether their ability score is <strong>high</strong> or <strong>low</strong>.</p>"
+			"name": "Fuerza",
+			"description": "<p>Esta tabla proporciona cuatro descripciones que se pueden utilizar para tu personaje según sus puntuaciones de característica<strong>Altas</strong> o <strong>Bajas</strong>.</p>",
+			"results": {
+				"1-1": "<strong>Alta:</strong> Musculoso. <strong>Baja:</strong> Debíl.",
+				"2-2": "<strong>Alta:</strong> Fibroso. <strong>Baja:</strong> Flaco.",
+				"3-3": "<strong>Alta:</strong> Protector. <strong>Baja:</strong> Apocado.",
+				"4-4": "<strong>Alta:</strong> Directo. <strong>Baja:</strong> Evasivo."
+			}
 		},
 		"Sub-Languages Table": {
-			"name": "Sub-Languages Table",
-			"description": ""
+			"name": "Tabla de Subidiomas",
+			"results": {
+				"1-1": "<strong>Idioma:</strong> Lenguaje de Signos Común. <strong>Origen:</strong> Sigil.",
+				"2-2": "<strong>Idioma:</strong> Dracónico. <strong>Origen:</strong> Dragones.",
+				"3-4": "<strong>Idioma:</strong> Enano. <strong>Origen:</strong> Enanos.",
+				"5-6": "<strong>Idioma:</strong> Elfo. <strong>Origen:</strong> Elfos.",
+				"7-7": "<strong>Idioma:</strong> Gigante. <strong>Origen:</strong> Gigantes.",
+				"8-8": "<strong>Idioma:</strong> Gnomo. <strong>Origen:</strong> Gnomos.",
+				"9-9": "<strong>Idioma:</strong> Goblin. <strong>Origen:</strong> Trasgos.",
+				"10-11": "<strong>Idioma:</strong> Mediano. <strong>Origen:</strong> Medianos.",
+				"12-12": "<strong>Idioma:</strong> Orco. <strong>Origen:</strong> Orcos."
+			}
 		},
 		"Teleport Mishap": {
 			"name": "Teleport Mishap",
@@ -129,8 +164,14 @@
 			"description": ""
 		},
 		"Wisdom": {
-			"name": "Wisdom",
-			"description": "<p>This table provides four descriptors that can be used for your character dependent on whether their ability score is <strong>high</strong> or <strong>low</strong>.</p>"
+			"name": "Sabiduría",
+			"description": "<p>Esta tabla proporciona cuatro descripciones que se pueden utilizar para tu personaje según sus puntuaciones de característica<strong>Altas</strong> o <strong>Bajas</strong>.</p>",
+			"results": {
+				"1-1": "<strong>Alta:</strong> Serenp. <strong>Baja:</strong> Impulsivo.",
+				"2-2": "<strong>Alta:</strong> Considerado. <strong>Baja:</strong> DisDistraídotraido.",
+				"3-3": "<strong>Alta:</strong> Atento. <strong>Baja:</strong> Impasible.",
+				"4-4": "<strong>Alta:</strong> Precavido. <strong>Baja:</strong> Ingenuo."
+			}
 		}
 	}
 }

@@ -37,8 +37,13 @@
 			"4-4": "<strong>Alta:</strong> Inspirador. <strong> Baja:</strong> Insensible."
 		},
 		"Confusion Behavior": {
-			"name": "Comportamiento Confusión ",
-			"description": "<p>Comportamiento para el turno</p>"
+			"name": "Comportamiento del Turno",
+			"results": {
+				"1-1": "Direcciones Cardinales",
+				"2-6": "El objetivo no se mueve ni realiza acciones.",
+				"7-8": "El objetivo no se mueve y emplea la acción de atacar para hacer un ataque cuerpo a cuerpo contra una criatura aleatoria dentro de su alcance. Si no hay ninguna dentro de su alcance, el objetivo no hace ninguna acción.",
+				"9-10": "El objetivo elige su comportamiento,"
+			}
 		},
 		"Constitution": {
 			"name": "Constitución",
@@ -74,8 +79,15 @@
 			}
 		},
 		"Feywild Gifts": {
-			"name": "Feywild Gifts",
-			"description": ""
+			"name": "Dádivas de los Parajes Feéricos ",
+			"results": {
+				"1-1": "Unas mariposas ilusorias revolotean a tu alrededor mientras haces un Descanso Corto o Largo. ",
+				"2-2": "Te brotan flores en el pelo cada amanecer.",
+				"3-3": "Emanas un ligero olor a canela, lavanda, nuez moscada u otra hierba o especia agradable.",
+				"4-4": "Tu sombra baila cuando nadie la mira directamente.",
+				"5-5": "De tu cabeza brotan cuernos o astas.",
+				"6-6": "Tupiel y tu cabello cambian de color cada amanecer."
+			}
 		},
 		"Fiendish Legacy": {
 			"name": "Fiendish Legacy",
@@ -114,8 +126,15 @@
 			}
 		},
 		"Manifestations of Order": {
-			"name": "Manifestations of Order",
-			"description": ""
+			"name": "Manifestaciones del Orden",
+			"results": {
+				"1-1": "Unos engranajes espectrales levitan tras de ti.",
+				"2-2": "Las manecillas de un reloj giran en tus ojos.",
+				"3-3": "Tu piel resplandece con un brillo metálico. ",
+				"4-4": "Objetos geométricos y ecuaciones flotantes recubren tu cuerpo.",
+				"5-5": "Tu canalizador mágico adopta temporalmente la forma de un mecanismo de relojería Diminuto.",
+				"6-6": "Tanto tú como aquellos afectados por tu magia podéis escuchar el tictac de los engranajes o el timbre de un reloj."
+			}
 		},
 		"Neutral Traits": {
 			"name": "Rasgos Neutrales",
@@ -127,8 +146,16 @@
 			}
 		},
 		"Prismatic Layers": {
-			"name": "Prismatic Layers",
-			"description": ""
+			"name": "Capas Prismáticas",
+			"results": {
+				"1-1": "<p><strong>Rojo.</strong><em> Si falla la tirada: </em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"fire\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de Fuego. <em>Si supera la tirada:</em> La mitad de daño. <em>Efectos adicionales</em>: Los ataques a distancia no mágicos no pueden atravesar esta capa, que se destruye si recibe al menos 25 de daño de Frío.</p>",
+				"2-2": "<p><strong>Naranja.</strong><em> Si falla la tirada: </em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"acid\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de Ácido. <em>Si supera la tirada:</em> La mitad de daño. <em>Efectos adicionales:</em> Los ataques a distancia mágicos no atraviesan esta capa, que puede destruirse mediante un viento fuerte (como el que crea <em>Ráfaga de Viento</em>).</p>",
+				"3-3": "<p><strong>Amarilla.</strong><em> Si falla la tirada: </em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"lightning\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de Relámpago. <em>Si supera la tirada:</em> La mitad de daño. <em>Efectos adicionales:</em> La capa se destruye si recibe al menos 60 de daño de Fuerza. </p>",
+				"4-4": "<p><strong>Verde.</strong><em> Si falla la tirada: </em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"poison\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de Veneno. <em>Si supera la tirada:</em> La mitad de daño. <em>Efectos adicionales:</em> Un conjuro <em>Pasamuros</em> u otro del mismo nivel o superior que puedan abrir un portal en una superficie sólida destruirán esta capa.</p>",
+				"5-5": "<p><strong>Azul.</strong><em> Si falla la tirada: </em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"cold\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de Frio. <em>Si supera la tirada:</em> La mitad de daño. <em>Efectos adicionales:</em> La capa se destruye si recibe al menos 25 de daño de Fuego.</p>",
+				"6-6": "<p><strong>Añil.</strong><em> Si falla la tirada: </em> El objetivo tendrá el estado de <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Restrained</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"restrained\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> y hara una Tirada de Salvación de <span class=\"roll-link\" data-type=\"save\" data-ability=\"con\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Constitution</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> al final de cada uno de sus turnos. Si la supera tres veces, el estado terminará. Si la falla tres veces, tendra el estado de <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xaNDaW6NwQTgHSmi\" data-id=\"xaNDaW6NwQTgHSmi\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Petrified</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"petrified\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> hasta que lo libere un efecto como el del conjuro <em>Restablecimiento Mayor</em>. Los éxitos y los fallos no tienen por qué ser consecutivos: lleva la cuenta de ambos hasta que el objetivo tenga tres de un mismo tipo. <em>Efectos adicionales:</em> No es posible lanzar conjuros a través de esta capa, que puede destruirse mediante la luz brillante del conjuro <em>Luz del Día</em>.</p>",
+				"7-7": "<p><strong>Violeta.</strong><em> Si falla la tirada: </em> El objetivo tendrá el estado de <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.0b8N4FymGGfbZGpJ\" data-id=\"0b8N4FymGGfbZGpJ\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Blinded</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"blinded\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> y hara una Tirada de Salvación de <span class=\"roll-link\" data-type=\"save\" data-ability=\"wis\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Wisdom</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> al principio de tu siguiente turno. Si la supera, el estado terminará. Si la falla, el estado terminará y la criatura se teletransportará a otro plano de existencia (a elección de tu DM). <em>Efectos adicionales:</em> esta capa puede destruirse mediante <em>Disipar Magia</em>.</p>"
+			}
 		},
 		"Prismatic Rays": {
 			"name": "Prismatic Rays",
@@ -145,8 +172,15 @@
 			}
 		},
 		"Star Map Forms": {
-			"name": "Star Map Forms",
-			"description": ""
+			"name": "Forma del Mapa Estelar",
+			"results": {
+				"1-1": "Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapScroll]{Pergamino} donde están representadas las constelaciones",
+				"2-2": "Una @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapStoneT]{Tablilla de Piedra} perforada con pequeños agujeros",
+				"3-3": "La @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapOwlbea]{Piel de un Oso Lechuza} en la que hay símbolos estelares grabados",
+				"4-4": "Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapBoundI]{Conjunto de Mapas} encuadernados con una cubierta de ébano",
+				"5-5": "Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapCrysta]{Cristal} decorado con patrones de estrellas",
+				"6-6": "Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapGlassD]{Disco de Cristal } con grabados de constelaciones"
+			}
 		},
 		"Strength": {
 			"name": "Fuerza",

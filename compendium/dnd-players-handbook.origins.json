@@ -1,19 +1,19 @@
 {
 	"label": "Orígenes",
-	"folders":{
-		"Backgrounds":"Transfondos",
+	"folders": {
+		"Aasimar": "Aasimar",
+		"Backgrounds": "Transfondos",
+		"Dragonborn": "Dracónido",
+		"Dwarf": "Enano",
+		"Elf": "Elfo",
+		"Gnome": "Gnomo",
+		"Goliath": "Goliat",
+		"Halfling": "Mediano",
+		"Human": "Humano",
+		"Orc": "Orco",
 		"Species": "Especies",
-		"Traits": "Rasgos",
-		"Aasimar":"Aasimar",
-		"Dragonborn":"Dracónido",
-		"Dwarf":"Enano",
-		"Elf":"Elfo",
-		"Gnome":"Gnomo",
-		"Goliath":"Goliat",
-		"Halfling":"Mediano",
-		"Orc":"Orco",
-		"Human":"Humano",
-		"Tiefling":"Tiefling"
+		"Tiefling": "Tiefling",
+		"Traits": "Atributos"
 	},
 	"entries": {}
 }

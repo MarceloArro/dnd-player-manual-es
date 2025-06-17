@@ -1,26 +1,266 @@
 {
 	"label": "Actores",
 	"folders": {
-		"Companions":"Compañeros",
-		"Otherworldly Steeds":"Corceles de Otro Mundo",
-		"Primal Companions":"Compañeros Primordiales",
-		"Conjurations":"Conjuraciones",
-		"Animated Objects":"Objetos Animados",
-		"Conjured Elementals":"Conjurar Elementales",
-		"Creatures":"Creaturas",
-		"Example Characters":"Ejemplos de Personajes",
-		"Summons":"Invocaciones",
-		"Aberrant Spirits":"Espíritus Aberrantes",
-		"Bestial Spirits":"Espíritus Bestiales",
-		"Celestial Spirits":"Espíritus Celestiales",
-		"Construct Spirits":"Espíritus Autómatas",
-		"Elemental Spirits":"Espíritus Elementales",
-		"Fey Spirits":"Espíritus Feéricos",
-		"Fiendish Spirits":"Espíritus Infernales",
-		"Giant Insects":"Insectos Gigantes",
-		"Summon Templates":"Plantillas para Invocar",
-		"Undead Spirits":"Espíritus No Muertos",
-		"Vehicles":"Vehículos"
+		"Companions": "Compañeros",
+		"Otherworldly Steeds": "Corceles Sobrenaturales",
+		"Primal Companions": "Compañeros Primigenios ",
+		"Conjurations": "Conjuraciones",
+		"Animated Objects": "Objetos Animados",
+		"Conjured Elementals": "Conjurar Elementales",
+		"Creatures": "Criaturas",
+		"Example Characters": "Ejemplos de Personajes",
+		"Summons": "Invocaciones",
+		"Aberrant Spirits": "Espíritus Aberrantes",
+		"Bestial Spirits": "Espíritus Bestiales",
+		"Celestial Spirits": "Espíritus Celestiales",
+		"Construct Spirits": "Espíritus Autómatas",
+		"Elemental Spirits": "Espíritus Elementales",
+		"Fey Spirits": "Espíritus Feéricos",
+		"Fiendish Spirits": "Espíritus Infernales",
+		"Giant Insects": "Insectos Gigantes",
+		"Summon Templates": "Plantillas de Invocaciones",
+		"Undead Spirits": "Espíritus Muertos Vivientes",
+		"Vehicles": "Vehículos"
 	},
-	"entries": {}
+	"entries": {
+		"Airship": {
+			"name": "Aeronave",
+			"tokenName": "Aeronave",
+			"description": "<p><strong>Speed:</strong> 8 mph</p><p><strong>Crew:</strong> 10</p><p><strong>Passengers:</strong> 20</p><p><strong>Cargo (Tons):</strong> 1</p><p><strong>AC:</strong> 13</p><p><strong>HP:</strong> 300</p><p><strong>Damage Threshold:</strong> —</p><p><strong>Cost:</strong> 40,000 GP</p>"
+		},
+		"Beast of the Land": {
+			"name": "Bestia de Tierra Firme",
+			"tokenName": "Bestia de Tierra Firme",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbrgrPrimalComp caption=false]</p>",
+			"items": {
+				"Primal Bond": {
+					"name": "Vínculo Primigenio",
+					"description": "<p>Suma tu bonificador por competencia a cualquier prueba de característica o tirada de salvación que realice la bestia.</p><section class=\"secret\" id=\"secret-pNoLkUZKFbyzHTbF\"><p><strong>Nota Foundry</strong></p><p>Esta bonificación se ha incluido en las Bonificaciones Globales de la bestia.</p></section>"
+				},
+				"Beast’s Strike": {
+					"name": "Golpe de Bestia",
+					"description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 5 ft (1.5 m). <em>Acierto:</em> 1d8 + 2 más tu modificador por Sabiduría de daño contundente, corante o perforante (a tu elección cuando invocas a la bestia). Si la bestia recorrió al menos 6 m en línea recta hacia el objetivo antes de acertarle, este recibe 1d6 de Daño Adicional del mismo tipo y, si es una criatura Grande o más pequeña, tendrá el estado de &amp;Reference[prone].</p><section class=\"secret\" id=\"secret-EslplTbdjSBUKz5n\"><p><strong>Foundry Note</strong></p><p>The <strong>Attack</strong> and <strong>Charging Attack</strong> activities will allow you to choose the damage type in the roll dialog. You should choose one damage type and use it consistently until resummoning your companion.</p><p>The <strong>Charging Attack</strong> activity includes the additional damage.</p><p>Additionally, they have force as a damage option which should only be used once you reach level 7 and get the @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrExceptiona]{Exceptional Training} feature.</p></section>",
+					"activities": {
+						"Charging Attack": {
+							"name": "Charging Attack"
+						}
+					}
+				}
+			}
+		},
+		"Beast of the Sea": {
+			"name": "Bestia de los Mares",
+			"tokenName": "Bestia de los Mares",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbrgrPrimalComp caption=false]</p>",
+			"items": {
+				"Amphibious": {
+					"name": "Anfibia",
+					"description": "<p>La bestia puede respirar tanto dentro como fuera del agua.</p>"
+				},
+				"Primal Bond": {
+					"name": "Vínculo Primigenio",
+					"description": "<p>Suma tu bonificador por competencia a cualquier prueba de característica o tirada de salvación que realice la bestia.</p><section class=\"secret\" id=\"secret-pNoLkUZKFbyzHTbF\"><p><strong>Nota Foundry</strong></p><p>Esta bonificación se ha incluido en las Bonificaciones Globales de la bestia.</p></section>"
+				},
+				"Beast’s Strike": {
+					"name": "Golpe de Bestia",
+					"description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 5 ft (1.5 m). <em>Acierto:</em> 1d6 + más tu modificador por Sabiduría de daño contundente o perforante (a tu elección cuando invocas a la bestia) y el objetivo tendrá el estado de &amp;Reference[grappled] (CD para escapar igual a tu CD de salvación de conjuros).</p><section class=\"secret\" id=\"secret-zGW1whEmGkycnc94\"><p><strong>Nota Foundry</strong></p><p>La Actividad de <strong>Ataque</strong> te permitira elejir el tipo de daño del ataque. Debes elegir un tipo de daño y usarlo de forma constante hasta que vuelvas a invocar a tu compañero.</p><p>Además, tienen el tipo Fuerza como opción de daño, que sólo debe utilizarse una vez alcanzado el nivel 7 y conseguido @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrExceptiona]{Entrenamiento Excepcional}.</p></section>"
+				}
+			}
+		},
+		"Beast of the Sky": {
+			"name": "Bestia del Cielo",
+			"tokenName": "Bestia del Cielo",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbrgrPrimalComp caption=false]</p>",
+			"items": {
+				"Flyby": {
+					"name": "Pasar Volando",
+					"description": "<p> La bestia no provoca ataques de oportunidad cuando vuela para ponerse fuera del alcance de un enemigo.</p>"
+				},
+				"Primal Bond": {
+					"name": "Vínculo Primigenio",
+					"description": "<p>Suma tu bonificador por competencia a cualquier prueba de característica o tirada de salvación que realice la bestia.</p><section class=\"secret\" id=\"secret-pNoLkUZKFbyzHTbF\"><p><strong>Nota Foundry</strong></p><p>Esta bonificación se ha incluido en las Bonificaciones Globales de la bestia.</p></section>"
+				},
+				"Beast’s Strike": {
+					"name": "Golpe de Bestia",
+					"description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 5 ft (1.5 m). <em>Acierto:</em> 1d4 + 3 más tu modificador por Sabiduría de daño cortante.</p><section class=\"secret\" id=\"secret-zGW1whEmGkycnc94\"><p><strong>Nota Foundry</strong></p><p>La Actividad de <strong>Ataque</strong> te permitira elejir el tipo de daño del ataque. Debes elegir un tipo de daño y usarlo de forma constante hasta que vuelvas a invocar a tu compañero.</p><p>Además, tienen el tipo Fuerza como opción de daño, que sólo debe utilizarse una vez alcanzado el nivel 7 y conseguido @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrExceptiona]{Entrenamiento Excepcional}.</p></section>"
+				}
+			}
+		},
+		"Celestial Steed": {
+			"name": "Celestial Steed",
+			"tokenName": "Otherworldly Steed",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>",
+			"items": {
+				"Life Bond": {
+					"name": "Life Bond",
+					"description": "<p> When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if you’re within 5 feet of it.</p>"
+				},
+				"Otherworldly Slam": {
+					"name": "Otherworldly Slam",
+					"description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d8 plus the spell’s level of Radiant damage.</p>"
+				},
+				"Healing Touch": {
+					"name": "Healing Touch",
+					"description": "<p> One creature within 5 feet of the steed regains a number of Hit Points equal to 2d8 plus the spell’s level.</p>"
+				}
+			}
+		},
+		"Fey Steed": {
+			"name": "Fey Steed",
+			"tokenName": "Otherworldly Steed",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>",
+			"items": {
+				"Life Bond": {
+					"name": "Life Bond",
+					"description": "<p> When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if you’re within 5 feet of it.</p>"
+				},
+				"Otherworldly Slam": {
+					"name": "Otherworldly Slam",
+					"description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d8 plus the spell’s level of Psychic damage.</p>"
+				},
+				"Fey Step": {
+					"name": "Fey Step",
+					"description": "<p> The steed teleports, along with its rider, to an unoccupied space of your choice up to 60 feet away from itself.</p>",
+					"activities": {
+						"Teleport": {
+							"name": "Teleport"
+						}
+					}
+				}
+			}
+		},
+		"Fiend Steed": {
+			"name": "Fiend Steed",
+			"tokenName": "Otherworldly Steed",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>",
+			"items": {
+				"Life Bond": {
+					"name": "Life Bond",
+					"description": "<p> When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if you’re within 5 feet of it.</p>"
+				},
+				"Otherworldly Slam": {
+					"name": "Otherworldly Slam",
+					"description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d8 plus the spell’s level of Necrotic damage.</p>"
+				},
+				"Fell Glare": {
+					"name": "Fell Glare",
+					"description": "<p><em>Wisdom Saving Throw:</em> DC equals your spell save DC, one creature within 60 feet the steed can see. <em>Failure:</em> The target has the &amp;Reference[frightened] condition until the end of your next turn.</p>",
+					"effects": {
+						"Frightened": {
+							"name": "Frightened"
+						}
+					}
+				}
+			}
+		},
+		"Galley": {
+			"name": "Galera",
+			"tokenName": "Galera",
+			"description": "<p><strong>Speed:</strong> 4 mph</p><p><strong>Crew:</strong> 80</p><p><strong>Passengers:</strong> —</p><p><strong>Cargo (Tons):</strong> 150</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 500</p><p><strong>Damage Threshold:</strong> 20</p><p><strong>Cost:</strong> 30,000 GP</p>"
+		},
+		"Huge Animated Object": {
+			"name": "Huge Animated Object",
+			"tokenName": "Animated Object",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
+			"items": {
+				"Slam": {
+					"name": "Slam",
+					"description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> Force damage equal to 2d12 + 3 + your spellcasting ability modifier.</p>"
+				}
+			}
+		},
+		"Keelboat": {
+			"name": "Barcaza",
+			"tokenName": "Barcaza",
+			"description": "<p><strong>Speed:</strong> 1 mph</p><p><strong>Crew:</strong> 1</p><p><strong>Passengers:</strong> —</p><p><strong>Cargo (Tons):</strong> 1/2</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 100</p><p><strong>Damage Threshold:</strong> 10</p><p><strong>Cost:</strong> 3,000 GP</p>"
+		},
+		"Large Animated Object": {
+			"name": "Large Animated Object",
+			"tokenName": "Animated Object",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
+			"items": {
+				"Slam": {
+					"name": "Slam",
+					"description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> Force damage equal to 2d6 + 3 + your spellcasting ability modifier.</p>"
+				}
+			}
+		},
+		"Longship": {
+			"name": "Drakkar",
+			"tokenName": "Drakkar",
+			"description": "<p><strong>Speed:</strong> 3 mph</p><p><strong>Crew:</strong> 40</p><p><strong>Passengers:</strong> 150</p><p><strong>Cargo (Tons):</strong> 10</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 300</p><p><strong>Damage Threshold:</strong> 15</p><p><strong>Cost:</strong> 10,000 GP</p>"
+		},
+		"Medium Animated Object": {
+			"name": "Medium Animated Object",
+			"tokenName": "Animated Object",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
+			"items": {
+				"Slam": {
+					"name": "Slam",
+					"description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> Force damage equal to 1d4 + 3.</p>"
+				}
+			}
+		},
+		"Rowboat": {
+			"name": "Bote de Remos",
+			"tokenName": "Bote de Remos",
+			"description": "<p><strong>Speed:</strong> 1 1/2 mph</p><p><strong>Crew:</strong> 1</p><p><strong>Passengers:</strong> 3</p><p><strong>Cargo (Tons):</strong> —</p><p><strong>AC:</strong> 11</p><p><strong>HP:</strong> 50</p><p><strong>Damage Threshold:</strong> —</p><p><strong>Cost:</strong> 50 GP</p>"
+		},
+		"Sailing Ship": {
+			"name": "Velero",
+			"tokenName": "Velero",
+			"description": "<p><strong>Speed:</strong> 2 mph</p><p><strong>Crew:</strong> 20</p><p><strong>Passengers:</strong> 20</p><p><strong>Cargo (Tons):</strong> 100</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 300</p><p><strong>Damage Threshold:</strong> 15</p><p><strong>Cost:</strong> 10,000 GP</p>"
+		},
+		"Small Animated Object": {
+			"name": "Small Animated Object",
+			"tokenName": "Animated Object",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
+			"items": {
+				"Slam": {
+					"name": "Slam",
+					"description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> Force damage equal to 1d4 + 3.</p>"
+				}
+			}
+		},
+		"Otherworldly Steed": {
+			"name": "Otherworldly Steed",
+			"tokenName": "Otherworldly Steed",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>",
+			"items": {
+				"Life Bond": {
+					"name": "Life Bond",
+					"description": "<p> When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if you’re within 5 feet of it.</p>"
+				},
+				"Otherworldly Slam": {
+					"name": "Otherworldly Slam",
+					"description": "<p> <em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d8 plus the spell’s level of Radiant (Celestial), Psychic (Fey), or Necrotic (Fiend) damage.</p>"
+				},
+				"Fell Glare": {
+					"name": "Fell Glare",
+					"description": "<p><em>Wisdom Saving Throw:</em> DC equals your spell save DC, one creature within 60 feet the steed can see. <em>Failure:</em> The target has the &amp;Reference[frightened apply=false] condition until the end of your next turn.</p>",
+					"effects": {
+						"Frightened": {
+							"name": "Frightened"
+						}
+					}
+				}
+			}
+		},
+		"Tiny Animated Object": {
+			"name": "Tiny Animated Object",
+			"tokenName": "Animated Object",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
+			"items": {
+				"Slam": {
+					"name": "Slam",
+					"description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> Force damage equal to 1d4 + 3.</p>"
+				}
+			}
+		},
+		"Warship": {
+			"name": "Navío de Guerra",
+			"tokenName": "Navío de Guerra ",
+			"description": "<p><strong>Speed:</strong> 2 1/2 mph</p><p><strong>Crew:</strong> 60</p><p><strong>Passengers:</strong> 60</p><p><strong>Cargo (Tons):</strong> 200</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 500</p><p><strong>Damage Threshold:</strong> 20</p><p><strong>Cost:</strong> 25,000 GP</p>"
+		}
+	}
 }

@@ -1,47 +1,47 @@
 {
-	"label": "Rasgos",
+	"label": "Dotes",
 	"folders": {
 		"Epic Boon Feats": "Dotes de don Épico",
 		"Fighting Style Feats": "Dotes de Estilo de Combate",
 		"General Feats": "Dotes Generales",
-		"Origin Feats": "Rasgos de Origen"
+		"Origin Feats": "Dotes de Origen"
 	},
 	"entries": {
 		"Ability Score Improvement": {
-			"name": "Mejora de Puntuación de característica",
-			"description": "<p><em>Rasgo General (Prerrequisito: Nivel 4+)</em></p><p>Cuando alcances los niveles 4, 8, 12 y 16, podrás elegir una puntuación de característica y aumentarla en 2 o dos puntuaciones de característica y aumentarlas en 1 cada una. Como es habitual, no puedes aumentar una puntuación de característica por encima de 20.</p><p><strong>Repetible.</strong> Puedes obtener este rasgo más de una vez.</p>"
+			"name": "Mejora de Característica",
+			"description": "<p><em>Dote General (Prerrequisito: Nivel 4 o más)</em></p><p>Aumenta en 2 una Puntuación de Característica que elijas o aumenta dos en 1 cada una. Esta. No puedes aumentar una Puntuación de Característica por encima de 20.</p><p><strong>Repetible.</strong> Puedes obtener esta Dote más de una vez.</p>"
 		},
 		"Actor": {
 			"name": "Actor",
-			"description": "<p><em>Prerrequisito: Carisma 13+</em></p><p>Debido a tu habilidad para la imitación y el arte dramático, recibes los beneficios siguientes</p><p><strong>Mejora de característica.</strong>incrementa tu puntuación de Carísma en 1, hasta un máxino de 20.</p><p><strong>Personificación.</strong>Mientras estés disfrazado de una persona real o ficticia, tienes ventaja en las pruebas de Carisma (&Reference[dec] o &Reference[prf]) para convencer a los demás de que eres esa persona.</p><p><strong>Imitación.</strong> <p><strong>Mimetismo.</strong> Puedes imitar los sonidos de otras criaturas, incluido el habla. Una criatura que oiga la imitación debe tener éxito en un prueba de Sabiduría (&Reference[ins]) para determinar que el efecto es fingido (DC 8 + tu modificador de Carisma + Bonificador de Competencia).</p><section class=\"secret\" id=\"secret-tOhwF8l7gqyVJOOB\"><p><strong>Notas Foundry</strong></p><p><strong>Imitación</strong> incluye una actividad con la DC correcta.</p><p>Este Rasgo no automatiza la ventaja en la tirada.</p></section>"
+			"description": "<p><em>Dote General (Requisitos: nivel 4 o más, Carisma 13 o más)</em></p><p><br>Obtienes los siguientes beneficios:</p><p><strong>Mejora de Característica.</strong> Aumenta tu puntuación de Carisma en 1, hasta un máximo de 20.</p><p><strong>Suplantación.</strong> Mientras te disfraces de alguien real o ficticio, tendrás Ventaja en las pruebas de Carisma (Engaño o Interpretación) para convencer a los demás de que eres esa persona.<br></p><p><strong>Imitación.</strong> Puedes imitar el sonido de otras criaturas, incluida el habla. Una criatura que escuche la imitación deberá superar una prueba de Sabiduría (Perspicacia) para darse cuenta de que es una farsa (CD 8 más tu modificador por Carisma y tu bonificador por competencia).<br></p><section class=\"secret\" id=\"secret-tOhwF8l7gqyVJOOB\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Imitación </strong>incluye una prueba con el CD correcto.<br>Esta dote no automatiza la ventaja en las pruebas.</p><p></p></section>"
 		},
 		"Athlete": {
 			"name": "Atleta",
-			"description": "<p><em>Prerrequisito: Fuerza o Destreza 13+</em></p> <p>Ganas los siguientes beneficios.</p> <p><strong>Mejora de característica.</strong> Tu puntuación de &Reference[str] o &Reference[dex] aumenta en 1, hasta un máximo de 20.</p> <p><strong>Velocidad Trepar.</strong> Ganas una velocidad para trepar es igual a tu movimiento.</p> <p><strong>Levantarse.</strong> Cuando tienes la condición &Reference[Prone], puedes levantarte utilizando solo 5 pies de tu movimiento</p> <p><strong>Saltar.</strong> Puedes hacer un salto con carrerilla, tanto &Reference[Long Jump]{Largo} o &Referencia[Alto] tras haberte movido tan sólo 5 pies.</p> <section class=\"secret\" id=\"secret-HwMnjjLPfn97FUqL\"> <p><strong>Notas Foundry</strong></p> <p>Esta hazaña no automatiza los efectos. Puedes añadir tu movimiento de trepar activando el modo «Editar» de tu hoja y haciendo clic en el icono «Engranaje» encima de «Caminar».</p> </section>"
+			"description": "<p><em>Dote General (requisitos: nivel 4 o más, Fuerza o Destreza 13 o más)</em></p><p>Obtienes los siguientes beneficios:<br><br><strong>Mejora de Característica.</strong> Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20.</p><p><strong>Velocidad Trepando.</strong> Obtienes una velocidad trepando igual a tu velocidad.</p><p><strong>Levantarse de un Salto</strong>. Si tienes el estado de &Reference[Prone] , puedes ponerte de pie con solo 5ft (1,5 m) de movimiento.</p><p><strong>Saltar.</strong> Puedes hacer un salto de &Reference[Long Jump]{Longitud} o de &Reference[High Jump]{Altura} con carrerilla tras moverte solo 5ft (1,5 m).</p><section class=\"secret\" id=\"secret-HwMnjjLPfn97FUqL\"><p><strong>Nota Foundry</strong></p><p>Esta Dote no automatiza los efectos. Puedes añadir tu Velocidad trepando activando el modo «Editar» de tu hoja y haciendo clic en el icono “Engranaje” encima de «Caminar» (Justo encima de tu barra de Puntos de Golpe).</p></section>"
 		},
 		"Charger": {
 			"name": "Atacante a la Carga",
-			"description": ""
+			"description": "<p><em>Dote General (requisitos: nivel 4 o más, Fuerza o Destreza 13 o más)</em></p><p>Obtienes los siguientes beneficios:</p><p><strong>Mejora de Característica.</strong> Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20.</p><p><strong>Carrera Mejorada.</strong> Cuando realizas la acción de &Reference[Dash] , tu velocidad aumenta 10ft (3 m) para esa acción.</p><p><strong>Ataque con Carga</strong>. Si te mueves al menos 10ft (3 m) en línea recta hacia un objetivo justo antes de acertarle con una tirada de ataque cuerpo a cuerpo como parte de la acción de atacar, elige uno de los siguientes efectos: consigues un 1d8 adicional en la tirada de daño del ataque o empujas al objetivo hasta 3 m si su tamaño está, como mucho, una categoría por encima de la tuya. Puedes usar este beneficio solo una vez en cada uno de tus turnos.</p><section class=\"secret\" id=\"secret-OP6Qbxc6GyD1OFcH\"><p><strong>Nota Foundry<br><br></strong>Puedes añadir el 1d8 al cuadro de diálogo de la tirada de daño de tu ataque como una Bonificación Situacional o utilizar la actividad <strong>Ataque con Carga</strong> y seleccionar el tipo de daño en el cuadro de diálogo de la tirada.</p></section>"
 		},
 		"Chef": {
 			"name": "Chef",
-			"description": ""
+			"description": "<p><em>Dote General (requisitos: nivel 4 o más)</em></p><p>Obtienes los siguientes beneficios:</p><p><strong>Mejora de Característica.</strong> Aumenta tu puntuación de Constitución o Sabiduría en 1, hasta un máximo de 20.</p><p><strong>Útiles de Cocinero.</strong> También obtienes competencia con @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCooksUtens]{Útiles de Cocinero} si aún no la tienes.</p><p><strong>Comida Reconstituyente.</strong> Como parte de un Descanso Corto, puedes preparar una comida especial, siempre que tengas a mano los ingredientes y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCooksUtens]{Útiles de Cocinero}. Puedes preparar suficiente de esta comida como para una cantidad de criaturas igual a 4 más tu Bonificador por Competencia (Actualmente [[4 + @prof]]). Al final del Descanso Corto, cualquier criatura que coma la comida y gaste uno o más dados de golpe para recuperar Puntos de Golpe recuperará 1d8 Puntos de Golpe adicionales.</p><p><strong>Tentempiés Tonificantes.</strong> Con 1 hora de trabajo o tras finalizar un Descanso Largo, puedes preparar una cantidad de tentempiés igual a tu Bonificador por Competencia si tienes ingredientes y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCooksUtens]{Útiles de Cocinero} a mano. Estos aperitivos especiales duran 8 horas una vez preparados. Una criatura puede usar una Acción Adicional para comerse uno de estos refrigerios y obtener una cantidad de Puntos de Golpe Temporales igual a tu bonificador por competencia.</p><section class=\"secret\" id=\"secret-onsn880Y02uWVh6N\"><p><strong>Nota Foundry</strong><br>La actividad <strong>Comida Reconstituyente</strong> incluye la curación.</p><p>La actividad <strong>Tentempiés Tonificantes</strong> restaurará un número de usos igual a tu Bonificación por Competencia. A medida que las criaturas se las coman, puedes usar la actividad <strong>Comer Tentempié</strong> para reducir el número de usos o manipularlas manualmente.</p><p>Esta proeza no añade automáticamente competencia con Utensilios de Cocina. Para añadirla, activa el modo «Editar» de tu hoja, y debajo de tus Habilidades haz clic en el icono del engranaje para añadir esta competencia.</p></section>"
 		},
 		"Crossbow Expert": {
 			"name": "Experto en Ballestas",
-			"description": ""
+			"description": "<p><em>Dote General (requisitos: nivel 4 o más, Destreza 13 o más)</em></p><p>Obtienes los siguientes beneficios:</p><p><strong>Mejora de Característica</strong>. Aumenta tu puntuación de Destreza en 1, hasta un máximo de 20.</p><p><strong>Ignorar la Recarga.</strong> Ignoras la propiedad de Recarga de las Ballestas de Mano, Ballestas Ligeras y Ballestas Pesadas (englobadas como “Ballestas” en esta dote). Si empuñas una de ellas, puedes cargar una unidad de munición aunque no tengas ninguna mano libre.</p><p><strong>Disparar Cuerpo a Cuerpo.</strong> Estar a 5ft (1,5 m) o menos de un enemigo no impone desventaja en tus tiradas de ataque con ballestas.</p><p><strong>Manejo Doble.</strong> Cuando hagas el ataque extra de la propiedad “Ligera”, puedes sumar tu Modificador por Característica al daño del Ataque extra si lo realizas con una ballesta con la propiedad “Ligera” y no lo estás sumando ya al daño.</p><section class=\"secret\" id=\"secret-JbCLp7Ez3Fn6zaVJ\"><p><strong>Nota Foundry<br></strong>El daño adicional de Manejo Doble no está automáticamente implementado, pero puede ser agregado a la casilla de Bonificación por Situación o modificar el arma.</p></section>"
 		},
 		"Crusher": {
 			"name": "Triturador",
-			"description": ""
+			"description": "<p><em>Dote General (requisitos: nivel 4 o más)</em> </p><p>Obtienes los siguientes beneficios:</p><p> <strong>Mejora de característica.</strong> Aumenta tu puntuación de Fuerza o Constitución en 1, hasta un máximo de 20.<br><br><strong>Empujar.</strong> Una vez por turno, cuando aciertes a una criatura con un ataque que cause daño &Reference[bludgeoning], podrás moverla 5ft (1,5 m) a un espacio sin ocupar, siempre que el tamaño del objetivo esté, como mucho, una categoría por encima de la tuya. <br><br><strong>Crítico potenciado.</strong> Cuando causes un Crítico que inflija daño &Reference[bludgeoning] a una criatura, las Tiradas de Ataque contra esa criatura tendrán ventaja hasta el principio de tu siguiente turno.</p><section class=\"secret\" id=\"secret-Jx3RkyhIRZ7QLlyM\"><p><strong>Nota Foundry</strong></p><p>Esta dote incluye un Efecto Activo que puede ser usado para seguir la Ventaja, pero no lo automatiza.</p></section>"
 		},
 		"Defensive Duelist": {
 			"name": "Duelista Defensivo",
-			"description": ""
+			"description": "<p><em>Dote General (requisitos: nivel 4 o más, Destreza 13 o más)</em> </p><p>Obtienes los siguientes beneficios:</p><p><strong>Mejora de característica</strong>. Aumenta tu puntuación de Destreza en 1, hasta un máximo de 20. </p><p><strong>Parada.</strong> Si empuñas un Arma Sutil y otra criatura te acierta con un Ataque Cuerpo a Cuerpo, puedes llevar a cabo una Reacción para sumar tu Bonificador por Competencia (actualmente, [[lookup @prof]]) a tu Clase de Armadura, lo que podría hacer que el Ataque Falle. Ganas este Bonificador a tu CA contra los Ataques Cuerpo a Cuerpo hasta el principio de tu siguiente turno.</p><section class=\"secret\" id=\"secret-En8YXJoQaVQXOweT\"><p><strong>Nota Foundry</strong></p><p>Esta dote incluye un Efecto Activo que aumentara tu CA</p></section>"
 		},
 		"Dual Wielder": {
 			"name": "Combatiente con Dos Armas",
-			"description": ""
+			"description": "<p><em>Dote General (requisitos: nivel 4 o más, Fuerza o Destreza 13 o más)</em> <br><br>Obtienes los siguientes beneficios: <br><br><strong>Mejora de característica.</strong> Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20. <br><br><strong>Manejo doble mejorado.</strong> Cuando lleves a cabo la Acción de Atacar en tu turno y ataques con un arma que tenga la propiedad “Ligera”, podrás realizar un Ataque Extra como Acción Adicional más adelante en el mismo turno con un arma distinta, que deberá ser un Arma Cuerpo a Cuerpo sin la propiedad “a dos manos”. No sumarás tu Modificador por Característica al Daño del Ataque Extra, salvo que el modificador sea negativo. <br><br><strong>Desenvainar rápido.</strong> Desenvainas o envainas dos armas sin la propiedad “a dos manos” cuando normalmente solo podrías desenvainar o envainar una.<br></p><section class=\"secret\" id=\"secret-EJIyTsTmMlxQDh6V\"><p><strong>Nota Foundry</strong></p><p>La sustracción de tu Modificador de Habilidad no está automatizada. Puedes restarlo en el campo Bonificador situacional del cuadro de diálogo de la tirada de daño.</p></section>"
 		},
 		"Durable": {
 			"name": "Resistente",
@@ -52,7 +52,7 @@
 			"description": ""
 		},
 		"Fey-Touched": {
-			"name": "Toque Feérico",
+			"name": "Influencia Feérica",
 			"description": ""
 		},
 		"Grappler": {

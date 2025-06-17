@@ -5,7 +5,7 @@
 		"Chapter 3": "Capítulo 3",
 		"Chapter 7": "Capítulo 7",
 		"Descriptions by Ability Score": "Descripciones por Puntuacion de Características",
-		"Personality Traits by Alignment": "Rasgos Personalidad por Alineamiento",
+		"Personality Traits by Alignment": "Rasgos de Personalidad por Alineamiento",
 		"Reincarnated Lineages": "Linajes reencarnados"
 	},
 	"entries": {
@@ -19,13 +19,14 @@
 				"4-4": "Oeste"
 			}
 		},
-		"Chaotic Rasgos": {
+		"Chaotic Traits": {
 			"name": "Rasgos Caóticos",
-			"description": "",
-			"1-1": "Fanfarrón",
-			"2-2": "Impulsivo",
-			"3-3": "Rebelde",
-			"4-4": "Ensimismado"
+			"results": {
+				"1-1": "Engreído",
+				"2-2": "Impulsivo",
+				"3-3": "Rebelde",
+				"4-4": "Egocéntrico"
+			}
 		},
 		"Charisma": {
 			"name": "Carisma",
@@ -63,9 +64,14 @@
 			"name": "Elven Lineage",
 			"description": "<p>You are part of a lineage that grants you supernatural abilities.</p>"
 		},
-		"Evil Rasgos": {
-			"name": "Evil Rasgos",
-			"description": ""
+		"Evil Traits": {
+			"name": "Rasgos Malvados",
+			"results": {
+				"1-1": "Deshonesto",
+				"2-2": "Vengativo",
+				"3-3": "Cruel",
+				"4-4": "Avaro"
+			}
 		},
 		"Feywild Gifts": {
 			"name": "Feywild Gifts",
@@ -79,9 +85,14 @@
 			"name": "Gnomish Lineage",
 			"description": "<p>You are part of a lineage that grants you supernatural abilities.</p>"
 		},
-		"Good Rasgos": {
-			"name": "Good Rasgos",
-			"description": ""
+		"Good Traits": {
+			"name": "Rasgos Buenos",
+			"results": {
+				"1-1": "Compasivo",
+				"2-2": "Servicial",
+				"3-3": "Honesto",
+				"4-4": "Amable"
+			}
 		},
 		"Intelligence": {
 			"name": "Inteligencia",
@@ -93,17 +104,27 @@
 				"4-4": "<strong>Alta:</strong> Curioso. <strong>Baja:</strong> Frívolo."
 			}
 		},
-		"Lawful Rasgos": {
-			"name": "Lawful Rasgos",
-			"description": ""
+		"Lawful Traits": {
+			"name": "Rasgos Legales",
+			"results": {
+				"1-1": "Cooperativo",
+				"2-2": "Leal",
+				"3-3": "Crítico",
+				"4-4": "Metódico"
+			}
 		},
 		"Manifestations of Order": {
 			"name": "Manifestations of Order",
 			"description": ""
 		},
-		"Neutral Rasgos": {
-			"name": "Neutral Rasgos",
-			"description": ""
+		"Neutral Traits": {
+			"name": "Rasgos Neutrales",
+			"results": {
+				"1-1": "Egoísta",
+				"2-2": "Indiferente",
+				"3-3": "Lacónico",
+				"4-4": "Pragmatico"
+			}
 		},
 		"Prismatic Layers": {
 			"name": "Prismatic Layers",

@@ -1,5 +1,27 @@
 {
 	"label": "Conjuros",
+	"mapping": {
+		"range": {
+			"path": "system.range",
+			"converter": "range"
+		},
+		"target": {
+			"path": "system.target",
+			"converter": "target"
+		},
+		"effects": {
+			"path": "effects",
+			"converter": "effects"
+		},
+		"rangeActivities": {
+			"path": "system.activities",
+			"converter": "rangeActivities"
+		},
+		"activities": {
+			"path": "system.activities",
+			"converter": "activities"
+		}
+	},
 	"folders": {
 		"1st Level": "Nivel 1",
 		"2nd Level": "Nivel 2",
@@ -16,7 +38,7 @@
 	"entries": {
 		"Acid Splash": {
 			"name": "Salpicadura Ácida",
-			"description": "<p>You create an acidic bubble at a point within range, where it explodes in a 5-foot-radius Sphere. Each creature in that Sphere must succeed on a Dexterity saving throw or take 1d6 Acid damage.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).</p>"
+			"description": "<p><p>Creas una burbuja ácida en un punto dentro del alcance, donde explotará en una esfera de 5ft (1,5 m) de radio. Todas las criaturas situadas en la esfera deberán superar una Tirada de Salvación de Destreza o sufrirán 1d6 de daño de ácido. <br><br><strong>Mejora de Truco.</strong> El daño aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).</p>"
 		},
 		"Aid": {
 			"name": "Auxilio",
@@ -477,10 +499,10 @@
 		},
 		"Blade Ward": {
 			"name": "Guardia de Cuchillas",
-			"description": "<p>Whenever a creature makes an attack roll against you before the spell ends, the attacker subtracts 1d4 from the attack roll.</p>",
+			"description": "<p>Siempre que una criatura haga una tirada de ataque contra ti antes de que el conjuro termine, el atacante restará 1d4 a esa tirada.</p>",
 			"activities": {
 				"utility": {
-					"roll": "Attack Penalty"
+					"roll": "Penalizador de Ataque"
 				}
 			}
 		},
@@ -594,11 +616,11 @@
 		},
 		"Chill Touch": {
 			"name": "Toque Helado",
-			"description": "<p>Channeling the chill of the grave, make a melee spell attack against a target within reach. On a hit, the target takes 1d10 Necrotic damage, and it can’t regain Hit Points until the end of your next turn.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d10 when you reach levels 5 (2d10), 11 (3d10), and 17 (4d10).</p>",
+			"description": "<p>Canalizas un frío sepulcral y haces un ataque de conjuro cuerpo a cuerpo contra un objetivo dentro del alcance. Si acierta, el objetivo recibirá 1d10 de daño necrótico y no podrá recuperar puntos de golpe hasta el final de tu siguiente turno. <br><br><strong>Mejora de Truco.</strong> El daño aumenta en 1d10 cuando alcanzas los niveles 5 (2d10), 11 (3d10) y 17 (4d10).</p>",
 			"effects": {
 				"Blocked Healing": {
-					"name": "Blocked Healing",
-					"description": "<p>The target can’t regain Hit Points until the end of your next turn.</p>"
+					"name": " Curación Bloqueada",
+					"description": "<p>El objetivo no podra recuperar Puntos de Golpe hasta el final de tu siguiente turno.</p>"
 				}
 			}
 		},
@@ -918,13 +940,13 @@
 		},
 		"Dancing Lights": {
 			"name": "Luces Danzantes",
-			"description": "<p>You create up to four torch-size lights within range, making them appear as torches, lanterns, or glowing orbs that hover for the duration. Alternatively, you combine the four lights into one glowing Medium form that is vaguely humanlike. Whichever form you choose, each light sheds Dim Light in a 10-foot radius.</p><p>As a Bonus Action, you can move the lights up to 60 feet to a space within range. A light must be within 20 feet of another light created by this spell, and a light vanishes if it exceeds the spell’s range.</p>",
+			"description": "<p>Creas hasta cuatro luces del tamaño de antorchas dentro del alcance. Puedes darles la apariencia de antorchas, linternas u orbes luminosos, y levitarán hasta que el conjuro termine. Como alternativa, combinas las cuatro luces en una sola de tamaño Mediano y aspecto vagamente humanoide. En ambos casos, cada luz proyecta una luz tenue en un radio de 10ft (3 m). </p><p>Como Acción Adicional, puedes mover las luces hasta 60f (18 m) a otro espacio dentro del alcance. Cada luz debe estar a 20ft (6 m) o menos de otra luz creada por este conjuro y se desvanecerá si sale del alcance del mismo.</p>",
 			"activities": {
 				"Create Lights": {
-					"name": "Create Lights"
+					"name": "Creas Luces"
 				},
 				"Move Lights": {
-					"name": "Move Lights"
+					"name": "Mover Luces"
 				}
 			}
 		},
@@ -1185,7 +1207,7 @@
 		},
 		"Druidcraft": {
 			"name": "Saber Druídico",
-			"description": "<p>Whispering to the spirits of nature, you create one of the following effects within range.</p><p><strong>Weather Sensor.</strong> You create a Tiny, harmless sensory effect that predicts what the weather will be at your location for the next 24 hours. The effect might manifest as a golden orb for clear skies, a cloud for rain, falling snowflakes for snow, and so on. This effect persists for 1 round.</p><p><strong>Bloom.</strong> You instantly make a flower blossom, a seed pod open, or a leaf bud bloom.</p><p><strong>Sensory Effect.</strong> You create a harmless sensory effect, such as falling leaves, spectral dancing fairies, a gentle breeze, the sound of an animal, or the faint odor of skunk. The effect must fit in a 5-foot Cube.</p><p><strong>Fire Play.</strong> You light or snuff out a candle, a torch, or a campfire.</p>"
+			"description": "<p>Susurras a los espíritus de la naturaleza y produces uno de los siguientes efectos dentro del alcance.</p><p><strong>Sensor climático</strong>. Creas un efecto sensorial Diminuto e inofensivo que predice el clima que habrá en tu ubicación durante las siguientes 24 horas. El efecto se manifiesta como un orbe dorado para los cielos despejados, una nube para la lluvia, copos de nieve para la nieve, etc. Este efecto persiste durante 1 asalto.</p><p><strong>Florecer.</strong> Haces que, al instante, una flor florezca, una vaina de semillas se abra o el brote de una hoja germine.</p><p><strong>Efecto sensorial</strong>. Creas un efecto sensorial inofensivo, como hojas cayendo, hadas espectrales bailando, una suave brisa, el sonido de un animal o un leve olor a mofeta. El efecto debe caber en un cubo de 5ft (1,5) m de lado.</p><p><strong>Jugar con fuego.</strong> Enciendes o apagas una vela, una antorcha o una hoguera.</p>"
 		},
 		"Earthquake": {
 			"name": "Terremoto",
@@ -1213,7 +1235,7 @@
 		},
 		"Eldritch Blast": {
 			"name": "Descarga Sobrenatural",
-			"description": "<p>You hurl a beam of crackling energy. Make a ranged spell attack against one creature or object in range. On a hit, the target takes 1d10 Force damage.</p><p><strong>Cantrip Upgrade.</strong> The spell creates two beams at level 5, three beams at level 11, and four beams at level 17. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam.</p><p>[[(floor((@details.level+1)/6)+1)]]{Total Beams}</p>"
+			"description": "<p>Lanzas un rayo de energía chisporroteante. Haz un ataque de conjuro a distancia contra una criatura u objeto dentro del alcance. Si acierta, el objetivo recibe 1d10 de daño de fuerza.</p><p><strong>Mejora de Truco.</strong> El conjuro crea dos rayos a nivel 5, tres rayos a nivel 11 y cuatro rayos a nivel 17. Puedes dirigir los rayos al mismo objetivo o a objetivos distintos. Realiza una tirada de ataque por separado para cada rayo.</p><p>[[(floor((@details.level+1)/6)+1)]]{Cantidad de Rayos}</p><p></p>"
 		},
 		"Elemental Weapon": {
 			"name": "Arma Elemental",
@@ -1268,14 +1290,14 @@
 		},
 		"Elementalism": {
 			"name": "Elementalismo",
-			"description": "<p>You exert control over the elements, creating one of the following effects within range.</p><p><strong>Beckon Air.</strong> You create a breeze strong enough to ripple cloth, stir dust, rustle leaves, and close open doors and shutters, all in a 5-foot Cube. Doors and shutters being held open by someone or something aren’t affected.</p><p><strong>Beckon Earth.</strong> You create a thin shroud of dust or sand that covers surfaces in a 5-foot-square area, or you cause a single word to appear in your handwriting in a patch of dirt or sand.</p><p><strong>Beckon Fire.</strong> You create a thin cloud of harmless embers and colored, scented smoke in a 5-foot Cube. You choose the color and scent, and the embers can light candles, torches, or lamps in that area. The smoke’s scent lingers for 1 minute.</p><p><strong>Beckon Water.</strong> You create a spray of cool mist that lightly dampens creatures and objects in a 5-foot Cube. Alternatively, you create 1 cup of clean water either in an open container or on a surface, and the water evaporates in 1 minute.</p><p><strong>Sculpt Element.</strong> You cause dirt, sand, fire, smoke, mist, or water that can fit in a 1-foot Cube to assume a crude shape (such as that of a creature) for 1 hour.</p>",
+			"description": "<p>Controlas los elementos y creas uno de los siguientes efectos dentro del alcance: </p><p><strong>Esculpir los Elementos.</strong> Haces que la tierra, arena, fuego, humo, niebla o agua que quepan en un cubo de 1ft (30 cm) de lado adopten una forma tosca (como la de una criatura) durante 1 hora. </p><p><strong>Invocar el Agua</strong>. Creas un rocío de fría niebla que humedece ligeramente a las criaturas y objetos en un cubo de 5ft (1,5 m) de lado. Como alternativa, creas una taza de agua limpia, ya sea en un recipiente abierto o sobre una superficie, y el agua se evapora al cabo de 1 minuto. </p><p>Invocar el A ire. Creas una brisa lo bastante fuerte como para ondear telas, remover polvo, agitar hojas y cerrar puertas y contraventanas abiertas en un cubo de 5ft (1,5 m) de lado. Las puertas y contraventanas que algo o alguien mantenga abiertas no se ven afectadas. </p><p><strong>Invocar el Tuego.</strong> Creas una fina nube de ascuas inofensivas y un humo de color perfumado en un cubo de  5ft (1,5 m) de lado. Tú eliges el color y el olor, y las ascuas pueden encender velas, antorchas o lámparas dentro de la zona. El aroma del humo permanece durante 1 minuto. </p><p><strong>Invocar la Tierra.</strong> Creas una fina capa de polvo o arena que cubre superficies en una zona de 5ft (1,5 m) de lado o haces que aparezca una sola palabra escrita con tu letra en una superficie de tierra o arena.</p>",
 			"activities": {
 				"Beckon Element": {
-					"name": "Beckon Element",
-					"chatFlavor": "Fire and water beckoning lasts for 1 minute"
+					"name": "Invocar Elemento",
+					"chatFlavor": "La invocación de Fuego y Agua duran 1 minuto."
 				},
 				"Sculpt Element": {
-					"name": "Sculpt Element"
+					"name": "Esculpir los Elementos"
 				}
 			}
 		},
@@ -1507,7 +1529,7 @@
 		},
 		"Fire Bolt": {
 			"name": "Descarga de Fuego",
-			"description": "<p>You hurl a mote of fire at a creature or an object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Fire damage. A flammable object hit by this spell starts burning if it isn’t being worn or carried.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d10 when you reach levels 5 (2d10), 11 (3d10), and 17 (4d10).</p>"
+			"description": "<p>Arrojas una mota de fuego a una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d10 de daño de fuego. Los objetos inflamables a los que acierte el conjuro empezarán a arder si nadie los lleva o viste.</p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d10 cuando alcanzas los niveles 5 (2d10), 11 (3d10) y 17 (4d10).</p>"
 		},
 		"Fire Shield": {
 			"name": "Escudo de Fuego",
@@ -1653,11 +1675,11 @@
 		},
 		"Friends": {
 			"name": "Amistad",
-			"description": "<p>You magically emanate a sense of friendship toward one creature you can see within range. The target must succeed on a Wisdom saving throw or have the &amp;Reference[Charmed apply=false] condition for the duration. The target succeeds automatically if it isn’t a Humanoid, if you’re fighting it, or if you have cast this spell on it within the past 24 hours.</p><p>The spell ends early if the target takes damage or if you make an attack roll, deal damage, or force anyone to make a saving throw. When the spell ends, the target knows it was Charmed by you.</p>",
+			"description": "<p>Emanas mágicamente un sentimiento de amistad hacia una criatura que puedas ver dentro del alcance. El objetivo deberá superar una tirada de salvación de Sabiduría o tendrá el estado de &Reference[Charmed apply=false] hasta que termine el conjuro. El objetivo la superará automáticamente si no es un humanoide, si estás luchando contra él o si le has lanzado este conjuro en las últimas 24 horas.</p><p>El conjuro termina antes de tiempo si el objetivo recibe daño o si haces una tirada de ataque, causas daño u obligas a cualquier criatura a hacer una tirada de salvación. Cuando el conjuro termine, el objetivo sabrá que lo hechizaste.</p>",
 			"effects": {
 				"Charmed": {
-					"name": "Charmed",
-					"description": "<p>The spell ends early if the &amp;Reference[Charmed apply=false] target takes damage or if you make an attack roll, deal damage, or force anyone to make a saving throw. When the spell ends, the target knows it was Charmed by you.</p>"
+					"name": "Hechizado",
+					"description": "<p>El conjuro termina antes de tiempo si el objetivo &amp;Reference[Charmed apply=false] recibe daño o si haces una tirada de ataque, causas daño u obligas a cualquier criatura a hacer una tirada de salvación. Cuando el conjuro termine, el objetivo sabrá que lo hechizaste.</p>"
 				}
 			}
 		},
@@ -1772,61 +1794,61 @@
 		},
 		"Guidance": {
 			"name": "Guía",
-			"description": "<p>You touch a willing creature and choose a skill. Until the spell ends, the creature adds 1d4 to any ability check using the chosen skill.</p>",
+			"description": "<p>Tocas a una criatura voluntaria y eliges una habilidad. Hasta que el conjuro termine, la criatura añade 1d4 a una Prueba de Característica con la habilidad elegida.</p>",
 			"effects": {
 				"Acrobatic Guidance": {
-					"name": "Acrobatic Guidance"
+					"name": "Guía Acrobacias"
 				},
 				"Animal Handling Guidance": {
-					"name": "Animal Handling Guidance"
+					"name": "Guía Trato con Animales"
 				},
 				"Arcana Guidance": {
-					"name": "Arcana Guidance"
+					"name": "Guía Conocimiento Arcano"
 				},
 				"Athletic Guidance": {
-					"name": "Athletic Guidance"
+					"name": "Guía Atletismo"
 				},
 				"Deception Guidance": {
-					"name": "Deception Guidance"
+					"name": "Guía Engaño"
 				},
 				"History Guidance": {
-					"name": "History Guidance"
+					"name": "Guía Historia"
 				},
 				"Insight Guidance": {
-					"name": "Insight Guidance"
+					"name": "Guía Perspicacia"
 				},
 				"Investigation Guidance": {
-					"name": "Investigation Guidance"
+					"name": "Guía Investigación"
 				},
 				"Intimidation Guidance": {
-					"name": "Intimidation Guidance"
+					"name": "Guía Intimidación"
 				},
 				"Medicine Guidance": {
-					"name": "Medicine Guidance"
+					"name": "Guía Medicina"
 				},
 				"Nature Guidance": {
-					"name": "Nature Guidance"
+					"name": "Guía Naturaleza"
 				},
 				"Persuasion Guidance": {
-					"name": "Persuasion Guidance"
+					"name": "Guía Persuación"
 				},
 				"Perception Guidance": {
-					"name": "Perception Guidance"
+					"name": "Guía Percepción"
 				},
 				"Performance Guidance": {
-					"name": "Performance Guidance"
+					"name": "Guía Interpretación"
 				},
 				"Religion Guidance": {
-					"name": "Religion Guidance"
+					"name": "Guía Religión"
 				},
 				"Sleight of Hand Guidance": {
-					"name": "Sleight of Hand Guidance"
+					"name": "Guía Juego de Manos"
 				},
 				"Stealth Guidance": {
-					"name": "Stealth Guidance"
+					"name": "Guía Sigilo"
 				},
 				"Survival Guidance": {
-					"name": "Survival Guidance"
+					"name": "Guía Supervivencia"
 				}
 			}
 		},
@@ -2198,7 +2220,7 @@
 		},
 		"Light": {
 			"name": "Luz",
-			"description": "<p>You touch one Large or smaller object that isn’t being worn or carried by someone else. Until the spell ends, the object sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. The light can be colored as you like.</p><p>Covering the object with something opaque blocks the light. The spell ends if you cast it again.</p>"
+			"description": "<p>Tocas un objeto Grande o más pequeño que nadie lleve o vista. Hasta que el conjuro termine, el objeto emitirá luz brillante en un radio de 6 m y luz tenue otros 6 m más allá. La luz puede tener el color que desees. </p><p>Tapar completamente el objeto con un material opaco bloquea la luz. El conjuro termina si lo vuelves a lanzar.</p>"
 		},
 		"Lightning Arrow": {
 			"name": "Flecha de Relámpago",
@@ -2242,7 +2264,7 @@
 		},
 		"Mage Hand": {
 			"name": "Mano de Mago",
-			"description": "<p>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.</p><p>When you cast the spell, you can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial.</p><p>As a Magic action on your later turns, you can control the hand thus again. As part of that action, you can move the hand up to 30 feet.</p><p>The hand can’t attack, activate magic items, or carry more than 10 pounds.</p>"
+			"description": "<p>Conjuras una mano espectral flotante en un punto de tu elección dentro del alcance. La mano dura hasta que el conjuro termine. Además, desaparecerá si en algún momento está a más de 30ft (9 m) de ti o si vuelves a lanzar este conjuro.</p><p>Cuando lances este conjuro, puedes utilizar la mano para manipular un objeto, abrir una puerta o un recipiente que no estén cerrados con llave, sacar un objeto de un recipiente abierto o guardarlo en él o verter el contenido de un vial. </p><p>Como Acción de Magia en tus siguientes turnos, puedes volver a controlar la mano de esta forma. Como parte de la acción, puedes mover la mano hasta 30ft (9 m). La mano no puede atacar, activar objetos mágicos ni llevar más de 5 kg de peso.</p>"
 		},
 		"Magic Circle": {
 			"name": "Círculo Mágico",
@@ -2378,11 +2400,11 @@
 		},
 		"Mending": {
 			"name": "Reparar",
-			"description": "<p>This spell repairs a single break or tear in an object you touch, such as a broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.</p><p>This spell can physically repair a magic item, but it can’t restore magic to such an object.</p>"
+			"description": "<p>Este conjuro repara una sola grieta o desgarrón en un objeto que toques, como un eslabón roto en una cadena, las dos mitades de una llave partida, una capa rasgada o una fuga en una bota de vino. Mientras la grieta o el desgarrón no tenga más de 30 cm de tamaño en ninguna de sus dimensiones, lo arreglarás sin dejar rastro del daño. </p><p>Este conjuro puede reparar el componente físico de un objeto mágico, pero no puede restaurar su magia.</p>"
 		},
 		"Message": {
 			"name": "Mensaje",
-			"description": "<p>You point toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear.</p><p>You can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence; 1 foot of stone, metal, or wood; or a thin sheet of lead blocks the spell.</p>"
+			"description": "<p>Señalas a una criatura dentro del alcance y susurras un mensaje. El objetivo (y únicamente el objetivo) escucha el mensaje y puede responder con un susurro que solamente tú puedes oír. </p><p>Puedes lanzar este conjuro a través de objetos físicos si conoces al objetivo y sabes que está detrás de la barrera. El Silencio Mágico, 1ft (30 cm) de piedra, metal o madera o una lámina fina de plomo bloquean el conjuro.</p>"
 		},
 		"Meteor Swarm": {
 			"name": "Tormenta de Meteoritos",
@@ -2399,11 +2421,11 @@
 		},
 		"Mind Sliver": {
 			"name": "Fragmento Mental",
-			"description": "<p>You try to temporarily sliver the mind of one creature you can see within range. The target must succeed on an Intelligence saving throw or take 1d6 Psychic damage and subtract 1d4 from the next saving throw it makes before the end of your next turn.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).</p>",
+			"description": "<<p>Intentas fragmentar de forma temporal la mente de una criatura que puedas ver dentro del alcance. El objetivo deberá superar una Tirada de Salvación de Inteligencia o recibirá 1d6 de daño Psíquico y restará 1d4 en la siguiente Tirada de Salvación que haga antes del final de tu siguiente turno. </p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).</p>",
 			"effects": {
 				"Slivered": {
-					"name": "Slivered",
-					"description": "<p>The target subtracts 1d4 from the next saving throw it makes before the end of your next turn.</p>"
+					"name": "Fragmento",
+					"description": "<p>El objetivo restará 1d4 en la siguiente Tirada de Salvación que haga antes del final de tu siguiente turno.</p>"
 				}
 			}
 		},
@@ -2419,16 +2441,16 @@
 		},
 		"Minor Illusion": {
 			"name": "Ilusión Menor",
-			"description": "<p>You create a sound or an image of an object within range that lasts for the duration. See the descriptions below for the effects of each. The illusion ends if you cast this spell again.</p><p>If a creature takes a Study action to examine the sound or image, the creature can determine that it is an illusion with a successful [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</p><p><strong>Sound.</strong> If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else’s voice, a lion’s roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.</p><p><strong>Image.</strong> If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot Cube. The image can’t create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, since things can pass through it.</p>",
+			"description": "<p>Creas un sonido o una imagen de un objeto situado dentro del alcance que permanecerá hasta que termine el conjuro. Consulta las descripciones a continuación para conocer sus efectos. La ilusión termina si lanzas el conjuro de nuevo.</p><p>Si una criatura emplea su Acción de Estudiar para examinar la imagen o el sonido, puede determinar que es una ilusión si supera una Prueba de [[/check ability=int skill=inv dc=@attributes.spell.dc]] contra tu CD de Salvación de Conjuros. Si la criatura descubre que se trata de una ilusión, esta se irá desvaneciendo para esa criatura.</p><p><strong>Sonido</strong>. Si creas un sonido, su volumen se situará entre el de un susurro y el de un grito. Puede ser tu voz, la de otra criatura, el rugido de un león, un redoblar de tambores o cualquier otro sonido que elijas. El sonido continúa incesante mientras dure el conjuro o puedes originar sonidos distintos en diferentes momentos antes del fin del conjuro.</p><p><strong>Imagen.</strong> Si creas la imagen de un objeto (como una silla, pisadas embarradas o un pequeño cofre), no podrá ser mayor que un cubo de 5ft (1,5 m) de lado. La imagen no puede generar sonido, luz, olor o cualquier otro efecto sensorial, La interacción física con la imagen revela que es una ilusión, ya que las cosas pueden atravesarla.</p><p></p>",
 			"activities": {
 				"Create Illusion": {
-					"name": "Create Illusion",
+					"name": "Crear Ilusión",
 					"profiles": {
 						"Image": {
-							"name": "Image"
+							"name": "Imagen"
 						},
 						"Sound": {
-							"name": "Sound"
+							"name": "Sonido"
 						}
 					}
 				}
@@ -2685,7 +2707,7 @@
 		},
 		"Poison Spray": {
 			"name": "Rociada Venenosa",
-			"description": "<p>You spray toxic mist at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d12 Poison damage.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d12 when you reach levels 5 (2d12), 11 (3d12), and 17 (4d12).</p>"
+			"description": "<p>Rocías a una criatura dentro del alcance con una niebla tóxica. Haz un ataque de conjuro a distancia contra el objetivo. Si Acierta, el objetivo recibe 1d12 de daño de veneno.</p><p> <strong>Mejora de Truco.</strong> El daño aumenta en 1d12 cuando alcanzas los niveles 5 (2d12), 11 (3d12) y 17 (4d12).</p>"
 		},
 		"Polymorph": {
 			"name": "Polimorfar",
@@ -2739,7 +2761,7 @@
 		},
 		"Prestidigitation": {
 			"name": "Prestidigitación",
-			"description": "<p>You create a magical effect within range. Choose the effect from the options below. If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time.</p><p><strong>Sensory Effect.</strong> You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.</p><p><strong>Fire Play.</strong> You instantaneously light or snuff out a candle, a torch, or a small campfire.</p><p><strong>Clean or Soil.</strong> You instantaneously clean or soil an object no larger than 1 cubic foot.</p><p><strong>Minor Sensation.</strong> You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.</p><p><strong>Magic Mark.</strong> You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.</p><p><strong>Minor Creation.</strong> You create a nonmagical trinket or an illusory image that can fit in your hand. It lasts until the end of your next turn. A trinket can deal no damage and has no monetary worth.</p>"
+			"description": "<p>Creas un efecto mágico dentro del alcance, elegido de entre las opciones a continuación. Si lanzas este conjuro varias veces, puedes mantener activos a la vez hasta tres de sus efectos no instantáneos.</p><p><strong>Efecto Sensorial.</strong> Creas un efecto sensorial instantáneo e inofensivo, como una lluvia de chispas, una ligera ráfaga de viento, tenues notas musicales o un olor extraño. </p><p><strong>Jugar con fuego</strong>. Enciendes o apagas al instante una vela, una antorcha o una hoguera pequeña. </p><p><strong>Limpiar o ensuciar.</strong> Limpias o ensucias al instante un objeto de hasta  1ft<sup>3</sup> (0,03 m<sup>3</sup>). </p><p>Sensación menor. Enfrías, calientas o das sabor a un material inerte de hasta 1ft<sup>3</sup> (0,03 m<sup>3</sup>) durante 1 hora. </p><p><strong>Marca mágica.</strong> Haces que aparezca una mancha de color, una pequeña marca o un símbolo en un objeto o superficie durante 1 hora. </p><p><strong>Creación menor.</strong> Creas un abalorio no mágico o una imagen ilusoria que te cabe en la mano y dura hasta el final de tu siguiente turno. El abalorio no inflige daño y no tiene valor monetario.</p>"
 		},
 		"Prismatic Spray": {
 			"name": "Rociada Prismática",
@@ -2800,13 +2822,13 @@
 		},
 		"Produce Flame": {
 			"name": "Crear Llama",
-			"description": "<p>A flickering flame appears in your hand and remains there for the duration. While there, the flame emits no heat and ignites nothing, and it sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. The spell ends if you cast it again.</p><p>Until the spell ends, you can take a Magic action to hurl fire at a creature or an object within 60 feet of you. Make a ranged spell attack. On a hit, the target takes 1d8 Fire damage.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).</p>",
+			"description": "<p>En tu mano aparece una llama titilante, que permanece hasta que termine el conjuro. En tu mano, la llama no genera calor, no puede quemar nada y emite una luz brillante en un radio de 20ft (6 m) y luz tenue 20ft (6 m) más allá, El conjuro termina si lo vuelves a lanzar. </p><p>Hasta que el conjuro termine, puedes usar una acción de magia para arrojar la llama a una criatura u objeto a 60ft (18 m) o menos de ti. Haz un Ataque de conjuro a distancia. Si Acierta, el objetivo recibe 1d8 de daño de fuego. </p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).</p>",
 			"activities": {
 				"Cast": {
-					"name": "Cast"
+					"name": "Conjurar Llama"
 				},
 				"Hurl Fire": {
-					"name": "Hurl Fire"
+					"name": "Arrojar Llama"
 				}
 			}
 		},
@@ -2930,11 +2952,11 @@
 		},
 		"Ray of Frost": {
 			"name": "Rayo de Escarcha",
-			"description": "<p>A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 Cold damage, and its Speed is reduced by 10 feet until the start of your next turn.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).</p>",
+			"description": "<p>Lanzas un rayo helado de luz blanquiazul hacia una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si Acierta, el objetivo recibe 1d8 de daño de frío y su velocidad se reduce en 10ft (3 m) hasta el principio de tu siguiente turno. </p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).</p>",
 			"effects": {
 				"Reduced Movement": {
-					"name": "Reduced Movement",
-					"description": "<p>The target's Speed is reduced by 10 feet until the start of your next turn.</p>"
+					"name": "Reducir Movimiento",
+					"description": "<p>La velocidad del objetivo se reduce en 10ft (3 m) hasta el principio de tu siguiente turno.</p>"
 				}
 			}
 		},
@@ -2962,56 +2984,56 @@
 		},
 		"Resistance": {
 			"name": "Resistencia",
-			"description": "<p>You touch a willing creature and choose a damage type: Acid, Bludgeoning, Cold, Fire, Lightning, Necrotic, Piercing, Poison, Radiant, Slashing, or Thunder. When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by 1d4. A creature can benefit from this spell only once per turn.</p>",
+			"description": "<p>Tocas a una criatura voluntaria y eliges un tipo de daño: Ácido, Contundente, Cortante, Frío, Fuego, Necrótico, Perforante, Radiante, Relámpago, Trueno o Veneno. </p><p>Cuando la criatura sufra daño del tipo elegido antes de que termine el conjuro, reduce el daño total recibido en 1d4. Una criatura solo puede beneficiarse de este conjuro una vez por turno.</p>",
 			"activities": {
 				"utility": {
-					"roll": "Damage Reduction"
+					"roll": "Reducción de Daño"
 				}
 			},
 			"effects": {
 				"Acid Protection": {
-					"name": "Acid Protection",
-					"description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
+					"name": "Protección Ácido",
+					"description": "<p>Cuando la criatura sufra daño del tipo elegido antes de que termine el conjuro, la criatura reduce el daño total recibido en [[/r 1d4]]. Una criatura solo puede beneficiarse de este conjuro una vez por turno.</p>"
 				},
 				"Bludgeoning Protection": {
-					"name": "Bludgeoning Protection",
-					"description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
+					"name": "Protección Contundente",
+					"description": "<p>Cuando la criatura sufra daño del tipo elegido antes de que termine el conjuro, la criatura reduce el daño total recibido en [[/r 1d4]]. Una criatura solo puede beneficiarse de este conjuro una vez por turno.</p>"
 				},
 				"Cold Protection": {
-					"name": "Cold Protection",
-					"description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
+					"name": " Protección Frío",
+					"description": "<p>Cuando la criatura sufra daño del tipo elegido antes de que termine el conjuro, la criatura reduce el daño total recibido en [[/r 1d4]]. Una criatura solo puede beneficiarse de este conjuro una vez por turno.</p>"
 				},
 				"Fire Protection": {
-					"name": "Fire Protection",
-					"description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
+					"name": "Protección Fuego",
+					"description": "<p>Cuando la criatura sufra daño del tipo elegido antes de que termine el conjuro, la criatura reduce el daño total recibido en [[/r 1d4]]. Una criatura solo puede beneficiarse de este conjuro una vez por turno.</p>"
 				},
 				"Lightning Protection": {
-					"name": "Lightning Protection",
-					"description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
+					"name": "Protección Relámpago",
+					"description": "<p>Cuando la criatura sufra daño del tipo elegido antes de que termine el conjuro, la criatura reduce el daño total recibido en [[/r 1d4]]. Una criatura solo puede beneficiarse de este conjuro una vez por turno.</p>"
 				},
 				"Necrotic Protection": {
-					"name": "Necrotic Protection",
-					"description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
+					"name": "Protección Necrótico",
+					"description": "<p>Cuando la criatura sufra daño del tipo elegido antes de que termine el conjuro, la criatura reduce el daño total recibido en [[/r 1d4]]. Una criatura solo puede beneficiarse de este conjuro una vez por turno.</p>"
 				},
 				"Piercing Protection": {
-					"name": "Piercing Protection",
-					"description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
+					"name": "Protección Perforante",
+					"description": "<p>Cuando la criatura sufra daño del tipo elegido antes de que termine el conjuro, la criatura reduce el daño total recibido en [[/r 1d4]]. Una criatura solo puede beneficiarse de este conjuro una vez por turno.</p>"
 				},
 				"Poison Protection": {
-					"name": "Poison Protection",
-					"description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
+					"name": "Protección Veneno",
+					"description": "<p>Cuando la criatura sufra daño del tipo elegido antes de que termine el conjuro, la criatura reduce el daño total recibido en [[/r 1d4]]. Una criatura solo puede beneficiarse de este conjuro una vez por turno.</p>"
 				},
 				"Radiant Protection": {
-					"name": "Radiant Protection",
-					"description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
+					"name": "Protección Radiante",
+					"description": "<p>Cuando la criatura sufra daño del tipo elegido antes de que termine el conjuro, la criatura reduce el daño total recibido en [[/r 1d4]]. Una criatura solo puede beneficiarse de este conjuro una vez por turno.</p>"
 				},
 				"Slashing Protection": {
-					"name": "Slashing Protection",
-					"description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
+					"name": "Protección Cortante",
+					"description": "<p>Cuando la criatura sufra daño del tipo elegido antes de que termine el conjuro, la criatura reduce el daño total recibido en [[/r 1d4]]. Una criatura solo puede beneficiarse de este conjuro una vez por turno.</p>"
 				},
 				"Thunder Protection": {
-					"name": "Thunder Protection",
-					"description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
+					"name": "Protección Trueno",
+					"description": "<p>Cuando la criatura sufra daño del tipo elegido antes de que termine el conjuro, la criatura reduce el daño total recibido en [[/r 1d4]]. Una criatura solo puede beneficiarse de este conjuro una vez por turno.</p>"
 				}
 			}
 		},
@@ -3063,7 +3085,7 @@
 		},
 		"Sacred Flame": {
 			"name": "Llama Sagrada",
-			"description": "<p>Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 Radiant damage. The target gains no benefit from Half Cover or Three-Quarters Cover for this save.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).</p>"
+			"description": "<p>Un fulgor de llamas desciende sobre una criatura que puedas ver dentro del alcance. El objetivo deberá superar una tirada de salvación de Destreza o sufrirá 1d8 de daño Radiante. No podrá beneficiarse de la Cobertura media o tres cuartos en esta tirada. </p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).</p>"
 		},
 		"Sanctuary": {
 			"name": "Santuario",
@@ -3212,10 +3234,10 @@
 		},
 		"Shillelagh": {
 			"name": "Shillelagh",
-			"description": "<p>A Club or Quarterstaff you are holding is imbued with nature’s power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon’s damage die becomes a d8. If the attack deals damage, it can be Force damage or the weapon’s normal damage type (your choice).</p><p>The spell ends early if you cast it again or if you let go of the weapon.</p><p><strong>Cantrip Upgrade.</strong> The damage die changes when you reach levels 5 (d10), 11 (d12), and 17 (2d6).</p>",
+			"description": "<p>Un bastón o un garrote que sostengas se ve impregnado del poder de la naturaleza. Hasta que termine el conjuro, puedes usar tu aptitud mágica en lugar de tu Fuerza para las Tiradas de Ataque y de daño de tus Ataques Cuerpo a Cuerpo usando esa arma y el dado de daño pasa a ser un 1d8. Si el ataque inflige daño, puede ser de fuerza o del tipo de daño normal del arma (a tu elección). </p><p>El conjuro termina antes de tiempo si lo vuelves a lanzar o si sueltas el arma. </p><p><strong>Mejora de Truco.</strong> El dado de daño cambia cuando alcanzas los niveles 5 (1d10), 11 (1d12) y 17 (2d6).</p>",
 			"activities": {
 				"Imbue Weapon": {
-					"name": "Imbue Weapon"
+					"name": "Imbuir Arma"
 				}
 			},
 			"effects": {
@@ -3257,11 +3279,11 @@
 		},
 		"Shocking Grasp": {
 			"name": "Agarre Electrizante",
-			"description": "<p>Lightning springs from you to a creature that you try to touch. Make a melee spell attack against the target. On a hit, the target takes 1d8 Lightning damage, and it can’t make Opportunity Attacks until the start of its next turn.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).</p>",
+			"description": "<p>Una descarga eléctrica surge de tu mano hacia una criatura que intentas tocar. Haz un ataque de conjuro Cuerpo a Cuerpo contra el objetivo. Si Acierta, el objetivo recibirá 1d8 de daño de relámpago y no podrá realizar Ataques de Oportunidad hasta el principio de su siguiente turno. </p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).</p>",
 			"effects": {
 				"Shocked": {
-					"name": "Shocked",
-					"description": "<p>The target can’t make Opportunity Attacks until the start of its next turn.</p>"
+					"name": "Electrizado",
+					"description": "<p>El objetivo no podrá realizar Ataques de Oportunidad hasta el principio de su siguiente turno.</p>"
 				}
 			}
 		},
@@ -3314,14 +3336,14 @@
 		},
 		"Sorcerous Burst": {
 			"name": "Estallido Mágico",
-			"description": "<p>You cast sorcerous energy at one creature or object within range. Make a ranged attack roll against the target. On a hit, the target takes 1d8 damage of a type you choose: Acid, Cold, Fire, Lightning, Poison, Psychic, or Thunder.</p><p>If you roll an 8 on a d8 for this spell, you can roll another d8, and add it to the damage. When you cast this spell, the maximum number of these d8s you can add to the spell’s damage equals your spellcasting ability modifier.</p><p><strong>Cantrip Upgrade. </strong>The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).</p>"
+			"description": "<p>Lanzas energía mágica contra una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si Acierta, el objetivo recibe 1d8 de daño del tipo que elijas: Ácido, Frío, Fuego, Psíquico, Relámpago, Trueno o Veneno.</p><p>Si sacas un 8 en un d8 con este conjuro, puedes tirar otro d8 y sumarlo al daño. Cuando lances este conjuro, la cantidad máxima de d8 que puedes sumar al daño del conjuro es igual a tu modificador por aptitud mágica.</p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).</p>"
 		},
 		"Spare the Dying": {
 			"name": "Piedad con los Moribundos",
-			"description": "<p>Choose a creature within range that has 0 Hit Points and isn’t dead. The creature becomes Stable.</p><p><strong>Cantrip Upgrade.</strong> The range doubles when you reach levels 5 (30 feet), 11 (60 feet), and 17 (120 feet).</p>",
+			"description": "<p>Elige a una criatura dentro del alcance que tenga O Puntos de Golpe y no esté muerta, La criatura pasa a estar Estable. </p><p><strong>Mejora de Truco.</strong> El alcance se duplica cuando alcanzas los niveles 5 (30 ft o 9 m), 11 (60 ft o 18 m) y 17 (120 ft o 36 m).</p>",
 			"effects": {
 				"Stabilized": {
-					"name": "Stabilized"
+					"name": "Estabilizado"
 				}
 			}
 		},
@@ -3388,11 +3410,11 @@
 		},
 		"Starry Wisp": {
 			"name": "Voluta Estelar",
-			"description": "<p>You launch a mote of light at one creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 Radiant damage, and until the end of your next turn, it emits Dim Light in a 10-foot radius and can’t benefit from the &amp;Reference[Invisible] condition.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).</p>",
+			"description": "<p>Lanzas una mota de luz contra una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si Acierta, el objetivo recibirá 1d8 de daño Radiante y, hasta el final de tu siguiente turno, emitirá Luz Tenue en un radio de 10ft (3 m) y no podrá beneficiarse del estado de &Reference[Invisible].</p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).</p>",
 			"effects": {
 				"Illuminated": {
-					"name": "Illuminated",
-					"description": "<p>Until the end of your next turn, it emits Dim Light in a 10-foot radius and can’t benefit from the &amp;Reference[Invisible] condition.</p>"
+					"name": "Iluminado",
+					"description": "<p>Hasta el final de tu siguiente turno, emitirá Luz Tenue en un radio de 10ft (3 m) y no podrá beneficiarse del estado de &Reference[Invisible].</p>"
 				}
 			}
 		},
@@ -3727,20 +3749,20 @@
 		},
 		"Thaumaturgy": {
 			"name": "Taumaturgia",
-			"description": "<p>You manifest a minor wonder within range. You create one of the effects below within range. If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time.</p><p><strong>Altered Eyes.</strong> You alter the appearance of your eyes for 1 minute.</p><p><strong>Booming Voice.</strong> Your voice booms up to three times as loud as normal for 1 minute. For the duration, you have Advantage on [[/check ability=cha skill=itm]] checks.</p><p><strong>Fire Play.</strong> You cause flames to flicker, brighten, dim, or change color for 1 minute.</p><p><strong>Invisible Hand.</strong> You instantaneously cause an unlocked door or window to fly open or slam shut.</p><p><strong>Phantom Sound.</strong> You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.</p><p><strong>Tremors.</strong> You cause harmless tremors in the ground for 1 minute.</p>"
+			"description": "<p>Manifiestas un pequeño milagro dentro del alcance y produces uno de los siguientes efectos mágicos. Si lanzas este conjuro varias veces, puedes mantener activos a la vez hasta tres de sus efectos de 1 minuto.</p><p><strong>Jugar con Fuego.</strong> Haces que las llamas parpadeen, brillen más, se atenúen o cambien de color durante 1 minuto.</p><p><strong>Mano invisible.</strong> Abres o cierras de golpe una puerta o ventana que no esté cerrada con llave.</p><p><strong>Ojos Alterados.</strong> Cambias el aspecto de tus ojos durante 1 minuto.</p><p><strong>Sonido Fantasmal</strong>. Creas un sonido instantáneo que procede de un punto de tu elección dentro del alcance. Por ejemplo, el retumbar de un trueno, el graznido de un cuervo o unos susurros de mal agüero.</p><p><strong>Temblores.</strong> Provocas que la tierra tiemble sin causar daños durante 1 minuto.</p><p><strong>Voz Atronadora.</strong> Tu voz resuena hasta tres veces más alto de lo normal durante 1 minuto. Hasta que termine el conjuro, tienes ventaja en las pruebas de [[/check ability=cha skill=itm]]</p>"
 		},
 		"Thorn Whip": {
 			"name": "Látigo de Espinas",
-			"description": "<p>You create a vine-like whip covered in thorns that lashes out at your command toward a creature in range. Make a melee spell attack against the target. On a hit, the target takes 1d6 Piercing damage, and if it is Large or smaller, you can pull it up to 10 feet closer to you.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).</p>",
+			"description": "<p>Creas un látigo similar a una enredadera cubierta de espinas que fustiga bajo tus órdenes a una criatura dentro del alcance. Haz un ataque de conjuro Cuerpo a Cuerpo contra el objetivo. Si Acierta, el objetivo sufre 1d6 de daño Perforante y, si es Grande o más pequeño, puedes arrastrarlo hasta 3 m hacia ti. </p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).</p>",
 			"activities": {
 				"Attack and Pull": {
-					"name": "Attack and Pull"
+					"name": "Atacar y Arrastrar"
 				}
 			}
 		},
 		"Thunderclap": {
 			"name": "Tronar",
-			"description": "<p>Each creature in a 5-foot Emanation originating from you must succeed on a Constitution saving throw or take 1d6 Thunder damage. The spell’s thunderous sound can be heard up to 100 feet away.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).</p>"
+			"description": "<p>Todas las criaturas situadas en una emanación de 5ft (1,5 m) que se origina en ti deberán superar una tirada de salvación de Constitución o sufrirán 1d6 de daño de trueno. El sonido atronador del conjuro se puede oír a una distancia de hasta 100ft (30 m).</p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).</p>"
 		},
 		"Thunderous Smite": {
 			"name": "Castigo Atronador",
@@ -3772,13 +3794,13 @@
 		},
 		"Toll the Dead": {
 			"name": "Tañido por los Muertos",
-			"description": "<p>You point at one creature you can see within range, and the single chime of a dolorous bell is audible within 10 feet of the target. The target must succeed on a Wisdom saving throw or take 1d8 Necrotic damage. If the target is missing any of its Hit Points, it instead takes 1d12 Necrotic damage.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by one die when you reach levels 5 (2d8 or 2d12), 11 (3d8 or 3d12), and 17 (4d8 or 4d12).</p>",
+			"description": "<p>Señalas a una criatura que puedas ver dentro del alcance y el sonido de una campana funesta suena a 10ft (3 m) o menos del objetivo. El objetivo deberá superar una tirada de Salvación de Sabiduría o sufrirá 1d8 de daño Necrótico. Si el objetivo no tiene todos sus puntos de golpe, el daño Necrótico aumenta a 1d12.</p><p><strong>Mejora de Truco.</strong> El daño aumenta en un dado cuando alcanzas los niveles 5 (2d8 o 2d12), 11 (3d8 o 3d12) y 17 (4d8 o 4d12).</p>",
 			"activities": {
 				"Healthy Target": {
-					"name": "Healthy Target"
+					"name": "Objetivo Saludable"
 				},
 				"Damaged Target": {
-					"name": "Damaged Target"
+					"name": "Objetivo Herido"
 				}
 			}
 		},
@@ -3823,17 +3845,17 @@
 		},
 		"True Strike": {
 			"name": "Impacto Certero",
-			"description": "<p>Guided by a flash of magical insight, you make one attack with the weapon used in the spell’s casting. The attack uses your spellcasting ability for the attack and damage rolls instead of using Strength or Dexterity. If the attack deals damage, it can be Radiant damage or the weapon’s normal damage type (your choice).</p><p><strong>Cantrip Upgrade.</strong> Whether you deal Radiant damage or the weapon’s normal damage type, the attack deals extra Radiant damage when you reach levels 5 (1d6), 11 (2d6), and 17 (3d6).</p>",
+			"description": "<p>Un destello de perspicacia mágica te guía y haces un ataque con el arma empleada para lanzar el conjuro. El ataque usa tu aptitud mágica para las tiradas de ataque y de daño en lugar de la Fuerza o la Destreza. Si el ataque inflige daño, puede ser Radiante o del tipo de daño normal del arma (a tu elección). </p><p><strong>Mejora de Truco.</strong> Independientemente de si haces daño radiante o del tipo normal del arma, el ataque inflige daño radiante adicional cuando alcanzas los niveles 5 (1d6), 11 (2d6) y 17 (3d6).</p>",
 			"activities": {
 				"Enchant Weapon": {
-					"name": "Enchant Weapon"
+					"name": "Encantar Arma"
 				}
 			},
 			"effects": {
 				"True Strike": {
-					"name": "True Strike",
+					"name": "Impacto Certero",
 					"changes": {
-						"name": "{} (True Strike)"
+						"name": "{} (Impacto Certero)"
 					}
 				}
 			}
@@ -3861,11 +3883,11 @@
 		},
 		"Vicious Mockery": {
 			"name": "Burla Dañina",
-			"description": "<p>You unleash a string of insults laced with subtle enchantments at one creature you can see or hear within range. The target must succeed on a Wisdom saving throw or take 1d6 Psychic damage and have Disadvantage on the next attack roll it makes before the end of its next turn.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).</p>",
+			"description": "<p>Profieres una sarta de improperios mezclados con encantamientos sutiles hacia una criatura que puedas ver u oír dentro del alcance. El objetivo deberá superar una tirada de salvación de Sabiduría o recibirá 1d6 de daño Psíquico y tendrá desventaja en la próxima tirada de ataque que realice antes de que acabe su siguiente turno. </p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).</p>",
 			"effects": {
 				"Mocked": {
-					"name": "Mocked",
-					"description": "<p>The target has Disadvantage on the next attack roll it makes before the end of its next turn.</p>"
+					"name": "Burlado",
+					"description": "<p>El objetivo tiene Desventaja en la próxima tirada de ataque que realice antes de que acabe su siguiente turno.</p>"
 				}
 			}
 		},
@@ -4061,7 +4083,7 @@
 		},
 		"Word of Radiance": {
 			"name": "Palabra de Resplandor",
-			"description": "<p>Burning radiance erupts from you in a 5-foot Emanation. Each creature of your choice that you can see in it must succeed on a Constitution saving throw or take 1d6 Radiant damage.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).</p>"
+			"description": "<p>Un fulgor ardiente surge de ti en una emanación de 5ft (1,5 m). Todas las criaturas de tu elección que puedas ver en ella deberán superar una tirada de salvación de Constitución o sufrirán 1d6 de daño Radiante.</p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).</p>"
 		},
 		"Word of Recall": {
 			"name": "Palabra de Regreso",

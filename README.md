@@ -14,8 +14,8 @@ Actualizando para DnD5e 4.3.1 y Foundry 11.315 (Verificado 12)
 - [_] Orígenes
 - [_] Rasgos
 - [_] Conjuros
-- [X] Equipo
-- [_] Tablas
+- [X] Equipo (review)
+- [X] Tablas
 - [_] Actores
 - [_] Libro
 
@@ -27,11 +27,11 @@ Actualizando para DnD5e 4.3.1 y Foundry 11.315 (Verificado 12)
 - [_] Rasgos Estilos de Combate
 - [_] Orígenes Transfondos
 - [_] Orígenes Especies
-- [_] Trucos
+- [X] Trucos
 - [_] Conjuros Lvl 1 - Lvl 3
 - [_] Nombres de Tablas y descipciones
 - [_] Epic boons feats
 - [_] Clases
 - [_] Actores
-- [_] Restantes
 - [_] Libro
+- [_] Conjuros Lvl 4 - Lvl 5

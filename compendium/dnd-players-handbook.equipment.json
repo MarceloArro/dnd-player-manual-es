@@ -756,7 +756,12 @@
 		},
 		"Signal Whistle": {
 			"name": "Silbato de Supervivencia",
-			"description": "<p>Cuando se sopla como Acción de Utilizar, un silbato de supervivencia produce un sonido que se puede oír a 600 pies (180 m) de distancia.</p>"
+			"description": "<p>Cuando se sopla como Acción de Utilizar, un silbato de supervivencia produce un sonido que se puede oír a 600 pies (180 m) de distancia.</p>",
+			"activities": {
+				"Whistle": {
+					"name": "Silbar"
+				}
+			}
 		},
 		"Spell Scroll, Cantrip": {
 			"name": "Pergamino de Conjuro, Truco",
@@ -801,7 +806,12 @@
 		},
 		"Water (Pint)": {
 			"name": "Agua (Pinta)",
-			"description": "<p>Si no se bebe la suficiente agua, corre el riesgo de &Reference[dehydration].</p>"
+			"description": "<p>Si no se bebe la suficiente agua, corre el riesgo de &Reference[dehydration].</p>",
+			"activities": {
+				"Consume": {
+					"name": "Consumir"
+				}
+			}
 		},
 		"Waterskin": {
 			"name": "Cantimplora",

@@ -1,31 +1,5 @@
 {
   "label": "Equipment",
-  "mapping": {
-    "weight": {
-      "path": "system.weight",
-      "converter": "weight"
-    },
-    "rangeActivities": {
-      "path": "system.activities",
-      "converter": "rangeActivities"
-    },
-    "activities": {
-      "path": "system.activities",
-      "converter": "activities"
-    },
-    "effects": {
-      "path": "effects",
-      "converter": "effects"
-    },
-    "range": {
-      "path": "system.range",
-      "converter": "range"
-    },
-    "sources": {
-      "path": "system.source",
-      "converter": "source"
-    }
-  },
   "folders": {
     "Adventuring Gear": "Adventuring Gear",
     "Ammunition": "Ammunition",

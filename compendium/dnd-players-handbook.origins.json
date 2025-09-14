@@ -15,5 +15,1076 @@
 		"Tiefling": "Tiefling",
 		"Traits": "Atributos"
 	},
-	"entries": {}
+	"entries": {
+		"Aasimar": {
+			"name": "Aasimar",
+			"description": "<p>Los Aasimar (pronunciado AH-si-mar) son mortales que llevan una chispa de los Planos Superiores en sus almas. Ya sea descendientes de un ser angelical o imbuidos de poder celestial, pueden avivar esa chispa para traer luz, sanación y furia celestial.</p><p>Los Aasimar pueden surgir en cualquier población de mortales. Se parecen a sus padres, pero viven hasta 160 años y tienen rasgos que insinúan su herencia celestial, como pecas metálicas, ojos luminosos, un halo o el color de piel de un ángel (plateado, verde opalescente o rojo cobrizo). Estos rasgos comienzan siendo sutiles y se vuelven obvios cuando el aasimar aprende a revelar su naturaleza celestial completa.</p><h3 data-anchor=\"aasimar-traits\">Rasgos de Aasimar</h3><p class=\"phb-meta\"><strong>Tipo de Criatura: </strong>Humanoide</p><p class=\"phb-meta\"><strong>Tamaño: </strong>Mediano (de 1,2 a 2,1 metros de altura) o Pequeño (de 0,6 a 1,2 metros de altura), a elegir cuando seleccionas esta especie</p><p class=\"phb-meta\"><strong>Velocidad:</strong> 30 pies</p><p>Como Aasimar, tienes estos rasgos especiales.</p><p><strong>Resistencia Celestial.</strong> Tienes Resistencia al daño Necrótico y al daño Radiante.</p><p><strong>Visión en la Oscuridad.</strong> Tienes Visión en la Oscuridad con un alcance de 60 pies.</p><p><strong>Manos Sanadoras.</strong> Como una acción de Magia, tocas a una criatura y lanzas un número de d4s igual a tu Bonificador por Competencia. La criatura recupera un número de Puntos de Golpe igual al total obtenido. Una vez que usas este rasgo, no puedes volver a usarlo hasta que termines un Descanso Largo.</p><p><strong>Portador de Luz.</strong> Conoces el truco <em>Luz</em>. Carisma es tu aptitud mágica para lanzarlo.</p><p><strong>Revelación Celestial.</strong> Cuando alcanzas el nivel 3 de personaje, puedes transformarte como una Acción Adicional usando una de las siguientes opciones (elige la opción cada vez que te transformes). La transformación dura 1 minuto o hasta que la termines (no requiere acción). Una vez que te transformas, no puedes hacerlo de nuevo hasta que termines un Descanso Largo.</p><p>Una vez en cada uno de tus turnos antes de que la transformación termine, puedes infligir daño extra a un objetivo cuando le infliges daño con un ataque o un hechizo. El daño extra es igual a tu Bonificador por Competencia, y el tipo de daño extra es Necrótico para el Sudario Necrótico o Radiante para las Alas Celestiales y el Resplandor Interior.</p><p>Aquí están las opciones de transformación:</p><p><strong>Alas Celestiales. </strong>Dos alas espectrales brotan de tu espalda temporalmente. Hasta que la transformación termine, tienes una Velocidad de Vuelo igual a tu Velocidad.</p><p><strong>Resplandor Interior. </strong>Una luz abrasadora irradia temporalmente de tus ojos y boca. Durante la duración, emites Luz Brillante en un radio de 10 pies y Luz Tenue por 10 pies adicionales, y al final de cada uno de tus turnos, cada criatura a 10 pies de ti recibe daño Radiante igual a tu Bonificador por Competencia.</p><p><strong>Sudario Necrótico.</strong> Tus ojos se convierten brevemente en pozos de oscuridad, y alas no voladoras brotan de tu espalda temporalmente. Las criaturas que no sean tus aliadas a 10 pies de ti deben superar una tirada de salvación de Carisma (CD 8 + tu modificador de Carisma + tu Bonificador por Competencia) o adquirir el estado Asustado hasta el final de tu próximo turno.</p>",
+			"advancement": {
+				"1P6xFzbXPoDqJUwf": {
+					"hint": "Mediano (de 1,2 a 2,1 metros de altura) o Pequeño (de 0,6 a 1,2 metros de altura), a elegir cuando seleccionas esta especie"
+				},
+				"Aasimar Traits": {
+					"title": "Rasgos de Aasimar"
+				},
+				"Light Bearer": {
+					"title": "Portador de Luz",
+					"hint": "Conoces el truco Luz. Carisma es tu aptitud mágica para lanzarlo."
+				},
+				"Celestial Resistance": {
+					"title": "Resistencia Celestial"
+				}
+			}
+		},
+		"Acid Breath Weapon": {
+			"name": "Arma de Aliento de Ácido",
+			"description": "<p>Cuando realizas la acción de Atacar en tu turno, puedes reemplazar uno de tus ataques con una exhalación de energía mágica en un Cono de 15 pies o una Línea de 30 pies de largo y 5 pies de ancho (elige la forma cada vez).</p><p>Cada criatura en esa área debe hacer una tirada de salvación de Destreza (CD 8 + tu modificador de Constitución + tu Bonificador por Competencia). Si falla la salvación, una criatura recibe 1d10 de daño del tipo determinado por tu rasgo de Ascendencia Dracónica. Si tiene éxito, una criatura recibe la mitad de daño.</p><p>Este daño aumenta en 1d10 cuando alcanzas los niveles de personaje 5 (2d10), 11 (3d10) y 17 (4d10). Puedes usar esta Arma de Aliento un número de veces igual a tu Bonificador por Competencia, y recuperas todos los usos gastados cuando terminas un Descanso Largo.</p>",
+			"activities": {
+				"Exhale Cone": {
+					"name": "Exhalar Cono"
+				},
+				"Exhale Line": {
+					"name": "Exhalar Línea"
+				}
+			},
+			"advancement": {
+				"Breath Weapon Damage": {
+					"title": "Daño del Arma de Aliento"
+				}
+			}
+		},
+		"Acolyte": {
+			"name": "Acólito",
+			"description": "<p><strong>Puntuaciones de Característica:</strong> Inteligencia, Sabiduría, Carisma</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftMagicInitia]{Iniciado en la Magia} (Clérigo)</p><p><strong>Competencia en Habilidades:</strong> Perspicacia y Religión</p><p><strong>Competencia en Herramientas:</strong> Suministros de calígrafo</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph]{Suministros de calígrafo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000]{Libro} (de oraciones), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Símbolo Sagrado}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergamino} (10 hojas), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Túnica}, 8 PO; o (B) 50 PO</p><p>Te dedicaste al servicio en un templo, ya sea en una ciudad o en una arboleda sagrada. Allí realizabas ritos en honor a un dios o panteón. Serviste bajo un sacerdote y estudiaste religión. Gracias a la instrucción de tu sacerdote y tu propia devoción, también aprendiste a canalizar un mínimo de poder divino al servicio de tu lugar de culto y de las personas que rezaban allí.</p>",
+			"advancement": {
+				"Background Ability Score Improvement": {
+					"title": "Mejora de Puntuación de Característica de Trasfondo",
+					"hint": "Tu trasfondo te permite aumentar tus puntuaciones de Inteligencia, Sabiduría y Carisma; aumenta una de ellas en 2 y otra diferente en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede elevar una puntuación por encima de 20."
+				},
+				"Background Proficiencies": {
+					"title": "Competencias de Trasfondo",
+					"hint": "Tu trasfondo te otorga competencia en Perspicacia y Religión. También te otorga competencia con los Suministros de calígrafo."
+				},
+				"Background Feat": {
+					"title": "Dote de Trasfondo",
+					"hint": "Tu trasfondo te otorga la dote Iniciado en la Magia (Clérigo)."
+				},
+				"Choose Languages": {
+					"title": "Elegir Idiomas",
+					"hint": "Tu personaje conoce al menos tres idiomas: Común más dos idiomas que elijas de la tabla de Idiomas Estándar."
+				}
+			}
+		},
+		"Adrenaline Rush": {
+			"name": "Descarga de Adrenalina",
+			"description": "<p>Puedes realizar la acción de Correr como una Acción Adicional. Cuando lo haces, obtienes un número de Puntos de Golpe Temporales igual a tu Bonificador por Competencia. Puedes usar este rasgo un número de veces igual a tu Bonificador por Competencia, y recuperas todos los usos gastados cuando terminas un Descanso Corto o Largo.</p>",
+			"activities": {
+				"Adrenaline Rush: Dash": {
+					"name": "Descarga de Adrenalina: Correr"
+				}
+			}
+		},
+		"Artisan": {
+			"name": "Artesano",
+			"description": "<p><strong>Puntuaciones de Característica:</strong> Fuerza, Destreza, Inteligencia</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftCrafter0000]{Artesano (Crafter)}</p><p><strong>Competencia en Habilidades:</strong> Investigación y Persuasión</p><p><strong>Competencia en Herramientas:</strong> <em>Elige un tipo de</em> <em>Herramientas de artesano</em> (ver capítulo 6)</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) Herramientas de artesano (las mismas de arriba), 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsas}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Ropa de viajero}, 32 PO; o (B) 50 PO</p><p>Comenzaste a fregar suelos y limpiar mostradores en el taller de un artesano por unas pocas monedas de cobre al día tan pronto como tuviste la fuerza para cargar un cubo. Cuando tuviste la edad suficiente para ser aprendiz, aprendiste a crear tus propias artesanías básicas, así como a camelar al cliente exigente ocasional. Tu oficio también te ha dado un agudo ojo para el detalle.</p>",
+			"advancement": {
+				"Background Proficiencies": {
+					"title": "Competencias de Trasfondo",
+					"hint": "Tu trasfondo te otorga competencia en Investigación y Persuasión. También te otorga competencia con un tipo de Herramientas de artesano."
+				},
+				"Background Feat": {
+					"title": "Dote de Trasfondo",
+					"hint": "Tu trasfondo te otorga la dote Artesano (Crafter)."
+				},
+				"Background Ability Score Improvement": {
+					"title": "Mejora de Puntuación de Característica de Trasfondo",
+					"hint": "Tu trasfondo te permite aumentar tus puntuaciones de Fuerza, Destreza e Inteligencia; aumenta una de ellas en 2 y otra diferente en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede elevar una puntuación por encima de 20."
+				},
+				"Tool Proficiency": {
+					"title": "Competencia en Herramientas",
+					"hint": "Otorgada por la Dote de Origen: Artesano. Ganas competencia con tres Herramientas de artesano diferentes de tu elección de la tabla de Artesanía Rápida."
+				},
+				"Choose Languages": {
+					"title": "Elegir Idiomas",
+					"hint": "Tu personaje conoce al menos tres idiomas: Común más dos idiomas que elijas de la tabla de Idiomas Estándar."
+				}
+			}
+		},
+		"Brave": {
+			"name": "Valiente",
+			"description": "<p>Tienes Ventaja en las tiradas de salvación que hagas para evitar o terminar el estado &Reference[Asustado].</p>"
+		},
+		"Breath Weapon": {
+			"name": "Arma de Aliento",
+			"description": "<p>Cuando realizas la acción de Atacar en tu turno, puedes reemplazar uno de tus ataques con una exhalación de energía mágica en un Cono de 15 pies o una Línea de 30 pies de largo y 5 pies de ancho (elige la forma cada vez).</p><p>Cada criatura en esa área debe hacer una tirada de salvación de Destreza (CD 8 + tu modificador de Constitución + tu Bonificador por Competencia). Si falla la salvación, una criatura recibe 1d10 de daño del tipo determinado por tu rasgo de Ascendencia Dracónica. Si tiene éxito, una criatura recibe la mitad de daño.</p><p>Este daño aumenta en 1d10 cuando alcanzas los niveles de personaje 5 (2d10), 11 (3d10) y 17 (4d10). Puedes usar esta Arma de Aliento un número de veces igual a tu Bonificador por Competencia, y recuperas todos los usos gastados cuando terminas un Descanso Largo.</p><section class=\"secret\" id=\"secret-iuhfGfxgl8GeYWBf\"><p><strong>Nota de Foundry</strong></p><p>Las actividades <strong>Arma de Aliento (Cono)</strong> y <strong>Arma de Aliento (Línea)</strong> están configuradas para su tipo de plantilla e incluyen cada tipo de daño. El daño también escala a medida que subes de nivel.</p><p>Puedes seleccionar el tipo de daño en el cuadro de diálogo de la tirada de daño. Recordará tu elección de daño después. Puedes editar las actividades para eliminar los otros tipos de daño y omitir este paso.</p><p>Los siguientes elementos suplementarios incluyen el tipo de daño y la resistencia al daño asociados con tu Ascendencia Dracónica: @UUID[Compendium.dnd-players-handbook.origins.Item.brwAcidBreathWea]{Arma de Aliento de Ácido}, @UUID[Compendium.dnd-players-handbook.origins.Item.brwColdBreathWea]{Arma de Aliento de Frío}, @UUID[Compendium.dnd-players-handbook.origins.Item.brwFireBreathWea]{Arma de Aliento de Fuego}, @UUID[Compendium.dnd-players-handbook.origins.Item.brwLightningBrea]{Arma de Aliento de Rayo}, @UUID[Compendium.dnd-players-handbook.origins.Item.brwPoisonBreathW]{Arma de Aliento de Veneno}</p></section>",
+			"activities": {
+				"Exhale Cone": {
+					"name": "Exhalar Cono"
+				},
+				"Exhale Line": {
+					"name": "Exhalar Línea"
+				}
+			},
+			"advancement": {
+				"Breath Weapon Damage": {
+					"title": "Daño del Arma de Aliento"
+				}
+			}
+		},
+		"Celestial Resistance": {
+			"name": "Resistencia Celestial",
+			"description": "<p>Tienes &Reference[Resistencia] al daño Necrótico y al daño Radiante.</p>"
+		},
+		"Celestial Revelation": {
+			"name": "Revelación Celestial",
+			"description": "<p>Cuando alcanzas el nivel 3 de personaje, puedes transformarte como una Acción Adicional usando una de las siguientes opciones (elige la opción cada vez que te transformes). La transformación dura 1 minuto o hasta que la termines (no requiere acción). Una vez que te transformas, no puedes hacerlo de nuevo hasta que termines un Descanso Largo.</p><p>Una vez en cada uno de tus turnos antes de que la transformación termine, puedes infligir daño extra a un objetivo cuando le infliges daño con un ataque o un hechizo. El daño extra es igual a tu Bonificador por Competencia, y el tipo de daño extra es Necrótico para el Sudario Necrótico o Radiante para las Alas Celestiales y el Resplandor Interior.</p><p>Aquí están las opciones de transformación:</p><p><strong>Alas Celestiales. </strong>Dos alas espectrales brotan de tu espalda temporalmente. Hasta que la transformación termine, tienes una Velocidad de Vuelo igual a tu Velocidad.</p><p><strong>Resplandor Interior. </strong>Una luz abrasadora irradia temporalmente de tus ojos y boca. Durante la duración, emites Luz Brillante en un radio de 10 pies y Luz Tenue por 10 pies adicionales, y al final de cada uno de tus turnos, cada criatura a 10 pies de ti recibe daño Radiante igual a tu Bonificador por Competencia.</p><p><strong>Sudario Necrótico.</strong> Tus ojos se convierten brevemente en pozos de oscuridad, y alas no voladoras brotan de tu espalda temporalmente. Las criaturas que no sean tus aliadas a 10 pies de ti deben superar una tirada de salvación de Carisma (CD 8 + tu modificador de Carisma + tu Bonificador por Competencia) o adquirir el estado &Reference[Asustado] hasta el final de tu próximo turno.</p><section class=\"secret\" id=\"secret-xYg9zvtrUSXdd7vM\"><p><strong>Nota de Foundry</strong></p><p>Cada actividad gasta un uso de esta característica.</p><p>La actividad <strong>Alas Celestiales</strong> incluye un Efecto Activo que mejora tu Velocidad de Vuelo a \"1\" para indicar equivalencia con la Velocidad (terrestre).</p><p>La actividad <strong>Resplandor Interior</strong> incluye un Efecto Activo para seguimiento y una tirada de daño que escala a medida que subes de nivel.</p><p>La actividad <strong>Sudario Necrótico</strong> incluye la tirada de salvación y un Efecto Activo para rastrear a las criaturas impactadas y aplica el estado Asustado.</p></section>",
+			"activities": {
+				"Heavenly Wings": {
+					"name": "Alas Celestiales"
+				},
+				"Inner Radiance": {
+					"name": "Resplandor Interior"
+				},
+				"Necrotic Shroud": {
+					"name": "Sudario Necrótico"
+				}
+			},
+			"effects": {
+				"Heavenly Wings": {
+					"name": "Alas Celestiales"
+				},
+				"Searing Radiance": {
+					"name": "Resplandor Abrasador"
+				},
+				"Necrotic Shroud": {
+					"name": "Sudario Necrótico"
+				}
+			}
+		},
+		"Charlatan": {
+			"name": "Charlatán",
+			"description": "<p><strong>Puntuaciones de Característica:</strong> Destreza, Constitución, Carisma</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000]{Habilidoso}</p><p><strong>Competencia en Habilidades:</strong> Engaño y Juego de Manos</p><p><strong>Competencia en Herramientas:</strong> Equipo de falsificación</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulForgeryKit]{Equipo de falsificación}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Disfraz}, @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Ropa elegante}, 15 PO; o (B) 50 PO</p><p>Una vez que tuviste la edad suficiente para pedir una cerveza, pronto tuviste un taburete favorito en cada taberna a diez millas de donde naciste. Mientras viajabas por el circuito de bares y abrevaderos, aprendiste a aprovecharte de los desafortunados que buscaban una mentira reconfortante o dos, quizás una poción falsa o registros de ascendencia falsificados.</p>",
+			"advancement": {
+				"Background Ability Score Improvement": {
+					"title": "Mejora de Puntuación de Característica de Trasfondo",
+					"hint": "Tu trasfondo te permite aumentar tus puntuaciones de Destreza, Constitución y Carisma; aumenta una de ellas en 2 y otra diferente en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede elevar una puntuación por encima de 20."
+				},
+				"Background Proficiencies": {
+					"title": "Competencias de Trasfondo",
+					"hint": "Tu trasfondo te otorga competencia en Engaño y Juego de Manos. También te otorga competencia con el Equipo de falsificación."
+				},
+				"Background Feat": {
+					"title": "Dote de Trasfondo",
+					"hint": "Tu trasfondo te otorga la dote Habilidoso."
+				},
+				"Skilled Proficiencies": {
+					"title": "Competencias de Habilidoso",
+					"hint": "Otorgada por la Dote de Origen: Habilidoso. Ganas competencia en cualquier combinación de tres habilidades o herramientas de tu elección."
+				},
+				"Choose Languages": {
+					"title": "Elegir Idiomas",
+					"hint": "Tu personaje conoce al menos tres idiomas: Común más dos idiomas que elijas de la tabla de Idiomas Estándar."
+				}
+			}
+		},
+		"Cloud's Jaunt": {
+			"name": "Salto de Nube",
+			"description": "<p>Como Acción Adicional, te teletransportas mágicamente hasta 30 pies a un espacio desocupado que puedas ver.</p>",
+			"activities": {
+				"Cloud's Jaunt": {
+					"name": "Salto de Nube"
+				}
+			}
+		},
+		"Cold Breath Weapon": {
+			"name": "Arma de Aliento de Frío",
+			"description": "<p>Cuando realizas la acción de Atacar en tu turno, puedes reemplazar uno de tus ataques con una exhalación de energía mágica en un Cono de 15 pies o una Línea de 30 pies de largo y 5 pies de ancho (elige la forma cada vez).</p><p>Cada criatura en esa área debe hacer una tirada de salvación de Destreza (CD 8 + tu modificador de Constitución + tu Bonificador por Competencia). Si falla la salvación, una criatura recibe 1d10 de daño del tipo determinado por tu rasgo de Ascendencia Dracónica. Si tiene éxito, una criatura recibe la mitad de daño.</p><p>Este daño aumenta en 1d10 cuando alcanzas los niveles de personaje 5 (2d10), 11 (3d10) y 17 (4d10). Puedes usar esta Arma de Aliento un número de veces igual a tu Bonificador por Competencia, y recuperas todos los usos gastados cuando terminas un Descanso Largo.</p>",
+			"activities": {
+				"Exhale Cone": {
+					"name": "Exhalar Cono"
+				},
+				"Exhale Line": {
+					"name": "Exhalar Línea"
+				}
+			},
+			"advancement": {
+				"Breath Weapon Damage": {
+					"title": "Daño del Arma de Aliento"
+				}
+			}
+		},
+		"Criminal": {
+			"name": "Criminal",
+			"description": "<p><strong>Puntuaciones de Característica:</strong> Destreza, Constitución, Inteligencia</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftAlert000000]{Alerta}</p><p><strong>Competencia en Habilidades:</strong> Juego de Manos y Sigilo</p><p><strong>Competencia en Herramientas:</strong> Herramientas de ladrón</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Dagas}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{Herramientas de ladrón}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Palanca}, 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsas}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Ropa de viajero}, 16 PO; o (B) 50 PO</p><p>Te ganabas la vida en callejones oscuros, cortando bolsas o robando tiendas. Quizás formabas parte de una pequeña banda de malhechores con ideas afines que se cuidaban mutuamente. O tal vez eras un lobo solitario, defendiéndote del gremio de ladrones local y de criminales más temibles.</p>",
+			"advancement": {
+				"Background Ability Score Improvement": {
+					"title": "Mejora de Puntuación de Característica de Trasfondo",
+					"hint": "Tu trasfondo te permite aumentar tus puntuaciones de Destreza, Constitución e Inteligencia; aumenta una de ellas en 2 y otra diferente en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede elevar una puntuación por encima de 20."
+				},
+				"Background Feat": {
+					"title": "Dote de Trasfondo",
+					"hint": "Tu trasfondo te otorga la dote Alerta."
+				},
+				"Background Proficiencies": {
+					"title": "Competencias de Trasfondo",
+					"hint": "Tu trasfondo te otorga competencia en Juego de Manos y Sigilo. También te otorga competencia con las Herramientas de ladrón."
+				},
+				"Choose Languages": {
+					"title": "Elegir Idiomas",
+					"hint": "Tu personaje conoce al menos tres idiomas: Común más dos idiomas que elijas de la tabla de Idiomas Estándar."
+				}
+			}
+		},
+		"Draconic Flight": {
+			"name": "Vuelo Dracónico",
+			"description": "<p>Cuando alcanzas el nivel 5 de personaje, puedes canalizar magia dracónica para obtener vuelo temporal. Como Acción Adicional, te brotan alas espectrales en la espalda que duran 10 minutos o hasta que las retraigas (no requiere acción) o tengas el estado Incapacitado. Durante ese tiempo, tienes una Velocidad de Vuelo igual a tu Velocidad. Tus alas parecen estar hechas de la misma energía que tu Arma de Aliento. Una vez que usas este rasgo, no puedes volver a usarlo hasta que termines un Descanso Largo.</p><section class=\"secret\" id=\"secret-pP4PH5jVYBp1OEa3\"><p><strong>Nota de Foundry</strong></p><p>Esta característica incluye un Efecto Activo que mejora tu velocidad de Vuelo a 30 pies, coincidiendo con la velocidad base de Caminar de la especie.</p></section>",
+			"activities": {
+				"Draconic Flight": {
+					"name": "Vuelo Dracónico"
+				}
+			},
+			"effects": {
+				"Draconic Flight": {
+					"name": "Vuelo Dracónico"
+				}
+			}
+		},
+		"Dragonborn": {
+			"name": "Dracónido",
+			"description": "<p>Los ancestros de los dracónidos nacieron de los huevos de dragones cromáticos y metálicos. Una historia cuenta que estos huevos fueron bendecidos por los dioses dragón Bahamut y Tiamat, quienes querían poblar el multiverso con gente creada a su imagen. Otra historia afirma que los dragones crearon a los primeros dracónidos sin las bendiciones de los dioses. Cualquiera que sea su origen, los dracónidos han encontrado un hogar en el Plano Material.</p><p>Los dracónidos parecen dragones bípedos sin alas: escamosos, de ojos brillantes y huesos gruesos con cuernos en la cabeza, y su coloración y otros rasgos recuerdan a sus ancestros dracónicos.</p><h3 data-anchor=\"dragonborn-traits\">Rasgos de Dracónido</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamaño: </strong>Mediano (de 1,5 a 2,1 metros de altura)</p><p><strong>Velocidad:</strong> 30 pies</p><p>Como Dracónido, tienes estos rasgos especiales.</p><p><strong>Ascendencia Dracónica.</strong> Tu linaje proviene de un progenitor dragón. Elige el tipo de dragón de la tabla de Ascendencia Dracónica. Tu elección afecta a tus rasgos de Arma de Aliento y Resistencia al Daño, así como a tu apariencia.</p><table><caption>Ascendencia Dracónica</caption><thead><tr><td>Dragón</td><td>Tipo de Daño</td><td>Dragón</td><td>Tipo de Daño</td></tr></thead><tbody><tr><td>Negro</td><td>Ácido</td><td>Dorado</td><td>Fuego</td></tr><tr><td>Azul</td><td>Rayo</td><td>Verde</td><td>Veneno</td></tr><tr><td>Latón</td><td>Fuego</td><td>Rojo</td><td>Fuego</td></tr><tr><td>Bronce</td><td>Rayo</td><td>Plata</td><td>Frío</td></tr><tr><td>Cobre</td><td>Ácido</td><td>Blanco</td><td>Frío</td></tr></tbody></table><p><strong>Arma de Aliento.</strong> Cuando realizas la acción de Atacar en tu turno, puedes reemplazar uno de tus ataques con una exhalación de energía mágica en un Cono de 15 pies o una Línea de 30 pies de largo y 5 pies de ancho (elige la forma cada vez). Cada criatura en esa área debe hacer una tirada de salvación de Destreza (CD 8 + tu modificador de Constitución + tu Bonificador por Competencia). Si falla la salvación, una criatura recibe 1d10 de daño del tipo determinado por tu rasgo de Ascendencia Dracónica. Si tiene éxito, una criatura recibe la mitad de daño. Este daño aumenta en 1d10 cuando alcanzas los niveles de personaje 5 (2d10), 11 (3d10) y 17 (4d10). Puedes usar esta Arma de Aliento un número de veces igual a tu Bonificador por Competencia, y recuperas todos los usos gastados cuando terminas un Descanso Largo.</p><p><strong>Resistencia al Daño. </strong>Tienes Resistencia al tipo de daño determinado por tu rasgo de Ascendencia Dracónica.</p><p><strong>Visión en la Oscuridad. </strong>Tienes Visión en la Oscuridad con un alcance de 60 pies.</p><p><strong>Vuelo Dracónico.</strong> Cuando alcanzas el nivel 5 de personaje, puedes canalizar magia dracónica para obtener vuelo temporal. Como Acción Adicional, te brotan alas espectrales en la espalda que duran 10 minutos o hasta que las retraigas (no requiere acción) o tengas el estado Incapacitado. Durante ese tiempo, tienes una Velocidad de Vuelo igual a tu Velocidad. Tus alas parecen estar hechas de la misma energía que tu Arma de Aliento. Una vez que usas este rasgo, no puedes volver a usarlo hasta que termines un Descanso Largo.</p>",
+			"advancement": {
+				"65BqBxGcj6z4S803": {
+					"hint": "Mediano (de 1,5 a 2,1 metros de altura)"
+				},
+				"Draconic Flight": {
+					"title": "Vuelo Dracónico"
+				},
+				"Draconic Ancestry": {
+					"title": "Ascendencia Dracónica"
+				}
+			}
+		},
+		"Dwarf": {
+			"name": "Enano",
+			"description": "<p>Los enanos fueron creados de la tierra en los días antiguos por una deidad de la forja. Llamado por varios nombres en diferentes mundos —Moradin, Reorx y otros— ese dios dio a los enanos una afinidad por la piedra y el metal y por vivir bajo tierra. El dios también los hizo resistentes como las montañas, con una esperanza de vida de unos 350 años.</p><p>Rechonchos y a menudo barbudos, los enanos originales tallaron ciudades y fortalezas en las laderas de las montañas y bajo tierra. Sus leyendas más antiguas hablan de conflictos con los monstruos de las cimas de las montañas y de la Infraoscuridad, ya fueran gigantes imponentes u horrores subterráneos. Inspirados por esos cuentos, los enanos de cualquier cultura a menudo cantan sobre hazañas valerosas, especialmente sobre los pequeños que vencen a los poderosos.</p><p>En algunos mundos del multiverso, los primeros asentamientos de enanos se construyeron en colinas o montañas, y las familias que trazan su ascendencia a esos asentamientos se llaman a sí mismas enanos de las colinas o enanos de las montañas, respectivamente. Los escenarios de Greyhawk y Dragonlance tienen tales comunidades.</p><h3 data-anchor=\"dwarf-traits\">Rasgos de Enano</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamaño: </strong>Mediano (de 1,2 a 1,5 metros de altura)</p><p><strong>Velocidad:</strong> 30 pies</p><p>Como Enano, tienes estos rasgos especiales.</p><p><strong>Visión en la Oscuridad. </strong>Tienes Visión en la Oscuridad con un alcance de 120 pies.</p><p><strong>Resistencia Enana.</strong> Tienes Resistencia al daño por Veneno. También tienes Ventaja en las tiradas de salvación que hagas para evitar o terminar el estado Envenenado.</p><p><strong>Dureza Enana.</strong> Tu máximo de Puntos de Golpe aumenta en 1, y aumenta en 1 de nuevo cada vez que ganas un nivel.</p><p><strong>Afinidad con la Piedra.</strong> Como Acción Adicional, ganas Sentido de la Vibración con un alcance de 60 pies durante 10 minutos. Debes estar en una superficie de piedra o tocando una superficie de piedra para usar este Sentido de la Vibración. La piedra puede ser natural o trabajada. Puedes usar esta Acción Adicional un número de veces igual a tu Bonificador por Competencia, y recuperas todos los usos gastados cuando terminas un Descanso Largo.</p>",
+			"advancement": {
+				"6HdONjMD4UozXSfC": {
+					"hint": "Mediano (de 1,2 a 1,5 metros de altura)"
+				},
+				"Dwarf Traits": {
+					"title": "Rasgos de Enano"
+				},
+				"Dwarven Resilience": {
+					"title": "Resistencia Enana",
+					"hint": "Tienes Resistencia al daño por Veneno."
+				}
+			}
+		},
+		"Dwarven Resilience": {
+			"name": "Resistencia Enana",
+			"description": "<p>Tienes Resistencia al daño por Veneno. También tienes Ventaja en las tiradas de salvación que hagas para evitar o terminar el estado Envenenado.</p><section id=\"secret-EDaMIgklKLK2il2D\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Se te otorgará automáticamente Resistencia al daño por Veneno, pero no Ventaja en las tiradas de salvación para evitar/terminar el estado Envenenado.</p></section>"
+		},
+		"Dwarven Toughness": {
+			"name": "Dureza Enana",
+			"description": "<p>Tu máximo de Puntos de Golpe aumenta en 1, y aumenta en 1 de nuevo cada vez que ganas un nivel.</p><section class=\"secret\" id=\"secret-FK9DFLudP5EzEss9\"><p><strong>Nota de Foundry</strong></p><p>El aumento del máximo de Puntos de Golpe se gestiona automáticamente en cada nivel.</p></section>",
+			"effects": {
+				"Dwarven Toughness": {
+					"name": "Dureza Enana"
+				}
+			}
+		},
+		"Elf, Drow": {
+			"name": "Elfo, Drow",
+			"description": "<p>Creados por el dios Corellon, los primeros elfos podían cambiar de forma a voluntad. Perdieron esta habilidad cuando Corellon los maldijo por conspirar con la deidad Lolth, quien intentó sin éxito usurpar el dominio de Corellon. Cuando Lolth fue arrojada al Abismo, la mayoría de los elfos la repudiaron y obtuvieron el perdón de Corellon, pero lo que Corellon les había quitado se perdió para siempre.</p><p>Ya no capaces de cambiar de forma a voluntad, los elfos se retiraron a la Feywild, donde su tristeza se profundizó por la influencia de ese plano. Con el tiempo, la curiosidad llevó a muchos de ellos a explorar otros planos de existencia, incluidos los mundos del Plano Material.</p><p>Los elfos tienen orejas puntiagudas y carecen de vello facial y corporal. Viven alrededor de 750 años, y no duermen, sino que entran en un trance cuando necesitan descansar. En ese estado, permanecen conscientes de su entorno mientras se sumergen en recuerdos y meditaciones.</p><p>Un entorno transforma sutilmente a los elfos después de habitarlo durante un milenio o más, y les otorga ciertos tipos de magia. Los drow, los altos elfos y los elfos de los bosques son ejemplos de elfos que han sido transformados de esta manera.</p><h3 data-anchor=\"drow\">Drow</h3><p>Los drow suelen habitar en la Infraoscuridad y han sido moldeados por ella. Algunos individuos y sociedades drow evitan la Infraoscuridad por completo, pero llevan su magia. En el escenario de Eberron, por ejemplo, los drow habitan en selvas tropicales y ruinas ciclópeas en el continente de Xen'drik.</p><h3 data-anchor=\"elf-traits\">Rasgos de Elfo</h3><p><strong>Tipo de Criatura:</strong> Humanoide</p><p><strong>Tamaño: </strong>Mediano (de 1,5 a 1,8 metros de altura)</p><p><strong>Velocidad:</strong> 30 pies</p><p>Como Elfo, tienes estos rasgos especiales.</p><p><strong>Visión en la Oscuridad. </strong>Tienes Visión en la Oscuridad con un alcance de 60 pies.</p><p><strong>Linaje Élfico. </strong>Formas parte de un linaje que te otorga habilidades sobrenaturales.</p><p>Cuando alcanzas los niveles de personaje 3 y 5, aprendes un hechizo de nivel superior, como se muestra en la tabla. Siempre tienes ese hechizo preparado. Puedes lanzarlo una vez sin usar un espacio de conjuro, y recuperas la capacidad de lanzarlo de esa manera cuando terminas un Descanso Largo. También puedes lanzar el hechizo usando cualquier espacio de conjuro que tengas del nivel apropiado. Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los hechizos que lanzas con este rasgo (elige la aptitud cuando selecciones el linaje).</p><table><caption>Rasgos de Linaje Drow</caption><thead><tr><td>Nivel 1</td><td>Nivel 3</td><td>Nivel 5</td></tr></thead><tbody><tr><td>El alcance de tu Visión en la Oscuridad aumenta a 120 pies. También conoces el truco @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig]{Luces Danzantes}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire]{Fuego Feérico}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Oscuridad}</td></tr></tbody></table><p><strong>Ascendencia Feérica.</strong> Tienes Ventaja en las tiradas de salvación que hagas para evitar o terminar el estado &Reference[Hechizado].</p><p><strong>Sentidos Agudos.</strong> Tienes competencia en la habilidad de Perspicacia, Percepción o Supervivencia.</p><p><strong>Trance.</strong> No necesitas dormir, y la magia no puede ponerte a dormir. Puedes terminar un Descanso Largo en 4 horas si pasas esas horas en una meditación similar a un trance, durante la cual mantienes la consciencia.</p>",
+			"advancement": {
+				"5w2FaHXRKiN7v1rE": {
+					"hint": "Mediano (de 1,5 a 1,8 metros de altura)"
+				},
+				"Elf Traits": {
+					"title": "Rasgos de Elfo"
+				},
+				"Keen Senses": {
+					"title": "Sentidos Agudos",
+					"hint": "Tienes competencia en la habilidad de Perspicacia, Percepción o Supervivencia."
+				},
+				"Drow Traits": {
+					"title": "Rasgos de Drow",
+					"hint": "Puedes elegir Inteligencia, Sabiduría o Carisma como tu aptitud mágica."
+				}
+			}
+		},
+		"Elf, High": {
+			"name": "Elfo, Alto",
+			"description": "<p>Creados por el dios Corellon, los primeros elfos podían cambiar de forma a voluntad. Perdieron esta habilidad cuando Corellon los maldijo por conspirar con la deidad Lolth, quien intentó sin éxito usurpar el dominio de Corellon. Cuando Lolth fue arrojada al Abismo, la mayoría de los elfos la repudiaron y obtuvieron el perdón de Corellon, pero lo que Corellon les había quitado se perdió para siempre.</p><p>Ya no capaces de cambiar de forma a voluntad, los elfos se retiraron a la Feywild, donde su tristeza se profundizó por la influencia de ese plano. Con el tiempo, la curiosidad llevó a muchos de ellos a explorar otros planos de existencia, incluidos los mundos del Plano Material.</p><p>Los elfos tienen orejas puntiagudas y carecen de vello facial y corporal. Viven alrededor de 750 años, y no duermen, sino que entran en un trance cuando necesitan descansar. En ese estado, permanecen conscientes de su entorno mientras se sumergen en recuerdos y meditaciones.</p><p>Un entorno transforma sutilmente a los elfos después de habitarlo durante un milenio o más, y les otorga ciertos tipos de magia. Los drow, los altos elfos y los elfos de los bosques son ejemplos de elfos que han sido transformados de esta manera.</p><h3 data-anchor=\"high-elves\">Altos Elfos</h3><p>Los altos elfos han sido imbuidos con la magia de los cruces entre la Feywild y el Plano Material. En algunos mundos, los altos elfos se refieren a sí mismos con otros nombres. Por ejemplo, se llaman a sí mismos elfos del sol o de la luna en el escenario de los Reinos Olvidados, Silvanesti y Qualinesti en el escenario de Dragonlance, y Aereni en el escenario de Eberron.</p><h3 data-anchor=\"elf-traits\">Rasgos de Elfo</h3><p><strong>Tipo de Criatura:</strong> Humanoide</p><p><strong>Tamaño: </strong>Mediano (de 1,5 a 1,8 metros de altura)</p><p><strong>Velocidad:</strong> 30 pies</p><p>Como Elfo, tienes estos rasgos especiales.</p><p><strong>Visión en la Oscuridad. </strong>Tienes Visión en la Oscuridad con un alcance de 60 pies.</p><p><strong>Linaje Élfico. </strong>Formas parte de un linaje que te otorga habilidades sobrenaturales.</p><p>Cuando alcanzas los niveles de personaje 3 y 5, aprendes un hechizo de nivel superior, como se muestra en la tabla. Siempre tienes ese hechizo preparado. Puedes lanzarlo una vez sin usar un espacio de conjuro, y recuperas la capacidad de lanzarlo de esa manera cuando terminas un Descanso Largo. También puedes lanzar el hechizo usando cualquier espacio de conjuro que tengas del nivel apropiado. Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los hechizos que lanzas con este rasgo (elige la aptitud cuando selecciones el linaje).</p><table><caption>Rasgos de Linaje de Alto Elfo</caption><thead><tr><td>Nivel 1</td><td>Nivel 3</td><td>Nivel 5</td></tr></thead><tbody><tr><td>Conoces el truco @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi]{Prestidigitación}. Cada vez que terminas un Descanso Largo, puedes reemplazar ese truco por otro de la lista de hechizos del @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Mago}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detectar Magia}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Paso Brumoso}</td></tr></tbody></table><p><strong>Ascendencia Feérica.</strong> Tienes Ventaja en las tiradas de salvación que hagas para evitar o terminar el estado Hechizado.</p><p><strong>Sentidos Agudos.</strong> Tienes competencia en la habilidad de Perspicacia, Percepción o Supervivencia.</p><p><strong>Trance.</strong> No necesitas dormir, y la magia no puede ponerte a dormir. Puedes terminar un Descanso Largo en 4 horas si pasas esas horas en una meditación similar a un trance, durante la cual mantienes la consciencia.</p>",
+			"advancement": {
+				"5w2FaHXRKiN7v1rE": {
+					"hint": "Mediano (de 1,5 a 1,8 metros de altura)"
+				},
+				"Elf Traits": {
+					"title": "Rasgos de Elfo"
+				},
+				"Keen Senses": {
+					"title": "Sentidos Agudos",
+					"hint": "Tienes competencia en la habilidad de Perspicacia, Percepción o Supervivencia."
+				},
+				"High Elf Traits": {
+					"title": "Rasgos de Alto Elfo",
+					"hint": "Puedes elegir Inteligencia, Sabiduría o Carisma como tu aptitud mágica."
+				}
+			}
+		},
+		"Elf, Wood": {
+			"name": "Elfo, del Bosque",
+			"description": "<p>Creados por el dios Corellon, los primeros elfos podían cambiar de forma a voluntad. Perdieron esta habilidad cuando Corellon los maldijo por conspirar con la deidad Lolth, quien intentó sin éxito usurpar el dominio de Corellon. Cuando Lolth fue arrojada al Abismo, la mayoría de los elfos la repudiaron y obtuvieron el perdón de Corellon, pero lo que Corellon les había quitado se perdió para siempre.</p><p>Ya no capaces de cambiar de forma a voluntad, los elfos se retiraron a la Feywild, donde su tristeza se profundizó por la influencia de ese plano. Con el tiempo, la curiosidad llevó a muchos de ellos a explorar otros planos de existencia, incluidos los mundos del Plano Material.</p><p>Los elfos tienen orejas puntiagudas y carecen de vello facial y corporal. Viven alrededor de 750 años, y no duermen, sino que entran en un trance cuando necesitan descansar. En ese estado, permanecen conscientes de su entorno mientras se sumergen en recuerdos y meditaciones.</p><p>Un entorno transforma sutilmente a los elfos después de habitarlo durante un milenio o más, y les otorga ciertos tipos de magia. Los drow, los altos elfos y los elfos de los bosques son ejemplos de elfos que han sido transformados de esta manera.</p><h3 data-anchor=\"wood-elves\">Elfos de los Bosques</h3><p>Los elfos de los bosques llevan la magia de los bosques primigenios dentro de sí mismos. Son conocidos por muchos otros nombres, incluidos elfos salvajes, elfos verdes y elfos del bosque. Los Grugach son elfos de los bosques solitarios del escenario de Greyhawk, mientras que los Kagonesti y los Tairnadal son elfos de los bosques de los escenarios de Dragonlance y Eberron, respectivamente.</p><h3 data-anchor=\"elf-traits\">Rasgos de Elfo</h3><p><strong>Tipo de Criatura:</strong> Humanoide</p><p><strong>Tamaño: </strong>Mediano (de 1,5 a 1,8 metros de altura)</p><p><strong>Velocidad:</strong> 30 pies</p><p>Como Elfo, tienes estos rasgos especiales.</p><p><strong>Visión en la Oscuridad. </strong>Tienes Visión en la Oscuridad con un alcance de 60 pies.</p><p><strong>Linaje Élfico. </strong>Formas parte de un linaje que te otorga habilidades sobrenaturales.</p><p>Cuando alcanzas los niveles de personaje 3 y 5, aprendes un hechizo de nivel superior, como se muestra en la tabla. Siempre tienes ese hechizo preparado. Puedes lanzarlo una vez sin usar un espacio de conjuro, y recuperas la capacidad de lanzarlo de esa manera cuando terminas un Descanso Largo. También puedes lanzar el hechizo usando cualquier espacio de conjuro que tengas del nivel apropiado. Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los hechizos que lanzas con este rasgo (elige la aptitud cuando selecciones el linaje).</p><table><caption>Rasgos de Linaje de Elfo del Bosque</caption><thead><tr><td>Nivel 1</td><td>Nivel 3</td><td>Nivel 5</td></tr></thead><tbody><tr><td>Tu Velocidad aumenta a 35 pies. También conoces el truco @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDruidcraft]{Druidismo}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLongstride]{Zancada Prodigiosa}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou]{Pasar sin Rastro}</td></tr></tbody></table><p><strong>Ascendencia Feérica.</strong> Tienes Ventaja en las tiradas de salvación que hagas para evitar o terminar el estado Hechizado.</p><p><strong>Sentidos Agudos.</strong> Tienes competencia en la habilidad de Perspicacia, Percepción o Supervivencia.</p><p><strong>Trance.</strong> No necesitas dormir, y la magia no puede ponerte a dormir. Puedes terminar un Descanso Largo en 4 horas si pasas esas horas en una meditación similar a un trance, durante la cual mantienes la consciencia.</p>",
+			"advancement": {
+				"5w2FaHXRKiN7v1rE": {
+					"hint": "Mediano (de 1,5 a 1,8 metros de altura)"
+				},
+				"Elf Traits": {
+					"title": "Rasgos de Elfo"
+				},
+				"Wood Elf Traits": {
+					"title": "Rasgos de Elfo del Bosque"
+				},
+				"FRJszO7cYchbaGzt": {
+					"title": "Rasgos de Elfo del Bosque",
+					"hint": "Puedes elegir Inteligencia, Sabiduría o Carisma como tu aptitud mágica."
+				},
+				"zFsEPXauTgmYxqiJ": {
+					"title": "Rasgos de Elfo del Bosque",
+					"hint": "Puedes elegir Inteligencia, Sabiduría o Carisma como tu aptitud mágica."
+				},
+				"Keen Senses": {
+					"title": "Sentidos Agudos",
+					"hint": "Tienes competencia en la habilidad de Perspicacia, Percepción o Supervivencia."
+				}
+			}
+		},
+		"Elven Lineage": {
+			"name": "Linaje Élfico",
+			"description": "<p>Formas parte de un linaje que te otorga habilidades sobrenaturales. Elige un linaje de la tabla de Linajes Élficos. Obtienes el beneficio de nivel 1 de ese linaje.</p><p>Cuando alcanzas los niveles de personaje 3 y 5, aprendes un hechizo de nivel superior, como se muestra en la tabla. Siempre tienes ese hechizo preparado. Puedes lanzarlo una vez sin usar un espacio de conjuro, y recuperas la capacidad de lanzarlo de esa manera cuando terminas un Descanso Largo. También puedes lanzar el hechizo usando cualquier espacio de conjuro que tengas del nivel apropiado. Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los hechizos que lanzas con este rasgo (elige la aptitud cuando selecciones el linaje).</p><table><caption>Linajes Élficos</caption><thead><tr><td><p>Linaje</p></td><td><p>Nivel 1</p></td><td><p>Nivel 3</p></td><td><p>Nivel 5</p></td></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptDrowElfLin]{Drow}</p></td><td><p>El alcance de tu Visión en la Oscuridad aumenta a 120 pies. También conoces el truco @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig]{Luces Danzantes}.</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire]{Fuego Feérico}</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Oscuridad}</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptHighElfLin]{Alto Elfo}</p></td><td><p>Conoces el truco @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi]{Prestidigitación}. Cada vez que terminas un Descanso Largo, puedes reemplazar ese truco por otro de la lista de hechizos del Mago.</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detectar Magia}</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Paso Brumoso}</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptWoodElfLin]{Elfo del Bosque}</p></td><td><p>Tu Velocidad aumenta a 35 pies. También conoces el truco @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDruidcraft]{Druidismo}.</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLongstride]{Zancada Prodigiosa}</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou]{Pasar sin Rastro}</p></td></tr></tbody></table>"
+		},
+		"Elven Lineage, Drow": {
+			"name": "Linaje Élfico, Drow",
+			"description": "<p>Formas parte de un linaje que te otorga habilidades sobrenaturales.</p><p>Cuando alcanzas los niveles de personaje 3 y 5, aprendes un hechizo de nivel superior, como se muestra en la tabla. Siempre tienes ese hechizo preparado. Puedes lanzarlo una vez sin usar un espacio de conjuro, y recuperas la capacidad de lanzarlo de esa manera cuando terminas un Descanso Largo. También puedes lanzar el hechizo usando cualquier espacio de conjuro que tengas del nivel apropiado. Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los hechizos que lanzas con este rasgo (elige la aptitud cuando selecciones el linaje).</p><h3>Rasgos de Linaje Drow</h3><table><thead><tr><td><p>Nivel 1</p></td><td><p>Nivel 3</p></td><td><p>Nivel 5</p></td></tr></thead><tbody><tr><td><p>El alcance de tu Visión en la Oscuridad aumenta a 120 pies. También conoces el truco @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig]{Luces Danzantes}.</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire]{Fuego Feérico}</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Oscuridad}</p></td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Nota de Foundry</strong></p><p>Se te otorgarán automáticamente las características y hechizos relevantes cuando selecciones la especie y a medida que subas de nivel.</p></section>"
+		},
+		"Elven Lineage, High Elf": {
+			"name": "Linaje Élfico, Alto Elfo",
+			"description": "<p>Formas parte de un linaje que te otorga habilidades sobrenaturales.</p><p>Cuando alcanzas los niveles de personaje 3 y 5, aprendes un hechizo de nivel superior, como se muestra en la tabla. Siempre tienes ese hechizo preparado. Puedes lanzarlo una vez sin usar un espacio de conjuro, y recuperas la capacidad de lanzarlo de esa manera cuando terminas un Descanso Largo. También puedes lanzar el hechizo usando cualquier espacio de conjuro que tengas del nivel apropiado. Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los hechizos que lanzas con este rasgo (elige la aptitud cuando selecciones el linaje).</p><table><caption>Rasgos de Linaje de Alto Elfo</caption><thead><tr><td>Nivel 1</td><td>Nivel 3</td><td>Nivel 5</td></tr></thead><tbody><tr><td>Conoces el truco @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi]{Prestidigitación}. Cada vez que terminas un Descanso Largo, puedes reemplazar ese truco por otro de la lista de hechizos del Mago.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detectar Magia}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Paso Brumoso}</td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Nota de Foundry</strong></p><p>Se te otorgarán automáticamente las características y hechizos relevantes cuando selecciones la especie y a medida que subas de nivel.</p></section>"
+		},
+		"Elven Lineage, Wood Elf": {
+			"name": "Linaje Élfico, Elfo del Bosque",
+			"description": "<p>Formas parte de un linaje que te otorga habilidades sobrenaturales.</p><p>Cuando alcanzas los niveles de personaje 3 y 5, aprendes un hechizo de nivel superior, como se muestra en la tabla. Siempre tienes ese hechizo preparado. Puedes lanzarlo una vez sin usar un espacio de conjuro, y recuperas la capacidad de lanzarlo de esa manera cuando terminas un Descanso Largo. También puedes lanzar el hechizo usando cualquier espacio de conjuro que tengas del nivel apropiado. Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los hechizos que lanzas con este rasgo (elige la aptitud cuando selecciones el linaje).</p><table><caption>Rasgos de Linaje de Elfo del Bosque</caption><thead><tr><td>Nivel 1</td><td>Nivel 3</td><td>Nivel 5</td></tr></thead><tbody><tr><td>Tu Velocidad aumenta a 35 pies. También conoces el truco @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDruidcraft]{Druidismo}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLongstride]{Zancada Prodigiosa}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou]{Pasar sin Rastro}</td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Nota de Foundry</strong></p><p>Se te otorgarán automáticamente las características y hechizos relevantes cuando selecciones la especie y a medida que subas de nivel.</p></section>"
+		},
+		"Entertainer": {
+			"name": "Artista",
+			"description": "<p><strong>Puntuaciones de Característica:</strong> Fuerza, Destreza, Carisma</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftMusician000]{Músico}</p><p><strong>Competencia en Habilidades:</strong> Acrobacias y Actuación</p><p><strong>Competencia en Herramientas:</strong> <em>Elige un tipo de</em> <em>Instrumento Musical</em></p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) Instrumento Musical (el mismo de arriba), 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Disfraces}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Espejo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Ropa de viajero}, 11 PO; o (B) 50 PO</p><p>Pasaste gran parte de tu juventud siguiendo ferias y carnavales ambulantes, realizando trabajos esporádicos para músicos y acróbatas a cambio de lecciones. Es posible que hayas aprendido a caminar por la cuerda floja, a tocar el laúd con un estilo distintivo o a recitar poesía con una dicción impecable. Hasta el día de hoy, prosperas con los aplausos y anhelas el escenario.</p>",
+			"advancement": {
+				"Background Ability Score Improvement": {
+					"title": "Mejora de Puntuación de Característica de Trasfondo",
+					"hint": "Tu trasfondo te permite aumentar tus puntuaciones de Fuerza, Destreza y Carisma; aumenta una de ellas en 2 y otra diferente en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede elevar una puntuación por encima de 20."
+				},
+				"Background Proficiencies": {
+					"title": "Competencias de Trasfondo",
+					"hint": "Tu trasfondo te otorga competencia en Acrobacias y Actuación. También te otorga competencia con un tipo de Instrumento Musical."
+				},
+				"Background Feat": {
+					"title": "Dote de Trasfondo",
+					"hint": "Tu trasfondo te otorga la dote Músico."
+				},
+				"Instrument Training": {
+					"title": "Entrenamiento con Instrumento",
+					"hint": "Otorgada por la Dote de Origen: Músico. Ganas competencia con tres Instrumentos Musicales de tu elección."
+				},
+				"Choose Languages": {
+					"title": "Elegir Idiomas",
+					"hint": "Tu personaje conoce al menos tres idiomas: Común más dos idiomas que elijas de la tabla de Idiomas Estándar."
+				}
+			}
+		},
+		"Farmer": {
+			"name": "Granjero",
+			"description": "<p><strong>Puntuaciones de Característica:</strong> Fuerza, Constitución, Sabiduría</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftTough000000]{Duro de Pelar}</p><p><strong>Competencia en Habilidades:</strong> Trato con Animales y Naturaleza</p><p><strong>Competencia en Herramientas:</strong> Herramientas de carpintero</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSickle0000]{Hoz}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCarpenters]{Herramientas de carpintero}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHealersKit0]{Botiquín de sanador}, @UUID[Compendium.dnd5e.items.Item.M8xM8BLK4tpUayEE]{Olla de hierro}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000]{Pala}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Ropa de viajero}, 30 PO; o (B) 50 PO</p><p>Creciste cerca de la tierra. Años cuidando animales y cultivando la tierra te recompensaron con paciencia y buena salud. Tienes un profundo aprecio por la generosidad de la naturaleza junto con un saludable respeto por su ira.</p>",
+			"advancement": {
+				"Background Ability Score Improvement": {
+					"title": "Mejora de Puntuación de Característica de Trasfondo",
+					"hint": "Tu trasfondo te permite aumentar tus puntuaciones de Fuerza, Constitución y Sabiduría; aumenta una de ellas en 2 y otra diferente en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede elevar una puntuación por encima de 20."
+				},
+				"Background Proficiencies": {
+					"title": "Competencias de Trasfondo",
+					"hint": "Tu trasfondo te otorga competencia en Trato con Animales y Naturaleza. También te otorga competencia con las Herramientas de carpintero."
+				},
+				"Background Feat": {
+					"title": "Dote de Trasfondo",
+					"hint": "Tu trasfondo te otorga la dote Duro de Pelar."
+				},
+				"Choose Languages": {
+					"title": "Elegir Idiomas",
+					"hint": "Tu personaje conoce al menos tres idiomas: Común más dos idiomas que elijas de la tabla de Idiomas Estándar."
+				}
+			}
+		},
+		"Fey Ancestry": {
+			"name": "Ascendencia Feérica",
+			"description": "<p>Tienes Ventaja en las tiradas de salvación que hagas para evitar o terminar el estado &Reference[Hechizado].</p>"
+		},
+		"Fiendish Legacy": {
+			"name": "Legado Infernal",
+			"description": "<p>Eres el receptor de un legado que te otorga habilidades sobrenaturales. Elige un legado de la tabla de Legados Infernales. Obtienes el beneficio de nivel 1 del legado elegido.</p><p>Cuando alcanzas los niveles de personaje 3 y 5, aprendes un hechizo de nivel superior, como se muestra en la tabla. Siempre tienes ese hechizo preparado. Puedes lanzarlo una vez sin usar un espacio de conjuro, y recuperas la capacidad de lanzarlo de esa manera cuando termines un Descanso Largo. También puedes lanzar el hechizo usando cualquier espacio de conjuro que tengas del nivel apropiado. Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los hechizos que lanzas con este rasgo (elige la aptitud cuando selecciones el legado).</p><p></p><table><caption>Legados Infernales</caption><thead><tr><td><p>Linaje</p></td><td><p>Nivel 1</p></td><td><p>Nivel 3</p></td><td><p>Nivel 5</p></td></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptAbyssalLeg]{Abisal}</p></td><td>Tienes Resistencia al daño por Veneno. También conoces el truco @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPoisonSpra]{Rociada de Veneno}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn]{Rayo de Enfermedad}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{Inmovilizar Persona}</td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptChthonicLe]{Ctónico}</p></td><td>Tienes Resistencia al daño Necrótico. También conoces el truco @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch]{Toque Helado}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]{Falsa Vida}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]{Rayo de Debilitamiento}</td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptInfernalLe]{Infernal}</p></td><td>Tienes Resistencia al daño por Fuego. También conoces el truco @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireBolt00]{Descarga de Fuego}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHellishReb]{Reprensión Infernal}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Oscuridad}</td></tr></tbody></table>"
+		},
+		"Fiendish Legacy, Abyssal": {
+			"name": "Legado Infernal, Abisal",
+			"description": "<p>Eres el receptor de un legado que te otorga habilidades sobrenaturales.</p><p>Cuando alcanzas los niveles de personaje 3 y 5, aprendes un hechizo de nivel superior, como se muestra en la tabla. Siempre tienes ese hechizo preparado. Puedes lanzarlo una vez sin usar un espacio de conjuro, y recuperas la capacidad de lanzarlo de esa manera cuando terminas un Descanso Largo. También puedes lanzar el hechizo usando cualquier espacio de conjuro que tengas del nivel apropiado. Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los hechizos que lanzas con este rasgo (elige la aptitud cuando selecciones el legado).</p><h3 data-anchor=\"abyssal\">Abisal</h3><p>La entropía del Abismo, el caos del Pandemonio y la desesperación de Carceri llaman a los tieflings que tienen el legado abisal. Cuernos, pelaje, colmillos y olores peculiares son rasgos físicos comunes de tales tieflings, la mayoría de los cuales tienen la sangre de demonios corriendo por sus venas.</p><table><caption>Rasgos de Legado Abisal</caption><thead><tr><td>Nivel 1</td><td>Nivel 3</td><td>Nivel 5</td></tr></thead><tbody><tr><td>Tienes Resistencia al daño por Veneno. También conoces el truco @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPoisonSpra]{Rociada de Veneno}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn]{Rayo de Enfermedad}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{Inmovilizar Persona}</td></tr></tbody></table><section class=\"secret\" id=\"secret-AZFLMUN7pgAxMG7Q\"><p><strong>Nota de Foundry</strong></p><p>La Resistencia y los hechizos se te otorgan automáticamente y se te pedirá que elijas la aptitud mágica durante el avance.</p></section>"
+		},
+		"Fiendish Legacy, Chthonic": {
+			"name": "Legado Infernal, Ctónico",
+			"description": "<p>Eres el receptor de un legado que te otorga habilidades sobrenaturales.</p><p>Cuando alcanzas los niveles de personaje 3 y 5, aprendes un hechizo de nivel superior, como se muestra en la tabla. Siempre tienes ese hechizo preparado. Puedes lanzarlo una vez sin usar un espacio de conjuro, y recuperas la capacidad de lanzarlo de esa manera cuando terminas un Descanso Largo. También puedes lanzar el hechizo usando cualquier espacio de conjuro que tengas del nivel apropiado. Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los hechizos que lanzas con este rasgo (elige la aptitud cuando selecciones el legado).</p><h3 data-anchor=\"chthonic\">Ctónico</h3><p>Los tieflings que tienen el legado ctónico sienten no solo la atracción de Carceri, sino también la codicia de Gehenna y la penumbra de Hades. Algunos de estos tieflings parecen cadavéricos. Otros poseen la belleza sobrenatural de un súcubo, o tienen rasgos físicos en común con una bruja nocturna, un yugoloth u otro ancestro infernal Neutral Maligno.</p><table><caption>Rasgos de Legado Ctónico</caption><thead><tr><td>Nivel 1</td><td>Nivel 3</td><td>Nivel 5</td></tr></thead><tbody><tr><td>Tienes Resistencia al daño Necrótico. También conoces el truco @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch]{Toque Helado}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]{Falsa Vida}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]{Rayo de Debilitamiento}</td></tr></tbody></table><section class=\"secret\" id=\"secret-GmBAOZVbkBYItbCL\"><p><strong>Nota de Foundry</strong></p><p>La Resistencia y los hechizos se te otorgan automáticamente y se te pedirá que elijas la aptitud mágica durante el avance.</p></section>"
+		},
+		"Fiendish Legacy, Infernal": {
+			"name": "Legado Infernal, Infernal",
+			"description": "<p>Eres el receptor de un legado que te otorga habilidades sobrenaturales.</p><p>Cuando alcanzas los niveles de personaje 3 y 5, aprendes un hechizo de nivel superior, como se muestra en la tabla. Siempre tienes ese hechizo preparado. Puedes lanzarlo una vez sin usar un espacio de conjuro, y recuperas la capacidad de lanzarlo de esa manera cuando terminas un Descanso Largo. También puedes lanzar el hechizo usando cualquier espacio de conjuro que tengas del nivel apropiado. Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los hechizos que lanzas con este rasgo (elige la aptitud cuando selecciones el legado).</p><h3 data-anchor=\"infernal\">Infernal</h3><p>El legado infernal conecta a los tieflings no solo con Gehenna, sino también con los Nueve Infiernos y los furiosos campos de batalla de Aqueronte. Cuernos, espinas, colas, ojos dorados y un leve olor a azufre o humo son rasgos físicos comunes de tales tieflings, la mayoría de los cuales trazan su ascendencia a los diablos.</p><table><caption>Rasgos de Legado Infernal</caption><thead><tr><td>Nivel 1</td><td>Nivel 3</td><td>Nivel 5</td></tr></thead><tbody><tr><td>Tienes Resistencia al daño por Fuego. También conoces el truco @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireBolt00]{Descarga de Fuego}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHellishReb]{Reprensión Infernal}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Oscuridad}</td></tr></tbody></table><section class=\"secret\" id=\"secret-UpLnecebx3jeydEG\"><p><strong>Nota de Foundry</strong></p><p>La Resistencia y los hechizos se te otorgan automáticamente y se te pedirá que elijas la aptitud mágica durante el avance.</p></section>"
+		},
+		"Fire Breath Weapon": {
+			"name": "Arma de Aliento de Fuego",
+			"description": "<p>Cuando realizas la acción de Atacar en tu turno, puedes reemplazar uno de tus ataques con una exhalación de energía mágica en un Cono de 15 pies o una Línea de 30 pies de largo y 5 pies de ancho (elige la forma cada vez).</p><p>Cada criatura en esa área debe hacer una tirada de salvación de Destreza (CD 8 + tu modificador de Constitución + tu Bonificador por Competencia). Si falla la salvación, una criatura recibe 1d10 de daño del tipo determinado por tu rasgo de Ascendencia Dracónica. Si tiene éxito, una criatura recibe la mitad de daño.</p><p>Este daño aumenta en 1d10 cuando alcanzas los niveles de personaje 5 (2d10), 11 (3d10) y 17 (4d10). Puedes usar esta Arma de Aliento un número de veces igual a tu Bonificador por Competencia, y recuperas todos los usos gastados cuando terminas un Descanso Largo.</p>",
+			"activities": {
+				"Exhale Cone": {
+					"name": "Exhalar Cono"
+				},
+				"Exhale Line": {
+					"name": "Exhalar Línea"
+				}
+			},
+			"advancement": {
+				"Breath Weapon Damage": {
+					"title": "Daño del Arma de Aliento"
+				}
+			}
+		},
+		"Fire's Burn": {
+			"name": "Quemadura de Fuego",
+			"description": "<p>Cuando golpeas a un objetivo con una tirada de ataque y le infliges daño, también puedes infligirle 1d10 de daño por Fuego a ese objetivo.</p>",
+			"activities": {
+				"Burn": {
+					"name": "Quemar",
+					"condition": "Cuando golpeas a un objetivo con una tirada de ataque y le infliges daño"
+				}
+			}
+		},
+		"Frost's Chill": {
+			"name": "Frío de Escarcha",
+			"description": "<p>Cuando golpeas a un objetivo con una tirada de ataque y le infliges daño, también puedes infligirle 1d6 de daño por Frío a ese objetivo y reducir su Velocidad en 10 pies hasta el comienzo de tu próximo turno.</p><section id=\"secret-jxuUuY0r33aiP0zL\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Esta característica incluye un Efecto Activo que se puede usar para seguimiento y reduce su Velocidad en 10.</p></section>",
+			"activities": {
+				"Chill": {
+					"name": "Enfriar",
+					"condition": "Cuando golpeas a un objetivo con una tirada de ataque y le infliges daño"
+				}
+			},
+			"effects": {
+				"Chilled": {
+					"name": "Enfriado"
+				}
+			}
+		},
+		"Giant Ancestry": {
+			"name": "Ascendencia Gigante",
+			"description": "<p>Desciendes de Gigantes. Elige uno de los siguientes beneficios —una bendición sobrenatural de tu ascendencia; puedes usar el beneficio elegido un número de veces igual a tu Bonificador por Competencia, y recuperas todos los usos gastados cuando terminas un Descanso Largo:</p><p><strong>Salto de Nube (Gigante de las Nubes). </strong>Como Acción Adicional, te teletransportas mágicamente hasta 30 pies a un espacio desocupado que puedas ver.</p><p><strong>Quemadura de Fuego (Gigante de Fuego).</strong> Cuando golpeas a un objetivo con una tirada de ataque y le infliges daño, también puedes infligirle 1d10 de daño por Fuego a ese objetivo.</p><p><strong>Frío de Escarcha (Gigante de Hielo).</strong> Cuando golpeas a un objetivo con una tirada de ataque y le infliges daño, también puedes infligirle 1d6 de daño por Frío a ese objetivo y reducir su Velocidad en 10 pies hasta el comienzo de tu próximo turno.</p><p><strong>Voltereta de Colina (Gigante de las Colinas). </strong>Cuando golpeas a una criatura Grande o más pequeña con una tirada de ataque y le infliges daño, puedes hacer que ese objetivo caiga Derribado.</p><p><strong>Entereza de Piedra (Gigante de Piedra).</strong> Cuando recibes daño, puedes usar tu Reacción para lanzar 1d12. Suma tu modificador de Constitución al número obtenido y reduce el daño en ese total.</p><p><strong>Trueno de Tormenta (Gigante de las Tormentas).</strong> Cuando recibes daño de una criatura a 60 pies de ti, puedes usar tu Reacción para infligir 1d8 de daño por Trueno a esa criatura.</p>"
+		},
+		"Gnome, Forest": {
+			"name": "Gnomo, del Bosque",
+			"description": "<p>Los gnomos son seres mágicos creados por dioses de la invención, las ilusiones y la vida subterránea. Los primeros gnomos rara vez eran vistos por otros pueblos debido a su naturaleza reservada y su propensión a vivir en bosques y madrigueras. Lo que les faltaba en tamaño, lo compensaban con astucia. Confundían a los depredadores con trampas y túneles laberínticos. También aprendieron magia de dioses como Garl Brillo Dorado, Baervan Viajero Salvaje y Baravar Capa de Sombra, quienes los visitaban disfrazados. Esa magia finalmente creó los linajes de los gnomos de los bosques y los gnomos de las rocas.</p><p>Los gnomos son gente menuda con ojos grandes y orejas puntiagudas, que viven alrededor de 425 años. A muchos gnomos les gusta la sensación de tener un techo sobre sus cabezas, incluso si ese \"techo\" no es más que un sombrero.</p><h3 data-anchor=\"gnome-traits\">Rasgos de Gnomo</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamaño: </strong>Pequeño (de 0,9 a 1,2 metros de altura)</p><p><strong>Velocidad:</strong> 30 pies</p><p>Como Gnomo, tienes estos rasgos especiales.</p><p><strong>Visión en la Oscuridad. </strong>Tienes Visión en la Oscuridad con un alcance de 60 pies.</p><p><strong>Astucia Gnoma.</strong> Tienes Ventaja en las tiradas de salvación de Inteligencia, Sabiduría y Carisma.</p><p><strong>Linaje Gnomo.</strong> Formas parte de un linaje que te otorga habilidades sobrenaturales. Cualquiera que sea el linaje que elijas, Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los hechizos que lanzas con este rasgo (elige la aptitud cuando selecciones el linaje):</p><p><strong>Gnomo del Bosque.</strong> Conoces el truco @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus]{Ilusión Menor}. También siempre tienes el hechizo @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]{Hablar con los Animales} preparado. Puedes lanzarlo sin usar un espacio de conjuro un número de veces igual a tu Bonificador por Competencia, y recuperas todos los usos gastados cuando terminas un Descanso Largo. También puedes usar cualquier espacio de conjuro que tengas para lanzar el hechizo.</p>",
+			"advancement": {
+				"O7gYRGMSW3atQ2Yc": {
+					"hint": "Pequeño (de 0,9 a 1,2 metros de altura)"
+				},
+				"Gnome Traits": {
+					"title": "Rasgos de Gnomo"
+				},
+				"Forest Gnome Lineage Spell": {
+					"title": "Hechizo de Linaje de Gnomo del Bosque",
+					"hint": "Puedes elegir Inteligencia, Sabiduría o Carisma como tu aptitud mágica."
+				},
+				"Forest Gnome Lineage Cantrip": {
+					"title": "Truco de Linaje de Gnomo del Bosque",
+					"hint": "Puedes elegir Inteligencia, Sabiduría o Carisma como tu aptitud mágica."
+				}
+			}
+		},
+		"Gnome, Rock": {
+			"name": "Gnomo, de la Roca",
+			"description": "<p>Los gnomos son seres mágicos creados por dioses de la invención, las ilusiones y la vida subterránea. Los primeros gnomos rara vez eran vistos por otros pueblos debido a su naturaleza reservada y su propensión a vivir en bosques y madrigueras. Lo que les faltaba en tamaño, lo compensaban con astucia. Confundían a los depredadores con trampas y túneles laberínticos. También aprendieron magia de dioses como Garl Brillo Dorado, Baervan Viajero Salvaje y Baravar Capa de Sombra, quienes los visitaban disfrazados. Esa magia finalmente creó los linajes de los gnomos de los bosques y los gnomos de las rocas.</p><p>Los gnomos son gente menuda con ojos grandes y orejas puntiagudas, que viven alrededor de 425 años. A muchos gnomos les gusta la sensación de tener un techo sobre sus cabezas, incluso si ese \"techo\" no es más que un sombrero.</p><h3 data-anchor=\"gnome-traits\">Rasgos de Gnomo</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamaño: </strong>Pequeño (de 0,9 a 1,2 metros de altura)</p><p><strong>Velocidad:</strong> 30 pies</p><p>Como Gnomo, tienes estos rasgos especiales.</p><p><strong>Visión en la Oscuridad. </strong>Tienes Visión en la Oscuridad con un alcance de 60 pies.</p><p><strong>Astucia Gnoma.</strong> Tienes Ventaja en las tiradas de salvación de Inteligencia, Sabiduría y Carisma.</p><p><strong>Linaje Gnomo.</strong> Formas parte de un linaje que te otorga habilidades sobrenaturales. Cualquiera que sea el linaje que elijas, Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los hechizos que lanzas con este rasgo (elige la aptitud cuando selecciones el linaje):</p><p><strong>Gnomo de la Roca.</strong> Conoces los trucos @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMending000]{Remendar} y @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi]{Prestidigitación}. Además, puedes pasar 10 minutos lanzando <em>Prestidigitación</em> para crear un dispositivo de relojería Diminuto (CA 5, 1 PG), como un juguete, un encendedor o una caja de música. Cuando creas el dispositivo, determinas su función eligiendo un efecto de <em>Prestidigitación</em>; el dispositivo produce ese efecto cada vez que tú u otra criatura usáis una Acción Adicional para activarlo con un toque. Si el efecto elegido tiene opciones, eliges una de esas opciones para el dispositivo cuando lo creas. Por ejemplo, si eliges el efecto de encender-apagar del hechizo, determinas si el dispositivo enciende o apaga el fuego; el dispositivo no hace ambas cosas. Puedes tener tres de estos dispositivos en existencia a la vez, y cada uno se deshace 8 horas después de su creación o cuando lo desmontas con un toque como una acción de Utilizar.</p>",
+			"advancement": {
+				"O7gYRGMSW3atQ2Yc": {
+					"hint": "Pequeño (de 0,9 a 1,2 metros de altura)"
+				},
+				"Gnome Traits": {
+					"title": "Rasgos de Gnomo"
+				},
+				"Rock Gnome Traits": {
+					"title": "Rasgos de Gnomo de la Roca",
+					"hint": "Puedes elegir Inteligencia, Sabiduría o Carisma como tu aptitud mágica."
+				}
+			}
+		},
+		"Gnomish Cunning": {
+			"name": "Astucia Gnoma",
+			"description": "<p>Tienes Ventaja en las tiradas de salvación de Inteligencia, Sabiduría y Carisma.</p>"
+		},
+		"Gnomish Lineage": {
+			"name": "Linaje Gnomo",
+			"description": "<p>Formas parte de un linaje que te otorga habilidades sobrenaturales. Cualquiera que elijas, Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los hechizos que lanzas con este rasgo (elige la aptitud cuando selecciones el linaje).</p><p><strong>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspForestGnome]{Gnomo del Bosque}</strong></p><p>@Embed[Compendium.dnd-players-handbook.origins.Item.phbsptForestGnom secrets=false inline]{Linaje Gnomo, del Bosque}</p><p><strong>@UUID[Compendium.dnd-players-handbook.origins.Item.phbspRockGnome00]{Gnomo de la Roca}</strong> @Embed[Compendium.dnd-players-handbook.origins.Item.phbsptRockGnomeL inline]{Linaje Gnomo, de la Roca}</p>"
+		},
+		"Gnomish Lineage, Forest": {
+			"name": "Linaje Gnomo, del Bosque",
+			"description": "<p>Conoces el truco @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus]{Ilusión Menor}. También siempre tienes el hechizo @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]{Hablar con los Animales} preparado. Puedes lanzarlo sin usar un espacio de conjuro un número de veces igual a tu Bonificador por Competencia, y recuperas todos los usos gastados cuando terminas un Descanso Largo. También puedes usar cualquier espacio de conjuro que tengas para lanzar el hechizo.</p><section id=\"secret-CwVBuqSGI27gl6R9\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Los lanzamientos gratuitos están incluidos en el hechizo.</p></section>"
+		},
+		"Gnomish Lineage, Rock": {
+			"name": "Linaje Gnomo, de la Roca",
+			"description": "<p>Conoces los trucos @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMending000]{Remendar} y @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi]{Prestidigitación}. Además, puedes pasar 10 minutos lanzando <em>Prestidigitación</em> para crear un dispositivo de relojería Diminuto (CA 5, 1 PG), como un juguete, un encendedor o una caja de música. Cuando creas el dispositivo, determinas su función eligiendo un efecto de <em>Prestidigitación</em>; el dispositivo produce ese efecto cada vez que tú u otra criatura usáis una Acción Adicional para activarlo con un toque. Si el efecto elegido tiene opciones, eliges una de esas opciones para el dispositivo cuando lo creas. Por ejemplo, si eliges el efecto de encender-apagar del hechizo, determinas si el dispositivo enciende o apaga el fuego; el dispositivo no hace ambas cosas. Puedes tener tres de estos dispositivos en existencia a la vez, y cada uno se deshace 8 horas después de su creación o cuando lo desmontas con un toque como una acción de Utilizar.</p>"
+		},
+		"Goliath": {
+			"name": "Goliat",
+			"description": "<p>Sobresaliendo por encima de la mayoría de la gente, los goliat son descendientes lejanos de los gigantes. Cada goliat lleva los favores de los primeros gigantes, favores que se manifiestan en diversas bendiciones sobrenaturales, incluida la capacidad de crecer rápidamente y acercarse temporalmente a la altura de los parientes gigantes de los goliat.</p><p>Los goliat tienen características físicas que recuerdan a los gigantes de sus líneas familiares. Por ejemplo, algunos goliat se parecen a los gigantes de piedra, mientras que otros se asemejan a los gigantes de fuego. Cualesquiera que sean los gigantes que cuenten como parientes, los goliat han forjado su propio camino en el multiverso, sin las cargas de los conflictos intestinos que han devastado a los gigantes durante eones, y buscan alturas superiores a las alcanzadas por sus antepasados.</p><h3 data-anchor=\"goliath-traits\">Rasgos de Goliat</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamaño: </strong>Mediano (de 2,1 a 2,4 metros de altura)</p><p><strong>Velocidad:</strong> 35 pies</p><p>Como Goliat, tienes estos rasgos especiales.</p><p><strong>Ascendencia Gigante.</strong> Desciendes de Gigantes. Elige uno de los siguientes beneficios —una bendición sobrenatural de tu ascendencia; puedes usar el beneficio elegido un número de veces igual a tu Bonificador por Competencia, y recuperas todos los usos gastados cuando terminas un Descanso Largo:</p><p><strong>Salto de Nube (Gigante de las Nubes). </strong>Como Acción Adicional, te teletransportas mágicamente hasta 30 pies a un espacio desocupado que puedas ver.</p><p><strong>Quemadura de Fuego (Gigante de Fuego).</strong> Cuando golpeas a un objetivo con una tirada de ataque y le infliges daño, también puedes infligirle 1d10 de daño por Fuego a ese objetivo.</p><p><strong>Frío de Escarcha (Gigante de Hielo).</strong> Cuando golpeas a un objetivo con una tirada de ataque y le infliges daño, también puedes infligirle 1d6 de daño por Frío a ese objetivo y reducir su Velocidad en 10 pies hasta el comienzo de tu próximo turno.</p><p><strong>Voltereta de Colina (Gigante de las Colinas). </strong>Cuando golpeas a una criatura Grande o más pequeña con una tirada de ataque y le infliges daño, puedes hacer que ese objetivo caiga &Reference[Derribado].</p><p><strong>Entereza de Piedra (Gigante de Piedra).</strong> Cuando recibes daño, puedes usar tu Reacción para lanzar 1d12. Suma tu modificador de Constitución al número obtenido y reduce el daño en ese total.</p><p><strong>Trueno de Tormenta (Gigante de las Tormentas).</strong> Cuando recibes daño de una criatura a 60 pies de ti, puedes usar tu Reacción para infligir 1d8 de daño por Trueno a esa criatura.</p><p><strong>Forma Grande.</strong> A partir del nivel 5 de personaje, puedes cambiar tu tamaño a Grande como Acción Adicional si estás en un espacio lo suficientemente grande. Esta transformación dura 10 minutos o hasta que la termines (no requiere acción). Durante esa duración, tienes Ventaja en las pruebas de Fuerza, y tu Velocidad aumenta en 10 pies. Una vez que usas este rasgo, no puedes volver a usarlo hasta que termines un Descanso Largo.</p><p><strong>Complexión Poderosa.</strong> Tienes Ventaja en cualquier prueba de característica que hagas para terminar el estado Agarrado. También cuentas como si fueras de un tamaño más grande al determinar tu capacidad de carga.</p>",
+			"advancement": {
+				"LETPMtBLvmzWUUb0": {
+					"hint": "Mediano (de 2,1 a 2,4 metros de altura)"
+				},
+				"Goliath Traits": {
+					"title": "Rasgos de Goliat"
+				},
+				"Giant Ancestry": {
+					"title": "Ascendencia Gigante",
+					"hint": "Desciendes de Gigantes. Elige uno de los siguientes beneficios —una bendición sobrenatural de tu ascendencia; puedes usar el beneficio elegido un número de veces igual a tu Bonificador por Competencia, y recuperas todos los usos gastados cuando terminas un Descanso Largo."
+				}
+			}
+		},
+		"Guard": {
+			"name": "Guardia",
+			"description": "<p><strong>Puntuaciones de Característica:</strong> Fuerza, Inteligencia, Sabiduría</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftAlert000000]{Alerta}</p><p><strong>Competencia en Habilidades:</strong> Atletismo y Percepción</p><p><strong>Competencia en Herramientas:</strong> <em>Elige un tipo de</em> <em>Juego de azar</em></p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000]{Lanza}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLightCross]{Ballesta ligera}, 20 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000]{Virotes}, Juego de azar (el mismo de arriba), @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Lámpara con capucha}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000]{Grilletes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]{Caja para virotes de ballesta}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Ropa de viajero}, 12 PO; o (B) 50 PO</p><p>Te duelen los pies cuando recuerdas las innumerables horas que pasaste en tu puesto en la torre. Fuiste entrenado para mantener un ojo mirando fuera de la muralla, vigilando a los merodeadores que venían del bosque cercano, y el otro ojo mirando dentro de la muralla, buscando carteristas y alborotadores.</p>",
+			"advancement": {
+				"Background Ability Score Improvement": {
+					"title": "Mejora de Puntuación de Característica de Trasfondo",
+					"hint": "Tu trasfondo te permite aumentar tus puntuaciones de Fuerza, Inteligencia y Sabiduría; aumenta una de ellas en 2 y otra diferente en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede elevar una puntuación por encima de 20."
+				},
+				"Background Proficiencies": {
+					"title": "Competencias de Trasfondo",
+					"hint": "Tu trasfondo te otorga competencia en Atletismo y Percepción. También te otorga competencia con un Juego de azar."
+				},
+				"Background Feat": {
+					"title": "Dote de Trasfondo",
+					"hint": "Tu trasfondo te otorga la dote Alerta."
+				},
+				"Choose Languages": {
+					"title": "Elegir Idiomas",
+					"hint": "Tu personaje conoce al menos tres idiomas: Común más dos idiomas que elijas de la tabla de Idiomas Estándar."
+				}
+			}
+		},
+		"Guide": {
+			"name": "Guía",
+			"description": "<p><strong>Puntuaciones de Característica:</strong> Destreza, Constitución, Sabiduría</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftMagicInitia]{Iniciado en la Magia} (Druida)</p><p><strong>Competencia en Habilidades:</strong> Sigilo y Supervivencia</p><p><strong>Competencia en Herramientas:</strong> Herramientas de cartógrafo</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortbow00]{Arco corto}, 20 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Flechas}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCartograph]{Herramientas de cartógrafo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Saco de dormir}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Carcaj}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTent0000000]{Tienda de campaña}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Ropa de viajero}, 3 PO; o (B) 50 PO</p><p>Llegaste a la mayoría de edad al aire libre, lejos de las tierras pobladas. Tu hogar era cualquier lugar donde decidieras extender tu saco de dormir. Hay maravillas en la naturaleza —monstruos extraños, bosques y arroyos prístinos, ruinas cubiertas de vegetación de grandes salones una vez pisados por gigantes— y aprendiste a valerte por ti mismo mientras las explorabas. De vez en cuando, guiaste a sacerdotes de la naturaleza amigables que te instruyeron en los fundamentos de canalizar la magia de lo salvaje.</p>",
+			"advancement": {
+				"Background Ability Score Improvement": {
+					"title": "Mejora de Puntuación de Característica de Trasfondo",
+					"hint": "Tu trasfondo te permite aumentar tus puntuaciones de Destreza, Constitución y Sabiduría; aumenta una de ellas en 2 y otra diferente en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede elevar una puntuación por encima de 20."
+				},
+				"Background Proficiencies": {
+					"title": "Competencias de Trasfondo",
+					"hint": "Tu trasfondo te otorga competencia en Sigilo y Supervivencia. También te otorga competencia con las Herramientas de cartógrafo."
+				},
+				"Background Feat": {
+					"title": "Dote de Trasfondo",
+					"hint": "Tu trasfondo te otorga la dote Iniciado en la Magia (Druida)."
+				},
+				"Choose Languages": {
+					"title": "Elegir Idiomas",
+					"hint": "Tu personaje conoce al menos tres idiomas: Común más dos idiomas que elijas de la tabla de Idiomas Estándar."
+				}
+			}
+		},
+		"Halfling": {
+			"name": "Mediano",
+			"description": "<p>Apreciados y guiados por dioses que valoran la vida, el hogar y el hogar, los medianos gravitan hacia refugios bucólicos donde la familia y la comunidad ayudan a dar forma a sus vidas. Dicho esto, muchos medianos poseen un espíritu valiente y aventurero que los lleva a viajes de descubrimiento, dándoles la oportunidad de explorar un mundo más grande y hacer nuevos amigos en el camino. Su tamaño, similar al de un niño humano, les ayuda a pasar desapercibidos entre la multitud y a deslizarse por espacios estrechos.</p><p>Cualquiera que haya pasado tiempo cerca de medianos, particularmente aventureros medianos, probablemente ha sido testigo de la legendaria \"suerte de los medianos\" en acción. Cuando un mediano está en peligro mortal, una fuerza invisible parece intervenir en su nombre. Muchos medianos creen en el poder de la suerte y atribuyen su don inusual a uno o más de sus dioses benévolos, incluidos Yondalla, Brandobaris y Charmalaine. El mismo don podría contribuir a su robusta esperanza de vida (unos 150 años).</p><p>Las comunidades de medianos vienen en todas las variedades. Por cada comarca aislada escondida en una parte virgen del mundo, hay un sindicato del crimen como el Clan Boromar en el escenario de Eberron o una turba territorial de medianos como los del escenario de Sol Oscuro.</p><p>Los medianos que prefieren vivir bajo tierra a veces son llamados medianos corazónfuerte o robustos. Los medianos nómadas, así como los que viven entre humanos y otros pueblos altos, a veces son llamados medianos piesligeros o altillos.</p><h3 data-anchor=\"halfling-traits\">Rasgos de Mediano</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamaño: </strong>Pequeño (de 0,6 a 0,9 metros de altura)</p><p><strong>Velocidad:</strong> 30 pies</p><p>Como Mediano, tienes estos rasgos especiales.</p><p><strong>Valiente.</strong> Tienes Ventaja en las tiradas de salvación que hagas para evitar o terminar el estado Asustado.</p><p><strong>Agilidad de Mediano.</strong> Puedes moverte a través del espacio de cualquier criatura que sea de un tamaño más grande que tú, pero no puedes detenerte en el mismo espacio.</p><p><strong>Suerte.</strong> Cuando sacas un 1 en el d20 de una Prueba de d20, puedes volver a tirar el dado, y debes usar el nuevo resultado.</p><p><strong>Naturalmente Sigiloso.</strong> Puedes realizar la acción de Esconderte incluso cuando solo estás oculto por una criatura que es al menos un tamaño más grande que tú.</p>",
+			"advancement": {
+				"GYp1vi82hSEoe3mO": {
+					"hint": "Pequeño (de 0,6 a 0,9 metros de altura)"
+				},
+				"Halfling Traits": {
+					"title": "Rasgos de Mediano"
+				}
+			}
+		},
+		"Halfling Nimbleness": {
+			"name": "Agilidad de Mediano",
+			"description": "<p>Puedes moverte a través del espacio de cualquier criatura que sea de un tamaño más grande que tú, pero no puedes detenerte en el mismo espacio.</p>",
+			"effects": {
+				"Halfling Nimbleness": {
+					"name": "Agilidad de Mediano"
+				}
+			}
+		},
+		"Healing Hands": {
+			"name": "Manos Sanadoras",
+			"description": "<p> Como una acción de Magia, tocas a una criatura y lanzas un número de d4s igual a tu Bonificador por Competencia. La criatura recupera un número de Puntos de Golpe igual al total obtenido. Una vez que usas este rasgo, no puedes volver a usarlo hasta que termines un Descanso Largo.</p>"
+		},
+		"Hermit": {
+			"name": "Ermitaño",
+			"description": "<p><strong>Puntuaciones de Característica:</strong> Constitución, Sabiduría, Carisma</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftHealer00000]{Sanador}</p><p><strong>Competencia en Habilidades:</strong> Medicina y Religión</p><p><strong>Competencia en Herramientas:</strong> Kit de herboristería</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulHerbalismK]{Kit de herboristería}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Saco de dormir}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000]{Libro} (de filosofía), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lámpara}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite} (3 frascos), @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Ropa de viajero}, 16 PO; o (B) 50 PO</p><p>Pasaste tus primeros años recluido en una cabaña o monasterio ubicado mucho más allá de las afueras del asentamiento más cercano. En aquellos días, tus únicos compañeros eran las criaturas del bosque y aquellos que ocasionalmente te visitaban para traer noticias del mundo exterior y suministros. La soledad te permitió pasar muchas horas reflexionando sobre los misterios de la creación.</p>",
+			"advancement": {
+				"Background Ability Score Improvement": {
+					"title": "Mejora de Puntuación de Característica de Trasfondo",
+					"hint": "Tu trasfondo te permite aumentar tus puntuaciones de Constitución, Sabiduría y Carisma; aumenta una de ellas en 2 y otra diferente en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede elevar una puntuación por encima de 20."
+				},
+				"Background Proficiencies": {
+					"title": "Competencias de Trasfondo",
+					"hint": "Tu trasfondo te otorga competencia en Medicina y Religión. También te otorga competencia con los Kits de herboristería."
+				},
+				"Background Feat": {
+					"title": "Dote de Trasfondo",
+					"hint": "Tu trasfondo te otorga la dote Sanador."
+				},
+				"Choose Languages": {
+					"title": "Elegir Idiomas",
+					"hint": "Tu personaje conoce al menos tres idiomas: Común más dos idiomas que elijas de la tabla de Idiomas Estándar."
+				}
+			}
+		},
+		"Hill's Tumble": {
+			"name": "Voltereta de Colina",
+			"description": "<p>Cuando golpeas a una criatura Grande o más pequeña con una tirada de ataque y le infliges daño, puedes hacer que ese objetivo caiga &Reference[Derribado].</p>",
+			"activities": {
+				"Hill's Tumble": {
+					"name": "Voltereta de Colina",
+					"condition": "Cuando golpeas a una criatura Grande o más pequeña con una tirada de ataque y le infliges daño"
+				}
+			}
+		},
+		"Human": {
+			"name": "Humano",
+			"description": "<p>Encontrados en todo el multiverso, los humanos son tan variados como numerosos, y se esfuerzan por lograr todo lo que pueden en los años que se les dan. Su ambición e ingenio son elogiados, respetados y temidos en muchos mundos.</p><p>Los humanos son tan diversos en apariencia como la gente de la Tierra, y tienen muchos dioses. Los eruditos disputan el origen de la humanidad, pero se dice que una de las reuniones humanas más antiguas conocidas ocurrió en Sigil, la ciudad en forma de toro en el centro del multiverso y el lugar donde nació el idioma Común. Desde allí, los humanos podrían haberse extendido a todas partes del multiverso, llevando consigo el cosmopolitismo de la Ciudad de las Puertas.</p><h3 data-anchor=\"human-traits\">Rasgos de Humano</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamaño: </strong>Mediano (de 1,2 a 2,1 metros de altura) o Pequeño (de 0,6 a 1,2 metros de altura), a elegir cuando seleccionas esta especie</p><p><strong>Velocidad: </strong>30 pies</p><p>Como Humano, tienes estos rasgos especiales.</p><p><strong>Ingenioso. </strong>Ganas Inspiración Heroica cada vez que terminas un Descanso Largo.</p><p><strong>Habilidoso. </strong>Ganas competencia en una habilidad de tu elección.</p><p><strong>Versátil.</strong> Ganas una dote de Origen de tu elección (ver capítulo 5). Se recomienda Habilidoso.</p>",
+			"advancement": {
+				"dLxv96vt2B2KOEe2": {
+					"hint": "Mediano (de 1,2 a 2,1 metros de altura) o Pequeño (de 0,6 a 1,2 metros de altura), a elegir cuando seleccionas esta especie"
+				},
+				"Human Traits": {
+					"title": "Rasgos de Humano"
+				},
+				"Skillful": {
+					"title": "Habilidoso",
+					"hint": "Ganas competencia en una habilidad de tu elección."
+				},
+				"Versatile": {
+					"title": "Versátil",
+					"hint": "Ganas una dote de Origen de tu elección. Se recomienda Habilidoso."
+				}
+			}
+		},
+		"Keen Senses": {
+			"name": "Sentidos Agudos",
+			"description": "<p>Tienes competencia en la habilidad de Perspicacia, Percepción o Supervivencia.</p><section id=\"secret-Tecxufp7EFDVqTEY\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Se te pedirá tu elección después de seleccionar esta especie.</p></section>"
+		},
+		"Large Form": {
+			"name": "Forma Grande",
+			"description": "<p>A partir del nivel 5 de personaje, puedes cambiar tu tamaño a Grande como Acción Adicional si estás en un espacio lo suficientemente grande. Esta transformación dura 10 minutos o hasta que la termines (no requiere acción). Durante esa duración, tienes Ventaja en las pruebas de Fuerza, y tu Velocidad aumenta en 10 pies. Una vez que usas este rasgo, no puedes volver a usarlo hasta que termines un Descanso Largo.</p><section class=\"secret\" id=\"secret-MnS2QCGjgh6nXxEa\"><p><strong>Nota de Foundry</strong></p><p>Esta característica incluye un Efecto Activo que aumenta automáticamente tu velocidad de caminar pero no automatiza la Ventaja.</p></section>",
+			"activities": {
+				"Enlarge": {
+					"name": "Agrandar"
+				}
+			},
+			"effects": {
+				"Large Form": {
+					"name": "Forma Grande"
+				}
+			}
+		},
+		"Light Bearer": {
+			"name": "Portador de Luz",
+			"description": "<p>Conoces el truco @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLight00000]{Luz}. Carisma es tu aptitud mágica para lanzarlo.</p>"
+		},
+		"Lightning Breath Weapon": {
+			"name": "Arma de Aliento de Rayo",
+			"description": "<p>Cuando realizas la acción de Atacar en tu turno, puedes reemplazar uno de tus ataques con una exhalación de energía mágica en un Cono de 15 pies o una Línea de 30 pies de largo y 5 pies de ancho (elige la forma cada vez).</p><p>Cada criatura en esa área debe hacer una tirada de salvación de Destreza (CD 8 + tu modificador de Constitución + tu Bonificador por Competencia). Si falla la salvación, una criatura recibe 1d10 de daño del tipo determinado por tu rasgo de Ascendencia Dracónica. Si tiene éxito, una criatura recibe la mitad de daño.</p><p>Este daño aumenta en 1d10 cuando alcanzas los niveles de personaje 5 (2d10), 11 (3d10) y 17 (4d10). Puedes usar esta Arma de Aliento un número de veces igual a tu Bonificador por Competencia, y recuperas todos los usos gastados cuando terminas un Descanso Largo.</p>",
+			"activities": {
+				"Exhale Cone": {
+					"name": "Exhalar Cono"
+				},
+				"Exhale Line": {
+					"name": "Exhalar Línea"
+				}
+			},
+			"advancement": {
+				"Breath Weapon Damage": {
+					"title": "Daño del Arma de Aliento"
+				}
+			}
+		},
+		"Luck": {
+			"name": "Suerte",
+			"description": "<p>Cuando sacas un 1 en el d20 de una Prueba de d20, puedes volver a tirar el dado, y debes usar el nuevo resultado.</p>",
+			"effects": {
+				"Luck": {
+					"name": "Suerte"
+				}
+			}
+		},
+		"Merchant": {
+			"name": "Mercader",
+			"description": "<p><strong>Puntuaciones de Característica:</strong> Constitución, Inteligencia, Carisma</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftLucky000000]{Afortunado}</p><p><strong>Competencia en Habilidades:</strong> Trato con Animales y Persuasión</p><p><strong>Competencia en Herramientas:</strong> Herramientas de navegante</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulNavigators]{Herramientas de navegante}, 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsas}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Ropa de viajero}, 22 PO; o (B) 50 PO</p><p>Fuiste aprendiz de un comerciante, maestro de caravanas o tendero, aprendiendo los fundamentos del comercio. Viajaste mucho y te ganaste la vida comprando y vendiendo las materias primas que los artesanos necesitan para practicar su oficio o las obras terminadas de dichos artesanos. Es posible que hayas transportado mercancías de un lugar a otro (en barco, carro o caravana) o las hayas comprado a comerciantes ambulantes y vendido en tu propia tienda.</p>",
+			"advancement": {
+				"Background Ability Score Improvement": {
+					"title": "Mejora de Puntuación de Característica de Trasfondo",
+					"hint": "Tu trasfondo te permite aumentar tus puntuaciones de Constitución, Inteligencia y Carisma; aumenta una de ellas en 2 y otra diferente en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede elevar una puntuación por encima de 20."
+				},
+				"Background Proficiencies": {
+					"title": "Competencias de Trasfondo",
+					"hint": "Tu trasfondo te otorga competencia en Trato con Animales y Persuasión. También otorga competencia con las Herramientas de navegante."
+				},
+				"Background Feat": {
+					"title": "Dote de Trasfondo",
+					"hint": "Tu trasfondo te otorga la dote Afortunado."
+				},
+				"Choose Languages": {
+					"title": "Elegir Idiomas",
+					"hint": "Tu personaje conoce al menos tres idiomas: Común más dos idiomas que elijas de la tabla de Idiomas Estándar."
+				}
+			}
+		},
+		"Naturally Stealthy": {
+			"name": "Naturalmente Sigiloso",
+			"description": "<p>Puedes realizar la acción de &Reference[Esconderte] incluso cuando solo estás oculto por una criatura que es al menos un tamaño más grande que tú.</p>"
+		},
+		"Noble": {
+			"name": "Noble",
+			"description": "<p><strong>Puntuaciones de Característica:</strong> Fuerza, Inteligencia, Carisma</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000]{Habilidoso}</p><p><strong>Competencia en Habilidades:</strong> Historia y Persuasión</p><p><strong>Competencia en Herramientas:</strong> <em>Elige un tipo de</em> <em>Juego de azar</em> (ver @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbEquipment0000.JournalEntryPage.GCvg8n7Q7ltSPRxe#gaming-set-(varies)]{capítulo 6})</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) Juego de azar (el mismo de arriba), @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Ropa elegante}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}, 29 PO; o (B) 50 PO</p><p>Te criaste en un castillo, rodeado de riqueza, poder y privilegios. Tu familia de aristócratas menores se aseguró de que recibieras una educación de primera clase, parte de la cual apreciaste y parte de la cual resentiste. Tu tiempo en el castillo, especialmente las muchas horas que pasaste observando a tu familia en la corte, también te enseñó mucho sobre el liderazgo.</p>",
+			"advancement": {
+				"Background Ability Score Improvement": {
+					"title": "Mejora de Puntuación de Característica de Trasfondo",
+					"hint": "Tu trasfondo te permite aumentar tus puntuaciones de Fuerza, Inteligencia y Carisma; aumenta una de ellas en 2 y otra diferente en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede elevar una puntuación por encima de 20."
+				},
+				"Background Proficiencies": {
+					"title": "Competencias de Trasfondo",
+					"hint": "Tu trasfondo te otorga competencia en Historia y Persuasión. También te otorga competencia con un tipo de Juego de azar."
+				},
+				"Background Feat": {
+					"title": "Dote de Trasfondo",
+					"hint": "Tu trasfondo te otorga la dote Habilidoso."
+				},
+				"Skilled Proficiencies": {
+					"title": "Competencias de Habilidoso",
+					"hint": "Otorgada por la Dote de Origen: Habilidoso. Ganas competencia en cualquier combinación de tres habilidades o herramientas de tu elección."
+				},
+				"Choose Languages": {
+					"title": "Elegir Idiomas",
+					"hint": "Tu personaje conoce al menos tres idiomas: Común más dos idiomas que elijas de la tabla de Idiomas Estándar."
+				}
+			}
+		},
+		"Orc": {
+			"name": "Orco",
+			"description": "<p>Los orcos atribuyen su creación a Gruumsh, un poderoso dios que vagaba por los amplios espacios abiertos del Plano Material. Gruumsh equipó a sus hijos con dones para ayudarles a vagar por grandes llanuras, vastas cavernas y mares turbulentos y para enfrentarse a los monstruos que allí acechan. Incluso cuando dedican su devoción a otros dioses, los orcos conservan los dones de Gruumsh: resistencia, determinación y la capacidad de ver en la oscuridad.</p><p>Los orcos son, en promedio, altos y anchos. Tienen la piel gris, orejas puntiagudas y caninos inferiores prominentes que parecen pequeños colmillos. A los jóvenes orcos de algunos mundos se les cuentan las grandes travesías y tribulaciones de sus antepasados. Inspirados por esas historias, muchos de esos orcos se preguntan cuándo los llamará Gruumsh para igualar las hazañas heroicas de antaño y si demostrarán ser dignos de su favor. Otros orcos están felices de dejar las viejas historias en el pasado y encontrar su propio camino.</p><h3 data-anchor=\"orc-traits\">Rasgos de Orco</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamaño: </strong>Mediano (de 1,8 a 2,1 metros de altura)</p><p><strong>Velocidad:</strong> 30 pies</p><p>Como Orco, tienes estos rasgos especiales.</p><p><strong>Descarga de Adrenalina. </strong>Puedes realizar la acción de Correr como una Acción Adicional. Cuando lo haces, obtienes un número de Puntos de Golpe Temporales igual a tu Bonificador por Competencia. Puedes usar este rasgo un número de veces igual a tu Bonificador por Competencia, y recuperas todos los usos gastados cuando terminas un Descanso Corto o Largo.</p><p><strong>Visión en la Oscuridad.</strong> Tienes Visión en la Oscuridad con un alcance de 120 pies.</p><p><strong>Resistencia Implacable.</strong> Cuando te reducen a 0 Puntos de Golpe pero no mueres directamente, puedes caer a 1 Punto de Golpe en su lugar. Una vez que usas este rasgo, no puedes volver a usarlo hasta que termines un Descanso Largo.</p>",
+			"advancement": {
+				"B2sUOuY0KhoULqlX": {
+					"hint": "Mediano (de 1,8 a 2,1 metros de altura)"
+				},
+				"Orc Traits": {
+					"title": "Rasgos de Orco"
+				}
+			}
+		},
+		"Otherworldly Presence": {
+			"name": "Presencia de Otro Mundo",
+			"description": "<p>Conoces el truco @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{Taumaturgia}. Cuando lo lanzas con este rasgo, el hechizo usa la misma aptitud mágica que usas para tu rasgo de Legado Infernal.</p><section id=\"secret-i3PjM9HLuO2Xcae7\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Cuando se te otorga este hechizo, te permitirá elegir tu aptitud mágica.</p></section>"
+		},
+		"Poison Breath Weapon": {
+			"name": "Arma de Aliento de Veneno",
+			"description": "<p>Cuando realizas la acción de Atacar en tu turno, puedes reemplazar uno de tus ataques con una exhalación de energía mágica en un Cono de 15 pies o una Línea de 30 pies de largo y 5 pies de ancho (elige la forma cada vez).</p><p>Cada criatura en esa área debe hacer una tirada de salvación de Destreza (CD 8 + tu modificador de Constitución + tu Bonificador por Competencia). Si falla la salvación, una criatura recibe 1d10 de daño del tipo determinado por tu rasgo de Ascendencia Dracónica. Si tiene éxito, una criatura recibe la mitad de daño.</p><p>Este daño aumenta en 1d10 cuando alcanzas los niveles de personaje 5 (2d10), 11 (3d10) y 17 (4d10). Puedes usar esta Arma de Aliento un número de veces igual a tu Bonificador por Competencia, y recuperas todos los usos gastados cuando terminas un Descanso Largo.</p>",
+			"activities": {
+				"Exhale Cone": {
+					"name": "Exhalar Cono"
+				},
+				"Exhale Line": {
+					"name": "Exhalar Línea"
+				}
+			},
+			"advancement": {
+				"Breath Weapon Damage": {
+					"title": "Daño del Arma de Aliento"
+				}
+			}
+		},
+		"Powerful Build": {
+			"name": "Complexión Poderosa",
+			"description": "<p>Tienes Ventaja en cualquier prueba de característica que hagas para terminar el estado &Reference[Agarrado]. También cuentas como si fueras de un tamaño más grande al determinar tu capacidad de carga.</p><section class=\"secret\" id=\"secret-7qaTRjmRe4PD41G3\"><p><strong>Nota de Foundry</strong></p><p>Esta característica incluye un Efecto Activo que mejora automáticamente tu tamaño al determinar la capacidad de carga.</p></section>",
+			"effects": {
+				"Powerful Build": {
+					"name": "Complexión Poderosa"
+				}
+			}
+		},
+		"Relentless Endurance": {
+			"name": "Resistencia Implacable",
+			"description": "<p>Cuando te reducen a 0 Puntos de Golpe pero no mueres directamente, puedes caer a 1 Punto de Golpe en su lugar. Una vez que usas este rasgo, no puedes volver a usarlo hasta que termines un Descanso Largo.</p>",
+			"activities": {
+				"Relentlessly Endure": {
+					"name": "Resistir Implacablemente",
+					"condition": "Cuando te reducen a 0 Puntos de Golpe pero no mueres directamente"
+				}
+			}
+		},
+		"Resourceful": {
+			"name": "Ingenioso",
+			"description": "<p>Ganas @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.AQ1oTG7jHy5kZuN9]{Inspiración Heroica} cada vez que terminas un Descanso Largo.</p><section id=\"secret-76Fxj5ArEsAJk2ZO\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>El uso de la actividad de esta característica no otorga automáticamente Inspiración Heroica.</p></section>"
+		},
+		"Sage": {
+			"name": "Sabio",
+			"description": "<p><strong>Puntuaciones de Característica:</strong> Constitución, Inteligencia, Sabiduría</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftMagicInitia]{Iniciado en la Magia} (Mago)</p><p><strong>Competencia en Habilidades:</strong> Arcanos e Historia</p><p><strong>Competencia en Herramientas:</strong> Suministros de calígrafo</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph]{Suministros de calígrafo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000]{Libro} (de historia), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergamino} (8 hojas), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Túnica}, 8 PO; o (B) 50 PO</p><p>Pasaste tus años formativos viajando entre señoríos y monasterios, realizando diversos trabajos y servicios a cambio de acceso a sus bibliotecas. Pasaste muchas largas noches estudiando libros y pergaminos, aprendiendo el saber del multiverso —incluso los rudimentos de la magia— y tu mente anhela más.</p>",
+			"advancement": {
+				"Background Ability Score Improvement": {
+					"title": "Mejora de Puntuación de Característica de Trasfondo",
+					"hint": "Tu trasfondo te permite aumentar tus puntuaciones de Constitución, Inteligencia y Sabiduría; aumenta una de ellas en 2 y otra diferente en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede elevar una puntuación por encima de 20."
+				},
+				"Background Proficiencies": {
+					"title": "Competencias de Trasfondo",
+					"hint": "Tu trasfondo te otorga competencia en Arcanos e Historia. También te otorga competencia con los Suministros de calígrafo."
+				},
+				"Background Feat": {
+					"title": "Dote de Trasfondo",
+					"hint": "Tu trasfondo te otorga la dote Iniciado en la Magia (Mago)."
+				},
+				"Choose Languages": {
+					"title": "Elegir Idiomas",
+					"hint": "Tu personaje conoce al menos tres idiomas: Común más dos idiomas que elijas de la tabla de Idiomas Estándar."
+				}
+			}
+		},
+		"Sailor": {
+			"name": "Marinero",
+			"description": "<p><strong>Puntuaciones de Característica:</strong> Fuerza, Destreza, Sabiduría</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftTavernBrawl]{Luchador de Taberna}</p><p><strong>Competencia en Habilidades:</strong> Acrobacias y Percepción</p><p><strong>Competencia en Herramientas:</strong> Herramientas de navegante</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Daga}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulNavigators]{Herramientas de navegante}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Ropa de viajero}, 20 PO; o (B) 50 PO</p><p>Viviste como un marinero, con el viento a tu espalda y las cubiertas balanceándose bajo tus pies. Te has sentado en taburetes de bar en más puertos de escala de los que puedes recordar, te has enfrentado a poderosas tormentas y has intercambiado historias con gente que vive bajo las olas.</p>",
+			"advancement": {
+				"Background Ability Score Improvement": {
+					"title": "Mejora de Puntuación de Característica de Trasfondo",
+					"hint": "Tu trasfondo te permite aumentar tus puntuaciones de Fuerza, Destreza y Sabiduría; aumenta una de ellas en 2 y otra diferente en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede elevar una puntuación por encima de 20."
+				},
+				"Background Proficiencies": {
+					"title": "Competencias de Trasfondo",
+					"hint": "Tu trasfondo te otorga competencia en Acrobacias y Percepción. También te otorga competencia con las Herramientas de navegante."
+				},
+				"Background Feat": {
+					"title": "Dote de Trasfondo",
+					"hint": "Tu trasfondo te otorga la dote Luchador de Taberna."
+				},
+				"Choose Languages": {
+					"title": "Elegir Idiomas",
+					"hint": "Tu personaje conoce al menos tres idiomas: Común más dos idiomas que elijas de la tabla de Idiomas Estándar."
+				}
+			}
+		},
+		"Scribe": {
+			"name": "Escriba",
+			"description": "<p><strong>Puntuaciones de Característica:</strong> Destreza, Inteligencia, Sabiduría</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000]{Habilidoso}</p><p><strong>Competencia en Habilidades:</strong> Investigación y Percepción</p><p><strong>Competencia en Herramientas:</strong> Suministros de calígrafo</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph]{Suministros de calígrafo}, @UUID[Compendium.dnd5e.items.Item.FqFmdzIBUSxFKKfi]{Ropa elegante}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lámpara}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite} (3 frascos), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergamino} (12 hojas), 23 PO; o (B) 50 PO</p><p>Pasaste tus años formativos en un scriptorium, un monasterio dedicado a la preservación del conocimiento, o una agencia gubernamental, donde aprendiste a escribir con una letra clara y a producir textos finamente escritos. Quizás escribiste documentos gubernamentales o copiaste tomos de literatura. Podrías tener alguna habilidad como escritor de poesía, narrativa o investigación académica. Sobre todo, tienes una cuidadosa atención al detalle, lo que te ayuda a evitar introducir errores en los documentos que copias y creas.</p>",
+			"advancement": {
+				"Background Ability Score Improvement": {
+					"title": "Mejora de Puntuación de Característica de Trasfondo",
+					"hint": "Tu trasfondo te permite aumentar tus puntuaciones de Destreza, Inteligencia y Sabiduría; aumenta una de ellas en 2 y otra diferente en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede elevar una puntuación por encima de 20."
+				},
+				"Background Proficiencies": {
+					"title": "Competencias de Trasfondo",
+					"hint": "Tu trasfondo te otorga competencia en Investigación y Percepción. También te otorga competencia con los Suministros de calígrafo."
+				},
+				"Background Feat": {
+					"title": "Dote de Trasfondo",
+					"hint": "Tu trasfondo te otorga la dote Habilidoso."
+				},
+				"Skilled Proficiencies": {
+					"title": "Competencias de Habilidoso",
+					"hint": "Otorgada por la Dote de Origen: Habilidoso. Ganas competencia en cualquier combinación de tres habilidades o herramientas de tu elección."
+				},
+				"Choose Languages": {
+					"title": "Elegir Idiomas",
+					"hint": "Tu personaje conoce al menos tres idiomas: Común más dos idiomas que elijas de la tabla de Idiomas Estándar."
+				}
+			}
+		},
+		"Skillful": {
+			"name": "Habilidoso",
+			"description": "<p>Ganas competencia en una habilidad de tu elección.</p><section id=\"secret-lvP62g2xTxkz2VN3\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Se te pedirá esta elección cuando selecciones esta Especie.</p></section>"
+		},
+		"Soldier": {
+			"name": "Soldado",
+			"description": "<p><strong>Puntuaciones de Característica:</strong> Fuerza, Destreza, Constitución</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftSavageAttac]{Atacante Salvaje}</p><p><strong>Competencia en Habilidades:</strong> Atletismo e Intimidación</p><p><strong>Competencia en Herramientas:</strong> <em>Elige un tipo de</em> <em>Juego de azar</em> (ver @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbEquipment0000.JournalEntryPage.GCvg8n7Q7ltSPRxe#gaming-set-(varies)]{capítulo 6})</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000]{Lanza}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepShortbow00]{Arco corto}, 20 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Flechas}, Juego de azar (el mismo de arriba), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHealersKit0]{Botiquín de sanador}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Carcaj}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Ropa de viajero}, 14 PO; o (B) 50 PO</p><p>Comenzaste a entrenar para la guerra tan pronto como alcanzaste la edad adulta y guardas muy pocos recuerdos de la vida antes de tomar las armas. La batalla está en tu sangre. A veces te sorprendes realizando reflexivamente los ejercicios básicos de lucha que aprendiste primero. Eventualmente, pusiste ese entrenamiento en práctica en el campo de batalla, protegiendo el reino al hacer la guerra.</p>",
+			"advancement": {
+				"Background Ability Score Improvement": {
+					"title": "Mejora de Puntuación de Característica de Trasfondo",
+					"hint": "Tu trasfondo te permite aumentar tus puntuaciones de Fuerza, Destreza y Constitución; aumenta una de ellas en 2 y otra diferente en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede elevar una puntuación por encima de 20."
+				},
+				"Background Proficiencies": {
+					"title": "Competencias de Trasfondo",
+					"hint": "Tu trasfondo te otorga competencia en Atletismo e Intimidación. También te otorga competencia con cualquier Juego de azar."
+				},
+				"Background Feat": {
+					"title": "Dote de Trasfondo",
+					"hint": "Tu trasfondo te otorga la dote Atacante Salvaje."
+				},
+				"Choose Languages": {
+					"title": "Elegir Idiomas",
+					"hint": "Tu personaje conoce al menos tres idiomas: Común más dos idiomas que elijas de la tabla de Idiomas Estándar."
+				}
+			}
+		},
+		"Stone's Endurance": {
+			"name": "Entereza de Piedra",
+			"description": "<p>Cuando recibes daño, puedes usar tu Reacción para lanzar 1d12. Suma tu modificador de Constitución al número obtenido y reduce el daño en ese total.</p>",
+			"activities": {
+				"heal": {
+					"condition": "Cuando recibes daño"
+				}
+			}
+		},
+		"Stonecunning": {
+			"name": "Afinidad con la Piedra",
+			"description": "<p>Como Acción Adicional, ganas &Reference[Sentido de la Vibración] con un alcance de 60 pies durante 10 minutos. Debes estar en una superficie de piedra o tocando una superficie de piedra para usar este Sentido de la Vibración. La piedra puede ser natural o trabajada. Puedes usar esta Acción Adicional un número de veces igual a tu Bonificador por Competencia, y recuperas todos los usos gastados cuando terminas un Descanso Largo.</p><section class=\"secret\" id=\"secret-7BtT80083mC3Eavg\"><p><strong>Nota de Foundry</strong></p><p>Esta característica incluye los usos limitados y un Efecto Activo que te otorga 60 pies de Sentido de la Vibración. No actualiza automáticamente la configuración de visión de tu Token.</p></section>",
+			"activities": {
+				"Stonecunning": {
+					"name": "Afinidad con la Piedra"
+				}
+			},
+			"effects": {
+				"Stonecunning": {
+					"name": "Afinidad con la Piedra"
+				}
+			}
+		},
+		"Storm's Thunder": {
+			"name": "Trueno de Tormenta",
+			"description": "<p>Cuando recibes daño de una criatura a 60 pies de ti, puedes usar tu Reacción para infligir 1d8 de daño por Trueno a esa criatura.</p>",
+			"activities": {
+				"Storm's Thunder": {
+					"name": "Trueno de Tormenta",
+					"condition": "Cuando recibes daño de una criatura a 60 pies de ti"
+				}
+			}
+		},
+		"Tiefling, Abyssal": {
+			"name": "Tiefling, Abisal",
+			"description": "<p>Los tieflings nacen en los Planos Inferiores o tienen ancestros infernales que se originaron allí. Un tiefling (pronunciado TIF-ling) está vinculado por sangre a un diablo, un demonio o algún otro Infernal. Esta conexión con los Planos Inferiores es el legado infernal del tiefling, que viene con la promesa de poder pero no tiene efecto en su perspectiva moral.</p><p>Un tiefling elige si abrazar o lamentar su legado infernal.</p><h3 data-anchor=\"abyssal\">Abisal</h3><p>La entropía del Abismo, el caos del Pandemonio y la desesperación de Carceri llaman a los tieflings que tienen el legado abisal. Cuernos, pelaje, colmillos y olores peculiares son rasgos físicos comunes de tales tieflings, la mayoría de los cuales tienen la sangre de demonios corriendo por sus venas.</p><h3 data-anchor=\"tiefling-traits\">Rasgos de Tiefling</h3><p><strong>Tipo de Criatura</strong>: Humanoide</p><p><strong>Tamaño: </strong>Mediano (de 1,2 a 2,1 metros de altura) o Pequeño (de 0,9 a 1,2 metros de altura), a elegir cuando seleccionas esta especie</p><p><strong>Velocidad:</strong> 30 pies</p><p>Como Tiefling, tienes los siguientes rasgos especiales.</p><p><strong>Visión en la Oscuridad. </strong>Tienes Visión en la Oscuridad con un alcance de 60 pies.</p><p><strong>Legado Infernal.</strong> Eres el receptor de un legado que te otorga habilidades sobrenaturales.</p><p>Cuando alcanzas los niveles de personaje 3 y 5, aprendes un hechizo de nivel superior, como se muestra en la tabla. Siempre tienes ese hechizo preparado. Puedes lanzarlo una vez sin usar un espacio de conjuro, y recuperas la capacidad de lanzarlo de esa manera cuando terminas un Descanso Largo. También puedes lanzar el hechizo usando cualquier espacio de conjuro que tengas del nivel apropiado. Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los hechizos que lanzas con este rasgo (elige la aptitud cuando selecciones el legado).</p><p><strong>Presencia de Otro Mundo.</strong> Conoces el truco @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{Taumaturgia}. Cuando lo lanzas con este rasgo, el hechizo usa la misma aptitud mágica que usas para tu rasgo de Legado Infernal.</p><table><caption>Rasgos de Legado Abisal</caption><thead><tr><td>Nivel 1</td><td>Nivel 3</td><td>Nivel 5</td></tr></thead><tbody><tr><td>Tienes Resistencia al daño por Veneno. También conoces el truco @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPoisonSpra]{Rociada de Veneno}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn]{Rayo de Enfermedad}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{Inmovilizar Persona}</td></tr></tbody></table>",
+			"advancement": {
+				"lskxIeib6rIreZ1h": {
+					"hint": "Mediano (de 1,2 a 2,1 metros de altura) o Pequeño (de 0,9 a 1,2 metros de altura)"
+				},
+				"Tiefling Traits": {
+					"title": "Rasgos de Tiefling"
+				},
+				"Abyssal Tiefling Traits": {
+					"title": "Rasgos de Tiefling Abisal",
+					"hint": "Tienes Resistencia al daño por Veneno."
+				},
+				"VhCiGFOLtG8H93jy": {
+					"title": "Rasgos de Tiefling Abisal",
+					"hint": "Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los hechizos que lanzas con este rasgo."
+				},
+				"KwcwntR3Ai0R5iPN": {
+					"title": "Rasgos de Tiefling Abisal",
+					"hint": "Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los hechizos que lanzas con este rasgo."
+				},
+				"9iZufhdzY3XN7Em3": {
+					"title": "Rasgos de Tiefling Abisal",
+					"hint": "Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los hechizos que lanzas con este rasgo."
+				},
+				"Otherworldly Presence": {
+					"title": "Presencia de Otro Mundo"
+				}
+			}
+		},
+		"Tiefling, Chthonic": {
+			"name": "Tiefling, Ctónico",
+			"description": "<p>Los tieflings nacen en los Planos Inferiores o tienen ancestros infernales que se originaron allí. Un tiefling (pronunciado TIF-ling) está vinculado por sangre a un diablo, un demonio o algún otro Infernal. Esta conexión con los Planos Inferiores es el legado infernal del tiefling, que viene con la promesa de poder pero no tiene efecto en su perspectiva moral.</p><p>Un tiefling elige si abrazar o lamentar su legado infernal.</p><h3 data-anchor=\"chthonic\">Ctónico</h3><p>Los tieflings que tienen el legado ctónico sienten no solo la atracción de Carceri, sino también la codicia de Gehenna y la penumbra de Hades. Algunos de estos tieflings parecen cadavéricos. Otros poseen la belleza sobrenatural de un súcubo, o tienen rasgos físicos en común con una bruja nocturna, un yugoloth u otro ancestro infernal Neutral Maligno.</p><h3 data-anchor=\"tiefling-traits\">Rasgos de Tiefling</h3><p><strong>Tipo de Criatura:</strong> Humanoide</p><p><strong>Tamaño: </strong>Mediano (de 1,2 a 2,1 metros de altura) o Pequeño (de 0,9 a 1,2 metros de altura), a elegir cuando seleccionas esta especie</p><p><strong>Velocidad:</strong> 30 pies</p><p>Como Tiefling, tienes los siguientes rasgos especiales.</p><p><strong>Visión en la Oscuridad. </strong>Tienes Visión en la Oscuridad con un alcance de 60 pies.</p><p><strong>Legado Infernal.</strong> Eres el receptor de un legado que te otorga habilidades sobrenaturales.</p><p>Cuando alcanzas los niveles de personaje 3 y 5, aprendes un hechizo de nivel superior, como se muestra en la tabla. Siempre tienes ese hechizo preparado. Puedes lanzarlo una vez sin usar un espacio de conjuro, y recuperas la capacidad de lanzarlo de esa manera cuando terminas un Descanso Largo. También puedes lanzar el hechizo usando cualquier espacio de conjuro que tengas del nivel apropiado. Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los hechizos que lanzas con este rasgo (elige la aptitud cuando selecciones el legado).</p><p><strong>Presencia de Otro Mundo.</strong> Conoces el truco @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{Taumaturgia}. Cuando lo lanzas con este rasgo, el hechizo usa la misma aptitud mágica que usas para tu rasgo de Legado Infernal.</p><table><caption>Legados Infernales</caption><thead><tr><td>Nivel 1</td><td>Nivel 3</td><td>Nivel 5</td></tr></thead><tbody><tr><td>Tienes Resistencia al daño Necrótico. También conoces el truco @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch]{Toque Helado}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]{Falsa Vida}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]{Rayo de Debilitamiento}</td></tr></tbody></table>",
+			"advancement": {
+				"lskxIeib6rIreZ1h": {
+					"hint": "Mediano (de 1,2 a 2,1 metros de altura) o Pequeño (de 0,9 a 1,2 metros de altura)"
+				},
+				"Tiefling Traits": {
+					"title": "Rasgos de Tiefling"
+				},
+				"Otherworldly Presence": {
+					"title": "Presencia de Otro Mundo"
+				},
+				"Chthonic Tiefling Traits": {
+					"title": "Rasgos de Tiefling Ctónico",
+					"hint": "Tienes Resistencia al daño Necrótico."
+				},
+				"pIi692Cevlw7qZRe": {
+					"title": "Rasgos de Tiefling Ctónico",
+					"hint": "Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los hechizos que lanzas con este rasgo."
+				},
+				"DU7Y6D1IJSSgObJK": {
+					"title": "Rasgos de Tiefling Ctónico",
+					"hint": "Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los hechizos que lanzas con este rasgo."
+				},
+				"R0k1RmQximNOQw1R": {
+					"title": "Rasgos de Tiefling Ctónico",
+					"hint": "Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los hechizos que lanzas con este rasgo."
+				}
+			}
+		},
+		"Tiefling, Infernal": {
+			"name": "Tiefling, Infernal",
+			"description": "<p>Los tieflings nacen en los Planos Inferiores o tienen ancestros infernales que se originaron allí. Un tiefling (pronunciado TIF-ling) está vinculado por sangre a un diablo, un demonio o algún otro Infernal. Esta conexión con los Planos Inferiores es el legado infernal del tiefling, que viene con la promesa de poder pero no tiene efecto en su perspectiva moral.</p><p>Un tiefling elige si abrazar o lamentar su legado infernal.</p><h3 data-anchor=\"infernal\">Infernal</h3><p>El legado infernal conecta a los tieflings no solo con Gehenna, sino también con los Nueve Infiernos y los furiosos campos de batalla de Aqueronte. Cuernos, espinas, colas, ojos dorados y un leve olor a azufre o humo son rasgos físicos comunes de tales tieflings, la mayoría de los cuales trazan su ascendencia a los diablos.</p><h3 data-anchor=\"tiefling-traits\">Rasgos de Tiefling</h3><p><strong>Tipo de Criatura:</strong> Humanoide</p><p><strong>Tamaño: </strong>Mediano (de 1,2 a 2,1 metros de altura) o Pequeño (de 0,9 a 1,2 metros de altura), a elegir cuando seleccionas esta especie</p><p><strong>Velocidad:</strong> 30 pies</p><p>Como Tiefling, tienes los siguientes rasgos especiales.</p><p><strong>Visión en la Oscuridad. </strong>Tienes Visión en la Oscuridad con un alcance de 60 pies.</p><p><strong>Legado Infernal.</strong> Eres el receptor de un legado que te otorga habilidades sobrenaturales.</p><p>Cuando alcanzas los niveles de personaje 3 y 5, aprendes un hechizo de nivel superior, como se muestra en la tabla. Siempre tienes ese hechizo preparado. Puedes lanzarlo una vez sin usar un espacio de conjuro, y recuperas la capacidad de lanzarlo de esa manera cuando terminas un Descanso Largo. También puedes lanzar el hechizo usando cualquier espacio de conjuro que tengas del nivel apropiado. Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los hechizos que lanzas con este rasgo (elige la aptitud cuando selecciones el legado).</p><p><strong>Presencia de Otro Mundo.</strong> Conoces el truco @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{Taumaturgia}. Cuando lo lanzas con este rasgo, el hechizo usa la misma aptitud mágica que usas para tu rasgo de Legado Infernal.</p><table><caption>Legados Infernales</caption><thead><tr><td>Nivel 1</td><td>Nivel 3</td><td>Nivel 5</td></tr></thead><tbody><tr><td>Tienes Resistencia al daño por Fuego. También conoces el truco @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireBolt00]{Descarga de Fuego}.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHellishReb]{Reprensión Infernal}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Oscuridad}</td></tr></tbody></table>",
+			"advancement": {
+				"lskxIeib6rIreZ1h": {
+					"hint": "Mediano (de 1,2 a 2,1 metros de altura) o Pequeño (de 0,9 a 1,2 metros de altura)"
+				},
+				"Tiefling Traits": {
+					"title": "Rasgos de Tiefling"
+				},
+				"Otherworldly Presence": {
+					"title": "Presencia de Otro Mundo"
+				},
+				"Infernal Tiefling Traits": {
+					"title": "Rasgos de Tiefling Infernal",
+					"hint": "Tienes Resistencia al daño por Fuego."
+				},
+				"gMovXMwHeD9cCL99": {
+					"title": "Rasgos de Tiefling Infernal",
+					"hint": "Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los hechizos que lanzas con este rasgo."
+				},
+				"ol3SWLw2FTNEiXrb": {
+					"title": "Rasgos de Tiefling Infernal",
+					"hint": "Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los hechizos que lanzas con este rasgo."
+				},
+				"cj8h25IH0Zvdy3Bm": {
+					"title": "Rasgos de Tiefling Infernal",
+					"hint": "Inteligencia, Sabiduría o Carisma es tu aptitud mágica para los hechizos que lanzas con este rasgo."
+				}
+			}
+		},
+		"Trance": {
+			"name": "Trance",
+			"description": "<p>No necesitas dormir, y la magia no puede ponerte a dormir. Puedes terminar un Descanso Largo en 4 horas si pasas esas horas en una meditación similar a un trance, durante la cual mantienes la consciencia.</p>"
+		},
+		"Versatile": {
+			"name": "Versátil",
+			"description": "<p>Ganas una @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]{dote de Origen} de tu elección. Se recomienda @UUID[Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000]{Habilidoso}.</p><section id=\"secret-9E1yve6WHohyBage\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>Se te pedirá tu elección cuando selecciones esta Especie.</p></section>"
+		},
+		"Wayfarer": {
+			"name": "Vagabundo",
+			"description": "<p><strong>Puntuaciones de Característica:</strong> Destreza, Sabiduría, Carisma</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftLucky000000]{Afortunado}</p><p><strong>Competencia en Habilidades:</strong> Perspicacia y Sigilo</p><p><strong>Competencia en Herramientas:</strong> Herramientas de ladrón</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Dagas}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{Herramientas de ladrón}, Juego de azar (cualquiera), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Saco de dormir}, 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsas}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Ropa de viajero}, 16 PO; o (B) 50 PO</p><p>Creciste en las calles rodeado de otros desamparados con un destino similar, algunos de ellos amigos y otros rivales. Dormías donde podías y hacías trabajos esporádicos por comida. A veces, cuando el hambre se volvía insoportable, recurrías al robo. Aun así, nunca perdiste tu orgullo y nunca abandonaste la esperanza. El destino aún no ha terminado contigo.</p>",
+			"advancement": {
+				"Background Ability Score Improvement": {
+					"title": "Mejora de Puntuación de Característica de Trasfondo",
+					"hint": "Tu trasfondo te permite aumentar tus puntuaciones de Destreza, Sabiduría y Carisma; aumenta una de ellas en 2 y otra diferente en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede elevar una puntuación por encima de 20."
+				},
+				"Background Proficiencies": {
+					"title": "Competencias de Trasfondo",
+					"hint": "Tu trasfondo te otorga competencia en Perspicacia y Sigilo. También te otorga competencia con las Herramientas de ladrón."
+				},
+				"Background Feat": {
+					"title": "Dote de Trasfondo",
+					"hint": "Tu trasfondo te otorga la dote Afortunado."
+				},
+				"Choose Languages": {
+					"title": "Elegir Idiomas",
+					"hint": "Tu personaje conoce al menos tres idiomas: Común más dos idiomas que elijas de la tabla de Idiomas Estándar."
+				}
+			}
+		}
+	}
 }

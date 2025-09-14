@@ -50,22 +50,22 @@
 		"Soulknife": "Rebanaalmas",
 		"Thief": "Ladrón",
 		"Sorcerer": "Hechicero",
-		"Metamagic Options":"Opciones de Metamagia",
-		"Aberrant Sorcery":"Hechicería Aberrante",
-		"Clockwork Sorcery":"Hechicería Mecánica",
-		"Draconic Sorcery":"Hechicería Dracónica",
-		"Wild Magic Sorcery":"Hechicería de Magia Salvaje",
+		"Metamagic Options": "Opciones de Metamagia",
+		"Aberrant Sorcery": "Hechicería Aberrante",
+		"Clockwork Sorcery": "Hechicería Mecánica",
+		"Draconic Sorcery": "Hechicería Dracónica",
+		"Wild Magic Sorcery": "Hechicería de Magia Salvaje",
 		"Warlock": "Brujo",
 		"Eldritch Invocation Options": "Opciones de Invocación Sobrenatural",
-		"Archfey Patron":"Patrón Feérico",
-		"Celestial Patron":"Patrón Celestial",
-		"Fiend Patron":"Patóon Infernal",
-		"Great Old One Patron":"Patrón Primigenio",
+		"Archfey Patron": "Patrón Feérico",
+		"Celestial Patron": "Patrón Celestial",
+		"Fiend Patron": "Patóon Infernal",
+		"Great Old One Patron": "Patrón Primigenio",
 		"Wizard": "Mago",
-		"Abjurer":"Abjurador",
-		"Diviner":"Adivino",
-		"Evoker":"Evocador",
-		"Illusionist":"Ilusionista"
+		"Abjurer": "Abjurador",
+		"Diviner": "Adivino",
+		"Evoker": "Evocador",
+		"Illusionist": "Ilusionista"
 	},
 	"entries": {
 		"Barbarian": {
@@ -138,7 +138,20 @@
 		},
 		"Unarmed Strike": {
 			"name": "Ataque sin Armas",
-			"description": "@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.xJjJ4lhymAYXAOvO]{Reglas Ataque sin Armas}."
+			"description": "<p><em>Revisar: &amp;Reference[unarmedstrike]</em></p>",
+			"activities": {
+				"Grapple/Shove": {
+					"name": "Agarre/Empujon"
+				}
+			},
+			"effects": {
+				"Grappled": {
+					"name": "Agarrado"
+				},
+				"Prone": {
+					"name": "Derribado"
+				}
+			}
 		},
 		"Unarmored Defense": {
 			"name": "Defensa sin Armadura",

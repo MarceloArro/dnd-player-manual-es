@@ -37,9 +37,10 @@
 			"4-4": "<strong>Alta:</strong> Inspirador. <strong> Baja:</strong> Insensible."
 		},
 		"Confusion Behavior": {
-			"name": "Comportamiento del Turno",
+			"name": "Comportamiento de Confusión",
+			"description": "<p>Comportamiento del Turno</p>",
 			"results": {
-				"1-1": "Direcciones Cardinales",
+				"wOokSBLpTsUWBccD": "El objetivo no usa ninguna Acción y emplea todo su movimiento para desplazarse. Para determinar la dirección, Tira [[/r 1d4]]: con un 1, se moverá al norte; con un 2, al este; con un 3, al sur; con un 4, al oeste. ",
 				"2-6": "El objetivo no se mueve ni realiza acciones.",
 				"7-8": "El objetivo no se mueve y emplea la acción de atacar para hacer un ataque cuerpo a cuerpo contra una criatura aleatoria dentro de su alcance. Si no hay ninguna dentro de su alcance, el objetivo no hace ninguna acción.",
 				"9-10": "El objetivo elige su comportamiento,"
@@ -67,12 +68,7 @@
 		},
 		"Elven Lineage": {
 			"name": "Elven Lineage",
-			"description": "<p>Formas parte de un linaje que te otorga habilidades sobrenaturales.</p>",
-			"results": {
-				"1-1": "Elfo, Drow",
-				"2-2": "Elfo, Alto",
-				"3-3": "Elfo, de los Bosques"
-			}
+			"description": "<p>Formas parte de un linaje que te otorga habilidades sobrenaturales.</p>"
 		},
 		"Evil Traits": {
 			"name": "Rasgos Malvados",
@@ -96,20 +92,11 @@
 		},
 		"Fiendish Legacy": {
 			"name": "Fiendish Legacy",
-			"description": "<p>Eres el recipiente de un legado que te otorga habilidades sobrenaturales.</p>",
-			"results": {
-				"1-1": "Tiefling, Ábisal",
-				"2-2": "Tiefling, Ctónico",
-				"3-3": "Tiefling, Infernal"
-			}
+			"description": "<p>Eres el recipiente de un legado que te otorga habilidades sobrenaturales.</p>"
 		},
 		"Gnomish Lineage": {
 			"name": "Gnomish Lineage",
-			"description": "<p>Formas parte de un linaje que te otorga habilidades sobrenaturales.</p>",
-			"results": {
-				"1-1": "Gnomo, de los Bosques",
-				"2-2": "Gnomo, de las Rocas"
-			}
+			"description": "<p>Formas parte de un linaje que te otorga habilidades sobrenaturales.</p>"
 		},
 		"Good Traits": {
 			"name": "Rasgos Buenos",
@@ -186,24 +173,12 @@
 		},
 		"Reincarnated Species": {
 			"name": "Reencarnar Especie",
-			"description": "<p>Has una tirada [[/r 1d10]] y consulta la tabla siguiente para determinar la especie del cuerpo, o el DM elige otra especie jugable.</p>",
-			"results": {
-				"1-1": "Aasimar",
-				"2-2": "Dracónido",
-				"3-3": "Enano",
-				"4-4": "Linaje Élfico",
-				"5-5": "Linaje Gnómico",
-				"6-6": "Goliat",
-				"7-7": "Mediano",
-				"8-8": "Humano",
-				"9-9": "Orco",
-				"10-10": "Legado Diabólico"
-			}
+			"description": "<p>Has una tirada [[/r 1d10]] y consulta la tabla siguiente para determinar la especie del cuerpo, o el DM elige otra especie jugable.</p>"
 		},
 		"Standard Languages": {
 			"name": "Idiomas Estándar",
 			"results": {
-				"1-1": "Tabla de Subidiomas"
+				        "rViHFEn5WjhRbElK": "<strong>Idiomas:</strong> Compún. <strong>Origen:</strong> Sigil."
 			}
 		},
 		"Star Map Forms": {
@@ -245,15 +220,16 @@
 			"name": "Percance de Teletransporte",
 			"description": "<p><strong>Daño del Percance:</strong> [[/damage 3d10 type=force]]</p><p><strong>Lejos del Objetivo:</strong> [[/r 2d12#Miles]]{2d12 x 1.5 Km} a una dirección al azar [[/r 1d8#Direction]]{Dirección}</p>. con un 1, al este; con un 2, al sureste; con un 3, al sur; con un 4, al suroeste; con un 5, al oeste; con un 6, al noroeste; con un 7, al norte, y con un 8, al noreste.",
 			"results": {
-				"1-100": "<strong>Objeto Vinculado:</strong> En el Objetivo",
+				"RaCnOnLRcJPv11Vf": "<strong>Circulo Permanente:</strong> En el Objetivo",
+				"4W9YPHqIIDyt3WbV": "<strong>Objeto Vinculado:</strong> En el Objetivo",
 				"1-5": "<strong>Muy Familiar:</strong> Percance",
 				"6-13": "<strong>Muy Familiar:</strong> Área Similar",
 				"14-24": "<strong>Muy Familiar:</strong> Lejos del Objetivo",
 				"25-100": "<strong>Muy Familiar:</strong> En el Objetivo",
 				"1-33": "<strong>Visto Esporádicamente:</strong> Percance",
 				"34-43": "<strong>Visto Esporádicamente:</strong> Área Similar",
-				"44-53": "<strong>Visto una vez o Descrito:</strong> Área Similar",
-				"54-73": "<strong>Visto una vez o Descrito:</strong> Lejos del Objetivo",
+				"5hV5vL7SYu53EPvb": "<strong>Visto Esporádicamente:</strong> Lejos del Objetivo",
+				"KShVQqILsbEKwNQ1": "<strong>Visto Esporádicamente:</strong> En el Objetivo",
 				"1-43": "<strong>Visto una vez o Descrito:</strong> Percance",
 				"74-100": "<strong>Visto una vez o Descrito:</strong> En el Objetivo",
 				"1-50": "<strong>Destino Falso:</strong> Percance",

@@ -1,17 +1,13 @@
 {
   "label": "Actors",
   "mapping": {
-    "sources": {
-      "path": "system.source",
-      "converter": "source"
+    "movement": {
+      "path": "system.attributes.movement",
+      "converter": "movement"
     },
     "token": {
       "path": "prototypeToken.sight.range",
       "converter": "sightRange"
-    },
-    "movement": {
-      "path": "system.attributes.movement",
-      "converter": "movement"
     },
     "senses": {
       "path": "system.attributes.senses",
@@ -21,11 +17,11 @@
       "path": "items",
       "converter": "items"
     },
-    "tokenName": "prototypeToken.name",
     "effects": {
       "path": "effects",
       "converter": "effects"
-    }
+    },
+    "tokenName": "prototypeToken.name"
   },
   "folders": {
     "Aberrant Spirits": "Aberrant Spirits",
@@ -386,13 +382,6 @@
               "title": "Primal Knowledge",
               "hint": "You gain proficiency in another skill of your choice from the skill list available to Barbarians at level 1."
             },
-            "Epic Boon": {
-              "title": "Epic Boon"
-            },
-            "Primal Champion": {
-              "title": "Primal Champion",
-              "hint": "You embody primal power. Your Strength and Constitution scores increase by 4, to a maximum of 25."
-            },
             "Brutal Strike": {
               "title": "Brutal Strike"
             },
@@ -445,7 +434,22 @@
           "description": "<p>Your training with weapons allows you to use the mastery properties of two kinds of Simple or Martial Melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.</p><p>When you reach certain Barbarian levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Barbarian Features table.</p>"
         },
         "Unarmed Strike": {
-          "name": "Unarmed Strike"
+          "name": "Unarmed Strike",
+          "description": "<p><em>See: &amp;Reference[unarmedstrike]</em></p>",
+          "activities": {
+            "Grapple/Shove": {
+              "name": "Grapple/Shove",
+              "chatFlavor": "Grapple or Shove attempt"
+            }
+          },
+          "effects": {
+            "Grappled": {
+              "name": "Grappled"
+            },
+            "Prone": {
+              "name": "Prone"
+            }
+          }
         }
       }
     },
@@ -700,12 +704,6 @@
             "Expertise": {
               "title": "Expertise"
             },
-            "Epic Boon": {
-              "title": "Epic Boon"
-            },
-            "Words of Creation": {
-              "title": "Words of Creation"
-            },
             "Saving Throw Proficiencies": {
               "title": "Saving Throw Proficiencies"
             },
@@ -720,6 +718,9 @@
             },
             "Armor Training": {
               "title": "Armor Training"
+            },
+            "Epic Boon": {
+              "title": "Epic Boon"
             }
           }
         },
@@ -774,12 +775,18 @@
           "name": "Primal Bond",
           "description": "<p>Add your Proficiency Bonus to any ability check or saving throw the beast makes.</p><section class=\"secret\" id=\"secret-CfXBtyjBnCMQ2fmp\"><p><strong>Foundry Note</strong></p><p>This bonus has been included in the beast's global bonuses.</p></section>"
         },
-        "Beast’s Strike": {
-          "name": "Beast’s Strike",
-          "description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d8 + 2 plus your Wisdom modifier Bludgeoning, Piercing, or Slashing damage (your choice when you summon the beast). If the beast moved at least 20 feet straight toward the target before the hit, the target takes an extra 1d6 damage of the same type, and the target has the &amp;Reference[prone] condition if it is a Large or smaller creature.</p><section class=\"secret\" id=\"secret-EslplTbdjSBUKz5n\"><p><strong>Foundry Note</strong></p><p>The <strong>Attack</strong> and <strong>Charging Attack</strong> activities will allow you to choose the damage type in the roll dialog. You should choose one damage type and use it consistently until resummoning your companion.</p><p>The <strong>Charging Attack</strong> activity includes the additional damage.</p><p>Additionally, they have force as a damage option which should only be used once you reach level 7 and get the @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrExceptiona]{Exceptional Training} feature.</p></section>",
+        "Beast's Strike": {
+          "name": "Beast's Strike",
+          "description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d8 + 2 plus your Wisdom modifier Bludgeoning, Piercing, or Slashing damage (your choice when you summon the beast). If the beast moved at least 20 feet straight toward the target before the hit, the target takes an extra 1d6 damage of the same type, and the target has the &amp;Reference[prone] condition if it is a Large or smaller creature.</p><section class=\"secret\" id=\"secret-fxROphHp3AaFzUXp\"><p><strong>Foundry Note</strong></p><p>The <strong>Attack</strong> and <strong>Charging Attack</strong> activities will allow you to choose the damage type in the roll dialog. You should choose one damage type and use it consistently until resummoning your companion.</p><p>The <strong>Charging Attack</strong> activity includes the additional damage.</p></section>",
           "activities": {
-            "Charging Attack": {
-              "name": "Charging Attack"
+            "Charge": {
+              "name": "Charge",
+              "condition": "has moved at least 20 feet straight toward the target"
+            }
+          },
+          "effects": {
+            "Prone": {
+              "name": "Prone"
             }
           }
         }
@@ -798,9 +805,21 @@
           "name": "Primal Bond",
           "description": "<p>Add your Proficiency Bonus to any ability check or saving throw the beast makes.</p><section class=\"secret\" id=\"secret-pNoLkUZKFbyzHTbF\"><p><strong>Foundry Note</strong></p><p>This bonus has been included in the beast's global bonuses.</p></section>"
         },
-        "Beast’s Strike": {
-          "name": "Beast’s Strike",
-          "description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d6 + 2 plus your Wisdom modifier Bludgeoning or Piercing damage (your choice when you summon the beast), and the target has the &amp;Reference[grappled] condition (escape DC equals your spell save DC).</p><section class=\"secret\" id=\"secret-zGW1whEmGkycnc94\"><p><strong>Foundry Note</strong></p><p>The <strong>Attack</strong> activity will allow you to choose the damage type in the roll dialog. You should choose one damage type and use it consistently until resummoning your companion.</p><p>Additionally, they have force as a damage option which should only be used once you reach level 7 and get the @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrExceptiona]{Exceptional Training} feature.</p></section>"
+        "Beast's Strike": {
+          "name": "Beast's Strike",
+          "description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d6 + 2 plus your Wisdom modifier Bludgeoning or Piercing damage (your choice when you summon the beast), and the target has the &amp;Reference[grappled] condition (escape DC equals your spell save DC).</p><section class=\"secret\" id=\"secret-AoVM7zkUrdX0Ny38\"><p><strong>Foundry Note</strong></p><p>The <strong>Attack</strong> activity will allow you to choose the damage type in the roll dialog. You should choose one damage type and use it consistently until resummoning your companion.</p></section>",
+          "activities": {
+            "Escape Check": {
+              "name": "Escape Check",
+              "condition": "Taken by Grappled creature to Escape"
+            }
+          },
+          "effects": {
+            "Grappled": {
+              "name": "Grappled",
+              "description": "<p>Escape DC equals the ranger's spell save DC. [[/check ath acr]].</p>"
+            }
+          }
         }
       }
     },
@@ -817,9 +836,9 @@
           "name": "Primal Bond",
           "description": "<p>Add your Proficiency Bonus to any ability check or saving throw the beast makes.</p><section class=\"secret\" id=\"secret-beTIv7xucaHGX104\"><p><strong>Foundry Note</strong></p><p>This bonus has been included in the beast's global bonuses.</p></section>"
         },
-        "Beast’s Strike": {
-          "name": "Beast’s Strike",
-          "description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d4 + 3 plus your Wisdom modifier Slashing damage.</p><section class=\"secret\" id=\"secret-leD612ZFvb4YFHCk\"><p><strong>Foundry Note</strong></p><p>The <strong>Attack</strong> activity will allow you to choose the damage type in the roll dialog. You should choose one damage type and use it consistently until resummoning your companion.</p><p>Additionally, they have force as a damage option which should only be used once you reach level 7 and get the @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrExceptiona]{Exceptional Training} feature.</p></section>"
+        "Beast's Strike": {
+          "name": "Beast's Strike",
+          "description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d4 + 3 plus your Wisdom modifier Slashing damage.</p>"
         }
       }
     },
@@ -1494,9 +1513,6 @@
             "Blessed Strikes": {
               "title": "Blessed Strikes"
             },
-            "Epic Boon": {
-              "title": "Epic Boon"
-            },
             "Divine Order Choice": {
               "title": "Divine Order Choice",
               "hint": "You have dedicated yourself to one of the following sacred roles of your choice."
@@ -1519,6 +1535,9 @@
             },
             "Armor Training": {
               "title": "Armor Training"
+            },
+            "Epic Boon": {
+              "title": "Epic Boon"
             }
           }
         },
@@ -2251,9 +2270,6 @@
               "title": "Elemental Fury",
               "hint": "The might of the elements flows through you. You gain one of the following options of your choice."
             },
-            "Epic Boon": {
-              "title": "Epic Boon"
-            },
             "W0d3c6X31SgnFFYM": {
               "title": "Elemental Fury"
             },
@@ -2275,6 +2291,9 @@
             "Druidic": {
               "title": "Druidic",
               "hint": "You know Druidic, the secret language of Druids."
+            },
+            "Epic Boon": {
+              "title": "Epic Boon"
             }
           }
         },
@@ -2303,8 +2322,8 @@
           "name": "Primal Order: Magician",
           "description": "<p>You know one extra cantrip from the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU#cantrip]{Druid spell list}. In addition, your mystical connection to nature gives you a bonus to your Intelligence (Arcana or Nature) checks. The bonus equals your Wisdom modifier (minimum bonus of +1, currently [[lookup @abilities.wis.mod]]).</p><section class=\"secret\" id=\"secret-adiIB9wCX5zZdZ9F\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automates the increase to your known cantrips and the bonus to your Arcane and Nature checks.</p></section>",
           "effects": {
-            "Magician": {
-              "name": "Magician"
+            "Magician Checks & Cantrip": {
+              "name": "Magician Checks & Cantrip"
             }
           }
         }
@@ -2766,9 +2785,6 @@
             "Action Surge": {
               "title": "Action Surge"
             },
-            "Epic Boon": {
-              "title": "Epic Boon"
-            },
             "Indomitable": {
               "title": "Indomitable"
             },
@@ -2795,6 +2811,9 @@
             },
             "Weapon Masteries Known": {
               "title": "Weapon Masteries Known"
+            },
+            "Epic Boon": {
+              "title": "Epic Boon"
             }
           }
         },
@@ -3711,9 +3730,6 @@
             "Class Features": {
               "title": "Class Features"
             },
-            "Body and Mind": {
-              "title": "Body and Mind"
-            },
             "Martial Arts Die": {
               "title": "Martial Arts Die"
             },
@@ -3722,9 +3738,6 @@
             },
             "Disciplined Survivor": {
               "title": "Disciplined Survivor"
-            },
-            "Epic Boon": {
-              "title": "Epic Boon"
             },
             "Saving Throw Proficiencies": {
               "title": "Saving Throw Proficiencies"
@@ -3740,6 +3753,9 @@
             },
             "Focus Points": {
               "title": "Focus Points"
+            },
+            "Epic Boon": {
+              "title": "Epic Boon"
             }
           }
         },
@@ -3752,14 +3768,15 @@
             },
             "Master Light Martial Weapon": {
               "name": "Master Light Martial Weapon"
-            },
-            "Monk Attack": {
-              "name": "Monk Attack"
             }
           },
           "effects": {
-            "Martial Arts": {
-              "name": "Martial Arts"
+            "Dexterous Attacks & Martial Arts Damage": {
+              "name": "Dexterous Attacks & Martial Arts Damage",
+              "description": "<p><strong>Martial Arts Die.</strong> You can roll [[lookup @scale.monk.die]] in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.</p><p><strong>Dexterous Attacks.</strong> You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.</p><p></p>",
+              "changes": {
+                "name": "{} (Martial Arts)"
+              }
             }
           }
         },
@@ -3773,7 +3790,22 @@
           }
         },
         "Unarmed Strike": {
-          "name": "Unarmed Strike"
+          "name": "Unarmed Strike",
+          "description": "<p><em>See: @UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkMartialArt]{Martial Arts (Monk)}</em></p>",
+          "activities": {
+            "Grapple/Shove": {
+              "name": "Grapple/Shove",
+              "chatFlavor": "Grapple or Shove attempt"
+            }
+          },
+          "effects": {
+            "Grappled": {
+              "name": "Grappled"
+            },
+            "Prone": {
+              "name": "Prone"
+            }
+          }
         }
       }
     },
@@ -4055,9 +4087,6 @@
             "Channel Divinity Uses": {
               "title": "Channel Divinity Uses"
             },
-            "Epic Boon": {
-              "title": "Epic Boon"
-            },
             "Saving Throw Proficiencies": {
               "title": "Saving Throw Proficiencies"
             },
@@ -4075,6 +4104,9 @@
             },
             "Weapon Mastery": {
               "title": "Weapon Mastery"
+            },
+            "Epic Boon": {
+              "title": "Epic Boon"
             }
           }
         },
@@ -4539,9 +4571,6 @@
             "Deft Explorer": {
               "title": "Deft Explorer"
             },
-            "Epic Boon": {
-              "title": "Epic Boon"
-            },
             "Hunter's Mark Damage": {
               "title": "Hunter's Mark Damage"
             },
@@ -4565,17 +4594,15 @@
             },
             "Weapon Mastery": {
               "title": "Weapon Mastery"
+            },
+            "Epic Boon": {
+              "title": "Epic Boon"
             }
           }
         },
         "Druidcraft": {
           "name": "Druidcraft",
-          "description": "<p>Whispering to the spirits of nature, you create one of the following effects within range.</p><p><strong>Weather Sensor.</strong> You create a Tiny, harmless sensory effect that predicts what the weather will be at your location for the next 24 hours. The effect might manifest as a golden orb for clear skies, a cloud for rain, falling snowflakes for snow, and so on. This effect persists for 1 round.</p><p><strong>Bloom.</strong> You instantly make a flower blossom, a seed pod open, or a leaf bud bloom.</p><p><strong>Sensory Effect.</strong> You create a harmless sensory effect, such as falling leaves, spectral dancing fairies, a gentle breeze, the sound of an animal, or the faint odor of skunk. The effect must fit in a 5-foot Cube.</p><p><strong>Fire Play.</strong> You light or snuff out a candle, a torch, or a campfire.</p>",
-          "activities": {
-            "Cast": {
-              "name": "Cast"
-            }
-          }
+          "description": "<p>Whispering to the spirits of nature, you create one of the following effects within range.</p><p><strong>Weather Sensor.</strong> You create a Tiny, harmless sensory effect that predicts what the weather will be at your location for the next 24 hours. The effect might manifest as a golden orb for clear skies, a cloud for rain, falling snowflakes for snow, and so on. This effect persists for 1 round.</p><p><strong>Bloom.</strong> You instantly make a flower blossom, a seed pod open, or a leaf bud bloom.</p><p><strong>Sensory Effect.</strong> You create a harmless sensory effect, such as falling leaves, spectral dancing fairies, a gentle breeze, the sound of an animal, or the faint odor of skunk. The effect must fit in a 5-foot Cube.</p><p><strong>Fire Play.</strong> You light or snuff out a candle, a torch, or a campfire.</p>"
         },
         "Spellcasting": {
           "name": "Spellcasting",
@@ -4591,7 +4618,7 @@
         },
         "Hunter's Mark": {
           "name": "Hunter's Mark",
-          "description": "<p>You magically mark one creature you can see within range as your quarry. Until the spell ends, you deal an extra 1d6 Force damage to the target whenever you hit it with an attack roll. You also have Advantage on any [[/check ability=wis skill=prc]] or [[/check ability=wis skill=sur]] check you make to find it.</p><p>If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action to move the mark to a new creature you can see within range.</p><p><strong>Using a Higher-Level Spell Slot.</strong> Your Concentration can last longer with a spell slot of level 3–4 (up to 8 hours) or 5+ (up to 24 hours).</p>",
+          "description": "<p>You magically mark one creature you can see within range as your quarry. Until the spell ends, you deal an extra [[/damage]] damage to the target whenever you hit it with an attack roll. You also have Advantage on any [[/check ability=wis skill=prc]] or [[/check ability=wis skill=sur]] check you make to find it.</p><p>If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action to move the mark to a new creature you can see within range.</p><p><strong>Using a Higher-Level Spell Slot.</strong> Your Concentration can last longer with a spell slot of level 3–4 (up to 8 hours) or 5+ (up to 24 hours).</p>",
           "activities": {
             "Bonus Mark Damage": {
               "name": "Bonus Mark Damage"
@@ -4599,8 +4626,18 @@
             "Mark Creature": {
               "name": "Mark Creature"
             },
+            "Move Mark": {
+              "name": "Move Mark",
+              "condition": "when the currently marked target drops to 0 Hit Points"
+            },
             "Mark Creature (free casting)": {
               "name": "Mark Creature (free casting)"
+            }
+          },
+          "effects": {
+            "Hunter's Mark": {
+              "name": "Hunter's Mark",
+              "description": "<p>Until the spell ends, the caster deals an extra [[/damage 1d6 force]] damage to the target whenever they hit it with an attack roll.</p>"
             }
           }
         }
@@ -4877,10 +4914,6 @@
             "FiaNLovfP6tnY4tD": {
               "hint": "Your cunning mind is exceptionally difficult to control. You gain proficiency in Wisdom and Charisma saving throws."
             },
-            "Epic Boon": {
-              "title": "Epic Boon",
-              "hint": "You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of the Night Spirit is recommended."
-            },
             "Weapon Mastery": {
               "title": "Weapon Mastery"
             },
@@ -4898,6 +4931,9 @@
             },
             "Armor Training": {
               "title": "Armor Training"
+            },
+            "Epic Boon": {
+              "title": "Epic Boon"
             }
           }
         },
@@ -5272,9 +5308,6 @@
               "title": "Metamagic",
               "hint": "Because your magic flows from within, you can alter your spells to suit your needs; you gain two Metamagic options."
             },
-            "Epic Boon": {
-              "title": "Epic Boon"
-            },
             "Saving Throw Proficiencies": {
               "title": "Saving Throw Proficiencies"
             },
@@ -5286,6 +5319,9 @@
             },
             "Sorcery Points": {
               "title": "Sorcery Points"
+            },
+            "Epic Boon": {
+              "title": "Epic Boon"
             }
           }
         },
@@ -6013,10 +6049,6 @@
               "title": "Contact Patron",
               "hint": "In the past, you usually contacted your patron through intermediaries. Now you can communicate directly; you always have the Contact Other Plane spell prepared."
             },
-            "Epic Boon": {
-              "title": "Epic Boon",
-              "hint": "You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Fate is recommended."
-            },
             "Saving Throw Proficiencies": {
               "title": "Saving Throw Proficiencies"
             },
@@ -6028,6 +6060,9 @@
             },
             "Armor Training": {
               "title": "Armor Training"
+            },
+            "Epic Boon": {
+              "title": "Epic Boon"
             }
           }
         },
@@ -6311,10 +6346,6 @@
               "title": "Scholar",
               "hint": "While studying magic, you also specialized in another field of study. Choose one of the following skills in which you have proficiency. You have Expertise in the chosen skill."
             },
-            "Epic Boon": {
-              "title": "Epic Boon",
-              "hint": "You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Spell Recall is recommended."
-            },
             "Saving Throw Proficiencies": {
               "title": "Saving Throw Proficiencies"
             },
@@ -6323,6 +6354,9 @@
             },
             "Weapon Proficiencies": {
               "title": "Weapon Proficiencies"
+            },
+            "Epic Boon": {
+              "title": "Epic Boon"
             }
           }
         },
@@ -6332,7 +6366,7 @@
         },
         "Ritual Adept": {
           "name": "Ritual Adept",
-          "description": "<p>You can cast any spell as a Ritual if that spell has the Ritual tag and the spell is in your spellbook. You needn’t have the spell prepared, but you must read from the book to cast a spell in this way.</p>"
+          "description": "<p>You can cast any spell as a @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.YSB1QtxZW2BI9f4Y#casting-without-slots]{Ritual} if that spell has the Ritual tag and the spell is in your spellbook. You needn’t have the spell prepared, but you must read from the book to cast a spell in this way.</p>"
         },
         "Arcane Recovery": {
           "name": "Arcane Recovery",

@@ -53,6 +53,23 @@
         }
       }
     },
+    "Acid Breath Weapon": {
+      "name": "Acid Breath Weapon",
+      "description": "<p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time).</p><p>Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage.</p><p>This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>",
+      "activities": {
+        "Exhale Cone": {
+          "name": "Exhale Cone"
+        },
+        "Exhale Line": {
+          "name": "Exhale Line"
+        }
+      },
+      "advancement": {
+        "Breath Weapon Damage": {
+          "title": "Breath Weapon Damage"
+        }
+      }
+    },
     "Acolyte": {
       "name": "Acolyte",
       "description": "<p><strong>Ability Scores:</strong> Intelligence, Wisdom, Charisma</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftMagicInitia]{Magic Initiate} (Cleric)</p><p><strong>Skill Proficiencies:</strong> Insight and Religion</p><p><strong>Tool Proficiency:</strong> Calligrapher’s Supplies</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph]{Calligrapher’s Supplies}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000]{Book} (prayers), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Holy Symbol}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Parchment} (10 sheets), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Robe}, 8 GP; or (B) 50 GP</p><p>You devoted yourself to service in a temple, either nestled in a town or secluded in a sacred grove. There you performed rites in honor of a god or pantheon. You served under a priest and studied religion. Thanks to your priest’s instruction and your own devotion, you also learned how to channel a modicum of divine power in service to your place of worship and the people who prayed there.</p>",
@@ -116,13 +133,18 @@
     },
     "Breath Weapon": {
       "name": "Breath Weapon",
-      "description": "<p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><section class=\"secret\" id=\"secret-iuhfGfxgl8GeYWBf\"><p><strong>Foundry Note</strong></p><p>The <strong>Breath Weapon (Cone)</strong> and <strong>Breath Weapon (Line)</strong> activities are both configured for their template type and include each type of damage. The damage also scales as you level up.</p><p>You can select the damage type in the damage roll's dialog box. It will remember your damage choice afterwards. You can edit the activities to remove the other damage types to skip this.</p></section>",
+      "description": "<p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time).</p><p>Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage.</p><p>This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><section class=\"secret\" id=\"secret-iuhfGfxgl8GeYWBf\"><p><strong>Foundry Note</strong></p><p>The <strong>Breath Weapon (Cone)</strong> and <strong>Breath Weapon (Line)</strong> activities are both configured for their template type and include each type of damage. The damage also scales as you level up.</p><p>You can select the damage type in the damage roll's dialog box. It will remember your damage choice afterwards. You can edit the activities to remove the other damage types to skip this.</p><p>The following supplemental items include the damage type and damage resistance associated with your Draconic Ancestry: @UUID[Compendium.dnd-players-handbook.origins.Item.brwAcidBreathWea]{Acid Breath Weapon}, @UUID[Compendium.dnd-players-handbook.origins.Item.brwColdBreathWea]{Cold Breath Weapon}, @UUID[Compendium.dnd-players-handbook.origins.Item.brwFireBreathWea]{Fire Breath Weapon}, @UUID[Compendium.dnd-players-handbook.origins.Item.brwLightningBrea]{Lightning Breath Weapon}, @UUID[Compendium.dnd-players-handbook.origins.Item.brwPoisonBreathW]{Poison Breath Weapon}</p></section>",
       "activities": {
-        "Breath Weapon (Cone)": {
-          "name": "Breath Weapon (Cone)"
+        "Exhale Cone": {
+          "name": "Exhale Cone"
         },
-        "Breath Weapon (Line)": {
-          "name": "Breath Weapon (Line)"
+        "Exhale Line": {
+          "name": "Exhale Line"
+        }
+      },
+      "advancement": {
+        "Breath Weapon Damage": {
+          "title": "Breath Weapon Damage"
         }
       }
     },
@@ -191,13 +213,30 @@
         }
       }
     },
+    "Cold Breath Weapon": {
+      "name": "Cold Breath Weapon",
+      "description": "<p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time).</p><p>Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage.</p><p>This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>",
+      "activities": {
+        "Exhale Cone": {
+          "name": "Exhale Cone"
+        },
+        "Exhale Line": {
+          "name": "Exhale Line"
+        }
+      },
+      "advancement": {
+        "Breath Weapon Damage": {
+          "title": "Breath Weapon Damage"
+        }
+      }
+    },
     "Criminal": {
       "name": "Criminal",
       "description": "<p><strong>Ability Scores:</strong> Dexterity, Constitution, Intelligence</p><p><strong>Feat:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftAlert000000]{Alert}</p><p><strong>Skill Proficiencies:</strong> Sleight of Hand and Stealth</p><p><strong>Tool Proficiency:</strong> Thieves’ Tools</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Daggers}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{Thieves’ Tools}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Crowbar}, 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Pouches}, @UUID[Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT]{Traveler's Clothes}, 16 GP; or (B) 50 GP</p><p>You eked out a living in dark alleyways, cutting purses or burgling shops. Perhaps you were part of a small gang of like-minded wrongdoers who looked out for each other. Or maybe you were a lone wolf, fending for yourself against the local thieves’ guild and more fearsome lawbreakers.</p>",
       "advancement": {
         "Background Ability Score Improvement": {
           "title": "Background Ability Score Improvement",
-          "hint": "Your background allows you to increase your Dexterity, Constitution, and Charisma scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+          "hint": "Your background allows you to increase your Dexterity, Constitution, and Intelligence scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
         },
         "Background Feat": {
           "title": "Background Feat",
@@ -215,7 +254,7 @@
     },
     "Draconic Flight": {
       "name": "Draconic Flight",
-      "description": "<p>When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the Incapacitated condition. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can’t use it again until you finish a Long Rest.</p><section id=\"secret-pP4PH5jVYBp1OEa3\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for tracking but it does not automatically grant the Fly Speed.</p></section>",
+      "description": "<p>When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the Incapacitated condition. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can’t use it again until you finish a Long Rest.</p><section class=\"secret\" id=\"secret-pP4PH5jVYBp1OEa3\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect that upgrades your Fly speed to 30 ft., matching the species base Walk speed.</p></section>",
       "activities": {
         "Draconic Flight": {
           "name": "Draconic Flight"
@@ -234,18 +273,11 @@
         "65BqBxGcj6z4S803": {
           "hint": "Medium (about 5–7 feet tall)"
         },
-        "Breath Weapon": {
-          "title": "Breath Weapon"
+        "Draconic Flight": {
+          "title": "Draconic Flight"
         },
         "Draconic Ancestry": {
           "title": "Draconic Ancestry"
-        },
-        "Damage Resistance": {
-          "title": "Damage Resistance",
-          "hint": "You have Resistance to the damage type determined by your Draconic Ancestry trait."
-        },
-        "Draconic Flight": {
-          "title": "Draconic Flight"
         }
       }
     },
@@ -347,7 +379,7 @@
     },
     "Elven Lineage": {
       "name": "Elven Lineage",
-      "description": "<p>You are part of a lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).</p><table><caption>Elven Lineages</caption><thead><tr><td><p>Lineage</p></td><td><p>Level 1</p></td><td><p>Level 3</p></td><td><p>Level 5</p></td></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptDrowElfLin]{Drow}</p></td><td><p>The range of your Darkvision increases to 120 feet. You also know the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig]{Dancing Lights} cantrip.</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire]{Faerie Fire}</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Darkness}</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptHighElfLin]{High Elf}</p></td><td><p>You know the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi]{Prestidigitation} cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list.</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detect Magic}</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Misty Step}</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptWoodElfLin]{Wood Elf}</p></td><td><p>Your Speed increases to 35 feet. You also know the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDruidcraft]{Druidcraft} cantrip.</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLongstride]{Longstrider}</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou]{Pass without Trace}</p></td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Foundry Note</strong></p><p>You will automatically be granted the relevant features and spells when you select the species and as you level up.</p></section>"
+      "description": "<p>You are part of a lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).</p><table><caption>Elven Lineages</caption><thead><tr><td><p>Lineage</p></td><td><p>Level 1</p></td><td><p>Level 3</p></td><td><p>Level 5</p></td></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptDrowElfLin]{Drow}</p></td><td><p>The range of your Darkvision increases to 120 feet. You also know the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig]{Dancing Lights} cantrip.</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire]{Faerie Fire}</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Darkness}</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptHighElfLin]{High Elf}</p></td><td><p>You know the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi]{Prestidigitation} cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list.</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detect Magic}</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Misty Step}</p></td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptWoodElfLin]{Wood Elf}</p></td><td><p>Your Speed increases to 35 feet. You also know the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDruidcraft]{Druidcraft} cantrip.</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLongstride]{Longstrider}</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou]{Pass without Trace}</p></td></tr></tbody></table>"
     },
     "Elven Lineage, Drow": {
       "name": "Elven Lineage, Drow",
@@ -414,7 +446,8 @@
       "description": "<p>You have Advantage on saving throws you make to avoid or end the &amp;Reference[Charmed] condition.</p>"
     },
     "Fiendish Legacy": {
-      "name": "Fiendish Legacy"
+      "name": "Fiendish Legacy",
+      "description": "<p>You are the recipient of a legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table. You gain the level 1 benefit of the chosen legacy.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).</p><p></p><table><caption>Fiendish Legacies</caption><thead><tr><td><p>Lineage</p></td><td><p>Level 1</p></td><td><p>Level 3</p></td><td><p>Level 5</p></td></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptAbyssalLeg]{Abyssal}</p></td><td>You have Resistance to Poison damage.You also know the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPoisonSpra]{Poison Spray} cantrip.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn]{Ray of Sickness}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{Hold Person}</td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptChthonicLe]{Chthonic}</p></td><td>You have Resistance to Necrotic damage.You also know the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch]{Chill Touch} cantrip.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]{False Life}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee]{Ray of Enfeeblement}</td></tr><tr><td><p>@UUID[Compendium.dnd-players-handbook.origins.Item.phbsptInfernalLe]{Infernal}</p></td><td>You have Resistance to Fire damage.You also know the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireBolt00]{Fire Bolt} cantrip.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHellishReb]{Hellish Rebuke}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Darkness}</td></tr></tbody></table>"
     },
     "Fiendish Legacy, Abyssal": {
       "name": "Fiendish Legacy, Abyssal",
@@ -427,6 +460,23 @@
     "Fiendish Legacy, Infernal": {
       "name": "Fiendish Legacy, Infernal",
       "description": "<p>You are the recipient of a legacy that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).</p><h3 data-anchor=\"infernal\">Infernal</h3><p>The infernal legacy connects tieflings not only to Gehenna but also the Nine Hells and the raging battlefields of Acheron. Horns, spines, tails, golden eyes, and a faint odor of sulfur or smoke are common physical features of such tieflings, most of whom trace their ancestry to devils.</p><table><caption>Infernal Legacy Traits</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>You have Resistance to Fire damage. You also know the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireBolt00]{Fire Bolt} cantrip.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHellishReb]{Hellish Rebuke}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Darkness}</td></tr></tbody></table><section class=\"secret\" id=\"secret-UpLnecebx3jeydEG\"><p><strong>Foundry Note</strong></p><p>The Resistance and spells are granted to you automatically and you will be prompted to choose the spellcasting ability during advancement.</p></section>"
+    },
+    "Fire Breath Weapon": {
+      "name": "Fire Breath Weapon",
+      "description": "<p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time).</p><p>Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage.</p><p>This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>",
+      "activities": {
+        "Exhale Cone": {
+          "name": "Exhale Cone"
+        },
+        "Exhale Line": {
+          "name": "Exhale Line"
+        }
+      },
+      "advancement": {
+        "Breath Weapon Damage": {
+          "title": "Breath Weapon Damage"
+        }
+      }
     },
     "Fire's Burn": {
       "name": "Fire's Burn",
@@ -583,7 +633,12 @@
     },
     "Halfling Nimbleness": {
       "name": "Halfling Nimbleness",
-      "description": "<p>You can move through the space of any creature that is a size larger than you, but you can’t stop in the same space.</p>"
+      "description": "<p>You can move through the space of any creature that is a size larger than you, but you can’t stop in the same space.</p>",
+      "effects": {
+        "Halfling Nimbleness": {
+          "name": "Halfling Nimbleness"
+        }
+      }
     },
     "Healing Hands": {
       "name": "Healing Hands",
@@ -663,6 +718,23 @@
       "name": "Light Bearer",
       "description": "<p>You know the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLight00000]{Light} cantrip. Charisma is your spellcasting ability for it.</p>"
     },
+    "Lightning Breath Weapon": {
+      "name": "Lightning Breath Weapon",
+      "description": "<p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time).</p><p>Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage.</p><p>This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>",
+      "activities": {
+        "Exhale Cone": {
+          "name": "Exhale Cone"
+        },
+        "Exhale Line": {
+          "name": "Exhale Line"
+        }
+      },
+      "advancement": {
+        "Breath Weapon Damage": {
+          "title": "Breath Weapon Damage"
+        }
+      }
+    },
     "Luck": {
       "name": "Luck",
       "description": "<p>When you roll a 1 on the d20 of a D20 Test, you can reroll the die, and you must use the new roll.</p>",
@@ -740,6 +812,23 @@
       "name": "Otherworldly Presence",
       "description": "<p>You know the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{Thaumaturgy} cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish legacy trait.</p><section id=\"secret-i3PjM9HLuO2Xcae7\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>When you're granted this spell it will allow you to choose your spellcasting ability.</p></section>"
     },
+    "Poison Breath Weapon": {
+      "name": "Poison Breath Weapon",
+      "description": "<p>When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time).</p><p>Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage.</p><p>This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>",
+      "activities": {
+        "Exhale Cone": {
+          "name": "Exhale Cone"
+        },
+        "Exhale Line": {
+          "name": "Exhale Line"
+        }
+      },
+      "advancement": {
+        "Breath Weapon Damage": {
+          "title": "Breath Weapon Damage"
+        }
+      }
+    },
     "Powerful Build": {
       "name": "Powerful Build",
       "description": "<p>You have Advantage on any ability check you make to end the &amp;Reference[Grappled] condition. You also count as one size larger when determining your carrying capacity.</p><section class=\"secret\" id=\"secret-7qaTRjmRe4PD41G3\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automatically upgrades your size when determining carrying capacity.</p></section>",
@@ -761,7 +850,7 @@
     },
     "Resourceful": {
       "name": "Resourceful",
-      "description": "<p>You gain Heroic Inspiration whenever you finish a Long Rest.</p>"
+      "description": "<p>You gain @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.AQ1oTG7jHy5kZuN9]{Heroic Inspiration} whenever you finish a Long Rest.</p><section id=\"secret-76Fxj5ArEsAJk2ZO\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>Usage of this feature's activity does not automatically grant Heroic Inspiration.</p></section>"
     },
     "Sage": {
       "name": "Sage",

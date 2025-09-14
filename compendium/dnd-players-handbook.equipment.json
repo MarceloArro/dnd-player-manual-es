@@ -1,5 +1,31 @@
 {
 	"label": "Equipo",
+	"mapping": {
+		"weight": {
+			"path": "system.weight",
+			"converter": "Peso"
+		},
+		"activities": {
+			"path": "system.activities",
+			"converter": "Actividades"
+		},
+		"capacityWeight": {
+			"path": "system.capacity.weight",
+			"converter": "Peso"
+		},
+		"rangeActivities": {
+			"path": "system.activities",
+			"converter": "Actividades de Rango"
+		},
+		"effects": {
+			"path": "effects",
+			"converter": "Efectos"
+		},
+		"range": {
+			"path": "system.range",
+			"converter": "Rango"
+		}
+	},
 	"folders": {
 		"Ammunition": "Munición",
 		"Armor": "Armadura",
@@ -81,7 +107,13 @@
 		},
 		"Unarmed Strike": {
 			"name": "Ataque Sin Armas",
-			"description": "<p>Puedes atacar en cuerpo a cuerpo estando desarmado mediante un ataque sin armas, ya se trate de un puñetazo, patada, cabezazo o cualquier otro impacto enérgico. En caso de impactar, causarás 1 + tu modificador de Fuerza de daño contundente. Siempre eres competente con tus ataques sin armas.@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.xJjJ4lhymAYXAOvO]{Reglas Ataque sin Armas}</p>"
+			"description": "<p>Puedes atacar en cuerpo a cuerpo estando desarmado mediante un ataque sin armas, ya se trate de un puñetazo, patada, cabezazo o cualquier otro impacto enérgico. En caso de impactar, causarás 1 + tu modificador de Fuerza de daño contundente. Siempre eres competente con tus ataques sin armas.<em>&amp;Reference[unarmedstrike]</em></p>",
+			"activities": {
+				"Grapple/Shove": {
+					"name": "Agarre/Empujon",
+					"chatFlavor": "Intento de Aggarrar o Empujar"
+				}
+			}
 		},
 		"Club": {
 			"name": "Garrote",
@@ -98,6 +130,10 @@
 		"Handaxe": {
 			"name": "Hacha de Mano",
 			"description": "<p>Esta hacha de una mano es ligera y equilibrada para lanzarla sin dejar de ser útil en el combate cuerpo a cuerpo.</p>"
+		},
+		"Improvised Weapon": {
+			"name": "Arma Improvisada",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.Dyw6b9rQIdbkIIQD inline]</p>"
 		},
 		"Javelin": {
 			"name": "Jabalina",

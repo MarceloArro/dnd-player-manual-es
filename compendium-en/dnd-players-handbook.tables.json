@@ -1,6 +1,5 @@
 {
   "label": "Roll Tables",
-  "mapping": {},
   "folders": {
     "Chapter 2": "Chapter 2",
     "Chapter 3": "Chapter 3",
@@ -42,7 +41,7 @@
       "name": "Confusion Behavior",
       "description": "<p>Behavior for the Turn</p>",
       "results": {
-        "1-1": "Cardinal Directions",
+        "wOokSBLpTsUWBccD": "The target doesn’t take an action, and it uses all its movement to move. Roll [[/r 1d4]] for the direction: 1, north; 2, east; 3, south; or 4, west.",
         "2-6": "The target doesn’t move or take actions.",
         "7-8": "The target doesn’t move, and it takes the Attack action to make one melee attack against a random creature within reach. If none are within reach, the target takes no action.",
         "9-10": "The target chooses its behavior."
@@ -70,12 +69,7 @@
     },
     "Elven Lineage": {
       "name": "Elven Lineage",
-      "description": "<p>You are part of a lineage that grants you supernatural abilities.</p>",
-      "results": {
-        "1-1": "Elf, Drow",
-        "2-2": "Elf, High",
-        "3-3": "Elf, Wood"
-      }
+      "description": "<p>You are part of a lineage that grants you supernatural abilities.</p>"
     },
     "Evil Traits": {
       "name": "Evil Traits",
@@ -99,20 +93,11 @@
     },
     "Fiendish Legacy": {
       "name": "Fiendish Legacy",
-      "description": "<p>You are the recipient of a legacy that grants you supernatural abilities.</p>",
-      "results": {
-        "1-1": "Tiefling, Abyssal",
-        "2-2": "Tiefling, Chthonic",
-        "3-3": "Tiefling, Infernal"
-      }
+      "description": "<p>You are the recipient of a legacy that grants you supernatural abilities.</p>"
     },
     "Gnomish Lineage": {
       "name": "Gnomish Lineage",
-      "description": "<p>You are part of a lineage that grants you supernatural abilities.</p>",
-      "results": {
-        "1-1": "Gnome, Forest",
-        "2-2": "Gnome, Rock"
-      }
+      "description": "<p>You are part of a lineage that grants you supernatural abilities.</p>"
     },
     "Good Traits": {
       "name": "Good Traits",
@@ -189,24 +174,12 @@
     },
     "Reincarnated Species": {
       "name": "Reincarnated Species",
-      "description": "<p>Roll [[/r 1d10]] and consult the table below to determine the body’s species, or the DM chooses another playable species.</p>",
-      "results": {
-        "1-1": "Aasimar",
-        "2-2": "Dragonborn",
-        "3-3": "Dwarf",
-        "6-6": "Goliath",
-        "7-7": "Halfling",
-        "8-8": "Human",
-        "9-9": "Orc",
-        "4-4": "Elven Lineage",
-        "10-10": "Fiendish Legacy",
-        "5-5": "Gnomish Lineage"
-      }
+      "description": "<p>Roll [[/r 1d10]] and consult the table below to determine the body’s species, or the DM chooses another playable species.</p>"
     },
     "Standard Languages": {
       "name": "Standard Languages",
       "results": {
-        "1-1": "Sub-Languages Table"
+        "rViHFEn5WjhRbElK": "<strong>Language:</strong> Common. <strong>Origin:</strong> Sigil."
       }
     },
     "Star Map Forms": {
@@ -248,16 +221,19 @@
       "name": "Teleport Mishap",
       "description": "<p><strong>Mishap damage:</strong> [[/damage 3d10 type=force]]</p><p><strong>Off target distance:</strong> [[/r 2d12#Miles]]{2d12 miles} [[/r 1d8#Direction]]{Direction}</p>",
       "results": {
-        "1-100": "<strong>Linked object:</strong> On target",
+        "RaCnOnLRcJPv11Vf": "<strong>Permanent circle:</strong> On target",
+        "4W9YPHqIIDyt3WbV": "<strong>Linked object:</strong> On target",
         "1-5": "<strong>Very familiar:</strong> Mishap",
         "6-13": "<strong>Very familiar:</strong> Similar area",
         "14-24": "<strong>Very familiar:</strong> Off target",
         "25-100": "<strong>Very familiar:</strong> On target",
         "1-33": "<strong>Seen casually:</strong> Mishap",
         "34-43": "<strong>Seen casually:</strong> Similar area",
-        "44-53": "<strong>Viewed or described:</strong> Similar area",
-        "54-73": "<strong>Viewed or described:</strong> Off target",
+        "5hV5vL7SYu53EPvb": "<strong>Seen casually:</strong> Off target",
+        "KShVQqILsbEKwNQ1": "<strong>Seen casually:</strong> Off target",
         "1-43": "<strong>Viewed or described:</strong> Mishap",
+        "S3FXuqVgRazP23RK": "<strong>Viewed or described:</strong> Similar area",
+        "LWWefv3FEwkukueE": "<strong>Viewed or described:</strong> Off target",
         "74-100": "<strong>Viewed or described:</strong> On target",
         "1-50": "<strong>False destination:</strong> Mishap",
         "51-100": "<strong>False destination:</strong> Similar area"

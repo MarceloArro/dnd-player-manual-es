@@ -1,21 +1,21 @@
 {
   "label": "Character Classes",
   "mapping": {
-    "advancement": {
-      "path": "system.advancement",
-      "converter": "advancement"
-    },
-    "rangeActivities": {
+    "activities": {
       "path": "system.activities",
-      "converter": "rangeActivities"
+      "converter": "activities"
     },
     "effects": {
       "path": "effects",
       "converter": "effects"
     },
-    "activities": {
+    "rangeActivities": {
       "path": "system.activities",
-      "converter": "activities"
+      "converter": "rangeActivities"
+    },
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "advancement"
     },
     "distanceAdvancement": {
       "path": "system.advancement",
@@ -151,7 +151,21 @@
     },
     "Agonizing Blast": {
       "name": "Agonizing Blast",
-      "description": "<blockquote><p>Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage</p></blockquote><p>Choose one of your known Warlock cantrips that deals damage. You can add your Charisma modifier to that spell’s damage rolls.</p><p><strong>Repeatable. </strong>You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p><section class=\"secret\" id=\"secret-e2JfbLoZ7SLiWlcU\"><p><strong>Foundry Note</strong></p><p>The change to your cantrip will have to be made manually by adding \"@abilities.cha.mod\" to the \"Bonus\" field of your spell's damage.</p></section>"
+      "description": "<blockquote><p>Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage</p></blockquote><p>Choose one of your known Warlock cantrips that deals damage. You can add your Charisma modifier to that spell’s damage rolls.</p><p><strong>Repeatable. </strong>You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p><section class=\"secret\" id=\"secret-e2JfbLoZ7SLiWlcU\"><p><strong>Foundry Note</strong></p><p>The <strong>Make Repelling</strong> activity can be used to enchant a cantrip which adds \", Agonizing\" to its name and includes the damage bonus.</p></section>",
+      "activities": {
+        "Make Agonizing": {
+          "name": "Make Agonizing"
+        }
+      },
+      "effects": {
+        "Agonizing Blast": {
+          "name": "Agonizing Blast",
+          "description": "<p>Choose one of your known Warlock cantrips that deals damage. You can add your Charisma modifier to that spell’s damage rolls.</p>",
+          "changes": {
+            "name": ", Agonizing"
+          }
+        }
+      }
     },
     "Ambush": {
       "name": "Ambush",
@@ -255,28 +269,11 @@
     },
     "Armor of Shadows": {
       "name": "Armor of Shadows",
-      "description": "<p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMageArmor0]{Mage Armor} on yourself without expending a spell slot.</p><section id=\"secret-G6Bmiw5YEqEfBh2e\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Mage Armor</strong> activity is configured with the spell's effect and duration, including an Active Effect to set the spell's provided AC formula.</p></section>",
-      "activities": {
-        "Mage Armor": {
-          "name": "Mage Armor"
-        }
-      },
-      "effects": {
-        "Mage Armor": {
-          "name": "Mage Armor",
-          "description": "<p>The target's base AC becomes 13 + its Dexterity modifier.</p>"
-        }
-      }
+      "description": "<p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMageArmor0]{Mage Armor} on yourself without expending a spell slot.</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplMageArmor0 inline]</p>"
     },
     "Ascendant Step": {
       "name": "Ascendant Step",
-      "description": "<blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLevitate00]{Levitate} on yourself without expending a spell slot.</p>",
-      "effects": {
-        "Levitating": {
-          "name": "Levitating",
-          "description": "<p>The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing.</p>"
-        }
-      }
+      "description": "<blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLevitate00]{Levitate} on yourself without expending a spell slot.</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplLevitate00 inline]</p>"
     },
     "Aspect of the Wilds": {
       "name": "Aspect of the Wilds",
@@ -514,13 +511,6 @@
           "title": "Primal Knowledge",
           "hint": "You gain proficiency in another skill of your choice from the skill list available to Barbarians at level 1."
         },
-        "Epic Boon": {
-          "title": "Epic Boon"
-        },
-        "Primal Champion": {
-          "title": "Primal Champion",
-          "hint": "You embody primal power. Your Strength and Constitution scores increase by 4, to a maximum of 25."
-        },
         "Brutal Strike": {
           "title": "Brutal Strike"
         },
@@ -564,12 +554,6 @@
         "Expertise": {
           "title": "Expertise"
         },
-        "Epic Boon": {
-          "title": "Epic Boon"
-        },
-        "Words of Creation": {
-          "title": "Words of Creation"
-        },
         "Saving Throw Proficiencies": {
           "title": "Saving Throw Proficiencies"
         },
@@ -584,6 +568,9 @@
         },
         "Armor Training": {
           "title": "Armor Training"
+        },
+        "Epic Boon": {
+          "title": "Epic Boon"
         }
       }
     },
@@ -607,8 +594,8 @@
       "name": "Bastion of Law",
       "description": "<p>You can tap into the grand equation of existence to imbue a creature with a shimmering shield of order. As a Magic action, you can expend 1 to 5 Sorcery Points to create a magical ward around yourself or another creature you can see within 30 feet of yourself. The ward is represented by a number of d8s equal to the number of Sorcery Points spent to create it. When the warded creature takes damage, it can expend a number of those dice, roll them, and reduce the damage taken by the total rolled on those dice.</p><p>The ward lasts until you finish a Long Rest or until you use this feature again.</p><section id=\"secret-O9GfdJl9WWz3Wnli\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Expend Sorcery Points</strong> activity allows you to expend the desired number of Sorcery Points. It includes an Active Effect which can be used for tracking the warded creature. It also includes a \"Ward Die\" roll which rolls 1d8. You will have to manually track the number of dice available.</p></section>",
       "activities": {
-        "Expend Sorcery Points": {
-          "name": "Expend Sorcery Points",
+        "Create Shield": {
+          "name": "Create Shield",
           "roll": "Ward Die"
         }
       },
@@ -894,7 +881,13 @@
       },
       "effects": {
         "Turned": {
-          "name": "Turned"
+          "name": "Turned",
+          "description": "<p>For that duration, it tries to move as far from you as it can on its turns. This effect ends early on the creature if it takes any damage, if you have the Incapacitated condition, or if you die.</p>"
+        }
+      },
+      "advancement": {
+        "Divine Spark Die Count": {
+          "title": "Divine Spark Die Count"
         }
       }
     },
@@ -1014,9 +1007,6 @@
         "Blessed Strikes": {
           "title": "Blessed Strikes"
         },
-        "Epic Boon": {
-          "title": "Epic Boon"
-        },
         "Divine Order Choice": {
           "title": "Divine Order Choice",
           "hint": "You have dedicated yourself to one of the following sacred roles of your choice."
@@ -1039,6 +1029,9 @@
         },
         "Armor Training": {
           "title": "Armor Training"
+        },
+        "Epic Boon": {
+          "title": "Epic Boon"
         }
       }
     },
@@ -1644,9 +1637,6 @@
           "title": "Elemental Fury",
           "hint": "The might of the elements flows through you. You gain one of the following options of your choice."
         },
-        "Epic Boon": {
-          "title": "Epic Boon"
-        },
         "W0d3c6X31SgnFFYM": {
           "title": "Elemental Fury"
         },
@@ -1668,6 +1658,9 @@
         "Druidic": {
           "title": "Druidic",
           "hint": "You know Druidic, the secret language of Druids."
+        },
+        "Epic Boon": {
+          "title": "Epic Boon"
         }
       }
     },
@@ -1730,7 +1723,12 @@
     },
     "Eldritch Mind": {
       "name": "Eldritch Mind",
-      "description": "<p>You have Advantage on Constitution saving throws that you make to maintain Concentration.</p>"
+      "description": "<p>You have Advantage on Constitution saving throws that you make to maintain Concentration.</p>",
+      "effects": {
+        "Concentration Advantage": {
+          "name": "Concentration Advantage"
+        }
+      }
     },
     "Eldritch Smite": {
       "name": "Eldritch Smite",
@@ -1796,24 +1794,25 @@
     },
     "Elemental Attunement": {
       "name": "Elemental Attunement",
-      "description": "<p>At the start of your turn, you can expend 1 Focus Point to imbue yourself with elemental energy. The energy lasts for 10 minutes or until you have the Incapacitated condition. You gain the following benefits while this feature is active.</p><p><strong>Reach.</strong> When you make an Unarmed Strike, your reach is 10 feet greater than normal, as elemental energy extends from you.</p><p><strong>Elemental Strikes.</strong> Whenever you hit with your Unarmed Strike, you can cause it to deal your choice of Acid, Cold, Fire, Lightning, or Thunder damage rather than its normal damage type. When you deal one of these types with it, you can also force the target to make a  DC 8 Strength saving throw. On a failed save, you can move the target up to 10 feet toward or away from you, as elemental energy swirls around it.</p><section class=\"secret\" id=\"secret-vp1KD2I9NRrbbqRe\"><p><strong>Foundry Note</strong></p><p>The <strong>Elemental Attunement</strong> activity expends 1 Focus Point and includes an Active Effect for tracking this feature.</p><p>The <strong>Elemental Strike</strong> activity can be used for your Unarmed Strike and will allow you to select the damage type in the roll dialog.</p><p>The <strong>Elemental Save</strong> activity includes the Strength saving throw.</p></section>",
+      "description": "<p>At the start of your turn, you can expend 1 Focus Point to imbue yourself with elemental energy. The energy lasts for 10 minutes or until you have the Incapacitated condition. You gain the following benefits while this feature is active.</p><p><strong>Reach.</strong> When you make an Unarmed Strike, your reach is 10 feet greater than normal, as elemental energy extends from you.</p><p><strong>Elemental Strikes.</strong> Whenever you hit with your Unarmed Strike, you can cause it to deal your choice of Acid, Cold, Fire, Lightning, or Thunder damage rather than its normal damage type. When you deal one of these types with it, you can also force the target to make a [[/save]]{Strength saving throw.} On a failed save, you can move the target up to 10 feet toward or away from you, as elemental energy swirls around it.</p><section class=\"secret\" id=\"secret-vp1KD2I9NRrbbqRe\"><p><strong>Foundry Note</strong></p><p>The <strong>Activate Attunement</strong> activity expends 1 Focus Point and self-enchants to provide the two activities mentioned below. Additionally, when activated, this activity will be renamed to \"<strong>End Attunement</strong>\" with no Focus Point cost and can be used to remove the attunement benefits once the duration ends.</p><p>The <strong>Elemental Strike</strong> activity can be used for your Unarmed Strike and will allow you to select the damage type in the roll dialog.</p><p>The <strong>Elemental Save</strong> activity includes the Strength saving throw.</p></section>",
       "activities": {
-        "Elemental Attunement": {
-          "name": "Elemental Attunement",
-          "condition": "At the start of your turn"
-        },
         "Elemental Strike": {
           "name": "Elemental Strike"
         },
         "Elemental Save": {
           "name": "Elemental Save",
           "condition": "When you deal Elemental Strike damage"
+        },
+        "Activate Attunement": {
+          "name": "Activate Attunement"
         }
       },
       "effects": {
-        "Elemental Attunement": {
-          "name": "Elemental Attunement",
-          "description": "<p>You gain the following benefits while this feature is active: <strong>Reach</strong> and <strong>Elemental Strikes</strong>.</p>"
+        "Active Attunement": {
+          "name": "Active Attunement",
+          "changes": {
+            "name": "{} (Active)"
+          }
         }
       }
     },
@@ -1939,6 +1938,12 @@
           "name": "Evade",
           "roll": "AC Bonus"
         }
+      },
+      "effects": {
+        "Evasive AC": {
+          "name": "Evasive AC",
+          "description": "<p>Your AC is increased by one roll of your Superiority Die until the start of your next turn.</p>"
+        }
       }
     },
     "Evocation Savant": {
@@ -1956,7 +1961,22 @@
     },
     "Exceptional Training": {
       "name": "Exceptional Training",
-      "description": "<p>When you take a Bonus Action to command your Primal Companion beast to take an action, you can also command it to take the &amp;Reference[Dash], &amp;Reference[Disengage], &amp;Reference[Dodge], or &amp;Reference[Help] action using its Bonus Action.</p><p>In addition, whenever it hits with an attack roll and deals damage, it can deal your choice of Force damage or its normal damage type.</p><section id=\"secret-dFb0uteASfxCBh4m\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The Primal Companion's damage roll dialog's will allow you to choose the type of damage. It defaults to your previous choice each time going forward.</p></section>"
+      "description": "<p>When you take a Bonus Action to command your Primal Companion beast to take an action, you can also command it to take the &amp;Reference[Dash], &amp;Reference[Disengage], &amp;Reference[Dodge], or &amp;Reference[Help] action using its Bonus Action.</p><p>In addition, whenever it hits with an attack roll and deals damage, it can deal your choice of Force damage or its normal damage type.</p><section class=\"secret\" id=\"secret-dFb0uteASfxCBh4m\"><p><strong>Foundry Note</strong></p><p>The <strong>Train Companion</strong> enchantment activity is designed to be applied to your Companion's \"Beast's Strike\" item and adds the option of Force damage to that Action's damage roll configuration.</p></section>",
+      "activities": {
+        "Command Companion": {
+          "name": "Command Companion"
+        },
+        "Train Companion": {
+          "name": "Train Companion",
+          "condition": "As needed to add Force damage option"
+        }
+      },
+      "effects": {
+        "Exceptionally Trained": {
+          "name": "Exceptionally Trained",
+          "description": "<p>Whenever the Companion hits with an attack roll and deals damage, it can deal your choice of Force damage or its normal damage type.</p>"
+        }
+      }
     },
     "Expert Divination": {
       "name": "Expert Divination",
@@ -2157,9 +2177,6 @@
         "Action Surge": {
           "title": "Action Surge"
         },
-        "Epic Boon": {
-          "title": "Epic Boon"
-        },
         "Indomitable": {
           "title": "Indomitable"
         },
@@ -2186,6 +2203,9 @@
         },
         "Weapon Masteries Known": {
           "title": "Weapon Masteries Known"
+        },
+        "Epic Boon": {
+          "title": "Epic Boon"
         }
       }
     },
@@ -2255,15 +2275,11 @@
     },
     "Gift of the Depths": {
       "name": "Gift of the Depths",
-      "description": "<blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>You can breathe underwater, and you gain a Swim Speed equal to your Speed.</p><p>You can also cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWaterBreat]{Water Breathing} once without expending a spell slot. You regain the ability to cast it in this way again when you finish a Long Rest.</p><section id=\"secret-aH09PLbY0nXMKypM\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Gift Water Breathing</strong> activity consumes a limited use and includes an Active Effect for tracking the chosen creatures.</p></section>",
-      "activities": {
-        "Gift Water Breathing": {
-          "name": "Gift Water Breathing"
-        }
-      },
+      "description": "<blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>You can breathe underwater, and you gain a Swim Speed equal to your Speed.</p><p>You can also cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWaterBreat]{Water Breathing} once without expending a spell slot. You regain the ability to cast it in this way again when you finish a Long Rest.</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplWaterBreat inline]</p>",
       "effects": {
-        "Water Breathing": {
-          "name": "Water Breathing"
+        "Water Breathing & Swim Speed": {
+          "name": "Water Breathing & Swim Speed",
+          "description": "<p>You can breathe underwater, and you gain a Swim Speed equal to your Speed.</p>"
         }
       }
     },
@@ -2829,7 +2845,12 @@
     },
     "Lessons of the First Ones": {
       "name": "Lessons of the First Ones",
-      "description": "<blockquote><p>Prerequisite: Level 2+ Warlock</p></blockquote><p>You have received knowledge from an elder entity of the multiverse, allowing you to gain one @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]{Origin feat} of your choice.</p><p><strong>Repeatable. </strong>You can gain this invocation more than once. Each time you do so, choose a different Origin feat.</p>"
+      "description": "<blockquote><p>Prerequisite: Level 2+ Warlock</p></blockquote><p>You have received knowledge from an elder entity of the multiverse, allowing you to gain one @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]{Origin feat} of your choice.</p><p><strong>Repeatable. </strong>You can gain this invocation more than once. Each time you do so, choose a different Origin feat.</p>",
+      "advancement": {
+        "Choose Origin Feat": {
+          "title": "Choose Origin Feat"
+        }
+      }
     },
     "Life Domain": {
       "name": "Life Domain",
@@ -2983,14 +3004,15 @@
         },
         "Master Light Martial Weapon": {
           "name": "Master Light Martial Weapon"
-        },
-        "Monk Attack": {
-          "name": "Monk Attack"
         }
       },
       "effects": {
-        "Martial Arts": {
-          "name": "Martial Arts"
+        "Dexterous Attacks & Martial Arts Damage": {
+          "name": "Dexterous Attacks & Martial Arts Damage",
+          "description": "<p><strong>Martial Arts Die.</strong> You can roll [[lookup @scale.monk.die]] in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.</p><p><strong>Dexterous Attacks.</strong> You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.</p><p></p>",
+          "changes": {
+            "name": "{} (Martial Arts)"
+          }
         }
       }
     },
@@ -3000,50 +3022,11 @@
     },
     "Mask of Many Faces": {
       "name": "Mask of Many Faces",
-      "description": "<blockquote><p>Prerequisite: Level 2+ Warlock</p></blockquote><p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe]{Disguise Self} without expending a spell slot.</p><section class=\"secret\" id=\"secret-vIzXrLvsSDtyMciU\"><p><strong>Foundry Note</strong></p><p>The <strong>Cast</strong> activity can be used in-place of Disguise Self and includes an Active Effect for tracking when you are disguised.</p></section>",
-      "effects": {
-        "Disguised": {
-          "name": "Disguised",
-          "description": "<p><span style=\"font-family:Signika, sans-serif\">To discern that you are disguised, a creature must take the Study action to inspect your appearance and succeed on an [[/check ability=int skill=inv]] check against your spell save DC.</span></p>"
-        }
-      }
+      "description": "<blockquote><p>Prerequisite: Level 2+ Warlock</p></blockquote><p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe]{Disguise Self} without expending a spell slot.</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe inline]</p>"
     },
     "Master of Myriad Forms": {
       "name": "Master of Myriad Forms",
-      "description": "<blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAlterSelf0]{Alter Self} without expending a spell slot.</p><section class=\"secret\" id=\"secret-x7wmXuFqGaXQspxB\"><p><strong>Foundry Note</strong></p><p>This feature includes Alter Self's activities.</p><p>The <strong>Aquatic Adaptation</strong>, <strong>Change Appearance</strong>, and <strong>Natural Weapons</strong> activities include Active Effects for tracking your choice and require Concentration.</p><p>The <strong>Attack</strong> activities can be used for your attack/damage rolls when you choose the <strong>Natural Weapons</strong> option.</p></section>",
-      "activities": {
-        "Aquatic Adaptation": {
-          "name": "Aquatic Adaptation"
-        },
-        "Change Appearance": {
-          "name": "Change Appearance"
-        },
-        "Natural Weapons": {
-          "name": "Natural Weapons"
-        },
-        "Attack: Claws": {
-          "name": "Attack: Claws"
-        },
-        "Attack: Fangs/Horns": {
-          "name": "Attack: Fangs/Horns"
-        },
-        "Attack: Hooves": {
-          "name": "Attack: Hooves"
-        }
-      },
-      "effects": {
-        "Aquatic Adaptation": {
-          "name": "Aquatic Adaptation",
-          "description": "<p>You can breathe underwater and gain a Swim Speed equal to your Speed.</p>"
-        },
-        "Altered Appearance": {
-          "name": "Altered Appearance"
-        },
-        "Natural Weapon": {
-          "name": "Natural Weapon",
-          "description": "<p>When you use your Unarmed Strike to deal damage with that new growth, it deals 1d6 damage of the type in parentheses instead of dealing the normal damage for your Unarmed Strike, and you use your spellcasting ability modifier for the attack and damage rolls rather than using Strength.</p>"
-        }
-      }
+      "description": "<blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAlterSelf0]{Alter Self} without expending a spell slot.</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAlterSelf0 inline]</p>"
     },
     "Memorize Spell": {
       "name": "Memorize Spell",
@@ -3100,7 +3083,7 @@
     },
     "Misty Visions": {
       "name": "Misty Visions",
-      "description": "<blockquote><p>Prerequisite: Level 2+ Warlock</p></blockquote><p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSilentImag]{Silent Image} without expending a spell slot.</p><section class=\"secret\" id=\"secret-zbni49FP84e1UILg\"><p><strong>Foundry Note</strong></p><p>This feature includes Silent Image's activities and can be used in its place.</p></section>"
+      "description": "<blockquote><p>Prerequisite: Level 2+ Warlock</p></blockquote><p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSilentImag]{Silent Image} without expending a spell slot.</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSilentImag inline]</p>"
     },
     "Misty Wanderer": {
       "name": "Misty Wanderer",
@@ -3118,9 +3101,6 @@
         "Class Features": {
           "title": "Class Features"
         },
-        "Body and Mind": {
-          "title": "Body and Mind"
-        },
         "Martial Arts Die": {
           "title": "Martial Arts Die"
         },
@@ -3129,9 +3109,6 @@
         },
         "Disciplined Survivor": {
           "title": "Disciplined Survivor"
-        },
-        "Epic Boon": {
-          "title": "Epic Boon"
         },
         "Saving Throw Proficiencies": {
           "title": "Saving Throw Proficiencies"
@@ -3147,6 +3124,9 @@
         },
         "Focus Points": {
           "title": "Focus Points"
+        },
+        "Epic Boon": {
+          "title": "Epic Boon"
         }
       }
     },
@@ -3367,13 +3347,7 @@
     },
     "One with Shadows": {
       "name": "One with Shadows",
-      "description": "<blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>While you’re in an area of &amp;Reference[Dim Light] or &amp;Reference[Darkness], you can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili]{Invisibility} on yourself without expending a spell slot.</p><section class=\"secret\" id=\"secret-SvwkLQLYzHCKzuss\"><p><strong>Foundry Note</strong></p><p>The <strong>Cast</strong> activity can be used in place of the Invisibility spell and includes an Active Effect that sets the Invisible status effect.</p></section>",
-      "effects": {
-        "Invisible": {
-          "name": "Invisible",
-          "description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
-        }
-      }
+      "description": "<blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>While you’re in an area of &amp;Reference[Dim Light] or &amp;Reference[Darkness], you can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili]{Invisibility} on yourself without expending a spell slot.</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili inline]</p>"
     },
     "Open Hand Technique": {
       "name": "Open Hand Technique",
@@ -3412,13 +3386,7 @@
     },
     "Otherworldly Leap": {
       "name": "Otherworldly Leap",
-      "description": "<blockquote><p>Prerequisite: Level 2+ Warlock</p></blockquote><p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplJump000000]{Jump} on yourself without expending a spell slot.</p><section id=\"secret-JpQyXOJAkEKVXxff\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature can be used in place of the Jump spell and includes an Active Effect for tracking.</p></section>",
-      "effects": {
-        "Jump": {
-          "name": "Jump",
-          "description": "<p>Once on each of its turns until the spell ends, that creature can jump up to 30 feet by spending 10 feet of movement.</p>"
-        }
-      }
+      "description": "<blockquote><p>Prerequisite: Level 2+ Warlock</p></blockquote><p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplJump000000]{Jump} on yourself without expending a spell slot.</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplJump000000 inline]</p>"
     },
     "Overchannel": {
       "name": "Overchannel",
@@ -3495,9 +3463,6 @@
         "Channel Divinity Uses": {
           "title": "Channel Divinity Uses"
         },
-        "Epic Boon": {
-          "title": "Epic Boon"
-        },
         "Saving Throw Proficiencies": {
           "title": "Saving Throw Proficiencies"
         },
@@ -3515,6 +3480,9 @@
         },
         "Weapon Mastery": {
           "title": "Weapon Mastery"
+        },
+        "Epic Boon": {
+          "title": "Epic Boon"
         }
       }
     },
@@ -3524,7 +3492,7 @@
     },
     "Parry": {
       "name": "Parry",
-      "description": "<p>When another creature damages you with a melee attack roll, you can take a Reaction and expend one Superiority Die to reduce the damage by the number you roll on your Superiority Die plus your Strength or Dexterity modifier (your choice).</p><section id=\"secret-0wY3O9dAMQDKj066\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes a Healing Reaction activity which can be used to reduce the damage.</p></section>",
+      "description": "<p>When another creature damages you with a melee attack roll, you can take a Reaction and expend one Superiority Die to reduce the damage by the number you roll on your Superiority Die plus your Strength or Dexterity modifier (your choice).</p><section class=\"secret\" id=\"secret-0wY3O9dAMQDKj066\"><p><strong>Foundry Note</strong></p><p>This feature includes a Healing Reaction activity which can be used to retroactively recover the received damage.</p></section>",
       "activities": {
         "heal": {
           "condition": "When another creature damages you with a melee attack roll"
@@ -3571,9 +3539,6 @@
       "advancement": {
         "Subclass Features": {
           "title": "Subclass Features"
-        },
-        "Warrior of the Gods: Pool Size": {
-          "title": "Warrior of the Gods: Pool Size"
         }
       }
     },
@@ -3689,16 +3654,16 @@
     },
     "Primal Companion": {
       "name": "Primal Companion",
-      "description": "<p>You magically summon a primal beast, which draws strength from your bond with nature. Choose its stat block: @UUID[Compendium.dnd-players-handbook.actors.Actor.phbBeastoftheLan]{Beast of the Land}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbBeastoftheSea]{Beast of the Sea}, or @UUID[Compendium.dnd-players-handbook.actors.Actor.phbBeastoftheSky]{Beast of the Sky}. You also determine the kind of animal it is, choosing a kind appropriate for the stat block. Whatever beast you choose, it bears primal markings indicating its supernatural origin.</p><p>The beast is Friendly to you and your allies and obeys your commands. It vanishes if you die.</p><p><strong>The Beast in Combat.</strong> In combat, the beast acts during your turn. It can move and use its Reaction on its own, but the only action it takes is the Dodge action unless you take a Bonus Action to command it to take an action in its stat block or some other action. You can also sacrifice one of your attacks when you take the Attack action to command the beast to take the Beast’s Strike action. If you have the Incapacitated condition, the beast acts on its own and isn’t limited to the Dodge action.</p><p><strong>Restoring or Replacing the Beast.</strong> If the beast has died within the last hour, you can take a Magic action to touch it and expend a spell slot. The beast returns to life after 1 minute with all its Hit Points restored.</p><p>Whenever you finish a Long Rest, you can summon a different primal beast, which appears in an unoccupied space within 5 feet of you. You choose its stat block and appearance. If you already have a beast from this feature, the old one vanishes when the new one appears.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>In addition to the noted usage of your statistics in the companion's Traits and Actions, the following attributes are also affected.</p><table><caption>Common</caption><tbody><tr><td><strong>AC</strong></td><td>13 plus your Wisdom modifier</td></tr><tr><td><strong>PB</strong></td><td>equals your Proficiency Bonus</td></tr></tbody></table><table><caption>Beast of the Land</caption><tbody><tr><td><strong>HP</strong></td><td>5 plus five times your Ranger level</td></tr><tr><td><strong>HD</strong></td><td>[d8s] equal to your Ranger level</td></tr><tr><td><strong>Speed</strong></td><td>40 ft., Climb 40 ft.</td></tr><tr><td><strong>Senses</strong></td><td>Darkvision 60 ft.</td></tr></tbody></table><table><caption>Beast of the Sky</caption><tbody><tr><td><strong>HP</strong></td><td>4 plus four times your Ranger level</td></tr><tr><td><strong>HD</strong></td><td>[d6s] equal to your Ranger level</td></tr><tr><td><strong>Speed</strong></td><td>10 ft., Fly 60 ft.</td></tr><tr><td><strong>Senses</strong></td><td>Darkvision 60 ft.</td></tr></tbody></table><table><caption>Beast of the Sea</caption><tbody><tr><td><strong>HP</strong></td><td>5 plus five times your Ranger level</td></tr><tr><td><strong>HD</strong></td><td>[d8s] equal to your Ranger level</td></tr><tr><td><strong>Speed</strong></td><td>5 ft., Swim 60 ft.</td></tr><tr><td><strong>Senses</strong></td><td>Darkvision 90 ft.</td></tr></tbody></table></article></section><section class=\"secret\" id=\"secret-vZalmDSCpVh4yzu3\"><p><strong>Foundry Note</strong></p><p>The <strong>Summon</strong> activity will allow you to choose the type of your Primal Companion. Its stat block will automatically be configured with the correct values.</p><p>The <strong>Restore with Spell Slot</strong> activity will allow you to resummon it and consume a spell slot.</p><p>The <strong>Command</strong> activity only needs to be used if you're tracking your Bonus Action usage as it does not do anything.</p></section>",
+      "description": "<p>You magically summon a primal beast, which draws strength from your bond with nature. Choose its stat block: @UUID[Compendium.dnd-players-handbook.actors.Actor.phbBeastoftheLan]{Beast of the Land}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbBeastoftheSea]{Beast of the Sea}, or @UUID[Compendium.dnd-players-handbook.actors.Actor.phbBeastoftheSky]{Beast of the Sky}. You also determine the kind of animal it is, choosing a kind appropriate for the stat block. Whatever beast you choose, it bears primal markings indicating its supernatural origin.</p><p>The beast is Friendly to you and your allies and obeys your commands. It vanishes if you die.</p><p><strong>The Beast in Combat.</strong> In combat, the beast acts during your turn. It can move and use its Reaction on its own, but the only action it takes is the Dodge action unless you take a Bonus Action to command it to take an action in its stat block or some other action. You can also sacrifice one of your attacks when you take the Attack action to command the beast to take the Beast’s Strike action. If you have the Incapacitated condition, the beast acts on its own and isn’t limited to the Dodge action.</p><p><strong>Restoring or Replacing the Beast.</strong> If the beast has died within the last hour, you can take a Magic action to touch it and expend a spell slot. The beast returns to life after 1 minute with all its Hit Points restored.</p><p>Whenever you finish a Long Rest, you can summon a different primal beast, which appears in an unoccupied space within 5 feet of you. You choose its stat block and appearance. If you already have a beast from this feature, the old one vanishes when the new one appears.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>In addition to the noted usage of your statistics in the companion's Traits and Actions, the following attributes are also affected.</p><table><caption>Common</caption><tbody><tr><td><strong>AC</strong></td><td>13 plus your Wisdom modifier</td></tr><tr><td><strong>PB</strong></td><td>equals your Proficiency Bonus</td></tr></tbody></table><table><caption>Beast of the Land</caption><tbody><tr><td><strong>HP</strong></td><td>5 plus five times your Ranger level</td></tr><tr><td><strong>HD</strong></td><td>[d8s] equal to your Ranger level</td></tr><tr><td><strong>Speed</strong></td><td>40 ft., Climb 40 ft.</td></tr><tr><td><strong>Senses</strong></td><td>Darkvision 60 ft.</td></tr></tbody></table><table><caption>Beast of the Sky</caption><tbody><tr><td><strong>HP</strong></td><td>4 plus four times your Ranger level</td></tr><tr><td><strong>HD</strong></td><td>[d6s] equal to your Ranger level</td></tr><tr><td><strong>Speed</strong></td><td>10 ft., Fly 60 ft.</td></tr><tr><td><strong>Senses</strong></td><td>Darkvision 60 ft.</td></tr></tbody></table><table><caption>Beast of the Sea</caption><tbody><tr><td><strong>HP</strong></td><td>5 plus five times your Ranger level</td></tr><tr><td><strong>HD</strong></td><td>[d8s] equal to your Ranger level</td></tr><tr><td><strong>Speed</strong></td><td>5 ft., Swim 60 ft.</td></tr><tr><td><strong>Senses</strong></td><td>Darkvision 90 ft.</td></tr></tbody></table></article></section><section class=\"secret\" id=\"secret-vZalmDSCpVh4yzu3\"><p><strong>Foundry Note</strong></p><p>The <strong>Restore Companion</strong> activity will allow you to fully heal the beast at the cost of any spell slot.</p><p>The <strong>Command</strong> activity only needs to be used if you're tracking your Bonus Action usage.</p></section>",
       "activities": {
-        "summon": {
-          "condition": "Whenever you finish a Long Rest"
+        "Summon Companion": {
+          "name": "Summon Companion"
         },
         "Command": {
           "name": "Command"
         },
-        "Summon with Spell Slot": {
-          "name": "Summon with Spell Slot"
+        "Restore Companion": {
+          "name": "Restore Companion"
         }
       }
     },
@@ -3719,8 +3684,8 @@
       "name": "Primal Order: Magician",
       "description": "<p>You know one extra cantrip from the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU#cantrip]{Druid spell list}. In addition, your mystical connection to nature gives you a bonus to your Intelligence (Arcana or Nature) checks. The bonus equals your Wisdom modifier (minimum bonus of +1, currently [[lookup @abilities.wis.mod]]).</p><section class=\"secret\" id=\"secret-adiIB9wCX5zZdZ9F\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automates the increase to your known cantrips and the bonus to your Arcane and Nature checks.</p></section>",
       "effects": {
-        "Magician": {
-          "name": "Magician"
+        "Magician Checks & Cantrip": {
+          "name": "Magician Checks & Cantrip"
         }
       }
     },
@@ -3728,8 +3693,8 @@
       "name": "Primal Order: Warden",
       "description": "<p>Trained for battle, you gain proficiency with Martial weapons and training with Medium armor.</p><section id=\"secret-hVQSjHcU93Zpf54G\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automates the addition of your Martial weapons proficiency and Medium armor training.</p></section>",
       "effects": {
-        "Primal Order: Warden": {
-          "name": "Primal Order: Warden"
+        "Martial Weapon & Medium Armor Training": {
+          "name": "Martial Weapon & Medium Armor Training"
         }
       }
     },
@@ -3943,6 +3908,10 @@
       "effects": {
         "Rage of the Bear": {
           "name": "Rage of the Bear"
+        },
+        "Rage of the Wolf": {
+          "name": "Rage of the Wolf",
+          "description": "<p>Your allies have Advantage on attack rolls against any enemy of yours within 5 feet of you.</p>"
         }
       }
     },
@@ -3965,9 +3934,6 @@
         },
         "Deft Explorer": {
           "title": "Deft Explorer"
-        },
-        "Epic Boon": {
-          "title": "Epic Boon"
         },
         "Hunter's Mark Damage": {
           "title": "Hunter's Mark Damage"
@@ -3992,6 +3958,9 @@
         },
         "Weapon Mastery": {
           "title": "Weapon Mastery"
+        },
+        "Epic Boon": {
+          "title": "Epic Boon"
         }
       }
     },
@@ -4070,7 +4039,7 @@
     },
     "Repelling Blast": {
       "name": "Repelling Blast",
-      "description": "<blockquote><p>Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage via an Attack Roll</p></blockquote><p>Choose one of your known Warlock cantrips that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 feet straight away from you.</p><p>Repeatable. You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p><section class=\"secret\" id=\"secret-5xV7SaKI7sGaeKvq\"><p><strong>Foundry Note</strong></p><p>The <strong>Make Repelling</strong> activity can be used to enchant a cantrip which adds \", Repelling\" as a reminder.</p></section>",
+      "description": "<blockquote><p>Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage via an Attack Roll</p></blockquote><p>Choose one of your known Warlock cantrips that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 feet straight away from you.</p><p><strong>Repeatable.</strong> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p><section class=\"secret\" id=\"secret-5xV7SaKI7sGaeKvq\"><p><strong>Foundry Note</strong></p><p>The <strong>Make Repelling</strong> activity can be used to enchant a cantrip which adds \", Repelling\" as a reminder.</p></section>",
       "activities": {
         "Make Repelling": {
           "name": "Make Repelling"
@@ -4171,10 +4140,6 @@
         "FiaNLovfP6tnY4tD": {
           "hint": "Your cunning mind is exceptionally difficult to control. You gain proficiency in Wisdom and Charisma saving throws."
         },
-        "Epic Boon": {
-          "title": "Epic Boon",
-          "hint": "You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of the Night Spirit is recommended."
-        },
         "Weapon Mastery": {
           "title": "Weapon Mastery"
         },
@@ -4192,6 +4157,9 @@
         },
         "Armor Training": {
           "title": "Armor Training"
+        },
+        "Epic Boon": {
+          "title": "Epic Boon"
         }
       }
     },
@@ -4379,9 +4347,6 @@
           "title": "Metamagic",
           "hint": "Because your magic flows from within, you can alter your spells to suit your needs; you gain two Metamagic options."
         },
-        "Epic Boon": {
-          "title": "Epic Boon"
-        },
         "Saving Throw Proficiencies": {
           "title": "Saving Throw Proficiencies"
         },
@@ -4393,6 +4358,9 @@
         },
         "Sorcery Points": {
           "title": "Sorcery Points"
+        },
+        "Epic Boon": {
+          "title": "Epic Boon"
         }
       }
     },
@@ -4721,10 +4689,17 @@
     },
     "Survivor": {
       "name": "Survivor",
-      "description": "<p>You attain the pinnacle of resilience in battle, giving you these benefits.</p><p><strong>Defy Death.</strong> You have Advantage on Death Saving Throws. Moreover, when you roll 18–20 on a Death Saving Throw, you gain the benefit of rolling a 20 on it.</p><p><strong>Heroic Rally.</strong> At the start of each of your turns, you regain Hit Points equal to 5 plus your Constitution modifier if you are Bloodied and have at least 1 Hit Point.</p><section id=\"secret-z1Nr871ifr67hchm\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature does not automate the Death Saving Throw changes. It includes an activity for healing but does not automatically add it when you are Bloodied.</p></section>",
+      "description": "<p>You attain the pinnacle of resilience in battle, giving you these benefits.</p><p><strong>Defy Death.</strong> You have Advantage on Death Saving Throws. Moreover, when you roll 18–20 on a Death Saving Throw, you gain the benefit of rolling a 20 on it.</p><p><strong>Heroic Rally.</strong> At the start of each of your turns, you regain Hit Points equal to 5 plus your Constitution modifier if you are Bloodied and have at least 1 Hit Point.</p><section class=\"secret\" id=\"secret-z1Nr871ifr67hchm\"><p><strong>Foundry Note</strong></p><p>This feature does not automate the Death Saving Throw changes to rolling an 18 or 19, but does include Advantage automation. It includes an activity for healing but does not automatically add it when you are Bloodied.</p></section>",
       "activities": {
-        "heal": {
-          "condition": "At the start of each of your turns"
+        "Heroic Rally": {
+          "name": "Heroic Rally",
+          "condition": "if Bloodied"
+        }
+      },
+      "effects": {
+        "Defy Death": {
+          "name": "Defy Death",
+          "description": "<p><strong>Note:</strong> This effect does not modify the behavior of rolling an 18 or 19 on a Death Saving Throw.</p>"
         }
       }
     },
@@ -4746,8 +4721,8 @@
       "name": "Tactical Master",
       "description": "<p>When you attack with a weapon whose mastery property you can use, you can replace that property with the Push, Sap, or Slow property for that attack.</p>",
       "effects": {
-        "Tactial Master": {
-          "name": "Tactial Master"
+        "Tactical Master": {
+          "name": "Tactical Master"
         }
       }
     },
@@ -5007,7 +4982,7 @@
     },
     "Unarmed Strike": {
       "name": "Unarmed Strike",
-      "description": "<p>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.xJjJ4lhymAYXAOvO]{Unarmed Strike Rules}</p>",
+      "description": "<p><em>See: &amp;Reference[unarmedstrike]</em></p>",
       "activities": {
         "Grapple/Shove": {
           "name": "Grapple/Shove"
@@ -5042,10 +5017,14 @@
     },
     "Unbreakable Majesty": {
       "name": "Unbreakable Majesty",
-      "description": "<p>As a Bonus Action, you can assume a magically majestic presence for 1 minute or until you have the &amp;Reference[Incapacitated] condition. For the duration, whenever any creature hits you with an attack roll for the first time on a turn, the attacker must succeed on a Charisma saving throw against your spell save DC, or the attack misses instead, as the creature recoils from your majesty.</p><p>Once you assume this majestic presence, you can't do so again until you finish a Short or Long Rest.</p><section class=\"secret\" id=\"secret-NbhuxdzHOM4DrYtJ\"><p><strong>Foundry Note</strong></p><p>The <strong>Majestic Presence</strong> activity includes an Active Effect for tracking your presence and a Saving Throw.</p><p>The <strong>Save</strong> activity includes a saving throw for simply sending the save to chat if you need to post it again without expending a use of this feature.</p></section>",
+      "description": "<p>As a Bonus Action, you can assume a magically majestic presence for 1 minute or until you have the &amp;Reference[Incapacitated] condition. For the duration, whenever any creature hits you with an attack roll for the first time on a turn, the attacker must succeed on a [[/save]]{Charisma saving throw} against your spell save DC, or the attack misses instead, as the creature recoils from your majesty.</p><p>Once you assume this majestic presence, you can't do so again until you finish a Short or Long Rest.</p><section class=\"secret\" id=\"secret-NbhuxdzHOM4DrYtJ\"><p><strong>Foundry Note</strong></p><p>The <strong>Assume Majestic Presence</strong> activity includes an Active Effect for tracking your presence.</p><p>The <strong>Recoil Save</strong> activity includes the saving throw for the attacking creature.</p></section>",
       "activities": {
-        "Majestic Presence": {
-          "name": "Majestic Presence"
+        "Recoil Save": {
+          "name": "Recoil Save",
+          "condition": "a creature hits you with an attack roll for the first time on a turn"
+        },
+        "Assume Majestic Presence": {
+          "name": "Assume Majestic Presence"
         }
       },
       "effects": {
@@ -5099,7 +5078,7 @@
     },
     "Visions of Distant Realms": {
       "name": "Visions of Distant Realms",
-      "description": "<blockquote><p>Prerequisite: Level 9+ Warlock</p></blockquote><p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0]{Arcane Eye} without expending a spell slot.</p><section class=\"secret\" id=\"secret-yVljO3Op1LVKKBRZ\"><p><strong>Foundry Note</strong></p><p>This feature can be used in place of Arcane Eye and includes a <strong>Summon</strong> activity.</p></section>"
+      "description": "<blockquote><p>Prerequisite: Level 9+ Warlock</p></blockquote><p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0]{Arcane Eye} without expending a spell slot.</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0 inline]</p>"
     },
     "Vitality of the Tree": {
       "name": "Vitality of the Tree",
@@ -5137,12 +5116,14 @@
           "name": "Summon Weapon"
         },
         "Bond with Weapon": {
-          "name": "Bond with Weapon"
+          "name": "Bond with Weapon",
+          "condition": "or 1 Hour"
         }
       },
       "effects": {
         "War Bond": {
           "name": "War Bond",
+          "description": "<p>Once you have bonded a weapon to yourself, you can't be disarmed of that weapon unless you have the Incapacitated condition. If it is on the same plane of existence, you can summon that weapon as a Bonus Action, causing it to teleport instantly to your hand.</p>",
           "changes": {
             "name": ", War Bonded"
           }
@@ -5236,10 +5217,6 @@
           "title": "Contact Patron",
           "hint": "In the past, you usually contacted your patron through intermediaries. Now you can communicate directly; you always have the Contact Other Plane spell prepared."
         },
-        "Epic Boon": {
-          "title": "Epic Boon",
-          "hint": "You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Fate is recommended."
-        },
         "Saving Throw Proficiencies": {
           "title": "Saving Throw Proficiencies"
         },
@@ -5251,6 +5228,9 @@
         },
         "Armor Training": {
           "title": "Armor Training"
+        },
+        "Epic Boon": {
+          "title": "Epic Boon"
         }
       }
     },
@@ -5301,7 +5281,12 @@
     },
     "Warrior of the Gods": {
       "name": "Warrior of the Gods",
-      "description": "<p>A divine entity helps ensure you can continue the fight. You have a pool of four d12s that you can spend to heal yourself. As a Bonus Action, you can expend dice from the pool, roll them, and regain a number of Hit Points equal to the roll's total.</p><p>Your pool regains all expended dice when you finish a Long Rest.</p><p>The pool's maximum number of dice increases by one when you reach Barbarian levels 6 (5 dice), 12 (6 dice), and 17 (7 dice).</p><section class=\"secret\" id=\"secret-er80mQOJaHK8ww7M\"><p><strong>Foundry Note</strong></p><p>The pool's increase is automatically handled in this feature. This feature also allows scaling up the number of dice you would like to expend for healing.</p></section>"
+      "description": "<p>A divine entity helps ensure you can continue the fight. You have a pool of four d12s that you can spend to heal yourself. As a Bonus Action, you can expend dice from the pool, roll them, and regain a number of Hit Points equal to the roll's total.</p><p>Your pool regains all expended dice when you finish a Long Rest.</p><p>The pool's maximum number of dice increases by one when you reach Barbarian levels 6 (5 dice), 12 (6 dice), and 17 (7 dice).</p><section class=\"secret\" id=\"secret-er80mQOJaHK8ww7M\"><p><strong>Foundry Note</strong></p><p>The pool size is automatically handled in this feature's scale value advancement.</p></section>",
+      "advancement": {
+        "Pool Size": {
+          "title": "Pool Size"
+        }
+      }
     },
     "Warrior of the Open Hand": {
       "name": "Warrior of the Open Hand",
@@ -5318,12 +5303,7 @@
     },
     "Whispers of the Grave": {
       "name": "Whispers of the Grave",
-      "description": "<blockquote><p>Prerequisite: Level 7+ Warlock</p></blockquote><p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithD]{Speak with Dead} without expending a spell slot.</p>",
-      "activities": {
-        "Whisper": {
-          "name": "Whisper"
-        }
-      }
+      "description": "<blockquote><p>Prerequisite: Level 7+ Warlock</p></blockquote><p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithD]{Speak with Dead} without expending a spell slot.</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithD inline]</p>"
     },
     "Wholeness of Body": {
       "name": "Wholeness of Body",
@@ -5381,8 +5361,8 @@
       "name": "Witch Sight",
       "description": "<blockquote><p>Prerequisite: Level 15+ Warlock</p></blockquote><p>You have Truesight with a range of 30 feet.</p><section id=\"secret-yUE0N1X1QX3kZHcx\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automatically grants you Truesight.</p></section>",
       "effects": {
-        "Witch Sight": {
-          "name": "Witch Sight"
+        "Truesight (30 ft)": {
+          "name": "Truesight (30 ft)"
         }
       }
     },
@@ -5403,10 +5383,6 @@
           "title": "Scholar",
           "hint": "While studying magic, you also specialized in another field of study. Choose one of the following skills in which you have proficiency. You have Expertise in the chosen skill."
         },
-        "Epic Boon": {
-          "title": "Epic Boon",
-          "hint": "You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Spell Recall is recommended."
-        },
         "Saving Throw Proficiencies": {
           "title": "Saving Throw Proficiencies"
         },
@@ -5415,19 +5391,36 @@
         },
         "Weapon Proficiencies": {
           "title": "Weapon Proficiencies"
+        },
+        "Epic Boon": {
+          "title": "Epic Boon"
         }
       }
     },
     "Words of Creation": {
       "name": "Words of Creation",
-      "description": "<p>You have mastered two of the Words of Creation: the words of life and death. You therefore always have the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPowerWordH]{Power Word Heal} and @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPowerWordK]{Power Word Kill} spells prepared. When you cast either spell, you can target a second creature with it if that creature is within 10 feet of the first target.</p><section id=\"secret-aHHp3ZnTrWPHHB7j\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You are automatically granted these spells as you level up.</p></section>"
+      "description": "<p>You have mastered two of the Words of Creation: the words of life and death. You therefore always have the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPowerWordH]{Power Word Heal} and @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPowerWordK]{Power Word Kill} spells prepared. When you cast either spell, you can target a second creature with it if that creature is within 10 feet of the first target.</p><section id=\"secret-aHHp3ZnTrWPHHB7j\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You are automatically granted these spells as you level up.</p></section>",
+      "advancement": {
+        "Words of Life and Death": {
+          "title": "Words of Life and Death"
+        }
+      }
     },
     "Wrath of the Sea": {
       "name": "Wrath of the Sea",
-      "description": "<p>As a Bonus Action, you can expend a use of your Wild Shape to manifest a 5-foot Emanation that takes the form of ocean spray that surrounds you for 10 minutes. It ends early if you dismiss it (no action required), manifest it again, or have the Incapacitated condition.</p><p>When you manifest the Emanation and as a Bonus Action on your subsequent turns, you can choose another creature you can see in the Emanation. The target must succeed on a Constitution saving throw against your spell save DC or take Cold damage and, if the creature is Large or smaller, be pushed up to 15 feet away from you. To determine this damage, roll a number of d6s equal to your Wisdom modifier (minimum of one die).</p><section class=\"secret\" id=\"secret-38KCytm3Ikto15P9\"><p><strong>Foundry Note</strong></p><p>The size of the emanation increases automatically when you gain the @UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdAquaticAff]{Aquatic Affinity} feature.</p><p>The <strong>Save</strong> activity consumes a use and the <strong>Bonus Action Save</strong> activity does not.</p></section>",
+      "description": "<p>As a Bonus Action, you can expend a use of your Wild Shape to manifest a 5-foot Emanation that takes the form of ocean spray that surrounds you for 10 minutes. It ends early if you dismiss it (no action required), manifest it again, or have the Incapacitated condition.</p><p>When you manifest the Emanation and as a Bonus Action on your subsequent turns, you can choose another creature you can see in the Emanation. The target must succeed on a Constitution saving throw against your spell save DC or take Cold damage and, if the creature is Large or smaller, be pushed up to 15 feet away from you. To determine this damage, roll a number of d6s equal to your Wisdom modifier (minimum of one die).</p><section class=\"secret\" id=\"secret-38KCytm3Ikto15P9\"><p><strong>Foundry Note</strong></p><p>The size of the emanation increases automatically when you gain the @UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdAquaticAff]{Aquatic Affinity} feature.</p><p>The <strong>Manifest Ocean Spray </strong>activity consumes a use and the <strong>Bonus Action Save</strong> activity does not.</p></section>",
       "activities": {
+        "Manifest Ocean Spray": {
+          "name": "Manifest Ocean Spray"
+        },
         "Bonus Action Save": {
           "name": "Bonus Action Save"
+        }
+      },
+      "effects": {
+        "Manifesting Ocean Spray": {
+          "name": "Manifesting Ocean Spray",
+          "description": "<p>A [[lookup @scale.sea.wrath-range]]-ft.  Emanation of ocean spray surrounds you for 10 minutes. It ends early if you dismiss it (no action required), manifest it again, or have the Incapacitated condition.</p>"
         }
       }
     },
@@ -5459,7 +5452,7 @@
     },
     "phbbrdUnarmedStr": {
       "name": "Unarmed Strike",
-      "description": "<p>You can use Dexterity instead of Strength for the attack rolls of your Unarmed Strikes. When you deal damage with an Unarmed Strike, you can deal Bludgeoning damage equal to a roll of your Bardic Inspiration die plus your Dexterity modifier, instead of the strike's normal damage. This roll doesn't expend the die.</p>",
+      "description": "<p><em>See: @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdDazzlingFo]{Dazzling Footwork (Bard)}</em></p>",
       "activities": {
         "Grapple/Shove": {
           "name": "Grapple/Shove"
@@ -5508,9 +5501,11 @@
     },
     "phbmnkUnarmedStr": {
       "name": "Unarmed Strike",
+      "description": "<p><em>See: @UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkMartialArt]{Martial Arts (Monk)}</em></p>",
       "activities": {
         "Grapple/Shove": {
-          "name": "Grapple/Shove"
+          "name": "Grapple/Shove",
+          "chatFlavor": "Grapple or Shove attempt"
         }
       },
       "effects": {

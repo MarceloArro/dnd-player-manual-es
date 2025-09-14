@@ -194,12 +194,7 @@
 		},
 		"Antilife Shell": {
 			"name": "Caparazón Antivida",
-			"description": "<p>An aura extends from you in a 10-foot Emanation for the duration. The aura prevents creatures other than Constructs and Undead from passing or reaching through it. An affected creature can cast spells or make attacks with Ranged or Reach weapons through the barrier.</p><p>If you move so that an affected creature is forced to pass through the barrier, the spell ends.</p>",
-			"effects": {
-				"Antilife Shell": {
-					"name": "Antilife Shell"
-				}
-			}
+			"description": "<p>An aura extends from you in a 10-foot Emanation for the duration. The aura prevents creatures other than Constructs and Undead from passing or reaching through it. An affected creature can cast spells or make attacks with Ranged or Reach weapons through the barrier.</p><p>If you move so that an affected creature is forced to pass through the barrier, the spell ends.</p>"
 		},
 		"Antimagic Field": {
 			"name": "Campo Antimagia",
@@ -574,7 +569,12 @@
 		},
 		"Call Lightning": {
 			"name": "Llamar al Relámpago",
-			"description": "<p>A storm cloud appears at a point within range that you can see above yourself. It takes the shape of a Cylinder that is 10 feet tall with a 60-foot radius.</p><p>When you cast the spell, choose a point you can see under the cloud. A lightning bolt shoots from the cloud to that point. Each creature within 5 feet of that point makes a Dexterity saving throw, taking 3d10 Lightning damage on a failed save or half as much damage on a successful one.</p><p>Until the spell ends, you can take a Magic action to call down lightning in that way again, targeting the same point or a different one.</p><p>If you’re outdoors in a storm when you cast this spell, the spell gives you control over that storm instead of creating a new one. Under such conditions, the spell’s damage increases by 1d10.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d10 for each spell slot level above 3.</p>"
+			"description": "<p>A storm cloud appears at a point within range that you can see above yourself. It takes the shape of a Cylinder that is 10 feet tall with a 60-foot radius.</p><p>When you cast the spell, choose a point you can see under the cloud. A lightning bolt shoots from the cloud to that point. Each creature within 5 feet of that point makes a Dexterity saving throw, taking 3d10 Lightning damage on a failed save or half as much damage on a successful one.</p><p>Until the spell ends, you can take a Magic action to call down lightning in that way again, targeting the same point or a different one.</p><p>If you’re outdoors in a storm when you cast this spell, the spell gives you control over that storm instead of creating a new one. Under such conditions, the spell’s damage increases by 1d10.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d10 for each spell slot level above 3.</p>",
+			"activities": {
+				"save": {
+					"chatFlavor": "Bolt strikes a point under the cloud in a 5-ft. radius"
+				}
+			}
 		},
 		"Calm Emotions": {
 			"name": "Calmar Emociones",
@@ -655,7 +655,12 @@
 		},
 		"Cloudkill": {
 			"name": "Nube Aniquiladora",
-			"description": "<p>You create a 20-foot-radius Sphere of yellow-green fog centered on a point within range. The fog lasts for the duration or until strong wind (such as the one created by <em>Gust of Wind</em>) disperses it, ending the spell. Its area is Heavily Obscured.</p><p>Each creature in the Sphere makes a Constitution saving throw, taking 5d8 Poison damage on a failed save or half as much damage on a successful one. A creature must also make this save when the Sphere moves into its space and when it enters the Sphere or ends its turn there. A creature makes this save only once per turn.</p><p>The Sphere moves 10 feet away from you at the start of each of your turns.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 5.</p>"
+			"description": "<p>You create a 20-foot-radius Sphere of yellow-green fog centered on a point within range. The fog lasts for the duration or until strong wind (such as the one created by <em>Gust of Wind</em>) disperses it, ending the spell. Its area is Heavily Obscured.</p><p>Each creature in the Sphere makes a Constitution saving throw, taking 5d8 Poison damage on a failed save or half as much damage on a successful one. A creature must also make this save when the Sphere moves into its space and when it enters the Sphere or ends its turn there. A creature makes this save only once per turn.</p><p>The Sphere moves 10 feet away from you at the start of each of your turns.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 5.</p>",
+			"activities": {
+				"Cast and Save": {
+					"name": "Cast and Save"
+				}
+			}
 		},
 		"Color Spray": {
 			"name": "Rociada de Color",
@@ -1058,6 +1063,12 @@
 		"Disguise Self": {
 			"name": "Disfrazarse",
 			"description": "<p>Haces que tu aspecto (incluyendo tu vestimenta, armadura, armas y otras posesiones que lleves contigo) parezca diferente hasta que el conjuro termine. Puedes aparentar tener una altura 1ft (30 cm) mayor o menor y una complexión más pesada o ligera. Debes adoptar una forma que tenga la misma configuración de miembros que tú. Por lo demás, la ilusión puede modificar todo lo que quieras de tu aspecto.</p><p>Los cambios realizados por este conjuro pueden descubrirse mediante una inspección física. Por ejemplo, si usas este conjuro para añadir un sombrero a tu vestimenta, los objetos atravesarán el sombrero y cualquiera que lo toque no sentirá nada.</p><p>Para darse cuenta de que te has disfrazado, una criatura debe emplear la Acción de Estudiar para inspeccionar tu apariencia y superar una prueba de [[/check ability=int skill=inv dc=@attributes.spell.dc]] contra tu CD de salvación de conjuros.</p>",
+			"activities": {
+				"Study": {
+					"name": "Study",
+					"condition": "Study Action taken by other creature"
+				}
+			},
 			"effects": {
 				"Disguised": {
 					"name": "Disfrazado",
@@ -1081,12 +1092,6 @@
 				},
 				"Cast": {
 					"name": "Conjurar"
-				}
-			},
-			"effects": {
-				"Dispelling Evil and Good": {
-					"name": "Dispelling Evil and Good",
-					"description": "<p>For the duration, Celestials, Elementals, Fey, Fiends, and Undead have Disadvantage on attack rolls against you. You can end the spell early by using either of the following special functions: <strong>Break Enchantment</strong> or <strong>Dismissal</strong>.</p>"
 				}
 			}
 		},
@@ -1534,6 +1539,12 @@
 		"Fire Shield": {
 			"name": "Escudo de Fuego",
 			"description": "<p>Wispy flames wreathe your body for the duration, shedding Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.</p><p>The flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you Resistance to Cold damage, and the chill shield grants you Resistance to Fire damage.</p><p>In addition, whenever a creature within 5 feet of you hits you with a melee attack roll, the shield erupts with flame. The attacker takes [[/damage 2d8 type=fire]] damage from a warm shield or [[/damage 2d8 type=cold]] damage from a chill shield.</p>",
+			"activities": {
+				"Flame Eruption": {
+					"name": "Flame Eruption",
+					"condition": "a creature within 5 feet hits you with a melee attack"
+				}
+			},
 			"effects": {
 				"Warm Shield": {
 					"name": "Warm Shield",
@@ -1876,7 +1887,13 @@
 		},
 		"Hallucinatory Terrain": {
 			"name": "Terreno Alucinatorio",
-			"description": "<p>You make natural terrain in a 150-foot Cube in range look, sound, and smell like another sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, equipment, and creatures within the area aren’t changed.</p><p>The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to notice the illusion. If the difference isn’t obvious by touch, a creature examining the illusion can take the Study action to make an [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC to disbelieve it. If a creature discerns that the terrain is illusory, the creature sees a vague image superimposed on the real terrain.</p>"
+			"description": "<p>You make natural terrain in a 150-foot Cube in range look, sound, and smell like another sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, equipment, and creatures within the area aren’t changed.</p><p>The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to notice the illusion. If the difference isn’t obvious by touch, a creature examining the illusion can take the Study action to make an [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC to disbelieve it. If a creature discerns that the terrain is illusory, the creature sees a vague image superimposed on the real terrain.</p>",
+			"activities": {
+				"Study": {
+					"name": "Study",
+					"condition": "Study Action taken by other creature"
+				}
+			}
 		},
 		"Harm": {
 			"name": "Dañar",
@@ -1976,6 +1993,9 @@
 				},
 				"Place Curse": {
 					"name": "Imponer Maldición"
+				},
+				"Curse New Creature": {
+					"name": "Maldecir a otra criatura"
 				}
 			},
 			"effects": {
@@ -2070,6 +2090,16 @@
 				},
 				"Mark Creature": {
 					"name": "Marcar Criatura"
+				},
+				"Move Mark": {
+					"name": "Move Mark",
+					"condition": "when the currently marked target drops to 0 Hit Points"
+				}
+			},
+			"effects": {
+				"Hunter's Mark": {
+					"name": "Hunter's Mark",
+					"description": "<p>Until the spell ends, the caster deals an extra [[/damage 1d6 force]] damage to the target whenever they hit it with an attack roll.</p>"
 				}
 			}
 		},
@@ -2134,11 +2164,8 @@
 			"name": "Nube Incendiaria",
 			"description": "<p>A swirling cloud of embers and smoke fills a 20-foot-radius Sphere centered on a point within range. The cloud’s area is &amp;Reference[HeavilyObscured]. It lasts for the duration or until a strong wind (like that created by <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Gust of Wind}</em>) disperses it.</p><p>When the cloud appears, each creature in it makes a Dexterity saving throw, taking 10d8 Fire damage on a failed save or half as much damage on a successful one. A creature must also make this save when the Sphere moves into its space and when it enters the Sphere or ends its turn there. A creature makes this save only once per turn.</p><p>The cloud moves 10 feet away from you in a direction you choose at the start of each of your turns.</p>",
 			"activities": {
-				"Create Cloud": {
-					"name": "Create Cloud"
-				},
-				"Per Turn Save": {
-					"name": "Per Turn Save"
+				"Cast and Save": {
+					"name": "Cast and Save"
 				}
 			}
 		},
@@ -2274,8 +2301,8 @@
 			"name": "Urna Mágica",
 			"description": "<p>Your body falls into a catatonic state as your soul leaves it and enters the container you used for the spell’s Material component. While your soul inhabits the container, you are aware of your surroundings as if you were in the container’s space. You can’t move or take &amp;Reference[Reaction]{Reactions}. The only action you can take is to project your soul up to 100 feet out of the container, either returning to your living body (and ending the spell) or attempting to possess a Humanoid’s body.</p><p>You can attempt to possess any Humanoid within 100 feet of you that you can see (creatures warded by a <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbEvilAndGoodPr]{Protection from Evil and Good}</em> or <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicCircl]{Magic Circle}</em> spell can’t be possessed). The target makes a Charisma saving throw. On a failed save, your soul enters the target’s body, and the target’s soul becomes trapped in the container. On a successful save, the target resists your efforts to possess it, and you can’t attempt to possess it again for 24 hours.</p><p>Once you possess a creature’s body, you control it. Your Hit Points, Hit Point Dice, Strength, Dexterity, Constitution, Speed, and senses are replaced by the creature’s. You otherwise keep your game statistics.</p><p>Meanwhile, the possessed creature’s soul can perceive from the container using its own senses, but it can’t move and it is Incapacitated.</p><p>While possessing a body, you can take a Magic action to return from the host body to the container if it is within 100 feet of you, returning the host creature’s soul to its body. If the host body dies while you’re in it, the creature dies, and you make a Charisma saving throw against your own spellcasting DC. On a success, you return to the container if it is within 100 feet of you. Otherwise, you die.</p><p>If the container is destroyed or the spell ends, your soul returns to your body. If your body is more than 100 feet away from you or if your body is dead, you die. If another creature’s soul is in the container when it is destroyed, the creature’s soul returns to its body if the body is alive and within 100 feet. Otherwise, that creature dies.</p><p>When the spell ends, the container is destroyed.</p>",
 			"activities": {
-				"Transfer Soul": {
-					"name": "Transfer Soul"
+				"Cast and Transfer Soul": {
+					"name": "Cast and Transfer Soul"
 				},
 				"Possess Humanoid": {
 					"name": "Possess Humanoid",
@@ -2337,7 +2364,16 @@
 		},
 		"Major Image": {
 			"name": "Imagen Mayor",
-			"description": "<p>You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 20-foot Cube. The image appears at a spot that you can see within range and lasts for the duration. It seems real, including sounds, smells, and temperature appropriate to the thing depicted, but it can’t deal damage or cause conditions.</p><p>If you are within range of the illusion, you can take a Magic action to cause the image to move to any other spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking. Similarly, you can cause the illusion to make different sounds at different times, even making it carry on a conversation, for example.</p><p>Physical interaction with the image reveals it to be an illusion, for things can pass through it. A creature that takes a Study action to examine the image can determine that it is an illusion with a successful [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The spell lasts until dispelled, without requiring Concentration, if cast with a level 4+ spell slot.</p>"
+			"description": "<p>You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 20-foot Cube. The image appears at a spot that you can see within range and lasts for the duration. It seems real, including sounds, smells, and temperature appropriate to the thing depicted, but it can’t deal damage or cause conditions.</p><p>If you are within range of the illusion, you can take a Magic action to cause the image to move to any other spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking. Similarly, you can cause the illusion to make different sounds at different times, even making it carry on a conversation, for example.</p><p>Physical interaction with the image reveals it to be an illusion, for things can pass through it. A creature that takes a Study action to examine the image can determine that it is an illusion with a successful [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The spell lasts until dispelled, without requiring Concentration, if cast with a level 4+ spell slot.</p>",
+			"activities": {
+				"Create Illusion": {
+					"name": "Create Illusion"
+				},
+				"Study": {
+					"name": "Study",
+					"condition": "Study Action taken by other creature"
+				}
+			}
 		},
 		"Mass Cure Wounds": {
 			"name": "Curar Heridas en Masa",
@@ -2453,6 +2489,10 @@
 							"name": "Sonido"
 						}
 					}
+				},
+				"Study": {
+					"name": "Study",
+					"condition": "Study Action taken by other creature"
 				}
 			}
 		},
@@ -2483,10 +2523,15 @@
 		"Mislead": {
 			"name": "Engañar",
 			"description": "<p>You gain the &amp;Reference[Invisible apply=false] condition at the same time that an illusory double of you appears where you are standing. The double lasts for the duration, but the invisibility ends immediately after you make an attack roll, deal damage, or cast a spell.</p><p>As a Magic action, you can move the illusory double up to twice your Speed and make it gesture, speak, and behave in whatever way you choose. It is intangible and invulnerable.</p><p>You can see through its eyes and hear through its ears as if you were located where it is.</p>",
+			"activities": {
+				"Create Illusory Double": {
+					"name": "Create Illusory Double"
+				}
+			},
 			"effects": {
 				"Invisible": {
 					"name": "Invisible",
-					"description": "<p>The &amp;Reference[invisible apply=false] immediately after you make an attack roll, deals damage, or casts a spell.</p>"
+					"description": "<p>The &amp;Reference[invisible apply=false] condition ends immediately after you make an attack roll, deals damage, or casts a spell.</p>"
 				}
 			}
 		},
@@ -2642,6 +2687,10 @@
 				},
 				"Phantasm Damage": {
 					"name": "Phantasm Damage"
+				},
+				"Study": {
+					"name": "Study",
+					"condition": "Study Action taken by other creature"
 				}
 			},
 			"effects": {
@@ -2653,7 +2702,7 @@
 		},
 		"Phantasmal Killer": {
 			"name": "Asesino Fantasmal",
-			"description": "<p>You tap into the nightmares of a creature you can see within range and create an illusion of its deepest fears, visible only to that creature. The target makes a Wisdom saving throw. On a failed save, the target takes 4d10 Psychic damage and has Disadvantage on ability checks and attack rolls for the duration. On a successful save, the target takes half as much damage, and the spell ends.</p><p>For the duration, the target makes a [[/save ability=wis dc=@attributes.spell.dc]] saving throw at the end of each of its turns. On a failed save, it takes the Psychic damage again. On a successful save, the spell ends.</p><p><strong>Using a Higher-Level Spell Slot.</strong>The damage increases by 1d10 for each spell slot level above 4.</p>",
+			"description": "<p>You tap into the nightmares of a creature you can see within range and create an illusion of its deepest fears, visible only to that creature. The target makes a Wisdom saving throw. On a failed save, the target takes 4d10 Psychic damage and has Disadvantage on ability checks and attack rolls for the duration. On a successful save, the target takes half as much damage, and the spell ends.</p><p>For the duration, the target makes a [[/save ability=wis dc=@attributes.spell.dc]] saving throw at the end of each of its turns. On a failed save, it takes the Psychic damage again. On a successful save, the spell ends.</p><p><strong>Using a Higher-Level Spell Slot. </strong>The damage increases by 1d10 for each spell slot level above 4.</p><section id=\"secret-mEqeb4gkG1Itpvh3\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The associated Active Effect does not include changes to provide Disadvantage on attack rolls and should be handled manually.</p></section>",
 			"effects": {
 				"Fears Manifested": {
 					"name": "Fears Manifested",
@@ -2838,6 +2887,10 @@
 			"activities": {
 				"Create Illusion": {
 					"name": "Create Illusion"
+				},
+				"Study": {
+					"name": "Study",
+					"condition": "Study Action taken by other creature"
 				}
 			}
 		},
@@ -2847,6 +2900,10 @@
 			"activities": {
 				"Create Illusion": {
 					"name": "Create Illusion"
+				},
+				"Study": {
+					"name": "Study",
+					"condition": "Study Action taken by other creature"
 				}
 			}
 		},
@@ -3181,6 +3238,10 @@
 				},
 				"Change Appearance": {
 					"name": "Change Appearance"
+				},
+				"Study": {
+					"name": "Study",
+					"condition": "Study Action taken by other creature"
 				}
 			},
 			"effects": {
@@ -3299,7 +3360,16 @@
 		},
 		"Silent Image": {
 			"name": "Imagen Silenciosa",
-			"description": "<p>Creas una imagen de un objeto, una criatura u otro tipo de fenómeno visible cuyas dimensiones no excedan las de un cubo de 15ft (4,5 m) de lado. La imagen aparece en un sitio dentro del alcance y se mantiene hasta el final del conjuro. La imagen es solamente visual, no está acompañada de sonido, olor u otros efectos sensoriales.</p><p>Como acción de magia, puedes mover la imagen a cualquier sitio dentro del alcance. Al cambiarla de sitio, puedes alterar su apariencia de forma que sus movimientos parezcan naturales. Por ejemplo, si creas la imagen de una criatura y la mueves, puedes alterarla de forma que parezca estar andando.</p><p>La interacción física con la imagen revela que es una ilusión, ya que las cosas pueden atravesarla. Si una criatura emplea una acción de estudiar para examinar la imagen, puede determinar que es una ilusión si supera una prueba de [[/check ability=int skill=inv dc=@attributes.spell.dc]] contra tu CD de salvación de conjuros. Si la criatura descubre que la imagen es una ilusión, no se dejará engañar por ella.</p>"
+			"description": "<p>You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 15-foot Cube. The image appears at a spot within range and lasts for the duration. The image is purely visual; it isn’t accompanied by sound, smell, or other sensory effects.</p><p>As a Magic action, you can cause the image to move to any spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking.</p><p>Physical interaction with the image reveals it to be an illusion, since things can pass through it. A creature that takes a Study action to examine the image can determine that it is an illusion with a successful [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image.</p>",
+			"activities": {
+				"Create Illusion": {
+					"name": "Create Illusion"
+				},
+				"Study": {
+					"name": "Study",
+					"condition": "Study Action taken by other creature"
+				}
+			}
 		},
 		"Simulacrum": {
 			"name": "Simulacro",
@@ -3326,11 +3396,11 @@
 		},
 		"Slow": {
 			"name": "Ralentizar",
-			"description": "<p>You alter time around up to six creatures of your choice in a 40-foot Cube within range. Each target must succeed on a Wisdom saving throw or be affected by this spell for the duration.</p><p>An affected target’s Speed is halved, it takes a −2 penalty to AC and Dexterity saving throws, and it can’t take Reactions. On its turns, it can take either an action or a Bonus Action, not both, and it can make only one attack if it takes the Attack action. If it casts a spell with a Somatic component, there is a [[/r 1d100cs&lt;=25#Slowed spell cast success]]{25 percent} chance the spell fails as a result of the target making the spell’s gestures too slowly.</p><p>An affected target repeats the save at the end of each of its turns, ending the spell on itself on a success.</p><section id=\"secret-2RobIVhv3tn7gmU7\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The inline roll above will return 1 if it succeeded or 0 if it failed.</p></section>",
+			"description": "<p>You alter time around up to six creatures of your choice in a 40-foot Cube within range. Each target must succeed on a Wisdom saving throw or be affected by this spell for the duration.</p><p>An affected target’s Speed is halved, it takes a −2 penalty to AC and Dexterity saving throws, and it can’t take Reactions. On its turns, it can take either an action or a Bonus Action, not both, and it can make only one attack if it takes the Attack action. If it casts a spell with a Somatic component, there is a [[/r 1d100cs&gt;25#Spell cast successfully on 1]]{25 percent} chance the spell fails as a result of the target making the spell’s gestures too slowly.</p><p>An affected target repeats the save at the end of each of its turns, ending the spell on itself on a success.</p><section class=\"secret\" id=\"secret-2RobIVhv3tn7gmU7\"><p><strong>Foundry Note</strong></p><p>The inline roll above will return 1 if it succeeded or 0 if it failed.</p></section>",
 			"effects": {
 				"Slowed": {
 					"name": "Slowed",
-					"description": "<p>An affected target’s Speed is halved, it takes a −2 penalty to AC and Dexterity saving throws, and it can’t take Reactions. On its turns, it can take either an action or a Bonus Action, not both, and it can make only one attack if it takes the Attack action. If it casts a spell with a Somatic component, there is a [[/r 1d100cs&gt;25#Slowed spell cast success]]{25 percent} chance the spell fails as a result of the target making the spell’s gestures too slowly.</p><p>An affected target repeats the [[/save ability=wis]] save at the end of each of its turns, ending the spell on itself on a success.</p>"
+					"description": "<p>An affected target’s Speed is halved, it takes a −2 penalty to AC and Dexterity saving throws, and it can’t take Reactions. On its turns, it can take either an action or a Bonus Action, not both, and it can make only one attack if it takes the Attack action. If it casts a spell with a Somatic component, there is a [[/r 1d100cs&gt;25#Spell cast successfully on 1]]{25 percent} chance the spell fails as a result of the target making the spell’s gestures too slowly.</p><p>An affected target repeats the [[/save ability=wis]] save at the end of each of its turns, ending the spell on itself on a success.</p>"
 				}
 			}
 		},
@@ -3386,11 +3456,8 @@
 			"name": "Espíritus Guardianes",
 			"description": "<p>Protective spirits flit around you in a 15-foot Emanation for the duration. If you are good or neutral, their spectral form appears angelic or fey (your choice). If you are evil, they appear fiendish.</p><p>When you cast this spell, you can designate creatures to be unaffected by it. Any other creature’s Speed is halved in the Emanation, and whenever the Emanation enters a creature’s space and whenever a creature enters the Emanation or ends its turn there, the creature must make a Wisdom saving throw. On a failed save, the creature takes 3d8 Radiant damage (if you are good or neutral) or 3d8 Necrotic damage (if you are evil). On a successful save, the creature takes half as much damage. A creature makes this save only once per turn.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 3.</p>",
 			"activities": {
-				"Emanation Save": {
-					"name": "Emanation Save"
-				},
-				"Cast": {
-					"name": "Conjurar"
+				"Cast and Save": {
+					"name": "Cast and Save"
 				}
 			},
 			"effects": {
@@ -3426,11 +3493,8 @@
 			"name": "Nube Apestosa",
 			"description": "<p>You create a 20-foot-radius Sphere of yellow, nauseating gas centered on a point within range. The cloud is &amp;Reference[heavilyobscured]. The cloud lingers in the air for the duration or until a strong wind (such as the one created by <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Gust of Wind}</em>) disperses it.</p><p>Each creature that starts its turn in the Sphere must succeed on a Constitution saving throw or have the &amp;Reference[poisoned apply=false] condition until the end of the current turn. While Poisoned in this way, the creature can’t take an action or a Bonus Action.</p>",
 			"activities": {
-				"Start of Turn Save": {
-					"name": "Start of Turn Save"
-				},
-				"Create Cloud": {
-					"name": "Create Cloud"
+				"Cast and Save": {
+					"name": "Cast and Save"
 				}
 			},
 			"effects": {

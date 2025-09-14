@@ -159,7 +159,7 @@
 			}
 		},
 		"Prismatic Rays": {
-			"name": "Prismatic Rays",
+			"name": "Rayos Prismáticos",
 			"results": {
 				"1-1": "<p><strong>Rojo.</strong><em> Si falla la tirada:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"fire\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de Fuego. <em>Si supera la tirada:</em> La mitad de daño.</p>",
 				"2-2": "<p><strong>Naranja.</strong><em> Si falla la tirada:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"acid\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de Acído. <em>Si supera la tirada:</em> La mitad de daño.</p>",

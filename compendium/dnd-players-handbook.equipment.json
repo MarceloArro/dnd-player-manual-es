@@ -27,352 +27,29 @@
 		}
 	},
 	"folders": {
+		"Adventuring Gear": "Equipo de Aventurero",
 		"Ammunition": "Munición",
+		"Arcane Focus": "Canalizador Arcano",
 		"Armor": "Armadura",
-		"Simple Melee": "Cuerpo a C. Sencilla",
-		"Simple Ranged": "Distancia Sencilla",
+		"Artisan": "Artesano",
+		"Druidic Focus": "Canalizador Druídico",
+		"Gaming Set": "Juego",
+		"Heavy": "Pesada",
+		"Holy Symbol": "Símbolo Sagrado",
+		"Light": "Ligera",
 		"Martial Melee": "Cuerpo a C. Marcial",
 		"Martial Ranged": "Distancia Marcial",
-		"Equipment": "Equipo",
-		"Adventuring Gear": "Equipo de Aventurero",
-		"Equipment Packs": "Paquetes de Equipo",
-		"Spellcasting Focuses": "Focos para Lanzamiento de Conjuros",
-		"Scroll": "Pergamino",
-		"Tools": "Herramientas",
-		"Artisan": "Artesano",
-		"Other": "Otras",
-		"Gaming Set": "Juego",
-		"Musical Instrument": "Instrumento Musical",
-		"Weapons": "Arma",
-		"Heavy": "Pesada",
-		"Light": "Ligera",
 		"Medium": "Media",
-		"Arcane Focus": "Canalizador Arcano",
-		"Druidic Focus": "Canalizador Druídico",
-		"Holy Symbol": "Símbolo Sagrado",
-		"Star Maps": "Mapa Estelar"
+		"Musical Instrument": "Instrumento Musical",
+		"Other": "Otras",
+		"Simple Melee": "Cuerpo a C. Sencilla",
+		"Simple Ranged": "Distancia Sencilla",
+		"Spellcasting Focuses": "Focos para Lanzamiento de Conjuros",
+		"Star Maps": "Mapa Estelar",
+		"Tools": "Herramientas",
+		"Weapons": "Arma"
 	},
 	"entries": {
-		"Padded Armor": {
-			"name": "Armadura Acolchada",
-			"description": "<p>La armadura acolchada está hecha de varias capas de tela guateada. La armadura acolchada ofrece un nivel de protección comparable al del cuero rígido, pero es algo menos molesto para el usuario.</p>"
-		},
-		"Leather Armor": {
-			"name": "Armadura de Cuero",
-			"description": "<p>Los protectores de peto y hombros de esta armadura están hechos de cuero que se ha endurecido al hervirlos en aceite. El resto de la armadura está hecha de materiales más suaves y flexibles.</p>"
-		},
-		"Studded Leather Armor": {
-			"name": "Armadura de Cuero Tachonado",
-			"description": "<p>Hecha de cuero resistente pero flexible, la armadura de cuero tachonado está reforzada con pinchos o remaches dispuestos muy juntos</p>"
-		},
-		"Breastplate": {
-			"name": "Coraza",
-			"description": "<p>Esta armadura consiste en una placa de metal ajustada al pecho mediante tiras de cuero flexible. Aunque deja las extremidades relativamente expuestas ofrece buena protección para los órganos vitales sin afectar en demasía la libertad de movimientos</p>"
-		},
-		"Chain Shirt": {
-			"name": "Camisa de Malla",
-			"description": "<p>La camisa de malla está hecha de anillos de metal entrelazados y se viste entre capas de tela o cuero. Esta armadura ofrece una protección razonable para el torso y es bastante silenciosa, pues el sonido de los anillos rozándose entre ellos es apagado por las capas más exteriores.</p>"
-		},
-		"Half Plate Armor": {
-			"name": "Media Armadura",
-			"description": "<p>Esta armadura está compuesta de placas de metal forjadas para ajustarse a la forma del cuerpo y cubre la mayor parte de este. Sin embargo, no incluye protección para las piernas más allá de unas grebas sujetas con tiras de cuero.</p>"
-		},
-		"Hide Armor": {
-			"name": "Armadura de Pieles",
-			"description": "<p>Esta primitiva armadura está fabricada a partir de pelajes y pieles gruesas. Es común verla en tribus bárbaras, humanoides malvados y, en general, cualquiera que no disponga de las herramientas o materiales necesarios para crear una armadura mejor.</p>"
-		},
-		"Scale Mail": {
-			"name": "Cota de Escamas",
-			"description": "<p>Esta armadura está compuesta de un chaquetón y unas perneras (y a veces una falda aparte) de cuero cubiertos de trozos de metal superpuestos, parecidos a las escamas de un pez. Esta cota incluye guanteletes.</p>"
-		},
-		"Chain Mail": {
-			"name": "Cota de Malla",
-			"description": "<p>Esta armadura está fabricada a base de anillos metálicos entrelazados, que se apoyan sobre un gambesón que impide que la piel se irrite y amortigua el impacto de los golpes. Esta cota incluye los guanteletes.</p>"
-		},
-		"Plate Armor": {
-			"name": "Armadura de Placas",
-			"description": "<p>También llamada armadura completa, está compuesta de placas de metal enganchadas entre sí, que se ajustan a la forma del cuerpo para cubrirlo por completo. La armadura de placas incluye guanteletes, un par de resistentes botas de cuero y un yelmo con visor, y se viste encima de un gambesón. El peso de esta armadura queda distribuido por todo el cuerpo mediante numerosas tiras y hebillas.</p>"
-		},
-		"Ring Mail": {
-			"name": "Cota Guarnecida",
-			"description": "<p>Esta armadura está hecha de una base de cuero sobre la que se cosen pesados anillos de metal, que ayudan a reforzarla contra los golpes de espadas y hachas. La cota guarnecida es inferior a la cota de malla, por lo que solo suelen llevarla aquellos que no se pueden permitir una armadura mejor.</p>"
-		},
-		"Splint Armor": {
-			"name": "Armadura de Bandas",
-			"description": "<p>Esta armadura está confeccionada a partir de estrechas bandas metálicas verticales clavadas a una capa de cuero que se viste encima de ropa acolchada. Además, las articulaciones están cubiertas por fragmentos flexibles de cota de malla.</p>"
-		},
-		"Shield": {
-			"name": "Escudo",
-			"description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Blandir un escudo aumenta tu Clase de armadura en +2. Solo obtienes el bonificador a la clase de armadura si tienes entrenamiento con escudos.</p>"
-		},
-		"Unarmed Strike": {
-			"name": "Ataque Sin Armas",
-			"description": "<p>Puedes atacar en cuerpo a cuerpo estando desarmado mediante un ataque sin armas, ya se trate de un puñetazo, patada, cabezazo o cualquier otro impacto enérgico. En caso de impactar, causarás 1 + tu modificador de Fuerza de daño contundente. Siempre eres competente con tus ataques sin armas.<em>&amp;Reference[unarmedstrike]</em></p>",
-			"activities": {
-				"Grapple/Shove": {
-					"name": "Agarre/Empujon",
-					"chatFlavor": "Intento de Aggarrar o Empujar"
-				}
-			}
-		},
-		"Club": {
-			"name": "Garrote",
-			"description": "<p>Un robusto palo de madera forma un simple, pero eficaz, garrote. Estas armas se utilizan para aporrear a los enemigos, magullando la carne y rompiendo los huesos.</p>"
-		},
-		"Dagger": {
-			"name": "Daga",
-			"description": "<p>Una corta hoja de metal montada en una pequeña empuñadura y una guarda cruzada. La daga es un arma secundaria eficaz para los guerreros curtidos o una hoja oculta para asesinos y ladrones.</p>"
-		},
-		"Greatclub": {
-			"name": "Garrote Grande",
-			"description": "<p>Una versión más grande del garrote común, un enorme palo de madera con un gran nudo de madera en el extremo que inflige un terrible daño contundente a los desafortunados enemigos.</p>"
-		},
-		"Handaxe": {
-			"name": "Hacha de Mano",
-			"description": "<p>Esta hacha de una mano es ligera y equilibrada para lanzarla sin dejar de ser útil en el combate cuerpo a cuerpo.</p>"
-		},
-		"Improvised Weapon": {
-			"name": "Arma Improvisada",
-			"description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.Dyw6b9rQIdbkIIQD inline]</p>"
-		},
-		"Javelin": {
-			"name": "Jabalina",
-			"description": "<p>Esta lanza ligera y flexible está diseñada para ser lanzada, pero es lo suficientemente versátil como para ser utilizada también en el combate cuerpo a cuerpo.</p>"
-		},
-		"Light Hammer": {
-			"name": "Martillo Ligero",
-			"description": "<p>Este robusto martillo es lo suficientemente pequeño como para ser blandido ágilmente o usado en combinación con otra arma.</p>"
-		},
-		"Mace": {
-			"name": "Maza",
-			"description": "<p>Una pesada arma contundente montada sobre un mango de metal. La cabeza tiene pinchos y cuchillas diseñadas para perforar la armadura y destrozar los huesos.</p>"
-		},
-		"Quarterstaff": {
-			"name": "Bastón",
-			"description": "<p>Un grueso palo de madera envuelto con una firme empuñadura hace que sea un arma muy funcional, además de un robusto bastón para caminar.</p>"
-		},
-		"Sickle": {
-			"name": "Hoz",
-			"description": "<p>Una cuchilla con forma de gancho montada sobre un mango corto, lo suficientemente ligera como para manejarla con una sola mano para segar cultivos o enemigos.</p>"
-		},
-		"Spear": {
-			"name": "Lanza",
-			"description": "<p>Con una punta de acero reluciente sobre un robusto mango de madera, la lanza puede blandirse con una o dos manos y puede atravesar la armadura más pesada con una fuerza mortal.</p>"
-		},
-		"Dart": {
-			"name": "Dardo",
-			"description": "<p>Pequeño instrumento arrojadizo fabricado con un asta corta de madera y plumas cruzadas con una punta afilada de madera o metal. Los dardos pueden lanzarse con la fuerza suficiente para perforar la piel.</p>"
-		},
-		"Light Crossbow": {
-			"name": "Ballesta Ligera",
-			"description": "<p>Una pequeña ballesta con un mango de madera y una cuerda tensa que es capaz de disparar un virote que puede perforar incluso armaduras pesadas a corta distancia.</p>"
-		},
-		"Shortbow": {
-			"name": "Arco Corto",
-			"description": "<p>Este arco a dos manos es algo más pequeño que la variante tradicional del arco largo, lo que lo hace muy adecuado para ataques rápidos en movimiento o montado a caballo.</p>"
-		},
-		"Sling": {
-			"name": "Honda",
-			"description": "<p>Una tira de cuero flexible fijado a un mango de madera que es capaz de arrojar rocas o balas de metal con una velocidad mortal.</p>"
-		},
-		"Battleaxe": {
-			"name": "Hacha de Guerra",
-			"description": "<p>Una robusta hoja de media luna montada sobre un grueso mango envuelto en una firme empuñadura. Esta hacha es lo suficientemente grande como para ser empuñada a dos manos y está adornada con pinchos en el reverso de la hoja y en la parte superior del asta.</p>"
-		},
-		"Flail": {
-			"name": "Mangual",
-			"description": "<p>Un conjunto de bolas con púas unidas a un robusto mango de madera. El Mangual inflige un daño devastador al girar en un arco mortal.</p>"
-		},
-		"Glaive": {
-			"name": "Guja",
-			"description": "<p>Una hoja de media luna montada en el extremo de un largo mango de metal. Esta arma de asta proporciona la capacidad de atacar con una eficacia mortal desde una mayor distancia que las típicas armas de cuerpo a cuerpo.</p>"
-		},
-		"Greataxe": {
-			"name": "Hacha a Dos Manos",
-			"description": "<p>Esta enorme hacha cuenta con dos hojas gemelas en forma de media luna montadas a ambos lados de un largo mango con púas. Está diseñada para ser blandida a dos manos y partir a los enemigos en dos.</p>"
-		},
-		"Greatsword": {
-			"name": "Espadón",
-			"description": "<p>Una poderosa espada a dos manos de más de metro y medio de largo y casi diez centímetros de ancho. Esta arma requiere un gran entrenamiento marcial, pero los que dominan su uso se convierten en extraordinarios guerreros.</p>"
-		},
-		"Halberd": {
-			"name": "Alabarda",
-			"description": "<p>La alabarda, un asta de metal con punta de lanza acompañada de una hoja de media luna, es un arma defensiva resistente que permite al guerrero rechazar a los enemigos utilizando el alcance del asta para atacar desde una distancia segura.</p>"
-		},
-		"Lance": {
-			"name": "Lanza de Caballería",
-			"description": "<p>Una punta de acero brillante que perfora las defensas del enemigo más resistente, impulsada por la fuerza de un corcel al galope. Aunque es más adecuada para el combate a caballo, la lanza puede tener un efecto letal a pie en las manos adecuadas.</p><p><strong>Especial.</strong> Tienes desventaja cuando usas una lanza para atacar a un objetivo a menos de 5 pies de ti. Además, una lanza requiere dos manos para empuñar cuando no estás montado.</p>"
-		},
-		"Longsword": {
-			"name": "Espada Larga",
-			"description": "<p>Una hoja larga y recta diseñada para asestar tajos a los enemigos. La espada larga es un arma muy versátil que también puede blandirse a dos manos para dar golpes más demoledores.</p>"
-		},
-		"Maul": {
-			"name": "Maza a Dos Manos",
-			"description": "<p>Esta pesada maza a dos manos aplasta el metal y el hueso con una fuerza demoledora.</p>"
-		},
-		"Morningstar": {
-			"name": "Lucero del Alba",
-			"description": "<p>Una esfera de metal con pinchos montada en el extremo de un robusto mango, hace que sea un arma mortal que puede perforar la armadura y la carne por igual.</p>"
-		},
-		"Pike": {
-			"name": "Pica",
-			"description": "<p>Una robusta hoja montada en el extremo de un largo mango de metal. Diseñada como arma defensiva con un alcance considerable para rechazar y amenazar a los enemigos.</p>"
-		},
-		"Rapier": {
-			"name": "Estoque",
-			"description": "<p>Una fina hoja de metal flexible, ligera pero de gran alcance, diseñada para realizar rápidos ataques en los puntos débiles de las defensas enemigas con la mayor rapidez.</p>"
-		},
-		"Scimitar": {
-			"name": "Cimitarra",
-			"description": "<p>Esta espada curvada es ancha cerca de la empuñadura envolvente, pero se arquea y se estrecha hacia la brillante punta.</p>"
-		},
-		"Shortsword": {
-			"name": "Espada Corta",
-			"description": "<p>Una hoja de tamaño medio con una firme guarda cruzada y una empuñadura forrada de cuero. Un arma versátil que compensa en versatilidad lo que le falta en alcance.</p>"
-		},
-		"Trident": {
-			"name": "Tridente",
-			"description": "<p>Una lanza con varias puntas diseñada para empalar a un objetivo en varios lugares, inmovilizándolo. A menudo se utiliza en combinación con una red para atrapar y hostigar a los enemigos.</p>"
-		},
-		"War Pick": {
-			"name": "Pico de Guerra",
-			"description": "<p>Un brutal pico curvo montado en la parte posterior de un robusto mango, diseñado para perforar armaduras con una fuerza letal.</p>"
-		},
-		"Warhammer": {
-			"name": "Martillo de Guerra",
-			"description": "<p>Un pesado martillo de metal capaz de ser blandido con una sola mano con un escudo o a dos manos para asestar golpes demoledores.</p>"
-		},
-		"Whip": {
-			"name": "Látigo",
-			"description": "<p>Un lazo tensado hecho de cuero, cuerda o cadena que puede azotar a los enemigos cercanos, causándoles laceraciones y molestándolos a distancia.</p>"
-		},
-		"Blowgun": {
-			"name": "Cerbatana",
-			"description": "<p>Un arma primitiva, pero mortal, muy utilizada por las tribus y los guerrilleros. Los dardos que se disparan con esta arma pueden clavarse y suministrar dosis letales de veneno.</p>"
-		},
-		"Hand Crossbow": {
-			"name": "Ballesta de Mano",
-			"description": "<p>Una ballesta liviana diseñada para ser sostenida en una mano o atada a la muñeca para disparar virotes pequeños.</p>"
-		},
-		"Heavy Crossbow": {
-			"name": "Ballesta Pesada",
-			"description": "<p>Una ballesta de gran tamaño montada sobre un robusto soporte de madera que se carga mediante una manivela y dispara gruesos virotes de acero con una aceleración mortal que atraviesa armaduras y carne.</p>"
-		},
-		"Longbow": {
-			"name": "Arco largo",
-			"description": "<p>Un grueso astil de madera laminada es arqueado por una cuerda tensa capaz de lanzar flechas mortales a largas distancias.</p>"
-		},
-		"Musket": {
-			"name": "Mosquete"
-		},
-		"Pistol": {
-			"name": "Pistola"
-		},
-		"Arcane Focus (Varies)": {
-			"name": "Canalizador Arcano (Variable)",
-			"description": "<p>Un Canalizador Arcano puede ser uno de los objetos de la tabla “Canalizadores Arcanos” y está ornamentado o tallado para canalizar la magia arcana. Los Brujos, Hechiceros o Magos pueden utilizar estos objetos como Canalizadores Mágicos.</p><table><caption>Canalizadores Arcanos</caption><thead><tr><td>Canalizador</td><td>Peso</td><td>Precio</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcCrystal000]{Cristal}</td><td>1 lb.</td><td>10 PO</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcOrb0000000]{Orbe}</td><td>3 lb.</td><td>20 PO</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcRod0000000]{Vara}</td><td>2 lb.</td><td>10 PO</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{Bastón} (tambien un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta])</td><td>4 lb.</td><td>5 PO</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcWand000000]{Varita}</td><td>1 lb.</td><td>10 PO</td></tr></tbody></table>"
-		},
-		"Druidic Focus (Varies)": {
-			"name": "Canalizador Druídico (Variable)",
-			"description": "<p>Un Canalizador Druídico puede ser uno de los objetos de la tabla “Canalizadores Druídicos” y está tallado, atado con un lazo o pintado para canalizar la magia primigenia. Los Druidas o Exploradores pueden utilizar estos objetos como Canalizadores Mágicos.</p><table><caption>Canalizadores Druídicos</caption><thead><tr><td>Canalizador</td><td>Peso</td><td>Precio</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcSprigofmis]{Rama de Muérdago}</td><td>—</td><td>1 PO</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcWoodenstaf]{Bastón de Madera} (tambien un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón})</td><td>4 lb.</td><td>5 PO</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcYewwand000]{Varita de Tejo}</td><td>1 lb.</td><td>10 PO</td></tr></tbody></table>"
-		},
-		"Holy Symbol (Varies)": {
-			"name": "Símbolo Sagrado (Variable)",
-			"description": "<p>Un Símbolo Sagrado puede ser uno de los objetos de la tabla “Símbolos Sagrados” y está ornamentado o pintado para canalizar la magia divina. Los Clérigos o Paladines pueden utilizar un Símbolo Sagrado como Canalizador Mágico. La tabla indica si un Símbolo Sagrado se debe Sostener, Llevar puesto o Mostrar en tela (como un tabardo o un estandarte) o en un Escudo.</p><table><caption>Símbolos Sagrados</caption><thead><tr><td>Símbolo</td><td>Peso</td><td>Precio</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyAmuletworn]{Amuleto} (puesto o sostenido)</td><td>1 lb.</td><td>5 PO</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyEmblemborn]{Emblema} (en tela o en escudo)</td><td>—</td><td>5 PO</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyReliquaryh]{Relicario} (sostenido)</td><td>2 lb.</td><td>5 PO</td></tr></tbody></table>"
-		},
-		"Crystal": {
-			"name": "Cristal",
-			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Canalizador Arcano} que está enjoyado o tallado para canalizar magia arcana. Un Hechicero, Brujo o Mago puede usar este objeto como Foco para Lanzamiento de Conjuros.</p>"
-		},
-		"Orb": {
-			"name": "Orbe",
-			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Canalizador Arcano} que está enjoyado o tallado para canalizar magia arcana. Un Hechicero, Brujo o Mago puede usar este objeto como Foco para Lanzamiento de Conjuros.</p>"
-		},
-		"Rod": {
-			"name": "Vara",
-			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Canalizador Arcano} que está enjoyado o tallado para canalizar magia arcana. Un Hechicero, Brujo o Mago puede usar este objeto como Foco para Lanzamiento de Conjuros.</p>"
-		},
-		"Staff": {
-			"name": "Bastón",
-			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Canalizador Arcano} que está enjoyado o tallado para canalizar magia arcana. Un Hechicero, Brujo o Mago puede usar este objeto como Foco para Lanzamiento de Conjuros.</p>"
-		},
-		"Wand": {
-			"name": "Varita",
-			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Canalizador Arcano} que está enjoyado o tallado para canalizar magia arcana. Un Hechicero, Brujo o Mago puede usar este objeto como Foco para Lanzamiento de Conjuros.</p><p>Este objeto funciona como un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}</p><section class=\"secret\" id=\"secret-wJ4SJVg9unbYSBJb\"><p><strong>Notas Foundry</strong></p><p>Este objeto se ha configurado con las propiedades adicionales de un Bastón.</p></section>"
-		},
-		"Sprig of mistletoe": {
-			"name": "Rama de Muérdago",
-			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Canalizador Druídico} tiene una de las formas de la tabla de Canalizador Druídico y está tallado, atado con una cinta o pintado para canalizar la magia primigenia. Un Druida o Explorador puede usar un objeto de este tipo como un Foco para Lanzamiento de Conjuros.</p>"
-		},
-		"Wooden staff": {
-			"name": "Bastón de Madera (También Bastón) ",
-			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Canalizador Druídico} tiene una de las formas de la tabla de Canalizador Druídico y está tallado, atado con una cinta o pintado para canalizar la magia primigenia. Un Druida o Explorador puede usar un objeto de este tipo como un Foco para Lanzamiento de Conjuros.</p>"
-		},
-		"Yew wand": {
-			"name": "Varita de Tejo",
-			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Canalizador Druídico} tiene una de las formas de la tabla de Canalizador Druídico y está tallado, atado con una cinta o pintado para canalizar la magia primigenia. Un Druida o Explorador puede usar un objeto de este tipo como un Foco para Lanzamiento de Conjuros.</p></p><p>Este objeto funciona como un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}</p><section class=\"secret\" id=\"secret-XEbhgCaozZsnw6QT\"><p><strong>Notas Foundry</strong></p><p>Este objeto se ha configurado con las propiedades adicionales de un Bastón.</p></section>"
-		},
-		"Amulet": {
-			"name": "Amuleto",
-			"description": "<p><em><strong>Requisitos de uso: </strong>Sostenerse</em></p><p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Símbolo Sagrado} tiene una de las formas de la tabla de Símbolos Sagrados y está enjoyado o pintado para canalizar la magia divina. Un Clérigo o Paladín puede usar un objeto de este tipo como un Foco para Lanzamiento de Conjuros.</p>"
-		},
-		"Emblem": {
-			"name": "Emblema",
-			"description": "<p><em><strong>Requisitos de uso: </strong>En tela o en Escudo</em></p><p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Símbolo Sagrado} tiene una de las formas de la tabla de Símbolos Sagrados y está enjoyado o pintado para canalizar la magia divina. Un Clérigo o Paladín puede usar un objeto de este tipo como un Foco para Lanzamiento de Conjuros.</p>"
-		},
-		"Reliquary": {
-			"name": "Relicario",
-			"description": "<p><em><strong>Requisitos de uso: </strong>Sostenerse</em></p><p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Símbolo Sagrado} tiene una de las formas de la tabla de Símbolos Sagrados y está enjoyado o pintado para canalizar la magia divina. Un Clérigo o Paladín puede usar un objeto de este tipo como un Foco para Lanzamiento de Conjuros.</p>"
-		},
-		"Constellations Scroll": {
-			"name": "Pergamino de Constelaciones",
-			"description": "<p>Un pergamino donde están representadas las constelaciones que los druidas del Círculo de las Estrellas pueden utilizar como Focos para Lanzamiento de Conjuros. Es un objeto diminuto.</p>"
-		},
-		"Ebony-bound Atlas": {
-			"name": "Atlas Encuadernado en Ébano",
-			"description": "<p>Un conjunto de mapas encuadernados con una cubierta de ébano que los druidas del Círculo de las Estrellas pueden utilizar como Focos para Lanzamiento de Conjuros. Es un objeto diminuto.</p>"
-		},
-		"Engraved Crystal": {
-			"name": "Cristal Grabado",
-			"description": "<p>Un cristal decorado con patrones de estrellas que los druidas del Círculo de las Estrellas pueden utilizar como Focos para Lanzamiento de Conjuros. Es un objeto diminuto.</p>"
-		},
-		"Etched Glass Disk": {
-			"name": "Disco de Cristal",
-			"description": "<p>Un disco de cristal grabado con grabados de constelaciones que los druidas del Círculo de las Estrellas pueden utilizar como Focos para Lanzamiento de Conjuros. Es un objeto diminuto.</p>"
-		},
-		"Stone Tablet": {
-			"name": "Tablilla de Piedra",
-			"description": "<p>Una tablilla de piedra perforada con pequeños agujeros que los druidas del Círculo de las Estrellas pueden utilizar como Focos para Lanzamiento de Conjuros. Es un objeto diminuto.</p>"
-		},
-		"Tooled Owlbear Hide": {
-			"name": "Piel Oso Lechuza Moteada",
-			"description": "<p>La piel de un oso lechuza en la que hay símbolos estelares grabados que los druidas del Círculo de las Estrellas pueden utilizar como Focos para Lanzamiento de Conjuros. Es un objeto diminuto.</p>"
-		},
-		"Ammunition (Varies)": {
-			"name": "Munición (Variable)",
-			"description": "<p>La munición es necesaria para un arma que tenga la propiedad Munición. La descripción de un arma especifica el tipo de munición que utiliza el arma. La tabla de Munición lista los diferentes tipos y la cantidad que obtienes al comprarlos. La tabla también enumera el objeto que se utiliza normalmente para almacenar cada tipo; el Contenerdor debe comprarse por separado.</p> <table> <caption>Munición</caption> <thead> <tr> <td>Tipo</td> <td>Cantidad</td> <td>Contenerdor</td> <td>Peso</td> <td>Costo</td> </tr> </thead> <tbody> <tr> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Flechas}</td> <td>20</td> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Aljaba}</td> <td>1 lb.</td> <td>1 PO</td> </tr> <tr> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000]{Virotes}</td> <td>20</td> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]{Estuche}</td> <td>1½ lb.</td> <td>1 PO</td> </tr> <tr> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsFir]{Balas, Armas de Fuego}</td> <td>10</td> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</td> <td>2 lb.</td> <td>3 PO</td> </tr> <tr> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsSli]{Balas, Honda}</td> <td>20</td> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</td> <td>1½ lb.</td> <td>4 CP</td> </tr> <tr> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoNeedles000]{Dardo}</td> <td>50</td> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</td> <td>1 lb.</td> <td>1 PO</td> </tr> </tbody> </table>"
-		},
-		"Arrows": {
-			"name": "Flechas",
-			"description": "<p><em><strong>Contenedor:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Aljaba}</em></p><p>La @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munición} es necesaria para un arma que tenga la propiedad Munición. La descripción de un arma especifica el tipo de munición que utiliza el arma. La tabla de Munición lista los diferentes tipos y la cantidad que obtienes al comprarlos. La tabla también enumera el objeto que se utiliza normalmente para almacenar cada tipo; el Contenerdor debe comprarse por separado.</p>"
-		},
-		"Bolts": {
-			"name": "Virotes",
-			"description": "<p><em><strong>Contenedor:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]{Estuche}</em></p><p>La @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munición} es necesaria para un arma que tenga la propiedad Munición. La descripción de un arma especifica el tipo de munición que utiliza el arma. La tabla de Munición lista los diferentes tipos y la cantidad que obtienes al comprarlos. La tabla también enumera el objeto que se utiliza normalmente para almacenar cada tipo; el Contenerdor debe comprarse por separado.</p>"
-		},
-		"Bullets, Firearm": {
-			"name": "Balas, Armas de Fuego",
-			"description": "<p><em><strong>Contenedor:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</em></p><p>La @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munición} es necesaria para un arma que tenga la propiedad Munición. La descripción de un arma especifica el tipo de munición que utiliza el arma. La tabla de Munición lista los diferentes tipos y la cantidad que obtienes al comprarlos. La tabla también enumera el objeto que se utiliza normalmente para almacenar cada tipo; el Contenerdor debe comprarse por separado.</p>"
-		},
-		"Bullets, Sling": {
-			"name": "Proyectiles, Honda",
-			"description": "<p><em><strong>Contenedor:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</em></p><p>La @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munición} es necesaria para un arma que tenga la propiedad Munición. La descripción de un arma especifica el tipo de munición que utiliza el arma. La tabla de Munición lista los diferentes tipos y la cantidad que obtienes al comprarlos. La tabla también enumera el objeto que se utiliza normalmente para almacenar cada tipo; el Contenerdor debe comprarse por separado.</p>"
-		},
-		"Needles": {
-			"name": "Dardo",
-			"description": "<p><em><strong>Contenedor:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</em></p><p>La @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munición} es necesaria para un arma que tenga la propiedad Munición. La descripción de un arma especifica el tipo de munición que utiliza el arma. La tabla de Munición lista los diferentes tipos y la cantidad que obtienes al comprarlos. La tabla también enumera el objeto que se utiliza normalmente para almacenar cada tipo; el Contenerdor debe comprarse por separado.</p>"
-		},
 		"Acid": {
 			"name": "Ácido",
 			"description": "<p>Cuando lleves a cabo la Acción de Atacar, puedes sustituir uno de tus ataques por lanzar un vial de ácido. Haz objetivo a una criatura u objeto que puedas ver a 20ft (6 m) o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador por Destreza y tu bonificador por competencia) o sufrirá [[/damage 2d4 type=acid]]{2d4} de daño Ácido.</p>",
@@ -392,6 +69,18 @@
 				}
 			}
 		},
+		"Alchemist's Supplies": {
+			"name": "Suministros de Alquimista",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[int]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Identificar una sustancia (CD 15), o encender un fuego (CD 15)</p> <p class=\"phb-meta\"><strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAcid0000000]{Acido}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAlchemistsF]{Fuego de Alquimista}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagComponentPo]{Saquito de Componentes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Papel}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}</p>"
+		},
+		"Ammunition (Varies)": {
+			"name": "Munición (Variable)",
+			"description": "<p>La munición es necesaria para un arma que tenga la propiedad Munición. La descripción de un arma especifica el tipo de munición que utiliza el arma. La tabla de Munición lista los diferentes tipos y la cantidad que obtienes al comprarlos. La tabla también enumera el objeto que se utiliza normalmente para almacenar cada tipo; el Contenerdor debe comprarse por separado.</p> <table> <caption>Munición</caption> <thead> <tr> <td>Tipo</td> <td>Cantidad</td> <td>Contenerdor</td> <td>Peso</td> <td>Costo</td> </tr> </thead> <tbody> <tr> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoArrows0000]{Flechas}</td> <td>20</td> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Aljaba}</td> <td>1 lb.</td> <td>1 PO</td> </tr> <tr> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000]{Virotes}</td> <td>20</td> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]{Estuche}</td> <td>1½ lb.</td> <td>1 PO</td> </tr> <tr> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsFir]{Balas, Armas de Fuego}</td> <td>10</td> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</td> <td>2 lb.</td> <td>3 PO</td> </tr> <tr> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsSli]{Balas, Honda}</td> <td>20</td> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</td> <td>1½ lb.</td> <td>4 CP</td> </tr> <tr> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoNeedles000]{Dardo}</td> <td>50</td> <td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</td> <td>1 lb.</td> <td>1 PO</td> </tr> </tbody> </table>"
+		},
+		"Amulet": {
+			"name": "Amuleto",
+			"description": "<p><em><strong>Requisitos de uso: </strong>Sostenerse</em></p><p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Símbolo Sagrado} tiene una de las formas de la tabla de Símbolos Sagrados y está enjoyado o pintado para canalizar la magia divina. Un Clérigo o Paladín puede usar un objeto de este tipo como un Foco para Lanzamiento de Conjuros.</p>"
+		},
 		"Antitoxin": {
 			"name": "Antitoxina",
 			"description": "Como Acción Adicional, puedes beber un vial de antitoxina para obtener ventaja en las tiradas de salvación para evitar o poner fin al estado de &Reference[poisoned] durante 1 hora. No obstante, no tendrá efecto en &Reference[undead] o &Reference[construct].</p>",
@@ -401,9 +90,21 @@
 				}
 			}
 		},
+		"Arcane Focus (Varies)": {
+			"name": "Canalizador Arcano (Variable)",
+			"description": "<p>Un Canalizador Arcano puede ser uno de los objetos de la tabla “Canalizadores Arcanos” y está ornamentado o tallado para canalizar la magia arcana. Los Brujos, Hechiceros o Magos pueden utilizar estos objetos como Canalizadores Mágicos.</p><table><caption>Canalizadores Arcanos</caption><thead><tr><td>Canalizador</td><td>Peso</td><td>Precio</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcCrystal000]{Cristal}</td><td>1 lb.</td><td>10 PO</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcOrb0000000]{Orbe}</td><td>3 lb.</td><td>20 PO</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcRod0000000]{Vara}</td><td>2 lb.</td><td>10 PO</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcStaffalsoa]{Bastón} (tambien un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta])</td><td>4 lb.</td><td>5 PO</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbafcWand000000]{Varita}</td><td>1 lb.</td><td>10 PO</td></tr></tbody></table>"
+		},
+		"Arrows": {
+			"name": "Flechas",
+			"description": "<p><em><strong>Contenedor:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Aljaba}</em></p><p>La @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munición} es necesaria para un arma que tenga la propiedad Munición. La descripción de un arma especifica el tipo de munición que utiliza el arma. La tabla de Munición lista los diferentes tipos y la cantidad que obtienes al comprarlos. La tabla también enumera el objeto que se utiliza normalmente para almacenar cada tipo; el Contenerdor debe comprarse por separado.</p>"
+		},
 		"Backpack": {
 			"name": "Mochila",
 			"description": "<p>Una mochila soporta hasta 15 kg en un volumen de 30 L. También puede servir de alforja.</p>"
+		},
+		"Bagpipes": {
+			"name": "Gaita",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Un juego de gaitas para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
 		},
 		"Ball Bearings": {
 			"name": "Bolas de Metal",
@@ -430,6 +131,10 @@
 			"name": "Cesta",
 			"description": "<p>Una cesta soporta hasta 40 libras (20 kg) en un volumen de 2 pies cúbicos (60 l).</p>"
 		},
+		"Battleaxe": {
+			"name": "Hacha de Guerra",
+			"description": "<p>Una robusta hoja de media luna montada sobre un grueso mango envuelto en una firme empuñadura. Esta hacha es lo suficientemente grande como para ser empuñada a dos manos y está adornada con pinchos en el reverso de la hoja y en la parte superior del asta.</p>"
+		},
 		"Bedroll": {
 			"name": "Petate",
 			"description": "<p>En un Petate puede dormir una criatura Pequeña o Mediana. Mientras estés en un petate, superarás automáticamente las tiradas de salvación contra el frío extremo (consulta la <em>Guía del Dungeon Master</em>).</p>"
@@ -446,6 +151,14 @@
 			"name": "Polipasto o Aparejo de Poleas",
 			"description": "<p>Un conjunto de poleas recorridas por un cable que termina en un gancho, que se puede fijar a un objeto. Un polipasto te permite levantar hasta cuatro veces el peso que normalmente puedes levantar.</p>"
 		},
+		"Blowgun": {
+			"name": "Cerbatana",
+			"description": "<p>Un arma primitiva, pero mortal, muy utilizada por las tribus y los guerrilleros. Los dardos que se disparan con esta arma pueden clavarse y suministrar dosis letales de veneno.</p>"
+		},
+		"Bolts": {
+			"name": "Virotes",
+			"description": "<p><em><strong>Contenedor:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]{Estuche}</em></p><p>La @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munición} es necesaria para un arma que tenga la propiedad Munición. La descripción de un arma especifica el tipo de munición que utiliza el arma. La tabla de Munición lista los diferentes tipos y la cantidad que obtienes al comprarlos. La tabla también enumera el objeto que se utiliza normalmente para almacenar cada tipo; el Contenerdor debe comprarse por separado.</p>"
+		},
 		"Book": {
 			"name": "Libro",
 			"description": "<p><p>Un libro contiene ficción o no ficción. Si consultas un libro veraz de no ficción para saber algo sobre su materia, ganarás un bonificador de +5 a las pruebas de Inteligencia (&Reference[Arcana], &Reference[History], &Reference[Nature], or &Reference[Religion]) que hagas sobre esa materia.</p>"
@@ -454,9 +167,33 @@
 			"name": "Botella de Cristal",
 			"description": "<p>En una botella de cristal caben hasta 0,75 L de líquido.</p>"
 		},
+		"Breastplate": {
+			"name": "Coraza",
+			"description": "<p>Esta armadura consiste en una placa de metal ajustada al pecho mediante tiras de cuero flexible. Aunque deja las extremidades relativamente expuestas ofrece buena protección para los órganos vitales sin afectar en demasía la libertad de movimientos</p>"
+		},
+		"Brewer's Supplies": {
+			"name": "Suministros de Cervecero",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[int]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Identificar bebidas envenenadas (CD 15), o identificar alcohol (CD 10)</p> <p class=\"phb-meta\"><strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntitoxin00]{Antitoxina}</p>",
+			"activities": {
+				"Detect Poisoned Drink": {
+					"name": "Detectar Bebida Envenenada"
+				},
+				"Identify Alcohol": {
+					"name": "Identificar Alcohol"
+				}
+			}
+		},
 		"Bucket": {
 			"name": "Cubo",
 			"description": "<p>En un Cubo cabe un volumen de 3 galones (15 l) de contenido.</p>"
+		},
+		"Bullets, Firearm": {
+			"name": "Balas, Armas de Fuego",
+			"description": "<p><em><strong>Contenedor:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</em></p><p>La @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munición} es necesaria para un arma que tenga la propiedad Munición. La descripción de un arma especifica el tipo de munición que utiliza el arma. La tabla de Munición lista los diferentes tipos y la cantidad que obtienes al comprarlos. La tabla también enumera el objeto que se utiliza normalmente para almacenar cada tipo; el Contenerdor debe comprarse por separado.</p>"
+		},
+		"Bullets, Sling": {
+			"name": "Proyectiles, Honda",
+			"description": "<p><em><strong>Contenedor:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</em></p><p>La @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munición} es necesaria para un arma que tenga la propiedad Munición. La descripción de un arma especifica el tipo de munición que utiliza el arma. La tabla de Munición lista los diferentes tipos y la cantidad que obtienes al comprarlos. La tabla también enumera el objeto que se utiliza normalmente para almacenar cada tipo; el Contenerdor debe comprarse por separado.</p>"
 		},
 		"Bullseye Lantern": {
 			"name": "Linterna Ojo de Buey",
@@ -465,6 +202,10 @@
 		"Burglar's Pack": {
 			"name": "Paquete de Ladrón",
 			"description": "<p>Un Paquete de Ladrón contiene los siguiente objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Bolas de Metal}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Campana}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{Velas}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Palanqueta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLanternHood]{Linterna Sorda}, 7 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Frascos de Aceite}, 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}, y una @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Cantimplora}.</p>"
+		},
+		"Calligrapher's Supplies": {
+			"name": "Suministros de Calígrafo",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[dex]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Escribir texto lleno de florituras impresionantes que no se pueden falsificar(CD 15) </p> <p class=\"phb-meta\"><strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Tinta}, Pergamino de Conjuro</p>"
 		},
 		"Caltrops": {
 			"name": "Abrojos",
@@ -481,6 +222,24 @@
 			"activities": {
 				"Light": {
 					"name": "Luz"
+				}
+			}
+		},
+		"Carpenter's Tools": {
+			"name": "Herramientas de Carpintero",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[str]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Sellar o Forzar una puerta o un contenedor (CD 20)</p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{Garrote}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{Garrote Grande}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBarrel00000]{Barril}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Cofre}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLadder00000]{Escalera}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000]{Palo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRamPortable]{Ariete Portátil}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Antorcha}</p>",
+			"activities": {
+				"Seal or Pry Open": {
+					"name": "Sellar o Forzar"
+				}
+			}
+		},
+		"Cartographer's Tools": {
+			"name": "Herramientas de Cartógrafo",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Dibujar un mapa de una zona pequeña (CD 15) </p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMap00000000]{Mapa}</p>",
+			"activities": {
+				"Draft a Map": {
+					"name": "Dibujar Mapa"
 				}
 			}
 		},
@@ -507,6 +266,14 @@
 				}
 			}
 		},
+		"Chain Mail": {
+			"name": "Cota de Malla",
+			"description": "<p>Esta armadura está fabricada a base de anillos metálicos entrelazados, que se apoyan sobre un gambesón que impide que la piel se irrite y amortigua el impacto de los golpes. Esta cota incluye los guanteletes.</p>"
+		},
+		"Chain Shirt": {
+			"name": "Camisa de Malla",
+			"description": "<p>La camisa de malla está hecha de anillos de metal entrelazados y se viste entre capas de tela o cuero. Esta armadura ofrece una protección razonable para el torso y es bastante silenciosa, pues el sonido de los anillos rozándose entre ellos es apagado por las capas más exteriores.</p>"
+		},
 		"Chest": {
 			"name": "Cofre",
 			"description": "<p>En un Cofre cabe un volumen de hasta 12 pies cúbicos (360 l) de contenido.</p>"
@@ -523,9 +290,38 @@
 			"name": "Ropas de Viaje",
 			"description": "<p>Las Ropas de Viaje son prendas resistentes y diseñadas para viajar por diversos entornos.</p>"
 		},
+		"Club": {
+			"name": "Garrote",
+			"description": "<p>Un robusto palo de madera forma un simple, pero eficaz, garrote. Estas armas se utilizan para aporrear a los enemigos, magullando la carne y rompiendo los huesos.</p>"
+		},
+		"Cobbler's Tools": {
+			"name": "Herramientas de Zapatero",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[dex]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Modifica el calzado para dar Ventaja en el siguiente Prueba de Destreza (&Reference[acr]) de quien los lleve (CD 10). </p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClimbersKit]{Útiles de Escalada}</p>",
+			"activities": {
+				"Modify Footwear": {
+					"name": "Modificar Calzado"
+				}
+			}
+		},
 		"Component Pouch": {
 			"name": "Saquito de Componentes",
 			"description": "<p>Un Saquito de Componentes es una bolsa hermética y llena de compartimentos que contienen todos los componentes materiales gratuitos para tus conjuros.</p>"
+		},
+		"Constellations Scroll": {
+			"name": "Pergamino de Constelaciones",
+			"description": "<p>Un pergamino donde están representadas las constelaciones que los druidas del Círculo de las Estrellas pueden utilizar como Focos para Lanzamiento de Conjuros. Es un objeto diminuto.</p>"
+		},
+		"Cook's Utensils": {
+			"name": "Útiles de Cocinero",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Mejorar el sabor de la comida (CD 10), o detectae alimentos podrídos o envenenada (CD 15) </p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}</p>",
+			"activities": {
+				"Improve Flavor": {
+					"name": "Mejorar Sabor"
+				},
+				"Detect Spoiled or Poisoned Food": {
+					"name": "Detectar alimentos podridos o envenenados"
+				}
+			}
 		},
 		"Costume": {
 			"name": "Disfraz",
@@ -535,29 +331,119 @@
 			"name": "Palanqueta",
 			"description": "<p>Una palanqueta te da ventaja en las pruebas de Fuerza en las que se pueda hacer palanca.</p>"
 		},
+		"Crystal": {
+			"name": "Cristal",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Canalizador Arcano} que está enjoyado o tallado para canalizar magia arcana. Un Hechicero, Brujo o Mago puede usar este objeto como Foco para Lanzamiento de Conjuros.</p>"
+		},
+		"Dagger": {
+			"name": "Daga",
+			"description": "<p>Una corta hoja de metal montada en una pequeña empuñadura y una guarda cruzada. La daga es un arma secundaria eficaz para los guerreros curtidos o una hoja oculta para asesinos y ladrones.</p>"
+		},
+		"Dart": {
+			"name": "Dardo",
+			"description": "<p>Pequeño instrumento arrojadizo fabricado con un asta corta de madera y plumas cruzadas con una punta afilada de madera o metal. Los dardos pueden lanzarse con la fuerza suficiente para perforar la piel.</p>"
+		},
+		"Dice": {
+			"name": "Dados",
+			"description": "<p><strong>Característica:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Discernir si alguien está haciendo trampas (CD 10), o gana la partida (CD 20)</p><p>Este objeto incluye una amplia gama de dados, tanto normales como cargados.</p><p>Si eres competente con un juego, puedes añadir tu bonificador por competencia a las pruebas de característica que hagas para jugar con él. Cada tipo de juego requiere su propia competencia independiente.</p>"
+		},
 		"Diplomat's Pack": {
 			"name": "Paquete de Diplomático",
 			"description": "<p>Un Paquete de Diplomatico contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Cofre}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]{Ropas de Calidad}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Tinta}, 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Plumas para escribir}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lámpara}, 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseMaporSc]{Estuches para Mapas o Pergaminos}, 4 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Frascos de Aceite}, 5 Hojas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Papel}, 5 Hojas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergamino}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}, y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}.</p>"
+		},
+		"Disguise Kit": {
+			"name": "Útiles para Disfrazarse",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Maquillarse (CD 10) </p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Disfraz} </p><p>Esta bolsa con productos de maquillaje, tinte para el pelo y pequeños accesorios te ayuda a disfrazarte y cambiar así tu apariencia. La competencia con estos útiles te permite añadir tu bonificador por competencia a las pruebas de característica para crear un disfraz que engañe a la vista.</p>",
+			"activities": {
+				"Apply Makeup": {
+					"name": "Maquillarse"
+				}
+			}
+		},
+		"Dragonchess": {
+			"name": "Ajedrez Dragón",
+			"description": "<p><strong>Característica:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Discernir si alguien está haciendo trampas (CD 10), o gana la partida (CD 20)</p><p>Este objeto incluye un tablero y piezas del Ajedrez del Dragón.</p><p>Si eres competente con un juego, puedes añadir tu bonificador por competencia a las pruebas de característica que hagas para jugar con él. Cada tipo de juego requiere su propia competencia independiente.</p>"
+		},
+		"Druidic Focus (Varies)": {
+			"name": "Canalizador Druídico (Variable)",
+			"description": "<p>Un Canalizador Druídico puede ser uno de los objetos de la tabla “Canalizadores Druídicos” y está tallado, atado con un lazo o pintado para canalizar la magia primigenia. Los Druidas o Exploradores pueden utilizar estos objetos como Canalizadores Mágicos.</p><table><caption>Canalizadores Druídicos</caption><thead><tr><td>Canalizador</td><td>Peso</td><td>Precio</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcSprigofmis]{Rama de Muérdago}</td><td>—</td><td>1 PO</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcWoodenstaf]{Bastón de Madera} (tambien un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón})</td><td>4 lb.</td><td>5 PO</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbdfcYewwand000]{Varita de Tejo}</td><td>1 lb.</td><td>10 PO</td></tr></tbody></table>"
+		},
+		"Drum": {
+			"name": "Tambor",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Un tambor para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
+		},
+		"Dulcimer": {
+			"name": "Dulcémele",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Un dulcémele para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
 		},
 		"Dungeoneer's Pack": {
 			"name": "Paquete de Explorador de Mazmorras",
 			"description": "<p>Un Paquete de Explorador de Mazmorras contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Abrojos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Palanqueta}, 2 frascos de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones} para 10 días, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Antorchas}, y una @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Cantimplora}</p>."
 		},
-		"Explorer's Pack": {
-			"name": "Paquete de Explorador",
-			"description": "<p>Un Paquete de Explorador contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Petate}, 2 frascos de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones} para 10 días, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Antorchas}, y una @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Cantimplora}."
+		"Ebony-bound Atlas": {
+			"name": "Atlas Encuadernado en Ébano",
+			"description": "<p>Un conjunto de mapas encuadernados con una cubierta de ébano que los druidas del Círculo de las Estrellas pueden utilizar como Focos para Lanzamiento de Conjuros. Es un objeto diminuto.</p>"
+		},
+		"Emblem": {
+			"name": "Emblema",
+			"description": "<p><em><strong>Requisitos de uso: </strong>En tela o en Escudo</em></p><p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Símbolo Sagrado} tiene una de las formas de la tabla de Símbolos Sagrados y está enjoyado o pintado para canalizar la magia divina. Un Clérigo o Paladín puede usar un objeto de este tipo como un Foco para Lanzamiento de Conjuros.</p>"
+		},
+		"Engraved Crystal": {
+			"name": "Cristal Grabado",
+			"description": "<p>Un cristal decorado con patrones de estrellas que los druidas del Círculo de las Estrellas pueden utilizar como Focos para Lanzamiento de Conjuros. Es un objeto diminuto.</p>"
 		},
 		"Entertainer's Pack": {
 			"name": "Paquete de Artista",
 			"description": "<p>Un Paquete de Artista contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Petate}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Campana}, @UUID[Compendium.dnd5e.items.Item.UkWdyJYQTfVX2cJW]{Linterna de Ojo de Buey}, 3 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Disfrazes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Espejo}, 8 frascos de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones} para 9 días, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}, y una @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Cantimplora}.</p>"
 		},
+		"Etched Glass Disk": {
+			"name": "Disco de Cristal",
+			"description": "<p>Un disco de cristal grabado con grabados de constelaciones que los druidas del Círculo de las Estrellas pueden utilizar como Focos para Lanzamiento de Conjuros. Es un objeto diminuto.</p>"
+		},
+		"Explorer's Pack": {
+			"name": "Paquete de Explorador",
+			"description": "<p>Un Paquete de Explorador contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Petate}, 2 frascos de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones} para 10 días, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Antorchas}, y una @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Cantimplora}."
+		},
 		"Fine Clothes": {
 			"name": "Ropas de Calidad",
 			"description": "<p>Las Ropas de Calidad están confeccionadas con telas caras y ornamentadas con detalles elaborados por manos expertas. Algunos eventos y lugares admiten solo a gente que lleve esta indumentaria.</p>"
 		},
+		"Flail": {
+			"name": "Mangual",
+			"description": "<p>Un conjunto de bolas con púas unidas a un robusto mango de madera. El Mangual inflige un daño devastador al girar en un arco mortal.</p>"
+		},
 		"Flask": {
 			"name": "Frasco",
 			"description": "<p>En un Frasco caben hasta 0,5 L de líquido.</p>"
+		},
+		"Flute": {
+			"name": "Flauta",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Una flauta para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
+		},
+		"Forgery Kit": {
+			"name": "Útiles para Falsificar",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[dex]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Imitar 10 o menos palabras de la escritura de otra persona (CD 15) o duplicar un sello de cera (CD 20). </p><p>Esta cajita contiene varios tipos de papeles y pergaminos, plumas y tintas, sellos y lacres, y láminas de oro y plata, además de otros materiales necesarios para crear falsificaciones de documentos que resulten convincentes. La competencia con estos útiles te permite añadir tu bonificador por competencia a las pruebas de característica para falsificar un documento.</p>",
+			"activities": {
+				"Mimic Handwriting": {
+					"name": "Imitar Escritura"
+				},
+				"Duplicate Wax Seal": {
+					"name": "Duplicar Sello de Cera"
+				}
+			}
+		},
+		"Glaive": {
+			"name": "Guja",
+			"description": "<p>Una hoja de media luna montada en el extremo de un largo mango de metal. Esta arma de asta proporciona la capacidad de atacar con una eficacia mortal desde una mayor distancia que las típicas armas de cuerpo a cuerpo.</p>"
+		},
+		"Glassblower's Tools": {
+			"name": "Herramientas de Soplador de Vidrio",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[int]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Distinguir lo que ha contenido un objeto de vidrio en las últimas 24 horas (CD 15) </p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBottleGlass]{Botella de Cristal}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMagnifyingG]{Lupa}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpyglass100]{Catalejo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagVial0000000]{Vial} </p>",
+			"activities": {
+				"Discern Previous Contents": {
+					"name": "Discernir Contenidos Anteriores"
+				}
+			}
 		},
 		"Grappling Hook": {
 			"name": "Garfio de Escalada",
@@ -568,6 +454,34 @@
 				}
 			}
 		},
+		"Greataxe": {
+			"name": "Hacha a Dos Manos",
+			"description": "<p>Esta enorme hacha cuenta con dos hojas gemelas en forma de media luna montadas a ambos lados de un largo mango con púas. Está diseñada para ser blandida a dos manos y partir a los enemigos en dos.</p>"
+		},
+		"Greatclub": {
+			"name": "Garrote Grande",
+			"description": "<p>Una versión más grande del garrote común, un enorme palo de madera con un gran nudo de madera en el extremo que inflige un terrible daño contundente a los desafortunados enemigos.</p>"
+		},
+		"Greatsword": {
+			"name": "Espadón",
+			"description": "<p>Una poderosa espada a dos manos de más de metro y medio de largo y casi diez centímetros de ancho. Esta arma requiere un gran entrenamiento marcial, pero los que dominan su uso se convierten en extraordinarios guerreros.</p>"
+		},
+		"Halberd": {
+			"name": "Alabarda",
+			"description": "<p>La alabarda, un asta de metal con punta de lanza acompañada de una hoja de media luna, es un arma defensiva resistente que permite al guerrero rechazar a los enemigos utilizando el alcance del asta para atacar desde una distancia segura.</p>"
+		},
+		"Half Plate Armor": {
+			"name": "Media Armadura",
+			"description": "<p>Esta armadura está compuesta de placas de metal forjadas para ajustarse a la forma del cuerpo y cubre la mayor parte de este. Sin embargo, no incluye protección para las piernas más allá de unas grebas sujetas con tiras de cuero.</p>"
+		},
+		"Hand Crossbow": {
+			"name": "Ballesta de Mano",
+			"description": "<p>Una ballesta liviana diseñada para ser sostenida en una mano o atada a la muñeca para disparar virotes pequeños.</p>"
+		},
+		"Handaxe": {
+			"name": "Hacha de Mano",
+			"description": "<p>Esta hacha de una mano es ligera y equilibrada para lanzarla sin dejar de ser útil en el combate cuerpo a cuerpo.</p>"
+		},
 		"Healer's Kit": {
 			"name": "Útiles de Sanador",
 			"description": "<p>Los Útiles de Sanador tienen diez usos. Como Acción de Utilizar, puedes gastar uno de ellos para Estabilizar a una criatura inconsciente que tenga 0 Puntos de Golpe sin necesidad de hacer una prueba de Sabiduría (Medicina).</p>",
@@ -577,6 +491,27 @@
 				}
 			}
 		},
+		"Heavy Crossbow": {
+			"name": "Ballesta Pesada",
+			"description": "<p>Una ballesta de gran tamaño montada sobre un robusto soporte de madera que se carga mediante una manivela y dispara gruesos virotes de acero con una aceleración mortal que atraviesa armaduras y carne.</p>"
+		},
+		"Herbalism Kit": {
+			"name": "Útiles de Herborista",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[int]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Identificar una planta (CD 10)</p><p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntitoxin00]{Antitoxina}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{Vela}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHealersKit0]{Útiles de Sanador}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPotionofHea]{Poción de Curación} </p><p>Este conjunta de objetos incluye una gran variedad de herramientas utilizadas por los herboristas para crear remedios y pociones, como pueden ser unas cizallas, un mortero, bolsas y viales. La competencia con estos útiles te permite añadir tu bonificador por competencia a las pruebas de característica para identificar o aplicar hierbas. Además, para poder crear antitoxinas y pociones de curación también se necesita esta competencia.</p>",
+			"activities": {
+				"Identify Plant": {
+					"name": "Identificar Planta"
+				}
+			}
+		},
+		"Hide Armor": {
+			"name": "Armadura de Pieles",
+			"description": "<p>Esta primitiva armadura está fabricada a partir de pelajes y pieles gruesas. Es común verla en tribus bárbaras, humanoides malvados y, en general, cualquiera que no disponga de las herramientas o materiales necesarios para crear una armadura mejor.</p>"
+		},
+		"Holy Symbol (Varies)": {
+			"name": "Símbolo Sagrado (Variable)",
+			"description": "<p>Un Símbolo Sagrado puede ser uno de los objetos de la tabla “Símbolos Sagrados” y está ornamentado o pintado para canalizar la magia divina. Los Clérigos o Paladines pueden utilizar un Símbolo Sagrado como Canalizador Mágico. La tabla indica si un Símbolo Sagrado se debe Sostener, Llevar puesto o Mostrar en tela (como un tabardo o un estandarte) o en un Escudo.</p><table><caption>Símbolos Sagrados</caption><thead><tr><td>Símbolo</td><td>Peso</td><td>Precio</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyAmuletworn]{Amuleto} (puesto o sostenido)</td><td>1 lb.</td><td>5 PO</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyEmblemborn]{Emblema} (en tela o en escudo)</td><td>—</td><td>5 PO</td></tr><tr><td>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbhsyReliquaryh]{Relicario} (sostenido)</td><td>2 lb.</td><td>5 PO</td></tr></tbody></table>"
+		},
 		"Holy Water": {
 			"name": "Agua Bendita",
 			"description": "<p>Cuando lleves a cabo la Acción de Atacar, puedes sustituir uno de tus ataques por lanzar un frasco de Agua Bendita. Haz objetivo a una criatura que puedas ver a 20 pies (6 m) o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador por Destreza y tu bonificador por competencia) o sufrirá [[/damage 2d8 type=radiant]] de daño radiante si es un &Reference[fiend] o un &Reference[undead]  radiante si es un infernal o un muerto viviente. </p>",
@@ -585,6 +520,14 @@
 					"name": "Lanzar"
 				}
 			}
+		},
+		"Hooded Lantern": {
+			"name": "Linterna Sorda",
+			"description": "<p>Una Linterna Sorda quema @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite} como combustible para emitir luz brillante en un radio de 30 pies (9m) y luz tenue 30 pies (9m) más allá. Puede estar encendida hasta 6 horas con un frasco (1 pinta) de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}. Como Acción Adicional, puedes cubrir la abertura con la tapa y hacer que solo emita luz tenue en un radio de 5 pies (1,5m), o abrirla de nuevo.</p>"
+		},
+		"Horn": {
+			"name": "Cuerno",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Un cuerno para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
 		},
 		"Hunting Trap": {
 			"name": "Trampa para Cazar",
@@ -603,9 +546,9 @@
 				}
 			}
 		},
-		"Hooded Lantern": {
-			"name": "Linterna Sorda",
-			"description": "<p>Una Linterna Sorda quema @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite} como combustible para emitir luz brillante en un radio de 30 pies (9m) y luz tenue 30 pies (9m) más allá. Puede estar encendida hasta 6 horas con un frasco (1 pinta) de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}. Como Acción Adicional, puedes cubrir la abertura con la tapa y hacer que solo emita luz tenue en un radio de 5 pies (1,5m), o abrirla de nuevo.</p>"
+		"Improvised Weapon": {
+			"name": "Arma Improvisada",
+			"description": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.Dyw6b9rQIdbkIIQD inline]</p>"
 		},
 		"Ink": {
 			"name": "Tinta",
@@ -615,27 +558,26 @@
 			"name": "Pluma para Escribir",
 			"description": "<p>Una pluma sirve para escribir o dibujar con tinta. </p>"
 		},
-		"Lock": {
-			"name": "Cerradura",
-			"description": "<p>Una cerradura viene con una llave. Sin la llave, una criatura puede usar @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{Herramientas de Ladrón} para forzar la cerradura si supera una prueba de Destreza (Juego de manos) con CD 15 [[/tool thief dex 15]]. Tu DM podría decidir que hay cerraduras mejores disponibles, pero serán más caras.</p>"
+		"Javelin": {
+			"name": "Jabalina",
+			"description": "<p>Esta lanza ligera y flexible está diseñada para ser lanzada, pero es lo suficientemente versátil como para ser utilizada también en el combate cuerpo a cuerpo.</p>"
 		},
-		"Lantern, Hooded": {
-			"name": "Linterna, Sorda",
-			"description": "<p>Una Linterna Sorda quema @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite} como combustible para emitir luz brillante en un radio de 30 pies (9m) y luz tenue 30 pies (9m) más allá. Puede estar encendida hasta 6 horas con un frasco (1 pinta) de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}. Como Acción Adicional, puedes cubrir la abertura con la tapa y hacer que solo emita luz tenue en un radio de 5 pies (1,5m), o abrirla de nuevo.</p>",
+		"Jeweler's Tools": {
+			"name": "Herramientas de Joyero",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[int]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Discernir el valor de una gema (CD 15) </p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Canalizador Arcano}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Símbolo Sagrado}</p>",
 			"activities": {
-				"Light": {
-					"name": "Luz"
+				"Discern Value": {
+					"name": "Discernir Valor"
 				}
 			}
 		},
-		"Lantern, Bullseye": {
-			"name": "Linterna, Ojo de Buey",
-			"description": "<p>Una Linterna de Ojo de Buey quema @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite} como combustible para emitir luz brillante en un cono de 60 pies (18m) y luz tenue 60 pies (18m) más allá. Puede estar encendida hasta 6 horas con un frasco (1 pinta, 0,45 l) de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}.</p>",
-			"activities": {
-				"Light": {
-					"name": "Luz"
-				}
-			}
+		"Jug": {
+			"name": "Jarro",
+			"description": "<p>En un Jarro caben hasta 4 l de líquido. </p>"
+		},
+		"Ladder": {
+			"name": "Escalera",
+			"description": "<p>Una Escalera mide 10ft (3 m) de altura. Debes trepar para subir o bajar por ella.</p>"
 		},
 		"Lamp": {
 			"name": "Lámpara",
@@ -646,13 +588,72 @@
 				}
 			}
 		},
-		"Ladder": {
-			"name": "Escalera",
-			"description": "<p>Una Escalera mide 10ft (3 m) de altura. Debes trepar para subir o bajar por ella.</p>"
+		"Lance": {
+			"name": "Lanza de Caballería",
+			"description": "<p>Una punta de acero brillante que perfora las defensas del enemigo más resistente, impulsada por la fuerza de un corcel al galope. Aunque es más adecuada para el combate a caballo, la lanza puede tener un efecto letal a pie en las manos adecuadas.</p><p><strong>Especial.</strong> Tienes desventaja cuando usas una lanza para atacar a un objetivo a menos de 5 pies de ti. Además, una lanza requiere dos manos para empuñar cuando no estás montado.</p>"
 		},
-		"Jug": {
-			"name": "Jarro",
-			"description": "<p>En un Jarro caben hasta 4 l de líquido. </p>"
+		"Lantern, Bullseye": {
+			"name": "Linterna, Ojo de Buey",
+			"description": "<p>Una Linterna de Ojo de Buey quema @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite} como combustible para emitir luz brillante en un cono de 60 pies (18m) y luz tenue 60 pies (18m) más allá. Puede estar encendida hasta 6 horas con un frasco (1 pinta, 0,45 l) de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}.</p>",
+			"activities": {
+				"Light": {
+					"name": "Luz"
+				}
+			}
+		},
+		"Lantern, Hooded": {
+			"name": "Linterna, Sorda",
+			"description": "<p>Una Linterna Sorda quema @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite} como combustible para emitir luz brillante en un radio de 30 pies (9m) y luz tenue 30 pies (9m) más allá. Puede estar encendida hasta 6 horas con un frasco (1 pinta) de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}. Como Acción Adicional, puedes cubrir la abertura con la tapa y hacer que solo emita luz tenue en un radio de 5 pies (1,5m), o abrirla de nuevo.</p>",
+			"activities": {
+				"Light": {
+					"name": "Luz"
+				}
+			}
+		},
+		"Leather Armor": {
+			"name": "Armadura de Cuero",
+			"description": "<p>Los protectores de peto y hombros de esta armadura están hechos de cuero que se ha endurecido al hervirlos en aceite. El resto de la armadura está hecha de materiales más suaves y flexibles.</p>"
+		},
+		"Leatherworker's Tools": {
+			"name": "Herramientas de Curtidor",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[dex]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Añadir un diseño a un objeto de cuero (CD 10) </p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSling00000]{Honda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepWhip000000]{Látigo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmHideArmor0]{Armadura de Pieles}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]{Armadura de Cuero}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmStuddedLea]{Armadura de Cuero Tachonado}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]{Estuche para Virotes de ballesta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseMaporSc]{Estuche para Mapas o Pergaminos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergamino}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Aljaba}.</p>",
+			"activities": {
+				"Add Design": {
+					"name": "Añadir Diseño"
+				}
+			}
+		},
+		"Light Crossbow": {
+			"name": "Ballesta Ligera",
+			"description": "<p>Una pequeña ballesta con un mango de madera y una cuerda tensa que es capaz de disparar un virote que puede perforar incluso armaduras pesadas a corta distancia.</p>"
+		},
+		"Light Hammer": {
+			"name": "Martillo Ligero",
+			"description": "<p>Este robusto martillo es lo suficientemente pequeño como para ser blandido ágilmente o usado en combinación con otra arma.</p>"
+		},
+		"Lock": {
+			"name": "Cerradura",
+			"description": "<p>Una cerradura viene con una llave. Sin la llave, una criatura puede usar @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{Herramientas de Ladrón} para forzar la cerradura si supera una prueba de Destreza (Juego de manos) con CD 15 [[/tool thief dex 15]]. Tu DM podría decidir que hay cerraduras mejores disponibles, pero serán más caras.</p>"
+		},
+		"Longbow": {
+			"name": "Arco largo",
+			"description": "<p>Un grueso astil de madera laminada es arqueado por una cuerda tensa capaz de lanzar flechas mortales a largas distancias.</p>"
+		},
+		"Longsword": {
+			"name": "Espada Larga",
+			"description": "<p>Una hoja larga y recta diseñada para asestar tajos a los enemigos. La espada larga es un arma muy versátil que también puede blandirse a dos manos para dar golpes más demoledores.</p>"
+		},
+		"Lute": {
+			"name": "Laúd",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Un laúd para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
+		},
+		"Lyre": {
+			"name": "Lira",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Una lira para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
+		},
+		"Mace": {
+			"name": "Maza",
+			"description": "<p>Una pesada arma contundente montada sobre un mango de metal. La cabeza tiene pinchos y cuchillas diseñadas para perforar la armadura y destrozar los huesos.</p>"
 		},
 		"Magnifying Glass": {
 			"name": "Lupa",
@@ -686,9 +687,45 @@
 			"name": "Estuche para Mapas o Pergaminos",
 			"description": "<p>Este estuche de cuero cilíndrico puede contener hasta 10 hojas de papel o 5 hojas de pergamino, enrolladas en ambos casos.</p>"
 		},
+		"Mason's Tools": {
+			"name": "Herramientas de Albañil",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[str]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Esculpir un símbolo o un agujero en la piedra (CD 10) </p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlockandTac]{Polipasto o Aparejo de Poleas}</p>",
+			"activities": {
+				"Chisel a Symbol or Hole": {
+					"name": "Cincelar un Símbolo o Agujero"
+				}
+			}
+		},
+		"Maul": {
+			"name": "Maza a Dos Manos",
+			"description": "<p>Esta pesada maza a dos manos aplasta el metal y el hueso con una fuerza demoledora.</p>"
+		},
 		"Mirror": {
 			"name": "Espejo",
 			"description": "<p>Un Espejito de acero portátil resulta útil para arreglarse, pero también para mirar por las esquinas y reflejar la luz a modo de señal. </p>"
+		},
+		"Morningstar": {
+			"name": "Lucero del Alba",
+			"description": "<p>Una esfera de metal con pinchos montada en el extremo de un robusto mango, hace que sea un arma mortal que puede perforar la armadura y la carne por igual.</p>"
+		},
+		"Musket": {
+			"name": "Mosquete"
+		},
+		"Navigator's Tools": {
+			"name": "Herramientas de Navegante",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Trazar un rumbo (CD 10) o determinar la posición mediante la contemplando las estrellas (CD 15) </p><p>Estos instrumentos se utilizan para orientarse en el mar. Si eres competente con ellos, podrás planear la ruta de un barco e interpretar cartas náuticas, además de añadir tu bonificador por competencia a cualquier prueba de característica para evitar perderte en el mar.</p>",
+			"activities": {
+				"Plot a Course": {
+					"name": "Trzar un Rumbo"
+				},
+				"Determine Position by Stargazing": {
+					"name": "Determinar Posición por las Estrellas"
+				}
+			}
+		},
+		"Needles": {
+			"name": "Dardo",
+			"description": "<p><em><strong>Contenedor:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}</em></p><p>La @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAmmunitionV]{Munición} es necesaria para un arma que tenga la propiedad Munición. La descripción de un arma especifica el tipo de munición que utiliza el arma. La tabla de Munición lista los diferentes tipos y la cantidad que obtienes al comprarlos. La tabla también enumera el objeto que se utiliza normalmente para almacenar cada tipo; el Contenerdor debe comprarse por separado.</p>"
 		},
 		"Net": {
 			"name": "Red",
@@ -711,6 +748,27 @@
 				}
 			}
 		},
+		"Orb": {
+			"name": "Orbe",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Canalizador Arcano} que está enjoyado o tallado para canalizar magia arcana. Un Hechicero, Brujo o Mago puede usar este objeto como Foco para Lanzamiento de Conjuros.</p>"
+		},
+		"Padded Armor": {
+			"name": "Armadura Acolchada",
+			"description": "<p>La armadura acolchada está hecha de varias capas de tela guateada. La armadura acolchada ofrece un nivel de protección comparable al del cuero rígido, pero es algo menos molesto para el usuario.</p>"
+		},
+		"Painter's Supplies": {
+			"name": "Suministros de Pintor",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Pintar una imagen reconocible de algo que hayas visto (CD 10) </p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Canalizador Druídico}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Símbolo Sagrado}</p>",
+			"activities": {
+				"Paint a Recognizable Image": {
+					"name": "Pintar una Imagen Reconocible"
+				}
+			}
+		},
+		"Pan Flute": {
+			"name": "Flauta de Pan",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Una flauta de pan para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
+		},
 		"Paper": {
 			"name": "Papel",
 			"description": "<p>En una Hoja de Papel caben unas 250 palabras escritas a mano. </p>"
@@ -723,9 +781,33 @@
 			"name": "Perfume",
 			"description": "<p>El Perfume viene en un vial de 4 onzas (120 ml). Después de ponerte el Perfume, durante 1 hora tendrás ventaja en las pruebas de Carisma (&Reference[per]) que hagas para influir en un Humanoide indiferente situado a 5 pies (1,5 m) o menos de ti.</p>"
 		},
+		"Pike": {
+			"name": "Pica",
+			"description": "<p>Una robusta hoja montada en el extremo de un largo mango de metal. Diseñada como arma defensiva con un alcance considerable para rechazar y amenazar a los enemigos.</p>"
+		},
+		"Pistol": {
+			"name": "Pistola"
+		},
+		"Plate Armor": {
+			"name": "Armadura de Placas",
+			"description": "<p>También llamada armadura completa, está compuesta de placas de metal enganchadas entre sí, que se ajustan a la forma del cuerpo para cubrirlo por completo. La armadura de placas incluye guanteletes, un par de resistentes botas de cuero y un yelmo con visor, y se viste encima de un gambesón. El peso de esta armadura queda distribuido por todo el cuerpo mediante numerosas tiras y hebillas.</p>"
+		},
+		"Playing Cards": {
+			"name": "Naipes",
+			"description": "<p><strong>Característica:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Discernir si alguien está haciendo trampas (CD 10), o gana la partida (CD 20)</p><p>Este objeto incluye una baraja de cartas y una baraja trucada.</p><p>Si eres competente con un juego, puedes añadir tu bonificador por competencia a las pruebas de característica que hagas para jugar con él. Cada tipo de juego requiere su propia competencia independiente.</p>"
+		},
 		"Poison, Basic": {
 			"name": "Veneno Básico",
 			"description": "<p>Como Acción Adicional, puedes usar un vial de Veneno Básico para impregnar un arma o hasta tres unidades de munición. Las criaturas que sufran daño cortante o perforante por el arma o munición envenenadas recibirán [[/damage 1d4 type=poison]] de daño de veneno adicional. Una vez aplicado, el veneno mantiene su efectividad durante 1 minuto o hasta que inflija su daño, lo que ocurra primero.</p></p><section class=\"secret\" id=\"secret-YwO5GX35V4XweNWL\"><p><strong>Notas Foundry</strong></p><p>Este objeto incluye una tirada para el daño de Veneno.</p></section>"
+		},
+		"Poisoner's Kit": {
+			"name": "Útiles de Envenenador",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[int]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Detectar un objeto envenenado (CD 10) </p><pclass=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPoisonBasic]{Veneno, Básico} </p><p>Este juego de útiles incluye los viales, productos químicos y todo el equipo necesario para producir venenos. La competencia con ellos te permite añadir tu bonificador por competencia a las pruebas de característica para fabricar o usar venenos</p>",
+			"activities": {
+				"Detect Poisoned Object": {
+					"name": "Detectar Objeto Envenenado"
+				}
+			}
 		},
 		"Pole": {
 			"name": "Vara",
@@ -739,6 +821,15 @@
 			"name": "Poción de Curación",
 			"description": "<p>Esta Poción es un Objeto Mágico. Como Acción Adicional, puedes beberla o administrarla a otra criatura que se encuentre a 5 pies (1,5 m) o menos de ti. La criatura que beba el fluido mágico de color rojo de este vial recuperará [[/heal formula=2d4+2 type=healing]] Puntos de Golpe.</p>"
 		},
+		"Potter's Tools": {
+			"name": "Herramientas de Alfarero",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[int]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Distinguir lo que ha contenido un objeto de cerámica en las últimas 24 horas (CD 15) </p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagJug00000000]{Jarro}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lampara} </p>",
+			"activities": {
+				"Discern Previous Contents": {
+					"name": "Discernir Contenidos Anteriores"
+				}
+			}
+		},
 		"Pouch": {
 			"name": "Bolsa",
 			"description": "<p>Una Bolsita de cuero o tela que puede contener hasta ⅕ pies cúbicos (6 l) o 6 libras (3 kg) de equipo.</p>"
@@ -746,6 +837,10 @@
 		"Priest's Pack": {
 			"name": "Paquete de Sacerdote",
 			"description": "<p>Un Paquete de Sacerdote contiene lo siguiente: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolyWater00]{Agua Bendita}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lampara}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]{Manta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones} para 7 días, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Túnica}, y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}.</p>"
+		},
+		"Quarterstaff": {
+			"name": "Bastón",
+			"description": "<p>Un grueso palo de madera envuelto con una firme empuñadura hace que sea un arma muy funcional, además de un robusto bastón para caminar.</p>"
 		},
 		"Quiver": {
 			"name": "Aljaba",
@@ -755,13 +850,29 @@
 			"name": "Ariete Portátil",
 			"description": "<p>Puedes usar un Ariete Portátil para derribar puertas. Te proporcionará un bonificador de +4 a tus pruebas de Fuerza. Si otro personaje te ayuda a usar el Ariete tendrás ventaja en esta prueba.</p>"
 		},
+		"Rapier": {
+			"name": "Estoque",
+			"description": "<p>Una fina hoja de metal flexible, ligera pero de gran alcance, diseñada para realizar rápidos ataques en los puntos débiles de las defensas enemigas con la mayor rapidez.</p>"
+		},
 		"Rations": {
 			"name": "Raciones",
 			"description": "<p>Las Raciones se componen de alimentos propicios para viajar, como cecina, fruta deshidratada, galletas y frutos secos. Consulta &Reference[Malnutrition] en el glosario de reglas para saber los riesgos que implica no comer.</p>"
 		},
+		"Reliquary": {
+			"name": "Relicario",
+			"description": "<p><em><strong>Requisitos de uso: </strong>Sostenerse</em></p><p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Símbolo Sagrado} tiene una de las formas de la tabla de Símbolos Sagrados y está enjoyado o pintado para canalizar la magia divina. Un Clérigo o Paladín puede usar un objeto de este tipo como un Foco para Lanzamiento de Conjuros.</p>"
+		},
+		"Ring Mail": {
+			"name": "Cota Guarnecida",
+			"description": "<p>Esta armadura está hecha de una base de cuero sobre la que se cosen pesados anillos de metal, que ayudan a reforzarla contra los golpes de espadas y hachas. La cota guarnecida es inferior a la cota de malla, por lo que solo suelen llevarla aquellos que no se pueden permitir una armadura mejor.</p>"
+		},
 		"Robe": {
 			"name": "Túnica",
 			"description": "<p>Una túnica tiene un significado vocacional y ceremonial. Algunos eventos y lugares admiten solo a gente que vista una túnica con determinados colores o símbolos.</p>"
+		},
+		"Rod": {
+			"name": "Vara",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Canalizador Arcano} que está enjoyado o tallado para canalizar magia arcana. Un Hechicero, Brujo o Mago puede usar este objeto como Foco para Lanzamiento de Conjuros.</p>"
 		},
 		"Rope": {
 			"name": "Cuerda",
@@ -782,13 +893,41 @@
 			"name": "Saco",
 			"description": "<p>Un Saco soporta hasta contener hasta 30 libras (15 kg) en un volumen de 1 pie cúbico (30l).</p>"
 		},
+		"Scale Mail": {
+			"name": "Cota de Escamas",
+			"description": "<p>Esta armadura está compuesta de un chaquetón y unas perneras (y a veces una falda aparte) de cuero cubiertos de trozos de metal superpuestos, parecidos a las escamas de un pez. Esta cota incluye guanteletes.</p>"
+		},
 		"Scholar's Pack": {
 			"name": "Paquete de Erudito",
 			"description": "<p>Un Paquete de Erudito contiene los siguiente objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000]{Libro}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Tinta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInkPen00000]{Pluma para Escribir}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lampara}, 10 frascos de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, 10 hojas de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergamino}, y @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}.</p>"
 		},
+		"Scimitar": {
+			"name": "Cimitarra",
+			"description": "<p>Esta espada curvada es ancha cerca de la empuñadura envolvente, pero se arquea y se estrecha hacia la brillante punta.</p>"
+		},
+		"Shawm": {
+			"name": "Chirimía",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Una chirimía para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
+		},
+		"Shield": {
+			"name": "Escudo",
+			"description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Blandir un escudo aumenta tu Clase de armadura en +2. Solo obtienes el bonificador a la clase de armadura si tienes entrenamiento con escudos.</p>"
+		},
+		"Shortbow": {
+			"name": "Arco Corto",
+			"description": "<p>Este arco a dos manos es algo más pequeño que la variante tradicional del arco largo, lo que lo hace muy adecuado para ataques rápidos en movimiento o montado a caballo.</p>"
+		},
+		"Shortsword": {
+			"name": "Espada Corta",
+			"description": "<p>Una hoja de tamaño medio con una firme guarda cruzada y una empuñadura forrada de cuero. Un arma versátil que compensa en versatilidad lo que le falta en alcance.</p>"
+		},
 		"Shovel": {
 			"name": "Pala",
 			"description": "<p>Con 1 hora de trabajo, puedes usar una Pala para cavar un agujero cúbico de 5 pies (1,5 m) de lado en la tierra o en un material similar. </p>"
+		},
+		"Sickle": {
+			"name": "Hoz",
+			"description": "<p>Una cuchilla con forma de gancho montada sobre un mango corto, lo suficientemente ligera como para manejarla con una sola mano para segar cultivos o enemigos.</p>"
 		},
 		"Signal Whistle": {
 			"name": "Silbato de Supervivencia",
@@ -798,6 +937,23 @@
 					"name": "Silbar"
 				}
 			}
+		},
+		"Sling": {
+			"name": "Honda",
+			"description": "<p>Una tira de cuero flexible fijado a un mango de madera que es capaz de arrojar rocas o balas de metal con una velocidad mortal.</p>"
+		},
+		"Smith's Tools": {
+			"name": "Herramientas de Herrero",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[str]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Forzar una puerta o un recipiente (CD 20) </p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> Cualquier Arma Cuerpo a Cuerpo (salvo Garrote, Garrote Grande, Bastón, y Látigo), Armadura Mediana (salvo Armadura de Pieles), Armaduras Pesadas, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Bolas de Metal}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBucket00000]{Cubo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Abrojos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChain000000]{Cadena}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Palanqueta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsFir]{Balas de Arma de Fuego}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagGrapplingHo]{Garfio de Escalada}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPotIron0000]{Olla de Hierro}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpikesIron0]{Puntas de Hierro}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsSli]{Proyectiles de Honda}</p>",
+			"activities": {
+				"Pry Open": {
+					"name": "Forzar Recipiente o Puerta"
+				}
+			}
+		},
+		"Spear": {
+			"name": "Lanza",
+			"description": "<p>Con una punta de acero reluciente sobre un robusto mango de madera, la lanza puede blandirse con una o dos manos y puede atravesar la armadura más pesada con una fuerza mortal.</p>"
 		},
 		"Spell Scroll, Cantrip": {
 			"name": "Pergamino de Conjuro, Truco",
@@ -811,17 +967,50 @@
 			"name": "Puntas de Hierro",
 			"description": "<p>Las Puntas de Hierro vienen en lotes de diez. Como Acción de Utilizar, puedes usar un Objeto romo, como un martillo ligero, para clavar una punta en una superficie de madera, tierra u otra materia similar. Puedes hacerlo para atrancar una puerta o para después atar una cuerda o cadena a la punta.</p>"
 		},
+		"Splint Armor": {
+			"name": "Armadura de Bandas",
+			"description": "<p>Esta armadura está confeccionada a partir de estrechas bandas metálicas verticales clavadas a una capa de cuero que se viste encima de ropa acolchada. Además, las articulaciones están cubiertas por fragmentos flexibles de cota de malla.</p>"
+		},
+		"Sprig of mistletoe": {
+			"name": "Rama de Muérdago",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Canalizador Druídico} tiene una de las formas de la tabla de Canalizador Druídico y está tallado, atado con una cinta o pintado para canalizar la magia primigenia. Un Druida o Explorador puede usar un objeto de este tipo como un Foco para Lanzamiento de Conjuros.</p>"
+		},
 		"Spyglass": {
 			"name": "Catalejo",
 			"description": "<p>Los objetos que se observan a través de un Catalejo se ven al doble de su tamaño real. </p>"
+		},
+		"Staff": {
+			"name": "Bastón",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Canalizador Arcano} que está enjoyado o tallado para canalizar magia arcana. Un Hechicero, Brujo o Mago puede usar este objeto como Foco para Lanzamiento de Conjuros.</p>"
+		},
+		"Stone Tablet": {
+			"name": "Tablilla de Piedra",
+			"description": "<p>Una tablilla de piedra perforada con pequeños agujeros que los druidas del Círculo de las Estrellas pueden utilizar como Focos para Lanzamiento de Conjuros. Es un objeto diminuto.</p>"
 		},
 		"String": {
 			"name": "Cordel",
 			"description": "El Cordel mide 10 pies (3 m) de largo. Puedes atar un nudo con el como Acción de Utilizar."
 		},
+		"Studded Leather Armor": {
+			"name": "Armadura de Cuero Tachonado",
+			"description": "<p>Hecha de cuero resistente pero flexible, la armadura de cuero tachonado está reforzada con pinchos o remaches dispuestos muy juntos</p>"
+		},
 		"Tent": {
 			"name": "Tienda",
 			"description": "<p>En una Tienda pueden dormir hasta dos criaturas Pequeñas o Medianas. </p>"
+		},
+		"Thieves' Tools": {
+			"name": "Herramientas de Ladrón",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[dex]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Forzar una cerradura (CD 15) o desactivar una trampa (CD 15).</p><p>Este conjunto de herramientas incluye una pequeña lima, un juego de ganzúas, un espejito montado en un asa metálica, una serie de tijeras de punta estrecha y unas tenazas. La competencia con estas herramientas te permite añadir tu bonificador por competencia a las pruebas de característica para desarmar trampas o forzar cerraduras.</p>",
+			"activities": {
+				"Pick a Lock/Disarm a Trap": {
+					"name": "Forzar una cerradura/Desactivar una trampa"
+				}
+			}
+		},
+		"Three-dragon ante": {
+			"name": "Apuesta de los Tres Dragones",
+			"description": "<p><strong>Característica:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Discernir si alguien está haciendo trampas (CD 10), o gana la partida (CD 20)</p><p>Este objeto incluye una baraja de cartas y una baraja trucada.</p><p>Si eres competente con un juego, puedes añadir tu bonificador por competencia a las pruebas de característica que hagas para jugar con él. Cada tipo de juego requiere su propia competencia independiente.</p>"
 		},
 		"Tinderbox": {
 			"name": "Yesquero",
@@ -832,13 +1021,56 @@
 				}
 			}
 		},
+		"Tinker's Tools": {
+			"name": "Herramientas de Manitas",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[dex]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Montar un objeto diminuto compuesto de chatarra, que se deshace en 1 minuto (CD 20) </p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepMusket0000]{Mosquete}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepPistol0000]{Pistola}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Campana}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLanternBull]{Linterna de Ojo de Buey}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagFlask000000]{Frasco}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLanternHood]{Linterna Sorda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHuntingTrap]{Trampa para Cazar}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLock0000000]{Cerradura}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000]{Esposas}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Espejo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000]{Pala}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSignalWhist]{Silbato de Supervivencia}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}</p>",
+			"activities": {
+				"Assemble a Tiny Item": {
+					"name": "Ensamblar un Objeto Diminuto"
+				}
+			}
+		},
+		"Tooled Owlbear Hide": {
+			"name": "Piel Oso Lechuza Moteada",
+			"description": "<p>La piel de un oso lechuza en la que hay símbolos estelares grabados que los druidas del Círculo de las Estrellas pueden utilizar como Focos para Lanzamiento de Conjuros. Es un objeto diminuto.</p>"
+		},
 		"Torch": {
 			"name": "Antorcha",
 			"description": "Una Antorcha arde durante 1 hora y emite Luz Brillante en un radio de 20 pies (6 m) y Luz Tenue 20 pies (6 m) más allá. Cuando llevas a cabo la Acción de Atacar, puedes hacerlo con la Antorcha como si fuera un Arma Cuerpo a Cuerpo Sencilla. Si Acierta, el objetivo sufre [[/damage 1 type=fire]] de daño de fuego."
 		},
+		"Trident": {
+			"name": "Tridente",
+			"description": "<p>Una lanza con varias puntas diseñada para empalar a un objetivo en varios lugares, inmovilizándolo. A menudo se utiliza en combinación con una red para atrapar y hostigar a los enemigos.</p>"
+		},
+		"Unarmed Strike": {
+			"name": "Ataque Sin Armas",
+			"description": "<p>Puedes atacar en cuerpo a cuerpo estando desarmado mediante un ataque sin armas, ya se trate de un puñetazo, patada, cabezazo o cualquier otro impacto enérgico. En caso de impactar, causarás 1 + tu modificador de Fuerza de daño contundente. Siempre eres competente con tus ataques sin armas.<em>&amp;Reference[unarmedstrike]</em></p>",
+			"activities": {
+				"Grapple/Shove": {
+					"name": "Agarre/Empujon",
+					"chatFlavor": "Intento de Aggarrar o Empujar"
+				}
+			}
+		},
 		"Vial": {
 			"name": "Vial",
 			"description": "<p>En un Vial caben 4 onzas (120 ml) de líquido. .</p>"
+		},
+		"Viol": {
+			"name": "Viola",
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Una viola para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
+		},
+		"Wand": {
+			"name": "Varita",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Canalizador Arcano} que está enjoyado o tallado para canalizar magia arcana. Un Hechicero, Brujo o Mago puede usar este objeto como Foco para Lanzamiento de Conjuros.</p><p>Este objeto funciona como un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}</p><section class=\"secret\" id=\"secret-wJ4SJVg9unbYSBJb\"><p><strong>Notas Foundry</strong></p><p>Este objeto se ha configurado con las propiedades adicionales de un Bastón.</p></section>"
+		},
+		"War Pick": {
+			"name": "Pico de Guerra",
+			"description": "<p>Un brutal pico curvo montado en la parte posterior de un robusto mango, diseñado para perforar armaduras con una fuerza letal.</p>"
+		},
+		"Warhammer": {
+			"name": "Martillo de Guerra",
+			"description": "<p>Un pesado martillo de metal capaz de ser blandido con una sola mano con un escudo o a dos manos para asestar golpes demoledores.</p>"
 		},
 		"Water (Pint)": {
 			"name": "Agua (Pinta)",
@@ -853,137 +1085,6 @@
 			"name": "Cantimplora",
 			"description": "En una Cantimplora caben hasta 4 pintas (2 l) de líquido. Si no bebes suficiente agua, te arriesgas a sufrir &Reference[dehydration]."
 		},
-		"Alchemist's Supplies": {
-			"name": "Suministros de Alquimista",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[int]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Identificar una sustancia (CD 15), o encender un fuego (CD 15)</p> <p class=\"phb-meta\"><strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAcid0000000]{Acido}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAlchemistsF]{Fuego de Alquimista}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagComponentPo]{Saquito de Componentes}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPaper000000]{Papel}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}</p>"
-		},
-		"Brewer's Supplies": {
-			"name": "Suministros de Cervecero",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[int]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Identificar bebidas envenenadas (CD 15), o identificar alcohol (CD 10)</p> <p class=\"phb-meta\"><strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntitoxin00]{Antitoxina}</p>",
-			"activities": {
-				"Detect Poisoned Drink": {
-					"name": "Detectar Bebida Envenenada"
-				},
-				"Identify Alcohol": {
-					"name": "Identificar Alcohol"
-				}
-			}
-		},
-		"Calligrapher's Supplies": {
-			"name": "Suministros de Calígrafo",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[dex]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Escribir texto lleno de florituras impresionantes que no se pueden falsificar(CD 15) </p> <p class=\"phb-meta\"><strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Tinta}, Pergamino de Conjuro</p>"
-		},
-		"Carpenter's Tools": {
-			"name": "Herramientas de Carpintero",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[str]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Sellar o Forzar una puerta o un contenedor (CD 20)</p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{Garrote}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{Garrote Grande}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBarrel00000]{Barril}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Cofre}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLadder00000]{Escalera}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000]{Palo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRamPortable]{Ariete Portátil}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Antorcha}</p>",
-			"activities": {
-				"Seal or Pry Open": {
-					"name": "Sellar o Forzar"
-				}
-			}
-		},
-		"Cartographer's Tools": {
-			"name": "Herramientas de Cartógrafo",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Dibujar un mapa de una zona pequeña (CD 15) </p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMap00000000]{Mapa}</p>",
-			"activities": {
-				"Draft a Map": {
-					"name": "Dibujar Mapa"
-				}
-			}
-		},
-		"Cobbler's Tools": {
-			"name": "Herramientas de Zapatero",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[dex]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Modifica el calzado para dar Ventaja en el siguiente Prueba de Destreza (&Reference[acr]) de quien los lleve (CD 10). </p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClimbersKit]{Útiles de Escalada}</p>",
-			"activities": {
-				"Modify Footwear": {
-					"name": "Modificar Calzado"
-				}
-			}
-		},
-		"Cook's Utensils": {
-			"name": "Útiles de Cocinero",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Mejorar el sabor de la comida (CD 10), o detectae alimentos podrídos o envenenada (CD 15) </p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}</p>",
-			"activities": {
-				"Improve Flavor": {
-					"name": "Mejorar Sabor"
-				},
-				"Detect Spoiled or Poisoned Food": {
-					"name": "Detectar alimentos podridos o envenenados"
-				}
-			}
-		},
-		"Glassblower's Tools": {
-			"name": "Herramientas de Soplador de Vidrio",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[int]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Distinguir lo que ha contenido un objeto de vidrio en las últimas 24 horas (CD 15) </p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBottleGlass]{Botella de Cristal}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMagnifyingG]{Lupa}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpyglass100]{Catalejo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagVial0000000]{Vial} </p>",
-			"activities": {
-				"Discern Previous Contents": {
-					"name": "Discernir Contenidos Anteriores"
-				}
-			}
-		},
-		"Jeweler's Tools": {
-			"name": "Herramientas de Joyero",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[int]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Discernir el valor de una gema (CD 15) </p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Canalizador Arcano}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Símbolo Sagrado}</p>",
-			"activities": {
-				"Discern Value": {
-					"name": "Discernir Valor"
-				}
-			}
-		},
-		"Leatherworker's Tools": {
-			"name": "Herramientas de Curtidor",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[dex]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Añadir un diseño a un objeto de cuero (CD 10) </p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSling00000]{Honda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepWhip000000]{Látigo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmHideArmor0]{Armadura de Pieles}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]{Armadura de Cuero}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmStuddedLea]{Armadura de Cuero Tachonado}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseCrossbo]{Estuche para Virotes de ballesta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaseMaporSc]{Estuche para Mapas o Pergaminos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergamino}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPouch000000]{Bolsa}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Aljaba}.</p>",
-			"activities": {
-				"Add Design": {
-					"name": "Añadir Diseño"
-				}
-			}
-		},
-		"Mason's Tools": {
-			"name": "Herramientas de Albañil",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[str]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Esculpir un símbolo o un agujero en la piedra (CD 10) </p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlockandTac]{Polipasto o Aparejo de Poleas}</p>",
-			"activities": {
-				"Chisel a Symbol or Hole": {
-					"name": "Cincelar un Símbolo o Agujero"
-				}
-			}
-		},
-		"Painter's Supplies": {
-			"name": "Suministros de Pintor",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Pintar una imagen reconocible de algo que hayas visto (CD 10) </p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Canalizador Druídico}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Símbolo Sagrado}</p>",
-			"activities": {
-				"Paint a Recognizable Image": {
-					"name": "Pintar una Imagen Reconocible"
-				}
-			}
-		},
-		"Potter's Tools": {
-			"name": "Herramientas de Alfarero",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[int]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Distinguir lo que ha contenido un objeto de cerámica en las últimas 24 horas (CD 15) </p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagJug00000000]{Jarro}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lampara} </p>",
-			"activities": {
-				"Discern Previous Contents": {
-					"name": "Discernir Contenidos Anteriores"
-				}
-			}
-		},
-		"Smith's Tools": {
-			"name": "Herramientas de Herrero",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[str]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Forzar una puerta o un recipiente (CD 20) </p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> Cualquier Arma Cuerpo a Cuerpo (salvo Garrote, Garrote Grande, Bastón, y Látigo), Armadura Mediana (salvo Armadura de Pieles), Armaduras Pesadas, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Bolas de Metal}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBucket00000]{Cubo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCaltrops000]{Abrojos}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChain000000]{Cadena}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Palanqueta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsFir]{Balas de Arma de Fuego}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagGrapplingHo]{Garfio de Escalada}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPotIron0000]{Olla de Hierro}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpikesIron0]{Puntas de Hierro}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBulletsSli]{Proyectiles de Honda}</p>",
-			"activities": {
-				"Pry Open": {
-					"name": "Forzar Recipiente o Puerta"
-				}
-			}
-		},
-		"Tinker's Tools": {
-			"name": "Herramientas de Manitas",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[dex]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Montar un objeto diminuto compuesto de chatarra, que se deshace en 1 minuto (CD 20) </p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepMusket0000]{Mosquete}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepPistol0000]{Pistola}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Campana}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLanternBull]{Linterna de Ojo de Buey}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagFlask000000]{Frasco}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLanternHood]{Linterna Sorda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHuntingTrap]{Trampa para Cazar}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLock0000000]{Cerradura}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000]{Esposas}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Espejo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagShovel00000]{Pala}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSignalWhist]{Silbato de Supervivencia}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}</p>",
-			"activities": {
-				"Assemble a Tiny Item": {
-					"name": "Ensamblar un Objeto Diminuto"
-				}
-			}
-		},
 		"Weaver's Tools": {
 			"name": "Herramientas de Tejedor",
 			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[dex]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Reparar un desgarro en la ropa (CD 10), o coser un diseño diminuto (CD 10) </p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmPaddedArmo]{Armadura Acolchada}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBasket00000]{Cesta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Petate}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBlanket0000]{Manta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]{Ropas de Calidad}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagNet00000000]{Red}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Túnica}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSack0000000]{Saco}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagString00000]{Cordel}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTent0000000]{Tienda de Campaña}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Ropas de Viajero}</p>",
@@ -992,6 +1093,10 @@
 					"name": "Remendar o Coser"
 				}
 			}
+		},
+		"Whip": {
+			"name": "Látigo",
+			"description": "<p>Un lazo tensado hecho de cuero, cuerda o cadena que puede azotar a los enemigos cercanos, causándoles laceraciones y molestándolos a distancia.</p>"
 		},
 		"Woodcarver's Tools": {
 			"name": "Herramientas de Ebanista",
@@ -1002,121 +1107,13 @@
 				}
 			}
 		},
-		"Dice": {
-			"name": "Dados",
-			"description": "<p><strong>Característica:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Discernir si alguien está haciendo trampas (CD 10), o gana la partida (CD 20)</p><p>Este objeto incluye una amplia gama de dados, tanto normales como cargados.</p><p>Si eres competente con un juego, puedes añadir tu bonificador por competencia a las pruebas de característica que hagas para jugar con él. Cada tipo de juego requiere su propia competencia independiente.</p>"
+		"Wooden staff": {
+			"name": "Bastón de Madera (También Bastón) ",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Canalizador Druídico} tiene una de las formas de la tabla de Canalizador Druídico y está tallado, atado con una cinta o pintado para canalizar la magia primigenia. Un Druida o Explorador puede usar un objeto de este tipo como un Foco para Lanzamiento de Conjuros.</p>"
 		},
-		"Dragonchess": {
-			"name": "Ajedrez Dragón",
-			"description": "<p><strong>Característica:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Discernir si alguien está haciendo trampas (CD 10), o gana la partida (CD 20)</p><p>Este objeto incluye un tablero y piezas del Ajedrez del Dragón.</p><p>Si eres competente con un juego, puedes añadir tu bonificador por competencia a las pruebas de característica que hagas para jugar con él. Cada tipo de juego requiere su propia competencia independiente.</p>"
-		},
-		"Playing Cards": {
-			"name": "Naipes",
-			"description": "<p><strong>Característica:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Discernir si alguien está haciendo trampas (CD 10), o gana la partida (CD 20)</p><p>Este objeto incluye una baraja de cartas y una baraja trucada.</p><p>Si eres competente con un juego, puedes añadir tu bonificador por competencia a las pruebas de característica que hagas para jugar con él. Cada tipo de juego requiere su propia competencia independiente.</p>"
-		},
-		"Three-dragon ante": {
-			"name": "Apuesta de los Tres Dragones",
-			"description": "<p><strong>Característica:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Discernir si alguien está haciendo trampas (CD 10), o gana la partida (CD 20)</p><p>Este objeto incluye una baraja de cartas y una baraja trucada.</p><p>Si eres competente con un juego, puedes añadir tu bonificador por competencia a las pruebas de característica que hagas para jugar con él. Cada tipo de juego requiere su propia competencia independiente.</p>"
-		},
-		"Bagpipes": {
-			"name": "Gaita",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Un juego de gaitas para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
-		},
-		"Drum": {
-			"name": "Tambor",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Un tambor para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
-		},
-		"Dulcimer": {
-			"name": "Dulcémele",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Un dulcémele para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
-		},
-		"Flute": {
-			"name": "Flauta",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Una flauta para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
-		},
-		"Horn": {
-			"name": "Cuerno",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Un cuerno para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
-		},
-		"Lute": {
-			"name": "Laúd",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Un laúd para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
-		},
-		"Lyre": {
-			"name": "Lira",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Una lira para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
-		},
-		"Pan Flute": {
-			"name": "Flauta de Pan",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Una flauta de pan para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
-		},
-		"Shawm": {
-			"name": "Chirimía",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Una chirimía para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
-		},
-		"Viol": {
-			"name": "Viola",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Una viola para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
-		},
-		"Disguise Kit": {
-			"name": "Útiles para Disfrazarse",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Maquillarse (CD 10) </p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Disfraz} </p><p>Esta bolsa con productos de maquillaje, tinte para el pelo y pequeños accesorios te ayuda a disfrazarte y cambiar así tu apariencia. La competencia con estos útiles te permite añadir tu bonificador por competencia a las pruebas de característica para crear un disfraz que engañe a la vista.</p>",
-			"activities": {
-				"Apply Makeup": {
-					"name": "Maquillarse"
-				}
-			}
-		},
-		"Forgery Kit": {
-			"name": "Útiles para Falsificar",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[dex]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Imitar 10 o menos palabras de la escritura de otra persona (CD 15) o duplicar un sello de cera (CD 20). </p><p>Esta cajita contiene varios tipos de papeles y pergaminos, plumas y tintas, sellos y lacres, y láminas de oro y plata, además de otros materiales necesarios para crear falsificaciones de documentos que resulten convincentes. La competencia con estos útiles te permite añadir tu bonificador por competencia a las pruebas de característica para falsificar un documento.</p>",
-			"activities": {
-				"Mimic Handwriting": {
-					"name": "Imitar Escritura"
-				},
-				"Duplicate Wax Seal": {
-					"name": "Duplicar Sello de Cera"
-				}
-			}
-		},
-		"Herbalism Kit": {
-			"name": "Útiles de Herborista",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[int]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Identificar una planta (CD 10)</p><p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagAntitoxin00]{Antitoxina}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{Vela}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHealersKit0]{Útiles de Sanador}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPotionofHea]{Poción de Curación} </p><p>Este conjunta de objetos incluye una gran variedad de herramientas utilizadas por los herboristas para crear remedios y pociones, como pueden ser unas cizallas, un mortero, bolsas y viales. La competencia con estos útiles te permite añadir tu bonificador por competencia a las pruebas de característica para identificar o aplicar hierbas. Además, para poder crear antitoxinas y pociones de curación también se necesita esta competencia.</p>",
-			"activities": {
-				"Identify Plant": {
-					"name": "Identificar Planta"
-				}
-			}
-		},
-		"Navigator's Tools": {
-			"name": "Herramientas de Navegante",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Trazar un rumbo (CD 10) o determinar la posición mediante la contemplando las estrellas (CD 15) </p><p>Estos instrumentos se utilizan para orientarse en el mar. Si eres competente con ellos, podrás planear la ruta de un barco e interpretar cartas náuticas, además de añadir tu bonificador por competencia a cualquier prueba de característica para evitar perderte en el mar.</p>",
-			"activities": {
-				"Plot a Course": {
-					"name": "Trzar un Rumbo"
-				},
-				"Determine Position by Stargazing": {
-					"name": "Determinar Posición por las Estrellas"
-				}
-			}
-		},
-		"Poisoner's Kit": {
-			"name": "Útiles de Envenenador",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[int]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Detectar un objeto envenenado (CD 10) </p><pclass=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPoisonBasic]{Veneno, Básico} </p><p>Este juego de útiles incluye los viales, productos químicos y todo el equipo necesario para producir venenos. La competencia con ellos te permite añadir tu bonificador por competencia a las pruebas de característica para fabricar o usar venenos</p>",
-			"activities": {
-				"Detect Poisoned Object": {
-					"name": "Detectar Objeto Envenenado"
-				}
-			}
-		},
-		"Thieves' Tools": {
-			"name": "Herramientas de Ladrón",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[dex]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Forzar una cerradura (CD 15) o desactivar una trampa (CD 15).</p><p>Este conjunto de herramientas incluye una pequeña lima, un juego de ganzúas, un espejito montado en un asa metálica, una serie de tijeras de punta estrecha y unas tenazas. La competencia con estas herramientas te permite añadir tu bonificador por competencia a las pruebas de característica para desarmar trampas o forzar cerraduras.</p>",
-			"activities": {
-				"Pick a Lock/Disarm a Trap": {
-					"name": "Forzar una cerradura/Desactivar una trampa"
-				}
-			}
+		"Yew wand": {
+			"name": "Varita de Tejo",
+			"description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Canalizador Druídico} tiene una de las formas de la tabla de Canalizador Druídico y está tallado, atado con una cinta o pintado para canalizar la magia primigenia. Un Druida o Explorador puede usar un objeto de este tipo como un Foco para Lanzamiento de Conjuros.</p></p><p>Este objeto funciona como un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}</p><section class=\"secret\" id=\"secret-XEbhgCaozZsnw6QT\"><p><strong>Notas Foundry</strong></p><p>Este objeto se ha configurado con las propiedades adicionales de un Bastón.</p></section>"
 		}
 	}
 }

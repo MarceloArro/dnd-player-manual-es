@@ -11,7 +11,6 @@
 	"entries": {
 		"Cardinal Directions": {
 			"name": "Direcciones Cardinales",
-			"description": "",
 			"results": {
 				"1-1": "Norte",
 				"2-2": "Sur",
@@ -30,11 +29,13 @@
 		},
 		"Charisma": {
 			"name": "Carisma",
-			"description": "<p>Esta tabla proporciona cuatro descripciones que se pueden utilizar para tu personaje según sus puntuaciones de característica<strong>Altas</strong> o <strong>Bajas</strong>.</p>",
-			"1-1": "<strong>Alta:</strong> Encantador. <strong>  Baja:</strong> Pedante.",
-			"2-2": "<strong>Alta:</strong> Dominante. <strong>Baja:</strong> Soso.",
-			"3-3": "<strong>Alta:</strong> Divertido. <strong> Baja:</strong> Reservado.",
-			"4-4": "<strong>Alta:</strong> Inspirador. <strong> Baja:</strong> Insensible."
+			"description": "<p>Esta tabla de calificativos plantean sugerencias sobre cómo describir a tu personaje según sus puntuaciones de característica <strong>Altas</strong> o <strong>Bajas</strong>.</p>",
+			"results": {
+				"1-1": "<strong>Alta:</strong> Encantador.  <strong>Baja:</strong> Pedante.",
+				"2-2": "<strong>Alta:</strong> Dominante.<strong>Baja:</strong> Soso.",
+				"3-3": "<strong>Alta:</strong> Divertido. <strong>Baja:</strong> Reservado.",
+				"4-4": "<strong>Alta:</strong> Inspirador. <strong>Baja:</strong> Insensible."
+			}
 		},
 		"Confusion Behavior": {
 			"name": "Comportamiento de Confusión",
@@ -43,12 +44,12 @@
 				"wOokSBLpTsUWBccD": "El objetivo no usa ninguna Acción y emplea todo su movimiento para desplazarse. Para determinar la dirección, Tira [[/r 1d4]]: con un 1, se moverá al norte; con un 2, al este; con un 3, al sur; con un 4, al oeste. ",
 				"2-6": "El objetivo no se mueve ni realiza acciones.",
 				"7-8": "El objetivo no se mueve y emplea la acción de atacar para hacer un ataque cuerpo a cuerpo contra una criatura aleatoria dentro de su alcance. Si no hay ninguna dentro de su alcance, el objetivo no hace ninguna acción.",
-				"9-10": "El objetivo elige su comportamiento,"
+				"9-10": "El objetivo elige su comportamiento"
 			}
 		},
 		"Constitution": {
 			"name": "Constitución",
-			"description": "<p>Esta tabla proporciona cuatro descripciones que se pueden utilizar para tu personaje según sus puntuaciones de característica<strong>Altas</strong> o <strong>Bajas</strong>.</p>",
+			"description": "<p>Esta tabla de calificativos plantean sugerencias sobre cómo describir a tu personaje según sus puntuaciones de característica <strong>Altas</strong> o <strong>Bajas</strong>.</p>",
 			"results": {
 				"1-1": "<strong>Alta:</strong> Enérgico. <strong>Baja:</strong> Frágil.",
 				"2-2": "<strong>Alta:</strong> Saludable. <strong>Baja:</strong> Aprensivo.",
@@ -58,7 +59,7 @@
 		},
 		"Dexterity": {
 			"name": "Destreza",
-			"description": "<p>Esta tabla proporciona cuatro descripciones que se pueden utilizar para tu personaje según sus puntuaciones de característica<strong>Altas</strong> o <strong>Bajas</strong>.</p>",
+			"description": "<p>Esta tabla de calificativos plantean sugerencias sobre cómo describir a tu personaje según sus puntuaciones de característica <strong>Altas</strong> o <strong>Bajas</strong>.</p>",
 			"results": {
 				"1-1": "<strong>Alta:</strong> Ágil. <strong>Baja:</strong> Nervioso.",
 				"2-2": "<strong>Alta:</strong> Dinamico. <strong>Baja:</strong> Torpe.",
@@ -109,7 +110,7 @@
 		},
 		"Intelligence": {
 			"name": "Inteligencia",
-			"description": "<p>Esta tabla proporciona cuatro descripciones que se pueden utilizar para tu personaje según sus puntuaciones de característica<strong>Altas</strong> o <strong>Bajas</strong>.</p>",
+			"description": "<p>Esta tabla de calificativos plantean sugerencias sobre cómo describir a tu personaje según sus puntuaciones de característica <strong>Altas</strong> o <strong>Bajas</strong>.</p>",
 			"results": {
 				"1-1": "<strong>Alta:</strong> Decidido. <strong>Baja:</strong> Tosco.",
 				"2-2": "<strong>Alta:</strong> Lógico. <strong>Baja:</strong> Ilógico.",
@@ -178,7 +179,7 @@
 		"Standard Languages": {
 			"name": "Idiomas Estándar",
 			"results": {
-				        "rViHFEn5WjhRbElK": "<strong>Idiomas:</strong> Compún. <strong>Origen:</strong> Sigil."
+				"rViHFEn5WjhRbElK": "<strong>Idiomas:</strong> Común. <strong>Origen:</strong> Sigil."
 			}
 		},
 		"Star Map Forms": {
@@ -194,7 +195,7 @@
 		},
 		"Strength": {
 			"name": "Fuerza",
-			"description": "<p>Esta tabla proporciona cuatro descripciones que se pueden utilizar para tu personaje según sus puntuaciones de característica<strong>Altas</strong> o <strong>Bajas</strong>.</p>",
+			"description": "<p>Esta tabla de calificativos plantean sugerencias sobre cómo describir a tu personaje según sus puntuaciones de característica <strong>Altas</strong> o <strong>Bajas</strong>.</p>",
 			"results": {
 				"1-1": "<strong>Alta:</strong> Musculoso. <strong>Baja:</strong> Debíl.",
 				"2-2": "<strong>Alta:</strong> Fibroso. <strong>Baja:</strong> Flaco.",
@@ -216,11 +217,11 @@
 				"12-12": "<strong>Idioma:</strong> Orco. <strong>Origen:</strong> Orcos."
 			}
 		},
-		"Teleport Mishap": {
+		"Teleport Percance": {
 			"name": "Percance de Teletransporte",
 			"description": "<p><strong>Daño del Percance:</strong> [[/damage 3d10 type=force]]</p><p><strong>Lejos del Objetivo:</strong> [[/r 2d12#Miles]]{2d12 x 1.5 Km} a una dirección al azar [[/r 1d8#Direction]]{Dirección}</p>. con un 1, al este; con un 2, al sureste; con un 3, al sur; con un 4, al suroeste; con un 5, al oeste; con un 6, al noroeste; con un 7, al norte, y con un 8, al noreste.",
 			"results": {
-				"RaCnOnLRcJPv11Vf": "<strong>Circulo Permanente:</strong> En el Objetivo",
+				"RaCnOnLRcJPv11Vf": "<strong>Círculo Permanente:</strong> En el Objetivo",
 				"4W9YPHqIIDyt3WbV": "<strong>Objeto Vinculado:</strong> En el Objetivo",
 				"1-5": "<strong>Muy Familiar:</strong> Percance",
 				"6-13": "<strong>Muy Familiar:</strong> Área Similar",
@@ -229,8 +230,10 @@
 				"1-33": "<strong>Visto Esporádicamente:</strong> Percance",
 				"34-43": "<strong>Visto Esporádicamente:</strong> Área Similar",
 				"5hV5vL7SYu53EPvb": "<strong>Visto Esporádicamente:</strong> Lejos del Objetivo",
-				"KShVQqILsbEKwNQ1": "<strong>Visto Esporádicamente:</strong> En el Objetivo",
+				"KShVQqILsbEKwNQ1": "<strong>Visto Esporádicamente:</strong> Lejos del Objetivo",
 				"1-43": "<strong>Visto una vez o Descrito:</strong> Percance",
+				"S3FXuqVgRazP23RK": "<strong>Visto una vez o Descrito:</strong> Área Similar",
+				"LWWefv3FEwkukueE": "<strong>Visto una vez o Descrito:</strong> Lejos del Objetivo",
 				"74-100": "<strong>Visto una vez o Descrito:</strong> En el Objetivo",
 				"1-50": "<strong>Destino Falso:</strong> Percance",
 				"51-100": "<strong>Destino Falso:</strong> Área Similar"
@@ -373,10 +376,10 @@
 		},
 		"Wisdom": {
 			"name": "Sabiduría",
-			"description": "<p>Esta tabla proporciona cuatro descripciones que se pueden utilizar para tu personaje según sus puntuaciones de característica<strong>Altas</strong> o <strong>Bajas</strong>.</p>",
+			"description": "<p>Esta tabla de calificativos plantean sugerencias sobre cómo describir a tu personaje según sus puntuaciones de característica <strong>Altas</strong> o <strong>Bajas</strong>.</p>",
 			"results": {
-				"1-1": "<strong>Alta:</strong> Serenp. <strong>Baja:</strong> Impulsivo.",
-				"2-2": "<strong>Alta:</strong> Considerado. <strong>Baja:</strong> DisDistraídotraido.",
+				"1-1": "<strong>Alta:</strong> Sereno. <strong>Baja:</strong> Impulsivo.",
+				"2-2": "<strong>Alta:</strong> Considerado. <strong>Baja:</strong> Distraído.",
 				"3-3": "<strong>Alta:</strong> Atento. <strong>Baja:</strong> Impasible.",
 				"4-4": "<strong>Alta:</strong> Precavido. <strong>Baja:</strong> Ingenuo."
 			}

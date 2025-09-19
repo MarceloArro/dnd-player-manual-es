@@ -11,10 +11,10 @@ Actualizando para DnD5e 4.3.1 y Foundry 11.315 (Verificado 12)
 
 ## Lista de traducciones:
 - [_] Clases
-- [_] Orígenes
-- [_] Rasgos
+- [X] Orígenes
+- [X] Dotes
 - [_] Conjuros
-- [X] Equipo (review)
+- [X] Equipo
 - [X] Tablas
 - [_] Actores
 - [_] Libro
@@ -22,15 +22,15 @@ Actualizando para DnD5e 4.3.1 y Foundry 11.315 (Verificado 12)
 
 ## Lista de Prioridades:
 - [X] Equipo
-- [_] Rasgos Generales
-- [_] Rasgos Orígen
-- [_] Rasgos Estilos de Combate
-- [_] Orígenes Transfondos
-- [_] Orígenes Especies
+- [X] Dotes Generales
+- [X] Dotes Orígen
+- [X] Dotes Estilos de Combate
+- [X] Orígenes Transfondos
+- [X] Orígenes Especies
 - [X] Trucos
 - [_] Conjuros Lvl 1 - Lvl 3
-- [_] Nombres de Tablas y descipciones
-- [_] Epic boons feats
+- [X] Nombres de Tablas y descipciones
+- [X] Epic boons feats
 - [_] Clases
 - [_] Actores
 - [_] Libro

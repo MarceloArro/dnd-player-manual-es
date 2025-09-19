@@ -104,7 +104,15 @@
 		},
 		"Bagpipes": {
 			"name": "Gaita",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Un juego de gaitas para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15).</p><p>Un juego de gaitas para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>",
+			"activities": {
+				"Play a Known Tune": {
+					"name": "Tocar una melodía conocida"
+				},
+				"Improvise a Song": {
+					"name": "Improsivar una canción"
+				}
+			}
 		},
 		"Ball Bearings": {
 			"name": "Bolas de Metal",
@@ -319,7 +327,7 @@
 					"name": "Mejorar Sabor"
 				},
 				"Detect Spoiled or Poisoned Food": {
-					"name": "Detectar alimentos podridos o envenenados"
+					"name": "Detectar alimento podrido o envenenado"
 				}
 			}
 		},
@@ -345,7 +353,15 @@
 		},
 		"Dice": {
 			"name": "Dados",
-			"description": "<p><strong>Característica:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Discernir si alguien está haciendo trampas (CD 10), o gana la partida (CD 20)</p><p>Este objeto incluye una amplia gama de dados, tanto normales como cargados.</p><p>Si eres competente con un juego, puedes añadir tu bonificador por competencia a las pruebas de característica que hagas para jugar con él. Cada tipo de juego requiere su propia competencia independiente.</p>"
+			"description": "<p><strong>Característica:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Discernir si alguien está haciendo trampas (CD 10), o gana la partida (CD 20)</p><p>Este objeto incluye una amplia gama de dados, tanto normales como cargados.</p><p>Si eres competente con un juego, puedes añadir tu bonificador por competencia a las pruebas de característica que hagas para jugar con él. Cada tipo de juego requiere su propia competencia independiente.</p>",
+			"activities": {
+				"Catch Cheating": {
+					"name": "Atrapar Tramposo"
+				},
+				"Play to Win": {
+					"name": "Jugar para Ganar"
+				}
+			}
 		},
 		"Diplomat's Pack": {
 			"name": "Paquete de Diplomático",
@@ -362,7 +378,15 @@
 		},
 		"Dragonchess": {
 			"name": "Ajedrez Dragón",
-			"description": "<p><strong>Característica:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Discernir si alguien está haciendo trampas (CD 10), o gana la partida (CD 20)</p><p>Este objeto incluye un tablero y piezas del Ajedrez del Dragón.</p><p>Si eres competente con un juego, puedes añadir tu bonificador por competencia a las pruebas de característica que hagas para jugar con él. Cada tipo de juego requiere su propia competencia independiente.</p>"
+			"description": "<p><strong>Característica:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Discernir si alguien está haciendo trampas (CD 10), o gana la partida (CD 20)</p><p>Este objeto incluye un tablero y piezas del Ajedrez del Dragón.</p><p>Si eres competente con un juego, puedes añadir tu bonificador por competencia a las pruebas de característica que hagas para jugar con él. Cada tipo de juego requiere su propia competencia independiente.</p>",
+			"activities": {
+				"Catch Cheating": {
+					"name": "Atrapar Tramposo"
+				},
+				"Play to Win": {
+					"name": "Jugar para Ganar"
+				}
+			}
 		},
 		"Druidic Focus (Varies)": {
 			"name": "Canalizador Druídico (Variable)",
@@ -370,11 +394,27 @@
 		},
 		"Drum": {
 			"name": "Tambor",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Un tambor para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15).</p><p>Un tambor para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>",
+			"activities": {
+				"Play a Known Tune": {
+					"name": "Tocar una melodía conocida"
+				},
+				"Improvise a Song": {
+					"name": "Improsivar una canción"
+				}
+			}
 		},
 		"Dulcimer": {
 			"name": "Dulcémele",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Un dulcémele para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15).</p><p>Un dulcémele para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>",
+			"activities": {
+				"Play a Known Tune": {
+					"name": "Tocar una melodía conocida"
+				},
+				"Improvise a Song": {
+					"name": "Improsivar una canción"
+				}
+			}
 		},
 		"Dungeoneer's Pack": {
 			"name": "Paquete de Explorador de Mazmorras",
@@ -418,7 +458,15 @@
 		},
 		"Flute": {
 			"name": "Flauta",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Una flauta para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15).</p><p>Una flauta para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>",
+			"activities": {
+				"Play a Known Tune": {
+					"name": "Tocar una melodía conocida"
+				},
+				"Improvise a Song": {
+					"name": "Improsivar una canción"
+				}
+			}
 		},
 		"Forgery Kit": {
 			"name": "Útiles para Falsificar",
@@ -527,7 +575,15 @@
 		},
 		"Horn": {
 			"name": "Cuerno",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Un cuerno para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15).</p><p>Un cuerno para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>",
+			"activities": {
+				"Play a Known Tune": {
+					"name": "Tocar una melodía conocida"
+				},
+				"Improvise a Song": {
+					"name": "Improsivar una canción"
+				}
+			}
 		},
 		"Hunting Trap": {
 			"name": "Trampa para Cazar",
@@ -645,11 +701,27 @@
 		},
 		"Lute": {
 			"name": "Laúd",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Un laúd para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15).</p><p>Un laúd para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>",
+			"activities": {
+				"Play a Known Tune": {
+					"name": "Tocar una melodía conocida"
+				},
+				"Improvise a Song": {
+					"name": "Improsivar una canción"
+				}
+			}
 		},
 		"Lyre": {
 			"name": "Lira",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Una lira para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15).</p><p>Una lira para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>",
+			"activities": {
+				"Play a Known Tune": {
+					"name": "Tocar una melodía conocida"
+				},
+				"Improvise a Song": {
+					"name": "Improsivar una canción"
+				}
+			}
 		},
 		"Mace": {
 			"name": "Maza",
@@ -767,7 +839,15 @@
 		},
 		"Pan Flute": {
 			"name": "Flauta de Pan",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Una flauta de pan para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15).</p><p>Una flauta de pan para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>",
+			"activities": {
+				"Play a Known Tune": {
+					"name": "Tocar una melodía conocida"
+				},
+				"Improvise a Song": {
+					"name": "Improsivar una canción"
+				}
+			}
 		},
 		"Paper": {
 			"name": "Papel",
@@ -794,7 +874,15 @@
 		},
 		"Playing Cards": {
 			"name": "Naipes",
-			"description": "<p><strong>Característica:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Discernir si alguien está haciendo trampas (CD 10), o gana la partida (CD 20)</p><p>Este objeto incluye una baraja de cartas y una baraja trucada.</p><p>Si eres competente con un juego, puedes añadir tu bonificador por competencia a las pruebas de característica que hagas para jugar con él. Cada tipo de juego requiere su propia competencia independiente.</p>"
+			"description": "<p><strong>Característica:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Discernir si alguien está haciendo trampas (CD 10), o gana la partida (CD 20)</p><p>Este objeto incluye una baraja de cartas y una baraja trucada.</p><p>Si eres competente con un juego, puedes añadir tu bonificador por competencia a las pruebas de característica que hagas para jugar con él. Cada tipo de juego requiere su propia competencia independiente.</p>",
+			"activities": {
+				"Catch Cheating": {
+					"name": "Atrapar Tramposo"
+				},
+				"Play to Win": {
+					"name": "Jugar para Ganar"
+				}
+			}
 		},
 		"Poison, Basic": {
 			"name": "Veneno Básico",
@@ -907,7 +995,15 @@
 		},
 		"Shawm": {
 			"name": "Chirimía",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Una chirimía para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15).</p><p>Una chirimía para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>",
+			"activities": {
+				"Play a Known Tune": {
+					"name": "Tocar una melodía conocida"
+				},
+				"Improvise a Song": {
+					"name": "Improsivar una canción"
+				}
+			}
 		},
 		"Shield": {
 			"name": "Escudo",
@@ -1010,7 +1106,15 @@
 		},
 		"Three-dragon ante": {
 			"name": "Apuesta de los Tres Dragones",
-			"description": "<p><strong>Característica:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Discernir si alguien está haciendo trampas (CD 10), o gana la partida (CD 20)</p><p>Este objeto incluye una baraja de cartas y una baraja trucada.</p><p>Si eres competente con un juego, puedes añadir tu bonificador por competencia a las pruebas de característica que hagas para jugar con él. Cada tipo de juego requiere su propia competencia independiente.</p>"
+			"description": "<p><strong>Característica:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Discernir si alguien está haciendo trampas (CD 10), o gana la partida (CD 20)</p><p>Este objeto incluye una baraja de cartas y una baraja trucada.</p><p>Si eres competente con un juego, puedes añadir tu bonificador por competencia a las pruebas de característica que hagas para jugar con él. Cada tipo de juego requiere su propia competencia independiente.</p>",
+			"activities": {
+				"Catch Cheating": {
+					"name": "Atrapar Tramposo"
+				},
+				"Play to Win": {
+					"name": "Jugar para Ganar"
+				}
+			}
 		},
 		"Tinderbox": {
 			"name": "Yesquero",
@@ -1058,7 +1162,15 @@
 		},
 		"Viol": {
 			"name": "Viola",
-			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Toca una melodía conocida (CD 10) o improvisa una canción (CD 15).</p><p>Una viola para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>"
+			"description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[cha]</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Tocar una melodía conocida (CD 10) o improvisar una canción (CD 15).</p><p>Una viola para evocar el asombro, la admiración o el miedo en tu público.</p><p>Si eres competente en un instrumento musical determinado, puedes añadir tu bonificación de competencia a cualquier prueba de Característica que hagas para tocar música con el instrumento. Un bardo puede utilizar un instrumento musical como canalizador mágico. Cada tipo de instrumento musical requiere una competencia distinta.</p>",
+			"activities": {
+				"Play a Known Tune": {
+					"name": "Tocar una melodía conocida"
+				},
+				"Improvise a Song": {
+					"name": "Improsivar una canción"
+				}
+			}
 		},
 		"Wand": {
 			"name": "Varita",

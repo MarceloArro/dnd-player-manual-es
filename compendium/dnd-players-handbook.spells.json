@@ -3838,7 +3838,13 @@
     },
     "Thaumaturgy": {
       "name": "Taumaturgia",
-      "description": "<p>Manifiestas un pequeño milagro dentro del alcance y produces uno de los siguientes efectos mágicos. Si lanzas este conjuro varias veces, puedes mantener activos a la vez hasta tres de sus efectos de 1 minuto.</p><p><strong>Jugar con Fuego.</strong> Haces que las llamas parpadeen, brillen más, se atenúen o cambien de color durante 1 minuto.</p><p><strong>Mano Invisible.</strong> Abres o cierras de golpe una puerta o ventana que no esté cerrada con llave.</p><p><strong>Ojos Alterados.</strong> A Cambias el aspecto de tus ojos durante 1 minuto.</p><p><strong>Sonido Fantasmal.</strong>  Creas un sonido instantáneo que procede de un punto de tu elección dentro del alcance. Por ejemplo, el retumbar de un trueno, el graznido de un cuervo o unos susurros de mal agúero.</p><p><strong>Temblores.</strong> Provocas que la tierra tiemble sin causar daños durante 1 minuto.</p><p><strong>Voz Atronadora.</strong>  Tu voz resuena hasta tres veces más alto de lo normal durante 1 minuto. Hasta que termine el conjuro, tienes ventaja en las pruebas de Carisma (Intimidación).</p>"
+      "description": "<p>Manifiestas un pequeño milagro dentro del alcance y produces uno de los siguientes efectos mágicos. Si lanzas este conjuro varias veces, puedes mantener activos a la vez hasta tres de sus efectos de 1 minuto.</p><p><strong>Jugar con Fuego.</strong> Haces que las llamas parpadeen, brillen más, se atenúen o cambien de color durante 1 minuto.</p><p><strong>Mano Invisible.</strong> Abres o cierras de golpe una puerta o ventana que no esté cerrada con llave.</p><p><strong>Ojos Alterados.</strong> A Cambias el aspecto de tus ojos durante 1 minuto.</p><p><strong>Sonido Fantasmal.</strong>  Creas un sonido instantáneo que procede de un punto de tu elección dentro del alcance. Por ejemplo, el retumbar de un trueno, el graznido de un cuervo o unos susurros de mal agúero.</p><p><strong>Temblores.</strong> Provocas que la tierra tiemble sin causar daños durante 1 minuto.</p><p><strong>Voz Atronadora.</strong>  Tu voz resuena hasta tres veces más alto de lo normal durante 1 minuto. Hasta que termine el conjuro, tienes ventaja en las pruebas de Carisma (Intimidación).</p>",
+      "effects": {
+        "Booming Voice": {
+          "name": "Booming Voice",
+          "description": "<p>Your voice booms up to three times as loud as normal for 1 minute. For the duration, you have Advantage on [[/check ability=cha skill=itm]] checks.</p>"
+        }
+      }
     },
     "Thorn Whip": {
       "name": "Látigo de Espinas",

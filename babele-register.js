@@ -14,7 +14,7 @@ Hooks.once('init', () => {
 		});
 
 		Babele.get().registerConverters({
-			'"dnd-players-handbook"': (pages, translations) => {
+			"dnd-players-handbook": (pages, translations) => {
 				pages = Converters._pages(pages, translations);
 	
 				return pages.map(data => {

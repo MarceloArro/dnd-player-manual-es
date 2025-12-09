@@ -1054,10 +1054,10 @@
     },
     "Detect Thoughts": {
       "name": "Detectar Pensamientos",
-      "description": "<p>Activas uno de los efectos a continuación. Hasta que el conjuro termine, puedes activar cualquiera de los efectos como una acción de Magia en tus turnos posteriores.</p><p><strong>Sentir Pensamientos.</strong> Sientes la presencia de pensamientos a 30 pies de ti que pertenecen a criaturas que conocen idiomas o son telepáticas. No lees los pensamientos, pero sabes que una criatura pensante está presente.</p><p>El conjuro no puede atravesar 1 pie (30 cm) de piedra, tierra o madera, 1 pulgada (2,5cm) de metal o una lámina fina de plomo.</p><p><strong>Leer Pensamientos.</strong> Apunta a una criatura que puedas ver a 30 pies de ti o a una criatura a 30 pies de ti que detectaste con la opción Sentir Pensamientos. Aprendes qué es lo que más ocupa la mente del objetivo en este momento. Si el objetivo no conoce ningún idioma y no es telepático, no aprendes nada.</p><p>Como una acción de Magia en tu próximo turno, puedes intentar sondear más profundamente en la mente del objetivo. Si sondeas más profundamente, el objetivo realiza una tirada de salvación de Sabiduría. Si falla, discernes el razonamiento, las emociones y algo que ocupa un lugar importante en su mente (como una preocupación, amor u odio). Si tiene éxito, el conjuro termina. De cualquier manera, el objetivo sabe que estás sondeando su mente, y hasta que desvíes tu atención de la mente del objetivo, el objetivo puede realizar una acción en su turno para hacer una prueba de [[/check ability=int skill=arc dc=@attributes.spell.dc]] contra la CD de salvación de tu conjuro, terminando el conjuro si tiene éxito.</p>",
+      "description": "<p>Activas uno de los siguientes efectos. Hasta que el conjuro termine, puedes activar cualquiera de ellos como acción de magia en tus siguientes turnos.</p> <p><strong>Sentir pensamientos.</strong> Percibes la presencia de pensamientos que pertenecen a criaturas que conozcan idiomas o sean telepáticas a 30ft (9 m) o menos de ti. No lees sus pensamientos, pero sabes que hay una criatura pensante cerca.</p><p>El conjuro no puede atravesar 1 pie (30 cm) de piedra, tierra o madera, 1 pulgada (2,5 cm) de metal o una lámina fina de plomo.</p><p><strong>Leer pensamientos.</strong> Haces objetivo a una criatura que puedas ver a 30ft (9 m o menos de ti o a una criatura a 30ft (9 m)o menos de ti que hayas detectado con la opción de sentir pensamientos y averiguas lo principal que ocupa su mente en ese momento. Si el objetivo no conoce ningún idioma o no es telepático, no descubres nada.</p><p>Como acción de magia en tu próximo turno, puedes intentar sondear en profundidad su mente. Si lo haces, el objetivo hará una tirada de salvación de Sabiduría. Si la falla, descubrirás su forma de razonar, sus emociones y algo que sea de gran importancia en su mente (una preocupación o algo que ame u odie). Si la supera, el conjuro terminará. De cualquier forma, el objetivo sabrá que estás sondeando su mente y, a menos que desplaces tu atención, podrá usar una acción en su turno para hacer una prueba de [[/check ability=int skill=arc dc=@attributes.spell.dc]] contra tu CD de salvación de conjuros; si la supera, el conjuro terminará.</p>",
       "activities": {
         "Probe Deeper": {
-          "name": "Sondear más Profundo"
+          "name": "Leer Pensamientos"
         },
         "Sense Thoughts": {
           "name": "Sentir Pensamientos"
@@ -1380,12 +1380,12 @@
       }
     },
     "Enthrall": {
-      "name": "Cautivar",
-      "description": "<p>Tejes una cadena de palabras que distraen, haciendo que las criaturas de tu elección que puedas ver dentro del alcance realicen una tirada de salvación de Sabiduría. Cualquier criatura contra la que tú o tus compañeros estéis luchando tiene éxito automáticamente en esta salvación. Si falla, un objetivo tiene una Penalizador de -10 a las pruebas de Sabiduría (Percepción) y a la Percepción Pasiva hasta que termine el conjuro.</p>",
+      "name": "Embelesar",
+      "description": "<p>Creas una serie de palabras encantadoras que provocan que una o más criaturas de tu elección a las que puedas ver dentro del alcance deban hacer una tirada de salvación de Sabiduría. Cualquier criatura contra la que luchéis tus aliados o tú superará automáticamente esta tirada. Si la falla, el objetivo sufrirá un penalizador de -10 a las pruebas de Sabiduría (Percepción) y a la Percepción pasiva hasta que el conjuro termine.</p>",
       "effects": {
         "Distracted": {
           "name": "Distraído",
-          "description": "<p><span style=\"font-family:Signika, sans-serif\">El objetivo tiene una Penalizador de -10 a las pruebas de [[/check ability=wis skill=prc]] y a la Percepción Pasiva hasta que termine el conjuro.</span></p>"
+          "description": "<p>El objetivo tiene una Penalizador de -10 a las pruebas de Sabiduría (Percepción) y a la Percepción pasiva hasta que termine el conjuro.</p>"
         }
       }
     },
@@ -1521,8 +1521,8 @@
       }
     },
     "Find Traps": {
-      "name": "Encontrar Trampas",
-      "description": "<p>Sientes cualquier trampa dentro del alcance que esté en tu línea de visión. Una trampa, para el propósito de este conjuro, incluye cualquier objeto o mecanismo que fue creado para causar daño u otro peligro. Así, el conjuro sentiría el conjuro <em>Alarma</em> o <em>Glifo de Custodia</em> o una trampa de foso mecánica, pero no revelaría una debilidad natural en el suelo, un techo inestable o un sumidero oculto.</p><p>Este conjuro revela que hay una trampa presente, pero no su ubicación. Aprendes la naturaleza general del peligro que representa una trampa que sientes.</p>"
+      "name": "Detectar Trampas",
+      "description": "Detectas cualquier trampa dentro del alcance que esté en tu línea de visión. En lo que a este conjuro respecta, una trampa incluye cualquier objeto o mecanismo que fuese creado para causar un daño u otro peligro. Por tanto, el conjuro detectaría los conjuros alarma y glifo custodio o una trampa de pozo mecánica, pero no revelaría una debilidad natural del suelo, un techo inestable o un socavón oculto. Este conjuro alerta de la existencia de una trampa, pero no te indica su ubicación. Aun así, descubres la naturaleza general del peligro que supone una trampa que detectas."
     },
     "Find the Path": {
       "name": "Encontrar la Senda",
@@ -1591,8 +1591,8 @@
       "description": "<p>Una columna vertical de fuego brillante ruge desde arriba. Cada criatura en un Cilindro de 10 pies de radio y 40 pies de alto centrado en un punto dentro del alcance realiza una tirada de salvación de Destreza, recibiendo 5d6 de daño por Fuego y 5d6 de daño Radiante si falla o la mitad de daño si tiene éxito.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño por Fuego y el daño Radiante aumentan en 1d6 por cada nivel de espacio de conjuro por encima del 5.</p>"
     },
     "Flaming Sphere": {
-      "name": "Esfera de Fuego",
-      "description": "<p>Creas una esfera de fuego de 5 pies de diámetro en un espacio desocupado en el suelo dentro del alcance. Dura por la duración. Cualquier criatura que termine su turno a 5 pies de la esfera realiza una tirada de salvación de [[/save ability=dex dc=@attributes.spell.dc]], recibiendo 2d6 de daño por Fuego si falla o la mitad de daño si tiene éxito.</p><p>Como una Acción Adicional, puedes mover la esfera hasta 30 pies, rodándola por el suelo. Si mueves la esfera al espacio de una criatura, esa criatura realiza la salvación contra la esfera, y la esfera deja de moverse por el turno.</p><p>Cuando mueves la esfera, puedes dirigirla sobre barreras de hasta 5 pies de altura y saltarla a través de fosos de hasta 10 pies de ancho. Los objetos inflamables que no estén siendo usados o llevados comienzan a arder si son tocados por la esfera, y emite Luz Brillante en un radio de 20 pies y Luz Tenue por 20 pies adicionales.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio.</p>"
+      "name": "Esfera de Llamas",
+      "description": "<p>Creas una esfera de fuego de 5ft (1,5 m) de diámetro en un espacio sin ocupar del suelo dentro del alcance, y durará hasta que termine el conjuro. Cualquier criatura que termine su turno a 5ft (1,5 m) o menos de ella hará una [[/save ability=dex dc=@attributes.spell.dc]]; sufrirá 2d6 de daño de fuego si la falla o la mitad de daño si la supera.</p><p>Como acción adicional, puedes mover la esfera hasta 30ft (9 m) haciéndola rodar. Si mueves la esfera al espacio de una criatura, esta hará la tirada de salvación contra la esfera, que ya no podrá moverse más durante el turno.</p><p>Cuando mueves la esfera, puedes llevarla por encima de barreras de hasta 5ft (1,5 m) de alto y hacer que salte huecos de hasta 3 m de ancho. La esfera prende los objetos inflamables que toque y no lleve o vista nadie y emite luz brillante en un radio de 20ft (6 m) y luz tenue otros 20ft (6 m) más allá.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio.</p>"
     },
     "Flesh to Stone": {
       "name": "Carne a Piedra",
@@ -1741,8 +1741,8 @@
       }
     },
     "Gentle Repose": {
-      "name": "Reposo Amable",
-      "description": "<p>Tocas un cadáver u otros restos. Por la duración, el objetivo está protegido de la descomposición y no puede convertirse en No Muerto.</p><p>El conjuro también extiende efectivamente el límite de tiempo para resucitar al objetivo de entre los muertos, ya que los días pasados bajo la influencia de este conjuro no cuentan contra el límite de tiempo de conjuros como <em>Revivir a los Muertos</em>.</p>"
+      "name": "Dulce Descanso",
+      "description": "<p>Tocas un cadáver u otro tipo de restos mortales. Hasta que termine el conjuro, el objetivo está protegido de la descomposición y no se puede convertir en un muerto viviente.</p><p>El conjuro también amplía el tiempo máximo para resucitar al objetivo, ya que los días que pasa bajo su influencia no cuentan para el límite de tiempo de conjuros como alzar a los muertos.</p>"
     },
     "Giant Insect": {
       "name": "Insecto Gigante",
@@ -2426,7 +2426,7 @@
     },
     "Melf's Acid Arrow": {
       "name": "Flecha Ácida de Melf",
-      "description": "<p>Una flecha verde y brillante se dirige hacia un objetivo dentro del alcance y estalla en un rocío de ácido. Realiza un ataque de conjuro a distancia contra el objetivo. Si aciertas, el objetivo recibe 4d4 de daño por Ácido y 2d4 de daño por Ácido al final de su siguiente turno. Si fallas, la flecha salpica al objetivo con ácido por la mitad del daño inicial solamente.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño (tanto inicial como posterior) aumenta en 1d4 por cada nivel por encima de 2 que tenga el espacio.</p>",
+      "description": "<p>Una brillante flecha verde sale disparada hacia un objetivo dentro del alcance y estalla en una lluvia de ácido. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 4d4 de daño de ácido y 2d4 de daño de ácido al final de su siguiente turno. Si falla, la flecha salpica al objetivo con ácido y solo le causa la mitad del daño inicial. </p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño (tanto inicial como posterior) aumenta en 1d4 por cada nivel por encima de 2 que tenga el espacio.</p>",
       "activities": {
         "Cast and Attack": {
           "name": "Lanzar y Atacar"
@@ -2438,7 +2438,7 @@
       "effects": {
         "Lingering Acid": {
           "name": "Ácido Persistente",
-          "description": "<p>Si aciertas, el objetivo recibe 4d4 de daño por Ácido y [[/damage 2d4 type=acid]] (más 1d4 por nivel de espacio de conjuro por encima de 2) de daño por Ácido al final de su siguiente turno.</p>"
+          "description": "<p>Si acierta, el objetivo recibe 4d4 de daño de Ácido y [[/damage 2d4 type=acid]] (más 1d4 por nivel de espacio de conjuro por encima de 2) de daño por Ácido al final de su siguiente turno.</p>"
         }
       }
     },
@@ -2688,7 +2688,7 @@
     },
     "Phantasmal Force": {
       "name": "Fuerza Fantasmal",
-      "description": "<div><p>Intentas crear una ilusión en la mente de una criatura que puedas ver dentro del alcance. El objetivo realiza una tirada de salvación de Inteligencia. Si falla, creas un objeto, criatura u otro fenómeno fantasmal que no sea más grande que un Cubo de 10 pies y que solo es perceptible para el objetivo por la duración. El fantasma incluye sonido, temperatura y otros estímulos.</p><p>El objetivo puede realizar una acción de &Reference[Study]{Estudiar} para examinar el fantasma con una prueba de [[/check ability=int skill=inv dc=@attributes.spell.dc]] contra la CD de salvación de tu conjuro. Si la prueba tiene éxito, el objetivo se da cuenta de que el fantasma es una ilusión y el conjuro termina.</p><p>Mientras está afectado por el conjuro, el objetivo trata el fantasma como si fuera real y racionaliza cualquier resultado ilógico de interactuar con él. Por ejemplo, si el objetivo atraviesa un puente fantasmal y sobrevive a la caída, cree que el puente existe y que algo más causó su caída.</p><p>Un objetivo afectado puede incluso recibir daño de la ilusión si el fantasma representa una criatura o peligro. En cada uno de tus turnos, tal fantasma puede infligir 2d8 de daño Psíquico al objetivo si está en el área del fantasma o a 5 pies de él. El objetivo percibe el daño como un tipo apropiado para la ilusión.</p></div>",
+      "description": "<p>Intentas crear una ilusión en la mente de una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvación de Inteligencia. Si la falla, creas un objeto o una criatura fantasmal u otro fenómeno cuyas dimensiones no excedan las de un cubo de 3 m de lado y que solo puede percibir el objetivo hasta que el conjuro termine. El fantasma puede emitir sonidos, alterar la temperatura y producir otros estímulos.</p><p>El objetivo puede usar una acción de &Reference[Study]{Estudiar} para examinar la imagen con una prueba de [[/check ability=int skill=inv dc=@attributes.spell.dc]] contra tu CD de salvación de conjuros. Si la supera, se da cuenta de que el fantasma es una ilusión y el conjuro termina.</p><p>Mientras esté afectado por este conjuro, el objetivo tratará al fantasma como si fuera real y racionalizará cualquier resultado ilógico derivado de interactuar con él. Por ejemplo, si el objetivo intenta caminar por un puente ilusorio y sobrevive a la caída, creerá que el puente existe y que otra cosa ha provocado su caída.</p><p>Un objetivo afectado incluso puede recibir daño de la ilusión si el fantasma se muestra como una amenaza o una criatura peligrosa. En cada uno de tus turnos, la forma fantasmal puede causar 2d8 de daño psíquico al objetivo si está en el área que ocupa el fantasma o a 1,5 m de él.El objetivo percibe el daño como de un tipo apropiado para la ilusión.</p>",
       "activities": {
         "Cast": {
           "name": "Lanzar"
@@ -2704,7 +2704,7 @@
       "effects": {
         "Seeing Illusions": {
           "name": "Viendo Ilusiones",
-          "description": "<p>El objetivo puede realizar una acción de &Reference[Study]{Estudiar} para examinar el fantasma con una prueba de [[/check ability=int skill=inv]] contra la CD de salvación de tu conjuro. Si la prueba tiene éxito, el objetivo se da cuenta de que el fantasma es una ilusión y el conjuro termina.</p>"
+          "description": "<p>El objetivo puede usar una acción de &Reference[Study]{Estudiar} para examinar la imagen con una prueba de [[/check ability=int skill=inv dc=@attributes.spell.dc]] contra tu CD de salvación de conjuros. Si la supera, se da cuenta de que el fantasma es una ilusión y el conjuro termina.</p>"
         }
       }
     },

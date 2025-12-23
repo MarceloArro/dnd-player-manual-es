@@ -1385,7 +1385,7 @@
     },
     "Deft Explorer": {
       "name": "Explorador Diestro",
-      "description": "<p>Thanks to your travels, you gain the following benefits.</p><p><strong>Expertise.</strong> Choose one of your skill proficiencies with which you lack Expertise. You gain Expertise in that skill.</p><p><strong>Languages.</strong> You know two languages of your choice from the language tables in chapter 2.</p><section class=\"secret\" id=\"secret-MKYXod5Sdpyj2x7V\"><p><strong>Foundry Note</strong></p><p>You will be prompted for choices when you add the Ranger class to your character sheet.</p></section>"
+      "description": "<p>Eres un maestro sin igual de la navegación del mundo natural, y reaccionas con rapidez y decisión cuando eres atacado. Obtienes los siguientes beneficios:</p><p><strong>Maestría Experta.</strong> Cuando uses la acción de Ayuda para ayudar a un aliado en un chequeo de habilidad, puedes hacer una cantidad de chequeos adicionales de Ayuda igual a tu bonificador por competencia (mínimo uno), siempre que cada uno beneficie a un aliado diferente.</p><p><strong>Vagabundo Cansado.</strong> Al finalizar un descanso largo, reduces tu nivel de agotamiento, si lo hay, en 1 adicional.</p><p><strong>Ambulante Experto.</strong> Tu velocidad de caminar aumenta en 1,5 metros.</p>"
     },
     "Devil's Sight": {
       "name": "Visión del Diablo",
@@ -1942,7 +1942,7 @@
     },
     "Evasive Footwork": {
       "name": "Juego de Pies Evasivo",
-      "description": "<p>As a Bonus Action, you can expend one Superiority Die and take the Disengage action. You also roll the die and add the number rolled to your AC until the start of your next turn.</p>",
+      "description": "<p>Cuando te mueves, puedes gastar un Dado de Superioridad, tirarlo, y añadir el número obtenido a tu CA hasta que dejes de moverte.</p>",
       "activities": {
         "Evade": {
           "name": "Evade",
@@ -2021,11 +2021,11 @@
     },
     "Fanatical Focus": {
       "name": "Concentración Fanática",
-      "description": "<p>Once per active Rage, if you fail a saving throw, you can reroll it with a bonus equal to your Rage Damage bonus (currently [[/r @scale.barbarian.rage-damage]]), and you must use the new roll.</p>"
+      "description": "<p>Si fallas una tirada de salvación mientras estás furioso, puedes volver a tirarla, pero debes usar la nueva tirada. Puedes usar este rasgo solo una vez por Furia.</p>"
     },
     "Fast Hands": {
       "name": "Manos Rápidas",
-      "description": "<p>As a Bonus Action, you can do one of the following.</p><p><strong>Sleight of Hand.</strong> Make a Dexterity (Sleight of Hand) check to pick a lock or disarm a trap with Thieves’ Tools or to pick a pocket.</p><p><strong>Use an Object.</strong> Take the Utilize action, or take the Magic action to use a magic item that requires that action.</p><section id=\"secret-jnQLm5F5Pq3fBPRp\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Sleight of Hand</strong> and <strong>Thieves' Tools</strong> activities include the relevant checks.</p><p>The <strong>Use an Object</strong> activity can be used for tracking Bonus Action use.</p></section>",
+      "description": "<p>Puedes usar la acción adicional otorgada por tu Acción Astuta para hacer un chequeo de Destreza (Juego de Manos), usar tus herramientas de ladrón para desarmar una trampa o abrir una cerradura, o realizar la acción de Usar un Objeto.</p>",
       "activities": {
         "Sleight of Hand": {
           "name": "Sleight of Hand"
@@ -2124,7 +2124,7 @@
     },
     "Fiend Spells": {
       "name": "Conjuros Infernales",
-      "description": "<p>The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Fiend Spells table, you thereafter always have the listed spells prepared.</p><table><caption>Fiend Spells</caption><thead><tr><td>Warlock Level</td><td>Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBurningHan]{Burning Hands}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]{Command}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScorchingR]{Scorching Ray}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{Suggestion}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{Fireball}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStinkingCl]{Stinking Cloud}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireShield]{Fire Shield}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofFire]{Wall of Fire}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGeas000000]{Geas}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInsectPlag]{Insect Plague}</td></tr></tbody></table><section class=\"secret\" id=\"secret-Az5JbDGwh8PLTt7g\"><p><strong>Foundry Note</strong></p><p>As you level up these spells will be granted to you automatically.</p></section>"
+      "description": "<p>La magia de tu patrón asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de brujo especificado en la tabla de Conjuros del Patrón Infernal, a partir de entonces siempre tienes los conjuros indicados preparados.</p>"
     },
     "Fiendish Resilience": {
       "name": "Resistencia Infernal",
@@ -2225,7 +2225,7 @@
     },
     "Fleet Step": {
       "name": "Paso Veloz",
-      "description": "<p>When you take a Bonus Action other than Step of the Wind, you can also use Step of the Wind immediately after that Bonus Action.</p>"
+      "description": "<p>Tu velocidad de caminar aumenta en 3 metros.</p>"
     },
     "Flurry of Healing and Harm": {
       "name": "Ráfaga de Curación y Daño",
@@ -2285,7 +2285,7 @@
     },
     "Gift of the Depths": {
       "name": "Don de las Profundidades",
-      "description": "<blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>You can breathe underwater, and you gain a Swim Speed equal to your Speed.</p><p>You can also cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWaterBreat]{Water Breathing} once without expending a spell slot. You regain the ability to cast it in this way again when you finish a Long Rest.</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplWaterBreat inline]</p>",
+      "description": "<p>Puedes respirar bajo el agua, y obtienes una velocidad de natación igual a tu velocidad de caminar.</p><p>Además, una vez por descanso largo, puedes lanzar @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWaterBreat]{Respiración Acuática} sin gastar un espacio de conjuro (tú eres el objetivo).</p>",
       "effects": {
         "Water Breathing & Swim Speed": {
           "name": "Water Breathing & Swim Speed",
@@ -2388,7 +2388,7 @@
     },
     "Greater Portent": {
       "name": "Portento Superior",
-      "description": "<p>The visions in your dreams intensify and paint a more accurate picture in your mind of what is to come. Roll three d20s for your Portent feature rather than two.</p>"
+      "description": "<p>Cuando tiras tus tiradas de Presagio, tiras tres d20 en lugar de dos.</p>"
     },
     "Guarded Mind": {
       "name": "Mente Protegida",
@@ -2524,7 +2524,7 @@
     },
     "Illusionist": {
       "name": "Ilusionista",
-      "description": "<blockquote><p>Weave Subtle Spells of Deception</p></blockquote><p>You specialize in magic that dazzles the senses and tricks the mind, and the illusions you craft make the impossible seem real.</p>",
+      "description": "<p>Cuando lanzas un conjuro de Ilusión de nivel 1 o superior, puedes elegir un objeto inanimado no mágico que no esté siendo llevado por nadie y que puedas ver a 9 metros. El objeto se vuelve invisible hasta el final de tu próximo descanso largo, hasta que quedes incapacitado o mueras, o hasta que descartes este efecto como acción.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -2549,7 +2549,7 @@
     },
     "Illusory Self": {
       "name": "Yo Ilusorio",
-      "description": "<p>When a creature hits you with an attack roll, you can take a Reaction to interpose an illusory duplicate of yourself between the attacker and yourself. The attack automatically misses you, then the illusion dissipates.</p><p>Once you use this feature, you can’t use it again until you finish a Short or Long Rest. You can also restore your use of it by expending a level 2+ spell slot (no action required).</p>",
+      "description": "<p>Puedes crear una duplicación ilusoria de ti mismo. Como reacción cuando una criatura hace una tirada de ataque contra ti, puedes interponer el duplicado ilusorio entre el atacante y tú. El ataque automáticamente falla contra ti, luego la ilusión desaparece.</p><p>Una vez que uses este rasgo, no puedes usarlo de nuevo hasta que finalices un descanso corto o largo.</p>",
       "activities": {
         "Interpose": {
           "name": "Interpose",
@@ -2655,7 +2655,7 @@
     },
     "Improved War Magic": {
       "name": "Magia de Guerra Mejorada",
-      "description": "<p>When you take the Attack action on your turn, you can replace two of the attacks with a casting of one of your level 1 or level 2 Wizard spells that has a casting time of an action.</p>"
+      "description": "<p>Cuando usas tu acción para lanzar un conjuro, puedes hacer un ataque con arma como acción adicional.</p>"
     },
     "Improved Warding Flare": {
       "name": "Destello Protector Mejorado",
@@ -2955,7 +2955,7 @@
     },
     "Magical Cunning": {
       "name": "Astucia Mágica",
-      "description": "<p>You can perform an esoteric rite for 1 minute. At the end of it, you regain expended Pact Magic spell slots but no more than a number equal to half your maximum (round up). Once you use this feature, you can’t do so again until you finish a Long Rest.</p><section id=\"secret-uXJIaDc9mWHsrILV\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes one free use and will restore the correct number of Pact Magic spell slots.</p></section>",
+      "description": "<p>Puedes realizar este ritual, que toma 1 minuto para completar. Cuando lo hagas, recuperas espacios de conjuro de Magia de Pacto gastados. Una vez que uses este rasgo, no puedes usarlo de nuevo hasta que finalices un descanso largo.</p>",
       "activities": {
         "Regain Pact Spell Slots": {
           "name": "Regain Pact Spell Slots"
@@ -3033,15 +3033,15 @@
     },
     "Mask of Many Faces": {
       "name": "Máscara de Muchas Caras",
-      "description": "<blockquote><p>Prerequisite: Level 2+ Warlock</p></blockquote><p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe]{Disguise Self} without expending a spell slot.</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe inline]</p>"
+      "description": "<p>Puedes lanzar @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSel]{Disfrazarse} a voluntad, sin gastar un espacio de conjuro.</p>"
     },
     "Master of Myriad Forms": {
       "name": "Maestro de Miríadas de Formas",
-      "description": "<blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAlterSelf0]{Alter Self} without expending a spell slot.</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAlterSelf0 inline]</p>"
+      "description": "<p>Puedes lanzar @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAlterSelf0]{Alterar Forma} a voluntad, sin gastar un espacio de conjuro.</p>"
     },
     "Memorize Spell": {
       "name": "Memorizar Conjuro",
-      "description": "<p>Whenever you finish a Short Rest, you can study your spellbook and replace one of the level 1+ Wizard spells you have prepared for your Spellcasting feature with another level 1+ spell from the book.</p>"
+      "description": "<p>Puedes lanzar @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFind Famili]{Encontrar Familiar} como ritual sin usar un grimorio.</p>"
     },
     "Menacing Attack": {
       "name": "Ataque Amenazante",
@@ -3094,7 +3094,7 @@
     },
     "Misty Visions": {
       "name": "Visiones Brumosas",
-      "description": "<blockquote><p>Prerequisite: Level 2+ Warlock</p></blockquote><p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSilentImag]{Silent Image} without expending a spell slot.</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSilentImag inline]</p>"
+      "description": "<p>Puedes lanzar @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSilentIllus]{Ilusión Silenciosa} a voluntad, sin gastar un espacio de conjuro o componentes materiales.</p>"
     },
     "Misty Wanderer": {
       "name": "Errante Brumoso",
@@ -3361,7 +3361,7 @@
     },
     "One with Shadows": {
       "name": "Uno con las Sombras",
-      "description": "<blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>While you’re in an area of &amp;Reference[Dim Light] or &amp;Reference[Darkness], you can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili]{Invisibility} on yourself without expending a spell slot.</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili inline]</p>"
+      "description": "<p>Cuando estás en un área de luz tenue u oscuridad, puedes usar tu acción para volverte invisible hasta que te muevas o realices una acción o reacción.</p>"
     },
     "Open Hand Technique": {
       "name": "Técnica de Mano Abierta",
@@ -3400,7 +3400,7 @@
     },
     "Otherworldly Leap": {
       "name": "Salto de Otro Mundo",
-      "description": "<blockquote><p>Prerequisite: Level 2+ Warlock</p></blockquote><p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplJump000000]{Jump} on yourself without expending a spell slot.</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplJump000000 inline]</p>"
+      "description": "<p>Puedes lanzar @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplJump0000000]{Salto} sobre ti mismo a voluntad, sin gastar un espacio de conjuro o componentes materiales.</p>"
     },
     "Overchannel": {
       "name": "Sobrecargar Canal",
@@ -3656,7 +3656,7 @@
     },
     "Precision Attack": {
       "name": "Ataque Preciso",
-      "description": "<p>When you miss with an attack roll, you can expend one Superiority Die, roll that die, and add it to the attack roll, potentially causing the attack to hit.</p>",
+      "description": "<p>Cuando hagas un ataque con arma contra una criatura, puedes gastar un Dado de Superioridad para añadirlo a la tirada de ataque. Puedes usar este maniobra antes o después de hacer la tirada de ataque, pero antes de que se apliquen los efectos del ataque.</p>",
       "activities": {
         "utility": {
           "roll": "Bonus",
@@ -4186,7 +4186,7 @@
     },
     "Roving": {
       "name": "Itinerante",
-      "description": "<p>Your Speed increases by 10 feet while you aren’t wearing Heavy armor. You also have a Climb Speed and a Swim Speed equal to your Speed.</p><section class=\"secret\" id=\"secret-XnQYiG0fJWJSHkQw\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which increases your Speed by 10 feet. It does not automatically grant an equivalent Climb and Swim Speed though. It can be disabled if you choose to wear Heavy armor.</p></section>",
+      "description": "<p>Tu velocidad de caminar aumenta en 1,5 metros, y obtienes una velocidad de escalada y natación igual a tu velocidad de caminar.</p>",
       "effects": {
         "Roving": {
           "name": "Roving"
@@ -4247,7 +4247,7 @@
     },
     "Second-Story Work": {
       "name": "Trabajo de Segundo Piso",
-      "description": "<p>You’ve trained to get into especially hard-to-reach places, granting you these benefits.</p><p><strong>Climber.</strong> You gain a Climb Speed equal to your Speed.</p><p><strong>Jumper.</strong> You can determine your &amp;Reference[Jumping]{jump} distance using your Dexterity rather than your Strength.</p><section class=\"secret\" id=\"secret-7BCLTkAFUjinYhJw\"><p><strong>Foundry Note</strong></p><p>This feature does not automatically add the Climb Speed and will have to be added manually.</p></section>"
+      "description": "<p>Escalar no te cuesta movimiento adicional. Además, cuando haces un salto con carrera, la distancia que cubres aumenta en una cantidad de pies igual a tu modificador por Destreza.</p>"
     },
     "Seeking Spell": {
       "name": "Conjuro Buscador",
@@ -4420,7 +4420,7 @@
     },
     "Soul of Vengeance": {
       "name": "Alma de Venganza",
-      "description": "<p>Immediately after a creature under the effect of your Vow of Enmity hits or misses with an attack roll, you can take a Reaction to make a melee attack against that creature if it’s within range.</p>"
+      "description": "<p>Cuando una criatura bajo el efecto de tu Voto de Enemistad hace un ataque, puedes usar tu reacción para hacer un ataque con arma cuerpo a cuerpo contra esa criatura si está a tu alcance.</p>"
     },
     "Soulknife": {
       "name": "Cuchilla del Alma",
@@ -4585,7 +4585,7 @@
     },
     "Student of War": {
       "name": "Estudiante de Guerra",
-      "description": "<p>You gain proficiency with one type of Artisan's Tools of your choice, and you gain proficiency in one skill of your choice from the skills available to Fighters at level 1.</p><section id=\"secret-cnuoImK7Jn9u5eo6\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted for these choices while leveling up.</p></section>"
+      "description": "<p>Obtienes competencia con un tipo de herramientas de artesano de tu elección.</p>"
     },
     "Studied Attacks": {
       "name": "Ataques Estudiados",
@@ -4730,7 +4730,7 @@
     },
     "Tactical Assessment": {
       "name": "Evaluación Táctica",
-      "description": "<p>When you make an Intelligence (History or Investigation) check or a Wisdom (Insight) check, you can expend one Superiority Die and add that die to the ability check.</p>",
+      "description": "<p>Puedes usar una acción adicional en tu turno para hacer un chequeo de Sabiduría (Perspicac ia) o Inteligencia (Investigación).</p>",
       "activities": {
         "utility": {
           "roll": "Bonus",
@@ -4740,7 +4740,7 @@
     },
     "Tactical Master": {
       "name": "Maestro Táctico",
-      "description": "<p>When you attack with a weapon whose mastery property you can use, you can replace that property with the Push, Sap, or Slow property for that attack.</p>",
+      "description": "<p>Como acción adicional, puedes gastar un uso de Superioridad para conceder a un aliado que puedas ver a 18 metros la capacidad de añadir un Dado de Superioridad a su próxima tirada de ataque o chequeo de habilidad.</p>",
       "effects": {
         "Tactical Master": {
           "name": "Tactical Master"
@@ -4760,11 +4760,11 @@
     },
     "Tactical Shift": {
       "name": "Cambio Táctico",
-      "description": "<p>Whenever you activate your Second Wind with a Bonus Action, you can move up to half your Speed without provoking Opportunity Attacks.</p>"
+      "description": "<p>Puedes usar una acción adicional en tu turno para Tablero o Esconderte.</p>"
     },
     "Tamed Surge": {
       "name": "Oleada Domada",
-      "description": "<p>Immediately after you cast a Sorcerer spell with a spell slot, you can create an effect of your choice from the @UUID[Compendium.dnd-players-handbook.tables.RollTable.phbWildMagicSurg]{Wild Magic Surge} table instead of rolling on that table. You can choose any effect in the table except for the final row, and if the chosen effect involves a roll, you must make it.</p><p>Once you use this feature, you can’t do so again until you finish a Long Rest.</p>"
+      "description": "<p>Cuando tires en la tabla de Oleada de Magia Salvaje para este rasgo, puedes tirar dos veces y elegir cuál de los dos resultados usar. Si tiras el mismo número en ambos dados, puedes ignorar el número y elegir cualquier efecto en la tabla.</p>"
     },
     "Tandem Footwork": {
       "name": "Juego de Pies en Tándem",
@@ -5099,7 +5099,7 @@
     },
     "Visions of Distant Realms": {
       "name": "Visiones de Reinos Distantes",
-      "description": "<blockquote><p>Prerequisite: Level 9+ Warlock</p></blockquote><p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0]{Arcane Eye} without expending a spell slot.</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0 inline]</p>"
+      "description": "<p>Puedes lanzar @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0]{Ojo Arcano} a voluntad, sin gastar un espacio de conjuro.</p>"
     },
     "Vitality of the Tree": {
       "name": "Vitalidad del Árbol",
@@ -5178,7 +5178,7 @@
     },
     "War Magic": {
       "name": "Magia de Guerra",
-      "description": "<p>When you take the Attack action on your turn, you can replace one of the attacks with a casting of one of your Wizard cantrips that has a casting time of an action.</p>"
+      "description": "<p>Cuando usas tu acción para lanzar un truco, puedes hacer un ataque con arma como acción adicional.</p>"
     },
     "War Priest": {
       "name": "Sacerdote de Guerra",
@@ -5324,7 +5324,7 @@
     },
     "Whispers of the Grave": {
       "name": "Susurros de la Tumba",
-      "description": "<blockquote><p>Prerequisite: Level 7+ Warlock</p></blockquote><p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithD]{Speak with Dead} without expending a spell slot.</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithD inline]</p>"
+      "description": "<p>Puedes lanzar @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwith D]{Hablar con Muertos} a voluntad, sin gastar un espacio de conjuro.</p>"
     },
     "Wholeness of Body": {
       "name": "Plenitud del Cuerpo",

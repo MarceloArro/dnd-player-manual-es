@@ -759,7 +759,8 @@
       "description": "<p>Ganas competencia con tres habilidades de tu elección.</p>"
     },
     "Book of Shadows": {
-      "name": "Libro de las Sombras"
+      "name": "Libro de las Sombras",
+      "description": "<p>Has recibido un tomo llamado Libro de las Sombras. Cuando obtienes este rasgo, elige tres trucos de la lista de conjuros de cualquier clase (los tres no tienen que ser de la misma lista). Mientras el libro esté sobre tu persona, puedes lanzar esos trucos a voluntad. No cuentan contra tu número de trucos conocidos. Si no aparecen en la lista de conjuros de brujo, se consideran de brujo para ti.</p><p>Si pierdes tu Libro de las Sombras, puedes realizar una ceremonia de 1 hora para recibir un reemplazo de tu patrón. Esta ceremonia puede realizarse durante un descanso corto o largo, y destruye el libro anterior. El libro se convierte en cenizas cuando mueres.</p>"
     },
     "Branches of the Tree": {
       "name": "Ramas del Árbol",
@@ -1351,7 +1352,7 @@
       },
       "effects": {
         "Multiattack Defense": {
-          "name": "Multiattack Defense"
+          "name": "Defensa contra Ataques Múltiples"
         }
       }
     },
@@ -1561,7 +1562,7 @@
       "description": "<p>Puedes invocar el espíritu de un dragón para que luche junto a ti. Cuando alcanzas el nivel 3 en esta subclase, obtienes los servicios de un Espíritu de Dragón. Este espíritu toma la forma que elijas, usando las estadísticas de Espíritu de Dragón. El dragón es amigable contigo y obedece tus comandos.</p><p>En combate, comparte tu valor de iniciativa, y actúa en su propio turno inmediatamente después del tuyo. El dragón solo puede tomar la acción de Esquivar, a menos que uses una acción adicional en tu turno para ordenarle que realice una acción de su bloque de estadísticas o alguna otra acción.</p><p>Si el dragón ha muerto durante la última hora, puedes usar tu acción para tocarlo e invocar su espíritu de nuevo, devolviéndolo a la vida después de 1 minuto con todos sus puntos de golpe.</p>",
       "activities": {
         "Expend Use": {
-          "name": "Expend Use"
+          "name": "Gastar Uso"
         }
       }
     },
@@ -1573,7 +1574,7 @@
           "name": "Dragon Wings"
         },
         "Restore Use": {
-          "name": "Restore Use"
+          "name": "Restaurar Uso"
         }
       },
       "effects": {
@@ -1689,7 +1690,7 @@
           "name": "Regeneration"
         },
         "Restore Use": {
-          "name": "Restore Use"
+          "name": "Restaurar Uso"
         }
       },
       "effects": {
@@ -1704,7 +1705,7 @@
     },
     "Eldritch Invocations": {
       "name": "Invocaciones Sobrenaturales",
-      "description": "<p>Como estudiante de la magia arcana oculta, puedes elegir invocaciones sobrenaturales que te otorgan habilidades mágicas. Obtienes dos invocaciones de tu elección de las \"Invocaciones Sobrenaturales\" disponibles en la @UUID[.EldrJourn]{Compendio}.</p><p>Cuando subes ciertos niveles de brujo, obtienes invocaciones adicionales de tu elección, como se muestra en la columna de Invocaciones Conocidas de la tabla de Brujo. Una invocación no cuenta contra tu número de invocaciones conocidas si la has reemplazado.</p><p>Cada vez que subes de nivel en esta clase, puedes reemplazar una de tus invocaciones con otra invocación que puedas aprender en ese nivel.</p><p>Si una invocación tiene requisitos previos, debes cumplirlos para aprenderla. Puedes aprender la invocación al mismo tiempo que cumples con sus requisitos previos. Un requisito de nivel se refiere a tu nivel de brujo.</p>"
+      "description": "<p>Como estudiante de la magia arcana oculta, puedes elegir invocaciones sobrenaturales que te otorgan habilidades mágicas. Obtienes dos invocaciones de tu elección de las \"Invocaciones Sobrenaturales\" disponibles en la @UUID[Compendium.dnd-players-handbook.journals.JournalEntry.phbjrnEldrInvoc]{Compendio}.</p><p>Cuando subes ciertos niveles de brujo, obtienes invocaciones adicionales de tu elección, como se muestra en la columna de Invocaciones Conocidas de la tabla de Brujo. Una invocación no cuenta contra tu número de invocaciones conocidas si la has reemplazado.</p><p>Cada vez que subes de nivel en esta clase, puedes reemplazar una de tus invocaciones con otra invocación que puedas aprender en ese nivel.</p><p>Si una invocación tiene requisitos previos, debes cumplirlos para aprenderla. Puedes aprender la invocación al mismo tiempo que cumples con sus requisitos previos. Un requisito de nivel se refiere a tu nivel de brujo.</p>"
     },
     "Eldritch Knight": {
       "name": "Caballero Arcano",
@@ -1869,7 +1870,7 @@
           "name": "Thunder Resistance"
         },
         "Step of the Wind Bonus": {
-          "name": "Step of the Wind Bonus"
+          "name": "Bonificación de Paso del Viento"
         }
       }
     },
@@ -1993,7 +1994,7 @@
       "description": "<p>Lanzar conjuros de adivinación te viene tan fácil que recuperas algo de tu habilidad de lanzamiento al hacerlo. Cuando lanzas un conjuro de adivinación de nivel 2 o superior usando un espacio de conjuro, recuperas un espacio de conjuro gastado. El espacio que recuperas debe ser de un nivel inferior al conjuro que lanzaste y no puede ser superior a nivel 5.</p>",
       "activities": {
         "Regain Spell Slot": {
-          "name": "Regain Spell Slot"
+          "name": "Recuperar Espacio de Conjuro"
         }
       }
     },
@@ -2034,7 +2035,7 @@
           "name": "Thieves' Tools"
         },
         "Use an Object": {
-          "name": "Use an Object"
+          "name": "Usar un Objeto"
         }
       }
     },
@@ -2254,10 +2255,10 @@
       "description": "<p>Accedes a la fuente de magia dentro de ti. Esta fuente está representada por puntos de hechicería que te permiten crear diversos efectos mágicos.</p><p><strong>Puntos de Hechicería.</strong> Tienes 2 puntos de hechicería y obtienes más a medida que alcanzas niveles superiores, según se muestra en la columna de Puntos de Hechicería de la tabla de Hechicero. Nunca puedes tener más puntos de hechicería que los mostrados en esa tabla para tu nivel. Recuperas todos los puntos de hechicería gastados al finalizar un descanso largo.</p><p><strong>Crear Espacios de Conjuro.</strong> Como acción adicional, puedes transformar puntos de hechicería no gastados en un espacio de conjuro. La tabla de Creación de Espacios de Conjuro muestra el coste para crear  un espacio de conjuro de un nivel dado. No puedes crear espacios de conjuro de nivel superior a 5.</p><p><strong>Convertir Espacios de Conjuro.</strong> Como acción adicional, puedes gastar un espacio de conjuro para obtener una cantidad de puntos de hechicería igual al nivel del espacio.</p>",
       "activities": {
         "Regain Spell Slot": {
-          "name": "Regain Spell Slot"
+          "name": "Recuperar Espacio de Conjuro"
         },
         "Regain Sorcery Points": {
-          "name": "Regain Sorcery Points"
+          "name": "Recuper ar Puntos de Hechicería"
         }
       }
     },
@@ -2474,7 +2475,7 @@
           "name": "Holy Nimbus"
         },
         "Regain Use": {
-          "name": "Regain Use"
+          "name": "Recuperar Uso"
         }
       },
       "effects": {
@@ -2514,7 +2515,7 @@
           "condition": "Once per turn when you hit a creature with an attack roll"
         },
         "Regain Use": {
-          "name": "Regain Use"
+          "name": "Recuperar Uso"
         }
       }
     },
@@ -2556,7 +2557,7 @@
           "condition": "When a creature hits you with an attack roll"
         },
         "Restore Use": {
-          "name": "Restore Use"
+          "name": "Restaurar Uso"
         }
       }
     },
@@ -2569,7 +2570,7 @@
       "description": "<p>El daño adicional de tu rasgo Golpes Benditos aumenta a 2d8.</p>",
       "activities": {
         "Potent Spellcasting: Heal": {
-          "name": "Potent Spellcasting: Heal",
+          "name": "Lanzamiento Potente: Curar",
           "condition": "When you cast a Cleric cantrip and deal damage to a creature with it"
         }
       }
@@ -2916,7 +2917,7 @@
       "description": "<p>A partir del nivel 15, puedes potenciar tu presencia en el campo de batalla. Como acción adicional, obtienes los siguientes beneficios durante 1 minuto:</p><p>• Cuando hagas un chequeo de Carisma o salvación de Carisma, puedes usar tu reacción para concederte ventaja en la tirada.</p><p>• Una vez en cada uno de tus turnos cuando falles un ataque con arma, puedes causar que ese ataque golpee en su lugar.</p><p>• Si fallas una salvación, puedes usar tu reacción para tener éxito en su lugar.</p><p>Una vez que uses este rasgo, no puedes hacerlo de nuevo hasta que finalices un descanso largo.</p>",
       "activities": {
         "Restore Use": {
-          "name": "Restore Use"
+          "name": "Restaurar Uso  "
         },
         "Reroll Saving Throw": {
           "name": "Reroll Saving Throw"
@@ -2958,7 +2959,7 @@
       "description": "<p>Puedes realizar este ritual, que toma 1 minuto para completar. Cuando lo hagas, recuperas espacios de conjuro de Magia de Pacto gastados. Una vez que uses este rasgo, no puedes usarlo de nuevo hasta que finalices un descanso largo.</p>",
       "activities": {
         "Regain Pact Spell Slots": {
-          "name": "Regain Pact Spell Slots"
+          "name": "Recuperar Espacios de Conjuro de Pacto"
         }
       }
     },
@@ -2997,7 +2998,7 @@
           "name": "Unearthly Appearance"
         },
         "Restore with Spell Slot": {
-          "name": "Restore with Spell Slot"
+          "name": "Restaurar con Espacio de Conjuro"
         }
       },
       "effects": {
@@ -3019,7 +3020,7 @@
       },
       "effects": {
         "Dexterous Attacks & Martial Arts Damage": {
-          "name": "Dexterous Attacks & Martial Arts Damage",
+          "name": "Ataques Diestros y Daño de Artes Marciales",
           "description": "<p><strong>Martial Arts Die.</strong> You can roll [[lookup @scale.monk.die]] in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.</p><p><strong>Dexterous Attacks.</strong> You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.</p><p></p>",
           "changes": {
             "name": "{} (Martial Arts)"
@@ -3158,7 +3159,7 @@
           "name": "Step of the Wind"
         },
         "Expend Focus Point": {
-          "name": "Expend Focus Point"
+          "name": "Gastar Punto de Foco"
         }
       },
       "effects": {
@@ -3196,7 +3197,7 @@
       "description": "<p>Has aprendido a recuperar algo de tu energía mágica estudiando tu grimorio. Una vez por día cuando finalizas un descanso corto, puedes elegir espacios de conjuro gastados para recuperar. Los espacios de conjuro pueden tener un nivel combinado igual o menor a la mitad de tu nivel de mago (redondeando hacia arriba), y ninguno de los espacios puede ser de nivel 6 o superior.</p>",
       "activities": {
         "Cast Spell": {
-          "name": "Cast Spell"
+          "name": "Lanzar Conjuro"
         },
         "Recover Spell Slots": {
           "name": "Recover Spell Slots",
@@ -3407,11 +3408,11 @@
       "description": "<p>Puedes aumentar el poder de tus conjuros más simples. Cuando lanzas un conjuro de mago de nivel 1 a 5 que causa daño, puedes causar el daño máximo con ese conjuro.</p><p>La primera vez que lo hagas, no sufres ningún efecto adverso. Si usas este rasgo de nuevo antes de finalizar un descanso largo, recibes 2d12 de daño necrótico por cada nivel del conjuro, inmediatamente después de lanzarlo. Cada vez que uses este rasgo de nuevo antes de finalizar un descanso largo, el daño necrótico por nivel de conjuro aumenta en 1d12. Este daño ignora resistencia e inmunidad.</p>",
       "activities": {
         "Second+ Use": {
-          "name": "Second+ Use",
+          "name": "Segundo+ Uso",
           "condition": "When you cast a Wizard spell with a spell slot of levels 1-5 that deals damage"
         },
         "First Use": {
-          "name": "First Use",
+          "name": "Primer Uso",
           "condition": "When you cast a Wizard spell with a spell slot of levels 1-5 that deals damage"
         }
       }
@@ -3646,7 +3647,7 @@
       },
       "effects": {
         "Power of the Wilds: Ram": {
-          "name": "Power of the Wilds: Ram"
+          "name": "Poder de lo Salvaje: Embestir"
         }
       }
     },
@@ -3683,7 +3684,7 @@
           "name": "Command"
         },
         "Restore Companion": {
-          "name": "Restore Companion"
+          "name": "Restaurar Compañero"
         }
       }
     },
@@ -3774,7 +3775,7 @@
       "description": "<p>Cuando lanzas un conjuro usando un espacio de conjuro, puedes lanzar el conjuro usando solo componentes somáticos si normalmente requiere componentes verbales, somáticos o un componente material de 100 PO o menos que el conjuro no consuma.</p><p>Cuando lanzas un conjuro de esta manera, usa tu acción adicional en lugar de tu acción para lanzarlo.</p>",
       "activities": {
         "Expend Sorcery Points": {
-          "name": "Expend Sorcery Points"
+          "name": "Gastar Puntos de Hechicería"
         }
       }
     },
@@ -3881,7 +3882,7 @@
       "description": "<p>Puedes entrar en furia como acción adicional si no llevas armadura pesada.</p><p>Mientras estés enfurecido, obtienes los siguientes beneficios.</p><p><strong>Bonificación de Daño por Furia.</strong> Cuando haces un ataque cuerpo a cuerpo utilizando Fuerza, obtienes una bonificación al tirada de daño, según se indica en la columna de Daño por Furia de la tabla de Bárbaro.</p><p><strong>Resistencia.</strong> Tienes resistencia al daño contundente, cortante y perforante.</p><p><strong>Restricciones de Furia.</strong> Durante tu furia, no puedes lanzar conjuros ni concentrarte en conjuros, y tu habilidad para hablar se reduce (aunque puedes activar objetos mágicos).</p><p>La furia dura 10 minutos o hasta que elijas terminarla como acción adicional. También termina antes de tiempo si quedas inconsciente o si tu turno termina y no has atacado a una criatura hostil desde tu último turno ni has recibido daño desde entonces.</p><p>Has entrado en furia el número de veces mostrado en la columna de Furias de la tabla de Bárbaro para tu nivel. Recuperas todos los usos gastados al finalizar un descanso largo.</p>",
       "activities": {
         "Expend Rage": {
-          "name": "Expend Rage"
+          "name": "Gastar Furia"
         }
       },
       "effects": {
@@ -3907,7 +3908,7 @@
       },
       "effects": {
         "Rage of the Gods": {
-          "name": "Rage of the Gods",
+          "name": "Furia de los Dioses",
           "description": "<p>While in this form, you gain the benefits below.</p><p><strong>Flight.</strong> You have a Fly Speed equal to your Speed and can hover.</p><p><strong>Resistance.</strong> You have Resistance to Necrotic, Psychic, and Radiant damage.</p><p><strong>Revivification.</strong> When a creature within 30 feet of you would drop to 0 Hit Points, you can take a Reaction to expend a use of your Rage to instead change the target's Hit Points to a number equal to your Barbarian level.</p>"
         }
       }
@@ -3928,10 +3929,10 @@
       },
       "effects": {
         "Rage of the Bear": {
-          "name": "Rage of the Bear"
+          "name": "Furia del Oso"
         },
         "Rage of the Wolf": {
-          "name": "Rage of the Wolf",
+          "name": "Furia del Lobo",
           "description": "<p>Your allies have Advantage on attack rolls against any enemy of yours within 5 feet of you.</p>"
         }
       }
@@ -4105,7 +4106,7 @@
       "description": "<p>Puedes liberar las aberraciones ocultas dentro de tu cuerpo. Como acción adicional, puedes gastar un uso de tu Forma Salvaje para ganar el siguiente beneficio de tu elección durante 10 minutos:</p><p>• Puedes comprimir tu cuerpo lo suficiente para moverte a través de un espacio tan estrecho como 2,5 centímetros de ancho.</p><p>• Obtienes Visión Verdadera con un alcance de 18 metros.</p><p>• Obtienes velocidad de natación igual a dos veces tu velocidad de caminar, y puedes respirar bajo el agua.</p><p>• Tus extremidades se vuelven más largas y tentaculadas. Tu alcance aumenta en 1,5 metros, y una vez en cada uno de tus turnos cuando golpees a una criatura a 1,5 metros de ti, puedes causar 1d8 de daño adicional al objetivo.</p>",
       "activities": {
         "Expend Sorcery Points": {
-          "name": "Expend Sorcery Points"
+          "name": "Gastar Puntos de Hechicería"
         }
       },
       "effects": {
@@ -4116,7 +4117,7 @@
           "name": "Glistening Flight"
         },
         "See the Invisible": {
-          "name": "See the Invisible"
+          "name": "Ver lo Invisible"
         },
         "Wormlike Movement": {
           "name": "Wormlike Movement"
@@ -4268,7 +4269,7 @@
       "description": "<p>Puedes usar tu foco para duplicar los efectos de ciertos conjuros. Como acción, puedes gastar 2 puntos de foco para lanzar Oscuridad, Pasar sin Rastro o Silencio, sin necesidad de componentes materiales. Además, obtienes el truco Ilusión Menor si aún no lo conoces.</p>",
       "activities": {
         "Expend Focus Point": {
-          "name": "Expend Focus Point"
+          "name": "Gastar Punto de Foco"
         }
       },
       "effects": {
@@ -4309,10 +4310,10 @@
           "name": "Hacer Firma"
         },
         "Expend First Spell": {
-          "name": "Expend First Spell"
+          "name": "Gastar Primer Conjuro"
         },
         "Expend Second Spell": {
-          "name": "Expend Second Spell"
+          "name": "Gastar Segundo Conjuro"
         }
       },
       "effects": {
@@ -4390,7 +4391,7 @@
       "description": "<p>Recuperas 4 puntos de hechicería gastados cuando finalizas un descanso corto.</p>",
       "activities": {
         "Restore Sorcery Points": {
-          "name": "Restore Sorcery Points"
+          "name": "Restaurar Puntos de Hechicería"
         }
       }
     },
@@ -4399,7 +4400,7 @@
       "description": "<p>Cuando lanzas un conjuro de nivel 1 o superior usando un espacio de conjuro, puedes usar una acción adicional en ese turno para lanzar un conjuro de hechicero de nivel 1 o inferior que tengas preparado.</p>",
       "activities": {
         "Restore Innate Sorcery": {
-          "name": "Restore Innate Sorcery"
+          "name": "Restaurar Hechicería Innata"
         }
       }
     },
@@ -4752,7 +4753,7 @@
       "description": "<p>Has desarrollado pensamiento estratégico. Cuando falles un chequeo de habilidad, puedes gastar un uso de Superioridad y añadir el resultado a la tirada, potencialmente convirtiendo el fallo en éxito.</p>",
       "activities": {
         "Expend Second Wind": {
-          "name": "Expend Second Wind",
+          "name": "Gastar Segundo Aliento",
           "roll": "Bonus",
           "condition": "When you fail an ability check"
         }
@@ -5172,7 +5173,7 @@
       "description": "<p>Cuando una criatura a 9 metros de ti hace una tirada de ataque, puedes usar tu reacción para conceder a esa criatura un bonificador de +10 a la tirada, usando tu Canalizar Divinidad. Haces esta elección después de ver la tirada, pero antes de que el DM diga si el ataque acierta o falla.</p>",
       "activities": {
         "Expend Channel Divinity": {
-          "name": "Expend Channel Divinity"
+          "name": "Gastar Canalizar Divinidad"
         }
       }
     },
@@ -5185,7 +5186,7 @@
       "description": "<p>Desde el nivel 1, tu dios te entrega estallidos de inspiración divina mientras estás en combate. Cuando uses la acción de Ataque, puedes hacer un ataque con arma como acción adicional. Puedes usar este rasgo un número de veces igual a tu modificador por Sabiduría (mínimo una vez). Recuperas todos los usos gastados cuando finalices un descanso largo.</p>",
       "activities": {
         "Expend Use": {
-          "name": "Expend Use"
+          "name": "Gastar Uso"
         }
       }
     },
@@ -5360,11 +5361,11 @@
       "description": "<p>Puedes usar una acción adicional en tu turno para restaurar puntos de hechicería a tu grupo de Puntos de Hechicería. Obtienes puntos de hechicería igual a un d4, y puedes darles esta cantidad a un aliado a 18 metros que tenga Puntos de Hechicería. Si nadie los acepta en 1 minuto, los puntos se pierden.</p><p>Una vez que uses este rasgo, no puedes usarlo de nuevo hasta que finalices un descanso largo.</p>",
       "activities": {
         "Regain Spell Slot": {
-          "name": "Regain Spell Slot",
+          "name": "Recuperar Espacio de Conjuro",
           "condition": "Once on each of your turns"
         },
         "Regain Wild Shape": {
-          "name": "Regain Wild Shape",
+          "name": "Recuperar Forma Salvaje",
           "condition": "Once on each of your turns"
         }
       }

@@ -778,7 +778,7 @@
     },
     "Brutal Strike": {
       "name": "Golpe Brutal",
-      "description": "<p>Si usas Ataque Temerario, puedes renunciar a tu ventaja en rollos de ataque durante tu turno. El primer ataque que golpees en este turno debe usar Fuerza, y obtienes una opción de Golpe Brutal de tu elección. Obtienes una opción adicional en los niveles 9 y 13.</p>",
+      "description": "<p>Si usas Ataque Temerario, puedes renunciar a tu ventaja en tiradas de ataque durante tu turno. El primer ataque que golpees en este turno debe usar Fuerza, y obtienes una opción de Golpe Brutal de tu elección. Obtienes una opción adicional en los niveles 9 y 13.</p><p><strong>Golpe Contundente.</strong> El objetivo debe hacer una tirada de salvación de Constitución o tendrá desventaja en tiradas de ataque hasta el inicio de tu próximo turno.</p><p><strong>Golpe Derribador.</strong> El objetivo debe hacer una tirada de salvación de Fuerza o caerá derribado.</p><p><strong>Golpe Empujador.</strong> Puedes empujar al objetivo hasta 4,5 metros en línea recta lejos de ti.</p><p>La CD de salvación es igual a 8 + tu bonificador por competencia + tu modificador por Fuerza.</p>",
       "activities": {
         "Brutal Strike": {
           "name": "Brutal Strike"
@@ -1389,7 +1389,7 @@
     },
     "Devil's Sight": {
       "name": "Visión del Diablo",
-      "description": "<blockquote><p>Prerequisite: Level 2+ Warlock</p></blockquote><p>You can see normally in Dim Light and Darkness—both magical and nonmagical—within 120 feet of yourself.</p><section class=\"secret\" id=\"secret-RVsijULbRFU2b9ZU\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect that grants you darkvision to 120 feet.</p></section>",
+      "description": "<p>Puedes ver normalmente en oscuridad, tanto mágica como no mágica, hasta una distancia de 36 metros.</p><p>Dentro de ese rango, puedes ver en oscuridad como si fuera luz brillante, y en penumbra como si fuera luz brillante.</p>",
       "effects": {
         "Devil's Sight": {
           "name": "Devil's Sight"
@@ -1733,7 +1733,7 @@
     },
     "Eldritch Mind": {
       "name": "Mente Sobrenatural",
-      "description": "<p>You have Advantage on Constitution saving throws that you make to maintain Concentration.</p>",
+      "description": "<p>Tienes ventaja en tiradas de salvación de Constitución que hagas para mantener tu concentración en un conjuro.</p>",
       "effects": {
         "Concentration Advantage": {
           "name": "Concentration Advantage"
@@ -1752,7 +1752,7 @@
     },
     "Eldritch Spear": {
       "name": "Lanza Sobrenatural",
-      "description": "<blockquote><p>Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage</p></blockquote><p>Choose one of your known Warlock cantrips that deals damage and has a range of 10+ feet. When you cast that spell, its range increases by a number of feet equal to 30 times your Warlock level.</p><p><strong>Repeatable.</strong> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p><section id=\"secret-7hr3xIfya7IOq7pj\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>Use the <strong>Increase Range</strong> enchantment activity and drag your chosen cantrip to the chat card to increase its range and append \", Eldritch Spear\" for easier identification.</p></section>",
+      "description": "<p>Cuando lanzas Descarga Sobrenatural, su alcance es de 90 metros.</p>",
       "activities": {
         "Increase Range": {
           "name": "Increase Range"
@@ -1896,7 +1896,7 @@
     },
     "Empowered Evocation": {
       "name": "Evocación Potenciada",
-      "description": "<p>Puedes añadir tu modificador por Inteligencia al daño de cualquier conjuro de Evocación de mago que lances.</p>",
+      "description": "<p>Puedes añadir tu modificador por Inteligencia a una tirada de daño de cualquier conjuro de Evocación de mago que lances. El bonificador al daño se aplica a una tirada de daño del conjuro, no a múltiples tiradas.</p>",
       "activities": {
         "damage": {
           "condition": "Whenever you cast a Wizard spell from the Evocation school"
@@ -1934,7 +1934,7 @@
     },
     "Epic Boon": {
       "name": "Don Épico",
-      "description": "<p>Obtienes una @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Dote de Don Épico} (consulta el capítulo 5) u otra dote de tu elección para la que cumplas las condiciones.</p>"
+      "description": "<p>Obtienes un @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{talento de don épico} u otro talento de tu elección para el que cumplas los requisitos. Se recomienda @UUID[Compendium.dnd-players-handbook.feats.Item.phbBoonofIrresis]{Don de Ofensiva Irresistible}.</p>"
     },
     "Evasion": {
       "name": "Evasión",
@@ -2071,7 +2071,7 @@
     },
     "Feral Senses": {
       "name": "Sentidos Salvajes",
-      "description": "<p>Your connection to the forces of nature grants you Blindsight with a range of 30 feet.</p><section class=\"secret\" id=\"secret-g31kKSDLrDEpbpbo\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which upgrades your Blindsight to 30 feet if you do not already have it.</p></section>",
+      "description": "<p>Obtienes sentidos preternaturales que te ayudan a luchar contra criaturas que no puedes ver. Cuando atacas a una criatura que no puedes ver, tu incapacidad de verla no impone desventaja en tus tiradas de ataque contra ella.</p><p>También eres consciente de la ubicación de cualquier criatura invisible a 9 metros de ti, siempre que esa criatura no esté escondida de ti y no estés cegado ni ensordecido.</p>",
       "effects": {
         "Feral Senses": {
           "name": "Feral Senses"
@@ -2170,7 +2170,7 @@
     },
     "Fiendish Vigor": {
       "name": "Vigor Infernal",
-      "description": "<blockquote><p>Prerequisite: Level 2+ Warlock</p></blockquote><p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]{False Life} on yourself without expending a spell slot. When you cast the spell with this feature, you don’t roll the die for the Temporary Hit Points; you automatically get the highest number on the die.</p><section class=\"secret\" id=\"secret-9kRkRSKEmbOaga6L\"><p><strong>Foundry Note</strong></p><p>The <strong>False Life</strong> activity includes the maximum amount of healing.</p></section>",
+      "description": "<p>Puedes lanzar @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]{Falsa Vida} sobre ti mismo a voluntad como un conjuro de nivel 1, sin gastar un espacio de conjuro o componentes materiales.</p><p>Cada vez que lances el conjuro de esta manera, obtienes 1d4 + 4 puntos de golpe temporales durante 1 hora.</p>",
       "activities": {
         "False Life": {
           "name": "False Life"
@@ -2276,7 +2276,7 @@
     },
     "Gaze of Two Minds": {
       "name": "Mirada de Dos Mentes",
-      "description": "<blockquote><p>Prerequisite: Level 5+ Warlock</p></blockquote><p>You can use a Bonus Action to touch a willing creature and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can take a Bonus Action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. The connection ends if you don’t maintain it in this way.</p><p>While perceiving through the other creature’s senses, you benefit from any special senses possessed by that creature, and you can cast spells as if you were in your space or the other creature’s space if the two of you are within 60 feet of each other.</p>",
+      "description": "<p>Puedes usar tu acción para tocar a un humanoide voluntario y percibir a través de sus sentidos hasta el final de tu próximo turno. Mientras la criatura esté en el mismo plano de existencia que tú, puedes usar tu acción en turnos subsiguientes para mantener esta conexión, extendiendo la duración hasta el final de tu próximo turno. Mientras percibes a través de los sentidos de la otra criatura, te beneficias de cualquier sentido especial que posea esa criatura, y estás cegado y ensordecido a tu propio entorno.</p>",
       "activities": {
         "Gaze of Two Minds": {
           "name": "Gaze of Two Minds"
@@ -2464,7 +2464,7 @@
     },
     "Heroic Warrior": {
       "name": "Guerrero Heroico",
-      "description": "<p>The thrill of battle drives you toward victory. During combat, you can give yourself Heroic Inspiration whenever you start your turn without it.</p>"
+      "description": "<p>La emoción de la batalla te impulsa hacia la victoria. Durante el combate, puedes darte Inspiración Heroica cuando comiences tu turno sin ella.</p>"
     },
     "Holy Nimbus": {
       "name": "Nimbo Sagrado",
@@ -2611,7 +2611,7 @@
     },
     "Improved Combat Superiority": {
       "name": "Superioridad en Combate Mejorada",
-      "description": "<p>Your Superiority Die becomes a d10.</p>"
+      "description": "<p>Tu Dado de Superioridad se convierte en un d10.</p>"
     },
     "Improved Critical": {
       "name": "Crítico Mejorado",
@@ -2663,7 +2663,7 @@
     },
     "Indomitable": {
       "name": "Indomable",
-      "description": "<p>If you fail a saving throw, you can reroll it with a bonus equal to your Fighter level (currently, [[lookup @classes.fighter.levels]]). You must use the new roll, and you can't use this feature again until you finish a Long Rest.</p><p>You can use this feature twice before a Long Rest starting at level 13 and three times before a Long Rest starting at level 17.</p><section class=\"secret\" id=\"secret-eVLmL8YfOocgD4rC\"><p><strong>Foundry Note</strong></p><p>This feature's maximum usages scale automatically as you level up.</p></section>",
+      "description": "<p>Puedes volver a tirar una tirada de salvación que falles. Si lo haces, debes usar la nueva tirada, y no puedes usar este rasgo de nuevo hasta que finalices un descanso largo.</p><p>Puedes usar este rasgo dos veces entre descansos largos a partir del nivel 13 y tres veces entre descansos largos a partir del nivel 17.</p>",
       "activities": {
         "utility": {
           "roll": "Bonus"
@@ -2672,11 +2672,11 @@
     },
     "Indomitable Might": {
       "name": "Poderío Indomable",
-      "description": "<p>If your total for a Strength check or Strength saving throw is less than your Strength score, you can use that score in place of the total.</p>"
+      "description": "<p>Si tu tirada total de un chequeo de Fuerza es menor que tu puntuación de Fuerza, puedes usar esa puntuación en lugar de la tirada.</p>"
     },
     "Infiltration Expertise": {
       "name": "Pericia en Infiltración",
-      "description": "<p>You are expert at the following techniques that aid your infiltrations.</p><p><strong>Masterful Mimicry.</strong> You can unerringly mimic another person’s speech, handwriting, or both if you have spent at least 1 hour studying them.</p><p><strong>Roving Aim.</strong> Your Speed isn’t reduced to 0 by using Steady Aim.</p>"
+      "description": "<p>Puedes crear de forma infalible identidades falsas para ti mismo. Debes pasar siete días y 25 PO para establecer la historia, profesión y afiliaciones de una identidad. No puedes establecer una identidad que pertenezca a alguien más. Por ejemplo, podrías adquirir ropa apropiada, cartas de presentación y documentos con aspecto oficial para establecerte como un miembro de una casa comercial desde una ciudad remota para que puedas infiltrarte en la compañía de otros mercaderes ricos.</p><p>A partir de entonces, si adoptas la nueva identidad como disfraz, otras criaturas creen que eres esa persona hasta que se les dé una razón obvia para no hacerlo.</p>"
     },
     "Innate Sorcery": {
       "name": "Hechicería Innata",
@@ -2714,7 +2714,7 @@
     },
     "Instinctive Pounce": {
       "name": "Salto Instintivo",
-      "description": "<p>As part of the Bonus Action you take to enter your Rage, you can move up to half your Speed.</p>"
+      "description": "<p>Como parte de la acción adicional que realizas para entrar en tu Furia, puedes moverte hasta la mitad de tu velocidad.</p>"
     },
     "Intimidating Presence": {
       "name": "Presencia Intimidante",
@@ -2876,7 +2876,7 @@
     },
     "Life Domain Spells": {
       "name": "Conjuros del Dominio de la Vida",
-      "description": "<p>La magia de tu dominio asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel especificado en la tabla de Conjuros del Dominio de la Vida, a partir de entonces siempre tienes los conjuros indicados preparados.</p>"
+      "description": "<p>La magia de tu dominio asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de clérigo especificado en la tabla de Conjuros del Dominio de la Vida, a partir de entonces siempre tienes los conjuros indicados preparados.</p><table><caption>Conjuros del Dominio de la Vida</caption><thead><tr><td>Nivel de Clérigo</td><td>Conjuros</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAid0000000]{Aid}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBless000000]{Bless}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds]{Cure Wounds}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest]{Lesser Restoration}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMassHealing]{Mass Healing Word}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRevivify00]{Revivify}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAuraofLife]{Aura of Life}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDeathWard0]{Death Ward}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Greater Restoration}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMassC ureWo]{Mass Cure Wounds}</td></tr></tbody></table>"
     },
     "Lifedrinker": {
       "name": "Bebedor de Vida",
@@ -2909,7 +2909,7 @@
     },
     "Light Domain Spells": {
       "name": "Conjuros del Dominio de la Luz",
-      "description": "<p>La magia de tu dominio asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel especificado en la tabla de Conjuros del Dominio de la Luz, a partir de entonces siempre tienes los conjuros indicados preparados.</p>"
+      "description": "<p>La magia de tu dominio asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de clérigo especificado en la tabla de Conjuros del Dominio de la Luz, a partir de entonces siempre tienes los conjuros indicados preparados.</p><table><caption>Conjuros del Dominio de la Luz</caption><thead><tr><td>Nivel de Clérigo</td><td>Conjuros</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBurningHan]{Burning Hands}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFairyFire0]{Faerie Fire}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFlamingSph]{Flaming Sphere}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLight00000]{Light}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScorchingRa]{Scorching Ray}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDaylight00]{Daylight}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{Fireball}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuardianof]{Guardian of Faith}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofFire]{Wall of Fire}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFlameSt rike]{Flame Strike}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScrying0000]{Scrying}</td></tr></tbody></table>"
     },
     "Living Legend": {
       "name": "Leyenda Viviente",
@@ -2968,7 +2968,7 @@
     },
     "Magical Secrets": {
       "name": "Secretos Mágicos",
-      "description": "<p>Has saqueado conocimiento mágico de una amplia gama de disciplinas. Elige dos conjuros de cualquier clase, incluida esta. Un conjuro que elijas debe ser de un nivel que puedas lanzar, según se muestra en la tabla de Bardo, o un truco.</p><p>Los conjuros elegidos cuentan como conjuros de bardo para ti y se incluyen en el número de la columna de Conjuros Conocidos de la tabla de Bardo.</p><p>Aprendes dos conjuros adicionales de cualquier clase en el nivel 14 y nuevamente en el nivel 18.</p>"
+      "description": "<p>Has saqueado conocimiento mágico de una amplia gama de disciplinas. Elige dos conjuros de cualquier clase, incluida esta. Un conjuro que elijas debe ser de un nivel que puedas lanzar, como se muestra en la tabla de Bardo, o un truco.</p><p>Los conjuros elegidos cuentan como conjuros de bardo para ti y se incluyen en el número de la columna Conjuros Conocidos de la tabla de Bardo.</p><p>Aprendes dos conjuros adicionales de cualquier clase en el nivel 14 y de nuevo en el nivel 18.</p>"
     },
     "Maneuvering Attack": {
       "name": "Ataque con Maniobra",
@@ -2991,7 +2991,7 @@
     },
     "Mantle of Majesty": {
       "name": "Manto de Majestad",
-      "description": "<p>You always have the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]{Command} spell prepared.</p><p>As a Bonus Action, you cast <em>Command</em> without expending a spell slot, and you take on an unearthly appearance for 1 minute or until your Concentration ends. During this time, you can cast <em>Command</em> as a Bonus Action without expending a spell slot.</p><p>Any creature &amp;Reference[Charmed] by you automatically fails its saving throw against the <em>Command</em> you cast with this feature.</p><p>Once you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a level 3+ spell slot (no action required).</p><section class=\"secret\" id=\"secret-MMFYPO9Is3ifsQRP\"><p><strong>Foundry Note</strong></p><p>The <strong>Restore with Spell Slot</strong> activity grants an additional use of this feature.</p><p>The spells are automatically added to your sheet as Always Prepared.</p></section>",
+      "description": "<p>Obtienes la capacidad de envolverte en un glamour feérico. Como acción adicional, lanzas Ordenar, sin gastar un espacio de conjuro, y tomas la apariencia de belleza sobrenatural durante 1 minuto o hasta que tu concentración termine (como si estuvieras concentrándote en un conjuro). Durante este tiempo, puedes lanzar Ordenar como acción adicional en cada uno de tus turnos, sin gastar un espacio de conjuro.</p><p>Una vez que uses este rasgo, no puedes usarlo de nuevo hasta que finalices un descanso largo.</p>",
       "activities": {
         "Unearthly Appearance": {
           "name": "Unearthly Appearance"
@@ -3193,7 +3193,7 @@
     },
     "Natural Recovery": {
       "name": "Recuperación Natural",
-      "description": "<p>You can cast one of the level 1+ spells that you have prepared from your Circle Spells feature without expending a spell slot, and you must finish a Long Rest before you do so again.</p><p>In addition, when you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your Druid level (round up, currently [[lookup @classes.druid.levels]]), and none of them can be level 6+. For example, if you're a level 6 Druid, you can recover up to three levels' worth of spell slots. You can recover a level 3 spell slot, a level 2 and a level 1 spell slot, or three level 1 spell slots. Once you recover spell slots with this feature, you can't do so again until you finish a Long Rest.</p><section class=\"secret\" id=\"secret-xLFXthYlJ7wwFlSS\"><p><strong>Foundry Note</strong></p><p>The <strong>Cast Spell</strong> activity can be used to track its single free use.</p><p>The <strong>Recover Spell Slot</strong> activity does not automate the restoration of spell slots but can be used for tracking its own single use.</p></section>",
+      "description": "<p>Has aprendido a recuperar algo de tu energía mágica estudiando tu grimorio. Una vez por día cuando finalizas un descanso corto, puedes elegir espacios de conjuro gastados para recuperar. Los espacios de conjuro pueden tener un nivel combinado igual o menor a la mitad de tu nivel de mago (redondeando hacia arriba), y ninguno de los espacios puede ser de nivel 6 o superior.</p>",
       "activities": {
         "Cast Spell": {
           "name": "Cast Spell"
@@ -3250,7 +3250,7 @@
     },
     "Nature's Ward": {
       "name": "Protección Natural",
-      "description": "<p>No puedes ser hechizado o asustado por elementales o fey, y eres inmune al veneno y enfermedad.</p>",
+      "description": "<p>No puedes ser hechizado o asustado por elementales o fey, y eres inmune al veneno y enfermedad.</p><p>Además, mientras estés en tu terreno predilecto, el terreno difícil no te ralentiza y tienes ventaja en iniciativa y en el primer turno de combate si aún no has actuado.</p>",
       "effects": {
         "Nature's Ward": {
           "name": "Nature's Ward"
@@ -3292,7 +3292,7 @@
     },
     "Oath of Devotion Spells": {
       "name": "Conjuros del Juramento de Entrega",
-      "description": "<p>La magia de tu juramento asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel especificado en la tabla de Conjuros del Juramento de Devoción, a partir de entonces siempre tienes los conjuros indicados preparados.</p>"
+      "description": "<p>La magia de tu juramento asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de paladín especificado en la tabla de Conjuros del Juramento de Devoción, a partir de entonces siempre tienes los conjuros indicados preparados.</p><table><caption>Conjuros del Juramento de Devoción</caption><thead><tr><td>Nivel de Paladín</td><td>Conjuros</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplProtection]{Protection from Evil and Good}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShieldofFai]{Shield of Faith}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAid0000000]{Aid}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplZoneofTruth]{Zone of Truth}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBeaconofH o]{Beacon of Hope}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagic]{Dispel Magic}</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofMo]{Freedom of Movement}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuardianof]{Guardian of Faith}</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommune0000]{Commune}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFlameSt rike]{Flame Strike}</td></tr></tbody></table>"
     },
     "Oath of Glory": {
       "name": "Juramento de Gloria",
@@ -3308,7 +3308,7 @@
     },
     "Oath of Glory Spells": {
       "name": "Conjuros del Juramento de Gloria",
-      "description": "<p>La magia de tu juramento asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel especificado en la tabla de Conjuros del Juramento de Gloria, a partir de entonces siempre tienes los conjuros indicados preparados.</p>"
+      "description": "<p>La magia de tu juramento asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de paladín especificado en la tabla de Conjuros del Juramento de Gloria, a partir de entonces siempre tienes los conjuros indicados preparados.</p><table><caption>Conjuros del Juramento de Gloria</caption><thead><tr><td>Nivel de Paladín</td><td>Conjuros</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnhanceAbil]{Enhance Ability}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidi ngBolt]{Guiding Bolt}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicWeapon]{Magic Weapon}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWardingBond]{Warding Bond}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHaste000000]{Haste}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplProtectionf]{Protection from Energy}</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCompulsion0]{Compulsion}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofMo]{Freedom of Movement}</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommune0000]{Commune}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFlameSt rike]{Flame Strike}</td></tr></tbody></table>"
     },
     "Oath of Vengeance": {
       "name": "Juramento de Venganza",
@@ -3324,7 +3324,7 @@
     },
     "Oath of Vengeance Spells": {
       "name": "Conjuros del Juramento de Venganza",
-      "description": "<p>La magia de tu juramento asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel especificado en la tabla de Conjuros del Juramento de Venganza, a partir de entonces siempre tienes los conjuros indicados preparados.</p>"
+      "description": "<p>La magia de tu juramento asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de paladín especificado en la tabla de Conjuros del Juramento de Venganza, a partir de entonces siempre tienes los conjuros indicados preparados.</p><table><caption>Conjuros del Juramento de Venganza</caption><thead><tr><td>Nivel de Paladín</td><td>Conjuros</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBane0000000]{Bane}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHuntersMark]{Hunter's Mark}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{Hold Person}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Misty Step}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHaste000000]{Haste}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplProtectionf]{Protection from Energy}</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBanishment0]{Banishment}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDimensionDo]{Dimension Door}</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldMonster]{Hold Monster}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScrying0000]{Scrying}</td></tr></tbody></table>"
     },
     "Oath of the Ancients": {
       "name": "Juramento de los Antiguos",
@@ -3340,7 +3340,7 @@
     },
     "Oath of the Ancients Spells": {
       "name": "Conjuros del Juramento de los Antiguos",
-      "description": "<p>La magia de tu juramento asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel especificado en la tabla de Conjuros del Juramento de los Antiguos, a partir de entonces siempre tienes los conjuros indicados preparados.</p>"
+      "description": "<p>La magia de tu juramento asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de paladín especificado en la tabla de Conjuros del Juramento de los Antiguos, a partir de entonces siempre tienes los conjuros indicados preparados.</p><table><caption>Conjuros del Juramento de los Antiguos</caption><thead><tr><td>Nivel de Paladín</td><td>Conjuros</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnt angle00]{Entangle}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithAn]{Speak with Animals}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Misty Step}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMoonbeam000]{Moonbeam}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPlantGrowth]{Plant Growth}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplProtectionf]{Protection from Energy}</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIce Storm00]{Ice Storm}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStoneskin00]{Stoneskin}</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommune0000]{Commune}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTreeStride0]{Tree Stride}</td></tr></tbody></table>"
     },
     "Oceanic Gift": {
       "name": "Don Oceánico",
@@ -3568,7 +3568,7 @@
     },
     "Peerless Skill": {
       "name": "Habilidad Sin Par",
-      "description": "<p>When you make an ability check or attack roll and fail, you can expend one use of Bardic Inspiration; roll the Bardic Inspiration die, and add the number rolled to the d20, potentially turning a failure into a success. On a failure, the Bardic Inspiration isn't expended.</p>",
+      "description": "<p>Cuando hagas un chequeo de habilidad, puedes gastar un uso de Inspiración de Bardo. Tira un dado de Inspiración de Bardo y añade el número obtenido a tu chequeo de habilidad. Puedes elegir hacerlo después de tirar el dado pero antes de que el DM te diga si tienes éxito o fracaso.</p>",
       "activities": {
         "utility": {
           "roll": "Bardic Inspiration",
@@ -3582,7 +3582,7 @@
     },
     "Persistent Rage": {
       "name": "Furia Persistente",
-      "description": "<p>When you roll Initiative, you can regain all expended uses of Rage. After you regain uses of Rage in this way, you can't do so again until you finish a Long Rest.</p><p>In addition, your Rage is so fierce that it now lasts for 10 minutes without you needing to do anything to extend it from round to round. Your Rage ends early if you have the &amp;Reference[Unconscious] condition (not just the &amp;Reference[Incapacitated] condition) or don Heavy armor.</p><section class=\"secret\" id=\"secret-3IS0iUbWZ04tp74k\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity which can be used when you roll Initiative which will recharge all of your Rage uses.</p></section>",
+      "description": "<p>Tu furia es tan feroz que solo termina antes de tiempo si quedas inconsciente o si eliges terminarla.</p>",
       "activities": {
         "Recharge Rage on Initiative": {
           "name": "Recharge Rage on Initiative",
@@ -3652,7 +3652,7 @@
     },
     "Precise Hunter": {
       "name": "Cazador Preciso",
-      "description": "<p>You have Advantage on attack rolls against the creature currently marked by your Hunter’s Mark.</p>"
+      "description": "<p>Tienes ventaja en tiradas de ataque contra la criatura actualmente marcada por tu Marca del Cazador.</p>"
     },
     "Precision Attack": {
       "name": "Ataque Preciso",
@@ -3670,7 +3670,7 @@
     },
     "Primal Champion": {
       "name": "Campeón Primigenio",
-      "description": "<p>You embody primal power. Your Strength and Constitution scores increase by 4, to a maximum of 25.</p>"
+      "description": "<p>Encarnas el poder de la naturaleza salvaje. Tus puntuaciones de Fuerza y Constitución aumentan en 4. Tu máximo para esas puntuaciones ahora es 24.</p>"
     },
     "Primal Companion": {
       "name": "Compañero Primigenio",
@@ -3689,7 +3689,7 @@
     },
     "Primal Knowledge": {
       "name": "Conocimiento Primigenio",
-      "description": "<p>Obtienes competencia en una habilidad de tu elección de la lista de habilidades disponibles para bárbaros en el nivel 1.</p>",
+      "description": "<p>Obtienes competencia en una habilidad de tu elección de la lista de habilidades disponibles para bárbaros en el nivel 1.</p><p>En el nivel 10, puedes usar tu acción para elegir automáticamente tener éxito en un chequeo de Sabiduría (Supervivencia) o Inteligencia (Naturaleza). Puedes usar este beneficio un número de veces igual a tu modificador por Sabiduría (mínimo una vez). Recuperas todos los usos gastados cuando finalizas un descanso largo.</p>",
       "effects": {
         "Primal Knowledge": {
           "name": "Primal Knowledge"
@@ -3996,7 +3996,7 @@
     },
     "Relentless": {
       "name": "Incansable",
-      "description": "<p>Once per turn, when you use a maneuver, you can roll [[/r 1d8]] and use the number rolled instead of expending a Superiority Die.</p>"
+      "description": "<p>Cuando tiras iniciativa y no tienes usos de Inspiración de Bardo restantes, recuperas un uso.</p>"
     },
     "Relentless Avenger": {
       "name": "Vengador Incansable",
@@ -4014,11 +4014,11 @@
     },
     "Relentless Hunter": {
       "name": "Cazador Incansable",
-      "description": "<p>Taking damage can’t break your Concentration on Hunter’s Mark.</p>"
+      "description": "<p>Recibir daño no puede romper tu concentración en Marca del Cazador.</p>"
     },
     "Relentless Rage": {
       "name": "Furia Incansable",
-      "description": "<p>Your Rage can keep you fighting despite grievous wounds. If you drop to 0 Hit Points while your Rage is active and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, your Hit Points instead change to a number equal to twice your Barbarian level.</p><p>Each time you use this feature after the first, the DC increases by 5. When you finish a Short or Long Rest, the DC resets to 10.</p><section class=\"secret\" id=\"secret-GTpuSHXh1ZobcQYd\"><p><strong>Foundry Note</strong></p><p>This feature will automatically increase the DC by 5 if you consume the resource when activating it. It will also automatically reset to 10 after a Short or Long Rest.</p></section>"
+      "description": "<p>Tu furia puede mantenerte luchando a pesar de heridas graves. Si caes a 0 puntos de golpe mientras estás enfurecido y no mueres directamente, puedes hacer una tirada de salvación de Constitución CD 10. Si tienes éxito, caes a 1 punto de golpe en su lugar.</p><p>Cada vez que uses este rasgo después de la primera, la CD aumenta en 5. Cuando finalices un descanso corto o largo, la CD se reinicia a 10.</p>"
     },
     "Reliable Talent": {
       "name": "Talento Confiable",
@@ -4031,7 +4031,7 @@
     },
     "Remarkable Athlete": {
       "name": "Atleta Extraordinario",
-      "description": "<p>Thanks to your athleticism, you have Advantage on Initiative rolls and Strength (Athletics) checks.</p><p>In addition, immediately after you score a Critical Hit, you can move up to half your Speed without provoking Opportunity Attacks.</p><section class=\"secret\" id=\"secret-uyi38uA0t76MZ3Ae\"><p><strong>Foundry Note</strong></p><p>This feature automatically grants Advantage on Initiative rolls.</p></section>",
+      "description": "<p>Puedes añadir la mitad de tu bonificador por competencia (redondeado hacia arriba) a cualquier chequeo de Fuerza, Destreza o Constitución que hagas que no use ya tu bonificador por competencia.</p><p>Además, cuando hagas un salto de longitud con carrera, la distancia que puedes cubrir aumenta en una cantidad de pies igual a tu modificador por Fuerza.</p>",
       "effects": {
         "Remarkable Athlete": {
           "name": "Remarkable Athlete"
@@ -4092,7 +4092,7 @@
     },
     "Retaliation": {
       "name": "Represalia",
-      "description": "<p>When you take damage from a creature that is within 5 feet of you, you can take a Reaction to make one melee attack against that creature, using a weapon or an Unarmed Strike.</p>",
+      "description": "<p>Cuando recibes daño de una criatura a 1,5 metros de ti, puedes usar tu reacción para hacer un ataque con arma cuerpo a cuerpo contra esa criatura.</p>",
       "activities": {
         "Retaliate": {
           "name": "Retaliate",
@@ -4195,7 +4195,7 @@
     },
     "Sacred Weapon": {
       "name": "Arma Sagrada",
-      "description": "<p>When you take the Attack action, you can expend one use of your Channel Divinity to imbue one Melee weapon that you are holding with positive energy. For 10 minutes or until you use this feature again, you add your Charisma modifier to attack rolls you make with that weapon (minimum bonus of +1), and each time you hit with it, you cause it to deal its normal damage type or Radiant damage.</p><p>The weapon also emits Bright Light in a 20-foot radius and Dim Light 20 feet beyond that.</p><p>You can end this effect early (no action required). This effect also ends if you aren’t carrying the weapon.</p>",
+      "description": "<p>Como acción, puedes imbuir un arma que empuñes con energía positiva, usando tu Canalizar Divinidad. Durante 1 minuto, añades tu modificador por Carisma a las tiradas de ataque hechas con esa arma (con un bonificador mínimo de +1). El arma también emite luz brillante en un radio de 6 metros y luz tenue 6 metros más allá. Si el arma no es ya mágica, se vuelve mágica durante la duración.</p><p>Puedes terminar este efecto en tu turno como parte de cualquier otra acción. Si ya no empuñas o portas el arma, o si quedas inconsciente, este efecto termina.</p>",
       "effects": {
         "Sacred Weapon": {
           "name": "Sacred Weapon",
@@ -4620,7 +4620,7 @@
     },
     "Superior Critical": {
       "name": "Crítico Superior",
-      "description": "<p>Your attack rolls with weapons and Unarmed Strikes can now score a Critical Hit on a roll of 18–20 on the d20.</p><section id=\"secret-zQkYyojU3VNzw6kH\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature automatically increases the Critical Hit threshold to 18.</p></section>",
+      "description": "<p>Tus ataques con armas obtienen un golpe crítico con una tirada de 18-20 en el d20.</p>",
       "effects": {
         "Superior Critical": {
           "name": "Superior Critical"
@@ -4706,11 +4706,11 @@
     },
     "Supreme Sneak": {
       "name": "Sigilo Supremo",
-      "description": "<p>You gain the following Cunning Strike option.</p><p><strong>Stealth Attack (Cost: 1d6).</strong> If you have the &amp;Reference[Hide] action’s Invisible condition, this attack doesn’t end that condition on you if you end the turn behind &amp;Reference[Three-Quarters Cover] or &amp;Reference[Total Cover].</p>"
+      "description": "<p>Tienes ventaja en chequeos de Destreza (Sigilo) si te mueves no más de la mitad de tu velocidad en el mismo turno.</p>"
     },
     "Survivor": {
       "name": "Superviviente",
-      "description": "<p>You attain the pinnacle of resilience in battle, giving you these benefits.</p><p><strong>Defy Death.</strong> You have Advantage on Death Saving Throws. Moreover, when you roll 18–20 on a Death Saving Throw, you gain the benefit of rolling a 20 on it.</p><p><strong>Heroic Rally.</strong> At the start of each of your turns, you regain Hit Points equal to 5 plus your Constitution modifier if you are Bloodied and have at least 1 Hit Point.</p><section class=\"secret\" id=\"secret-z1Nr871ifr67hchm\"><p><strong>Foundry Note</strong></p><p>This feature does not automate the Death Saving Throw changes to rolling an 18 or 19, but does include Advantage automation. It includes an activity for healing but does not automatically add it when you are Bloodied.</p></section>",
+      "description": "<p>Alcanzas la cúspide de la resistencia en batalla. Al inicio de cada uno de tus turnos, recuperas puntos de golpe iguales a 5 + tu modificador por Constitución si no tienes más de la mitad de tus puntos de golpe. No obtienes este beneficio si tienes 0 puntos de golpe.</p>",
       "activities": {
         "Heroic Rally": {
           "name": "Heroic Rally",
@@ -4872,7 +4872,7 @@
     },
     "Three Extra Attacks": {
       "name": "Tres Ataques Adicionales",
-      "description": "<p>You can attack four times instead of once whenever you take the Attack action on your turn.</p>"
+      "description": "<p>Puedes atacar cuatro veces en lugar de una cuando realizas la acción de Ataque en tu turno.</p>"
     },
     "Tides of Chaos": {
       "name": "Mareas del Caos",
@@ -4945,7 +4945,7 @@
     },
     "Trickery Domain Spells": {
       "name": "Conjuros del Dominio del Engaño",
-      "description": "<p>La magia de tu dominio asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel especificado en la tabla de Conjuros del Dominio del Engaño, a partir de entonces siempre tienes los conjuros indicados preparados.</p>"
+      "description": "<p>La magia de tu dominio asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de clérigo especificado en la tabla de Conjuros del Dominio del Engaño, a partir de entonces siempre tienes los conjuros indicados preparados.</p><table><caption>Conjuros del Dominio del Engaño</caption><thead><tr><td>Nivel de Clérigo</td><td>Conjuros</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{Charm Person}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSel]{Disguise Self}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili]{Invisibility}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou]{Pass without Trace}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBestowCurs]{Bestow Curse}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHypnoticPat]{Hypnotic Pattern}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConfusion0]{Confusion}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDimensionDo]{Dimension Door}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDominatePe]{Dominate Person}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplModifyMemor]{Modify Memory}</td></tr></tbody></table>"
     },
     "Trickster's Transposition": {
       "name": "Transposición del Tramposo",
@@ -4986,11 +4986,11 @@
     },
     "Two Extra Attacks": {
       "name": "Dos Ataques Adicionales",
-      "description": "<p>You can attack three times instead of once whenever you take the Attack action on your turn.</p>"
+      "description": "<p>Puedes atacar tres veces en lugar de una cuando realizas la acción de Ataque en tu turno.</p>"
     },
     "Ultimate Combat Superiority": {
       "name": "Superioridad en Combate Suprema",
-      "description": "<p>Your Superiority Die becomes a d12.</p>"
+      "description": "<p>Tu Dado de Superioridad se convierte en un d12.</p>"
     },
     "Umbral Sight": {
       "name": "Vista Umbral",
@@ -5029,7 +5029,7 @@
     },
     "Unarmored Movement": {
       "name": "Movimiento sin Armadura",
-      "description": "<p>Your speed increases by 10 feet while you aren't wearing armor or wielding a Shield. This bonus increases when you reach certain Monk levels, as shown on the Monk Features table.</p><p><strong>Current Increase:</strong> [[lookup @scale.monk.unarmored-movement]]</p><section id=\"secret-2fH97uVacHRVqDCo\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Unarmored Movement Active Effect which adds 10 feet to your Movement. It can not automatically update as you level up though. You can edit the value to match your current increase.</p></section>",
+      "description": "<p>Tu velocidad aumenta en 3 metros mientras no lleves armadura ni uses escudo. Este bonificador aumenta cuando alcanzas ciertos niveles de monje, como se muestra en la tabla de Monje.</p><p>En el nivel 9, obtienes la capacidad de moverte a lo largo de paredes verticales y sobre líquidos en tu turno sin caer durante el movimiento.</p>",
       "effects": {
         "Unarmored Movement": {
           "name": "Unarmored Movement"
@@ -5056,7 +5056,7 @@
     },
     "Uncanny Dodge": {
       "name": "Esquiva Asombrosa",
-      "description": "<p>Cuando un atacante que puedas ver te golpea con un ataque, puedes usar tu reacción para reducir a la mitad el daño del ataque contra ti.</p>",
+      "description": "<p>Cuando un atacante que puedas ver te golpea con un ataque, puedes usar tu reacción para reducir a la mitad el daño del ataque contra ti.</p><p>Si reduces el daño a 0 de esta manera y tienes al menos una mano libre, puedes atrapar el proyectil (si se usó uno en el ataque).</p>",
       "activities": {
         "Uncanny Dodge": {
           "name": "Uncanny Dodge",
@@ -5085,7 +5085,7 @@
     },
     "Use Magic Device": {
       "name": "Usar Objeto Mágico",
-      "description": "<p>You’ve learned how to maximize use of magic items, granting you the following benefits.</p><p><strong>Attunement.</strong> You can attune to up to four magic items at once.</p><p><strong>Charges.</strong> Whenever you use a magic item property that expends charges, roll [[/r 1d6]]. On a roll of 6, you use the property without expending the charges.</p><p><strong>Scrolls.</strong> You can use any <em>Spell Scroll,</em> using Intelligence as your spellcasting ability for the spell. If the spell is a cantrip or a level 1 spell, you can cast it reliably. If the scroll contains a higher-level spell, you must first succeed on an [[/skill arc]] check (DC 10 plus the spell’s level). On a successful check, you cast the spell from the scroll. On a failed check, the scroll disintegrates.</p><section class=\"secret\" id=\"secret-2tHTpsolDU6Nggvo\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect that automatically increases your attunement maximum.</p><p>When using an item property that expends charges roll the d6 and uncheck the consumption box to use it for free.</p></section>",
+      "description": "<p>Has aprendido lo suficiente sobre el funcionamiento de la magia que puedes improvisar el uso de objetos incluso cuando no están destinados para ti. Ignoras todos los requisitos de clase, raza y nivel en el uso de objetos mágicos.</p><p>Además, puedes usar objetos mágicos que normalmente requerirían el uso de un espacio de conjuro, como varitas o bastones, usando tu propia habilidad innata con objetos mágicos en lugar del lanzamiento de conjuros tradicional.</p>",
       "effects": {
         "Attunement Bonus": {
           "name": "Attunement Bonus",
@@ -5165,7 +5165,7 @@
     },
     "War Domain Spells": {
       "name": "Conjuros del Dominio de la Guerra",
-      "description": "<p>La magia de tu dominio asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel especificado en la tabla de Conjuros del Dominio de la Guerra, a partir de entonces siempre tienes los conjuros indicados preparados.</p>"
+      "description": "<p>La magia de tu dominio asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de clérigo especificado en la tabla de Conjuros del Dominio de la Guerra, a partir de entonces siempre tienes los conjuros indicados preparados.</p><table><caption>Conjuros del Dominio de la Guerra</caption><thead><tr><td>Nivel de Clérigo</td><td>Conjuros</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDivineFavo]{Divine Favor}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicWeapon]{Magic Weapon}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShieldofFai]{Shield of Faith}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpiritualWe]{Spiritual Weapon}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCrusadersM]{Crusader's Mantle}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpiritGua rd]{Spirit Guardians}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofMo]{Freedom of Movement}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStoneskin00]{Stoneskin}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFlameSt rike]{Flame Strike}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldMonster]{Hold Monster}</td></tr></tbody></table>"
     },
     "War God's Blessing": {
       "name": "Bendición del Dios de la Guerra",
@@ -5430,7 +5430,7 @@
     },
     "Words of Creation": {
       "name": "Palabras de la Creación",
-      "description": "<p>You have mastered two of the Words of Creation: the words of life and death. You therefore always have the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPowerWordH]{Power Word Heal} and @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPowerWordK]{Power Word Kill} spells prepared. When you cast either spell, you can target a second creature with it if that creature is within 10 feet of the first target.</p><section id=\"secret-aHHp3ZnTrWPHHB7j\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You are automatically granted these spells as you level up.</p></section>",
+      "description": "<p>Has aprendido a infundir sabiduría primigenia en tu música y discursos. Cuando lanzas un conjuro de bardo que causa daño de trueno o radiante, puedes cambiar el tipo de daño a fuerza.</p><p>Además, cuando causes daño de fuerza con un conjuro de bardo, ignoras resistencia a ese daño.</p>",
       "advancement": {
         "Words of Life and Death": {
           "title": "Palabras de Vida y Muerte"

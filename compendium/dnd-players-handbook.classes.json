@@ -1538,17 +1538,17 @@
     },
     "Draconic Sorcery": {
       "name": "Hechicería Dracónica",
-      "description": "<blockquote><p>Breathe the Magic of Dragons</p></blockquote><p>Your innate magic comes from the gift of a dragon. Perhaps an ancient dragon facing death bequeathed some of its magical power to you or your ancestor. You might have absorbed magic from a site infused with dragons’ power. Or perhaps you handled a treasure taken from a dragon’s hoard that was steeped in draconic power. Or you might have a dragon for an ancestor.</p>",
+      "description": "<blockquote><p>El poder dracónico hierve en tus venas</p></blockquote><p>Tu magia innata proviene de la magia dracónica que se mezcló con tu sangre o la de tus ancestros. Algunos hechiceros dracónicos pueden rastrear su linaje hasta un poderoso dragón.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
         },
         "Draconic Spells": {
-          "title": "Draconic Spells",
-          "hint": "When you reach a Sorcerer level specified in the Draconic Spells table, you thereafter always have the listed spells prepared."
+          "title": "Conjuros Dracónicos",
+          "hint": "Cuando alcanzas un nivel de hechicero especificado en la tabla de Conjuros Dracónicos, a partir de entonces siempre tendrás preparados los conjuros indicados."
         },
         "8UnvG3X4TR3MpCGe": {
-          "hint": "Your draconic magic has an affinity with a damage type associated with dragons. Choose one of those types: Acid, Cold, Fire, Lightning, or Poison.\n                \n                You have Resistance to that damage type."
+          "hint": "Tu magia dracónica tiene afinidad con un tipo de daño asociado a los dragones. Elige uno de estos tipos: Ácido, Frío, Fuego, Relámpago o Veneno.\n                \n                Tienes resistencia a ese tipo de daño."
         }
       }
     },
@@ -2864,7 +2864,7 @@
     },
     "Life Domain": {
       "name": "Dominio de la Vida",
-      "description": "<blockquote><p>Soothe the Hurts of the World</p></blockquote><p>The Life Domain focuses on the positive energy that helps sustain all life in the multiverse. Clerics who tap into this domain are masters of healing, using that life force to cure many hurts.</p><p>Existence itself relies on the positive energy associated with this domain, so a Cleric of almost any religious tradition might choose it. This domain is particularly associated with agricultural deities, gods of healing or endurance, and gods of home and community. Religious orders of healing also seek the magic of this domain.</p>",
+      "description": "<blockquote><p>Canaliza energía vital hacia tus aliados</p></blockquote><p>El dominio de la vida se centra en la fuerza vital vibrante que sostiene el mundo. Los clérigos de este dominio son maestros de la curación y preservan la vida en todas sus formas.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -2897,7 +2897,7 @@
     },
     "Light Domain": {
       "name": "Dominio de la Luz",
-      "description": "<blockquote><p>Bring Light to Banish Darkness</p></blockquote><p>The Light Domain emphasizes the divine power to bring about blazing fire and revelation. Clerics who wield this power are enlightened souls infused with radiance and the power of their deities' discerning vision, charged with chasing away lies and burning away darkness.</p><p>The Light Domain is associated with gods of truth, vigilance, beauty, insight, and renewal. Some of these gods are identified with the sun or as charioteers who guide the sun across the sky. Others are sentinels who pierce deception. Some are deities of beauty and artistry who teach that art is a vehicle for the soul's improvement.</p>",
+      "description": "<blockquote><p>Arde con el resplandor radiante de la luz</p></blockquote><p>Los dioses de la luz promueven ideales de renacimiento, renovación, verdad, vigilancia y belleza. Los clérigos de este dominio portan luz a donde sea que vayan, quemando la oscuridad.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -3280,7 +3280,7 @@
     },
     "Oath of Devotion": {
       "name": "Juramento de Entrega",
-      "description": "<blockquote><p>Uphold the Ideals of Justice and Order</p></blockquote><p>The Oath of Devotion binds Paladins to the ideals of justice and order. These Paladins meet the archetype of the knight in shining armor. They hold themselves to the highest standards of conduct, and some—for better or worse—hold the rest of the world to the same standards.</p><p>Many who swear this oath are devoted to gods of law and good and use their gods’ tenets as the measure of personal devotion. Others hold angels as their ideals and incorporate images of angelic wings into their helmets or coats of arms.</p><p>These paladins share the following tenets:</p><ul><li>Let your word be your promise.</li><li>Protect the weak and never fear to act.</li><li>Let your honorable deeds be an example.</li></ul>",
+      "description": "<blockquote><p>Defiende los más altos ideales</p></blockquote><p>El Juramento de Devoción vincula a un paladín con los ideales más elevados de justicia, virtud y orden. Estos paladines ejemplifican al caballero de brillante armadura que actúa con honor en busca de la justicia y el bien mayor.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -3296,7 +3296,7 @@
     },
     "Oath of Glory": {
       "name": "Juramento de Gloria",
-      "description": "<blockquote><p>Strive for the Heights of Heroism</p></blockquote><p>Paladins who take the Oath of Glory believe they and their companions are destined to achieve glory through deeds of heroism. They train diligently and encourage their companions, so they’re all ready when destiny calls.</p><p>These paladins share the following tenets:</p><ul><li>Endeavor to be known by your deeds.</li><li>Face hardships with courage.</li><li>Inspire others to strive for glory.</li></ul>",
+      "description": "<blockquote><p>Esfuérzate por la gloria legendaria</p></blockquote><p>Los paladines que hacen el Juramento de Gloria creen que ellos y sus compañeros están destinados a lograr la gloria a través de hazañas de armas y se esfuerzan por realizar hechos legendarios.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -3312,7 +3312,7 @@
     },
     "Oath of Vengeance": {
       "name": "Juramento de Venganza",
-      "description": "<p>The Oath of Vengeance is a solemn commitment to punish those who have committed grievously evil acts. When evil armies slaughter helpless villagers, when a tyrant defies the will of the gods, when a thieves’ guild grows too violent, when a dragon rampages through the countryside—at times like these, paladins arise and swear an Oath of Vengeance to set right what has gone wrong.</p><p>These paladins share the following tenets:</p><ul><li>Show the wicked no mercy.</li><li>Fight injustice and its causes.</li><li>Aid those harmed by injustice.</li></ul>",
+      "description": "<blockquote><p>Castiga a los malhechores a cualquier costo</p></blockquote><p>El Juramento de Venganza es un compromiso solemne de castigar a aquellos que han cometido actos gravemente malvados. Los paladines que hacen este juramento no muestran piedad a los malvados.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -3328,7 +3328,7 @@
     },
     "Oath of the Ancients": {
       "name": "Juramento de los Antiguos",
-      "description": "<p>The Oath of the Ancients is as old as the first elves. Paladins who swear this oath cherish the light; they love the beautiful and life-giving things of the world more than any principles of honor, courage, and justice. They often adorn their armor and clothing with images of growing things—leaves, antlers, or flowers—to reflect their commitment to preserving life and light.</p><p>These paladins share the following tenets:</p><ul><li>Kindle the light of hope.</li><li>Shelter life.</li><li>Delight in art and laughter.</li></ul>",
+      "description": "<blockquote><p>Preserva la vida y la luz en el mundo</p></blockquote><p>El Juramento de los Antiguos es tan antiguo como los primeros elfos. Los paladines que hacen este juramento aprecian la luz y aman las cosas bellas y dadoras de vida del mundo más que cualquier principio de honor, coraje y justicia.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -4933,7 +4933,7 @@
     },
     "Trickery Domain": {
       "name": "Dominio del Engaño",
-      "description": "<blockquote><p>Make Mischief and Challenge Authority</p></blockquote><p>The Trickery Domain offers magic of deception, illusion, and stealth. Clerics who wield this magic are a disruptive force in the world, puncturing pride, mocking tyrants, freeing captives, and flouting hollow traditions. They prefer subterfuge and pranks to direct confrontation.</p><p>Gods of trickery are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They embody the forces of change and social upheaval, and they're patrons of thieves, scoundrels, gamblers, rebels, and liberators. Religious orders that operate in secret, especially those that seek to undermine oppressive governments or hierarchies, also draw on the power of the Trickery Domain.</p>",
+      "description": "<blockquote><p>Prospera en el engaño y la ilusión</p></blockquote><p>Los dioses del engaño son protectores de los tramposos y pícaros. Sus clérigos son una fuerza disruptiva en el mundo, usando trucos y mentiras para alcanzar sus objetivos.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -5153,7 +5153,7 @@
     },
     "War Domain": {
       "name": "Dominio de la Guerra",
-      "description": "<blockquote><p>Inspire Valor and Smite Foes</p></blockquote><p>War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. Clerics who tap into the magic of the War Domain excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers.</p><p>Gods of the War Domain watch over warriors and reward them for their great deeds. They include champions of honor and chivalry as well as gods of destruction and pillage. Other war gods take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance.</p>",
+      "description": "<blockquote><p>Invoca el poder de la guerra</p></blockquote><p>La guerra tiene muchas manifestaciones. Puede convertir a gente ordinaria en héroes. Puede ser desesperada y horrorosa, con actos de crueldad que eclipsan cualquier atisbo de gloria. Los clérigos de este dominio sobresalen en batalla.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -5344,7 +5344,7 @@
     },
     "Wild Magic Sorcery": {
       "name": "Hechicería de Magia Salvaje",
-      "description": "<blockquote><p>Unleash Chaotic Magic</p></blockquote><p>Your innate magic stems from the forces of chaos that underlie the order of creation. You or an ancestor might have endured exposure to raw magic, perhaps through a planar portal leading to Limbo or the Elemental Planes. Perhaps you were blessed by a fey being or marked by a demon. Or your magic could be a fluke with no apparent cause. Whatever its source, this magic churns within you, waiting for any outlet.</p>",
+      "description": "<blockquote><p>La magia caótica fluye a través de ti</p></blockquote><p>Tu magia innata proviene de las fuerzas salvajes delcaos que subyacen al orden de la creación. Podrías haber sido expuesto a magia cruda del Limbo o de otra manera marcado por la magia salvaje.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"

@@ -1430,7 +1430,7 @@
     },
     "Devouring Blade": {
       "name": "Hoja Devoradora",
-      "description": "<blockquote><p>Prerequisite: Level 12+ Warlock, @UUID[Compendium.dnd-players-handbook.classes.Item.phbinvThirstingB]{Thirsting Blade} Invocation</p></blockquote><p>The Extra Attack of your Thirsting Blade invocation confers two extra attacks rather than one.</p>"
+      "description": "<p><strong>Prerrequisito:</strong> Nivel 9+ de Brujo, invocación @UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactBlade0]{Pacto de la Hoja}</p><p>Tu arma de pacto inflige daño necrótico adicional igual a tu modificador por Carisma (mínimo 1).</p>"
     },
     "Disarming Attack": {
       "name": "Ataque Desarmante",
@@ -1475,7 +1475,7 @@
     },
     "Divination Savant": {
       "name": "Experto en Adivinación",
-      "description": "<p>Choose two Wizard spells from the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Divination school} (change the Grouping mode to \"School\" for easier selection), each of which must be no higher than level 2, and add them to your spellbook for free.</p><p>In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Divination school to your spellbook for free. The chosen spell must be of a level for which you have spell slots.</p>"
+      "description": "<p>El oro y el tiempo que debes gastar para copiar un conjuro de Adivinación en tu grimorio se reduce a la mitad.</p>"
     },
     "Divine Fury": {
       "name": "Furia Divina",
@@ -1585,7 +1585,7 @@
     },
     "Dread Ambusher": {
       "name": "Emboscador Terrible",
-      "description": "<p>You have mastered the art of creating fearsome ambushes, granting you the following benefits.</p><p><strong>Ambusher’s Leap.</strong> At the start of your first turn of each combat, your Speed increases by 10 feet until the end of that turn.</p><p><strong>Dreadful Strike.</strong> When you attack a creature and hit it with a weapon, you can deal an extra 2d6 Psychic damage. You can use this benefit only once per turn, you can use it a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p><p><strong>Initiative Bonus.</strong> When you roll Initiative, you can add your Wisdom modifier to the roll.</p><section class=\"secret\" id=\"secret-QF11lzzOLRLzoSrk\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automatically adds your Wisdom modifier to your Initiative roll.</p><p>The <strong>Dreadful Strike</strong> activity includes the additional damage and tracks your limited number of uses. It's damage will automatically increase when you gain the @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrStalkersFl]{Stalker's Flurry} feature.</p><p>The <strong>Ambusher's Leap</strong> activity includes an Active Effect that can be used to increase your Speed by 10 feet.</p></section>",
+      "description": "<p>A partir del nivel 3, dominas el arte de la iniciativa. Puedes añadir tu modificador por Sabiduría a tus tiradas de iniciativa.</p><p>En tu primer turno de cada combate, tu velocidad de caminar aumenta en 3 metros, que dura hasta el final del turno. Si realizas la acción de Ataque en ese turno, puedes hacer un ataque con arma adicional como parte de esa acción. Si ese ataque golpea, el objetivo recibe 1d8 de daño adicional del tipo de daño del arma.</p>",
       "activities": {
         "Dreadful Strike": {
           "name": "Dreadful Strike",
@@ -1607,7 +1607,7 @@
     },
     "Dreadful Strikes": {
       "name": "Golpes Terribles",
-      "description": "<p>You can augment your weapon strikes with mind-scarring magic drawn from the murky hollows of the Feywild. When you hit a creature with a weapon, you can deal an extra 1d4 Psychic damage to the target, which can take this extra damage only once per turn. The extra damage increases to 1d6 when you reach Ranger level 11.</p><section id=\"secret-4bJV0nAffRomytFv\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Damage</strong> activity includes the extra damage. It automatically scales as you level up.</p></section>",
+      "description": "<p>Obtienes la habilidad de infundir tus ataques con magia psíquica. Una vez en cada uno de tus turnos cuando golpees a una criatura con un ataque de arma, puedes causar 1d6 de daño psíquico adicional al objetivo. Cuando alcances el nivel 11 en esta clase, el daño adicional aumenta a 2d6.</p><p>También puedes causar que el objetivo quede asustado de ti hasta el inicio de tu próximo turno, a menos que tenga éxito en una tirada de salvación de Sabiduría contra tu CD de conjuros de brujo. No puedes usar este rasgo en la misma criatura más de una vez por combate.</p>",
       "activities": {
         "damage": {
           "condition": "When you hit a creature with a weapon"
@@ -1680,7 +1680,7 @@
     },
     "Elder Champion": {
       "name": "Campeón Anciano",
-      "description": "<p>As a Bonus Action, you can imbue your Aura of Protection with primal power, granting the benefits below for 1 minute or until you end them (no action required). Once you use this feature, you can’t use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).</p><p><strong>Diminish Defiance.</strong> Enemies in the aura have Disadvantage on saving throws against your spells and Channel Divinity options.</p><p><strong>Regeneration.</strong> At the start of each of your turns, you regain 10 Hit Points.</p><p><strong>Swift Spells.</strong> Whenever you cast a spell that has a casting time of an action, you can cast it using a Bonus Action instead.</p><section id=\"secret-EKKHqruZyH8NdBEa\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Elder Champion</strong> activity will consume a use and includes an Active Effect which can be used for tracking creatures impacted by Diminished Defense.</p><p>The <strong>Regeneration</strong> activity includes the 10 Hit Points you can regain each turn.</p><p>The <strong>Restore Use</strong> activity will consume a 5th level spell slot and restore a use of this feature.</p></section>",
+      "description": "<p>A partir del nivel 20, puedes asumir la forma de una fuerza ancestral de la naturaleza, tomando una apariencia que elijas. Por ejemplo, tu piel podría volverse verde o adoptar una textura de corteza, tu cabello podría volverse frondoso o musgo, o podrías brotar astas o una melena de león.</p><p>Usando tu acción, experimentas una transformación. Durante 1 minuto, obtienes los siguientes beneficios:</p><p>• Al inicio de cada uno de tus turnos, recuperas 10 puntos de golpe.</p><p>• Siempre que lances un conjuro de paladín de nivel 1 o superior, recuperas puntos de golpe iguales a 5 + el nivel del conjuro.</p><p>• Las criaturas enemigas a 3 metros de ti tienen desventaja en tiradas de salvación contra tus conjuros de paladín y opciones de Canalizar Divinidad.</p><p>Una vez que uses este rasgo, no puedes usarlo de nuevo hasta que finalices un descanso largo.</p>",
       "activities": {
         "Elder Champion": {
           "name": "Elder Champion"
@@ -1700,7 +1700,7 @@
     },
     "Eldritch Hex": {
       "name": "Maleficio Sobrenatural",
-      "description": "<p>Your alien patron grants you a powerful curse. You always have the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000]{Hex} spell prepared. When you cast <em>Hex</em> and choose an ability, the target also has Disadvantage on saving throws of the chosen ability for the duration of the spell.</p><section id=\"secret-yj97DsFIc6iBEaTL\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The spell is automatically added to your sheet when you level up.</p></section>"
+      "description": "<p><strong>Prerrequisito:</strong> Nivel 5+ de Brujo, el conjuro @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000]{Maleficio} o un rasgo de Brujo que maldiga</p><p>Tu maldición crea un vínculo temporal de energía negativa entre ti y tu objetivo. Como acción adicional, puedes causar que la maldición salte mágicamente del objetivo a una criatura diferente. La nueva criatura debe estar a 9 metros del objetivo anterior y dentro de tu línea de visión. Cuando el vínculo salta, el objetivo anterior ya no está afectado por la maldición.</p>"
     },
     "Eldritch Invocations": {
       "name": "Invocaciones Sobrenaturales",
@@ -1742,7 +1742,7 @@
     },
     "Eldritch Smite": {
       "name": "Castigo Sobrenatural",
-      "description": "<blockquote><p>Prerequisite: Level 5+ Warlock, @UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactBlade0]{Pact of the Blade} Invocation</p></blockquote><p>Once per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra 1d8 Force damage to the target, plus another 1d8 per level of the spell slot, and you can give the target the &amp;Reference[Prone] condition if it is Huge or smaller.</p><section class=\"secret\" id=\"secret-AoE71IXdo0xg5OKe\"><p><strong>Foundry Note</strong></p><p>The <strong>Smite</strong> activity consumes a Pact Magic spell slot and increases the damage based on your pact spell level.</p></section>",
+      "description": "<p><strong>Prerrequisito:</strong> Nivel 5+ de Brujo, invocación @UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactBlade0]{Pacto de la Hoja}</p><p>Una vez por turno cuando golpees a una criatura con tu arma de pacto, puedes gastar un espacio de conjuro de Magia de Pacto para causar 1d8 de daño de fuerza adicional al objetivo, más otro 1d8 por nivel del espacio de conjuro, y puedes darle a la criatura la condición Derribado si es de tamaño Enorme o menor.</p>",
       "activities": {
         "Smite": {
           "name": "Smite",
@@ -1879,7 +1879,7 @@
     },
     "Elemental Fury: Potent Spellcasting": {
       "name": "Furia Elemental: Lanzamiento de Conjuros Potente",
-      "description": "<p>Add your Wisdom modifier to the damage you deal with any Druid cantrip (currently, [[lookup @abilities.wis.mod]]).</p><section class=\"secret\" id=\"secret-kC2Lr5eZe550Tams\"><p><strong>Foundry Note</strong></p><p>This feature does not automate the addition of the Wisdom modifier to Druid cantrips.</p></section>"
+      "description": "<p>Puedes añadir tu modificador por Sabiduría al daño que causes con cualquier truco de clérigo que lances.</p>"
     },
     "Elemental Fury: Primal Strike": {
       "name": "Furia Elemental: Golpe Primigenio",
@@ -1958,7 +1958,7 @@
     },
     "Evocation Savant": {
       "name": "Experto en Evocación",
-      "description": "<p>Choose two Wizard spells from the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Evocation school} (change the Grouping mode to \"School\" for easier selection), each of which must be no higher than level 2, and add them to your spellbook for free.</p><p>In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Evocation school to your spellbook for free. The chosen spell must be of a level for which you have spell slots.</p>"
+      "description": "<p>El oro y el tiempo que debes gastar para copiar un conjuro de Evocación en tu grimorio se reduce a la mitad.</p>"
     },
     "Evoker": {
       "name": "Evocador",
@@ -1971,7 +1971,7 @@
     },
     "Exceptional Training": {
       "name": "Entrenamiento Excepcional",
-      "description": "<p>When you take a Bonus Action to command your Primal Companion beast to take an action, you can also command it to take the &amp;Reference[Dash], &amp;Reference[Disengage], &amp;Reference[Dodge], or &amp;Reference[Help] action using its Bonus Action.</p><p>In addition, whenever it hits with an attack roll and deals damage, it can deal your choice of Force damage or its normal damage type.</p><section class=\"secret\" id=\"secret-dFb0uteASfxCBh4m\"><p><strong>Foundry Note</strong></p><p>The <strong>Train Companion</strong> enchantment activity is designed to be applied to your Companion's \"Beast's Strike\" item and adds the option of Force damage to that Action's damage roll configuration.</p></section>",
+      "description": "<p>A partir del nivel 11, en cualquiera de tus turnos cuando tu compañero no ataque, puedes usar una acción adicional para ordenarle que realice la acción de Tablero, Esquivar o Ayuda en su turno.</p>",
       "activities": {
         "Command Companion": {
           "name": "Command Companion"
@@ -1990,7 +1990,7 @@
     },
     "Expert Divination": {
       "name": "Adivinación Experta",
-      "description": "<p>Casting Divination spells comes so easily to you that it expends only a fraction of your spellcasting efforts. When you cast a Divination spell using a level 2+ spell slot, you regain one expended spell slot. The slot you regain must be of a level lower than the slot you expended and can’t be higher than level 5.</p><section id=\"secret-3GhzknSyDHXd6hjN\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You can manually regain the expended spell slot or use the <strong>Regain Spell Slot</strong> activity which will prompt you for the slot to restore.</p></section>",
+      "description": "<p>Lanzar conjuros de adivinación te viene tan fácil que recuperas algo de tu habilidad de lanzamiento al hacerlo. Cuando lanzas un conjuro de adivinación de nivel 2 o superior usando un espacio de conjuro, recuperas un espacio de conjuro gastado. El espacio que recuperas debe ser de un nivel inferior al conjuro que lanzaste y no puede ser superior a nivel 5.</p>",
       "activities": {
         "Regain Spell Slot": {
           "name": "Regain Spell Slot"
@@ -2053,7 +2053,7 @@
     },
     "Feinting Attack": {
       "name": "Ataque con Finta",
-      "description": "<p>As a Bonus Action, you can expend one Superiority Die to feint, choosing one creature within 5 feet of yourself as your target. You have Advantage on your next attack roll against that target this turn. If that attack hits, add the Superiority Die to the attack's damage roll.</p><section class=\"secret\" id=\"secret-SPgOlwvOGiFCmygG\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for tracking the target but it does not automate the Advantage.</p><p>The <strong>Damage</strong> activity allows you to select the type of damage it should deal in the roll dialog.</p></section>",
+      "description": "<p>Puedes gastar un Dado de Superioridad y usar una acción adicional en tu turno para fingir, eligiendo una criatura a 1,5 metros de ti como tu objetivo. Tienes ventaja en tu próxima tirada de ataque contra esa criatura este turno. Si ese ataque acierta, añade el Dado de Superioridad a la tirada de daño del ataque.</p>",
       "effects": {
         "Feinted": {
           "name": "Feinted"
@@ -2295,7 +2295,7 @@
     },
     "Gift of the Protectors": {
       "name": "Don de los Protectores",
-      "description": "<blockquote><p>Prerequisite: Level 9+ Warlock, @UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactTome00]{Pact of the Tome} Invocation</p></blockquote><p>A new page appears in your @UUID[Compendium.dnd5e.items.Item.CwWbeQ6XyqFzbMYw]{Book of Shadows} when you conjure it. With your permission, a creature can take an action to write its name on that page, which can contain a number of names equal to your Charisma modifier (minimum of one name).</p><p>When any creature whose name is on the page is reduced to 0 Hit Points but not killed outright, the creature magically drops to 1 Hit Point instead. Once this magic is triggered, no creature can benefit from it until you finish a Long Rest.</p><p>As a Magic action, you can erase a name on the page by touching it.</p><section id=\"secret-VzLQ7nRPLs0fIkvE\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Protect</strong> activity consumes a use of its activity which refreshes every Long Rest.</p><p>The <strong>Write Name</strong> activity consumes a use of the item which can be used for tracking how many names you've written down.</p><p>The <strong>Erase Name</strong> activity will restore a use of the item and allows you to add another name.</p></section>",
+      "description": "<p>En el nivel 15, puedes vincular almas en un pacto de protección mutua. Obtienes un libro especial cuyas páginas están en blanco. Al final de un descanso largo, toque el libro con un nombre de hasta 6 criaturas consentidoras (incluyéndote potencialmente a ti mismo), inscribiéndolas mágicamente en el libro durante las próximas 24 horas. Mientras estés dentro de 30 pies de una criatura inscrita, cuando esa criatura caiga a 0 puntos de golpe, puedes usar tu reacción para caer a 1 punto de golpe en su lugar. Una vez que tu reacción salve a una criatura de esta manera, no puedes salvarla de nuevo hasta que finalices un descanso largo.</p>",
       "activities": {
         "Protect": {
           "name": "Protect",
@@ -2311,7 +2311,7 @@
     },
     "Gloom Stalker": {
       "name": "Acechador en la Penumbra",
-      "description": "<blockquote><p>Draw on Shadow Magic to Fight Your Foes</p></blockquote><p>Gloom Stalkers are at home in the darkest places, wielding magic drawn from the Shadowfell to combat enemies that lurk in darkness.</p>",
+      "description": "<p>Has perfeccionado el arte de cazar en la oscuridad. Obtienes visión en la oscuridad hasta un alcance de 18 metros. Si ya tienes visión en la oscuridad, su alcance aumenta en 18 metros.</p><p>Además, eres invisible para cualquier criatura que dependa de visión en la oscuridad para verte en esa oscuridad.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -2334,7 +2334,7 @@
     },
     "Glorious Defense": {
       "name": "Defensa Gloriosa",
-      "description": "<p>You can turn defense into a sudden strike. When you or another creature you can see within 10 feet of you is hit by an attack roll, you can take a Reaction to grant a bonus to the target’s AC against that attack, potentially causing it to miss. The bonus equals your Charisma modifier (minimum of +1). If the attack misses, you can make one attack with a weapon against the attacker as part of this Reaction if the attacker is within your weapon’s range.</p><p>You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>",
+      "description": "<p>Cuando tú o otra criatura que puedas ver a 3 metros sea golpeada por una tirada de ataque, puedes usar tu reacción para conceder un bonificador a la CA del objetivo contra ese ataque, potencialmente causando que falle. El bonificador es igual a tu modificador por Carisma (mínimo +1). Si el ataque falla, puedes hacer un ataque con arma contra el atacante como parte de esta reacción.</p>",
       "activities": {
         "Glorious Defense": {
           "name": "Glorious Defense",
@@ -2401,7 +2401,7 @@
     },
     "Guided Strike": {
       "name": "Golpe Guiado",
-      "description": "<p>When you or a creature within 30 feet of you misses with an attack roll, you can expend one use of your Channel Divinity and give that roll a +10 bonus, potentially causing it to hit. When you use this feature to benefit another creature's attack roll, you must take a Reaction to do so.</p><section class=\"secret\" id=\"secret-VjIYg1WvWqp7p6Jh\"><p><strong>Foundry Note</strong></p><p>The <strong>Guide Yourself</strong> activity doesn't consume a reaction.</p><p>The <strong>Guide Another Creature</strong> activity does.</p></section>",
+      "description": "<p>A partir del nivel 2, puedes usar tu Canalizar Divinidad para golpear con precisión divina. Cuando hagas una tirada de ataque, puedes usar tu Canalizar Divinidad para obtener un bonificador de +10 a la tirada. Haces esta elección después de ver la tirada, pero antes de que el DM diga si el ataque acierta o falla.</p>",
       "activities": {
         "Guide Yourself": {
           "name": "Guide Yourself",
@@ -2415,7 +2415,7 @@
     },
     "Hand of Harm": {
       "name": "Mano del Daño",
-      "description": "<p>Once per turn when you hit a creature with an Unarmed Strike and deal damage, you can expend 1 Focus Point to deal extra Necrotic damage equal to one roll of your Martial Arts die plus your Wisdom modifier.</p>",
+      "description": "<p>Cuando golpees a una criatura con un ataque desarmado, puedes gastar 1 punto de foco para causar daño necrótico adicional igual a un tirón de tu Dado de Artes Marciales + tu modificador por Sabiduría.</p><p>Puedes usar este rasgo solo una vez por turno.</p>",
       "activities": {
         "damage": {
           "condition": "Once per turn when you hit a creature with an Unarmed Strike and deal damage"
@@ -2437,7 +2437,7 @@
     },
     "Healing Light": {
       "name": "Luz Sanadora",
-      "description": "<p>You gain the ability to channel celestial energy to heal wounds. You have a pool of d6s to fuel this healing. The number of dice in the pool equals 1 plus your Warlock level.</p><p>As a Bonus Action, you can heal yourself or one creature you can see within 60 feet of yourself, expending dice from the pool. The maximum number of dice you can expend at once equals your Charisma modifier (minimum of one die). Roll the dice you expend, and restore a number of Hit Points equal to the roll’s total. Your pool regains all expended dice when you finish a Long Rest.</p><section id=\"secret-bwHQpAdbq9hUQhXf\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Heal</strong> activity allows you to scale the number of dice expended from your pool and is automatically limited to your Charisma modifier.</p></section>"
+      "description": "<p>Obtienes la capacidad de canalizar energía celestial para curar heridas. Tienes un grupo de d6 igual a 1 + tu nivel de brujo. Como acción adicional, puedes curar a una criatura que puedas ver a 18 metros de ti, gastando dados del grupo. El número máximo de dados que puedes gastar a la vez es igual a tu modificador por Carisma (mínimo uno dado). Tira los dados que gastes, suma los resultados juntos, y restaura una cantidad de puntos de golpe igual al total.</p><p>Tu grupo de dados se rellena cuando finalices un descanso largo.</p>"
     },
     "Heightened Focus": {
       "name": "Concentración Elevada",
@@ -2468,7 +2468,7 @@
     },
     "Holy Nimbus": {
       "name": "Nimbo Sagrado",
-      "description": "<p>As a Bonus Action, you can imbue your Aura of Protection with holy power, granting the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can’t use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).</p><p><strong>Holy Ward.</strong> You have Advantage on any saving throw you are forced to make by a Fiend or an Undead.</p><p><strong>Radiant Damage.</strong> Whenever an enemy starts its turn in the aura, that creature takes Radiant damage equal to your Charisma modifier plus your Proficiency Bonus.</p><p><strong>Sunlight.</strong> The aura is filled with Bright Light that is sunlight.</p><section id=\"secret-WendmZ2xiuj3cSwE\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for tracking your Holy Nimbus but it does not automate the Advantage on Saving Throws.</p><p>The <strong>Holy Nimbus</strong> activity includes a damage roll.</p><p>The <strong>Regain Use</strong> activity will consume a 5th level spell slot and restore a use of this feature.</p></section>",
+      "description": "<p>A partir del nivel 20, como acción, puedes emanar un aura de luz solar. Durante 1 minuto, luz brillante brilla de ti en un radio de 9 metros, y luz tenue brilla 9 metros más allá.</p><p>Siempre que una criatura enemiga comience su turno en la luz brillante, la criatura recibe 10 de daño radiante.</p><p>Además, durante la duración, tienes ventaja en tiradas de salvación contra conjuros lanzados por infernales o no-muertos.</p><p>Una vez que uses este rasgo, no puedes usarlo de nuevo hasta que finalices un descanso largo.</p>",
       "activities": {
         "Holy Nimbus": {
           "name": "Holy Nimbus"
@@ -2485,7 +2485,7 @@
     },
     "Hunter": {
       "name": "Cazador",
-      "description": "<blockquote><p>Protect Nature and People from Destruction</p></blockquote><p>You stalk prey in the wilds and elsewhere, using your abilities as a Hunter to protect nature and people everywhere from forces that would destroy them.</p>",
+      "description": "<p>Aprendes técnicas especializadas para luchar contra las amenazas que enfrentas. En el nivel 3, obtienes una de las siguientes características de tu elección.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -2494,11 +2494,11 @@
     },
     "Hunter's Lore": {
       "name": "Conocimiento del Cazador",
-      "description": "<p>You can call on the forces of nature to reveal certain strengths and weaknesses of your prey. While a creature is marked by your <em>Hunter’s Mark</em>, you know whether that creature has any Immunities, Resistances, or Vulnerabilities, and if the creature has any, you know what they are.</p>"
+      "description": "<p>Obtienes competencia en dos de las siguientes habilidades de tu elección: Trato con Animales, Arcanos, Historia, Investigación, Naturaleza o Supervivencia.</p>"
     },
     "Hunter's Prey": {
       "name": "Presa del Cazador",
-      "description": "<p>You gain one of the following feature options of your choice. Whenever you finish a Short or Long Rest, you can replace the chosen option with the other one.</p><p><strong>Colossus Slayer.</strong> Your tenacity can wear down even the most resilient foes. When you hit a creature with a weapon, the weapon deals an extra 1d8 damage to the target if it’s missing any of its Hit Points. You can deal this extra damage only once per turn.</p><p><strong>Horde Breaker.</strong> Once on each of your turns when you make an attack with a weapon, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target, that is within the weapon’s range, and that you haven’t attacked this turn.</p><section class=\"secret\" id=\"secret-I2q5Nm7g6mkLjH5Y\"><p><strong>Foundry Note</strong></p><p>This feature includes a <strong>Colossus Slayer</strong> activity for the additional damage. You can select the correct damage type in the roll dialog.</p><p>For the <strong>Horde Breaker</strong> option simply make another attack.</p></section>",
+      "description": "<p>En el nivel 3, obtienes una de las siguientes características de tu elección.</p><p><strong>Asesino de Colosos.</strong> Tu tenacidad puede desgastar a los enemigos más poderosos. Cuando golpees a una criatura con un ataque con arma, la criatura recibe 1d8 de daño adicional si está por debajo de sus puntos de golpe máximos. Solo puedes causar este daño adicional una vez por turno.</p><p><strong>Asesino de Gigantes.</strong> Cuando una criatura Grande o más grande a 1,5 metros de ti te golpee o falle con un ataque, puedes usar tu reacción para atacar a esa criatura inmediatamente después de su ataque, siempre que puedas ver la criatura.</p><p><strong>Asesino de Hordas.</strong> Una vez en cada uno de tus turnos cuando hagas un ataque con arma, puedes hacer otro ataque con la misma arma contra una criatura diferente que esté a 1,5 metros del objetivo original y dentro del alcance de tu arma.</p>",
       "activities": {
         "damage": {
           "condition": "Once per turn when you hit a creature with a weapon"
@@ -2507,7 +2507,7 @@
     },
     "Hurl Through Hell": {
       "name": "Lanzar al Infierno",
-      "description": "<p>Once per turn when you hit a creature with an attack roll, you can try to instantly transport the target through the Lower Planes. The target must succeed on a Charisma saving throw against your spell save DC, or the target disappears and hurtles through a nightmare landscape. The target takes 8d10 Psychic damage if it isn’t a Fiend, and it has the &amp;Reference[Incapacitated] condition until the end of your next turn, when it returns to the space it previously occupied or the nearest unoccupied space.</p><p>Once you use this feature, you can’t use it again until you finish a Long Rest unless you expend a Pact Magic spell slot (no action required) to restore your use of it.</p><section class=\"secret\" id=\"secret-gG3gHikiPJVXNkev\"><p><strong>Foundry Note</strong></p><p>This feature includes one limited use.</p><p>The <strong>Regain Use</strong> activity will expend a Pact Magic spell slot and restore a use of this feature.</p></section>",
+      "description": "<p>A partir del nivel 14, cuando golpees a una criatura con un ataque, puedes usar este rasgo para transportar instantáneamente al objetivo a través de los planos inferiores. La criatura desaparece y atraviesa un paisaje de pesadilla.</p><p>Al final de tu próximo turno, el objetivo regresa al espacio que ocupó previamente, o al espacio desocupado más cercano. Si el objetivo no es un infernal, recibe 10d10 de daño psíquico mientras se tambalea debido a su experiencia horrible.</p><p>Una vez que uses este rasgo, no puedes usarlo de nuevo hasta que finalices un descanso largo.</p>",
       "activities": {
         "Hurl Through Hell": {
           "name": "Hurl Through Hell",
@@ -2520,7 +2520,7 @@
     },
     "Illusion Savant": {
       "name": "Erudito en Ilusiones",
-      "description": "<p>Choose two Wizard spells from the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Illusion school} (change the Grouping mode to \"School\" for easier selection), each of which must be no higher than level 2, and add them to your spellbook for free.</p><p>In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Illusion school to your spellbook for free. The chosen spell must be of a level for which you have spell slots.</p>"
+      "description": "<p>El oro y el tiempo que debes gastar para copiar un conjuro de Ilusión en tu grimorio se reduce a la mitad.</p>"
     },
     "Illusionist": {
       "name": "Ilusionista",
@@ -2540,7 +2540,7 @@
     },
     "Illusory Reality": {
       "name": "Realidad Ilusoria",
-      "description": "<p>You have learned to weave shadow magic into your illusions to give them a semi-reality. When you cast an Illusion spell with a spell slot, you can choose one inanimate, nonmagical object that is part of the illusion and make that object real. You can do this on your turn as a Bonus Action while the spell is ongoing. The object remains real for 1 minute, during which it can’t deal damage or give any conditions. For example, you can create an illusion of a bridge over a chasm and then make it real and cross it.</p>",
+      "description": "<p>Has aprendido el secreto de tejer magia de sombra en tus ilusiones para darles una semi-realidad. Cuando lances un conjuro de ilusión de nivel 1 o superior, puedes elegir un objeto inanimado no mágico que sea parte de la ilusión y hacer que ese objeto sea real. Puedes hacer esto en tunturn como acción adicional mientras el conjuro esté activo. El objeto permanece real durante 1 minuto. Por ejemplo, puedes crear una ilusión de un puente sobre un barranco y luego hacerlo real el tiempo suficiente para que tus aliados crucen.</p><p>El objeto no puede causar daño ni herir directamente a nadie.</p>",
       "activities": {
         "Create Semi-Reality": {
           "name": "Create Semi-Reality"
@@ -2562,7 +2562,7 @@
     },
     "Implements of Mercy": {
       "name": "Instrumentos de Misericordia",
-      "description": "<p>You gain proficiency in the Insight and Medicine skills and proficiency with the Herbalism Kit.</p><section id=\"secret-3C0ZGx08eY2w3N9d\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>These proficiencies are granted automatically as you level up.</p></section>"
+      "description": "<p>Obtienes competencia en el kit de herbolario y el kit de medicina. También obtienes competencia en la habilidad Perspicacia si aún no la tienes.</p>"
     },
     "Improved Blessed Strikes": {
       "name": "Golpes Benditos Mejorados",
@@ -2576,7 +2576,7 @@
     },
     "Improved Brutal Strike": {
       "name": "Golpe Brutal Mejorado",
-      "description": "<p>You have honed new ways to attack furiously. The following effects are now among your Brutal Strike options.</p><p><strong>Staggering Blow.</strong> The target has Disadvantage on the next saving throw it makes, and it can't make Opportunity Attacks until the start of your next turn.</p><p><strong>Sundering Blow.</strong> Before the start of your next turn, the next attack roll made by another creature against the target gains a +5 bonus to the roll. An attack roll can gain only one Sundering Blow bonus.</p><section class=\"secret\" id=\"secret-5KFPx8fyh5NldmJp\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity for each option which includes an Active Effect for tracking the Staggering and Sundering Blows but does not automate their effects.</p></section>",
+      "description": "<p>El daño adicional de tu Golpe Brutal aumenta a 2 dados (de 1d10 a 2d10).</p>",
       "activities": {
         "Sundering Blow": {
           "name": "Sundering Blow"
@@ -2615,7 +2615,7 @@
     },
     "Improved Critical": {
       "name": "Crítico Mejorado",
-      "description": "<p>Your attack rolls with weapons and Unarmed Strikes can score a Critical Hit on a roll of 19 or 20 on the d20.</p><section class=\"secret\" id=\"secret-dBJx5qqxTcKzMys8\"><p><strong>Foundry Note</strong></p><p>This feature automatically increases the Critical Hit threshold to 19.</p></section>",
+      "description": "<p>Tus ataques con armas obtienen un golpe crítico con una tirada de 19 o 20 en el d20.</p>",
       "effects": {
         "Improved Critical": {
           "name": "Improved Critical"
@@ -2638,11 +2638,11 @@
     },
     "Improved Elemental Fury": {
       "name": "Furia Elemental Mejorada",
-      "description": "<p>The option you chose for Elemental Fury grows more powerful, as detailed below.</p><p><strong>Potent Spellcasting.</strong> When you cast a Druid cantrip with a range of 10 feet or greater, the spell's range increases by 300 feet.</p><p><strong>Primal Strike.</strong> The extra damage of your Primal Strike increases to 2d8.</p><section id=\"secret-7G1qK3zQ41zJONSd\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The damage for Primal Strike is automatically increased at this level. This feature does not automate the range changes.</p></section>"
+      "description": "<p>Cuando uses tu Furia Elemental, el daño aumenta a 2 dados (por ejemplo, de 1d6 a 2d6).</p>"
     },
     "Improved Illusions": {
       "name": "Ilusiones Mejoradas",
-      "description": "<p>You can cast Illusion spells without providing Verbal components, and if an Illusion spell you cast has a range of 10+ feet, the range increases by 60 feet.</p><p>You also know the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus]{Minor Illusion} cantrip. If you already know it, you learn a different Wizard cantrip of your choice. The cantrip doesn’t count against your number of cantrips known. You can create both a sound and an image with a single casting of Minor Illusion, and you can cast it as a Bonus Action.</p><section id=\"secret-bPvrTfqAh0Wge0x9\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The Minor Illusion cantrip is added to your sheet as you level up.</p></section>"
+      "description": "<p>Has aprendido secretos especiales para fortalecer tus ilusiones. Cuando lanzas un conjuro de ilusión que tiene una duración de 1 minuto o más, puedes duplicar su duración, hasta un máximo de 24 horas.</p>"
     },
     "Improved Shadow Step": {
       "name": "Paso de las Sombras Mejorado",
@@ -2680,7 +2680,7 @@
     },
     "Innate Sorcery": {
       "name": "Hechicería Innata",
-      "description": "<p>An event in your past left an indelible mark on you, infusing you with simmering magic. As a Bonus Action, you can unleash that magic for 1 minute, during which you gain the following benefits:</p><ul><li>The spell save DC of your Sorcerer spells increases by 1.</li><li>You have Advantage on the attack rolls of Sorcerer spells you cast.</li></ul><p>You can use this feature twice, and you regain all expended uses of it when you finish a Long Rest.</p><section id=\"secret-nB2j1T08cVjrcuAj\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which will increase your spell save DC. The Advantage on attack rolls is not automated.</p></section>",
+      "description": "<p>Tu vínculo con la magia te permite canalizar más poder cuando necesitas alterar la realidad. Como acción adicional, puedes abrir tu consciencia a un flujo de magia durante 1 minuto. Durante ese tiempo, tienes ventaja en los chequeos de Constitución que hagas para concentrarte en conjuros. Además, la primera vez que lances un conjuro de hechicero de nivel 1 o superior en cada uno de tus turnos, ganas un bonificador a una tirada de daño de ese conjuro igual a tu modificador por Carisma (mínimo +1).</p><p>Una vez que uses este rasgo, no puedes hacerlo de nuevo hasta que finalices un descanso largo.</p>",
       "activities": {
         "Innate Sorcery": {
           "name": "Innate Sorcery"
@@ -2695,7 +2695,7 @@
     },
     "Inspiring Movement": {
       "name": "Movimiento Inspirador",
-      "description": "<p>When an enemy you can see ends its turn within 5 feet of you, you can take a Reaction and expend one use of your Bardic Inspiration to move up to half your Speed (currently [[lookup @attributes.movement.walk]]). Then one ally of your choice within 30 feet of you can also move up to half their Speed using their Reaction.</p><p>None of this feature's movement provokes Opportunity Attacks.</p>",
+      "description": "<p>Cuando te muevas en tu turno en combate, puedes usar una acción adicional para permitir hasta 5 aliados que puedan verte y estén a 18 metros se muevan con ti. Cada uno de esos aliados puede usar su reacción para moverse hasta la mitad de su velocidad siguiéndote, sin provocar ataques de oportunidad.</p>",
       "activities": {
         "Move": {
           "name": "Move",
@@ -2718,7 +2718,7 @@
     },
     "Intimidating Presence": {
       "name": "Presencia Intimidante",
-      "description": "<p>As a Bonus Action, you can strike terror into others with your menacing presence and primal power. When you do so, each creature of your choice in a 30-foot Emanation originating from you must make a Wisdom saving throw (DC 8 plus your Strength modifier and Proficiency Bonus). On a failed save, a creature has the Frightened condition for 1 minute. At the end of each of the &amp;Reference[Frightened] creature's turns, the creature repeats the save, ending the effect on itself on a success.</p><p>Once you use this feature, you can't use it again until you finish a Long Rest unless you expend a use of your Rage (no action required) to restore your use of it.</p><section class=\"secret\" id=\"secret-vRQdGrtACAbxH4Tm\"><p><strong>Foundry Note</strong></p><p>The <strong>Save</strong> activity includes an Active Effect which adds the Frightened condition.</p><p>The <strong>Recharge</strong> activity consumes a use of Rage and recharges your use of Intimidating Presence.</p></section>",
+      "description": "<p>A partir del nivel 10, puedes usar tu acción para asustar a alguien con tu presencia amenazante. Cuando lo hagas, elige una criatura que puedas ver a 9 metros de ti. Si la criatura puede verte u oírte, debe tener éxito en una tirada de salvación de Sabiduría (CD igual a 8 + tu bonificador por competencia + tu modificador por Carisma) o quedar asustada de ti hasta el final de tu próximo turno. En turnos subsiguientes, puedes usar tu acción para extender la duración de este efecto en la criatura asustada hasta el final de tu próximo turno. Este efecto termina si la criatura termina su turno fuera de tu línea de visión o a más de 18 metros de ti.</p><p>Si la criatura tiene éxito en su salvación, no puedes usar este rasgo en esa criatura de nuevo durante 24 horas.</p>",
       "activities": {
         "Recharge with Rage": {
           "name": "Recharge with Rage"
@@ -2804,7 +2804,7 @@
     },
     "Invoke Duplicity": {
       "name": "Invocar Duplicidad",
-      "description": "<p>As a Bonus Action, you can expend one use of your Channel Divinity to create a perfect visual illusion of yourself in an unoccupied space you can see within 30 feet of yourself. The illusion is intangible and doesn't occupy its space. It lasts for 1 minute, but it ends early if you dismiss it (no action required) or have the &amp;Reference[Incapacitated] condition. The illusion is animated and mimics your expressions and gestures. While it persists, you gain the following benefits.</p><p><strong>Cast Spells.</strong> You can cast spells as though you were in the illusion's space, but you must use your own senses.</p><p><strong>Distract.</strong> When both you and your illusion are within 5 feet of a creature that can see the illusion, you have Advantage on attack rolls against that creature, given how distracting the illusion is to the target.</p><p><strong>Move.</strong> As a Bonus Action, you can move the illusion up to 30 feet to an unoccupied space you can see that is within 120 feet of yourself.</p>",
+      "description": "<p>Puedes crear un duplicado ilusorio de ti mismo. Como acción, creas una ilusión perfecta de ti mismo que dura 1 minuto o hasta que pierdas tu concentración (como si estuvieras concentrándote en un conjuro). La ilusión aparece en un espacio desocupado que puedas ver a 9 metros de ti. Como acción adicional en tu turno, puedes mover la ilusión hasta 9 metros a un espacio que puedas ver, pero debe permanecer a 36 metros de ti.</p><p>Durante la duración, puedes lanzar conjuros como si estuvieras en el espacio de la ilusión, pero debes usar tus propios sentidos. Además, cuando ambos tú y tu ilusión estáis a 1,5 metros de una criatura que pueda ver la ilusión, tienes ventaja en tiradas de ataque contra esa criatura, dada la distracción de tu contraparte ilusoria.</p><p>Puedes usar este rasgo un número de veces igual a tu modificador por Sabiduría (mínimo una vez), y recuperas todos los usos gastados cuando finalices un descanso largo.</p>",
       "activities": {
         "Move Duplicate": {
           "name": "Move Duplicate"
@@ -2826,7 +2826,7 @@
     },
     "Know Your Enemy": {
       "name": "Conoce a tu Enemigo",
-      "description": "<p>As a Bonus Action, you can discern certain strengths and weaknesses of a creature you can see within 30 feet of yourself; you know whether that creature has any Immunities, Resistances, or Vulnerabilities, and if the creature has any, you know what they are.</p><p>Once you use this feature, you can't do so again until you finish a Long Rest. You can also restore a use of the feature by expending one Superiority Die (no action required).</p><section id=\"secret-7vwF7cOVBeAADPjL\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity for discerning the strengths and weaknesses and a recharge activity for restoring a use of this feature.</p></section>",
+      "description": "<p>Si pasas al menos 1 minuto observando u interactuando con otra criatura fuera del combate, puedes aprender cierta información sobre sus capacidades en comparación con las tuyas. El DM te dice si la criatura es tu igual, superior o inferior en relación a dos de las siguientes características de tu elección:</p><p>• Puntuación de Fuerza</p><p>• Puntuación de Destreza</p><p>• Puntuación de Constitución</p><p>• Clase de Armadura</p><p>• Puntos de Golpe actuales</p><p>• Niveles de clase totales (si los hay)</p><p>• Niveles de clase de guerrero (si los hay)</p>",
       "activities": {
         "Discern Strengths and Weaknesses": {
           "name": "Discern Strengths and Weaknesses"
@@ -2855,7 +2855,7 @@
     },
     "Lessons of the First Ones": {
       "name": "Lecciones de los Primeros",
-      "description": "<blockquote><p>Prerequisite: Level 2+ Warlock</p></blockquote><p>You have received knowledge from an elder entity of the multiverse, allowing you to gain one @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]{Origin feat} of your choice.</p><p><strong>Repeatable. </strong>You can gain this invocation more than once. Each time you do so, choose a different Origin feat.</p>",
+      "description": "<p><strong>Prerrequisito:</strong> Nivel 2+ de Brujo</p><p>Has recibido la tutela de tu patrón, dándote una comprensión sobrenatural de la fuente de tu magia. Puedes cambiar un truco que conoces de tu lista de conjuros de brujo por otro truco de esa lista.</p><p>Además, el primer espacio de conjuro que gastas para lanzar un conjuro de una escuela elegida cuesta cero puntos de hechicería en lugar de su coste normal. La escuela elegida es Abjuración, Conjuración, Adivinación, Encantamiento, Evocación, Ilusión, Necromancia o Transmutación.</p>",
       "advancement": {
         "Choose Origin Feat": {
           "title": "Elegir Dote de Origen"
@@ -2880,7 +2880,7 @@
     },
     "Lifedrinker": {
       "name": "Bebedor de Vida",
-      "description": "<blockquote><p>Prerequisite: Level 9+ Warlock, @UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactBlade0]{Pact of the Blade} Invocation</p></blockquote><p>Once per turn when you hit a creature with your pact weapon, you can deal an extra 1d6 Necrotic, Psychic, or Radiant damage (your choice) to the creature, and you can expend one of your Hit Point Dice to roll it and regain a number of Hit Points equal to the roll plus your Constitution modifier (minimum of 1 Hit Point).</p><section class=\"secret\" id=\"secret-1Hta9I4donszrwIQ\"><p><strong>Foundry Note</strong></p><p>The <strong>Damage</strong> activity allows you to choose the type of damage in the roll's dialog. It will remember your choice going forward.</p><p>The <strong>Heal (Largest Hit Die)</strong> and <strong>Smallest Hit Die</strong> activities expends the relevant Hit Die and provides a healing roll with your Constitution modifier included. Which you choose only matters if you are multi-classed with multiple hit die types.</p></section>",
+      "description": "<p><strong>Prerrequisito:</strong> Nivel 9+ de Brujo, invocación @UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactBlade0]{Pacto de la Hoja}</p><p>Cuando golpees a una criatura con tu arma de pacto, la criatura recibe daño necrótico adicional igual a tu modificador por Carisma (mínimo 1).</p>",
       "activities": {
         "damage": {
           "condition": "Once per turn when you hit a creature with your pact weapon"
@@ -2913,7 +2913,7 @@
     },
     "Living Legend": {
       "name": "Leyenda Viviente",
-      "description": "<p>You can empower yourself with the legends—whether true or exaggerated—of your great deeds. As a Bonus Action, you gain the benefits below for 10 minutes. Once you use this feature, you can’t use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).</p><p><strong>Charismatic.</strong> You are blessed with an otherworldly presence and have Advantage on all Charisma checks.</p><p><strong>Saving Throw Reroll.</strong> If you fail a saving throw, you can take a Reaction to reroll it. You must use this new roll.</p><p><strong>Unerring Strike.</strong> Once on each of your turns when you make an attack roll with a weapon and miss, you can cause that attack to hit instead.</p><section class=\"secret\" id=\"secret-mhBj862IzYiWQQ5P\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automates the Advantage on all Charisma checks and can be used for tracking but the other benefits are not automated.</p><p>The <strong>Reroll Saving Throw</strong> activity is just for tracking Reaction use.</p><p>The <strong>Restore Use</strong> activity can be used to consume a 5th level slot and restore a use of this feature.</p></section>",
+      "description": "<p>A partir del nivel 15, puedes potenciar tu presencia en el campo de batalla. Como acción adicional, obtienes los siguientes beneficios durante 1 minuto:</p><p>• Cuando hagas un chequeo de Carisma o salvación de Carisma, puedes usar tu reacción para concederte ventaja en la tirada.</p><p>• Una vez en cada uno de tus turnos cuando falles un ataque con arma, puedes causar que ese ataque golpee en su lugar.</p><p>• Si fallas una salvación, puedes usar tu reacción para tener éxito en su lugar.</p><p>Una vez que uses este rasgo, no puedes hacerlo de nuevo hasta que finalices un descanso largo.</p>",
       "activities": {
         "Restore Use": {
           "name": "Restore Use"
@@ -2943,11 +2943,11 @@
     },
     "Lunging Attack": {
       "name": "Ataque con Estocada",
-      "description": "<p>As a Bonus Action, you can expend one Superiority Die and take the Dash action. If you move at least 5 feet in a straight line immediately before hitting with a melee attack as part of the Attack action on this turn, you can add the Superiority Die to the attack's damage roll.</p><section id=\"secret-khNyinLybLxVPkDd\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Damage</strong> activity allows you to select the type of damage it should deal in the roll dialog.</p></section>"
+      "description": "<p>Cuando hagas un ataque de arma cuerpo a cuerpo en tu turno, puedes gastar un Dado de Superioridad para aumentar tu alcance para ese ataque en 1,5 metros. Si golpeas, añades el Dado de Superioridad a la tirada de daño del ataque.</p>"
     },
     "Mage Hand Legerdemain": {
       "name": "Juego de Manos con Mano de Mago",
-      "description": "<p>When you cast <em>Mage Hand</em>, you can cast it as a Bonus Action, and you can make the spectral hand Invisible. You can control the hand as a Bonus Action, and through it, you can make [[/skill slt]] checks.</p>"
+      "description": "<p>Cuando lanzas Mano de Mago, puedes hacer que la mano espectral sea invisible, y puedes realizar las siguientes tareas adicionales con ella:</p><p>• Puedes guardar un objeto que la mano lleve en un contenedor llevado o portado por otra criatura.</p><p>• Puedes recuperar un objeto en un contenedor llevado o portado por otra criatura.</p><p>• Puedes usar herramientas de ladrón para abrir cerraduras y desarmar trampas a distancia.</p><p>Puedes realizar una de estas tareas sin ser notado por una criatura si tienes éxito en un chequeo de Destreza (Juego de Manos) enfrentado al chequeo de Sabiduría (Perspicacia) de la criatura.</p><p>Además, puedes usar la acción adicional otorgada por tu Acción Astuta para controlar la mano.</p>"
     },
     "Magical Ambush": {
       "name": "Emboscada Mágica",
@@ -2972,7 +2972,7 @@
     },
     "Maneuvering Attack": {
       "name": "Ataque con Maniobra",
-      "description": "<p>When you hit a creature with an attack roll, you can expend one Superiority Die to maneuver one of your comrades into another position. Add the Superiority Die roll to the attack's damage roll, and choose a willing creature who can see or hear you. That creature can use its Reaction to move up to half its Speed without provoking an Opportunity Attack from the target of your attack.</p>",
+      "description": "<p>Cuando golpees a una criatura con un ataque con arma, puedes gastar un Dado de Superioridad para maniobrar a uno de tus camaradas a una posición más ventajosa. Añades el Dado de Superioridad a la tirada de daño del ataque, y eliges una criatura amistosa que pueda verte u oírte. Esa criatura puede usar su reacción para moverse hasta la mitad de su velocidad sin provocar ataques de oportunidad del objetivo de tu ataque.</p>",
       "activities": {
         "Maneuver": {
           "name": "Maneuver",
@@ -2987,7 +2987,7 @@
     },
     "Mantle of Inspiration": {
       "name": "Manto de Inspiración",
-      "description": "<p>You can weave fey magic into a song or dance to fill others with vigor. As a Bonus Action, you can expend a use of Bardic Inspiration, rolling a Bardic Inspiration die. When you do so, choose a number of other creatures within 60 feet of yourself, up to a number equal to your Charisma modifier (minimum of one creature, currently [[lookup @abilities.cha.mod]]). Each of those creatures gains a number of Temporary Hit Points equal to two times the number rolled on the Bardic Inspiration die, and then each can use its Reaction to move up to its Speed without provoking Opportunity Attacks.</p>"
+      "description": "<p>Obtienes la capacidad de tejer magia feérica en tu canción o discurso. Como acción adicional, puedes gastar un uso de Inspiración de Bardo para otorgar a ti mismo una apariencia maravillosa y feérica. Cuando lo hagas, elige un número de criaturas que puedas ver y que estén a 18 metros de ti, hasta un número igual a tu modificador por Carisma (mínimo uno). Cada una obtiene 5 puntos de golpe temporales. Una criatura puede usar inmediatamente su reacción para moverse hasta su velocidad, sin provocar ataques de oportunidad.</p><p>El número de puntos de golpe temporales aumenta cuando alcanzas ciertos niveles en esta clase, aumentando a 8 en el nivel 5, 11 en el nivel 10, y 14 en el nivel 15.</p>"
     },
     "Mantle of Majesty": {
       "name": "Manto de Majestad",
@@ -3072,7 +3072,7 @@
     },
     "Misty Escape": {
       "name": "Escape Brumoso",
-      "description": "<p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Misty Step} as a Reaction in response to taking damage.</p><p>In addition, the following effects are now among your Steps of the Fey options.</p><p><strong>Disappearing Step. </strong>You have the &amp;Reference[Invisible] condition until the start of your next turn or until immediately after you make an attack roll, deal damage, or cast a spell.</p><p><strong>Dreadful Step.</strong> Creatures within 5 feet of the space you left or the space you appear in (your choice) must succeed on a Wisdom saving throw against your spell save DC or take 2d10 Psychic damage.</p><section class=\"secret\" id=\"secret-TTIMVNpwS90Cackr\"><p><strong>Foundry Note</strong></p><p>The <strong>Disappearing Step</strong> activity includes an Active Effect which applies the Invisible condition.</p></section>",
+      "description": "<p>Puedes desvanecerte en la niebla en respuesta al daño. Cuando recibes daño, puedes usar tu reacción para volverte invisible y teleportarte hasta 18 metros a un espacio desocupado que puedas ver. Permaneces invisible hasta el inicio de tu próximo turno o hasta que ataques o lances un conjuro.</p><p>Una vez que uses este rasgo, no puedes hacerlo de nuevo hasta que finalices un descanso corto o largo.</p>",
       "activities": {
         "Disappearing Step": {
           "name": "Disappearing Step",
@@ -3172,7 +3172,7 @@
     },
     "Moonlight Step": {
       "name": "Paso de Luz Lunar",
-      "description": "<p>You magically transport yourself, reappearing amid a burst of moonlight. As a Bonus Action, you teleport up to 30 feet to an unoccupied space you can see, and you have Advantage on the next attack roll you make before the end of this turn.</p><p>You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest. You can also regain uses by expending a level 2+ spell slot for each use you want to restore (no action required).</p><section class=\"secret\" id=\"secret-fQNfNPvTSXWuXepa\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity with an Active Effect for tracking when you have Advantage but it does not automate the Advantage.</p><p>It also includes a Recharge with Spell Slot activity which can be used to convert spell slots into uses of this feature. You can select higher level slots by increasing the scale.</p></section>",
+      "description": "<p>A partir del nivel 10, puedes usar un bono de acción para teleportarte mágicamente hasta 9 metros a un espacio desocupado que puedas ver. Inmediatamente antes o después de teleportarte, cada criatura de tu elección que puedas ver a 1,5 metros del espacio que dejaste o del espacio al que apareces debe tener éxito en una tirada de salvación de Sabiduría contra tu CD de conjuros de brujo o recibir 2d10 de daño radiante.</p><p>Puedes usar este rasgo un número de veces igual a tu modi ficador por Sabiduría (mínimo una vez), y recuperas todos los usos gastados cuando finalices un descanso largo.</p>",
       "activities": {
         "Transport": {
           "name": "Transport"
@@ -3404,7 +3404,7 @@
     },
     "Overchannel": {
       "name": "Sobrecargar Canal",
-      "description": "<p>You can increase the power of your spells. When you cast a Wizard spell with a spell slot of levels 1–5 that deals damage, you can deal maximum damage with that spell on the turn you cast it.</p><p>The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a Long Rest, you take 2d12 Necrotic damage for each level of the spell slot immediately after you cast it. This damage ignores Resistance and Immunity.</p><p>Each time you use this feature again before finishing a Long Rest, the Necrotic damage per spell level increases by 1d12.</p><section class=\"secret\" id=\"secret-Uh2cD0di8YB1gKPG\"><p><strong>Foundry Note</strong></p><p>This feature has Limited Uses to track how many times it has been used to automate the damage.</p><p>The <strong>First Use</strong> activity includes one free activity use and restores all uses of the feature.</p><p>The <strong>Second+ Use</strong> activity consumes a use and increases the damage automatically and should be used for all subsequent uses until you finish a Long Rest.</p></section>",
+      "description": "<p>Puedes aumentar el poder de tus conjuros más simples. Cuando lanzas un conjuro de mago de nivel 1 a 5 que causa daño, puedes causar el daño máximo con ese conjuro.</p><p>La primera vez que lo hagas, no sufres ningún efecto adverso. Si usas este rasgo de nuevo antes de finalizar un descanso largo, recibes 2d12 de daño necrótico por cada nivel del conjuro, inmediatamente después de lanzarlo. Cada vez que uses este rasgo de nuevo antes de finalizar un descanso largo, el daño necrótico por nivel de conjuro aumenta en 1d12. Este daño ignora resistencia e inmunidad.</p>",
       "activities": {
         "Second+ Use": {
           "name": "Second+ Use",
@@ -3506,7 +3506,7 @@
     },
     "Parry": {
       "name": "Parada",
-      "description": "<p>When another creature damages you with a melee attack roll, you can take a Reaction and expend one Superiority Die to reduce the damage by the number you roll on your Superiority Die plus your Strength or Dexterity modifier (your choice).</p><section class=\"secret\" id=\"secret-0wY3O9dAMQDKj066\"><p><strong>Foundry Note</strong></p><p>This feature includes a Healing Reaction activity which can be used to retroactively recover the received damage.</p></section>",
+      "description": "<p>Cuando otra criatura te cause daño con un ataque cuerpo a cuerpo, puedes usar tu reacción y gastar un Dado de Superioridad para reducir el daño por la cantidad que obtengas al tirar tu Dado de Superioridad + tu modificador por Destreza.</p>",
       "activities": {
         "heal": {
           "condition": "When another creature damages you with a melee attack roll"
@@ -3558,7 +3558,7 @@
     },
     "Peerless Athlete": {
       "name": "Atleta Sin Par",
-      "description": "<p>As a Bonus Action, you can expend one use of your Channel Divinity to augment your athleticism. For 1 hour, you have Advantage on Strength (Athletics) and Dexterity (Acrobatics) checks, and the distance of your Long and High Jumps increases by 10 feet (this extra distance costs movement as normal).</p>",
+      "description": "<p>A partir del nivel 7, puedes añadir la mitad de tu bonificador por competencia (redondeado hacia arriba) a cualquier chequeo de Fuerza, Destreza o Constitución que hagas que no use ya tu bonificador por competencia. Además, cuando hagas un salto de longitud con carrera, la distancia que puedes cubrir aumenta en una cantidad de pies igual a tu modificador por Fuerza.</p>",
       "effects": {
         "Peerless Athlete": {
           "name": "Peerless Athlete",
@@ -3578,7 +3578,7 @@
     },
     "Perfect Focus": {
       "name": "Concentración Perfecta",
-      "description": "<p>When you roll Initiative and don't use Uncanny Metabolism, you regain expended Focus Points until you have 4 if you have 3 or fewer.</p><section id=\"secret-BCqdmLkKRacPf9tr\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature does not automatically regain the expended Focus Points.</p></section>"
+      "description": "<p>Cuando tires iniciativa y no tengas puntos de foco restantes, recuperas 1 punto de foco.</p>"
     },
     "Persistent Rage": {
       "name": "Furia Persistente",
@@ -3711,7 +3711,7 @@
     },
     "Primal Order: Warden": {
       "name": "Orden Primigenio: Guardián",
-      "description": "<p>Trained for battle, you gain proficiency with Martial weapons and training with Medium armor.</p><section id=\"secret-hVQSjHcU93Zpf54G\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automates the addition of your Martial weapons proficiency and Medium armor training.</p></section>",
+      "description": "<p>Has dedicado tu vida a proteger el orden natural. Obtienes competencia con armadura marcial y armas marciales.</p>",
       "effects": {
         "Martial Weapon & Medium Armor Training": {
           "name": "Martial Weapon & Medium Armor Training"
@@ -3784,7 +3784,7 @@
     },
     "Psychic Blade": {
       "name": "Hoja Psíquica",
-      "description": "<p>You have manifested shimmering blades of psychic energy. Whenever you take the Attack action or make an Opportunity Attack, you can manifest a Psychic Blade in your free hand and make the attack with that blade.</p><p>The blade vanishes immediately after it hits or misses its target, and it leaves no mark if it deals damage.</p><p>After you attack with the blade on your turn, you can make a melee or ranged attack with a second psychic blade as a Bonus Action on the same turn if your other hand is free to create it. The damage die of this bonus attack is 1d4 instead of 1d6.</p>",
+      "description": "<p>Puedes manifestar tu poder psionic como brillante energía. Como acción adicional, creas una hoja psíquica en tu mano libre que dura hasta que quedas incapacitado, mueres, o la descartes (sin acción requerida). La hoja es un arma mágica simple cuerpo a cuerpo con las propiedades arrojadiza y sutil. Su alcance normal es de 18 metros, y su alcance largo es de 18 metros. En un acierto, la hoja causa daño psíquico igual a 1d6 más el modificador de habilidad que usaste para la tirada de ataque.</p>",
       "activities": {
         "Bonus Attack": {
           "name": "Bonus Attack"
@@ -3797,11 +3797,11 @@
     },
     "Psychic Defenses": {
       "name": "Defensas Psíquicas",
-      "description": "<p>You have Resistance to Psychic damage, and you have Advantage on saving throws to avoid or end the Charmed or Frightened condition.</p><section id=\"secret-RsOEvBJWVWqSLQfY\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will receive the Psychic damage resistance as you level up. The Advantage on saving throws is not automated.</p></section>"
+      "description": "<p>Obtienes resistencia al daño psíquico, y tienes ventaja en tiradas de salvación contra ser hechizado o asustado.</p>"
     },
     "Psychic Spells": {
       "name": "Conjuros Psíquicos",
-      "description": "<p>When you cast a Warlock spell that deals damage, you can change its damage type to Psychic. In addition, when you cast a Warlock spell that is an Enchantment or Illusion, you can do so without Verbal or Somatic components.</p>"
+      "description": "<p>A partir del nivel 3, cuando lances un conjuro que cause daño del tipo en la tabla de Opciones de Conjuro Psíquico, puedes cambiar ese tipo de daño a psíquico. Si cambias el tipo de daño de esta manera, el conjuro no requiere componentes verbales o somáticos.</p>"
     },
     "Psychic Veil": {
       "name": "Velo Psíquico",
@@ -3842,7 +3842,7 @@
     },
     "Quivering Palm": {
       "name": "Palma Temblorosa",
-      "description": "<p>You gain the ability to set up lethal vibrations in someone's body. When you hit a creature with an Unarmed Strike, you can expend 4 Focus Points to start these imperceptible vibrations, which last for a number of days equal to your Monk level. The vibrations are harmless unless you take an action to end them. Alternatively, when you take the Attack action on your turn, you can forgo one of the attacks to end the vibrations. To end them, you and the target must be on the same plane of existence. When you end them, the target must make a Constitution saving throw, taking 10d12 Force damage on a failed save or half as much damage on a successful one.</p><p>You can have only one creature under the effect of this feature at a time. You can end the vibrations harmlessly (no action required).</p><section id=\"secret-BSTexn4tHp20evAQ\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Instill Vibrations</strong> activity expends 4 Focus Points and includes an Active Effect which can be used to track the target you have set up lethal vibrations in.</p><p>The <strong>End Vibrations</strong> activity includes the Saving Throw and Damage rolls.</p></section>",
+      "description": "<p>A partir del nivel 17, obtienes la capacidad de configurar vibraciones letales en el cuerpo de alguien. Cuando golpees a una criatura con un ataque desarmado, puedes gastar 3 puntos de foco para comenzar estas vibraciones imperceptibles, que duran un número de días igual a tu nivel de monje. Las vibraciones son inofensivas a menos que uses tu acción para terminarlas. Para hacerlo, tú y el objetivo debéis estar en el mismo plano de existencia. Cuando uses esta acción, la criatura debe hacer una tirada de salvación de Constitución. Si falla, se reduce a 0 puntos de golpe. Si tiene éxito, recibe 10d10 de daño necrótico.</p><p>Solo puedes tener un conjunto de vibraciones activas a la vez. Puedes terminar las vibraciones inofensivamente sin usar una acción.</p>",
       "activities": {
         "End Vibrations": {
           "name": "End Vibrations",
@@ -3865,7 +3865,7 @@
     },
     "Radiant Soul": {
       "name": "Alma Radiante",
-      "description": "<p>Your link to your patron allows you to serve as a conduit for radiant energy. You have Resistance to Radiant damage. Once per turn, when a spell you cast deals Radiant or Fire damage, you can add your Charisma modifier to that spell’s damage against one of the spell’s targets.</p><section class=\"secret\" id=\"secret-svyjVvard8Z17Yjz\"><p><strong>Foundry Note</strong></p><p>As you level up you will automatically be granted the Resistance to Radiant damage.</p><p>The <strong>Damage</strong> activity includes a damage roll that allows you to select the damage type in the roll's dialog. Alternatively, you can add your Charisma modifier in the Spell's Situational Bonus field when rolling damage.</p></section>"
+      "description": "<p>Tu vínculo con tu patrón te permite servir como conducto para energía radiante. Tienes resistencia al daño radiante.</p><p>Además, cuando lanzas un conjuro que causa daño radiante o de fuego, puedes añadir tu modificador por Carisma a un objetivo de ese conjuro. Una vez que causes este daño adicional, no puedes hacerlo de nuevo hasta que finalices un descanso largo.</p>"
     },
     "Radiant Strikes": {
       "name": "Golpes Radiantes",
@@ -3893,7 +3893,7 @@
     },
     "Rage of the Gods": {
       "name": "Furia de los Dioses",
-      "description": "<p>When you activate your Rage, you can assume the form of a divine warrior. This form lasts for 1 minute or until you drop to 0 Hit Points. Once you use this feature, you can't do so again until you finish a Long Rest.</p><p>While in this form, you gain the benefits below.</p><p><strong>Flight.</strong> You have a Fly Speed equal to your Speed and can hover.</p><p><strong>Resistance.</strong> You have Resistance to Necrotic, Psychic, and Radiant damage.</p><p><strong>Revivification.</strong> When a creature within 30 feet of you would drop to 0 Hit Points, you can take a Reaction to expend a use of your Rage to instead change the target's Hit Points to a number equal to your Barbarian level (currently [[lookup @classes.barbarian.levels]]).</p><section class=\"secret\" id=\"secret-gWvozli4SOlo3KxS\"><p><strong>Foundry Note</strong></p><p>The <strong>Rage of the Gods</strong> activity includes an Active Effect for automatically adding the resistances and hover but does not provide the fly speed.</p><p>The <strong>Revivification</strong> activity includes a healing roll of your Barbarian level.</p></section>",
+      "description": "<p>A partir del nivel 14, cuando entres en Furia, puedes elegir transformarte. Cuando lo hagas, obtienes los siguientes beneficios durante la duración de tu Furia:</p><p>• Tienes velocidad volando igual a tu velocidad de caminar.</p><p>• Tu alcance para ataques cuerpo a cuerpo aumenta en 1,5 metros.</p><p>• Cuando golpees con un ataque con arma, la criatura objetivo debe hacer una tirada de salvación de Fuerza contra una CD igual a 8 + tu bonificador por competencia + tu modificador por Fuerza. En una salvación fallida, es derribada.</p>",
       "activities": {
         "Revivification": {
           "name": "Revivification",
@@ -3914,7 +3914,7 @@
     },
     "Rage of the Wilds": {
       "name": "Furia de lo Salvaje",
-      "description": "<p>Your Rage taps into the primal power of animals. Whenever you activate your Rage, you gain one of the following options of your choice.</p><p><strong>Bear.</strong> While your Rage is active, you have Resistance to every damage type except Force, Necrotic, Psychic, and Radiant.</p><p><strong>Eagle.</strong> When you activate your Rage, you can take the Disengage and Dash actions as part of that Bonus Action. While your Rage is active, you can take a Bonus Action to take both of those actions.</p><p><strong>Wolf.</strong> While your Rage is active, your allies have Advantage on attack rolls against any enemy of yours within 5 feet of you.</p><section class=\"secret\" id=\"secret-NkFSYzGdf370PpSv\"><p><strong>Foundry Note</strong></p><p>The <strong>Bear</strong> activity includes an Active Effect which can automate the addition of the resistances.</p><p>The <strong>Eagle</strong> activity uses a Bonus Action  for Disengage and Dash.</p><p>The <strong>Wolf</strong> activity includes a 5 foot target template for identifying impacted creatures.</p></section>",
+      "description": "<p>A partir del nivel 14, cuando uses tu Forma Salvaje para transformarte en una bestia, puedes añadir la mitad de tu nivel de druida (redondeado hacia abajo) a los ataques que hagas con formas de bestia. Además, cualquier ataque de bestia que hagas cuenta como mágico para propósitos de superar resistencia e inmunidad a ataques y daño no mágicos.</p>",
       "activities": {
         "Eagle": {
           "name": "Eagle"
@@ -3938,7 +3938,7 @@
     },
     "Rally": {
       "name": "Reagrupar",
-      "description": "<p>As a Bonus Action, you can expend one Superiority Die to bolster the resolve of a companion. Choose an ally of yours within 30 feet of yourself who can see or hear you. That creature gains Temporary Hit Points equal to the Superiority Die roll plus half your Fighter level (round down).</p>"
+      "description": "<p>En tu turno, puedes usar una acción adicional y gastar un Dado de Superioridad para reforzar la determinación de uno de tus camaradas. Cuando lo hagas, elige una criatura amistosa que pueda verte u oírte. Esa criatura obtiene puntos de golpe temporales iguales al resultado del Dado de Superioridad + tu modificador por Carisma.</p>"
     },
     "Ranger": {
       "name": "Explorador",
@@ -4040,7 +4040,7 @@
     },
     "Rend Mind": {
       "name": "Rasgar Mente",
-      "description": "<p>You can sweep your Psychic Blades through a creature’s mind. When you use your Psychic Blades to deal Sneak Attack damage to a creature, you can force that target to make a Wisdom saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus). If the save fails, the target has the Stunned condition for 1 minute. The Stunned target repeats the save at the end of each of its turns, ending the effect on itself on a success.</p><p>Once you use this feature, you can’t do so again until you finish a Long Rest unless you expend three Psionic Energy Dice (no action required) to restore your use of it.</p><section id=\"secret-Zq3j5BJjksLsQv5k\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Rend Mind (Free)</strong> activity includes a free use of this feature. The <strong>Rend Mind</strong> activity will consume three Psionic Energy Dice. Both activities include the save and an Active Effect that applies the Stunned condition.</p></section>",
+      "description": "<p>Puedes desgarrar la mente de una criatura. Como acción, elige una criatura que puedas ver a 18 metros de ti. Esa criatura debe hacer una tirada de salvación de Inteligencia contra tu CD de conjuros de brujo. En una salvación fallida, la criatura queda aturdida hasta el final de tu próximo turno, y recibe 6d8 de daño psíquico. En una salvación exitosa, recibe la mitad del daño y no queda aturdida.</p><p>Una vez que uses este rasgo, no puedes usarlo de nuevo hasta que finalices un descanso largo.</p>",
       "activities": {
         "Rend Mind (Free)": {
           "name": "Rend Mind (Free)",
@@ -4060,7 +4060,7 @@
     },
     "Repelling Blast": {
       "name": "Explosión Repelente",
-      "description": "<blockquote><p>Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage via an Attack Roll</p></blockquote><p>Choose one of your known Warlock cantrips that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 feet straight away from you.</p><p><strong>Repeatable.</strong> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p><section class=\"secret\" id=\"secret-5xV7SaKI7sGaeKvq\"><p><strong>Foundry Note</strong></p><p>The <strong>Make Repelling</strong> activity can be used to enchant a cantrip which adds \", Repelling\" as a reminder.</p></section>",
+      "description": "<p><strong>Prerrequisito:</strong> Nivel 2+ de Brujo, un truco de Brujo que cause daño</p><p>Cuando golpees a una criatura con tu truco elegido, puedes empujar a la criatura hasta 3 metros lejos de ti en línea recta.</p>",
       "activities": {
         "Make Repelling": {
           "name": "Make Repelling"
@@ -4078,7 +4078,7 @@
     },
     "Restore Balance": {
       "name": "Restaurar Equilibrio",
-      "description": "<p>Your connection to the plane of absolute order allows you to equalize chaotic moments. When a creature you can see within 60 feet of yourself is about to roll a d20 with Advantage or Disadvantage, you can take a Reaction to prevent the roll from being affected by Advantage and Disadvantage.</p><p>You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>",
+      "description": "<p>Cuando una criatura que puedas ver a 18 metros esté a punto de hacer una tirada de ataque con ventaja o desventaja, puedes usar tu reacción para evitar que la tirada se vea afectada por ventaja o desventaja.</p>",
       "activities": {
         "Prevent Advantage/Disadvantage": {
           "name": "Prevent Advantage/Disadvantage",
@@ -4125,7 +4125,7 @@
     },
     "Riposte": {
       "name": "Respuesta",
-      "description": "<p>When a creature misses you with a melee attack roll, you can take a Reaction and expend one Superiority Die to make a melee attack roll with a weapon or an Unarmed Strike against the creature. If you hit, add the Superiority Die to the attack's damage.</p><section id=\"secret-aL4TzEY3Wy7mzsWY\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Riposte Damage</strong> reaction activity allows you to select the type of damage it should deal in the roll dialog and will consume a use of your Superiority Die.</p></section>",
+      "description": "<p>Cuando una criatura falle un ataque cuerpo a cuerpo contra ti, puedes usar tu reacción y gastar un Dado de Superioridad para hacer un ataque de arma cuerpo a cuerpo contra la criatura. Si golpeas, añades el Dado de Superioridad a la tirada de daño del ataque.</p>",
       "activities": {
         "Riposte Damage": {
           "name": "Riposte Damage",
@@ -4135,7 +4135,7 @@
     },
     "Ritual Adept": {
       "name": "Adepto Ritual",
-      "description": "<p>You can cast any spell as a @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.YSB1QtxZW2BI9f4Y#casting-without-slots]{Ritual} if that spell has the Ritual tag and the spell is in your spellbook. You needn’t have the spell prepared, but you must read from the book to cast a spell in this way.</p>"
+      "description": "<p>Puedes lanzar cualquier conjuro como un ritual si ese conjuro tiene la etiqueta de ritual y está en tu lista de conjuros de brujo. No necesitas tener el conjuro preparado.</p>"
     },
     "Rogue": {
       "name": "Pícaro",
@@ -4207,7 +4207,7 @@
     },
     "Scholar": {
       "name": "Erudito",
-      "description": "<p>While studying magic, you also specialized in another field of study. Choose one of the following skills in which you have proficiency: Arcana, History, Investigation, Medicine, Nature, or Religion. You have Expertise in the chosen skill.</p>"
+      "description": "<p>A partir del nivel 2, puedes añadir la mitad de tu bonificador por competencia, redondeado hacia abajo, a cualquier chequeo de Inteligencia que hagas que no incluya ya tu bonificador por competencia.</p>"
     },
     "Sculpt Spells": {
       "name": "Esculpir Conjuros",
@@ -4251,7 +4251,7 @@
     },
     "Seeking Spell": {
       "name": "Conjuro Buscador",
-      "description": "<blockquote><p>Cost: 1 Sorcery Point</p></blockquote><p>If you make an attack roll for a spell and miss, you can spend 1 Sorcery Point to reroll the d20, and you must use the new roll.</p><p>You can use Seeking Spell even if you’ve already used a different Metamagic option during the casting of the spell.</p>",
+      "description": "<p><strong>Coste:</strong> 1 Punto de Hechicería</p><p>Cuando hagas una tirada de ataque para un conjuro y falles, puedes gastar 1 punto de hechicería para volver a tirar el d20. Debes usar la nueva tirada.</p>",
       "activities": {
         "Seeking Spell": {
           "name": "Seeking Spell",
@@ -4265,7 +4265,7 @@
     },
     "Shadow Arts": {
       "name": "Artes de las Sombras",
-      "description": "<p>You have learned to draw on the power of the Shadow­fell, gaining the following benefits.</p><p><strong>Darkness.</strong> You can expend 1 Focus Point to cast the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Darkness} spell without spell components. You can see within the spell's area when you cast it with this feature. While the spell persists, you can move its area of Darkness to a space within 60 feet of yourself at the start of each of your turns.</p><p><strong>Darkvision.</strong> You gain Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.</p><p><strong>Shadowy Figments.</strong> You know the Minor Illusion spell. Wisdom is your spellcasting ability for it.</p><section class=\"secret\" id=\"secret-wd4smhB7uw8Awq0x\"><p><strong>Foundry Note</strong></p><p>The <strong>Expend Focus Point</strong> activity expends a use and you can then use the [[/item Darkness]] spell which is granted to you at this level.</p><p>This feature includes an Active Effect that increases your Darkvision.</p><p>You are granted the Minor Illusion spell when you reach this level.</p></section>",
+      "description": "<p>Puedes usar tu foco para duplicar los efectos de ciertos conjuros. Como acción, puedes gastar 2 puntos de foco para lanzar Oscuridad, Pasar sin Rastro o Silencio, sin necesidad de componentes materiales. Además, obtienes el truco Ilusión Menor si aún no lo conoces.</p>",
       "activities": {
         "Expend Focus Point": {
           "name": "Expend Focus Point"
@@ -4279,7 +4279,7 @@
     },
     "Shadow Step": {
       "name": "Paso de Sombra",
-      "description": "<p>While entirely within Dim Light or Darkness, you can use a Bonus Action to teleport up to 60 feet to an unoccupied space you can see that is also in Dim Light or Darkness. You then have Advantage on the next melee attack you make before the end of the current turn.</p>",
+      "description": "<p>Obtienes la capacidad de moverte de una sombra a otra. Cuando estés en luz tenue u oscuridad, como acción adicional puedes teleportarte hasta 18 metros a un espacio desocupado que puedas ver que también esté en luz tenue u oscuridad. Luego tienes ventaja en el primer ataque cuerpo a cuerpo que hagas antes del final del turno.</p>",
       "activities": {
         "Shadow Step": {
           "name": "Shadow Step",
@@ -4289,7 +4289,7 @@
     },
     "Shadowy Dodge": {
       "name": "Esquiva Sombría",
-      "description": "<p>When a creature makes an attack roll against you, you can take a Reaction to impose Disadvantage on that roll. Whether the attack hits or misses, you can then teleport up to 30 feet to an unoccupied space you can see.</p>",
+      "description": "<p>Puedes usar tu reacción cuando una criatura hace una tirada de ataque contra ti para imponer desventaja en esa tirada. Debes estar en luz tenue u oscuridad para usar este rasgo.</p>",
       "activities": {
         "Shadowy Dodge": {
           "name": "Shadowy Dodge",
@@ -4299,7 +4299,7 @@
     },
     "Share Spells": {
       "name": "Compartir Conjuros",
-      "description": "<p>When you cast a spell targeting yourself, you can also affect your Primal Companion beast with the spell if the beast is within 30 feet of you.</p>"
+      "description": "<p>Cuando lanzas un conjuro que te apunte solo a ti y no tenga un alcance de toque, puedes hacer que el conjuro también apunte a tu compañero de bestia o tu compañero primigenio si el compañero está a 9 metros de ti.</p>"
     },
     "Signature Spells": {
       "name": "Conjuros Distintivos",
@@ -4405,7 +4405,7 @@
     },
     "Soul Blades": {
       "name": "Hojas del Alma",
-      "description": "<p>You can now use the following powers with your Psychic Blades.</p><p><strong>Homing Strikes.</strong> If you make an attack roll with your Psychic Blade and miss the target, you can roll one Psionic Energy Die and add the number rolled to the attack roll. If this causes the attack to hit, the die is expended.</p><p><strong>Psychic Teleportation.</strong> As a Bonus Action, you manifest a Psychic Blade, expend one Psionic Energy Die and roll it, and throw the blade at an unoccupied space you can see up to a number of feet away equal to 10 times the number rolled. You then teleport to that space, and the blade vanishes.</p><section class=\"secret\" id=\"secret-1npFnCTwWLq6hxhx\"><p><strong>Foundry Note</strong></p><p>The <strong>Homing Strikes</strong> activity will expend a die and provides a roll. If the check still fails you can refund the die.</p><p>The <strong>Psychic Teleportation</strong> activity expends a die and provides a roll. You can then place a template within the rolled range to indicate where you would like to teleport to (though you are not automatically teleported).</p></section>",
+      "description": "<p>La telequinesis psionic que fluye a través de ti puede manifestarse en ataques brutales. Cuando hagas un ataque con tu Hoja Psíquica, puedes gastar dados de Inspiración de Bardo para potenciarlo, hasta un número igual a tu bonificador por Carisma (mínimo uno). Tiras los dados de Inspiración de Bardo gastados y añades el total a la tirada de daño del ataque.</p>",
       "activities": {
         "Homing Strikes": {
           "name": "Homing Strikes",
@@ -4462,11 +4462,11 @@
     },
     "Spell Resistance": {
       "name": "Resistencia a Conjuros",
-      "description": "<p>Tienes ventaja en tiradas de salvación contra conjuros. Además, tienes resistencia contra el daño de conjuros.</p>"
+      "description": "<p>Tienes ventaja en tiradas de salvación contra conjuros.</p><p>Además, tienes resistencia al daño de conjuros.</p>"
     },
     "Spell Thief": {
       "name": "Ladrón de Conjuros",
-      "description": "<p>You gain the ability to magically steal the knowledge of how to cast a spell from another spellcaster.</p><p>Immediately after a creature casts a spell that targets you or includes you in its area of effect, you can take a Reaction to force the creature to make an Intelligence saving throw. The DC equals your spell save DC. On a failed save, you negate the spell’s effect against you, and you steal the knowledge of the spell if it is at least level 1 and of a level you can cast (it doesn’t need to be a Wizard spell). For the next 8 hours, you have the spell prepared. The creature can’t cast it until the 8 hours have passed.</p><p>Once you steal a spell with this feature, you can’t use this feature again until you finish a Long Rest.</p>",
+      "description": "<p>Obtienes la capacidad de arrebatar mágicamente el conocimiento de cómo lanzar un conjuro de otro lanzador de conjuros.</p><p>Inmediatamente después de que una criatura lance un conjuro que te apunte o te incluya en su área de efecto, puedes usar tu reacción para forzar a la criatura a hacer una tirada de salvación con su modificador de lanzamiento de conjuros. La CD es igual a tu CD de conjuros de mago. En una salvación fallida, niegas el efecto del conjuro contra ti, y robas el conocimiento del conjuro si es al menos nivel 1 y de un nivel que puedas lanzar (no necesita ser un conjuro de mago). Durante las próximas 8 horas, conoces el conjuro y puedes lanzarlo usando tus espacios de conjuro. La criatura no puede lanzar ese conjuro hasta que pasen las 8 horas.</p><p>Una vez que uses este rasgo, no puedes usarlo de nuevo hasta que finalices un descanso largo.</p>",
       "activities": {
         "Spell Thief": {
           "name": "Spell Thief",
@@ -4542,7 +4542,7 @@
     },
     "Steps of the Fey": {
       "name": "Pasos de las Hadas",
-      "description": "<p>Your patron grants you the ability to move between the boundaries of the planes. You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Misty Step} without expending a spell slot a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p><p>In addition, whenever you cast that spell, you can choose one of the following additional effects.</p><p><strong>Refreshing Step.</strong> Immediately after you teleport, you or one creature you can see within 10 feet of yourself gains 1d10 Temporary Hit Points.</p><p><strong>Taunting Step.</strong> Creatures within 5 feet of the space you left must succeed on a Wisdom saving throw against your spell save DC or have Disadvantage on attack rolls against creatures other than you until the start of your next turn.</p><section class=\"secret\" id=\"secret-oAFNZShkA0Hl2JEm\"><p><strong>Foundry Note</strong></p><p>The <strong>Refreshing Step</strong> activity includes the Temporary Hit Points.</p><p>The <strong>Taunting Step</strong> activity includes the save and an Active Effect for tracking but it does not automate the effect.</p><p>You are granted the spell with free uses as you level up.</p></section>",
+      "description": "<p>Tu vínculo con el Feywild concede ventaja en tiradas de salvación contra ser hechizado, y la magia no puede ponerte a dormir.</p><p>Además, puedes lanzar Paso Brumoso sin gastar un espacio de conjuro. Puedes hacerlo un número de veces igual a tu modificador por Sabiduría (mínimo una vez), y recuperas todos los usos gastados cuando finalices un descanso largo.</p><p>Cuando alcances el nivel 7 en esta clase, puedes usar Paso Brumoso cuando realices la acción de Ataque o Esquivar, y el alcance del conjuro aumenta a 18 metros cuando lo lances de esta manera.</p>",
       "activities": {
         "Refreshing Step": {
           "name": "Refreshing Step",
@@ -4571,7 +4571,7 @@
     },
     "Stride of the Elements": {
       "name": "Paso de los Elementos",
-      "description": "<p>While your Elemental Attunement is active, you also have a Fly Speed and a Swim Speed equal to your Speed.</p><section id=\"secret-2VpFYVEuPixaVTaH\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature does not automatically grant the Fly and Swim Speed.</p></section>"
+      "description": "<p>El terreno difícil no te cuesta movimiento adicional, y puedes pasar a través del espacio de criaturas hostiles como si fueran terreno difícil.</p>"
     },
     "Stroke of Luck": {
       "name": "Golpe de Suerte",
@@ -4698,7 +4698,7 @@
     },
     "Superior Inspiration": {
       "name": "Inspiración Superior",
-      "description": "<p>Cuando tiras iniciativa y no tienes usos de Inspiración de Bardo restantes, recuperas un uso.</p>"
+      "description": "<p>Cuando tires iniciativa y no tengas usos de Inspiración de Bardo restantes, recuperas un uso.</p>"
     },
     "Supreme Healing": {
       "name": "Curación Suprema",
@@ -4800,7 +4800,7 @@
     },
     "Telekinetic Master": {
       "name": "Maestro Telequinético",
-      "description": "<p>You always have the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTelekinesi]{Telekinesis} spell prepared. With this feature, you can cast it without a spell slot or components, and your spellcasting ability for it is Intelligence. On each of your turns while you maintain Concentration on it, including the turn when you cast it, you can make one attack with a weapon as a Bonus Action.</p><p>Once you cast the spell with this feature, you can't do so in this way again until you finish a Long Rest unless you expend a Psionic Energy Die (no action required) to restore your use of it.</p><section class=\"secret\" id=\"secret-S88EcUnJKOTtOwTZ\"><p><strong>Foundry Note</strong></p><p>You are automatically granted the Telekinesis spell as you level up. It includes a free use and configures it to use Intelligence as your spellcasting modifier. You can manually consume a use of your Psionic Energy Die and give yourself another use of the spell.</p></section>"
+      "description": "<p>Puedes lanzar el conjuro Telequinesis sobre ti mismo, sin gastar un espacio de conjuro. Cuando lo hagas, el alcance del conjuro es de 18 metros, y puedes apuntar a ti mismo con el ataque cuerpo a cuerpo del conjuro.</p><p>Una vez que lances el conjuro de esta manera, no puedes hacerlo de nuevo hasta que finalices un descanso largo.</p>"
     },
     "Telepathic Speech": {
       "name": "Habla Telepática",
@@ -4813,7 +4813,7 @@
     },
     "The Third Eye": {
       "name": "El Tercer Ojo",
-      "description": "<p>You can increase your powers of perception. As a Bonus Action, choose one of the following benefits, which lasts until you start a Short or Long Rest. You can’t use this feature again until you finish a Short or Long Rest.</p><p><strong>Darkvision.</strong> You gain Darkvision with a range of 120 feet.</p><p><strong>Greater Comprehension.</strong> You can read any language.</p><p><strong>See Invisibility.</strong> You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSeeInvisib]{See Invisibility} without expending a spell slot.</p><section class=\"secret\" id=\"secret-AeoWjJwGLABKOYGI\"><p><strong>Foundry Note</strong></p><p>The <strong>Darkvision</strong> activity includes an Active Effect which grants you Darkvision.</p><p>The <strong>Greater Comprehension</strong> activity includes an Active Effect for tracking.</p><p>The <strong>See Invisibility</strong> activity includes a limited use and an Active Effect for tracking.</p></section>",
+      "description": "<p>Puedes usar tu acción para aumentar tus poderes de percepción. Cuando lo hagas, elige uno de los siguientes beneficios, que dura hasta que quedes incapacitado o realices un descanso corto o largo. No puedes usar el rasgo de nuevo hasta que finalices un descanso corto o largo.</p><p><strong>Visión en la oscuridad.</strong> Obtienes visión en la oscuridad hasta un alcance de 18 metros.</p><p><strong>Visión etérea.</strong> Puedes ver en el Plano Etéreo hasta un alcance de 18 metros.</p><p><strong>Gran comprensión.</strong> Puedes leer cualquier idioma.</p><p><strong>Ver invisibilidad.</strong> Puedes ver criaturas y objetos invisibles a 3 metros de ti que estén dentro de tu línea de visión.</p>",
       "activities": {
         "Darkvision": {
           "name": "Darkvision"
@@ -4841,7 +4841,7 @@
     },
     "Thief": {
       "name": "Ladrón",
-      "description": "<blockquote><p>Hunt for Treasure as a Classic Adventurer</p></blockquote><p>A mix of burglar, treasure hunter, and explorer, you are the epitome of an adventurer. In addition to improving your agility and stealth, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there.</p>",
+      "description": "<p>A partir del nivel 3, puedes usar la acción adicional otorgada por tu Acción Astuta para hacer un chequeo de Destreza (Juego de Manos), usar tus herramientas de ladrón para desarmar una trampa o abrir una cerradura, o realizar la acción de Usar un Objeto.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -4850,7 +4850,7 @@
     },
     "Thief's Reflexes": {
       "name": "Reflejos del Ladrón",
-      "description": "<p>You are adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal Initiative and your second turn at your Initiative minus 10.</p>"
+      "description": "<p>Has perfeccionado tu agilidad hasta el punto de que siempre puedes actuar primero. En el primer turno de cualquier combate, tienes dos turnos si no estás sorprendido.</p>"
     },
     "Thieves' Cant": {
       "name": "Jerga de Ladrones",
@@ -4858,11 +4858,11 @@
     },
     "Thirsting Blade": {
       "name": "Hoja Sedienta",
-      "description": "<blockquote><p>Prerequisite: Level 5+ Warlock, @UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactBlade0]{Pact of the Blade} Invocation.</p></blockquote><p>You gain the Extra Attack feature for your pact weapon only. With that feature, you can attack twice with the weapon instead of once when you take the Attack action on your turn.</p>"
+      "description": "<p><strong>Prerrequisito:</strong> Nivel 5+ de Brujo, invocación @UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactBlade0]{Pacto de la Hoja}</p><p>Cuando realizas la acción de Ataque con tu arma de pacto, puedes hacer dos ataques en lugar de uno.</p>"
     },
     "Thought Shield": {
       "name": "Escudo de Pensamientos",
-      "description": "<p>Your thoughts can’t be read by telepathy or other means unless you allow it. You also have Resistance to Psychic damage, and whenever a creature deals Psychic damage to you, that creature takes the same amount of damage that you take.</p>",
+      "description": "<p>A partir del nivel 10, tus pensamientos no pueden ser leídos por telepatía u otros medios a menos que lo permitas. También tienes resistencia al daño psíquico, y siempre que una criatura te cause daño psíquico, esa criatura recibe la misma cantidad de daño que tú.</p>",
       "effects": {
         "Thought Shield": {
           "name": "Thought Shield",
@@ -4880,7 +4880,7 @@
     },
     "Tireless": {
       "name": "Incansable",
-      "description": "<p>Primal forces now help fuel you on your journeys, granting you the following benefits.</p><p><strong>Temporary Hit Points.</strong> As a Magic action, you can give yourself a number of Temporary Hit Points equal to 1d8 plus your Wisdom modifier (minimum of 1). You can use this action a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p><p><strong>Decrease Exhaustion.</strong> Whenever you finish a Short Rest, your Exhaustion level, if any, decreases by 1.</p><section id=\"secret-wlhwV2MDwGKQ8plw\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Temporary Hit Points</strong> activity can apply the Temporary Hit Points to you.</p><p>The <strong>Decrease Exhaustion</strong> activity will decrease your Exhaustion.</p></section>",
+      "description": "<p>Como acción, puedes darte un número de puntos de golpe temporales igual a 1d8 + tu modificador por Sabiduría (mínimo 1 punto de golpe temporal). Puedes usar esta acción un número de veces igual a tu bonificador por competencia, y recuperas todos los usos gastados cuando finalices un descanso largo.</p><p>Además, siempre que finalices un descanso corto, tu agotamiento se reduce en 1.</p>",
       "activities": {
         "Temporary Hit Points": {
           "name": "Temporary Hit Points"
@@ -4893,7 +4893,7 @@
     },
     "Trance of Order": {
       "name": "Trance del Orden",
-      "description": "<p>You gain the ability to align your consciousness with the endless calculations of Mechanus. As a Bonus Action, you can enter this state for 1 minute. For the duration, attack rolls against you can’t benefit from Advantage, and whenever you make a D20 Test, you can treat a roll of 9 or lower on the d20 as a 10.</p><p>Once you use this feature, you can’t use it again until you finish a Long Rest unless you spend 5 Sorcery Points (no action required) to restore your use of it.</p><section class=\"secret\" id=\"secret-Czwc4gBG5ZYCuD6i\"><p><strong>Foundry Note</strong></p><p>The <strong>Enter Trance (Free)</strong> activity includes a free use.</p><p>The <strong>Enter Trance (Sorcery Points)</strong> activity will expend five Sorcery Points.</p><p>The minimum roll is not automated.</p></section>",
+      "description": "<p>Obtienes la capacidad de alinear tu consciencia con el orden absoluto del plano de Mechanus. Como acción adicional, entras en este estado durante 1 minuto. Durante este tiempo, las tiradas de ataque contra ti no pueden beneficiarse de ventaja, y siempre que hagas una tirada de ataque, chequeo de habilidad o tirada de salvación, puedes tratar una tirada del d20 de 9 o menor como un 10.</p><p>Una vez que uses este rasgo, no puedes hacerlo de nuevo hasta que finalices un descanso largo.</p>",
       "activities": {
         "Enter Trance (Free)": {
           "name": "Enter Trance (Free)"
@@ -4911,7 +4911,7 @@
     },
     "Transmuted Spell": {
       "name": "Conjuro Transmutado",
-      "description": "<blockquote><p>Cost: 1 Sorcery Point</p></blockquote><p>When you cast a spell that deals a type of damage from the following list, you can spend 1 Sorcery Point to change that damage type to one of the other listed types: Acid, Cold, Fire, Lightning, Poison, Thunder.</p>",
+      "description": "<p><strong>Coste:</strong> 1 Punto de Hechicería</p><p>Cuando lanzas un conjuro que cause daño de ácido, frío, fuego, relámpago, veneno o trueno, puedes gastar 1 punto de hechicería para cambiar el tipo de daño a uno de los otros tipos listados.</p>",
       "activities": {
         "Transmuted Spell": {
           "name": "Transmuted Spell",
@@ -5038,7 +5038,7 @@
     },
     "Unbreakable Majesty": {
       "name": "Majestad Inquebrantable",
-      "description": "<p>As a Bonus Action, you can assume a magically majestic presence for 1 minute or until you have the &amp;Reference[Incapacitated] condition. For the duration, whenever any creature hits you with an attack roll for the first time on a turn, the attacker must succeed on a [[/save]]{Charisma saving throw} against your spell save DC, or the attack misses instead, as the creature recoils from your majesty.</p><p>Once you assume this majestic presence, you can't do so again until you finish a Short or Long Rest.</p><section class=\"secret\" id=\"secret-NbhuxdzHOM4DrYtJ\"><p><strong>Foundry Note</strong></p><p>The <strong>Assume Majestic Presence</strong> activity includes an Active Effect for tracking your presence.</p><p>The <strong>Recoil Save</strong> activity includes the saving throw for the attacking creature.</p></section>",
+      "description": "<p>Tu apariencia gana permanentemente un aspecto sobrenatural. Además, como acción adicional, puedes asumir un semblante mágicamente majestuoso durante 1 minuto o hasta que quedes incapacitado. Durante ese tiempo, cuando cualquier criatura intente atacarte por primera vez en un turno, el atacante debe hacer una tirada de salvación de Carisma contra tu CD de conjuros de bardo. En una salvación fallida, no puede atacarte en este turno, y debe elegir un nuevo objetivo para su ataque o el ataque se desperdicia. En una salvación exitosa, puede atacarte en este turno, pero tiene desventaja en cualquier tirada de salvación que hagas contra los conjuros del atacante en tu próximo turno.</p><p>Una vez que asumas esta semblante majestuoso, no puedes hacerlo de nuevo hasta que finalices un descanso corto o largo.</p>",
       "activities": {
         "Recoil Save": {
           "name": "Recoil Save",
@@ -5076,7 +5076,7 @@
     },
     "Undying Sentinel": {
       "name": "Centinela Imperecedero",
-      "description": "<p>When you are reduced to 0 Hit Points and not killed outright, you can drop to 1 Hit Point instead, and you regain a number of Hit Points equal to three times your Paladin level. Once you use this feature, you can’t do so again until you finish a Long Rest.</p><p>Additionally, you can’t be aged magically, and you cease visibly aging.</p>",
+      "description": "<p>Cuando tendrías que hacer un tiro de salvación contra la muerte, en su lugar puedes subir a 1 punto de golpe. Una vez que uses este rasgo, no puedes usarlo de nuevo hasta que finalices un descanso largo.</p><p>Además, sufres ninguno de los inconvenientes de envejecimiento, y no puedes envejecer mágicamente.</p>",
       "activities": {
         "heal": {
           "condition": "When you are reduced to 0 Hit Points"
@@ -5131,7 +5131,7 @@
     },
     "War Bond": {
       "name": "Vínculo de Guerra",
-      "description": "<p>You learn a ritual that creates a magical bond between yourself and one weapon. You perform the ritual over the course of 1 hour, which can be done during a Short Rest. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond. The bond fails if another Fighter is bonded to the weapon or if the weapon is a magic item to which someone else is attuned.</p><p>Once you have bonded a weapon to yourself, you can't be disarmed of that weapon unless you have the Incapacitated condition. If it is on the same plane of existence, you can summon that weapon as a Bonus Action, causing it to teleport instantly to your hand.</p><p>You can have up to two bonded weapons, but you can summon only one at a time with a Bonus Action. If you attempt to bond with a third weapon, you must break the bond with one of the other two.</p><section class=\"secret\" id=\"secret-zmK2Pbr1mAvJ6BLy\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity for summoning your weapon that can be used if you're tracking usage of your Bonus Action.</p><p>It also includes a Bond with Weapon activity which can be used to enchant your bonded weapons. It will append \", War Bonded\" to its name for easy identification.</p></section>",
+      "description": "<p>A partir del nivel 7, cuando termines un descanso largo, puedes tocar un arma y vincularla contigo. No puedes estar vinculado a más de dos armas a la vez. Mientras estés vinculado a un arma, ella cuenta como un arma psiónica para ti y no puede ser desarmada de ti a menos que estés incapacitado. Si el arma vinculada está en el mismo plano de existencia, puedes convocarla con una acción adicional, causando que aparezca instantáneamente en tu mano.</p>",
       "activities": {
         "Summon Weapon": {
           "name": "Summon Weapon"
@@ -5182,7 +5182,7 @@
     },
     "War Priest": {
       "name": "Sacerdote de Guerra",
-      "description": "<p>As a Bonus Action, you can make one attack with a weapon or an Unarmed Strike. You can use this Bonus Action a number of times equal to your Wisdom modifier (minimum of once, currently [[lookup @abilities.wis.mod]]). You regain all expended uses when you finish a Short or Long Rest.</p>",
+      "description": "<p>Desde el nivel 1, tu dios te entrega estallidos de inspiración divina mientras estás en combate. Cuando uses la acción de Ataque, puedes hacer un ataque con arma como acción adicional. Puedes usar este rasgo un número de veces igual a tu modificador por Sabiduría (mínimo una vez). Recuperas todos los usos gastados cuando finalices un descanso largo.</p>",
       "activities": {
         "Expend Use": {
           "name": "Expend Use"
@@ -5191,7 +5191,7 @@
     },
     "Warding Flare": {
       "name": "Destello Protector",
-      "description": "<p>When a creature that you can see within 30 feet of yourself makes an attack roll, you can take a Reaction to impose Disadvantage on the attack roll, causing light to flare before it hits or misses.</p><p>You can use this feature a number of times equal to your Wisdom modifier (minimum of once, currently [[lookup @abilities.wis.mod]]). You regain all expended uses when you finish a Long Rest.</p><section class=\"secret\" id=\"secret-FVDTK9yzluaZoQ0v\"><p><strong>Foundry Note</strong></p><p>The <strong>Flare</strong> activity includes a 30 foot emanation for identifying impacted creatures. It does not automate the Disadvantage.</p></section>",
+      "description": "<p>Puedes interponer luz divina entre ti y un enemigo atacante. Cuando seas atacado por una criatura a 9 metros de ti que puedas ver, puedes usar tu reacción para imponer desventaja en la tirada de ataque, causando que la luz estalle ante el atacante antes de que golpee o falle. Un atacante que no pueda ser cegado es inmune a este rasgo.</p><p>Puedes usar este rasgo un número de veces igual a tu modificador por Sabiduría (mínimo una vez). Recuperas todos los usos gastados cuando finalices un descanso largo.</p>",
       "activities": {
         "Flare": {
           "name": "Flare",
@@ -5257,7 +5257,7 @@
     },
     "Warping Implosion": {
       "name": "Implosión Deformante",
-      "description": "<p>You can unleash a space-warping anomaly. As a Magic action, you teleport to an unoccupied space you can see within 120 feet of yourself. Immediately after you disappear, each creature within 30 feet of the space you left must make a Strength saving throw against your spell save DC. On a failed save, a creature takes 3d10 Force damage and is pulled straight toward the space you left, ending in an unoccupied space as close to your former space as possible. On a successful save, the creature takes half as much damage only.</p><p>Once you use this feature, you can’t do so again until you finish a Long Rest unless you spend 5 Sorcery Points (no action required) to restore your use of it.</p>",
+      "description": "<p>Puedes desatar tu distorsión espacial en un estallido destructivo. Como acción, puedes teleportarte a un espacio desocupado que puedas ver a 36 metros. Inmediatamente después de desaparecer, cada criatura a 9 metros del espacio que dejaste debe hacer una tirada de salvación de Fuerza. En una salvación fallida, una criatura recibe 3d10 de daño de fuerza y es atraída en línea recta hacia el espacio que dejaste, terminando en un espacio desocupado lo más cerca posible de ese espacio. En una salvación exitosa, la criatura recibe la mitad del daño y no es atraída.</p><p>Una vez que uses este rasgo, no puedes usarlo de nuevo hasta que finalices un descanso largo.</p>",
       "activities": {
         "Warping Implosion": {
           "name": "Warping Implosion"
@@ -5328,7 +5328,7 @@
     },
     "Wholeness of Body": {
       "name": "Plenitud del Cuerpo",
-      "description": "<p>You gain the ability to heal yourself. As a Bonus Action, you can roll your Martial Arts die. You regain a number of Hit Points equal to the number rolled plus your Wisdom modifier (minimum of 1 Hit Point regained).</p><p>You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>"
+      "description": "<p>Obtienes la capacidad de curarte a ti mismo. Como acción, puedes recuperar puntos de golpe iguales a tres veces tu nivel de monje. Debes finalizar un descanso largo antes de poder usar este rasgo de nuevo.</p>"
     },
     "Wild Companion": {
       "name": "Compañero Salvaje",
@@ -5357,7 +5357,7 @@
     },
     "Wild Resurgence": {
       "name": "Resurgimiento Salvaje",
-      "description": "<p>Once on each of your turns, if you have no uses of Wild Shape left, you can give yourself one use by expending a spell slot (no action required).</p><p>In addition, you can expend one use of Wild Shape (no action required) to give yourself a level 1 spell slot, but you can't do so again until you finish a Long Rest.</p><section class=\"secret\" id=\"secret-b0eq9t1Lkei4tN53\"><p><strong>Foundry Note</strong></p><p>The <strong>Regain Wild Shape</strong> activity consumes a spell slot and grants you another use of Wild Shape.</p><p>The <strong>Regain Spell Slot</strong> activity will consume a use of Wild Shape and grant you a level 1 spell slot.</p></section>",
+      "description": "<p>Puedes usar una acción adicional en tu turno para restaurar puntos de hechicería a tu grupo de Puntos de Hechicería. Obtienes puntos de hechicería igual a un d4, y puedes darles esta cantidad a un aliado a 18 metros que tenga Puntos de Hechicería. Si nadie los acepta en 1 minuto, los puntos se pierden.</p><p>Una vez que uses este rasgo, no puedes usarlo de nuevo hasta que finalices un descanso largo.</p>",
       "activities": {
         "Regain Spell Slot": {
           "name": "Regain Spell Slot",
@@ -5390,7 +5390,7 @@
     },
     "Witch Sight": {
       "name": "Vista de Bruja",
-      "description": "<blockquote><p>Prerequisite: Level 15+ Warlock</p></blockquote><p>You have Truesight with a range of 30 feet.</p><section id=\"secret-yUE0N1X1QX3kZHcx\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automatically grants you Truesight.</p></section>",
+      "description": "<p><strong>Prerrequisito:</strong> Nivel 7+ de Brujo</p><p>Puedes ver la verdadera forma de cualquier cambiaformas o criatura ocultada por magia de ilusión o transmutación mientras la criatura esté a 9 metros de ti y dentro de tu línea de visión.</p>",
       "effects": {
         "Truesight (30 ft)": {
           "name": "Truesight (30 ft)"
@@ -5439,7 +5439,7 @@
     },
     "Wrath of the Sea": {
       "name": "Ira del Mar",
-      "description": "<p>As a Bonus Action, you can expend a use of your Wild Shape to manifest a 5-foot Emanation that takes the form of ocean spray that surrounds you for 10 minutes. It ends early if you dismiss it (no action required), manifest it again, or have the Incapacitated condition.</p><p>When you manifest the Emanation and as a Bonus Action on your subsequent turns, you can choose another creature you can see in the Emanation. The target must succeed on a Constitution saving throw against your spell save DC or take Cold damage and, if the creature is Large or smaller, be pushed up to 15 feet away from you. To determine this damage, roll a number of d6s equal to your Wisdom modifier (minimum of one die).</p><section class=\"secret\" id=\"secret-38KCytm3Ikto15P9\"><p><strong>Foundry Note</strong></p><p>The size of the emanation increases automatically when you gain the @UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdAquaticAff]{Aquatic Affinity} feature.</p><p>The <strong>Manifest Ocean Spray </strong>activity consumes a use and the <strong>Bonus Action Save</strong> activity does not.</p></section>",
+      "description": "<p>A partir del nivel 7, cuando uses el rasgo Forma de la Marea para asumir tu forma acuática, puedes elegir hasta 5 criaturas que puedas ver a 9 metros de ti. Cada objetivo elegido debe tener éxito en una tirada de salvación de Fuerza contra tu CD de conjuros de druida o recibir 2d6 de daño contundente y ser derribado. Una vez que uses este rasgo, no puedes hacerlo de nuevo hasta que finalices un descanso corto o largo.</p>",
       "activities": {
         "Manifest Ocean Spray": {
           "name": "Manifest Ocean Spray"
@@ -5457,7 +5457,7 @@
     },
     "Zealous Presence": {
       "name": "Presencia Fanática",
-      "description": "<p>As a Bonus Action, you unleash a battle cry infused with divine energy. Up to ten other creatures of your choice within 60 feet of you gain Advantage on attack rolls and saving throws until the start of your next turn.</p><p>Once you use this feature, you can't use it again until you finish a Long Rest unless you expend a use of your Rage (no action required) to restore your use of it.</p><section class=\"secret\" id=\"secret-jLt4ZN8yZicBocd7\"><p><strong>Foundry Note</strong></p><p>This <strong>Battle Cry</strong> activity includes an Active Effect for tracking impacted creatures but does not automate the advantage on attack rolls and saving throws.</p><p>The <strong>Recharge with Rage</strong> expends a Rage and restores a use of this feature.</p></section>",
+      "description": "<p>Obtienes la capacidad de canalizar energía divina para inspirar celo en batalla. Como acción adicional, pronuncias una exhortación celestial que otorga a ti y a cualquier aliado a 18 metros un bonificador a las tiradas de ataque y de salvación igual a tu modificador por Carisma (mínimo +1) hasta el inicio de tu próximo turno.</p><p>Una vez que uses este rasgo, no puedes usarlo de nuevo hasta que finalices un descanso largo.</p>",
       "activities": {
         "Battle Cry": {
           "name": "Battle Cry"

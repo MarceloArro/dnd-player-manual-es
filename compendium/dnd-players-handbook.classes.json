@@ -2118,7 +2118,7 @@
         },
         "Fiend Spells": {
           "title": "Conjuros Infernales",
-          "hint": "The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Fiend Spells table, you thereafter always have the listed spells prepared."
+          "hint": "La magia de tu patrón asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de brujo especificado en la tabla de Conjuros Infernales, a partir de entonces siempre tienes los conjuros indicados preparados."
         }
       }
     },
@@ -2367,11 +2367,11 @@
         },
         "Great Old One Spells": {
           "title": "Conjuros del Primigenio",
-          "hint": "The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Great Old One Spells table, you thereafter always have the listed spells prepared."
+          "hint": "La magia de tu patrón asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de brujo especificado en la tabla de Conjuros del Gran Antiguo, a partir de entonces siempre tienes los conjuros indicados preparados."
         },
         "Eldritch Hex": {
           "title": "Maleficio Sobrenatural",
-          "hint": "Your alien patron grants you a powerful curse. You always have the Hex spell prepared."
+          "hint": "Tu patrón alienígena te otorga una poderosa maldición. Siempre tienes preparado el conjuro Maleficio. Puedes lanzarlo usando un espacio de conjuro de brujo o gastando un número de dados de golpe igual al nivel del conjuro (mínimo 1). Si lo lanzas con dados de golpe, puedes hacerlo como acción adicional y el conjuro no requiere concentración, pero su duración es de 1 minuto para ese lanzamiento."
         },
         "Create Thrall": {
           "title": "Crear Siervo"
@@ -3531,7 +3531,7 @@
         },
         "Animal Speaker": {
           "title": "Hablante con Animales",
-          "hint": "The Animal Speaker feature grants you the Beast Sense and Speak with Animals spells but only as Rituals. Wisdom is your spellcasting ability for them."
+          "hint": "El rasgo Hablante de Animales te otorga los conjuros Sentidos de Bestia y Hablar con Animales, pero solo puedes lanzarlos como rituales."
         },
         "Nature Speaker": {
           "title": "Hablante con la Naturaleza"
@@ -3743,7 +3743,7 @@
         },
         "Guarded Mind": {
           "title": "Mente Protegida",
-          "hint": "You have Resistance to Psychic damage."
+          "hint": "Tienes resistencia al daño psíquico."
         }
       }
     },

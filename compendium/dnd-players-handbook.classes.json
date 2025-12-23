@@ -1345,7 +1345,7 @@
       "description": "<p>Obtienes una de las siguientes opciones de este rasgo, a tu elección. Tras finalizar un descanso corto o largo, puedes cambiar la opción elegida por la otra.</p><p><strong>Defensa contra ataques múltiples.</strong> Cuando una criatura te acierte con una tirada de ataque, esa criatura tendrá desventaja en todas las demás tiradas de ataque contra ti este turno.</p><p><strong>Escapar de la horda.</strong> Los ataques de oportunidad tienen desventaja contra ti.</p>",
       "activities": {
         "Multiattack Defense": {
-          "name": "Multiattack Defense",
+          "name": "Defensa contra Ataques Múltiples",
           "condition": "When a creature hits you with an attack roll"
         }
       },
@@ -2404,7 +2404,7 @@
       "description": "<p>A partir del nivel 2, puedes usar tu Canalizar Divinidad para golpear con precisión divina. Cuando hagas una tirada de ataque, puedes usar tu Canalizar Divinidad para obtener un bonificador de +10 a la tirada. Haces esta elección después de ver la tirada, pero antes de que el DM diga si el ataque acierta o falla.</p>",
       "activities": {
         "Guide Yourself": {
-          "name": "Guide Yourself",
+          "name": "Guiarte a Ti Mismo",
           "condition": "When you miss with an attack roll"
         },
         "Guide Another Creature": {
@@ -3428,7 +3428,7 @@
           "name": "Forge Pact Weapon"
         },
         "Spellcasting Attack": {
-          "name": "Spellcasting Attack"
+          "name": "Ataque de Lanzamiento de Conjuros"
         }
       },
       "effects": {
@@ -3787,7 +3787,7 @@
       "description": "<p>Puedes manifestar tu poder psionic como brillante energía. Como acción adicional, creas una hoja psíquica en tu mano libre que dura hasta que quedas incapacitado, mueres, o la descartes (sin acción requerida). La hoja es un arma mágica simple cuerpo a cuerpo con las propiedades arrojadiza y sutil. Su alcance normal es de 18 metros, y su alcance largo es de 18 metros. En un acierto, la hoja causa daño psíquico igual a 1d6 más el modificador de habilidad que usaste para la tirada de ataque.</p>",
       "activities": {
         "Bonus Attack": {
-          "name": "Bonus Attack"
+          "name": "Ataque Adicional"
         }
       }
     },
@@ -4063,7 +4063,7 @@
       "description": "<p><strong>Prerrequisito:</strong> Nivel 2+ de Brujo, un truco de Brujo que cause daño</p><p>Cuando golpees a una criatura con tu truco elegido, puedes empujar a la criatura hasta 3 metros lejos de ti en línea recta.</p>",
       "activities": {
         "Make Repelling": {
-          "name": "Make Repelling"
+          "name": "Hacer Repelente"
         }
       },
       "effects": {
@@ -4306,7 +4306,7 @@
       "description": "<p>Eliges dos conjuros de mago de nivel 3 de tu grimorio como tus conjuros de firma. Siempre tienes estos conjuros preparados, no cuentan contra el número de conjuros que tienes preparados, y puedes lanzar cada uno una vez en el nivel 3 sin gastar un espacio de conjuro. Cuando lo hagas, no puedes hacerlo de nuevo hasta que finalices un descanso corto o largo.</p><p>Si quieres lanzar cualquiera de estos conjuros a un nivel superior, debes gastar un espacio de conjuro como es normal.</p>",
       "activities": {
         "Make Signature": {
-          "name": "Make Signature"
+          "name": "Hacer Firma"
         },
         "Expend First Spell": {
           "name": "Expend First Spell"

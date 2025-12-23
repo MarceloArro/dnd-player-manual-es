@@ -143,7 +143,7 @@
     },
     "Action Surge": {
       "name": "Arrebato de Acción",
-      "description": "<p>Puedes esforzarte más allá de tus límites durante un instante. En tu turno, puedes realizar una acción adicional, excepto la acción Mágica.</p><p>Tras usar este rasgo, no podrás volver a hacerlo hasta que finalices un Descanso Corto o Descanso Largo. A partir del nivel 17, lo puedes usar dos veces antes de un descanso, pero solo una vez por turno.</p><section id=\"secret-nYOY8k3V38g8mZIS\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un uso limitado que aumenta automáticamente en el nivel 17.</p></section>"
+      "description": "<p>Puedes forzar más allá de tus límites normales por un momento. En tu turno, puedes realizar una acción adicional además de tu acción regular y posible acción adicional.</p><p>Una vez que uses este rasgo, debes finalizar un descanso corto o largo antes de poder usarlo de nuevo. A partir del nivel 17, puedes usarlo dos veces antes de un descanso, pero solo una vez en el mismo turno.</p>"
     },
     "Additional Fighting Style": {
       "name": "Estilo de Combate Adicional",
@@ -576,7 +576,7 @@
     },
     "Bardic Inspiration": {
       "name": "Inspiración del Bardo",
-      "description": "<p>Puedes recurrir a tus palabras, música o danza para inspirar de forma sobrenatural a los demás. Esta inspiración se representa con tu dado de Inspiración bárdica, que es un d6 (actualmente, [[lookup @scale.bard.inspiration.die]]).</p><p><strong>Utilizar la Inspiración bárdica.</strong> Como acción adicional, puedes inspirar a otra criatura que esté a 18m (60ft) o menos de ti y que te pueda ver u oír. Esa criatura obtiene uno de tus dados de Inspiración bárdica. Cada criatura no puede tener más de un dado de Inspiración bárdica.</p><p>Una vez dentro de la próxima hora, cuando la criatura falle una prueba de D20, puede tirar el dado de Inspiración bárdica y sumar el resultado al d20, lo que podría hacerle superar la prueba. Un dado de Inspiración bárdica se gasta al tirarlo.</p><p><strong>Número de usos.</strong> Puedes conceder un dado de Inspiración bárdica una cantidad de veces igual a tu modificador por Carisma (mínimo una vez) y recuperas todos sus usos tras finalizar un Descanso Largo.</p><p><strong>A niveles superiores.</strong> Tu dado de Inspiración bárdica cambia cuando alcanzas ciertos niveles de bardo, como se muestra en la columna \"Dado bárdico\" de la tabla \"Rasgos de bardo\". El dado se convierte en un d8 en el nivel 5, un d10 en el nivel 10 y un d12 en el nivel 15.</p><section class=\"secret\" id=\"secret-PtUXhUXS84HSdaew\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo para rastrear cuando un personaje tiene Inspiración del Bardo para usar.</p><p>La recuperación está establecida en descanso largo (para niveles anteriores a @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdFontOfInsp]{Fuente de Inspiración}). Por favor ajusta manualmente según sea necesario.</p></section>",
+      "description": "<p>Puedes inspirar a otros a través de palabras alentadoras o música. Para hacerlo, usas una acción adicional en tu turno y eliges una criatura que no seas tú a 18 metros de ti que pueda oírte. Esa criatura obtiene un dado de Inspiración de Bardo, un d6.</p><p>Una vez en los próximos 10 minutos, la criatura puede tirar el dado y añadir el número obtenido a un chequeo de habilidad, tirada de ataque o tirada de salvación que haga. La criatura puede esperar hasta después de tirar el d20 antes de decidir usar el dado de Inspiración de Bardo, pero debe decidir antes de que el DM diga si la tirada tiene éxito o falla. Una vez que se tira el dado de Inspiración de Bardo, se pierde. Una criatura solo puede tener un dado de Inspiración de Bardo a la vez.</p><p>Puedes usar este rasgo un número de veces igual a tu modificador por Carisma (mínimo una vez). Recuperas todos los usos gastados cuando finalizas un descanso largo.</p><p>Tu dado de Inspiración de Bardo cambia cuando alcanzas ciertos niveles en esta clase. El dado se convierte en un d8 en el nivel 5, un d10 en el nivel 10 y un d12 en el nivel 15.</p>",
       "activities": {
         "Inspire": {
           "name": "Inspirar",
@@ -708,7 +708,7 @@
     },
     "Blessed Healer": {
       "name": "Sanador Bendito",
-      "description": "<p>Los conjuros de curación que lances sobre otros también te sanan a ti. Inmediatamente después de usar un espacio de conjuro para lanzar un conjuro que haga recuperar puntos de golpe a una o varias criaturas que no seas tú, recuperarás una cantidad de puntos de golpe igual a 2 más el nivel del espacio de conjuro.</p><section class=\"secret\" id=\"secret-B3oOPhBUFT9dOwUQ\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una actividad de curación. Establece la escala al nivel del espacio de conjuro que lanzaste y te proporcionará una tirada de curación.</p></section>"
+      "description": "<p>Los conjuros de curación que lanzas sobre otros te sanan también a ti. Cuando lanzas un conjuro de nivel 1 o superior que restaura puntos de golpe a una criatura que no seas tú, recuperas puntos de golpe iguales a 2 + el nivel del conjuro.</p>"
     },
     "Blessed Strikes": {
       "name": "Golpes Benditos",
@@ -778,7 +778,7 @@
     },
     "Brutal Strike": {
       "name": "Golpe Brutal",
-      "description": "<p>If you use [[/item Reckless Attack]], you can forgo any Advantage on one Strength-based attack roll of your choice on your turn. The chosen attack roll mustn't have Disadvantage. If the chosen attack roll hits, the target takes an extra [[lookup @scale.barbarian.brutal-strike]] damage of the same type dealt by the weapon or Unarmed Strike, and you can cause one Brutal Strike effect of your choice. You have the following effect options.</p><p><strong>Forceful Blow. </strong>The target is pushed 15 feet straight away from you. You can then move up to half your Speed straight toward the target without provoking &amp;Reference[Opportunity Attacks].</p><p><strong>Hamstring Blow. </strong>The target's Speed is reduced by 15 feet until the start of your next turn. A target can be affected by only one Hamstring Blow at a time - the most recent one.</p><section class=\"secret\" id=\"secret-vLb1SoKHWW2796Ko\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for the Hamstring Blow which can be applied to a target.</p><p>The <strong>damage</strong> activity automatically scales when you gain Improved Brutal Strike (2).</p></section>",
+      "description": "<p>Si usas Ataque Temerario, puedes renunciar a tu ventaja en rollos de ataque durante tu turno. El primer ataque que golpees en este turno debe usar Fuerza, y obtienes una opción de Golpe Brutal de tu elección. Obtienes una opción adicional en los niveles 9 y 13.</p>",
       "activities": {
         "Brutal Strike": {
           "name": "Brutal Strike"
@@ -867,7 +867,7 @@
     },
     "Channel Divinity": {
       "name": "Canalizar Divinidad",
-      "description": "<p>Puedes canalizar energía divina directamente de los Planos Exteriores para alimentar varios efectos mágicos. Empiezas con dos de estos efectos: Chispa Divina y Expulsar Muertos Vivientes, que se describen a continuación. Cada vez que utilices el rasgo Canalizar Divinidad de esta clase, elige qué efecto de esta clase crear. En niveles superiores de clérigo recibirás opciones adicionales.</p><p>Puedes usar el rasgo Canalizar Divinidad de esta clase dos veces. Recuperas uno de los usos gastados tras finalizar un Descanso Corto y todos tras finalizar un Descanso Largo. Obtienes usos adicionales cuando alcanzas ciertos niveles de clérigo, como se muestra en la columna \"Canalizar Divinidad\" de la tabla \"Rasgos de clérigo\".</p><p>Si un efecto de Canalizar Divinidad requiere una tirada de salvación, la CD es igual a la CD de salvación de conjuros del rasgo Lanzamiento de Conjuros de esta clase.</p><p><strong>Chispa Divina.</strong> Como acción de magia, apuntas tu Símbolo Sagrado a otra criatura que puedas ver a 9m (30ft) o menos de ti y concentras energía divina en ella. Tira 1d8 y suma tu modificador de Sabiduría. O bien restauras puntos de golpe a la criatura igual al total obtenido o fuerzas a la criatura a realizar una tirada de salvación de Constitución. Si falla la salvación, la criatura recibe daño Necrótico o Radiante (a tu elección) igual a ese total. Si tiene éxito en la salvación, la criatura recibe la mitad del daño (redondea hacia abajo).</p><p>Tira 1d8 adicional cuando alcances los niveles 7 (2d8), 13 (3d8) y 18 (4d8) de clérigo.</p><p><strong>Expulsar Muertos Vivientes.</strong> Como acción de magia, presentas tu Símbolo Sagrado y censuras a criaturas No-Muertas. Cada No-Muerto de tu elección a 9m (30ft) o menos de ti debe realizar una tirada de salvación de Sabiduría. Si la criatura falla su salvación, tiene los estados de Asustado e Incapacitado durante 1 minuto. Durante esa duración, intenta alejarse lo más posible de ti en sus turnos. Este efecto termina antes en la criatura si recibe cualquier daño, si tú tienes el estado de Incapacitado o si mueres.</p><section class=\"secret\" id=\"secret-1ECtJAnUinEegKtL\"><p><strong>Nota Foundry</strong></p><p>Este rasgo restaurará automáticamente 1 uso en un Descanso Corto y todos en un Descanso Largo. Los usos escalan automáticamente a medida que subes de nivel.</p><p>La actividad <strong>Chispa Divina: Curar</strong> incluye el efecto de curación.</p><p>La actividad <strong>Chispa Divina: Salvación</strong> incluye la tirada de salvación.</p><p>La actividad <strong>Expulsar Muertos Vivientes</strong> incluye un Efecto Activo que aplica los estados de Asustado e Incapacitado.</p></section>",
+      "description": "<p>Obtienes la capacidad de canalizar energía divina directamente de tu deidad, usando esa energía para alimentar efectos mágicos. Comienzas con dos efectos: Expulsar No-Muertos y un efecto determinado por tu dominio. Algunos dominios te otorgan efectos adicionales a medida que avanzas de nivel, como se indica en la descripción del dominio.</p><p>Cuando usas tu Canalizar Divinidad, eliges qué efecto crear. Debes finalizar un descanso corto o largo para usar tu Canalizar Divinidad de nuevo.</p><p>Algunos efectos de Canalizar Divinidad requieren tiradas de salvación. Cuando usas tal efecto de esta clase, la CD es igual a tu CD de salvación de conjuros de clérigo.</p><p>A partir del nivel 6, puedes usar tu Canalizar Divinidad dos veces entre descansos, y a partir del nivel 18, puedes usarlo tres veces entre descansos. Cuando finalizas un descanso corto o largo, recuperas tus usos gastados.</p>",
       "activities": {
         "Divine Spark: Heal": {
           "name": "Chispa Divina: Curar"
@@ -1226,7 +1226,7 @@
     },
     "Cunning Action": {
       "name": "Acción Astuta",
-      "description": "<p>Tu agilidad mental y tu rapidez te permiten moverte y actuar con presteza. En tu turno, puedes llevar a cabo una de las siguientes acciones como acción adicional: &Reference[Correr], &Reference[Destrabarse] o &Reference[Esconderse].</p>",
+      "description": "<p>Tu agilidad y rapidez te permiten moverte y actuar rápidamente. Puedes usar una acción adicional en cada uno de tus turnos en combate para realizar la acción de Tablero, Desconexión o Esconderse.</p>",
       "activities": {
         "Dash": {
           "name": "Correr"
@@ -1288,7 +1288,7 @@
     },
     "Danger Sense": {
       "name": "Sentir el Peligro",
-      "description": "Eres capaz de percibir de forma casi sobrenatural cuándo las cosas no son como deberían. Gracias a ello, se te da bien evitar el peligro. Tienes ventaja en las Tiradas de Dalvación de Destreza salvo que tengas el estado de &Reference[Incapacitated].",
+      "description": "<p>Obtienes un sentido sobrenatural de cuándo las cosas cercanas no están como deberían, otorgándote una ventaja cuando evitas el peligro. Tienes ventaja en tiradas de salvación de Destreza contra efectos que puedas ver, como trampas y conjuros. Para obtener este beneficio, no debes estar cegado, ensordecido o incapacitado.</p>",
       "effects": {
         "Danger Sense": {
           "name": "Danger Sense",
@@ -1357,7 +1357,7 @@
     },
     "Deflect Attacks": {
       "name": "Desviar Ataques",
-      "description": "<p>When an attack roll hits you and its damage includes Bludgeoning, Piercing, or Slashing damage, you can take a Reaction to reduce the attack's total damage against you. The reduction equals 1d10 plus your Dexterity modifier and Monk level.</p><p>If you reduce the damage to 0, you can expend 1 Focus Point to redirect some of the attack's force. If you do so, choose a creature you can see within 5 feet of yourself if the attack was a melee attack or a creature you can see within 60 feet of yourself that isn't behind Total Cover if the attack was a ranged attack. That creature must succeed on a Dexterity saving throw or take damage equal to two rolls of your Martial Arts die plus your Dexterity modifier. The damage is the same type dealt by the attack.</p><section class=\"secret\" id=\"secret-zWGu1AEB09UqQ21D\"><p><strong>Foundry Note</strong></p><p>The <strong>Reduce</strong> activity can be used to heal yourself to reduce the total damage if it's not enough to reduce it to 0.</p><p>The <strong>Redirect</strong> activity can be used to roll damage and consume a use of your Focus Points if you can reduce it to 0. You can select the type of damage in the roll dialog. The dice increase automatically as you level up.</p></section>",
+      "description": "<p>Puedes usar tu reacción para desviar o atrapar un proyectil cuando eres golpeado por un ataque con arma a distancia. Cuando lo haces, el daño que recibes del ataque se reduce en 1d10 + tu modificador por Destreza + tu nivel de monje.</p><p>Si reduces el daño a 0, puedes atrapar el proyectil si es lo suficientemente pequeño como para sostenerlo en una mano y tienes al menos una mano libre. Si atrapas un proyectil de esta manera, puedes gastar 1 punto de foco para hacer un ataque a distancia con el arma o munición que acabas de atrapar, como parte de la misma reacción. Haces este ataque con competencia, independientemente de tus competencias con armas, y el proyectil cuenta como un arma de monje para el ataque, que tiene un alcance normal de 6 metros y un alcance largo de 18 metros.</p>",
       "activities": {
         "Reduce": {
           "name": "Reduce",
@@ -1398,7 +1398,7 @@
     },
     "Devious Strikes": {
       "name": "Golpes Traicioneros",
-      "description": "<p>You’ve practiced new ways to use your Sneak Attack deviously. The following effects are now among your Cunning Strike options.</p><p><strong>Daze (Cost: 2d6).</strong> The target must succeed on a Constitution saving throw, or on its next turn, it can do only one of the following: move or take an action or a Bonus Action.</p><p><strong>Knock Out (Cost: 6d6).</strong> The target must succeed on a Constitution saving throw, or it has the &amp;Reference[Unconscious] condition for 1 minute or until it takes any damage. The Unconscious target repeats the save at the end of each of its turns, ending the effect on itself on a success.</p><p><strong>Obscure (Cost: 3d6).</strong> The target must succeed on a Dexterity saving throw, or it has the &amp;Reference[Blinded] condition until the end of its next turn.</p><section class=\"secret\" id=\"secret-1jUuw8B9GvVx5ctH\"><p><strong>Foundry Note</strong></p><p>After using Cunning Strike effects use the [[/item Cunning Strike activity=Cunning Sneak Attack]]{Cunning Sneak Attack} activity. It will prompt you to select how many dice you expended on effects and deduct them from your Sneak Attack roll automatically.</p><p>You can control the damage type in the damage roll dialog box.</p><p>The <strong>Daze</strong> activity includes an Active Effect for tracking the dazed target but it does not automate the effect.</p><p>The <strong>Knock Out</strong> activity includes an Active Effect which applies the Unconscious condition.</p><p>The <strong>Obscure</strong> activity includes an Active Effect which applies the Blinded condition.</p></section>",
+      "description": "<p>Si usas tu rasgo de Ataque Furtivo en tu turno, puedes reemplazar el efecto de Ataque Furtivo con una de las siguientes opciones especiales de tu elección:</p><p><strong>Confundir.</strong> El objetivo debe tener éxito en una tirada de salvación de Constitución o tendrá desventaja en tiradas de ataque hasta el inicio de tu próximo turno.</p><p><strong>Desarmar.</strong> El objetivo debe tener éxito en una tirada de salvación de Destreza o deja caer un objeto que esté sosteniendo de tu elección. El objeto aterriza en un espacio a 3 metros del objetivo en una dirección de tu elección.</p><p><strong>Empujar.</strong> El objetivo debe tener éxito en una tirada de salvación de Fuerza o es empujado hasta 4,5 metros en la dirección de tu elección.</p><p><strong>Tropezar.</strong> El objetivo debe tener éxito en una tirada de salvación de Destreza o cae derribado.</p><p>La CD de salvación es igual a 8 + tu bonificador por competencia + tu modificador por Destreza.</p>",
       "activities": {
         "Daze": {
           "name": "Daze",
@@ -1491,7 +1491,7 @@
     },
     "Divine Intervention": {
       "name": "Intervención Divina",
-      "description": "<p>You can call on your deity or pantheon to intervene on your behalf. As a Magic action, choose any @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Cleric spell} of level 5 or lower that doesn't require a Reaction to cast. As part of the same action, you cast that spell without expending a spell slot or needing Material components. You can't use this feature again until you finish a Long Rest.</p><section id=\"secret-LP7yqqobTjOqeswv\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>Uncheck the \"Consumption\" box when casting the spell for the free use. This feature can be used to track available uses.</p></section>"
+      "description": "<p>Puedes llamar a tu deidad para que intervenga en tu favor cuando tu necesidad es grande.</p><p>Implorar la ayuda de tu deidad requiere que uses tu acción. Describe la asistencia que buscas y tira un porcentaje de dados. Si tiras un número igual o menor que tu nivel de clérigo, tu deidad interviene. El DM elige la naturaleza de la intervención; el efecto de cualquier conjuro de clérigo o conjuro de dominio de clérigo sería apropiado.</p><p>Si tu deidad interviene, no puedes usar este rasgo de nuevo durante 7 días. De lo contrario, puedes usarlo de nuevo después de finalizar un descanso largo.</p><p>En el nivel 20, tu llamada de ayuda tiene éxito automáticamente, sin necesidad de tirar.</p>"
     },
     "Divine Order": {
       "name": "Orden Divino",
@@ -1704,7 +1704,7 @@
     },
     "Eldritch Invocations": {
       "name": "Invocaciones Sobrenaturales",
-      "description": "<p>You have unearthed Eldritch Invocations, pieces of forbidden knowledge that imbue you with an abiding magical ability or other lessons. You gain one invocation of your choice, such as @UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactTome00]{Pact of the Tome}. Invocations are described in the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWarlock000000.JournalEntryPage.FA4hxx49eazhISIt]{Eldritch Invocation Options} section.</p><p><strong>Prerequisites.</strong> If an invocation has a prerequisite, you must meet it to learn that invocation. For example, if an invocation requires you to be a level 5+ Warlock, you can select the invocation once you reach Warlock level 5.</p><p><strong>Replacing and Gaining Invocations.</strong> Whenever you gain a Warlock level, you can replace one of your invocations with another one for which you qualify. You can’t replace an invocation if it’s a prerequisite for another invocation that you have.</p><p>When you gain certain Warlock levels, you gain more invocations of your choice, as shown in the Invocations column of the Warlock Features table.</p><p><strong>Current Max Eldritch Invocations:</strong> [[lookup @scale.warlock.invocations-known]]</p><p>You can’t pick the same invocation more than once unless its description says otherwise.</p><section class=\"secret\" id=\"secret-Oe1om6AaBjTtabpK\"><p><strong>Foundry Note</strong></p><p>You will be prompted for your choices as you level up. The advancement system does not prevent you from taking any invocations so be sure that you meet the requirements before selecting one.</p></section>"
+      "description": "<p>Como estudiante de la magia arcana oculta, puedes elegir invocaciones sobrenaturales que te otorgan habilidades mágicas. Obtienes dos invocaciones de tu elección de las \"Invocaciones Sobrenaturales\" disponibles en la @UUID[.EldrJourn]{Compendio}.</p><p>Cuando subes ciertos niveles de brujo, obtienes invocaciones adicionales de tu elección, como se muestra en la columna de Invocaciones Conocidas de la tabla de Brujo. Una invocación no cuenta contra tu número de invocaciones conocidas si la has reemplazado.</p><p>Cada vez que subes de nivel en esta clase, puedes reemplazar una de tus invocaciones con otra invocación que puedas aprender en ese nivel.</p><p>Si una invocación tiene requisitos previos, debes cumplirlos para aprenderla. Puedes aprender la invocación al mismo tiempo que cumples con sus requisitos previos. Un requisito de nivel se refiere a tu nivel de brujo.</p>"
     },
     "Eldritch Knight": {
       "name": "Caballero Arcano",
@@ -1723,7 +1723,7 @@
     },
     "Eldritch Master": {
       "name": "Maestro Sobrenatural",
-      "description": "<p>When you use your Magical Cunning feature, you regain all your expended Pact Magic spell slots.</p><section id=\"secret-Ei3yWRJ5hdPjWIH0\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>Use this feature to restore all expended Pact Magic spell slots. It will consume the free use from your Magical Cunning feature.</p></section>",
+      "description": "<p>Puedes recurrir a tu reserva interior de poder místico mientras ruega a tu patrón para recuperar espacios de conjuro gastados. Puedes pasar 1 minuto suplicando a tu patrón para obtener ayuda para recuperar todos tus espacios de conjuro de Magia de Pacto gastados. Una vez que recuperas espacios de conjuro con este rasgo, debes finalizar un descanso largo antes de poder hacerlo de nuevo.</p>",
       "activities": {
         "Eldritch Master": {
           "name": "Eldritch Master",
@@ -1769,7 +1769,7 @@
     },
     "Eldritch Strike": {
       "name": "Golpe Sobrenatural",
-      "description": "<p>You learn how to make your weapon strikes undercut a creature's ability to withstand your spells. When you hit a creature with an attack using a weapon, that creature has Disadvantage on the next saving throw it makes against a spell you cast before the end of your next turn.</p><section id=\"secret-jvKDjaltxCLtjiax\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which can be used for tracking but does not automate the Disadvantage.</p></section>",
+      "description": "<p>Aprendes cómo hacer que tus ataques con armas debiliten la resistencia de una criatura a tus conjuros. Cuando golpeas a una criatura con un ataque con arma, esa criatura tiene desventaja en la próxima tirada de salvación que haga contra un conjuro que lances antes del final de tu próximo turno.</p>",
       "effects": {
         "Struck": {
           "name": "Struck"
@@ -1896,7 +1896,7 @@
     },
     "Empowered Evocation": {
       "name": "Evocación Potenciada",
-      "description": "<p>Whenever you cast a Wizard spell from the Evocation school, you can add your Intelligence modifier to one damage roll of that spell.</p><section class=\"secret\" id=\"secret-3cdT0RlurgG5XV4o\"><p><strong>Foundry Note</strong></p><p>You can add your Intelligence modifier to the spell's Situational Bonus in the damage dialog or use this feature's <strong>Damage</strong> activity which allows you to select the type in the damage dialog.</p></section>",
+      "description": "<p>Puedes añadir tu modificador por Inteligencia al daño de cualquier conjuro de Evocación de mago que lances.</p>",
       "activities": {
         "damage": {
           "condition": "Whenever you cast a Wizard spell from the Evocation school"
@@ -1938,7 +1938,7 @@
     },
     "Evasion": {
       "name": "Evasión",
-      "description": "<p>Cuando sufras un efecto que te permita hacer una tirada de salvación de Destreza para sufrir solo la mitad de daño, no recibes daño alguno si la superas y solo sufres la mitad de daño si la fallas.</p>"
+      "description": "<p>Cuando eres sometido a un efecto que te permite hacer una tirada de salvación de Destreza para recibir solo la mitad del daño, en su lugar no recibes daño si tienes éxito en la tirada de salvación, y solo la mitad del daño si fallas.</p>"
     },
     "Evasive Footwork": {
       "name": "Juego de Pies Evasivo",
@@ -2013,7 +2013,7 @@
     },
     "Extra Attack": {
       "name": "Ataque Adicional",
-      "description": "<p>Cuando lleves a cabo la acción de atacar en tu turno, podrás hacer dos ataques en lugar de uno.</p>"
+      "description": "<p>Puedes atacar dos veces, en lugar de una, cuando realizas la acción de Ataque en tu turno.</p>"
     },
     "Faithful Steed": {
       "name": "Corcel Fiel",
@@ -2040,7 +2040,7 @@
     },
     "Fast Movement": {
       "name": "Movimiento Rápido",
-      "description": "<p>Tu velocidad aumenta en 10ft (3m) si no llevas armadura pesada.</p><section class=\"secret\" id=\"secret-6cmMiIJhUk5cpOGz\"><p><strong>Nota Foundry</strong></p><p>Este Rasgo incluye un Efecto Activo que automaticamente aumenta la Velocidad de Movimiento. Recuerda desactivar el rasgo si llevas Armadura Pesada.</p></section>",
+      "description": "<p>Tu velocidad aumenta en 3 metros mientras no lleves armadura pesada.</p>",
       "effects": {
         "Fast Movement": {
           "name": "Fast Movement"
@@ -2062,7 +2062,7 @@
     },
     "Feral Instinct": {
       "name": "Instinto Salvaje",
-      "description": "<p>Tus instintos están tan afinados que tienes ventaja en las tiradas de iniciativa.</p>",
+      "description": "<p>Tus instintos están tan afinados que tienes ventaja en tiradas de iniciativa.</p><p>Además, si estás sorprendido al comienzo del combate y no estás incapacitado, puedes actuar normalmente en tu primer turno, pero solo si entras en tu furia antes de hacer cualquier otra cosa en ese turno.</p>",
       "effects": {
         "Feral Instinct": {
           "name": "Feral Instinct"
@@ -2221,7 +2221,7 @@
     },
     "Fighting Style": {
       "name": "Estilo de Combate",
-      "description": "<p>You have honed your martial prowess and gain a @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.sbHImaCB8ZMEHYkb]{Fighting Style feat} of your choice. @UUID[Compendium.dnd-players-handbook.feats.Item.phbfstDefense000]{Defense} is recommended.</p><p>Whenever you gain a Fighter level, you can replace the feat you chose with a different Fighting Style feat.</p>"
+      "description": "<p>Adoptas un estilo de combate particular como tu especialidad. Elige uno de los siguientes estilos. No puedes adoptar el mismo estilo de combate más de una vez, incluso si más tarde puedes elegir de nuevo.</p>"
     },
     "Fleet Step": {
       "name": "Paso Veloz",
@@ -2233,7 +2233,7 @@
     },
     "Foe Slayer": {
       "name": "Mataenemigos",
-      "description": "<p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHuntersMar]{Hunter’s Mark} is a d10 rather than a d6.</p><section id=\"secret-GUET2urq4zcuitcV\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You may use this feature in place of the <strong>Bonus Mark Damage</strong> activity on the <em>Hunter's Mark</em> spell.</p></section>",
+      "description": "<p>Te conviertes en un cazador increíble de tus enemigos. Una vez en cada uno de tus turnos, puedes añadir tu modificador por Sabiduría a la tirada de ataque o de daño de un ataque que hagas contra uno de tus enemigos predilectos. Puedes elegir usar este rasgo antes o después de la tirada, pero antes de que se apliquen los efectos de la tirada.</p>",
       "activities": {
         "Improved Hunter's Mark Damage": {
           "name": "Improved Hunter's Mark Damage"
@@ -2242,7 +2242,7 @@
     },
     "Font of Inspiration": {
       "name": "Fuente de Inspiración",
-      "description": "<p>You now regain all your expended uses of Bardic Inspiration when you finish a Short or Long Rest.</p><p>In addition, you can expend a spell slot (no action required) to regain one expended use of Bardic Inspiration.</p><section class=\"secret\" id=\"secret-KgQeVfHTLTrKK1s0\"><p><strong>Foundry Note</strong></p><p>You must update the Bardic Inspiration feature on your sheet to refresh on Short Rest as it defaults to Long rest.</p><p>The <strong>Recharge with Spell Slot</strong> activity will expend a spell slot and grant another use of Bardic Inspiration.</p></section>",
+      "description": "<p>Recuperas todos tus usos gastados de Inspiración de Bardo cuando finalizas un descanso corto o largo.</p>",
       "activities": {
         "Recharge with Spell Slot": {
           "name": "Recharge with Spell Slot"
@@ -2251,7 +2251,7 @@
     },
     "Font of Magic": {
       "name": "Fuente de Magia",
-      "description": "<p>You can tap into the wellspring of magic within yourself. This wellspring is represented by Sorcery Points, which allow you to create a variety of magical effects.</p><p>You have 2 Sorcery Points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer Features table. You can’t have more Sorcery Points than the number shown in the table for your level. You regain all expended Sorcery Points when you finish a Long Rest.</p><p>You can use your Sorcery Points to fuel the options below, along with other features, such as Metamagic, that use those points.</p><p><strong>Converting Spell Slots to Sorcery Points.</strong> You can expend a spell slot to gain a number of Sorcery Points equal to the slot’s level (no action required).</p><p><strong>Creating Spell Slots.</strong> As a Bonus Action, you can transform unexpended Sorcery Points into one spell slot. The Creating Spell Slots table shows the cost of creating a spell slot of a given level, and it lists the minimum Sorcerer level you must be to create a slot. You can create a spell slot no higher than level 5.</p><p>Any spell slot you create with this feature vanishes when you finish a Long Rest.</p><table><caption>Creating Spell Slots</caption><thead><tr><td>Spell Slot Level</td><td>Sorcery Point Cost</td><td>Min. Sorcerer Level</td></tr></thead><tbody><tr><td>1</td><td>2</td><td>2</td></tr><tr><td>2</td><td>3</td><td>3</td></tr><tr><td>3</td><td>5</td><td>5</td></tr><tr><td>4</td><td>6</td><td>7</td></tr><tr><td>5</td><td>7</td><td>9</td></tr></tbody></table><section class=\"secret\" id=\"secret-Q72pdf6OJGSybxFV\"><p><strong>Foundry Note</strong></p><p>The <strong>Regain Spell Slot</strong> activity will convert your Sorcery Points into spell slots.</p><p>The <strong>Regain Sorcery Points</strong> activity will convert your chosen spell slot into Sorcery Points.</p></section>",
+      "description": "<p>Accedes a la fuente de magia dentro de ti. Esta fuente está representada por puntos de hechicería que te permiten crear diversos efectos mágicos.</p><p><strong>Puntos de Hechicería.</strong> Tienes 2 puntos de hechicería y obtienes más a medida que alcanzas niveles superiores, según se muestra en la columna de Puntos de Hechicería de la tabla de Hechicero. Nunca puedes tener más puntos de hechicería que los mostrados en esa tabla para tu nivel. Recuperas todos los puntos de hechicería gastados al finalizar un descanso largo.</p><p><strong>Crear Espacios de Conjuro.</strong> Como acción adicional, puedes transformar puntos de hechicería no gastados en un espacio de conjuro. La tabla de Creación de Espacios de Conjuro muestra el coste para crear  un espacio de conjuro de un nivel dado. No puedes crear espacios de conjuro de nivel superior a 5.</p><p><strong>Convertir Espacios de Conjuro.</strong> Como acción adicional, puedes gastar un espacio de conjuro para obtener una cantidad de puntos de hechicería igual al nivel del espacio.</p>",
       "activities": {
         "Regain Spell Slot": {
           "name": "Regain Spell Slot"
@@ -2454,7 +2454,7 @@
     },
     "Heightened Spell": {
       "name": "Conjuro Elevado",
-      "description": "<blockquote><p>Cost: 2 Sorcery Points</p></blockquote><p>When you cast a spell that forces a creature to make a saving throw, you can spend 2 Sorcery Points to give one target of the spell Disadvantage on saves against the spell.</p>",
+      "description": "<p>Cuando lanzas un conjuro que fuerza a una criatura a hacer una tirada de salvación para resistir sus efectos, puedes gastar 3 puntos de hechicería para dar a un objetivo del conjuro desventaja en su primera tirada de salvación contra el conjuro.</p>",
       "activities": {
         "Heightened Spell": {
           "name": "Heightened Spell",
@@ -2817,7 +2817,7 @@
     },
     "Jack of All Trades": {
       "name": "Aprendiz de Mucho",
-      "description": "<p>You can add half your Proficiency Bonus (round down) to any ability check you make that uses a skill proficiency you lack and that doesn't otherwise use your Proficiency Bonus.</p><p>For example, if you make a Strength (Athletics) check and lack Athletics proficiency, you can add half your Proficiency Bonus to the check.</p><section id=\"secret-su4PzYrZZDdS1qZg\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which will automatically grant you half proficiency for all skills which you aren't currently proficient in.</p></section>",
+      "description": "<p>Puedes añadir la mitad de tu bonificador por competencia, redondeado hacia abajo, a cualquier chequeo de habilidad que hagas que no incluya ya tu bonificador por competencia.</p>",
       "effects": {
         "Jack of All Trades": {
           "name": "Jack of All Trades"
@@ -2842,7 +2842,7 @@
     },
     "Lay on Hands": {
       "name": "Imposición de Manos",
-      "description": "<p>Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you finish a Long Rest. With that pool, you can restore a total number of Hit Points equal to five times your Paladin level.</p><p>As a Bonus Action, you can touch a creature (which could be yourself) and draw power from the pool of healing to restore a number of Hit Points to that creature, up to the maximum amount remaining in the pool.</p><p>You can also expend 5 Hit Points from the pool of healing power to remove the Poisoned condition from the creature; those points don’t also restore Hit Points to the creature.</p><section id=\"secret-CgxYFHh5PcKwwbwk\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Heal</strong> activity allows you to select the number of Hit Points you would like to restore and reduces your Lay on Hands pool by that amount.</p><p>The <strong>Remove Poison</strong> activity reduces your pool by 5 but does not automatically remove the Poisoned condition.</p></section>",
+      "description": "<p>Tu toque bendecido puede curar heridas. Tienes un reservorio de poder curativo que se repone cuando tomas un descanso largo. Con ese reservorio, puedes restaurar un número total de puntos de golpe igual a tu nivel de paladín × 5.</p><p>Como acción, puedes tocar a una criatura y extraer poder del reservorio para restaurar una cantidad de puntos de golpe a esa criatura, hasta el máximo restante en tu reservorio.</p><p>Alternativamente, puedes gastar 5 puntos de golpe de tu reservorio de curación para curar al objetivo de una enfermedad o neutralizar un veneno que lo afecte. Puedes curar múltiples enfermedades y neutralizar múltiples venenos con un solo uso de Imposición de Manos, gastando puntos de golpe separadamente para cada uno.</p><p>Este rasgo no tiene efecto sobre no-muertos y constructos.</p>",
       "activities": {
         "Remove Poison": {
           "name": "Remove Poison"
@@ -2951,7 +2951,7 @@
     },
     "Magical Ambush": {
       "name": "Emboscada Mágica",
-      "description": "<p>If you have the &amp;Reference[Invisible] condition when you cast a spell on a creature, it has Disadvantage on any saving throw it makes against the spell on the same turn.</p>"
+      "description": "<p>Si estás escondido de una criatura cuando lanzas un conjuro sobre ella, la criatura tiene desventaja en cualquier tirada de salvación que haga contra el conjuro en este turno.</p>"
     },
     "Magical Cunning": {
       "name": "Astucia Mágica",
@@ -2968,7 +2968,7 @@
     },
     "Magical Secrets": {
       "name": "Secretos Mágicos",
-      "description": "<p>You've learned secrets from various magical traditions. Whenever you reach a Bard level (including this level) and the Prepared Spells number in the Bard Features table increases, you can choose any of your new prepared spells from the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.wwia6Wwo4BgE9GSI]{Bard}, @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Cleric}, @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druid}, and @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Wizard} spell lists, and the chosen spells count as Bard spells for you. In addition, whenever you replace a spell prepared for this class, you can replace it with a spell from those lists.</p>"
+      "description": "<p>Has saqueado conocimiento mágico de una amplia gama de disciplinas. Elige dos conjuros de cualquier clase, incluida esta. Un conjuro que elijas debe ser de un nivel que puedas lanzar, según se muestra en la tabla de Bardo, o un truco.</p><p>Los conjuros elegidos cuentan como conjuros de bardo para ti y se incluyen en el número de la columna de Conjuros Conocidos de la tabla de Bardo.</p><p>Aprendes dos conjuros adicionales de cualquier clase en el nivel 14 y nuevamente en el nivel 18.</p>"
     },
     "Maneuvering Attack": {
       "name": "Ataque con Maniobra",
@@ -3008,7 +3008,7 @@
     },
     "Martial Arts": {
       "name": "Artes Marciales",
-      "description": "<p>Your practice of martial arts gives you mastery of combat styles that use your Unarmed Strike and Monk weapons, which are the following:</p><ul><li>Simple Melee weapons</li><li>Martial Melee weapons that have the Light property</li></ul><p>You gain the following benefits while you are unarmed or wielding only Monk weapons and you aren't wearing armor or wielding a Shield.</p><p><strong>Bonus Unarmed Strike.</strong> You can make an Unarmed Strike as a Bonus Action.</p><p><strong>Martial Arts Die.</strong> You can roll 1d6 in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.</p><p><strong>Current Martial Arts Die:</strong> [[lookup @scale.monk.die]]</p><p><strong>Dexterous Attacks.</strong>You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.</p><section class=\"secret\" id=\"secret-krbGYn2lplFe7kOG\"><p><strong>Foundry Note</strong></p><p>This feature includes activities for enchanting a weapon which adds a <strong>Monk Attack</strong> activity to it that integrates the changes mentioned above.</p></section>",
+      "description": "<p>Tu práctica de artes marciales te otorga maestría con el combate desarmado y las armas de monje, que son espadas cortas y cualquier arma simple cuerpo a cuerpo que no tenga la propiedad Pesada o Dos Manos.</p><p>Obtienes los siguientes beneficios mientras estés desarmado o empuñando solo armas de monje y no lleves armadura ni uses escudo.</p><p><strong>Ataque Adicional.</strong> Cuando uses la acción de Ataque en tu turno con un ataque desarmado o arma de monje, puedes hacer un ataque desarmado como acción adicional. Por ejemplo, si tomas la acción de Ataque y atacas con un bastón, también puedes hacer un ataque desarmado como acción adicional.</p><p><strong>Dado de Artes Marciales.</strong> Puedes tirar un d6 en lugar del daño normal de tu ataque desarmado o arma de monje. Este dado cambia a medida que subes de nivel de monje, como se muestra en la columna Dado de Artes Marciales de la tabla de Monje.</p><p><strong>Uso de Destreza.</strong> Puedes usar Destreza en lugar de Fuerza para las tiradas de ataque y daño de tus ataques desarmados y armas de monje.</p>",
       "activities": {
         "Master Simple Weapon": {
           "name": "Master Simple Weapon"
@@ -3059,7 +3059,7 @@
     },
     "Metamagic": {
       "name": "Metamagia",
-      "description": "<p>Because your magic flows from within, you can alter your spells to suit your needs; you gain two Metamagic options of your choice from “Metamagic Options”. You use the chosen options to temporarily modify spells you cast. To use an option, you must spend the number of Sorcery Points that it costs.</p><p>You can use only one Metamagic option on a spell when you cast it unless otherwise noted in one of those options.</p><p>Whenever you gain a Sorcerer level, you can replace one of your Metamagic options with one you don’t know. You gain two more options at Sorcerer level 10 and two more at Sorcerer level 17.</p><section id=\"secret-IKw7Qq4qXvzx5Iqj\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted to choose Metamagic options as you level up.</p></section>"
+      "description": "<p>Obtienes la capacidad de torcer tus conjuros para adaptarlos a tus necesidades. Obtienes dos opciones de Metamagia de tu elección. Obtienes otra en el nivel 10 y otra más en el nivel 17.</p><p>Puedes usar solo una opción de Metamagia en un conjuro cuando lo lanzas, a menos que se indique lo contrario.</p>"
     },
     "Mindless Rage": {
       "name": "Furia Descerebrada",
@@ -3143,7 +3143,7 @@
     },
     "Monk's Focus": {
       "name": "Concentración del Monje",
-      "description": "<p>Your focus and martial training allow you to harness a well of extraordinary energy within yourself. This energy is represented by Focus Points. Your Monk level determines the number of points you have, as shown in the Focus Points column of the Monk Features table.</p><p>You can expend these points to enhance or fuel certain Monk features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind, each of which is detailed below.</p><p>When you expend a Focus Point, it is unavailable until you finish a Short or Long Rest, at the end of which you regain all your expended points.</p><p>Some features that use Focus Points require your target to make a saving throw. The save DC equals 8 plus your Wisdom modifier and Proficiency Bonus.</p><p><strong>Flurry of Blows.</strong> You can expend 1 Focus Point to make two Unarmed Strikes as a Bonus Action.</p><p><strong>Patient Defense.</strong> You can take the Disengage action as a Bonus Action. Alternatively, you can expend 1 Focus Point to take both the Disengage and the Dodge actions as a Bonus Action.</p><p><strong>Step of the Wind.</strong> You can take the Dash action as a Bonus Action. Alternatively, you can expend 1 Focus Point to take both the Disengage and Dash actions as a Bonus Action, and your jump distance is doubled for the turn.</p><section class=\"secret\" id=\"secret-Kb8gEVefEUz6IHer\"><p><strong>Foundry Note</strong></p><p>The <strong>Flurry of Blows</strong> activity is a Bonus Action which expends a Focus Point and includes the Attack Roll and Damage for an Unarmored Strike using your Martial Arts Die which automatically scales as you level up. If your [[/item Unarmed Strike]] is impacted by other magic items, you can use the <strong>Expend Focus Point</strong> activity and then use your Unarmed Strike as usual.</p><p>The <strong>Patient Defense</strong> Bonus Action activity includes an Active Effect for tracking that you're Disengaged. The <strong>Patient Defense (Focus Point)</strong> activity expends a Focus Point and includes an Active Effect that adds the Dodging status.</p><p>The <strong>Step of the Wind</strong> Bonus Action activity expends 1 Focus Point and includes an Active Effect for tracking that you're Disengaged.</p></section>",
+      "description": "<p>Tu entrenamiento marcial te permite aprovechar la energía mística llamada foco. Tu acceso a esta energía está representado por un número de puntos de foco.</p><p><strong>Puntos de Foco.</strong> Tu nivel de monje determina el número de puntos de foco que tienes, como se muestra en la columna Puntos de Foco de la tabla de Monje. Puedes gastar estos puntos para alimentar ciertos rasgos de monje. Comienzas conociendo uno de esos rasgos: Ráfaga de Golpes.</p><p>Cuando gastas un punto de foco, no está disponible hasta que finalizas un descanso corto o largo, al final del cual recuperas todos tus puntos de foco gastados.</p><p><strong>Ráfaga de Golpes.</strong> Inmediatamente después de realizar la acción de Ataque en tu turno, puedes gastar 1 punto  de foco para realizar dos ataques desarmados como acción adicional.</p><p><strong>CD de Salvación del Foco.</strong> Algunos rasgos que usan foco requieren que tu objetivo haga una tirada de salvación. La CD se calcula así:</p><p><strong>CD de Salvación del Foco</strong> = 8 + tu bonificador por competencia + tu modificador por Sabiduría</p>",
       "activities": {
         "Flurry of Blows": {
           "name": "Flurry of Blows"
@@ -3189,7 +3189,7 @@
     },
     "Mystic Arcanum": {
       "name": "Arcano Místico",
-      "description": "<p>Your patron grants you a magical secret called an arcanum. Choose one level 6 Warlock spell as this arcanum.</p><p>You can cast your arcanum spell once without expending a spell slot, and you must finish a Long Rest before you can cast it in this way again.</p><p>You gain another Warlock spell of your choice that can be cast in this way when you reach Warlock levels 13 (level 7 spell), 15 (level 8 spell), and 17 (level 9 spell). You regain all uses of your Mystic Arcanum when you finish a Long Rest.</p><p>Whenever you gain a Warlock level, you can replace one of your arcanum spells with another Warlock spell of the same level.</p>"
+      "description": "<p>En el nivel 11, tu patrón te otorga un secreto mágico llamado arcanum. Elige un conjuro de nivel 6 de la lista de conjuros de brujo como este arcanum.</p><p>Puedes lanzar tu conjuro arcanum una vez sin gastar un espacio de conjuro. Debes finalizar un descanso largo antes de poder hacerlo de nuevo.</p><p>En niveles superiores, obtienes más conjuros de brujo de tu elección que se pueden lanzar de esta manera: un conjuro de nivel 7 en el nivel 13, un conjuro de nivel 8 en el nivel 15, y un conjuro de nivel 9 en el nivel 17. Recuperas todos los usos de tu Arcanum Místico cuando finalizas un descanso largo.</p>"
     },
     "Natural Recovery": {
       "name": "Recuperación Natural",
@@ -3210,7 +3210,7 @@
     },
     "Nature's Sanctuary": {
       "name": "Santuario Natural",
-      "description": "<p>As a Magic action, you can expend a use of your Wild Shape and cause spectral trees and vines to appear in a 15-foot Cube on the ground within 120 feet of yourself. They last there for 1 minute or until you have the Incapacitated condition or die. You and your allies have Half Cover while in that area, and your allies gain the current Resistance of your Nature's Ward while there.</p><p>As a Bonus Action, you can move the Cube up to 60 feet to ground within 120 feet of yourself.</p><section class=\"secret\" id=\"secret-OyXlvV2zR9s0WXyn\"><p><strong>Foundry Note</strong></p><p>This feature includes Active Effects for each Nature's Ward land type and adds the Half Cover status effect which automatically applies the relevant bonuses. Apply the relevant effect to your allies.</p><p>These Active Effects are not automatically added/removed to/from Actors in the designated area however.</p><p>It also includes an activity which can be used for tracking your Bonus Action usage when moving the spectral trees and vines.</p></section>",
+      "description": "<p>Las criaturas del mundo natural sienten tu conexión con la naturaleza y se vuelven renuentes a atacarte. Cuando una bestia o criatura planta te ataca, esa criatura debe hacer una tirada de salvación de Sabiduría contra tu CD de salvación de conjuros de druida. En una salvación fallida, la criatura debe elegir un objetivo diferente, o el ataque falla automáticamente. En una salvación exitosa, la criatura es inmune a este efecto durante 24 horas.</p><p>La criatura es consciente de este efecto antes de hacer su ataque contra ti.</p>",
       "activities": {
         "Spectral Trees and Vines": {
           "name": "Spectral Trees and Vines"
@@ -3250,7 +3250,7 @@
     },
     "Nature's Ward": {
       "name": "Protección Natural",
-      "description": "<p>You are immune to the Poisoned condition, and you have Resistance to a damage type associated with your current land choice in the Circle Spells feature, as shown in the Nature's Ward table.</p><table><caption>Nature's Ward</caption><thead><tr><td>Land Type</td><td>Resistance</td></tr></thead><tbody><tr><td>Arid</td><td>Fire</td></tr><tr><td>Polar</td><td>Cold</td></tr><tr><td>Temperate</td><td>Lightning</td></tr><tr><td>Tropical</td><td>Poison</td></tr></tbody></table><section class=\"secret\" id=\"secret-0muLLDjt1zqXptme\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for the Poison condition immunity and an Active Effect for each land type. You can activate the Active Effect for your chosen land type.</p></section>",
+      "description": "<p>No puedes ser hechizado o asustado por elementales o fey, y eres inmune al veneno y enfermedad.</p>",
       "effects": {
         "Nature's Ward": {
           "name": "Nature's Ward"
@@ -3418,7 +3418,7 @@
     },
     "Pact Magic": {
       "name": "Magia del Pacto",
-      "description": "<p>Through occult ceremony, you have formed a pact with a mysterious entity to gain magical powers. The entity is a voice in the shadows—its identity unclear—but its boon to you is concrete: the ability to cast spells. See the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{rules on spellcasting}. The information below details how you use those rules with Warlock spells, which appear in the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.sSzagq8GvYXpfmfs]{Warlock spell list}.</p><p><strong>Cantrips.</strong> You know two Warlock cantrips of your choice. @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEldritchBl]{Eldritch Blast} and @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi]{Prestidigitation} are recommended. Whenever you gain a Warlock level, you can replace one of your cantrips from this feature with another Warlock cantrip of your choice.</p><p>When you reach Warlock levels 4 and 10, you learn another Warlock cantrip of your choice, as shown in the Cantrips column of the Warlock Features table.</p><p><strong>Current Max Cantrips Known:</strong> [[lookup @scale.warlock.cantrips-known]]</p><p><strong>Spell Slots.</strong> The @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWarlock000000.JournalEntryPage.znue6EaGDDXgeQb0#class-features]{Warlock Features table} shows how many spell slots you have to cast your Warlock spells of levels 1–5. The table also shows the level of those slots, all of which are the same level. You regain all expended Pact Magic spell slots when you finish a Short or Long Rest.</p><p>For example, when you’re a level 5 Warlock, you have two level 3 spell slots. To cast the level 1 spell @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWitchBolt0]{Witch Bolt}, you must spend one of those slots, and you cast it as a level 3 spell.</p><p><strong>Prepared Spells of Level 1+.</strong> You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Warlock spells. @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{Charm Person} and @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000]{Hex} are recommended.</p><p><strong>Current Max Prepared Spells:</strong> [[lookup @scale.warlock.max-prepared]]</p><p>The number of spells on your list increases as you gain Warlock levels, as shown in the Prepared Spells column of the Warlock Features table. Whenever that number increases, choose additional Warlock spells until the number of spells on your list matches the number in the table. The chosen spells must be of a level no higher than what’s shown in the table’s Slot Level column for your level. When you reach level 6, for example, you learn a new Warlock spell, which can be of levels 1–3.</p><p>If another Warlock feature gives you spells that you always have prepared, those spells don’t count against the number of spells you can prepare with this feature, but those spells otherwise count as Warlock spells for you.</p><p><strong>Changing Your Prepared Spells.</strong> Whenever you gain a Warlock level, you can replace one spell on your list with another Warlock spell of an eligible level.</p><p><strong>Spellcasting Ability.</strong> Charisma is the spellcasting ability for your Warlock spells.</p><p><strong>Spellcasting Focus.</strong> You can use an Arcane Focus as a Spellcasting Focus for your Warlock spells.</p>"
+      "description": "<p>Tu patrón arcano te otorga la capacidad de lanzar conjuros.</p><h3>Trucos</h3><p>Conoces dos trucos de tu elección de la lista de conjuros de brujo. Aprendes trucos de brujo adicionales de tu elección en niveles superiores, según se muestra en la columna de Trucos Conocidos de la tabla de Brujo.</p><h3>Espacios de Conjuro</h3><p>La tabla de Brujo muestra cuantos espacios de conjuro tienes para lanzar tus conjuros de brujo de nivel 1 o superior. Para lanzar uno de estos conjuros, debes gastar un espacio del nivel del conjuro o superior. Recuperas todos los espacios de conjuro gastados al finalizar un descanso corto o largo.</p><p>Por ejemplo, si conoces el conjuro de nivel 1 Aguijón Gélido y tienes un espacio de conjuro de nivel 1 y otro de nivel 2 disponibles, puedes lanzar Aguijón Gélido usando cualquiera de ellos.</p><h3>Conjuros Conocidos</h3><p>Conoces dos conjuros de nivel 1 de tu elección de la lista de conjuros de brujo. La columna de Conjuros Conocidos de la tabla de Brujo muestra cuándo aprendes más conjuros de brujo de nivel 1 o superior.</p><p>Cuando subes nivel en esta clase, puedes elegir uno de los conjuros de brujo que conoces y reemplazarlo con otro de la lista de conjuros de brujo.</p><h3>Característica de Lanzamiento</h3><p>Carisma es tu característica de lanzamiento para tus conjuros de brujo. La magia fluye a través de tu pacto con tu patrón. Usas Carisma siempre que un conjuro se refiere a tu característica de lanzamiento.</p>"
     },
     "Pact of the Blade": {
       "name": "Pacto de la Hoja",
@@ -3622,11 +3622,11 @@
     },
     "Portent": {
       "name": "Portento",
-      "description": "<p>Glimpses of the future begin to press on your awareness. Whenever you finish a Long Rest, roll two [[/r d20]] and record the numbers rolled. You can replace any &amp;Reference[D20 Test] made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.</p><p>Each foretelling roll can be used only once. When you finish a Long Rest, you lose any unused foretelling rolls.</p><p><strong>Current Portent Rolls:</strong> x, y</p><section class=\"secret\" id=\"secret-UWpQx1BOZPI14hq0\"><p><strong>Foundry Note</strong></p><p>When you roll both of the d20 you can edit this feature's description to track them or log it another way.</p></section>"
+      "description": "<p>Vislumbres del futuro comienzan a presionarte. Cuando finalices un descanso largo, tira dos d20 y anota los números obtenidos. Puedes reemplazar cualquier tirada de ataque, tirada de salvación o chequeo de habilidad hecho por ti o una criatura que puedas ver con una de estas tiradas de predicción. Debes elegir hacerlo antes de la tirada, y puedes reemplazar una tirada de esta manera solo una vez por turno.</p><p>Cada tirada de predicción puede usarse solo una vez. Cuando finalices un descanso largo, pierdes cualquier tirada de predicción no usada.</p>"
     },
     "Potent Cantrip": {
       "name": "Truco Potente",
-      "description": "<p>Your damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a cantrip at a creature and you miss with the attack roll or the target succeeds on a saving throw against the cantrip, the target takes half the cantrip’s damage (if any) but suffers no additional effect from the cantrip.</p><section id=\"secret-fJby40y1vz8RXGG4\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>With their token selected you can either right click on the damage roll's chat card and select <span class=\"reference\"><em class=\"fas fa-user-shield\"> </em>Apply Half Damage</span> or click the \"1/2\" button and then the <span class=\"reference\"><em class=\"fa-solid fa-reply-all\"> </em>Apply</span> button.</p></section>"
+      "description": "<p>Tus trucos dañinos afectan incluso a criaturas que evitan la peor parte del efecto. Cuando una criatura tiene éxito en una tirada de salvación contra tu truco, la criatura recibe la mitad del daño del truco (si lo hay) pero no sufre ningún efecto adicional.</p>"
     },
     "Power of the Wilds": {
       "name": "Poder de lo Salvaje",
@@ -3674,7 +3674,7 @@
     },
     "Primal Companion": {
       "name": "Compañero Primigenio",
-      "description": "<p>You magically summon a primal beast, which draws strength from your bond with nature. Choose its stat block: @UUID[Compendium.dnd-players-handbook.actors.Actor.phbBeastoftheLan]{Beast of the Land}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbBeastoftheSea]{Beast of the Sea}, or @UUID[Compendium.dnd-players-handbook.actors.Actor.phbBeastoftheSky]{Beast of the Sky}. You also determine the kind of animal it is, choosing a kind appropriate for the stat block. Whatever beast you choose, it bears primal markings indicating its supernatural origin.</p><p>The beast is Friendly to you and your allies and obeys your commands. It vanishes if you die.</p><p><strong>The Beast in Combat.</strong> In combat, the beast acts during your turn. It can move and use its Reaction on its own, but the only action it takes is the Dodge action unless you take a Bonus Action to command it to take an action in its stat block or some other action. You can also sacrifice one of your attacks when you take the Attack action to command the beast to take the Beast’s Strike action. If you have the Incapacitated condition, the beast acts on its own and isn’t limited to the Dodge action.</p><p><strong>Restoring or Replacing the Beast.</strong> If the beast has died within the last hour, you can take a Magic action to touch it and expend a spell slot. The beast returns to life after 1 minute with all its Hit Points restored.</p><p>Whenever you finish a Long Rest, you can summon a different primal beast, which appears in an unoccupied space within 5 feet of you. You choose its stat block and appearance. If you already have a beast from this feature, the old one vanishes when the new one appears.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>In addition to the noted usage of your statistics in the companion's Traits and Actions, the following attributes are also affected.</p><table><caption>Common</caption><tbody><tr><td><strong>AC</strong></td><td>13 plus your Wisdom modifier</td></tr><tr><td><strong>PB</strong></td><td>equals your Proficiency Bonus</td></tr></table><table><caption>Beast of the Land</caption><tbody><tr><td><strong>HP</strong></td><td>5 plus five times your Ranger level</td></tr><tr><td><strong>HD</strong></td><td>[d8s] equal to your Ranger level</td></tr><tr><td><strong>Speed</strong></td><td>40 ft., Climb 40 ft.</td></tr><tr><td><strong>Senses</strong></td><td>Darkvision 60 ft.</td></tr></table><table><caption>Beast of the Sky</caption><tbody><tr><td><strong>HP</strong></td><td>4 plus four times your Ranger level</td></tr><tr><td><strong>HD</strong><td>[d6s] equal to your Ranger level</td></tr><tr><td><strong>Speed</strong></td><td>10 ft., Fly 60 ft.</td></tr><tr><td><strong>Senses</strong></td><td>Darkvision 60 ft.</td></tr></table><table><caption>Beast of the Sea</caption><tbody><tr><td><strong>HP</strong></td><td>5 plus five times your Ranger level</td></tr><tr><td><strong>HD</strong></td><td>[d8s] equal to your Ranger level</td></tr><tr><td><strong>Speed</strong></td><td>5 ft., Swim 60 ft.</td></tr><tr><td><strong>Senses</strong></td><td>Darkvision 90 ft.</td></tr></table></article></section><section class=\"secret\" id=\"secret-vZalmDSCpVh4yzu3\"><p><strong>Foundry Note</strong></p><p>The <strong>Restore Companion</strong> activity will allow you to fully heal the beast at the cost of any spell slot.</p><p>The <strong>Command</strong> activity only needs to be used if you're tracking your Bonus Action usage.</p></section>",
+      "description": "<p>Invocas mágicamente a una bestia primigenia que extrae fuerza de tu vínculo con la naturaleza. Elige su bloque de estadísticas: @UUID[Compendium.dnd-players-handbook.actors.Actor.phbBeastoftheLan]{Bestia de la Tierra}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbBeastoftheSea]{Bestia del Mar} o @UUID[Compendium.dnd-players-handbook.actors.Actor.phbBeastoftheSky]{Bestia del Cielo}. También determinas qué tipo de animal es, eligiendo uno apropiado para el bloque de estadísticas. Sea cual sea la bestia que elijas, lleva marcas primigenias que indican su origen sobrenatural.</p><p>La bestia es amistosa contigo y tus aliados y obedece tus órdenes. Desaparece si mueres.</p><p><strong>La Bestia en Combate.</strong> En combate, la bestia actúa durante tu turno. Puede moverse y usar su reacción por sí misma, pero la única acción que realiza es la acción de Esquivar a menos que uses una acción adicional para ordenarle que realice una acción de su bloque de estadísticas u otra acción. También puedes sacrificar uno de tus ataques cuando realizas la acción de Ataque para ordenar a la bestia que realice la acción de Golpe de Bestia. Si tienes la condición de Incapacitado, la bestia actúa por sí misma y no está limitada a la acción de Esquivar.</p><p><strong>Restaurar o Reemplazar la Bestia.</strong> Si la bestia ha muerto en la última hora, puedes realizar una acción Mágica para tocarla y gastar un espacio de conjuro. La bestia vuelve a la vida después de 1 minuto con todos sus puntos de golpe restaurados.</p><p>Cada vez que finalizas un descanso largo, puedes invocar una bestia primigenia diferente que aparece en un espacio desocupado a 1,5 metros de ti. Eliges su bloque de estadísticas y apariencia. Si ya tienes una bestia de este rasgo, la anterior desaparece cuando aparece la nueva.</p>",
       "activities": {
         "Summon Companion": {
           "name": "Summon Companion"
@@ -3689,7 +3689,7 @@
     },
     "Primal Knowledge": {
       "name": "Conocimiento Primigenio",
-      "description": "<p>You gain proficiency in another skill of your choice from the skill list available to Barbarians at level 1.</p><p>In addition, while your Rage is active, you can channel primal power when you attempt certain tasks; whenever you make an ability check using one of the following skills, you can make it as a Strength check even if it normally uses a different ability: Acrobatics, Intimidation, Perception, Stealth, or Survival. When you use this ability, your Strength represents primal power coursing through you, honing your agility, bearing, and senses.</p><section class=\"secret\" id=\"secret-himIRZuFGInNkZgU\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which will cause those skills to automatically use your Strength modifier if it is higher than the normal Ability Score associated with the Skill.</p></section>",
+      "description": "<p>Obtienes competencia en una habilidad de tu elección de la lista de habilidades disponibles para bárbaros en el nivel 1.</p>",
       "effects": {
         "Primal Knowledge": {
           "name": "Primal Knowledge"
@@ -3832,7 +3832,7 @@
     },
     "Quickened Spell": {
       "name": "Conjuro Acelerado",
-      "description": "<blockquote><p>Cost: 2 Sorcery Points</p></blockquote><p>When you cast a spell that has a casting time of an action, you can spend 2 Sorcery Points to change the casting time to a Bonus Action for this casting. You can’t modify a spell in this way if you’ve already cast a level 1+ spell on the current turn, nor can you cast a level 1+ spell on this turn after modifying a spell in this way.</p>",
+      "description": "<p>Cuando lanzas un conjuro que tiene un tiempo de lanzamiento de 1 acción, puedes gastar 2 puntos de hechicería para cambiar el tiempo de lanzamiento a 1 acción adicional para este lanzamiento.</p>",
       "activities": {
         "Quickened Spell": {
           "name": "Quickened Spell",
@@ -3861,7 +3861,7 @@
     },
     "Radiance of the Dawn": {
       "name": "Resplandor del Alba",
-      "description": "<p>As a Magic action, you present your Holy Symbol and expend a use of your Channel Divinity to emit a flash of light in a 30-foot Emanation originating from yourself. Any magical &amp;Reference[Darkness]—such as that created by the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Darkness} spell—in that area is dispelled. Additionally, each creature of your choice in that area must make a Constitution saving throw, taking Radiant damage equal to 2d10 plus your Cleric level on a failed save or half as much damage on a successful one.</p>"
+      "description": "<p>Puedes usar tu Canalizar Divinidad para aprovechar la luz del sol, desterrando la oscuridad y causando daño radiante a tus enemigos.</p><p>Como acción, presentas tu símbolo sagrado y cualquier oscuridad mágica dentro de 9 metros de ti se disipa. Además, las criaturas hostiles a 9 metros de ti deben hacer una tirada de salvación de Constitución o recibir daño radiante igual a 2d10 + tu nivel de clérigo, o la mitad de ese daño en una salvación exitosa. Una criatura que tiene cobertura total de ti no se ve afectada.</p>"
     },
     "Radiant Soul": {
       "name": "Alma Radiante",
@@ -3878,7 +3878,7 @@
     },
     "Rage": {
       "name": "Furia",
-      "description": "<p>You can imbue yourself with a primal power called Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action if you aren’t wearing Heavy armor.</p><p>You can enter your Rage the number of times shown for your Barbarian level in the Rages column of the Barbarian Features table (currently [[lookup @scale.barbarian.rages]]). You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.</p><p>While active, your Rage follows the rules below.</p><p><strong>Damage Resistance.</strong> You have Resistance to Bludgeoning, Piercing, and Slashing damage.</p><p><strong>Rage Damage.</strong> When you make an attack using Strength—with either a weapon or an Unarmed Strike—and deal damage to the target, you gain a bonus to the damage that increases as you gain levels as a Barbarian, as shown in the Rage Damage column of the Barbarian Features table.</p><p><strong>Strength Advantage.</strong> You have Advantage on Strength checks and Strength saving throws.</p><p><strong>No Concentration or Spells.</strong> You can’t maintain Concentration, and you can’t cast spells.</p><p><strong>Duration.</strong> The Rage lasts until the end of your next turn, and it ends early if you don Heavy armor or have the Incapacitated condition. If your Rage is still active on your next turn, you can extend the Rage for another round by doing one of the following:</p><ul><li>Make an attack roll against an enemy.</li><li>Force an enemy to make a saving throw.</li><li>Take a Bonus Action to extend your Rage.</li></ul><p>Each time the Rage is extended, it lasts until the end of your next turn. You can maintain a Rage for up to 10 minutes.</p><section class=\"secret\" id=\"secret-o72MSFMdhSQC7kYa\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automates the Resistance, additional damage, and Advantage on Strength Checks and Saves. This feature will also automatically recharge your Rage uses on a Short and Long Rest.</p></section>",
+      "description": "<p>Puedes entrar en furia como acción adicional si no llevas armadura pesada.</p><p>Mientras estés enfurecido, obtienes los siguientes beneficios.</p><p><strong>Bonificación de Daño por Furia.</strong> Cuando haces un ataque cuerpo a cuerpo utilizando Fuerza, obtienes una bonificación al tirada de daño, según se indica en la columna de Daño por Furia de la tabla de Bárbaro.</p><p><strong>Resistencia.</strong> Tienes resistencia al daño contundente, cortante y perforante.</p><p><strong>Restricciones de Furia.</strong> Durante tu furia, no puedes lanzar conjuros ni concentrarte en conjuros, y tu habilidad para hablar se reduce (aunque puedes activar objetos mágicos).</p><p>La furia dura 10 minutos o hasta que elijas terminarla como acción adicional. También termina antes de tiempo si quedas inconsciente o si tu turno termina y no has atacado a una criatura hostil desde tu último turno ni has recibido daño desde entonces.</p><p>Has entrado en furia el número de veces mostrado en la columna de Furias de la tabla de Bárbaro para tu nivel. Recuperas todos los usos gastados al finalizar un descanso largo.</p>",
       "activities": {
         "Expend Rage": {
           "name": "Expend Rage"
@@ -3987,7 +3987,7 @@
     },
     "Reckless Attack": {
       "name": "Ataque Temerario",
-      "description": "<p>You can throw aside all concern for defense to attack with increased ferocity. When you make your first attack roll on your turn, you can decide to attack recklessly. Doing so gives you Advantage on attack rolls using Strength until the start of your next turn, but attack rolls against you have Advantage during that time.</p><section id=\"secret-W7MI2ZVKsMQcSW6d\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for tracking whether you are reckless or not but it does not automate Advantage on your attacks or attacks against you.</p></section>",
+      "description": "<p>Puedes dejar de lado toda preocupación por la defensa para atacar con un desprecio feroz. Cuando hagas tu primer ataque en tu turno, puedes decidir atacar temerariamente. Hacerlo te da ventaja en las tiradas de ataque con armas cuerpo a cuerpo usando Fuerza durante este turno, pero las tiradas de ataque contra ti tienen ventaja hasta tu próximo turno.</p>",
       "effects": {
         "Reckless": {
           "name": "Reckless"
@@ -4022,7 +4022,7 @@
     },
     "Reliable Talent": {
       "name": "Talento Confiable",
-      "description": "<p>Whenever you make an ability check that uses one of your skill or tool proficiencies, you can treat a d20 roll of 9 or lower as a 10.</p><section class=\"secret\" id=\"secret-FOATC0HOce35kD20\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automates the minimum roll of 10 on your skill and tool proficiencies.</p></section>",
+      "description": "<p>Siempre que hagas un chequeo de habilidad que te permita añadir tu bonificador por competencia, puedes tratar un resultado de d20 de 9 o menos como un 10.</p>",
       "effects": {
         "Reliable Talent": {
           "name": "Reliable Talent"
@@ -4211,7 +4211,7 @@
     },
     "Sculpt Spells": {
       "name": "Esculpir Conjuros",
-      "description": "<p>You can create pockets of relative safety within the effects of your evocations. When you cast an Evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 plus the spell’s level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save.</p>"
+      "description": "<p>Puedes crear hendiduras de efectos evocadores para proteger a criaturas que designes de daño. Cuando lances un conjuro de Evocación que afecte a otras criaturas que puedas ver, puedes elegir un número de ellas igual a 1 + el nivel del conjuro. Las criaturas elegidas automáticamente tienen éxito en sus tiradas de salvación contra el conjuro, y no reciben daño si normalmente recibirían la mitad del daño en una salvación exitosa.</p>"
     },
     "Sear Undead": {
       "name": "Abrasar No Muerto",
@@ -4243,7 +4243,7 @@
     },
     "Second Wind": {
       "name": "Segundo Aliento",
-      "description": "<p>You have a limited well of physical and mental stamina that you can draw on. As a Bonus Action, you can use it to regain Hit Points equal to 1d10 plus your Fighter level.</p><p>You can use this feature twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.</p><p>When you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFighter000000.JournalEntryPage.wDELe3k25FQvYdrq#class-features]{Fighter Features} table.</p><section class=\"secret\" id=\"secret-GEvXAMpxWEFigqSc\"><p><strong>Foundry Note</strong></p><p>This feature automatically scales in usage and recovers the correct number of uses on a Short and Long Rest.</p></section>"
+      "description": "<p>Tienes una reserva limitada de resistencia que puedes aprovechar para protegerte del daño. En tu turno, puedes usar una acción adicional para recuperar puntos de golpe igual a 1d10 + tu nivel de guerrero.</p><p>Una vez que uses este rasgo, debes finalizar un descanso corto o largo antes de poder usarlo de nuevo.</p>"
     },
     "Second-Story Work": {
       "name": "Trabajo de Segundo Piso",
@@ -4303,7 +4303,7 @@
     },
     "Signature Spells": {
       "name": "Conjuros Distintivos",
-      "description": "<p>Choose two level 3 spells in your spellbook as your signature spells. You always have these spells prepared, and you can cast each of them once at level 3 without expending a spell slot. When you do so, you can’t cast them in this way again until you finish a Short or Long Rest. To cast either spell at a higher level, you must expend a spell slot.</p><section class=\"secret\" id=\"secret-fzEf6z2A0SKM0qHw\"><p><strong>Foundry Note</strong></p><p>The <strong>Make Signature</strong> activity can be used to enchant two spells which marks them as \"Always Prepared\" and adds \", Signature\" to their title for easy identification.</p><p>The <strong>Expend First Spell</strong> and <strong>Expend Second Spell</strong> activities can be used for tracking your free use of each spell and refresh on a Short and Long Rest.</p></section>",
+      "description": "<p>Eliges dos conjuros de mago de nivel 3 de tu grimorio como tus conjuros de firma. Siempre tienes estos conjuros preparados, no cuentan contra el número de conjuros que tienes preparados, y puedes lanzar cada uno una vez en el nivel 3 sin gastar un espacio de conjuro. Cuando lo hagas, no puedes hacerlo de nuevo hasta que finalices un descanso corto o largo.</p><p>Si quieres lanzar cualquiera de estos conjuros a un nivel superior, debes gastar un espacio de conjuro como es normal.</p>",
       "activities": {
         "Make Signature": {
           "name": "Make Signature"
@@ -4331,7 +4331,7 @@
     },
     "Slow Fall": {
       "name": "Caída Lenta",
-      "description": "<p>You can take a Reaction when you fall to reduce any damage you take from the fall by an amount equal to five times your Monk level.</p><section id=\"secret-VRAItEYXrZxp3s8Z\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes a <strong>Reduce</strong> activity which can be used to restore lost Hit Points equal to five times your Monk level.</p></section>",
+      "description": "<p>Puedes usar tu reacción cuando caigas para reducir cualquier daño por caída que recibas en una cantidad igual a cinco veces tu nivel de monje.</p>",
       "activities": {
         "Reduce": {
           "name": "Reduce"
@@ -4349,7 +4349,7 @@
     },
     "Sneak Attack": {
       "name": "Ataque Furtivo",
-      "description": "<p>You know how to strike subtly and exploit a foe’s distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage’s type is the same as the weapon’s type.</p><p>You don’t need Advantage on the attack roll if at least one of your allies is within 5 feet of the target, the ally doesn’t have the Incapacitated condition, and you don’t have Disadvantage on the attack roll.</p><p>The extra damage increases as you gain Rogue levels, as shown in the Sneak Attack column of the Rogue Features table.</p><p><strong>Current Sneak Attack Damage:</strong> [[lookup @scale.rogue.sneak-attack]]</p><section class=\"secret\" id=\"secret-ulLpai4CguAExpmN\"><p><strong>Foundry Note</strong></p><p>Your sneak attack damage will automatically scale as you level up. You can select the damage type in the damage roll's dialog box.</p></section>"
+      "description": "<p>Sabes cómo atacar sutilmente y explotar la distracción de un enemigo. Una vez por turno, puedes causar 1d6 de daño adicional a una criatura que aciertes con un ataque si tienes ventaja en la tirada de ataque. El ataque debe usar un arma de precisión o a distancia.</p><p>No necesitas ventaja en la tirada de ataque si otro enemigo del objetivo está a 1,5 metros o menos del mismo, ese enemigo no está incapacitado y no tienes desventaja en la tirada de ataque.</p><p>La cantidad de daño adicional aumenta a medida que subes de nivel en esta clase, según se muestra en la columna de Ataque Furtivo de la tabla de Pícaro.</p>"
     },
     "Sorcerer": {
       "name": "Hechicero",
@@ -4387,7 +4387,7 @@
     },
     "Sorcerous Restoration": {
       "name": "Restauración Hechicera",
-      "description": "<p>When you finish a Short Rest, you can regain expended Sorcery Points, but no more than a number equal to half your Sorcerer level (round down). Once you use this feature, you can’t do so again until you finish a Long Rest.</p><section id=\"secret-mYrbb0UHsBGBUVbN\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes 1 free user per Long Rest. Use it to automatically regain the correct number of Sorcery Points.</p></section>",
+      "description": "<p>Recuperas 4 puntos de hechicería gastados cuando finalizas un descanso corto.</p>",
       "activities": {
         "Restore Sorcery Points": {
           "name": "Restore Sorcery Points"
@@ -4482,7 +4482,7 @@
     },
     "Spellcasting": {
       "name": "Lanzamiento de Conjuros",
-      "description": "<p>You have learned to cast spells through your bardic arts. See @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{chapter 7} for the rules on spellcasting. The information below details how you use those rules with Bard spells, which appear in the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.wwia6Wwo4BgE9GSI]{Bard spell list}.</p><p><strong>Cantrips.</strong> You know two cantrips of your choice from the Bard spell list. <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDancingLig]{Dancing Lights}</em> and <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplViciousMoc]{Vicious Mockery}</em> are recommended.</p><p>Whenever you gain a Bard level, you can replace one of your cantrips with another cantrip of your choice from the Bard spell list.</p><p>When you reach Bard levels 4 and 10, you learn another cantrip of your choice from the Bard spell list, as shown in the Cantrips column of the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbBard000000000.JournalEntryPage.V8pqIWlaL9GhY61t#class-features]{Bard Features} table.</p><p><strong>Spell Slots.</strong> The Bard Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.</p><p><strong>Prepared Spells of Level 1+.</strong> You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the Bard spell list. <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{Charm Person}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplColorSpray]{Color Spray}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDissonantW]{Dissonant Whispers}</em>, and <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHealingWor]{Healing Word} </em>are recommended.</p><p>The number of spells on your list increases as you gain Bard levels, as shown in the Prepared Spells column of the Bard Features table. Whenever that number increases, choose additional spells from the Bard spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Bard, your list of prepared spells can include six spells of levels 1 and 2 in any combination.</p><p>If another Bard feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Bard spells for you.</p><p><strong>Changing Your Prepared Spells. </strong>Whenever you gain a Bard level, you can replace one spell on your list with another Bard spell for which you have spell slots.</p><p><strong>Spellcasting Ability. </strong>Charisma is your spellcasting ability for your Bard spells.</p><p><strong>Spellcasting Focus. </strong>You can use a Musical Instrument as a Spellcasting Focus for your Bard spells.</p>"
+      "description": "<p>Has aprendido a lanzar conjuros. La información presentada a continuación detalla cómo usar esas reglas con este rasgo.</p><h3>Trucos</h3><p>Conoces una cantidad de trucos de tu elección de tu lista de conjuros de clase, como se muestra en tu tabla de clase en la columna de Trucos.</p><h3>Espacios de Conjuro</h3><p>Tu tabla de clase muestra cuántos espacios de conjuro tienes para lanzar conjuros de nivel 1 o superior. Para lanzar uno de estos conjuros, debes gastar un espacio del nivel del conjuro o superior. Recuperas todos los espacios de conjuro gastados al finalizar un descanso largo.</p><h3>Preparar Conjuros</h3><p>Preparas la lista de conjuros disponibles para lanzar eligiendo de la lista de conjuros de tu clase. Cuando lo haces, elige un número de conjuros igual a tu modificador por tu característica de lanzamiento + tu nivel en esta clase (mínimo de un conjuro). Los conjuros deben ser de un nivel para el que tengas espacios de conjuro.</p><p>Puedes cambiar tu lista de conjuros preparados cuando finalizas un descanso largo.</p><h3>Característica de Lanzamiento</h3><p>Tu característica de lanzamiento para tus conjuros de clase depende de tu clase y se especifica en tu tabla de clase.</p>"
     },
     "Stalker's Flurry": {
       "name": "Ráfaga del Acechador",
@@ -4575,7 +4575,7 @@
     },
     "Stroke of Luck": {
       "name": "Golpe de Suerte",
-      "description": "<p>You have a marvelous knack for succeeding when you need to. If you fail a D20 Test, you can turn the roll into a 20.</p><p>Once you use this feature, you can’t use it again until you finish a Short or Long Rest.</p>",
+      "description": "<p>Tienes una habilidad sobrenatural para tener éxito cuando lo necesitas. Si tu ataque falla contra un objetivo dentro del alcance, puedes convertir el fallo en un acierto. Alternativamente, si fallas un chequeo de habilidad, puedes tratar el resultado del d20 como un 20.</p><p>Una vez que uses este rasgo, no puedes usarlo de nuevo hasta que finalices un descanso corto o largo.</p>",
       "activities": {
         "Stroke of Luck": {
           "name": "Stroke of Luck",
@@ -4593,7 +4593,7 @@
     },
     "Stunning Strike": {
       "name": "Golpe Aturdidor",
-      "description": "<p>Once per turn when you hit a creature with a Monk weapon or an Unarmed Strike, you can expend 1 Focus Point to attempt a stunning strike. The target must make a Constitution saving throw. On a failed save, the target has the Stunned condition until the start of your next turn. On a successful save, the target's Speed is halved until the start of your next turn, and the next attack roll made against the target before then has Advantage.</p><section class=\"secret\" id=\"secret-bfJBOqZfcoIiBtoP\"><p><strong>Foundry Note</strong></p><p>This feature includes the Saving Throw and a Stunned Active Effect which applies the Stunned status if they fail and a Slowed Active Effect for tracking that their Speed is halved and that the next attack roll made against them has Advantage if they succeed.</p></section>",
+      "description": "<p>Cuando golpeas a otra criatura con un ataque con arma cuerpo a cuerpo, puedes gastar 1 punto de foco para intentar aturdir al objetivo. El objetivo debe superar una tirada de salvación de Constitución o queda aturdido hasta el final de tu próximo turno.</p>",
       "activities": {
         "save": {
           "condition": "Once per turn when you hit a creature with a Monk weapon or an Unarmed Strike"
@@ -4610,7 +4610,7 @@
     },
     "Subtle Spell": {
       "name": "Conjuro Sutil",
-      "description": "<blockquote><p>Cost: 1 Sorcery Point</p></blockquote><p>When you cast a spell, you can spend 1 Sorcery Point to cast it without any Verbal, Somatic, or Material components, except Material components that are consumed by the spell or that have a cost specified in the spell.</p>",
+      "description": "<p>Cuando lanzas un conjuro, puedes gastar 1 punto de hechicería para lanzarlo sin ningún componente somático o verbal.</p>",
       "activities": {
         "Subtle Spell": {
           "name": "Subtle Spell",
@@ -4698,11 +4698,11 @@
     },
     "Superior Inspiration": {
       "name": "Inspiración Superior",
-      "description": "<p>When you roll Initiative, you regain expended uses of Bardic Inspiration until you have two if you have fewer than that.</p>"
+      "description": "<p>Cuando tiras iniciativa y no tienes usos de Inspiración de Bardo restantes, recuperas un uso.</p>"
     },
     "Supreme Healing": {
       "name": "Curación Suprema",
-      "description": "<p>When you would normally roll one or more dice to restore Hit Points to a creature with a spell or Channel Divinity, don't roll those dice for the healing; instead use the highest number possible for each die. For example, instead of restoring 2d6 Hit Points to a creature with a spell, you restore 12.</p><section id=\"secret-1Bw7MOem4xyPO17q\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature does not automate the maximizing of all of your rolls.</p></section>"
+      "description": "<p>Cuando normalmente tirarías uno o más dados para restaurar puntos de golpe con un conjuro, en su lugar usas el número más alto posible para cada dado. Por ejemplo, en lugar de restaurar 2d6 puntos de golpe a una criatura, restauras 12.</p>"
     },
     "Supreme Sneak": {
       "name": "Sigilo Supremo",
@@ -4976,7 +4976,7 @@
     },
     "Twinned Spell": {
       "name": "Conjuro Gemelo",
-      "description": "<blockquote><p>Cost: 1 Sorcery Point</p></blockquote><p>When you cast a spell, such as <em>Charm Person</em>, that can be cast with a higher-level spell slot to target an additional creature, you can spend 1 Sorcery Point to increase the spell’s effective level by 1.</p>",
+      "description": "<p>Cuando lanzas un conjuro que tenga solo una criatura como objetivo y no tenga alcance de ti mismo, puedes gastar una cantidad de puntos de hechicería igual al nivel del conjuro para apuntar a una segunda criatura en alcance con el mismo conjuro (1 punto de hechicería si el conjuro es un truco).</p>",
       "activities": {
         "Twinned Spell": {
           "name": "Twinned Spell",
@@ -5020,7 +5020,7 @@
     },
     "Unarmored Defense": {
       "name": "Defensa sin Armadura",
-      "description": "<p>While you aren’t wearing any armor, your base Armor Class equals 10 plus your Dexterity and Constitution modifiers. You can use a Shield and still gain this benefit.</p>",
+      "description": "<p>Mientras no lleves armadura ni uses escudo, tu clase de armadura es igual a 10 + tu modificador por Destreza + tu modificador por Constitución.</p>",
       "effects": {
         "Unarmored Defense": {
           "name": "Unarmored Defense"
@@ -5056,7 +5056,7 @@
     },
     "Uncanny Dodge": {
       "name": "Esquiva Asombrosa",
-      "description": "<p>When an attacker that you can see hits you with an attack roll, you can take a Reaction to halve the attack’s damage against you (round down).</p><section class=\"secret\" id=\"secret-fLqTNntX7T0swRsu\"><p><strong>Foundry Note</strong></p><p>With your token selected you can either right click on the damage roll's chat card and select <span class=\"reference\"><em class=\"fas fa-user-shield\"> </em>Apply Half Damage</span> or click the \"1/2\" button and then the <span class=\"reference\"><em class=\"fa-solid fa-reply-all\"> </em>Apply</span> button.</p></section>",
+      "description": "<p>Cuando un atacante que puedas ver te golpea con un ataque, puedes usar tu reacción para reducir a la mitad el daño del ataque contra ti.</p>",
       "activities": {
         "Uncanny Dodge": {
           "name": "Uncanny Dodge",
@@ -5095,7 +5095,7 @@
     },
     "Versatile Trickster": {
       "name": "Tramposo Versátil",
-      "description": "<p>You gain the ability to distract targets with your <em>Mage Hand</em>. When you use the [[/item Cunning Strike activity=\"Trip\"]]{Trip} option of your Cunning Strike on a creature, you can also use that option on another creature within 5 feet of the spectral hand.</p>"
+      "description": "<p>Obtienes la capacidad de distraer objetivos con tu ilusión de Invocar Duplicidad. Como acción adicional en tu turno, puedes mover la ilusión hasta 9 metros. Cuando tú y tus aliados hacen tiradas de ataque contra una criatura a 1,5 metros de la ilusión, las tiradas de ataque tienen ventaja.</p>"
     },
     "Visions of Distant Realms": {
       "name": "Visiones de Reinos Distantes",
@@ -5332,7 +5332,7 @@
     },
     "Wild Companion": {
       "name": "Compañero Salvaje",
-      "description": "<p>You can summon a nature spirit that assumes an animal form to aid you. As a Magic action, you can expend a spell slot or a use of Wild Shape to cast the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFindFamili]{Find Familiar} spell without Material components.</p><p>When you cast the spell in this way, the familiar is Fey and disappears when you finish a Long Rest.</p><section id=\"secret-4iYtjsPCmpeQTKY5\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes a Summon activity which can be used to summon your wild companion. You can choose whether to expend a use of wild shape or a spell slot when activating it.</p><p>The summon does not automatically disappear when you finish a Long Rest.</p></section>",
+      "description": "<p>Obtienes la capacidad de invocar un espíritu que asume una forma de animal: usando tu Forma Salvaje, puedes gastar un uso de tu rasgo para lanzar el conjuro @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFindFamilia]{Encontrar Familiar}, sin componentes materiales.</p><p>Cuando lanzas el conjuro de esta manera, el familiar es un fey en lugar de una bestia, y el familiar desaparece después de un número de horas igual a la mitad de tu nivel de druida.</p>",
       "activities": {
         "Summon with Spell Slot": {
           "name": "Summon with Spell Slot"
@@ -5371,7 +5371,7 @@
     },
     "Wild Shape": {
       "name": "Forma Salvaje",
-      "description": "<p>The power of nature allows you to assume the form of an animal. As a Bonus Action, you shape-shift into a Beast form that you have learned for this feature (see “Known Forms” below). You stay in that form for a number of hours equal to half your Druid level (currently [[lookup @classes.druid.levels]]) or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action.</p><p><strong>Number of Uses.</strong> You can use Wild Shape twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.</p><p>You gain additional uses when you reach certain Druid levels, as shown in the Wild Shape column of the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbDruid00000000.JournalEntryPage.UCOh3zlvGxyk5jLr#class-features]{Druid Features} table.</p><p><strong>Current Number of Uses:</strong> [[lookup @scale.druid.wild-shape-uses]]</p><p><strong>Known Forms. </strong>You know four Beast forms for this feature, chosen from among Beast stat blocks that have a maximum Challenge Rating of 1/4 and that lack a Fly Speed. The @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobRat0000000]{Rat}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobRidingHors]{Riding Horse}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobSpider0000]{Spider}, and @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobWolf000000]{Wolf} are recommended. Whenever you finish a Long Rest, you can replace one of your known forms with another eligible form.</p><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>Wild Shape Automation</h3><p>This feature includes a <strong>Transform</strong> activity. When you use it you can select the creature you'd like to Wild Shape into using the Compendium Browser. You can revert the transformation at the top of your sheet by clicking on the kebab menu (three vertical dots) and selecting <strong>Restore Transformation</strong>.</p></article></section><p>When you reach certain Druid levels, your number of known forms and the maximum Challenge Rating for those forms increases, as shown in the Beast Shapes table. In addition, starting at level 8, you can adopt a form that has a Fly Speed.</p><p><strong>Current Known Forms Limit:</strong> [[lookup @scale.druid.known-forms]]</p><p><strong>Current CR Limit:</strong> [[lookup @scale.druid.wild-shape]]</p><p>When choosing known forms, you may look in the <em>Monster Manual</em> or elsewhere for eligible Beasts if the Dungeon Master permits you to do so.</p><table><caption>Beast Shapes</caption><thead><tr><td>Druid Level</td><td>Known Forms</td><td>Max CR</td><td>Fly Speed</td></tr></thead><tbody><tr><td>2</td><td>4</td><td>1/4</td><td>No</td></tr><tr><td>4</td><td>6</td><td>1/2</td><td>No</td></tr><tr><td>8</td><td>8</td><td>1</td><td>Yes</td></tr></tbody></table><p><strong>Rules While Shape-Shifted.</strong> While in a form, you retain your personality, memories, and ability to speak, and the following rules apply:</p><p><strong>Temporary Hit Points. </strong>When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to your Druid level.</p><p><strong>Game Statistics.</strong> Your game statistics are replaced by the Beast's stat block, but you retain your creature type; Hit Points; Hit Point Dice; Intelligence, Wisdom, and Charisma scores; class features; languages; and feats. You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining the proficiencies of the creature. If a skill or saving throw modifier in the Beast's stat block is higher than yours, use the one in the stat block.</p><p><strong>No Spellcasting.</strong> You can't cast spells, but shape-shifting doesn't break your Concentration or otherwise interfere with a spell you've already cast.</p><p><strong>Objects. </strong>Your ability to handle objects is determined by the form's limbs rather than your own. In addition, you choose whether your equipment falls in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it's practical for the new form to wear a piece of equipment based on the creature's size and shape. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with the form. Equipment that merges with the form has no effect while you're in that form.</p>",
+      "description": "<p>La conexión que tienes con el mundo natural te permite adoptar formas de animales. Como acción, puedes adoptar mágicamente la forma de una bestia que hayas visto antes. Puedes usar este rasgo dos veces y recuperas todos los usos gastados al finalizar un descanso corto o largo.</p><p>Tu nivel de druida determina las bestias a las que te puedes transformar, según se muestra en la tabla de Formas de Forma Salvaje. A nivel 2, por ejemplo, puedes transformarte en cualquier bestia que tenga un valor de desafío de 1/4 o inferior y que no tenga una velocidad volando ni nadando.</p><table><caption>Formas de Forma Salvaje</caption><thead><tr><td>Nivel</td><td>VC Máximo</td><td>Limitaciones</td></tr></thead><tbody><tr><td>2</td><td>1/4</td><td>Sin velocidad volando ni nadando</td></tr><tr><td>4</td><td>1/2</td><td>Sin velocidad volando</td></tr><tr><td>8</td><td>1</td><td>—</td></tr></tbody></table><p><strong>Reglas de Forma Salvaje.</strong> Mientras estés en una forma de bestia, se aplican las siguientes reglas.</p><p><strong>Puntos de Golpe Temporales.</strong> Al transformarte, obtienes una cantidad de puntos de golpe temporales igual a tu nivel de druida.</p><p><strong>Cambio de Forma.</strong> Tu estadística de juego es reemplazada por las estadísticas de la bestia, pero conservas tu alineamiento, personalidad e intelige ncia, Sabiduría y Carisma. También conservas tus competencias de habilidad y salvación, además de las de la criatura.</p><p><strong>Limitaciones de Descripción.</strong> No puedes lanzar conjuros mientras estás transformado. Tu equipo se fusiona con la nueva forma, no puedes activar, empuñar o beneficiarte de ningún objeto equipado.</p><p><strong>Reverting.</strong> Conservas el beneficio de cualquier rasgo de tu forma usual siempre que la nueva forma sea capaz de usarlo. Puedes revertir a tu forma habitual antes (sin acción requerida). Reviertes automáticamente si quedas inconsciente, caes a 0 puntos de golpe o mueres. Cuando reviertes, vuelves al número de puntos de golpe que tenías antes. Si reviertes por caer a 0 puntos de golpe, cualquier daño excedente se aplica a tus puntos de golpe normales.</p>",
       "activities": {
         "transform": {
           "profiles": {

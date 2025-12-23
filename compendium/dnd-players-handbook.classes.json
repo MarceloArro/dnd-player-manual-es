@@ -3515,7 +3515,7 @@
     },
     "Path of the Berserker": {
       "name": "Senda del Berserker",
-      "description": "<blockquote><p>Channel Rage into Violent Fury</p></blockquote><p>Barbarians who walk the Path of the Berserker direct their Rage primarily toward violence. Their path is one of untrammeled fury, and they thrill in the chaos of battle as they allow their Rage to seize and empower them.</p>",
+      "description": "<blockquote><p>Sigue tu furia al frenesí de batalla</p></blockquote><p>Los bárbaros que recorren la senda del berserker dirigen su furia principalmente hacia la violencia. Su camino es el de la furia desenfrenada, y se deleitan con el caos de la batalla mientras permiten que su furia los domine y empodere.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -3524,7 +3524,7 @@
     },
     "Path of the Wild Heart": {
       "name": "Senda del Corazón Salvaje",
-      "description": "<blockquote><p>Walk in Community with the Animal World</p></blockquote><p>Barbarians who follow the Path of the Wild Heart view themselves as kin to animals. These Barbarians learn magical means to communicate with animals, and their Rage heightens their connection to animals as it fills them with supernatural might.</p>",
+      "description": "<blockquote><p>Comunícate con el espíritu bestial de la naturaleza</p></blockquote><p>Los bárbaros que siguen la senda del corazón salvaje se consideran parientes de los animales del mundo natural. Aprenden medios mágicos para comunicarse con los animales, y su furia aumenta su conexión con ellos mientras los llena de poder sobrenatural.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -3540,7 +3540,7 @@
     },
     "Path of the World Tree": {
       "name": "Senda del Árbol del Mundo",
-      "description": "<blockquote><p>Trace the Roots and Branches of the Multiverse</p></blockquote><p>Barbarians who follow the Path of the World Tree connect with the cosmic tree Yggdrasil through their Rage. This tree grows among the Outer Planes, connecting them to each other and the Material Plane. These Barbarians draw on the tree's magic for vitality and as a means of dimensional travel.</p>",
+      "description": "<blockquote><p>Localiza las raíces y las ramas del multiverso</p></blockquote><p>Los bárbaros que siguen la senda del Árbol del Mundo conectan con el árbol cósmico Yggdrasil a través de su furia. Este árbol crece entre los Planos Exteriores, a los que vincula entre sí además de con el Plano Material. Estos bárbaros recurren a la magia del árbol para obtener vitalidad y como medio de transporte dimensional.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -3549,7 +3549,7 @@
     },
     "Path of the Zealot": {
       "name": "Senda del Fanático",
-      "description": "<blockquote><p>Rage in Ecstatic Union with a God</p></blockquote><p>Barbarians who walk the Path of the Zealot receive boons from a god or pantheon. These Barbarians experience their Rage as an ecstatic episode of divine union that infuses them with power. They are often allies to the priests and other followers of their god or pantheon.</p>",
+      "description": "<blockquote><p>Canaliza la furia divina en batalla</p></blockquote><p>Algunos bárbaros son guerreros espirituales a los que los dioses llaman para librar a su ira sobre los enemigos de la fe. Los seguidores de la senda del fanático consideran su furia como un don divino y una expresión externa del celo que alimenta su devoción.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"

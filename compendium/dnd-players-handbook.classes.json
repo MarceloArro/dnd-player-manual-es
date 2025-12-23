@@ -2111,7 +2111,7 @@
     },
     "Fiend Patron": {
       "name": "Patrón Infernal",
-      "description": "<blockquote><p>Make a Deal with the Lower Planes</p></blockquote><p>Your pact draws on the Lower Planes, the realms of perdition. You might forge a bargain with a demon lord such as Demogorgon or Orcus; an archdevil such as Asmodeus; or a pit fiend, balor, yugoloth, or night hag that is especially mighty. That patron’s aims are evil—the corruption or destruction of all things, ultimately including you—and your path is defined by the extent to which you strive against those aims.</p>",
+      "description": "<blockquote><p>Extrae poder de un señor infernal</p></blockquote><p>Tu pacto te vincula a un señor infernal, un ser cuya ambición y sed de poder no conoce límites. Tales seres incluyen demonios, diablos y otros seres de los Planos Inferiores.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -2360,7 +2360,7 @@
     },
     "Great Old One Patron": {
       "name": "Patrón Primigenio",
-      "description": "<blockquote><p>Unearth Forbidden Lore of Ineffable Beings</p></blockquote><p>When you choose this subclass, you might bind yourself to an unspeakable being from the Far Realm or an elder god—a being such as Tharizdun, the Chained God; Zargon, the Returner; Hadar, the Dark Hunger; or Great Cthulhu. Or you might invoke several entities without yoking yourself to one. The motives of these beings are incomprehensible, and the Great Old One might be indifferent to your existence. But the secrets you’ve learned nevertheless allow you to draw strange magic from it.</p>",
+      "description": "<blockquote><p>Sirve a una entidad cósmica incomprensible</p></blockquote><p>Tu pacto es con un misterioso ser cuya naturaleza es completamente ajena a la realidad. Podrías no saber mucho sobre esta entidad, o podrías saber que es un horror que existe más allá de lo que la mente mortal puede comprender.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -3422,7 +3422,7 @@
     },
     "Pact of the Blade": {
       "name": "Pacto de la Hoja",
-      "description": "<p>As a Bonus Action, you can conjure a pact weapon in your hand—a Simple or Martial Melee weapon of your choice with which you bond—or create a bond with a magic weapon you touch; you can’t bond with a magic weapon if someone else is attuned to it or another Warlock is bonded with it. Until the bond ends, you have proficiency with the weapon, and you can use it as a Spellcasting Focus.</p><p>Whenever you attack with the bonded weapon, you can use your Charisma modifier for the attack and damage rolls instead of using Strength or Dexterity; and you can cause the weapon to deal Necrotic, Psychic, or Radiant damage or its normal damage type.</p><p>Your bond with the weapon ends if you use this feature’s Bonus Action again, if the weapon is more than 5 feet away from you for 1 minute or more, or if you die. A conjured weapon disappears when the bond ends.</p>",
+      "description": "<p>Puedes usar una acción adicional para crear un arma de pacto en tu mano vacía. Puedes elegir la forma que toma esta arma cada vez que la creas. Eres competente con ella mientras la empuñes, y cuenta como un foco mágico para tus conjuros de brujo.</p><p>Tu arma de pacto desaparece si está a más de 1,5 metros de ti durante 1 minuto o más, si usas esta característica nuevamente, si la descartas, o si mueres.</p>",
       "activities": {
         "Forge Pact Weapon": {
           "name": "Forge Pact Weapon"
@@ -3442,7 +3442,7 @@
     },
     "Pact of the Chain": {
       "name": "Pacto de la Cadena",
-      "description": "<p>You learn the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFindFamili]{Find Familiar} spell and can cast it as a Magic action without expending a spell slot.</p><p>When you cast the spell, you choose one of the normal forms for your familiar or one of the following special forms: @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobImp0000000]{Imp}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobPseudodrag]{Pseudodragon}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobQuasit0000]{Quasit}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobSkeleton00]{Skeleton}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobSlaadTadpo]{Slaad Tadpole}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobSphinxofWo]{Sphinx of Wonder}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobSprite0000]{Sprite}, or @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobVenomousSn]{Venomous Snake}.</p><p>Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its Reaction.</p><section id=\"secret-aKbhLPfPD3R9Y1KL\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Summon Familiar</strong> activity includes the normal summoning options and the <strong>Summon Familiar (Expanded Options)</strong> activity includes the additional options.</p></section>",
+      "description": "<p>Aprendes el conjuro @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFindFamilia]{Encontrar familiar} y puedes lanzarlo como ritual sin gastar un espacio de conjuro.</p><p>Cuando lanzas el conjuro, puedes elegir una de las formas normales de familiar o una de las siguientes formas especiales: @UUID[Compendium.dnd-players-handbook.actors.Actor.phbImp00000000]{Diablillo}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbPseudodragon]{Pseudodragón}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbQuasit000000]{Quasit} o @UUID[Compendium.dnd-players-handbook.actors.Actor.phbSprite000000]{Duende}.</p>",
       "activities": {
         "Find Familiar": {
           "name": "Find Familiar",
@@ -3459,7 +3459,7 @@
     },
     "Pact of the Tome": {
       "name": "Pacto del Tomo",
-      "description": "<p>Stitching together strands of shadow, you conjure forth a book in your hand at the end of a Short or Long Rest. This @UUID[Compendium.dnd-players-handbook.classes.Item.phbwlkBookOfShad]{Book of Shadows} (you determine its appearance) contains eldritch magic that only you can access, granting you the benefits below. The book disappears if you conjure another book with this feature or if you die.</p><p><strong>Cantrips and Rituals.</strong> When the book appears, choose three cantrips, and choose two level 1 spells that have the Ritual tag. The spells can be from any class’s spell list, and they must be spells you don’t already have prepared. While the book is on your person, you have the chosen spells prepared, and they function as Warlock spells for you.</p><p><strong>Spellcasting Focus.</strong> You can use the book as a Spellcasting Focus.</p>"
+      "description": "<p>Tu patrón te otorga un grimorio llamado Libro de Sombras. Cuando este rasgo te otorgue el libro, elige tres trucos de cualquier lista de conjuros de clase. Los trucos deben ser de nivel 0. Mientras el libro esté en tu persona, puedes lanzar estos trucos a voluntad.</p><p>Si pierdes tu Libro de Sombras, puedes realizar una ceremonia de 1 hora para recibir un reemplazo de tu patrón. La ceremonia puede realizarse durante un descanso corto o largo, y destruye el libro anterior.</p>"
     },
     "Paladin": {
       "name": "Paladín",
@@ -5266,7 +5266,7 @@
     },
     "Warrior of Mercy": {
       "name": "Guerrero de la Misericordia",
-      "description": "<blockquote><p>Manipulate Forces of Life and Death</p></blockquote><p>Warriors of Mercy manipulate the life force of others. These Monks are wandering physicians, but they bring a swift end to their enemies. They often wear masks, presenting themselves as faceless bringers of life and death.</p>",
+      "description": "<blockquote><p>Manipula las fuerzas de la vida y la muerte</p></blockquote><p>Los guerreros de la misericordia son monjes que aprenden a manipular la energía vital que fluye por todos los seres vivientes. Pueden usar esta energía para curar heridas y dañar a sus enemigos.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -5278,7 +5278,7 @@
     },
     "Warrior of Shadow": {
       "name": "Guerrero de las Sombras",
-      "description": "<blockquote><p>Harness Shadow Power for Stealth and Subterfuge</p></blockquote><p>Warriors of Shadow practice stealth and subterfuge, harnessing the power of the Shadowfell. They are at home in darkness, able to draw gloom around themselves to hide, leap from shadow to shadow, and take on a wraithlike form.</p>",
+      "description": "<blockquote><p>Emplea las artes de la oscuridad y las sombras</p></blockquote><p>Los guerreros de la sombra siguen una tradición monástica que aprovecha el poder de las sombras. Estos monjes se consideran un puente entre los mundos físico y espiritual, usando las sombras como medio de tránsito.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -5290,7 +5290,7 @@
     },
     "Warrior of the Elements": {
       "name": "Guerrero de los Elementos",
-      "description": "<blockquote><p>Wield Strikes and Bursts of Elemental Power</p></blockquote><p>Warriors of the Elements tap into the power of the Elemental Planes. Harnessing their supernatural focus, these Monks momentarily tame the energy of the Elemental Chaos to empower themselves in and out of battle.</p>",
+      "description": "<blockquote><p>Canaliza los cuatro elementos</p></blockquote><p>Los guerreros de los elementos armonizan sus cuerpos con los elementos: tierra, fuego, agua y viento mientras canalizan su energía de monjes para realizar hazañas elementales sobrenaturales.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -5311,7 +5311,7 @@
     },
     "Warrior of the Open Hand": {
       "name": "Guerrero de la Mano Abierta",
-      "description": "<blockquote><p>Master Unarmed Combat Techniques</p></blockquote><p>Warriors of the Open Hand are masters of unarmed combat. They learn techniques to push and trip their opponents and manipulate their own energy to protect themselves from harm.</p>",
+      "description": "<blockquote><p>Maestro de las técnicas de combate desarmado</p></blockquote><p>Los guerreros de la mano abierta son maestros de las técnicas de combate desarmado. Aprenden técnicas para empujar y derribar a sus oponentes en combate y manipular el ki de sus adversarios.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"

@@ -85,7 +85,6 @@
         }
       }
     },
-
     "Abjuration Savant": {
       "name": "Experto en Abjuración",
       "description": "<p>Elige dos conjuros de mago de la escuela de abjuración de nivel 2 o inferior y añádelos a tu libro de conjuros sin coste.</p><p>Además, siempre que consigas un nuevo nivel de espacios de conjuro de esta clase, puedes añadir un conjuro de mago de la escuela de abjuración a tu libro de conjuros sin coste. El conjuro elegido debe ser de un nivel para el que tengas espacios de conjuro.</p>"
@@ -469,7 +468,6 @@
         }
       }
     },
-
     "Bard": {
       "name": "Bardo",
       "description": "<blockquote><p>Un artista inspirador de música, danza y magia</p></blockquote><h3>Atributos Básicos de Bardo</h3><table class=\"core-class-traits\"><tbody><tr><th><p><strong>Característica Principal</strong></p></th><td><p>Carisma</p></td></tr><tr><th><p><strong>Dado de Puntos de Golpe</strong></p></th><td><p>D8 por nivel de bardo</p></td></tr><tr><th><p><strong>Competencias en Tiradas de Salvación</strong></p></th><td><p>Destreza y Carisma</p></td></tr><tr><th><p><strong>Competencias en Habilidades</strong></p></th><td><p><em>Elige tres cualesquiera</em></p></td></tr><tr><th><p><strong>Competencias con Armas</strong></p></th><td><p>Armas sencillas</p></td></tr><tr><th><p><strong>Competencias con Herramientas</strong></p></th><td><p><em>Elige 3 instrumentos musicales</em></p></td></tr><tr><th><p><strong>Entrenamiento con Armaduras</strong></p></th><td><p>Armaduras ligeras</p></td></tr><tr><th><p><strong>Equipo Inicial</strong></p></th><td><p><em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]{Armadura de Cuero}, 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Dagas}, instrumento musical de tu elección, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagEntertainer]{Paquete de Artista}, y [[/award 19gp]]; o (B) [[/award 90GP]]</p></td></tr></tbody></table><p><strong>Invocando la magia a través de la música, la danza</strong> y la poesía, los bardos son duchos en inspirar a los demás, en sanar heridas, en desmoralizar al enemigo y en crear ilusiones. Creen que el multiverso nació del habla de los dioses y que los ecos de sus palabras de creación aún resuenan y brillan en cada plano de existencia. La magia bárdica aspira a servirse de estas palabras que trascienden cualquier idioma.</p><p>Cualquier cosa puede inspirar una nueva canción o historia, así que los bardos sienten fascinación por casi todo. Llegan a dominar muchos ámbitos, como la música, la magia o la mofa.</p><p>Los bardos se pasan la vida viajando, recopilando conocimientos, contando historias y viviendo de la buena voluntad de su público, como la mayoría de artistas. Sin embargo, su amplitud de conocimientos y su dominio de la magia los distingue del resto de intérpretes.</p>",
@@ -509,7 +507,6 @@
         }
       }
     },
-
     "Bardic Inspiration": {
       "name": "Inspiración del Bardo",
       "description": "<p>Puedes recurrir a tus palabras, música o danza para inspirar de forma sobrenatural a los demás. Esta inspiración se representa con tu dado de Inspiración bárdica, que es un d6 (actualmente, [[lookup @scale.bard.inspiration.die]]).</p><p><strong>Utilizar la Inspiración bárdica.</strong> Como acción adicional, puedes inspirar a otra criatura que esté a 18m (60ft) o menos de ti y que te pueda ver u oír. Esa criatura obtiene uno de tus dados de Inspiración bárdica. Cada criatura no puede tener más de un dado de Inspiración bárdica.</p><p>Una vez dentro de la próxima hora, cuando la criatura falle una prueba de D20, puede tirar el dado de Inspiración bárdica y sumar el resultado al d20, lo que podría hacerle superar la prueba. Un dado de Inspiración bárdica se gasta al tirarlo.</p><p><strong>Número de usos.</strong> Puedes conceder un dado de Inspiración bárdica una cantidad de veces igual a tu modificador por Carisma (mínimo una vez) y recuperas todos sus usos tras finalizar un Descanso Largo.</p><p><strong>A niveles superiores.</strong> Tu dado de Inspiración bárdica cambia cuando alcanzas ciertos niveles de bardo, como se muestra en la columna \"Dado bárdico\" de la tabla \"Rasgos de bardo\". El dado se convierte en un d8 en el nivel 5, un d10 en el nivel 10 y un d12 en el nivel 15.</p><section class=\"secret\" id=\"secret-PtUXhUXS84HSdaew\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo para rastrear cuando un personaje tiene Inspiración del Bardo para usar.</p><p>La recuperación está establecida en descanso largo (para niveles anteriores a @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdFontOfInsp]{Fuente de Inspiración}). Por favor ajusta manualmente según sea necesario.</p></section>",
@@ -1299,6 +1296,717 @@
     "Weapon Mastery": {
       "name": "Maestría con Armas",
       "desciption": "<p>Tu entrenamiento con armas te permite utilizar las propiedades de maestría con dos tipos de Armas Cuerpo a Cuerpo Sencillas o Marciales de tu elección, como las Hachas a dos Manos y las Hachas de Mano. Tras finalizar un Descanso Largo, puedes llevar a cabo ejercicios con armas y cambiar una de dichas elecciones.</p><p>Cuando alcances ciertos niveles de Bárbaro, adquirirás la capacidad de usar las propiedades de maestría con más tipos de armas, como se muestra en la columna “Maestría con Armas” de la tabla “Rasgos de Bárbaro”.</p>"
+    },
+    "Dark One's Blessing": {
+      "name": "Bendición del Oscuro",
+      "description": "<p>When you reduce an enemy to 0 Hit Points, you gain Temporary Hit Points equal to your Charisma modifier plus your Warlock level (minimum of 1 Temporary Hit Point). You also gain this benefit if someone else reduces an enemy within 10 feet of you to 0 Hit Points.</p>",
+      "activities": {
+        "heal": {
+          "condition": "When you reduce an enemy to 0 Hit Points or  an enemy within 10 feet of you is reduced to 0 Hit Points"
+        }
+      }
+    },
+    "Dark One's Own Luck": {
+      "name": "La Suerte del Oscuro",
+      "description": "<p>You can call on your fiendish patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add 1d10 to your roll. You can do so after seeing the roll but before any of the roll’s effects occur.</p><p>You can use this feature a number of times equal to your Charisma modifier (minimum of once), but you can use it no more than once per roll. You regain all expended uses when you finish a Long Rest.</p>",
+      "activities": {
+        "Luck": {
+          "name": "Luck",
+          "roll": "Bonus",
+          "condition": "When you make an ability check or saving throw"
+        }
+      }
+    },
+    "Dazzling Footwork": {
+      "name": "Juego de Pies Deslumbrante",
+      "description": "<p>While you aren't wearing armor or wielding a Shield, you gain the following benefits.</p><p><strong>Dance Virtuoso.</strong> You have Advantage on any Charisma (Performance) check you make that involves you dancing.</p><p><strong>Unarmored Defense.</strong> Your base Armor Class equals 10 plus your Dexterity and Charisma modifiers.</p><p><strong>Agile Strikes.</strong> When you expend a use of your Bardic Inspiration as part of an action, a Bonus Action, or a Reaction, you can make one Unarmed Strike as part of that action, Bonus Action, or Reaction.</p><p><strong>Bardic Damage.</strong> You can use Dexterity instead of Strength for the attack rolls of your Unarmed Strikes. When you deal damage with an Unarmed Strike, you can deal Bludgeoning damage equal to a roll of your Bardic Inspiration die plus your Dexterity modifier, instead of the strike's normal damage. This roll doesn't expend the die.</p><section class=\"secret\" id=\"secret-edFgTVLwqcuabKeK\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect that sets up your Unarmored Defense which can be disabled if you would prefer to use armor.</p><p>The <strong>Unarmed Strike</strong> activity uses Dexterity and a Bardic Inspiration die for damage.</p><p>You are also granted an <strong>Unarmed Strike</strong> item which includes the changes.</p></section>",
+      "activities": {
+        "Unarmed Strike": {
+          "name": "Unarmed Strike"
+        }
+      },
+      "effects": {
+        "Dazzling Footwork": {
+          "name": "Dazzling Footwork"
+        }
+      }
+    },
+    "Death Strike": {
+      "name": "Golpe Mortal",
+      "description": "<p>When you hit with your Sneak Attack on the first round of a combat, the target must succeed on a Constitution saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus), or the attack’s damage is doubled against the target.</p><section class=\"secret\" id=\"secret-t8LKMEPbnFaP9kH0\"><p><strong>Foundry Note</strong></p><p>The <strong>Death Strike</strong> activity includes the save and your normal Sneak Attack damage.</p><p>With the target selected you can either right click on the damage roll's chat card and select <span class=\"reference\"><em class=\"fas fa-user-injured\"> </em>Apply Double Damage</span> or click the \"2\" button and then the <span class=\"reference\"><em class=\"fa-solid fa-reply-all\"> </em>Apply</span> button.</p></section>",
+      "activities": {
+        "Death Strike": {
+          "name": "Death Strike",
+          "condition": "When you hit with your Sneak Attack on the first round of a combat"
+        }
+      }
+    },
+    "Defensive Tactics": {
+      "name": "Tácticas Defensivas",
+      "description": "<p>You gain one of the following feature options of your choice. Whenever you finish a Short or Long Rest, you can replace the chosen option with the other one.</p><p><strong>Escape the Horde.</strong> Opportunity Attacks have Disadvantage against you.</p><p><strong>Multiattack Defense.</strong> When a creature hits you with an attack roll, that creature has Disadvantage on all other attack rolls against you this turn.</p><section class=\"secret\" id=\"secret-5BXeADNIjwRdwzBf\"><p><strong>Foundry Note</strong></p><p>This feature includes a <strong>Multiattack Defense</strong> activity with an Active Effect which can be used to track a creature that has Disadvantage against you but it does not automate the effect.</p></section>",
+      "activities": {
+        "Multiattack Defense": {
+          "name": "Multiattack Defense",
+          "condition": "When a creature hits you with an attack roll"
+        }
+      },
+      "effects": {
+        "Multiattack Defense": {
+          "name": "Multiattack Defense"
+        }
+      }
+    },
+    "Deflect Attacks": {
+      "name": "Desviar Ataques",
+      "description": "<p>When an attack roll hits you and its damage includes Bludgeoning, Piercing, or Slashing damage, you can take a Reaction to reduce the attack's total damage against you. The reduction equals 1d10 plus your Dexterity modifier and Monk level.</p><p>If you reduce the damage to 0, you can expend 1 Focus Point to redirect some of the attack's force. If you do so, choose a creature you can see within 5 feet of yourself if the attack was a melee attack or a creature you can see within 60 feet of yourself that isn't behind Total Cover if the attack was a ranged attack. That creature must succeed on a Dexterity saving throw or take damage equal to two rolls of your Martial Arts die plus your Dexterity modifier. The damage is the same type dealt by the attack.</p><section class=\"secret\" id=\"secret-zWGu1AEB09UqQ21D\"><p><strong>Foundry Note</strong></p><p>The <strong>Reduce</strong> activity can be used to heal yourself to reduce the total damage if it's not enough to reduce it to 0.</p><p>The <strong>Redirect</strong> activity can be used to roll damage and consume a use of your Focus Points if you can reduce it to 0. You can select the type of damage in the roll dialog. The dice increase automatically as you level up.</p></section>",
+      "activities": {
+        "Reduce": {
+          "name": "Reduce",
+          "condition": "When an attack roll hits you and its damage includes Bludgeoning, Piercing, or Slashing damage"
+        },
+        "Redirect": {
+          "name": "Redirect",
+          "condition": "If you reduce the damage to 0"
+        }
+      }
+    },
+    "Deflect Energy": {
+      "name": "Desviar Energía",
+      "description": "<p>You can now use your Deflect Attacks feature against attacks that deal any damage type, not just Bludgeoning, Piercing, or Slashing.</p><section class=\"secret\" id=\"secret-XAQmFmc4TpSF2Oh1\"><p>The <strong>Reduce</strong> activity can be used to heal yourself to reduce the total damage if it's not enough to reduce it to 0.</p><p>The <strong>Redirect</strong> activity can be used to roll damage and consume a use of your Focus Points if you can reduce it to 0. You can select the type of damage in the roll dialog. The dice increase automatically as you level up.</p></section>",
+      "activities": {
+        "Reduce": {
+          "name": "Reduce",
+          "condition": "When an attack roll hits you and its damage includes Bludgeoning, Piercing, or Slashing damage"
+        },
+        "Redirect": {
+          "name": "Redirect",
+          "condition": "If you reduce the damage to 0"
+        }
+      }
+    },
+    "Deft Explorer": {
+      "name": "Explorador Diestro",
+      "description": "<p>Thanks to your travels, you gain the following benefits.</p><p><strong>Expertise.</strong> Choose one of your skill proficiencies with which you lack Expertise. You gain Expertise in that skill.</p><p><strong>Languages.</strong> You know two languages of your choice from the language tables in chapter 2.</p><section class=\"secret\" id=\"secret-MKYXod5Sdpyj2x7V\"><p><strong>Foundry Note</strong></p><p>You will be prompted for choices when you add the Ranger class to your character sheet.</p></section>"
+    },
+    "Devil's Sight": {
+      "name": "Visión del Diablo",
+      "description": "<blockquote><p>Prerequisite: Level 2+ Warlock</p></blockquote><p>You can see normally in Dim Light and Darkness—both magical and nonmagical—within 120 feet of yourself.</p><section class=\"secret\" id=\"secret-RVsijULbRFU2b9ZU\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect that grants you darkvision to 120 feet.</p></section>",
+      "effects": {
+        "Devil's Sight": {
+          "name": "Devil's Sight"
+        }
+      }
+    },
+    "Devious Strikes": {
+      "name": "Golpes Traicioneros",
+      "description": "<p>You’ve practiced new ways to use your Sneak Attack deviously. The following effects are now among your Cunning Strike options.</p><p><strong>Daze (Cost: 2d6).</strong> The target must succeed on a Constitution saving throw, or on its next turn, it can do only one of the following: move or take an action or a Bonus Action.</p><p><strong>Knock Out (Cost: 6d6).</strong> The target must succeed on a Constitution saving throw, or it has the &amp;Reference[Unconscious] condition for 1 minute or until it takes any damage. The Unconscious target repeats the save at the end of each of its turns, ending the effect on itself on a success.</p><p><strong>Obscure (Cost: 3d6).</strong> The target must succeed on a Dexterity saving throw, or it has the &amp;Reference[Blinded] condition until the end of its next turn.</p><section class=\"secret\" id=\"secret-1jUuw8B9GvVx5ctH\"><p><strong>Foundry Note</strong></p><p>After using Cunning Strike effects use the [[/item Cunning Strike activity=Cunning Sneak Attack]]{Cunning Sneak Attack} activity. It will prompt you to select how many dice you expended on effects and deduct them from your Sneak Attack roll automatically.</p><p>You can control the damage type in the damage roll dialog box.</p><p>The <strong>Daze</strong> activity includes an Active Effect for tracking the dazed target but it does not automate the effect.</p><p>The <strong>Knock Out</strong> activity includes an Active Effect which applies the Unconscious condition.</p><p>The <strong>Obscure</strong> activity includes an Active Effect which applies the Blinded condition.</p></section>",
+      "activities": {
+        "Daze": {
+          "name": "Daze",
+          "condition": "When you deal Sneak Attack damage"
+        },
+        "Knock Out": {
+          "name": "Knock Out",
+          "condition": "When you deal Sneak Attack damage"
+        },
+        "Obscure": {
+          "name": "Obscure",
+          "condition": "When you deal Sneak Attack damage"
+        }
+      },
+      "effects": {
+        "Devious Strikes: Dazed": {
+          "name": "Devious Strikes: Dazed",
+          "description": "<p>On its next turn, the target can do only one of the following: move or take an action or a Bonus Action.</p>"
+        },
+        "Devious Strikes: Knocked Out": {
+          "name": "Devious Strikes: Knocked Out",
+          "description": "<p>The target has the Unconscious condition for 1 minute or until it takes any damage. The Unconscious target repeats the save at the end of each of its turns, ending the effect on itself on a success.</p>"
+        },
+        "Devious Strikes: Blinded": {
+          "name": "Devious Strikes: Blinded",
+          "description": "<p>The target has the Blinded condition until the end of its next turn</p>"
+        }
+      }
+    },
+    "Devouring Blade": {
+      "name": "Hoja Devoradora",
+      "description": "<blockquote><p>Prerequisite: Level 12+ Warlock, @UUID[Compendium.dnd-players-handbook.classes.Item.phbinvThirstingB]{Thirsting Blade} Invocation</p></blockquote><p>The Extra Attack of your Thirsting Blade invocation confers two extra attacks rather than one.</p>"
+    },
+    "Disarming Attack": {
+      "name": "Ataque Desarmante",
+      "description": "<p>When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to disarm the target. Add the Superiority Die roll to the attack's damage roll. The target must succeed on a Strength saving throw or drop one object of your choice that it's holding, with the object landing in its space.</p><section class=\"secret\" id=\"secret-OIeqhDE1w3MxjygU\"><p><strong>Foundry Note</strong></p><p>This feature will automatically use the higher of your Strength/Dexterity for the save.</p><p>The Damage included in the save allows you to select the type of damage it should deal in the roll dialog. It will remember your choice going forwards.</p></section>",
+      "activities": {
+        "save": {
+          "condition": "When you hit a creature with an attack roll"
+        }
+      }
+    },
+    "Disciple of Life": {
+      "name": "Discípulo de la Vida",
+      "description": "<p>When a spell you cast with a spell slot restores Hit Points to a creature, that creature regains additional Hit Points on the turn you cast the spell. The additional Hit Points equal 2 plus the spell slot's level.</p><section class=\"secret\" id=\"secret-Gy6bYP3AKuabnUlQ\"><p><strong>Foundry Note</strong></p><p>This feature includes a healing activity. Set the scale to the spell slot level you cast and it will provide a healing roll for you.</p></section>"
+    },
+    "Disciplined Survivor": {
+      "name": "Superviviente Disciplinado",
+      "description": "<p>Your physical and mental discipline grant you proficiency in all saving throws.</p><p>Additionally, whenever you make a saving throw and fail, you can expend 1 Focus Point to reroll it, and you must use the new roll.</p><section class=\"secret\" id=\"secret-VLGTfBDBcfExjSXG\"><p><strong>Foundry Note</strong></p><p>You will automatically be granted the additional Saving Throw proficiencies as you level up.</p><p>Use this feature to expend 1 Focus Point.</p></section>",
+      "activities": {
+        "Consume Focus Point": {
+          "name": "Consume Focus Point"
+        }
+      }
+    },
+    "Distant Spell": {
+      "name": "Conjuro Distante",
+      "description": "<blockquote><p>Cost: 1 Sorcery Point</p></blockquote><p>When you cast a spell that has a range of at least 5 feet, you can spend 1 Sorcery Point to double the spell’s range. Or when you cast a spell that has a range of Touch, you can spend 1 Sorcery Point to make the spell’s range 30 feet.</p>",
+      "activities": {
+        "Distant Spell": {
+          "name": "Distant Spell",
+          "condition": "When you cast a spell that has a range of at least 5 feet or when you cast a spell that has a range of Touch"
+        }
+      }
+    },
+    "Distracting Strike": {
+      "name": "Golpe Perturbador",
+      "description": "<p>When you hit a creature with an attack roll, you can expend one Superiority Die to distract the target. Add the Superiority Die roll to the attack's damage roll. The next attack roll against the target by an attacker other than you has Advantage if the attack is made before the start of your next turn.</p><section class=\"secret\" id=\"secret-IbvdKkHFBNOThkil\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which can be used for tracking the distracted target but does not automate the Advantage.</p><p>The <strong>Damage</strong> activity allows you to select the type of damage it should deal in the roll dialog.</p></section>",
+      "effects": {
+        "Distracted": {
+          "name": "Distracted"
+        }
+      }
+    },
+    "Divination Savant": {
+      "name": "Experto en Adivinación",
+      "description": "<p>Choose two Wizard spells from the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Divination school} (change the Grouping mode to \"School\" for easier selection), each of which must be no higher than level 2, and add them to your spellbook for free.</p><p>In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Divination school to your spellbook for free. The chosen spell must be of a level for which you have spell slots.</p>"
+    },
+    "Divine Fury": {
+      "name": "Furia Divina",
+      "description": "<p>You can channel divine power into your strikes. On each of your turns while your Rage is active, the first creature you hit with a weapon or an Unarmed Strike takes extra damage equal to 1d6 plus half your Barbarian level (round down). The extra damage is Necrotic or Radiant; you choose the type each time you deal the damage.</p><section class=\"secret\" id=\"secret-qDE2QhFtf1aiHWmx\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity for each type of damage.</p></section>",
+      "activities": {
+        "Necrotic Divine Fury": {
+          "name": "Necrotic Divine Fury"
+        },
+        "Radiant Divine Fury": {
+          "name": "Radiant Divine Fury"
+        }
+      }
+    },
+    "Divine Intervention": {
+      "name": "Intervención Divina",
+      "description": "<p>You can call on your deity or pantheon to intervene on your behalf. As a Magic action, choose any @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Cleric spell} of level 5 or lower that doesn't require a Reaction to cast. As part of the same action, you cast that spell without expending a spell slot or needing Material components. You can't use this feature again until you finish a Long Rest.</p><section id=\"secret-LP7yqqobTjOqeswv\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>Uncheck the \"Consumption\" box when casting the spell for the free use. This feature can be used to track available uses.</p></section>"
+    },
+    "Divine Order": {
+      "name": "Orden Divino",
+      "description": "<p>You have dedicated yourself to one of the following sacred roles of your choice.</p><p><strong>Protector.</strong> Trained for battle, you gain proficiency with Martial weapons and training with Heavy armor.</p><p><strong>Thaumaturge.</strong> You know one extra cantrip from the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Cleric spell list}. In addition, your mystical connection to the divine gives you a bonus to your Intelligence (Arcana or Religion) checks. The bonus equals your Wisdom modifier (minimum of +1).</p><section class=\"secret\" id=\"secret-mBkdTF86GHVjdNKD\"><p><strong>Foundry Note</strong></p><p>During advancement you will be able to choose which option you prefer.</p></section>"
+    },
+    "Divine Order: Protector": {
+      "name": "Orden Divino: Protector",
+      "description": "<p>You have dedicated yourself to the following sacred role:</p><p><strong>Protector.</strong> Trained for battle, you gain proficiency with Martial weapons and training with Heavy armor.</p><section id=\"secret-Tsm148wTyiFWlMFv\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which grants the proficiency and training.</p></section>",
+      "effects": {
+        "Divine Order: Protector": {
+          "name": "Divine Order: Protector"
+        }
+      }
+    },
+    "Divine Order: Thaumaturge": {
+      "name": "Orden Divino: Taumaturgo",
+      "description": "<p>You have dedicated yourself to the following sacred role:</p><p><strong>Thaumaturge.</strong> You know one extra cantrip from the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Cleric spell list}. In addition, your mystical connection to the divine gives you a bonus to your Intelligence (Arcana or Religion) checks. The bonus equals your Wisdom modifier (minimum of +1, currently [[lookup @abilities.wis.mod]]).</p><section id=\"secret-9NLpq7kfc33QLf8I\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which increases the number of cantrips you can know and grants the bonus to your Intelligence (Arcana or Religion) checks.</p></section>",
+      "effects": {
+        "Thaumaturge": {
+          "name": "Thaumaturge"
+        }
+      }
+    },
+    "Diviner": {
+      "name": "Adivinador",
+      "description": "<blockquote><p>Learn the Secrets of the Multiverse</p></blockquote><p>The counsel of a Diviner is sought by those who want a clearer understanding of the past, present, and future. As a Diviner, you strive to part the veils of space, time, and consciousness. You work to master spells of discernment, remote viewing, supernatural knowledge, and foresight.</p>",
+      "advancement": {
+        "Subclass Features": {
+          "title": "Subclass Features"
+        }
+      }
+    },
+    "Draconic Resilience": {
+      "name": "Resistencia Dracónica",
+      "description": "<p>The magic in your body manifests physical traits of your draconic gift. Your Hit Point maximum increases by 3, and it increases by 1 whenever you gain another Sorcerer level.</p><p>Parts of you are also covered by dragon-like scales. While you aren’t wearing armor, your base Armor Class equals 10 plus your Dexterity and Charisma modifiers.</p><section class=\"secret\" id=\"secret-uBlQVhOqmjWWiLc4\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect that automatically increases your Hit Point maximum and sets up your Unarmored Defense which can be disabled if you would prefer to use armor.</p></section>",
+      "effects": {
+        "Draconic Resilience: Armor": {
+          "name": "Draconic Resilience: Armor"
+        },
+        "Draconic Resilience: HP": {
+          "name": "Draconic Resilience: HP"
+        }
+      }
+    },
+    "Draconic Sorcery": {
+      "name": "Hechicería Dracónica",
+      "description": "<blockquote><p>Breathe the Magic of Dragons</p></blockquote><p>Your innate magic comes from the gift of a dragon. Perhaps an ancient dragon facing death bequeathed some of its magical power to you or your ancestor. You might have absorbed magic from a site infused with dragons’ power. Or perhaps you handled a treasure taken from a dragon’s hoard that was steeped in draconic power. Or you might have a dragon for an ancestor.</p>",
+      "advancement": {
+        "Subclass Features": {
+          "title": "Subclass Features"
+        },
+        "Draconic Spells": {
+          "title": "Draconic Spells",
+          "hint": "When you reach a Sorcerer level specified in the Draconic Spells table, you thereafter always have the listed spells prepared."
+        },
+        "8UnvG3X4TR3MpCGe": {
+          "hint": "Your draconic magic has an affinity with a damage type associated with dragons. Choose one of those types: Acid, Cold, Fire, Lightning, or Poison.\n                \n                You have Resistance to that damage type."
+        }
+      }
+    },
+    "Draconic Spells": {
+      "name": "Conjuros Dracónicos",
+      "description": "<p>When you reach a Sorcerer level specified in the Draconic Spells table, you thereafter always have the listed spells prepared.</p><table><caption>Draconic Spells</caption><thead><tr><td>Sorcerer Level</td><td>Spells</td></tr></thead><tbody><tr><td>3</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAlterSelf0]{Alter Self}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChromaticO]{Chromatic Orb}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]{Command}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDragonsBre]{Dragon’s Breath}</em></td></tr><tr><td>5</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFear000000]{Fear}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFly0000000]{Fly}</em></td></tr><tr><td>7</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0]{Arcane Eye}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmMonst]{Charm Monster}</em></td></tr><tr><td>9</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLegendLore]{Legend Lore}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonDrag]{Summon Dragon}</em></td></tr></tbody></table><section class=\"secret\" id=\"secret-kL8H0ClyrUNajoht\"><p><strong>Foundry Note</strong></p><p>The spells will be automatically granted as you level up.</p></section>"
+    },
+    "Dragon Companion": {
+      "name": "Compañero Dragón",
+      "description": "<p>You can cast @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonDrag]{Summon Dragon} without a Material component. You can also cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p><p>Whenever you start casting the spell, you can modify it so that it doesn’t require Concentration. If you do so, the spell’s duration becomes 1 minute for that casting.</p><section id=\"secret-dxl0rjuVblJvTXgy\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature can be used for tracking your free usage. When you cast the spell you can uncheck the \"Consumption\" box and, optionally, the \"Concentration\" box.</p></section>",
+      "activities": {
+        "Expend Use": {
+          "name": "Expend Use"
+        }
+      }
+    },
+    "Dragon Wings": {
+      "name": "Alas de Dragón",
+      "description": "<p>As a Bonus Action, you can cause draconic wings to appear on your back. The wings last for 1 hour or until you dismiss them (no action required). For the duration, you have a Fly Speed of 60 feet.</p><p>Once you use this feature, you can’t use it again until you finish a Long Rest unless you spend 3 Sorcery Points (no action required) to restore your use of it.</p><section class=\"secret\" id=\"secret-sOSBeegnxa98QlIn\"><p><strong>Foundry Note</strong></p><p>The <strong>Dragon Wings</strong> activity includes an Active Effect that grants you a Fly Speed of 60 feet.</p><p>The <strong>Restore Use</strong> activity can be used to expend the Sorcery Points to restore a use of the <strong>Dragon Wings</strong> activity.</p></section>",
+      "activities": {
+        "Dragon Wings": {
+          "name": "Dragon Wings"
+        },
+        "Restore Use": {
+          "name": "Restore Use"
+        }
+      },
+      "effects": {
+        "Winged": {
+          "name": "Winged",
+          "description": "<p>he wings last for 1 hour or until you dismiss them (no action required). For the duration, you have a Fly Speed of 60 feet.</p>"
+        }
+      }
+    },
+    "Dread Ambusher": {
+      "name": "Emboscador Terrible",
+      "description": "<p>You have mastered the art of creating fearsome ambushes, granting you the following benefits.</p><p><strong>Ambusher’s Leap.</strong> At the start of your first turn of each combat, your Speed increases by 10 feet until the end of that turn.</p><p><strong>Dreadful Strike.</strong> When you attack a creature and hit it with a weapon, you can deal an extra 2d6 Psychic damage. You can use this benefit only once per turn, you can use it a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p><p><strong>Initiative Bonus.</strong> When you roll Initiative, you can add your Wisdom modifier to the roll.</p><section class=\"secret\" id=\"secret-QF11lzzOLRLzoSrk\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automatically adds your Wisdom modifier to your Initiative roll.</p><p>The <strong>Dreadful Strike</strong> activity includes the additional damage and tracks your limited number of uses. It's damage will automatically increase when you gain the @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrStalkersFl]{Stalker's Flurry} feature.</p><p>The <strong>Ambusher's Leap</strong> activity includes an Active Effect that can be used to increase your Speed by 10 feet.</p></section>",
+      "activities": {
+        "Dreadful Strike": {
+          "name": "Dreadful Strike",
+          "condition": "When you attack and hit a creature with a weapon"
+        },
+        "Ambusher's Leap": {
+          "name": "Ambusher's Leap",
+          "condition": "At the start of your first turn of each combat"
+        }
+      },
+      "effects": {
+        "Dread Ambusher": {
+          "name": "Dread Ambusher"
+        },
+        "Ambusher's Leap": {
+          "name": "Ambusher's Leap"
+        }
+      }
+    },
+    "Dreadful Strikes": {
+      "name": "Golpes Terribles",
+      "description": "<p>You can augment your weapon strikes with mind-scarring magic drawn from the murky hollows of the Feywild. When you hit a creature with a weapon, you can deal an extra 1d4 Psychic damage to the target, which can take this extra damage only once per turn. The extra damage increases to 1d6 when you reach Ranger level 11.</p><section id=\"secret-4bJV0nAffRomytFv\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Damage</strong> activity includes the extra damage. It automatically scales as you level up.</p></section>",
+      "activities": {
+        "damage": {
+          "condition": "When you hit a creature with a weapon"
+        }
+      }
+    },
+    "Druid": {
+      "name": "Druida",
+      "description": "<blockquote><p>A Nature Priest of Primal Power</p></blockquote><h3>Core Druid Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>Primary Ability</strong></p></th><td><p>Wisdom</p></td></tr><tr><th scope=\"row\"><p><strong>Hit Point Die</strong></p></th><td><p>D8 per Druid level</p></td></tr><tr><th scope=\"row\"><p><strong>Saving Throw Proficiencies</strong></p></th><td><p>Intelligence and Wisdom</p></td></tr><tr><th scope=\"row\"><p><strong>Skill Proficiencies</strong></p></th><td><p><em>Choose 2:</em> Animal Handling, Arcana, Insight, Medicine, Nature, Perception, Religion, or Survival</p></td></tr><tr><th scope=\"row\"><p><strong>Weapon Proficiencies</strong></p></th><td><p>Simple weapons</p></td></tr><tr><th scope=\"row\"><p><strong>Tool Proficiencies</strong></p></th><td><p>Herbalism Kit</p></td></tr><tr><th scope=\"row\"><p><strong>Armor Training</strong></p></th><td><p>Light armor and Shields</p></td></tr><tr><th scope=\"row\"><p><strong>Starting Equipment</strong></p></th><td><p><em>Choose A or B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]{Leather Armor}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmShield0000]{Shield}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSickle0000]{Sickle}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagDruidicFocu]{Druidic Focus} (@UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Quarterstaff}), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagExplorersPa]{Explorer's Pack}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulHerbalismK]{Herbalism Kit}, and [[/award 9GP]]; or (B) [[/award 50GP]]</p></td></tr></tbody></table><p>Druids belong to ancient orders that call on the forces of nature. Harnessing the magic of animals, plants, and the four elements, Druids heal, transform into animals, and wield elemental destruction.</p><p>Revering nature above all, individual Druids gain their magic from nature, a nature deity, or both, and they typically unite with other Druids to perform rites that mark the passage of the seasons and other natural cycles.</p><p>Druids are concerned with the delicate ecological balance that sustains plant and animal life and with the need for people to live in harmony with nature. Druids often guard sacred sites or watch over regions of unspoiled nature, but when a significant danger arises, Druids take a more active role as adventurers who combat the threat.</p><h2>Becoming a Druid …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Druid Traits table.</li><li>Gain the Druid's level 1 features, which are listed in the Druid Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the following traits from the Core Druid Traits table: Hit Point Die and training with Light armor and Shields.</li><li>Gain the Druid's level 1 features, which are listed in the Druid Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</li></ul>",
+      "advancement": {
+        "Class Features": {
+          "title": "Class Features"
+        },
+        "Cantrips Known": {
+          "title": "Cantrips Known"
+        },
+        "Max Prepared Spells": {
+          "title": "Max Prepared Spells"
+        },
+        "Wild Shape CR": {
+          "title": "Wild Shape CR"
+        },
+        "Wild Shape Uses": {
+          "title": "Wild Shape Uses"
+        },
+        "Known Forms": {
+          "title": "Known Forms"
+        },
+        "Druidic Spells": {
+          "title": "Druidic Spells"
+        },
+        "Primal Order": {
+          "title": "Primal Order",
+          "hint": "You have dedicated yourself to one of the following sacred roles of your choice."
+        },
+        "Elemental Fury": {
+          "title": "Elemental Fury",
+          "hint": "The might of the elements flows through you. You gain one of the following options of your choice."
+        },
+        "W0d3c6X31SgnFFYM": {
+          "title": "Elemental Fury"
+        },
+        "Saving Throw Proficiencies": {
+          "title": "Saving Throw Proficiencies"
+        },
+        "Skill Proficiencies": {
+          "title": "Skill Proficiencies"
+        },
+        "Weapon Proficiencies": {
+          "title": "Weapon Proficiencies"
+        },
+        "Tool Proficiencies": {
+          "title": "Tool Proficiencies"
+        },
+        "Armor Training": {
+          "title": "Armor Training"
+        },
+        "Druidic": {
+          "title": "Druidic",
+          "hint": "You know Druidic, the secret language of Druids."
+        },
+        "Epic Boon": {
+          "title": "Epic Boon"
+        }
+      }
+    },
+    "Druidic": {
+      "name": "Druídico",
+      "description": "<p>You know Druidic, the secret language of Druids. While learning this ancient tongue, you also unlocked the magic of communicating with animals; you always have the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]{Speak with Animals} spell prepared.</p><p>You can use Druidic to leave hidden messages. You and others who know Druidic automatically spot such a message. Others spot the message's presence with a successful [[/check inv 15]] check but can't decipher it without magic.</p><section class=\"secret\" id=\"secret-5uD3Qi61JX7q2Fk8\"><p><strong>Foundry Note</strong></p><p>Druidic and Speak with Animals are automatically added during advancement.</p></section>"
+    },
+    "Elder Champion": {
+      "name": "Campeón Anciano",
+      "description": "<p>As a Bonus Action, you can imbue your Aura of Protection with primal power, granting the benefits below for 1 minute or until you end them (no action required). Once you use this feature, you can’t use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).</p><p><strong>Diminish Defiance.</strong> Enemies in the aura have Disadvantage on saving throws against your spells and Channel Divinity options.</p><p><strong>Regeneration.</strong> At the start of each of your turns, you regain 10 Hit Points.</p><p><strong>Swift Spells.</strong> Whenever you cast a spell that has a casting time of an action, you can cast it using a Bonus Action instead.</p><section id=\"secret-EKKHqruZyH8NdBEa\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Elder Champion</strong> activity will consume a use and includes an Active Effect which can be used for tracking creatures impacted by Diminished Defense.</p><p>The <strong>Regeneration</strong> activity includes the 10 Hit Points you can regain each turn.</p><p>The <strong>Restore Use</strong> activity will consume a 5th level spell slot and restore a use of this feature.</p></section>",
+      "activities": {
+        "Elder Champion": {
+          "name": "Elder Champion"
+        },
+        "Regeneration": {
+          "name": "Regeneration"
+        },
+        "Restore Use": {
+          "name": "Restore Use"
+        }
+      },
+      "effects": {
+        "Diminished Defiance": {
+          "name": "Diminished Defiance"
+        }
+      }
+    },
+    "Eldritch Hex": {
+      "name": "Maleficio Sobrenatural",
+      "description": "<p>Your alien patron grants you a powerful curse. You always have the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000]{Hex} spell prepared. When you cast <em>Hex</em> and choose an ability, the target also has Disadvantage on saving throws of the chosen ability for the duration of the spell.</p><section id=\"secret-yj97DsFIc6iBEaTL\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The spell is automatically added to your sheet when you level up.</p></section>"
+    },
+    "Eldritch Invocations": {
+      "name": "Invocaciones Sobrenaturales",
+      "description": "<p>You have unearthed Eldritch Invocations, pieces of forbidden knowledge that imbue you with an abiding magical ability or other lessons. You gain one invocation of your choice, such as @UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactTome00]{Pact of the Tome}. Invocations are described in the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbWarlock000000.JournalEntryPage.FA4hxx49eazhISIt]{Eldritch Invocation Options} section.</p><p><strong>Prerequisites.</strong> If an invocation has a prerequisite, you must meet it to learn that invocation. For example, if an invocation requires you to be a level 5+ Warlock, you can select the invocation once you reach Warlock level 5.</p><p><strong>Replacing and Gaining Invocations.</strong> Whenever you gain a Warlock level, you can replace one of your invocations with another one for which you qualify. You can’t replace an invocation if it’s a prerequisite for another invocation that you have.</p><p>When you gain certain Warlock levels, you gain more invocations of your choice, as shown in the Invocations column of the Warlock Features table.</p><p><strong>Current Max Eldritch Invocations:</strong> [[lookup @scale.warlock.invocations-known]]</p><p>You can’t pick the same invocation more than once unless its description says otherwise.</p><section class=\"secret\" id=\"secret-Oe1om6AaBjTtabpK\"><p><strong>Foundry Note</strong></p><p>You will be prompted for your choices as you level up. The advancement system does not prevent you from taking any invocations so be sure that you meet the requirements before selecting one.</p></section>"
+    },
+    "Eldritch Knight": {
+      "name": "Caballero Arcano",
+      "description": "<blockquote><p>Support Combat Skills with Arcane Magic</p></blockquote><p>Eldritch Knights combine the martial mastery common to all Fighters with a careful study of magic. Their spells both complement and extend their combat skills, providing additional protection to shore up their armor and also allowing them to engage many foes at once with explosive magic.</p>",
+      "advancement": {
+        "Subclass Features": {
+          "title": "Subclass Features"
+        },
+        "Cantrips": {
+          "title": "Cantrips"
+        },
+        "Prepared Spells": {
+          "title": "Prepared Spells"
+        }
+      }
+    },
+    "Eldritch Master": {
+      "name": "Maestro Sobrenatural",
+      "description": "<p>When you use your Magical Cunning feature, you regain all your expended Pact Magic spell slots.</p><section id=\"secret-Ei3yWRJ5hdPjWIH0\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>Use this feature to restore all expended Pact Magic spell slots. It will consume the free use from your Magical Cunning feature.</p></section>",
+      "activities": {
+        "Eldritch Master": {
+          "name": "Eldritch Master",
+          "condition": "When you use Magical Cunning"
+        }
+      }
+    },
+    "Eldritch Mind": {
+      "name": "Mente Sobrenatural",
+      "description": "<p>You have Advantage on Constitution saving throws that you make to maintain Concentration.</p>",
+      "effects": {
+        "Concentration Advantage": {
+          "name": "Concentration Advantage"
+        }
+      }
+    },
+    "Eldritch Smite": {
+      "name": "Castigo Sobrenatural",
+      "description": "<blockquote><p>Prerequisite: Level 5+ Warlock, @UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactBlade0]{Pact of the Blade} Invocation</p></blockquote><p>Once per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra 1d8 Force damage to the target, plus another 1d8 per level of the spell slot, and you can give the target the &amp;Reference[Prone] condition if it is Huge or smaller.</p><section class=\"secret\" id=\"secret-AoE71IXdo0xg5OKe\"><p><strong>Foundry Note</strong></p><p>The <strong>Smite</strong> activity consumes a Pact Magic spell slot and increases the damage based on your pact spell level.</p></section>",
+      "activities": {
+        "Smite": {
+          "name": "Smite",
+          "condition": "Hit a creature with your pact weapon"
+        }
+      }
+    },
+    "Eldritch Spear": {
+      "name": "Lanza Sobrenatural",
+      "description": "<blockquote><p>Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage</p></blockquote><p>Choose one of your known Warlock cantrips that deals damage and has a range of 10+ feet. When you cast that spell, its range increases by a number of feet equal to 30 times your Warlock level.</p><p><strong>Repeatable.</strong> You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.</p><section id=\"secret-7hr3xIfya7IOq7pj\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>Use the <strong>Increase Range</strong> enchantment activity and drag your chosen cantrip to the chat card to increase its range and append \", Eldritch Spear\" for easier identification.</p></section>",
+      "activities": {
+        "Increase Range": {
+          "name": "Increase Range"
+        }
+      },
+      "effects": {
+        "Eldritch Spear": {
+          "name": "Eldritch Spear",
+          "changes": {
+            "name": ", Eldritch Spear"
+          }
+        }
+      }
+    },
+    "Eldritch Strike": {
+      "name": "Golpe Sobrenatural",
+      "description": "<p>You learn how to make your weapon strikes undercut a creature's ability to withstand your spells. When you hit a creature with an attack using a weapon, that creature has Disadvantage on the next saving throw it makes against a spell you cast before the end of your next turn.</p><section id=\"secret-jvKDjaltxCLtjiax\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which can be used for tracking but does not automate the Disadvantage.</p></section>",
+      "effects": {
+        "Struck": {
+          "name": "Struck"
+        }
+      }
+    },
+    "Elemental Affinity": {
+      "name": "Afinidad Elemental",
+      "description": "<p>Your draconic magic has an affinity with a damage type associated with dragons. Choose one of those types: Acid, Cold, Fire, Lightning, or Poison.</p><p>You have Resistance to that damage type, and when you cast a spell that deals damage of that type, you can add your Charisma modifier to one damage roll of that spell.</p><section class=\"secret\" id=\"secret-3vHUORtVzoP6V4xF\"><p><strong>Foundry Note</strong></p><p>You will be prompted to choose the damage type as you level up. The additional damage is not automatically added but this feature includes an activity for each type of damage.</p><p>You can speed up use of this feature by moving your chosen damage type to the top and it will be used automatically when using this feature.</p></section>",
+      "activities": {
+        "Acid": {
+          "name": "Acid",
+          "condition": "When you cast a spell that deals damage of your elemental affinity"
+        },
+        "Cold": {
+          "name": "Cold",
+          "condition": "When you cast a spell that deals damage of your elemental affinity"
+        },
+        "Fire": {
+          "name": "Fire",
+          "condition": "When you cast a spell that deals damage of your elemental affinity"
+        },
+        "Lightning": {
+          "name": "Lightning",
+          "condition": "When you cast a spell that deals damage of your elemental affinity"
+        },
+        "Poison": {
+          "name": "Poison",
+          "condition": "When you cast a spell that deals damage of your elemental affinity"
+        }
+      }
+    },
+    "Elemental Attunement": {
+      "name": "Sintonía Elemental",
+      "description": "<p>At the start of your turn, you can expend 1 Focus Point to imbue yourself with elemental energy. The energy lasts for 10 minutes or until you have the Incapacitated condition. You gain the following benefits while this feature is active.</p><p><strong>Reach.</strong> When you make an Unarmed Strike, your reach is 10 feet greater than normal, as elemental energy extends from you.</p><p><strong>Elemental Strikes.</strong> Whenever you hit with your Unarmed Strike, you can cause it to deal your choice of Acid, Cold, Fire, Lightning, or Thunder damage rather than its normal damage type. When you deal one of these types with it, you can also force the target to make a [[/save]]{Strength saving throw.} On a failed save, you can move the target up to 10 feet toward or away from you, as elemental energy swirls around it.</p><section class=\"secret\" id=\"secret-vp1KD2I9NRrbbqRe\"><p><strong>Foundry Note</strong></p><p>The <strong>Activate Attunement</strong> activity expends 1 Focus Point and self-enchants to provide the two activities mentioned below. Additionally, when activated, this activity will be renamed to \"<strong>End Attunement</strong>\" with no Focus Point cost and can be used to remove the attunement benefits once the duration ends.</p><p>The <strong>Elemental Strike</strong> activity can be used for your Unarmed Strike and will allow you to select the damage type in the roll dialog.</p><p>The <strong>Elemental Save</strong> activity includes the Strength saving throw.</p></section>",
+      "activities": {
+        "Elemental Strike": {
+          "name": "Elemental Strike"
+        },
+        "Elemental Save": {
+          "name": "Elemental Save",
+          "condition": "When you deal Elemental Strike damage"
+        },
+        "Activate Attunement": {
+          "name": "Activate Attunement"
+        }
+      },
+      "effects": {
+        "Active Attunement": {
+          "name": "Active Attunement",
+          "changes": {
+            "name": "{} (Active)"
+          }
+        }
+      }
+    },
+    "Elemental Burst": {
+      "name": "Estallido Elemental",
+      "description": "<p>As a Magic action, you can expend 2 Focus Points to cause elemental energy to burst in a 20-foot-radius Sphere centered on a point within 120 feet of yourself. Choose a damage type: Acid, Cold, Fire, Lightning, or Thunder.</p><p>Each creature in the Sphere must make a Dexterity saving throw. On a failed save, a creature takes damage of the chosen type equal to three rolls of your Martial Arts die. On a successful save, a creature takes half as much damage.</p><section id=\"secret-ibRDHOMdegAOpfmU\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The damage type can be selected in the roll dialog.</p></section>",
+      "activities": {
+        "Burst": {
+          "name": "Burst"
+        }
+      }
+    },
+    "Elemental Epitome": {
+      "name": "Epítome Elemental",
+      "description": "<p>While your Elemental Attunement is active, you also gain the following benefits.</p><p><strong>Damage Resistance.</strong> You gain Resistance to one of the following damage types of your choice: Acid, Cold, Fire, Lightning, or Thunder. At the start of each of your turns, you can change this choice.</p><p><strong>Destructive Stride.</strong> When you use your Step of the Wind, your Speed increases by 20 feet until the end of the turn. For that duration, any creature of your choice takes damage equal to one roll of your Martial Arts die when you enter a space within 5 feet of it. The damage type is your choice of Acid, Cold, Fire, Lightning, or Thunder. A creature can take this damage only once per turn.</p><p><strong>Empowered Strikes.</strong> Once on each of your turns, you can deal extra damage to a target equal to one roll of your Martial Arts die when you hit it with an Unarmed Strike. The extra damage is the same type dealt by that strike.</p><section class=\"secret\" id=\"secret-o7dIl2Kw7UaODgLu\"><p><strong>Foundry Note</strong></p><p>This <strong>Damage Resistance</strong> activity includes 5 Active Effects which you can toggle between to select your preferred Resistance.</p><p>The <strong>Destructive Stride</strong> activity includes an Active Effect which can increase your Movement Speed by 20 feet and allows you to choose the type of damage in the roll dialog.</p><p>The <strong>Empowered Strike</strong> activity allows you to choose the damage type in the roll dialog.</p></section>",
+      "activities": {
+        "Destructive Stride": {
+          "name": "Destructive Stride",
+          "condition": "When you use your Step of the Wind"
+        },
+        "Empowered Strike": {
+          "name": "Empowered Strike",
+          "condition": "Once on each of your turns when you hit with an Unarmed Strike"
+        },
+        "Damage Resistance": {
+          "name": "Damage Resistance",
+          "condition": "While your Elemental Attunement is active"
+        }
+      },
+      "effects": {
+        "Acid Resistance": {
+          "name": "Acid Resistance"
+        },
+        "Cold Resistance": {
+          "name": "Cold Resistance"
+        },
+        "Fire Resistance": {
+          "name": "Fire Resistance"
+        },
+        "Lightning Resistance": {
+          "name": "Lightning Resistance"
+        },
+        "Thunder Resistance": {
+          "name": "Thunder Resistance"
+        },
+        "Step of the Wind Bonus": {
+          "name": "Step of the Wind Bonus"
+        }
+      }
+    },
+    "Elemental Fury": {
+      "name": "Furia Elemental",
+      "description": "<p>The might of the elements flows through you. You gain one of the following options of your choice.</p><p><strong>Potent Spellcasting.</strong> Add your Wisdom modifier to the damage you deal with any Druid cantrip.</p><p><strong>Primal Strike.</strong> Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape, you can cause the target to take an extra 1d8 [[/damage 1d8 type=cold]]{cold}, [[/damage 1d8 type=fire]]{fire}, [[/damage 1d8 type=lightning]]{lightning}, or [[/damage 1d8 type=thunder]]{thunder} damage (choose when you hit).</p><section id=\"secret-kkxN7n7UL9XB7kWf\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted to choose during advancement.</p></section>"
+    },
+    "Elemental Fury: Potent Spellcasting": {
+      "name": "Furia Elemental: Lanzamiento de Conjuros Potente",
+      "description": "<p>Add your Wisdom modifier to the damage you deal with any Druid cantrip (currently, [[lookup @abilities.wis.mod]]).</p><section class=\"secret\" id=\"secret-kC2Lr5eZe550Tams\"><p><strong>Foundry Note</strong></p><p>This feature does not automate the addition of the Wisdom modifier to Druid cantrips.</p></section>"
+    },
+    "Elemental Fury: Primal Strike": {
+      "name": "Furia Elemental: Golpe Primigenio",
+      "description": "<p>Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape, you can cause the target to take an extra 1d8 [[/damage 1d8 type=cold]]{cold}, [[/damage 1d8 type=fire]]{fire}, [[/damage 1d8 type=lightning]]{lightning}, or [[/damage 1d8 type=thunder]]{thunder} damage (choose when you hit).</p><section class=\"secret\" id=\"secret-teMMREyPGTtod1kP\"><p><strong>Foundry Note</strong></p><p>This feature's damage will automatically increase when you gain @UUID[Compendium.dnd-players-handbook.classes.Item.phbdrdImprovedEl]{Improved Elemental Fury}. If using the activity you will be able to select the damage type when rolling. It will default to your previously chosen damage type.</p></section>",
+      "activities": {
+        "Primal Strike": {
+          "name": "Primal Strike"
+        }
+      }
+    },
+    "Elusive": {
+      "name": "Escurridizo",
+      "description": "<p>You’re so evasive that attackers rarely gain the upper hand against you. No attack roll can have Advantage against you unless you have the Incapacitated condition.</p>"
+    },
+    "Empowered Evocation": {
+      "name": "Evocación Potenciada",
+      "description": "<p>Whenever you cast a Wizard spell from the Evocation school, you can add your Intelligence modifier to one damage roll of that spell.</p><section class=\"secret\" id=\"secret-3cdT0RlurgG5XV4o\"><p><strong>Foundry Note</strong></p><p>You can add your Intelligence modifier to the spell's Situational Bonus in the damage dialog or use this feature's <strong>Damage</strong> activity which allows you to select the type in the damage dialog.</p></section>",
+      "activities": {
+        "damage": {
+          "condition": "Whenever you cast a Wizard spell from the Evocation school"
+        }
+      }
+    },
+    "Empowered Spell": {
+      "name": "Conjuro Potenciado",
+      "description": "<blockquote><p>Cost: 1 Sorcery Point</p></blockquote><p>When you roll damage for a spell, you can spend 1 Sorcery Point to reroll a number of the damage dice up to your Charisma modifier (minimum of one, currently [[lookup @abilities.cha.mod]]), and you must use the new rolls.</p><p>You can use Empowered Spell even if you’ve already used a different Metamagic option during the casting of the spell.</p>",
+      "activities": {
+        "Empowered Spell": {
+          "name": "Empowered Spell",
+          "condition": "When you roll damage for a spell"
+        }
+      }
+    },
+    "Empowered Strikes": {
+      "name": "Golpes Potenciados",
+      "description": "<p>Whenever you deal damage with your Unarmed Strike, it can deal your choice of Force damage or its normal damage type.</p><section class=\"secret\" id=\"secret-Hg8UeaCyLgncM7iJ\"><p><strong>Foundry Note</strong></p><p>The <strong>Empowered Strike</strong> activity on this feature can allows you to choose between Force and Bludgeoning damage in the roll dialog. It will remember your choice going forward.</p><p>It uses your Martial Arts Die (currently [[lookup @scale.monk.die]] for damage and will automatically update as you level up.</p></section>",
+      "activities": {
+        "Empowered Strike": {
+          "name": "Empowered Strike"
+        }
+      }
+    },
+    "Envenom Weapons": {
+      "name": "Envenenar Armas",
+      "description": "<p>When you use the [[/item Cunning Strike activity=\"Poison\"]]{Poison} option of your Cunning Strike, the target also takes [[/damage 2d6 poison]] damage whenever it fails the saving throw. This damage ignores Resistance to Poison damage.</p><section class=\"secret\" id=\"secret-JI5zawKdS8pQDlYO\"><p><strong>Foundry Note</strong></p><p>The <strong>Poison</strong> activity on this feature includes the save and poison damage.</p><p>Alternatively, you can use the inline roll above if you've already used the original activity.</p><p><strong>Important:</strong> This damage does not automatically bypass resistances so ensure the correct damage is being applied.</p></section>",
+      "activities": {
+        "Poison": {
+          "name": "Poison",
+          "condition": "When you deal Sneak Attack damage"
+        }
+      }
+    },
+    "Evasion": {
+      "name": "Evasión",
+      "description": "<p>When you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail.</p><p>You don't benefit from this feature if you have the Incapacitated condition.</p>"
+    },
+    "Evasive Footwork": {
+      "name": "Juego de Pies Evasivo",
+      "description": "<p>As a Bonus Action, you can expend one Superiority Die and take the Disengage action. You also roll the die and add the number rolled to your AC until the start of your next turn.</p>",
+      "activities": {
+        "Evade": {
+          "name": "Evade",
+          "roll": "AC Bonus"
+        }
+      },
+      "effects": {
+        "Evasive AC": {
+          "name": "Evasive AC",
+          "description": "<p>Your AC is increased by one roll of your Superiority Die until the start of your next turn.</p>"
+        }
+      }
+    },
+    "Evocation Savant": {
+      "name": "Experto en Evocación",
+      "description": "<p>Choose two Wizard spells from the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Evocation school} (change the Grouping mode to \"School\" for easier selection), each of which must be no higher than level 2, and add them to your spellbook for free.</p><p>In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Evocation school to your spellbook for free. The chosen spell must be of a level for which you have spell slots.</p>"
+    },
+    "Evoker": {
+      "name": "Evocador",
+      "description": "<blockquote><p>Create Explosive Elemental Effects</p></blockquote><p>Your studies focus on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some Evokers find employment in military forces, serving as artillery to blast armies from afar. Others use their power to protect others, while some seek their own gain.</p>",
+      "advancement": {
+        "Subclass Features": {
+          "title": "Subclass Features"
+        }
+      }
+    },
+    "Exceptional Training": {
+      "name": "Entrenamiento Excepcional",
+      "description": "<p>When you take a Bonus Action to command your Primal Companion beast to take an action, you can also command it to take the &amp;Reference[Dash], &amp;Reference[Disengage], &amp;Reference[Dodge], or &amp;Reference[Help] action using its Bonus Action.</p><p>In addition, whenever it hits with an attack roll and deals damage, it can deal your choice of Force damage or its normal damage type.</p><section class=\"secret\" id=\"secret-dFb0uteASfxCBh4m\"><p><strong>Foundry Note</strong></p><p>The <strong>Train Companion</strong> enchantment activity is designed to be applied to your Companion's \"Beast's Strike\" item and adds the option of Force damage to that Action's damage roll configuration.</p></section>",
+      "activities": {
+        "Command Companion": {
+          "name": "Command Companion"
+        },
+        "Train Companion": {
+          "name": "Train Companion",
+          "condition": "As needed to add Force damage option"
+        }
+      },
+      "effects": {
+        "Exceptionally Trained": {
+          "name": "Exceptionally Trained",
+          "description": "<p>Whenever the Companion hits with an attack roll and deals damage, it can deal your choice of Force damage or its normal damage type.</p>"
+        }
+      }
+    },
+    "Expert Divination": {
+      "name": "Adivinación Experta",
+      "description": "<p>Casting Divination spells comes so easily to you that it expends only a fraction of your spellcasting efforts. When you cast a Divination spell using a level 2+ spell slot, you regain one expended spell slot. The slot you regain must be of a level lower than the slot you expended and can’t be higher than level 5.</p><section id=\"secret-3GhzknSyDHXd6hjN\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You can manually regain the expended spell slot or use the <strong>Regain Spell Slot</strong> activity which will prompt you for the slot to restore.</p></section>",
+      "activities": {
+        "Regain Spell Slot": {
+          "name": "Regain Spell Slot"
+        }
+      }
+    },
+    "Expertise": {
+      "name": "Pericia",
+      "description": "<p>You gain &amp;Reference[Expertise] in two of your skill proficiencies of your choice. Performance and Persuasion are recommended if you have proficiency in them.</p><p>At Bard level 9, you gain Expertise in two more of your skill proficiencies of your choice.</p>"
+    },
+    "Extended Spell": {
+      "name": "Conjuro Extendido",
+      "description": "<blockquote><p>Cost: 1 Sorcery Point</p></blockquote><p>When you cast a spell that has a duration of 1 minute or longer, you can spend 1 Sorcery Point to double its duration to a maximum duration of 24 hours.</p><p>If the affected spell requires Concentration, you have Advantage on any saving throw you make to maintain that Concentration.</p>",
+      "activities": {
+        "Extended Spell": {
+          "name": "Extended Spell",
+          "condition": "When you cast a spell that has a duration of 1 minute or longer"
+        }
+      }
     }
   }
 }

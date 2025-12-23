@@ -1,165 +1,1304 @@
 {
-	"label": "Clases",
-	"folders": {
-		"Class Features": "Rasgos de Clase",
-		"Subclass Features": "Rasgos de Subclase",
-		"Barbarian": "Bárbaro",
-		"Path of the Berserker": "Senda del Berserker",
-		"Path of the Wild Heart": "Senda del Corazon Salvaje",
-		"Path of the World Tree": "Senda del Árbol del Mundo",
-		"Path of the Zealot": "Senda del Fanático",
-		"Bard": "Bardo",
-		"Dance": "Danza",
-		"Glamour": "Glamour",
-		"Lore": "Conocimiento",
-		"Valor": "Valor",
-		"Cleric": "Clérigo",
-		"Life Domain": "Dominio de la Vida",
-		"Light Domain": "Dominio de la Luz",
-		"Trickery Domain": "Dominio del Engaño",
-		"War Domain": "Dominio de la Guerra",
-		"Druid": "Druida",
-		"Circle of Land": "Círculo de la Tiera",
-		"Circle of Moon": "Círculo de la Luna",
-		"Circle of Sea": "Círculo del Mar",
-		"Circle of Stars": "Círculo de las Estrellas",
-		"Fighter": "Guerrero",
-		"Maneuver Options": "Opciones de Maniobras",
-		"Battle Master": "Maestro del Combate",
-		"Champion": "Campeón",
-		"Eldritch Knight": "Caballero Arcano",
-		"Psi Warrior": "Guerrero Psiónico",
-		"Monk": "Monje",
-		"Warrior of Mercy": "Guerrero de la Misericordia",
-		"Warrior of Shadow": "Guerrero de la Sombra",
-		"Warrior of the Elements": "Guerrero de los Elementos",
-		"Warrior of the Open Hand": "Guerrero de la Mano Abierta",
-		"Paladin": "Paladín",
-		"Oath of Devotion": "Juramento de Entrega",
-		"Oath of Glory": "Juramento de Gloria",
-		"Oath of the Ancients": "Juramento de los Antiguos",
-		"Oath of Vengeance": "Juramento de Venganza",
-		"Ranger": "Explorador",
-		"Beast Master": "Señor de las Bestias",
-		"Fey Wanderer": "Errante Feérico",
-		"Gloom Stalker": "Acechador en la Penumbra",
-		"Hunter": "Cazador",
-		"Rogue": "Pícaro",
-		"Arcane Trickster": "Embaucador Arcano",
-		"Assassin": "Asesino",
-		"Soulknife": "Rebanaalmas",
-		"Thief": "Ladrón",
-		"Sorcerer": "Hechicero",
-		"Metamagic Options": "Opciones de Metamagia",
-		"Aberrant Sorcery": "Hechicería Aberrante",
-		"Clockwork Sorcery": "Hechicería Mecánica",
-		"Draconic Sorcery": "Hechicería Dracónica",
-		"Wild Magic Sorcery": "Hechicería de Magia Salvaje",
-		"Warlock": "Brujo",
-		"Eldritch Invocation Options": "Opciones de Invocación Sobrenatural",
-		"Archfey Patron": "Patrón Feérico",
-		"Celestial Patron": "Patrón Celestial",
-		"Fiend Patron": "Patóon Infernal",
-		"Great Old One Patron": "Patrón Primigenio",
-		"Wizard": "Mago",
-		"Abjurer": "Abjurador",
-		"Diviner": "Adivino",
-		"Evoker": "Evocador",
-		"Illusionist": "Ilusionista"
-	},
-	"entries": {
-		"Barbarian": {
-			"name": "Bárbaro",
-			"description": "<blockquote> <p>Luchadores feroces con una Furia Primigenia</p> </blockquote> <h3>Atríbutos básicos de Bárbaro</h3> <table class=\"core-class-traits\"> <tbody><tr> <th scope=\"row\"> <p>Característica Principal</p> </th> <td> <p>Fuerza</p> </td> </tr><tr> <th> <p><strong>Dado de Puntos de Golpe</strong></p> </th> <td> <p>1d12 por nivel de Bárbaro</p> </td> </tr><tr> <th> <p><strong>Competencias en Tiradas de Salvación</strong></p> </th> <td> <p>Fuerza y Constitución</p> </td> </tr><tr> <th> <p><strong>Competencias en Habilidades</strong></p> </th> <td> <p><em>Elige 2:</em> Atletismo, Intimidación, Naturaleza, Percepción, Supervivencia o Trato con Animales</p> </td> </tr><tr> <th> <p><strong>Competencias con Armas</strong></p> </th> <td> <p>Armas Sencillas y Marciales</p> </td> </tr><tr> <th> <p><strong>Entrenamiento con armadura</strong></p> </th> <td> <p>Armaduras Ligeras y Medias y Escudos</p> </td> </tr><tr> <th> <p><strong>Equipo inicial</strong></p> </th> <td> <p><em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreataxe00]{Hacha a dos manos}, 4 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepHandaxe000]{Hachas de mano}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagExplorersPa]{Paquete de explorador}, y [[/award 15GP]]; o (B) [[/award 75GP]]</p> </td> </tr></tbody> </table> <p>Los bárbaros son poderosos combatientes que se alimentan de las fuerzas primigenias del multiverso que se manifiestan en modo de Furia. No se trata de una simple emoción, ni mucho menos un enfado: esta Furia es el reflejo de la ferocidad de un depredador, la violencia de una tormenta y la agitación de un mar.</p> <p>Algunos Bárbaros conciben su Furia como si fuera un espíritu feroz o un antepasado al que veneran. Otros la ven como una conexión con el dolor y la angustia del mundo, como una maraña impersonal de magia salvaje o como la expresión de su yo más profundo. Para todos los Bárbaros, la Furia es un poder que no sólo aviva su arrojo en la batalla, sino que también afila sus asombrosos reflejos y agudiza sus sentidos.</p> <p>Los bárbaros normalmente actuan como protectores y líderes de sus comunidades, por lo que no dudan en lanzarse al peligro para evitar que sus protegidos tengan que hacerlo. El valor frente a la adversidad los convierte en excelentes aventureros.</p> <h2>Convertirse en un Bárbaro</h2> <h3>Como Personaje de Nivel 1</h3> <ul> <li>Obtienes todos los atributos de la tabla Atributos básicos del bárbaro.</li> <li>Obtienes los rasgos de nivel 1 de bárbaro, que se muestran en la tabla de Rasgos del bárbaro.</li> </ul> <h3>Como Personaje Multiclase</h3> <ul> <li>Obtienes los siguitentes atributos de la tabla de Atributos básicos de bárbaro: Dado de Puntos de Golpe, Competencias con Armas Marciales, y Entrenamiento con Escudos.</li> <li>Obtienes los rasgos de nivel 1 del bárbaro, que se muestran en la tabla Rasgos del bárbaro.</li> </ul>"
-		},
-		"Brutal Strike": {
-			"name": "Golpe Brutal",
-			"description": "<p>Si utilizas [[/item Ataque Temerario]], puedes renunciar a cualquier ventaja en una tirada de ataque de tu elección basada en la Fuerza en tu turno. La tirada de ataque elegida no debe tener desventaja. Si la tirada de ataque elegida acierta, el objetivo sufre [[lookup @scale.barbarian.brutal-strike]] de daño adicional del mismo tipo que inflija el arma o el Ataque sin Armas y puedes causar un efecto de Golpe Brutal de tu elección. Tienes las siguientes opciones de efectos.</p><p><strong>Golpe Enérgico</strong>. El objetivo es empujado 15ft (4,5 m) respecto a ti en línea recta. Luego puedes moverte hasta la mitad de tu velocidad directamente hacia el objetivo sin provocar &Reference[Opportunity Attacks].</p><p><strong>Golpe Ralentizador</strong>. La velocidad del objetivo se reduce en 15ft (4,5 m) hasta el principio de tu siguiente turno. Un objetivo solo puede sufrir un golpe ralentizador cada vez: el más reciente.</p><section class=\"secret\" id=\"secret-vLb1SoKHWW2796Ko\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo para el Golpe Ralentizador el cual puede ser aplicado al objetivo</p><p>El daño escala automáticamente cuando ganas Golpe Brutal Mejora (2).</p></section>"
-		},
-		"Danger Sense": {
-			"name": "Sentir el Peligro",
-			"description": "Eres capaz de percibir de forma casi sobrenatural cuándo las cosas no son como deberían. Gracias a ello, se te da bien evitar el peligro. Tienes ventaja en las Tiradas de Dalvación de Destreza salvo que tengas el estado de &Reference[Incapacitated]."
-		},
-		"Epic Boon": {
-			"name": "Don Épico",
-			"description": "<p>Obtienes una @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Dote de Don Épico} (consulta el capítulo 5) u otra dote de tu elección para la que cumplas las condiciones.</p>"
-		},
-		"Extra Attack": {
-			"name": "Ataque Adicional",
-			"description": "<p>Cuando lleves a cabo la acción de atacar en tu turno, podrás hacer dos ataques en lugar de uno.</p>"
-		},
-		"Fast Movement": {
-			"name": "Movimiento Rápido",
-			"description": "<p>Tu velocidad aumenta en 10ft (3m) si no llevas armadura pesada.</p><section class=\"secret\" id=\"secret-6cmMiIJhUk5cpOGz\"><p><strong>Nota Foundry</strong></p><p>Este Rasgo incluye un Efecto Activo que automaticamente aumenta la Velocidad de Movimiento. Recuerda desactivar el rasgo si llevas Armadura Pesada.</p></section>"
-		},
-		"Feral Instinct": {
-			"name": "Instinto Salvaje",
-			"description": "<p>Tus instintos están tan afinados que tienes ventaja en las tiradas de iniciativa.</p>"
-		},
-		"Improved Brutal Strike": {
-			"name": "Golpe Brutal Mejorado",
-			"description": "<p>Has perfeccionado tus formas de atacar con fiereza. Entre las opciones de Golpe brutal se encuentran ahora los siguientes efectos:<br></p><p><strong>Golpe abrumador.</strong> El objetivo tiene desventaja en la siguiente tirada de salvación que haga y no puede llevar a cabo ataques de oportunidad hasta el principio de tu siguiente turno.<br></p><p><strong>Golpe desgarrador.</strong> Antes del principio de tu siguiente turno, la próxima tirada de ataque realizada por otra criatura contra el objetivo obtiene un bonificador de +5. Una tirada de ataque puede obtener solo un bonificador de un golpe desgarrador.</p><section class=\"secret\" id=\"secret-5KFPx8fyh5NldmJp\"><p><strong>Nota Foundry</strong></p><p>Este Rasgo incluye una actividad por cada opción que incluyen un Efecto Activo para el seguimiento del Golpe Abrumador y Golpe Desgarrador, pero no automatiza sus efectos.</p></section>"
-		},
-		"Improved Brutal Strike (2)": {
-			"name": "Golpe Brutal Mejorado (2)",
-			"description": "<p>El daño adicional de tu Golpe brutal aumenta a 2d10. Además, puedes utilizar dos efectos diferentes de Golpe Brutal siempre que uses tu rasgo Golpe Brutal.</p><section class=\"secret\" id=\"secret-XCUecJBPB6amtvj9\"><p><strong>Nota Foundry</strong></p><p>La tirada de ataque en Golpe Brutal escala automáticamente para utilizar este nuevo valor.</p></section>"
-		},
-		"Indomitable Might": {
-			"name": "Poderío indómito",
-			"description": "<p>Si tu resultado en una prueba de Fuerza o una tirada de salvación de Fuerza es inferior a tu puntuación de Fuerza, puedes usar esa puntuación en lugar del resultado.</p>"
-		},
-		"Instinctive Pounce": {
-			"name": "Salto Instintivo",
-			"description": "<p>Como parte de la Acción Adicional para dejarte llevar por la Furia, puedes moverte hasta la mitad de tu Velocidad.</p>"
-		},
-		"Persistent Rage": {
-			"name": "Furia Persistente",
-			"description": "<p>Cuando tires Iniciativa, puedes recuperar todos los usos gastados de la Furia. Tras recuperar los usos de la Furia de esta manera, no podrás volver a hacerlo hasta que finalices un Descanso Largo.<br></p><p>Además, tu Furia es tan intensa que ahora dura 10 minutos sin necesidad de hacer nada para prolongarla de un asalto a otro. Tu Furia termina antes si recibes el estado de &Reference[Unconscious] (no solo el de &Reference[Incapacitated]) o te pones una Armadura Pesada.</p><section class=\"secret\" id=\"secret-3IS0iUbWZ04tp74k\"> <p><strong>Nota Foundry</strong></p><p>Este Rasgo incluye una actividad que puede ser usada cuando tires Iniciativa que recargara todos tus usos de Furia</p></section>"
-		},
-		"Primal Champion": {
-			"name": "Campeón Primordial",
-			"description": "<p>Encarnas un poder primigenio. Tus puntuaciones de Fuerza y Constitución aumentan en 4, hasta un máximo de 25.</p>"
-		},
-		"Primal Knowledge": {
-			"name": "Conocimiento Primigenio",
-			"description": "<p>Ganas competencia en otra habilidad de tu elección de la lista de habilidades disponibles para los bárbaros en el nivel 1.</p><p>Además, mientras estés enfurecido, puedes canalizar el poder primigenio cuando intentes determinadas tareas. Siempre que hagas una prueba de característica con una de las siguientes habilidades, podrás hacerla como una prueba de Fuerza, incluso si normalmente utiliza otra característica: Acrobacias, Intimidación, Percepción, Sigilo o Supervivencia. Cuando utilizas esta capacidad, tu Fuerza representa el poder primigenio que fluye por ti y agudiza tu agilidad, porte y sentidos.</p><section class=\"secret\" id=\"secret-himIRZuFGInNkZgU\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que hará que tus características automáticamente utilicen tu modificador de Fuerza si es que es superior a la Puntuación de Habilidad normal asociada a la Habilidad.</p></section>"
-		},
-		"Rage": {
-			"name": "Furia",
-			"description": "<p>Puedes imbuirte de un poder primigenio llamado Furia, que te otorga una fuerza y resistencia extraordinarias. Puedes dejarte llevar por ella como Acción Adicional si no llevas puesta una Armadura Pesada.</p><p><br>Puedes dejarte llevar por la furia tantas veces como se indica para tu nivel de bárbaro en la columna “N.º de furias” de la tabla “Rasgos de bárbaro” (Actualmente [[lookup @scale.barbarian.rages]]). Recuperas uno de los usos gastados tras finalizar un Descanso Corto y todos tras finalizar un Descanso Largo.</p><p> </p><p>Mientras estés enfurecido, usa las siguientes reglas.</p><p><strong>Resistencia al daño</strong>. Tienes resistencia al daño &Reference[bludgeoning], &Reference[slashing] y &Reference[piercing].</p><p><strong>Daño por furia.</strong> Cuando llevas a cabo un ataque que use la Fuerza (ya sea con un Arma o un Ataque sin Armas) y causas daño al objetivo, obtienes un bonificador al daño que aumenta conforme subes de nivel de Bárbaro, como se muestra en la columna “Daño por Furia” de la tabla “Rasgos de Bárbaro”.</p><p><strong>Ventaja en Fuerza.</strong> Tienes ventaja en las pruebas de Fuerza y en las tiradas de salvación de Fuerza.<span> </span></p><p><strong>Sin concentración ni conjuros.</strong> No puedes mantener la Concentración ni lanzar conjuros.</p><p><strong>Duración.</strong> La Furia dura hasta el final de tu siguiente turno y termina antes si te pones una Armadura Pesada o recibes el estado de &Reference[Incapacitated]. Si la Furia sigue activa en tu siguiente turno, puedes prolongarla otro asalto de una de las siguientes formas:</p><ul><li><p>Haces una tirada de ataque contra un enemigo.</p></li><li><p>Obligas a un enemigo a hacer una tirada de salvación.</p></li><li><p>Empleas una acción adicional para prolongar tu furia.</p></li></ul><p>Cada vez que prolongues la Furia, durará hasta el final de tu siguiente turno. Puedes mantener una Furia hasta 10 minutos.</p><section class=\"secret\" id=\"secret-o72MSFMdhSQC7kYa\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que automatiza la Resistencia y Daño Adicional. Además, automatiza la recarga de la Furia usada en un Descanso Corto y Descanso Largo.</p></section>"
-		},
-		"Reckless Attack": {
-			"name": "Ataque Temerario",
-			"description": "<p>Puedes abandonar por completo tu defensa para atacar con una mayor fiereza. Cuando vayas a realizar la primera tirada de ataque de tu turno, puedes decidir Atacar Temerariamente. Si lo haces, tendrás ventaja en las tiradas de ataque que utilicen la Fuerza hasta el principio de tu siguiente turno, pero las tiradas de ataque contra ti también tendrán ventaja durante ese tiempo.</p><section class=\"secret\" id=\"secret-W7MI2ZVKsMQcSW6d\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo para saber si eres temerario o no, pero NO automatiza la Ventaja en tus ataques o en los ataques contra ti.</p></section>"
-		},
-		"Relentless Rage": {
-			"name": "Furia Implacable",
-			"description": "<p>Tu Furia te permite seguir luchando incluso tras sufrir heridas graves. Si tus Puntos de Golpe se reducen a 0 mientras estás Enfurecido, pero no mueres inmediatamente, puedes hacer una tirada de Salvación de Constitución con CD 10. Si la superas, tus Puntos de Golpe pasarán a ser una cantidad igual al doble de tu nivel de Bárbaro.</p><p>Siempre que uses este rasgo después de la primera vez, la CD aumenta en 5. Tras finalizar un Descanso Corto o un Descanso Largo. La CD vuelve a ser 10.</p><section class=\"secret\" id=\"secret-GTpuSHXh1ZobcQYd\"><p><strong>Nota Foundry</strong></p><p>Este rasgo aumentará automáticamente la CD en 5 si consumes el recurso al activarlo. También se restablecerá automáticamente a 10 tras un Descanso Corto o Largo.</p></section>"
-		},
-		"Unarmed Strike": {
-			"name": "Ataque sin Armas",
-			"description": "<p><em>Revisar: &amp;Reference[unarmedstrike]</em></p>",
-			"activities": {
-				"Grapple/Shove": {
-					"name": "Agarre/Empujon"
-				}
-			},
-			"effects": {
-				"Grappled": {
-					"name": "Agarrado"
-				},
-				"Prone": {
-					"name": "Derribado"
-				}
-			}
-		},
-		"Unarmored Defense": {
-			"name": "Defensa sin Armadura",
-			"description": "<p>Mientras no lleves armadura alguna, tu Clase de Armadura base será igual a 10 más tus modificadores por Destreza y Constitución. Obtienes este beneficio aunque lleves un escudo.</p>"
-		},
-		"Weapon Mastery": {
-			"name": "Maestría con Armas",
-			"desciption": "<p>Tu entrenamiento con armas te permite utilizar las propiedades de maestría con dos tipos de Armas Cuerpo a Cuerpo Sencillas o Marciales de tu elección, como las Hachas a dos Manos y las Hachas de Mano. Tras finalizar un Descanso Largo, puedes llevar a cabo ejercicios con armas y cambiar una de dichas elecciones.</p><p>Cuando alcances ciertos niveles de Bárbaro, adquirirás la capacidad de usar las propiedades de maestría con más tipos de armas, como se muestra en la columna “Maestría con Armas” de la tabla “Rasgos de Bárbaro”.</p>"
-		}
-	}
+  "label": "Clases",
+  "folders": {
+    "Class Features": "Rasgos de Clase",
+    "Subclass Features": "Rasgos de Subclase",
+    "Barbarian": "Bárbaro",
+    "Path of the Berserker": "Senda del Berserker",
+    "Path of the Wild Heart": "Senda del Corazon Salvaje",
+    "Path of the World Tree": "Senda del Árbol del Mundo",
+    "Path of the Zealot": "Senda del Fanático",
+    "Bard": "Bardo",
+    "Dance": "Danza",
+    "Glamour": "Glamour",
+    "Lore": "Conocimiento",
+    "Valor": "Valor",
+    "Cleric": "Clérigo",
+    "Life Domain": "Dominio de la Vida",
+    "Light Domain": "Dominio de la Luz",
+    "Trickery Domain": "Dominio del Engaño",
+    "War Domain": "Dominio de la Guerra",
+    "Druid": "Druida",
+    "Circle of Land": "Círculo de la Tiera",
+    "Circle of Moon": "Círculo de la Luna",
+    "Circle of Sea": "Círculo del Mar",
+    "Circle of Stars": "Círculo de las Estrellas",
+    "Fighter": "Guerrero",
+    "Maneuver Options": "Opciones de Maniobras",
+    "Battle Master": "Maestro del Combate",
+    "Champion": "Campeón",
+    "Eldritch Knight": "Caballero Arcano",
+    "Psi Warrior": "Guerrero Psiónico",
+    "Monk": "Monje",
+    "Warrior of Mercy": "Guerrero de la Misericordia",
+    "Warrior of Shadow": "Guerrero de la Sombra",
+    "Warrior of the Elements": "Guerrero de los Elementos",
+    "Warrior of the Open Hand": "Guerrero de la Mano Abierta",
+    "Paladin": "Paladín",
+    "Oath of Devotion": "Juramento de Entrega",
+    "Oath of Glory": "Juramento de Gloria",
+    "Oath of the Ancients": "Juramento de los Antiguos",
+    "Oath of Vengeance": "Juramento de Venganza",
+    "Ranger": "Explorador",
+    "Beast Master": "Señor de las Bestias",
+    "Fey Wanderer": "Errante Feérico",
+    "Gloom Stalker": "Acechador en la Penumbra",
+    "Hunter": "Cazador",
+    "Rogue": "Pícaro",
+    "Arcane Trickster": "Embaucador Arcano",
+    "Assassin": "Asesino",
+    "Soulknife": "Rebanaalmas",
+    "Thief": "Ladrón",
+    "Sorcerer": "Hechicero",
+    "Metamagic Options": "Opciones de Metamagia",
+    "Aberrant Sorcery": "Hechicería Aberrante",
+    "Clockwork Sorcery": "Hechicería Mecánica",
+    "Draconic Sorcery": "Hechicería Dracónica",
+    "Wild Magic Sorcery": "Hechicería de Magia Salvaje",
+    "Warlock": "Brujo",
+    "Eldritch Invocation Options": "Opciones de Invocación Sobrenatural",
+    "Archfey Patron": "Patrón Feérico",
+    "Celestial Patron": "Patrón Celestial",
+    "Fiend Patron": "Patóon Infernal",
+    "Great Old One Patron": "Patrón Primigenio",
+    "Wizard": "Mago",
+    "Abjurer": "Abjurador",
+    "Diviner": "Adivino",
+    "Evoker": "Evocador",
+    "Illusionist": "Ilusionista"
+  },
+  "entries": {
+    "Aberrant Sorcery": {
+      "name": "Hechicería Aberrante",
+      "description": "<blockquote><p>Emplea un poder psiónico antinatural.</p></blockquote><p>Una influencia alienígena ha atrapado tu mente entre sus zarcillos, otorgándote poder psiónico. Ahora puedes tocar otras mentes con ese poder y alterar el mundo que te rodea. ¿Conseguirás que este poder brille como una baliza de esperanza que marque el camino a los demás? ¿O sembrarás el terror entre quienes sientan la puñalada de tu mente?</p><p>Quizá un viento psíquico del Plano Astral te insufló energía psiónica o sufriste una exposición a la influencia distorsionadora del Reino Lejano. Otra opción es que te implantaran un renacuajo de azotamentes, pero la ceremorfosis nunca llegó a completarse y ahora su poder psiónico es tuyo. Sea cual sea el origen de este poder, tu mente arde con él.</p>",
+      "advancement": {
+        "Subclass Features": {
+          "title": "Rasgos de Subclase"
+        },
+        "Psionic Spells": {
+          "title": "Conjuros Psiónicos",
+          "hint": "Cuando alcances un nivel de hechicero especificado en la tabla Conjuros psiónicos, a partir de entonces siempre tendrás preparados los conjuros que se indican."
+        },
+        "Psychic Defenses": {
+          "title": "Defensas Psíquicas",
+          "hint": "Tienes resistencia al daño psíquico y ventaja en las tiradas de salvación para evitar o poner fin a los estados de asustado o hechizado."
+        }
+      }
+    },
+
+    "Abjuration Savant": {
+      "name": "Experto en Abjuración",
+      "description": "<p>Elige dos conjuros de mago de la escuela de abjuración de nivel 2 o inferior y añádelos a tu libro de conjuros sin coste.</p><p>Además, siempre que consigas un nuevo nivel de espacios de conjuro de esta clase, puedes añadir un conjuro de mago de la escuela de abjuración a tu libro de conjuros sin coste. El conjuro elegido debe ser de un nivel para el que tengas espacios de conjuro.</p>"
+    },
+    "Abjure Foes": {
+      "name": "Rechazar Enemigos",
+      "description": "<p>Como acción Mágica, puedes gastar un uso de Canalizar Divinidad de esta clase para abrumar a tus enemigos. Mientras presentas tu Símbolo Sagrado o tu arma, puedes designar como objetivo a un número de criaturas igual a tu modificador de Carisma (mínimo de una criatura) que puedas ver a 60ft (18m) o menos de ti. Cada objetivo debe superar una tirada de salvación de Sabiduría o recibir el estado de &Reference[Frightened] durante 1 minuto o hasta que sufra cualquier daño. Mientras se encuentra asustado de esta manera, un objetivo solo puede hacer una de las siguientes acciones en su turno: moverse, realizar una acción o realizar una acción adicional.</p><section class=\"secret\" id=\"secret-lu2BuwFj2pnJ367b\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que aplica el estado de Asustado.</p></section>",
+      "effects": {
+        "Abjured": {
+          "name": "Rechazado"
+        }
+      }
+    },
+    "Abjurer": {
+      "name": "Abjurador",
+      "description": "<blockquote><p>Protege a tus compañeros y destierra a tus enemigos.</p></blockquote><p>Tu estudio de la magia se centra en conjuros de detención, destierro o protección que acaban con efectos dañinos, expulsan las influencias malignas y defienden a los débiles. Los abjuradores entran en acción cuando aparecen espíritus siniestros a los que exorcizar, cuando es necesario defender lugares importantes contra el espionaje mágico o cuando se deben cerrar portales a otros planos. Los grupos de aventureros valoran a los abjuradores por la protección que ofrecen frente a magias hostiles y amenazas diversas.</p>",
+      "advancement": {
+        "Subclass Features": {
+          "title": "Rasgos de Subclase"
+        },
+        "Spell Breaker": {
+          "title": "Rompeconjuros",
+          "hint": "Siempre tienes preparados los conjuros Contrahechizo y Disipar Magia."
+        }
+      }
+    },
+    "Acrobatic Movement": {
+      "name": "Movimiento Acrobático",
+      "description": "<p>Mientras no lleves armadura ni portes un escudo, obtienes la capacidad de moverte por superficies verticales y sobre líquidos sin caerte.</p>"
+    },
+    "Action Surge": {
+      "name": "Arrebato de Acción",
+      "description": "<p>Puedes esforzarte más allá de tus límites durante un instante. En tu turno, puedes realizar una acción adicional, excepto la acción Mágica.</p><p>Tras usar este rasgo, no podrás volver a hacerlo hasta que finalices un Descanso Corto o Descanso Largo. A partir del nivel 17, lo puedes usar dos veces antes de un descanso, pero solo una vez por turno.</p><section id=\"secret-nYOY8k3V38g8mZIS\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un uso limitado que aumenta automáticamente en el nivel 17.</p></section>"
+    },
+    "Additional Fighting Style": {
+      "name": "Estilo de Combate Adicional",
+      "description": "<p>Obtienes otra dote de estilo de combate de tu elección.</p>"
+    },
+    "Agonizing Blast": {
+      "name": "Descarga Agonizante",
+      "description": "<blockquote><p>Requisito: Nivel 2+ Brujo, un Truco de Brujo que Inflija Daño</p></blockquote><p>Elige uno de tus trucos de brujo conocidos que inflija daño. Puedes añadir tu modificador de Carisma a las tiradas de daño de ese conjuro.</p><p><strong>Repetible.</strong> Puedes obtener esta invocación más de una vez. Cada vez que lo hagas, elige un truco diferente elegible.</p><section class=\"secret\" id=\"secret-e2JfbLoZ7SLiWlcU\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Hacer Agonizante</strong> se puede usar para encantar un truco que añade \", Agonizante\" a su nombre e incluye el bonificador de daño.</p></section>",
+      "activities": {
+        "Make Agonizing": {
+          "name": "Hacer Agonizante"
+        }
+      },
+      "effects": {
+        "Agonizing Blast": {
+          "name": "Descarga Agonizante",
+          "description": "<p>Elige uno de tus trucos de brujo conocidos que inflija daño. Puedes añadir tu modificador de Carisma a las tiradas de daño de ese conjuro.</p>",
+          "changes": {
+            "name": ", Agonizante"
+          }
+        }
+      }
+    },
+    "Ambush": {
+      "name": "Emboscada",
+      "description": "<p>Cuando hagas una prueba de Destreza (Sigilo) o una tirada de iniciativa, puedes gastar un Dado de Superioridad y añadir la tirada del dado al resultado, siempre y cuando no tengas el estado de Incapacitado.</p>",
+      "activities": {
+        "utility": {
+          "roll": "Bonificación"
+        }
+      }
+    },
+    "Animal Speaker": {
+      "name": "Orador de Animales",
+      "description": "<p>Puedes lanzar los conjuros Sentidos de la Bestia y Comunicarse con Animales, pero solo como rituales. La Sabiduría es tu aptitud mágica para ellos.</p><section class=\"secret\" id=\"secret-BXxC4W21QpMgqgeQ\"><p><strong>Nota Foundry</strong></p><p>Cuando avances al nivel 3, estos conjuros se añaden a tu pestaña de Conjuros como Rituales usando tu modificador de Sabiduría.</p></section>"
+    },
+    "Aquatic Affinity": {
+      "name": "Afinidad Acuática",
+      "description": "<p>El tamaño de la emanación creada con tu Ira de los mares aumenta a 3m (10ft).</p><p>Además, obtienes una velocidad nadando igual a tu velocidad.</p><section id=\"secret-LWG2vV8HTOk84VXW\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>El tamaño de la emanación aumenta automáticamente, pero este rasgo no añade automáticamente la velocidad de nado.</p></section>"
+    },
+    "Arcane Apotheosis": {
+      "name": "Apoteosis Arcana",
+      "description": "<p>Mientras tengas activo el rasgo Hechicería innata, puedes usar una opción de Metamagia en cada uno de tus turnos sin gastar puntos de hechicería en ella.</p><section class=\"secret\" id=\"secret-iZWf2qqSDxd9o6eN\"><p><strong>Nota Foundry</strong></p><p>Desmarca la opción de consumo al usar la opción de Metamagia que desees usar gratis.</p></section>"
+    },
+    "Arcane Charge": {
+      "name": "Carga Arcana",
+      "description": "<p>Cuando utilices tu rasgo Arrebato de Acción, podrás teletransportarte hasta 9m (30ft) a un espacio sin ocupar que puedas ver. Puedes teletransportarte antes o después de la acción adicional.</p>"
+    },
+    "Arcane Recovery": {
+      "name": "Recuperación Arcana",
+      "description": "<p>Puedes recuperar parte de tu energía mágica estudiando tu libro de conjuros. Tras finalizar un Descanso Corto, puedes elegir espacios de conjuro gastados y recuperarlos. La suma de niveles de estos espacios de conjuro debe ser igual o inferior a la mitad de tu nivel de mago (redondeando hacia arriba) y ninguno de los espacios puede ser de nivel 6 o superior. Por ejemplo, si eres un mago de nivel 4, podrás recuperar hasta dos niveles en espacios de conjuro, ya sea un espacio de conjuro de nivel 2 o dos espacios de nivel 1.</p><p>Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un Descanso Largo.</p><p><strong>Nivel Combinado Disponible:</strong> [[(@classes.wizard.levels / 2)]]</p><section id=\"secret-cO6X083GFJ1W4071\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Como puedes seleccionar los espacios, tendrás que ajustar manualmente tus espacios disponibles. Sin embargo, este rasgo se puede usar para rastrear el uso único.</p></section>"
+    },
+    "Arcane Trickster": {
+      "name": "Embaucador Arcano",
+      "description": "<blockquote><p>Mejora tu sigilo mediante conjuros arcanos.</p></blockquote><p>Algunos pícaros usan conjuros para complementar sus bien pulidas habilidades para el sigilo y su agilidad, aprendiendo trucos mágicos que los ayuden en sus cometidos. Muchos embaucadores arcanos emplean sus talentos como carteristas o ladrones, pero también como bromistas.</p>",
+      "advancement": {
+        "Subclass Features": {
+          "title": "Rasgos de Subclase"
+        },
+        "Max Prepared Spells": {
+          "title": "Conjuros Máximos Preparados"
+        },
+        "Spellcasting": {
+          "title": "Lanzamiento de Conjuros"
+        }
+      }
+    },
+    "Arcane Ward": {
+      "name": "Protección Arcana",
+      "description": "<p>Puedes tejer la magia a tu alrededor para protegerte. Cuando lances un conjuro de abjuración con un espacio de conjuro, puedes usar al mismo tiempo un fragmento de la magia del conjuro para crear una protección mágica sobre ti que dure hasta que finalices un Descanso Largo. La protección tiene un máximo de puntos de golpe igual al doble de tu nivel de mago más tu modificador de Inteligencia. Siempre que recibas daño, la protección recibe el daño en tu lugar y, si tienes resistencias o vulnerabilidades, se aplican antes de reducir los puntos de golpe de la protección. Si el daño reduce los puntos de golpe de la protección a 0, recibes el daño restante. Mientras que la protección tenga 0 puntos de golpe, no puede absorber daño, pero su magia permanece.</p><p>Siempre que lances un conjuro de abjuración con un espacio de conjuro, la protección recupera una cantidad de puntos de golpe igual al doble del nivel del espacio de conjuro. Si no, como acción adicional, puedes gastar un espacio de conjuro y la protección recupera una cantidad de puntos de golpe igual al doble del nivel del espacio de conjuro gastado.</p><p>Cuando crees la protección, no podrás volver a hacerlo hasta que finalices un Descanso Largo.</p><section class=\"secret\" id=\"secret-ri6EwokQGNpRCXyI\"><p><strong>Nota Foundry</strong></p><p>Rastrea los PG de la Protección con el número de usos de este objeto.</p><p>La actividad <strong>Crear Protección</strong> tiene 1 uso por Descanso Largo y actualiza la Protección Arcana para tener usos completos (\"PG\").</p><p>La actividad <strong>Dañar Protección</strong> reducirá los usos de la Protección (\"PG\") por la cantidad de daño dado.</p><p>La actividad <strong>Restaurar PG de Protección Tras Lanzar Conjuro</strong> se puede usar después de usar un conjuro de Abjuración. Establece el valor de escala al nivel del espacio de conjuro que usaste para restaurar el número correcto de usos (\"PG\").</p><p>La actividad <strong>Gastar Espacio de Conjuro para Protección</strong> te permite elegir un nivel de espacio de conjuro, lo gasta y restaura el número correcto de usos (\"PG\").</p></section>",
+      "activities": {
+        "Create Ward": {
+          "name": "Crear Protección",
+          "condition": "Cuando lanzas un conjuro de Abjuración con un espacio de conjuro"
+        },
+        "Damage Ward": {
+          "name": "Dañar Protección"
+        },
+        "Restore Ward HP After Casting Spell": {
+          "name": "Restaurar PG de Protección Tras Lanzar Conjuro",
+          "condition": "Cuando lanzas un conjuro de Abjuración con un espacio de conjuro"
+        },
+        "Expend Spell Slot for Ward": {
+          "name": "Gastar Espacio de Conjuro para Protección"
+        }
+      }
+    },
+    "Archdruid": {
+      "name": "Archidruida",
+      "description": "<p>La vitalidad de la naturaleza florece en ti de manera constante, lo que te otorga los siguientes beneficios.</p><p><strong>Forma salvaje perenne.</strong> Cuando tires iniciativa y no te queden usos de Forma salvaje, recuperas uno de los usos gastados.</p><p><strong>Mago de la naturaleza.</strong> Puedes convertir los usos de Forma salvaje en un espacio de conjuro (no requiere acción). Elige una cantidad de usos no gastados de Forma salvaje para convertirlos en un único espacio de conjuro. Cada uso aporta 2 niveles de conjuro. Por ejemplo, si conviertes dos usos de Forma salvaje, produces un espacio de conjuro de nivel 4. Cuando uses este beneficio, no podrás volver a hacerlo hasta que finalices un Descanso Largo.</p><p><strong>Longevidad.</strong> La magia primigenia que dominas ralentiza tu envejecimiento. Por cada diez años que pasen, tu cuerpo envejece solo uno.</p><section class=\"secret\" id=\"secret-qKoW7fFZUwKC0IOG\"><p><strong>Nota Foundry</strong></p><p>Este rasgo no automatiza recuperar un uso de Forma salvaje al tirar iniciativa, pero incluye una actividad que restaurará un uso cuando se active.</p><p>La actividad <strong>Mago de la Naturaleza</strong> se puede usar para convertir usos de Forma salvaje en espacios de conjuro.</p></section>",
+      "activities": {
+        "Nature Magician": {
+          "name": "Mago de la Naturaleza"
+        },
+        "Recharge on Initiative": {
+          "name": "Recargar con Iniciativa"
+        }
+      }
+    },
+    "Archfey Patron": {
+      "name": "Patrón Feérico",
+      "description": "<blockquote><p>Negocia con feéricos extravagantes.</p></blockquote><p>Tu pacto recurre a la energía de los Parajes Feéricos. Si eliges esta subclase, puedes hacer un trato con un señor feérico, como el Príncipe de la Escarcha; la Reina del Aire y la Oscuridad, gobernante de la Corte Crepuscular; Titania de la Corte del Verano, o sagas muy ancianas. Si no, puedes recurrir a una variedad de feéricos y tejer una red de favores y deudas. Sea quien sea, tu patrón suele resultar caprichoso e inescrutable.</p>",
+      "advancement": {
+        "Subclass Features": {
+          "title": "Rasgos de Subclase"
+        },
+        "Archfey Spells": {
+          "title": "Conjuros del Señor Feérico",
+          "hint": "La magia de tu patrón asegura que siempre tengas ciertos conjuros preparados; cuando alcances un nivel de brujo especificado en la tabla Conjuros del Señor Feérico, a partir de entonces siempre tendrás preparados los conjuros que se indican."
+        },
+        "Beguiling Defenses": {
+          "title": "Defensas Cautivadoras",
+          "hint": "Tu patrón te enseña cómo proteger tu mente y cuerpo. Eres inmune al estado de Hechizado."
+        },
+        "Misty Escape": {
+          "title": "Escape Brumoso"
+        }
+      }
+    },
+    "Archfey Spells": {
+      "name": "Conjuros del Señor Feérico",
+      "description": "<p>La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados. Cuando alcances un nivel de brujo especificado en la tabla \"Conjuros del señor feérico\", a partir de entonces siempre tendrás preparados los conjuros que se indican.</p><table><caption>Conjuros del Señor Feérico</caption><thead><tr><td>Nivel de Brujo</td><td>Conjuros</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCalmEmotio]{Calmar Emociones}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire]{Fuego Feérico}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Paso Brumoso}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbPhantasmalFor]{Fuerza Fantasmal}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSleep00000]{Dormir}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBlink00000]{Desplazamiento}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPlantGrowt]{Crecimiento Vegetal}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDominateBe]{Dominar Bestia}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterInv]{Invisibilidad Mejorada}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDominatePe]{Dominar Persona}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSeeming000]{Apariencia}</td></tr></tbody></table><section class=\"secret\" id=\"secret-UtRaj9TxBVIgeYVi\"><p><strong>Nota Foundry</strong></p><p>A medida que subas de nivel, estos conjuros se te otorgarán automáticamente.</p></section>"
+    },
+    "Armor of Shadows": {
+      "name": "Armadura de Sombras",
+      "description": "<p>Puedes lanzar Armadura de Mago sobre ti sin gastar un espacio de conjuro.</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplMageArmor0 inline]</p>"
+    },
+    "Ascendant Step": {
+      "name": "Paso Ascendente",
+      "description": "<blockquote><p>Requisitos: brujo de nivel 5 o superior.</p></blockquote><p>Puedes lanzar Levitar sobre ti sin gastar un espacio de conjuro.</p><hr /><p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplLevitate00 inline]</p>"
+    },
+    "Aspect of the Wilds": {
+      "name": "Aspecto de lo Salvaje",
+      "description": "<p>Obtienes una de las siguientes opciones, a tu elección. Tras finalizar un Descanso Largo, puedes cambiar de opción.</p><p><strong>Búho.</strong> Tienes Visión en la Oscuridad hasta 18m (60ft). Si ya posees Visión en la Oscuridad, su alcance aumenta en 18m (60ft).</p><p><strong>Pantera.</strong> Tienes una velocidad trepando igual a tu velocidad.</p><p><strong>Salmón.</strong> Tienes una velocidad nadando igual a tu velocidad.</p><section class=\"secret\" id=\"secret-CKbkC1Dm8i7Nz9TV\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una actividad con un Efecto Activo que automatiza los cambios de Visión en la Oscuridad de la opción <strong>Búho</strong>. Los cambios de velocidad no se aplican automáticamente.</p></section>",
+      "activities": {
+        "Owl": {
+          "name": "Búho"
+        },
+        "Panther": {
+          "name": "Pantera"
+        },
+        "Salmon": {
+          "name": "Salmón"
+        }
+      },
+      "effects": {
+        "Aspect of the Owl": {
+          "name": "Aspecto del Búho",
+          "description": "<p>Tienes Visión en la Oscuridad hasta 18m (60ft). Si ya posees Visión en la Oscuridad, su alcance aumenta en 18m (60ft).</p>"
+        }
+      }
+    },
+    "Assasinate": {
+      "name": "Asesinar",
+      "description": "<p>Se te da muy bien emboscar objetivos, lo que te otorga los siguientes beneficios.</p><p><strong>Iniciativa.</strong> Tienes ventaja en las tiradas de iniciativa.</p><p><strong>Golpes sorprendentes.</strong> Durante el primer asalto de cada combate, tienes ventaja en las tiradas de ataque contra cualquier criatura que aún no haya jugado un turno. Si tu Ataque furtivo acierta a cualquier objetivo durante ese asalto, el objetivo recibirá un daño adicional del tipo del arma igual a tu nivel de pícaro.</p><section class=\"secret\" id=\"secret-roKwXDEMg8PmZo8U\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que automatiza la ventaja en las tiradas de iniciativa.</p><p>La actividad <strong>Daño</strong> se puede usar para aplicar el daño adicional igual a tu nivel. Puedes elegir el tipo de daño en el cuadro de diálogo de la tirada. Alternativamente, podrías añadir tu nivel ([[lookup @classes.rogue.levels]]) como bonificador situacional a tu tirada de daño normal.</p></section>",
+      "activities": {
+        "damage": {
+          "condition": "Tu Ataque Furtivo acierta a cualquier objetivo durante el primer asalto"
+        }
+      },
+      "effects": {
+        "Assasinate": {
+          "name": "Asesinar",
+          "description": "<p>Tienes ventaja en las tiradas de iniciativa.</p>"
+        }
+      }
+    },
+    "Assassin": {
+      "name": "Asesino",
+      "description": "<blockquote><p>Practica el sombrío arte de la muerte.</p></blockquote><p>El entrenamiento de un asesino se centra en el uso del sigilo, el veneno y los disfraces para eliminar a sus oponentes con una eficacia mortífera. Aunque algunos pícaros que siguen este camino son asesinos a sueldo, espías o cazarrecompensas, las aptitudes de esta subclase son igual de útiles para aventureros que se enfrentan a una gran variedad de monstruos.</p>",
+      "advancement": {
+        "Subclass Features": {
+          "title": "Rasgos de Subclase"
+        },
+        "Assassin's Tools": {
+          "title": "Herramientas de Asesino",
+          "hint": "Obtienes útiles de envenenador y útiles para disfrazarse."
+        },
+        "rvg1VPVkuaZrsvIx": {
+          "title": "Herramientas de Asesino",
+          "hint": "Tienes competencia con tus Herramientas de Asesino."
+        }
+      }
+    },
+    "Assassin's Tools": {
+      "name": "Herramientas de Asesino",
+      "description": "<p>Consigues útiles de envenenador y útiles para disfrazarse y tienes competencia con ellos.</p><section id=\"secret-QaK1hUaUaZqGMS7e\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>El equipo y las competencias se te otorgan automáticamente a medida que subes de nivel.</p></section>"
+    },
+    "Aura Expansion": {
+      "name": "Expansión del Aura",
+      "description": "<p>Tu Aura de Protección ahora es una emanación de 9m (30ft).</p><section id=\"secret-gH6lYObbkvAgLL2q\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>El alcance de tus auras se actualiza automáticamente a medida que subes de nivel.</p></section>"
+    },
+    "Aura of Alacrity": {
+      "name": "Aura de Celeridad",
+      "description": "<p>Tu velocidad aumenta en 3m (10ft).</p><p>Además, siempre que un aliado entre en tu Aura de Protección por primera vez en un turno o comience su turno allí, la velocidad del aliado aumenta en 3m (10ft) hasta el final de su siguiente turno.</p><section id=\"secret-kOizvMlalbKjwbX4\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que aumenta tu velocidad en 3m (10ft). No se aplica automáticamente a las criaturas dentro de tu aura.</p></section>",
+      "effects": {
+        "Alacrity": {
+          "name": "Celeridad"
+        }
+      }
+    },
+    "Aura of Courage": {
+      "name": "Aura de Coraje",
+      "description": "<p>Tus aliados y tú tenéis inmunidad al estado de Asustado mientras estéis dentro de tu Aura de Protección. Si un aliado asustado entra en el aura, ese estado no tendrá efecto en él mientras esté dentro.</p><section id=\"secret-equ8xnC2DFxkcJAn\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo para rastrear quién está dentro de tu aura, pero no se añade/elimina automáticamente ni elimina el estado de Asustado.</p></section>",
+      "activities": {
+        "Aura of Courage": {
+          "name": "Aura de Coraje"
+        }
+      },
+      "effects": {
+        "Courageous": {
+          "name": "Valeroso"
+        }
+      }
+    },
+    "Aura of Devotion": {
+      "name": "Aura de Entrega",
+      "description": "<p>Tus aliados y tú tenéis inmunidad al estado de Hechizado mientras estéis dentro de tu Aura de Protección. Si un aliado hechizado entra en el aura, ese estado no tendrá efecto en él mientras esté dentro.</p><section id=\"secret-FUisOAkgNW9r118u\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo para rastrear personajes impactados por tu aura, pero no automatiza los efectos.</p></section>",
+      "effects": {
+        "Devoted": {
+          "name": "Entregado"
+        }
+      }
+    },
+    "Aura of Protection": {
+      "name": "Aura de Protección",
+      "description": "<p>Irradias un aura protectora e invisible en una emanación de 3m (10ft) que se origina de ti. El aura estará inactiva mientras tengas el estado de &Reference[Incapacitated apply=false].</p><p>Tus aliados dentro del aura y tú obtenéis un bonificador a las tiradas de salvación igual a tu modificador por Carisma (mínimo de +1, actualmente [[lookup @abilities.cha.mod]]).</p><p>Si hay otro paladín presente, una criatura solo puede beneficiarse de un Aura de Protección a la vez; esa criatura elegirá cuál de ellas mientras esté dentro de ambas.</p><section class=\"secret\" id=\"secret-PEdASVYFq26DP4Fq\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que mejora automáticamente tus tiradas de salvación, pero no debería usarse para otros personajes impactados porque añadirá su modificador de Carisma y no el del paladín. Ellos deberían añadir tu modificador manualmente.</p></section>",
+      "effects": {
+        "Protected": {
+          "name": "Protegido"
+        }
+      }
+    },
+    "Aura of Warding": {
+      "name": "Aura de Protección Mágica",
+      "description": "<p>La magia antigua recae sobre ti con tal intensidad que forma una protección sobrenatural que atenúa la energía procedente del Plano Material; tus aliados y tú tenéis resistencia al daño necrótico, psíquico y radiante mientras estéis en tu Aura de Protección.</p><section class=\"secret\" id=\"secret-kuCOxEuxal5gCdp1\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que aplica las resistencias, pero no se otorga automáticamente cuando un personaje entra/sale de tu aura.</p></section>",
+      "activities": {
+        "Grant Resistances": {
+          "name": "Otorgar Resistencias"
+        }
+      },
+      "effects": {
+        "Aura of Warding": {
+          "name": "Aura de Protección Mágica"
+        }
+      }
+    },
+    "Avatar of Battle": {
+      "name": "Avatar de la Batalla",
+      "description": "<p>Ganas resistencia al daño contundente, cortante y perforante.</p><section id=\"secret-6TJyGok1Gf1bVLme\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que automatiza la resistencia al daño.</p></section>",
+      "effects": {
+        "Avatar of Battle": {
+          "name": "Avatar de la Batalla"
+        }
+      }
+    },
+    "Avenging Angel": {
+      "name": "Ángel Vengador",
+      "description": "<p>Como acción adicional, obtienes los beneficios que se indican a continuación durante 10 minutos o hasta que los termines (no requiere acción). Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un Descanso Largo. También puedes restablecer su uso gastando un espacio de conjuro de nivel 5 (no requiere acción).</p><p><strong>Vuelo.</strong> Te brotan alas espectrales en la espalda, tienes una velocidad de vuelo de 18m (60ft) y puedes planear.</p><p><strong>Aura aterradora.</strong> Siempre que un enemigo comience su turno en tu Aura de Protección, esa criatura debe superar una tirada de salvación de Sabiduría o recibir el estado de Asustado durante 1 minuto o hasta que reciba cualquier daño. Las tiradas de ataque contra la criatura &Reference[Frightened] tienen ventaja.</p><section id=\"secret-tmmMrdRJYHiqTIh1\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Ángel Vengador</strong> consumirá un uso de este rasgo e incluye un Efecto Activo que otorga la velocidad de vuelo y la capacidad de planear.</p><p>La actividad <strong>Aura Aterradora</strong> incluye la tirada de salvación y un Efecto Activo que aplica el estado de Asustado.</p><p>La actividad <strong>Restaurar Uso</strong> consume un espacio de conjuro de nivel 5 y restaura un uso de este rasgo.</p></section>",
+      "activities": {
+        "Avenging Angel": {
+          "name": "Ángel Vengador"
+        },
+        "Frightful Aura": {
+          "name": "Aura Aterradora",
+          "condition": "Siempre que un enemigo comience su turno en tu Aura de Protección"
+        },
+        "Restore Use": {
+          "name": "Restaurar Uso"
+        }
+      },
+      "effects": {
+        "Avenging Angel": {
+          "name": "Ángel Vengador"
+        },
+        "Frightened": {
+          "name": "Asustado"
+        }
+      }
+    },
+    "Awakened Mind": {
+      "name": "Mente Despierta",
+      "description": "<p>Puedes formar una conexión telepática entre tu mente y la mente de otro. Como acción adicional, elige una criatura que puedas ver a 9m (30ft) o menos de ti. La criatura elegida y tú podéis comunicaros telepáticamente mientras estéis a una cantidad de kilómetros igual a tu modificador de Carisma (mínimo de 1,5 km, actualmente [[lookup @abilities.cha.mod]]). Para entenderos, cada uno de vosotros debéis utilizar mentalmente un idioma conocido por el otro.</p><p>La conexión telepática dura una cantidad de minutos igual a tu nivel de brujo. Termina antes si usas este rasgo para conectarte con una criatura diferente.</p>",
+      "activities": {
+        "Telepathic Connection": {
+          "name": "Conexión Telepática"
+        }
+      }
+    },
+    "Bait and Switch": {
+      "name": "Señuelo e Intercambio",
+      "description": "<p>Cuando estés a 1,5m (5ft) o menos de una criatura en tu turno, puedes gastar un Dado de Superioridad e intercambiar posiciones con esa criatura, siempre y cuando gastes al menos 1,5m (5ft) de movimiento y la criatura esté dispuesta y no tenga el estado de Incapacitado. Este movimiento no provoca ataques de oportunidad.</p><p>Tira el Dado de Superioridad. Hasta el principio de tu siguiente turno, la criatura elegida o tú (tú eliges) obtenéis un bonificador a la CA igual al número obtenido.</p><section class=\"secret\" id=\"secret-L87MUloqB18hV04V\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye Efectos Activos para cada posible valor del Dado de Superioridad, que otorga el bonificador de CA indicado.</p></section>",
+      "activities": {
+        "Switch Places": {
+          "name": "Cambiar Posiciones",
+          "roll": "Bonificador de Clase de Armadura",
+          "condition": "Cuando estés a 1,5m (5ft) o menos de una criatura en tu turno"
+        }
+      },
+      "effects": {
+        "Baited AC +1": {
+          "name": "CA con Señuelo +1",
+          "description": "<p>Hasta el principio de tu siguiente turno, tú o la otra criatura (tú eliges) obtenéis un bonificador a la CA igual al número obtenido.</p>"
+        },
+        "Baited AC +2": {
+          "name": "CA con Señuelo +2",
+          "description": "<p>Hasta el principio de tu siguiente turno, tú o la otra criatura (tú eliges) obtenéis un bonifica dor a la CA igual al número obtenido.</p>"
+        },
+        "Baited AC +3": {
+          "name": "CA con Señuelo +3",
+          "description": "<p>Hasta el principio de tu siguiente turno, tú o la otra criatura (tú eliges) obtenéis un bonificador a la CA igual al número obtenido.</p>"
+        },
+        "Baited AC +4": {
+          "name": "CA con Señuelo +4",
+          "description": "<p>Hasta el principio de tu siguiente turno, tú o la otra criatura (tú eliges) obtenéis un bonificador a la CA igual al número obtenido.</p>"
+        },
+        "Baited AC +5": {
+          "name": "CA con Señuelo +5",
+          "description": "<p>Hasta el principio de tu siguiente turno, tú o la otra criatura (tú eliges) obtenéis un bonificador a la CA igual al número obtenido.</p>"
+        },
+        "Baited AC +6": {
+          "name": "CA con Señuelo +6",
+          "description": "<p>Hasta el principio de tu siguiente turno, tú o la otra criatura (tú eliges) obtenéis un bonificador a la CA igual al número obtenido.</p>"
+        },
+        "Baited AC +7": {
+          "name": "CA con Señuelo +7",
+          "description": "<p>Hasta el principio de tu siguiente turno, tú o la otra criatura (tú eliges) obtenéis un bonificador a la CA igual al número obtenido.</p>"
+        },
+        "Baited AC +8": {
+          "name": "CA con Señuelo +8",
+          "description": "<p>Hasta el principio de tu siguiente turno, tú o la otra criatura (tú eliges) obtenéis un bonificador a la CA igual al número obtenido.</p>"
+        },
+        "Baited AC +9": {
+          "name": "CA con Señuelo +9",
+          "description": "<p>Hasta el principio de tu siguiente turno, tú o la otra criatura (tú eliges) obtenéis un bonificador a la CA igual al número obtenido.</p>"
+        },
+        "Baited AC +10": {
+          "name": "CA con Señuelo +10",
+          "description": "<p>Hasta el principio de tu siguiente turno, tú o la otra criatura (tú eliges) obtenéis un bonificador a la CA igual al número obtenido.</p>"
+        },
+        "Baited AC +11": {
+          "name": "CA con Señuelo +11",
+          "description": "<p>Hasta el principio de tu siguiente turno, tú o la otra criatura (tú eliges) obtenéis un bonificador a la CA igual al número obtenido.</p>"
+        },
+        "Baited AC +12": {
+          "name": "CA con Señuelo +12",
+          "description": "<p>Hasta el principio de tu siguiente turno, tú o la otra criatura (tú eliges) obtenéis un bonificador a la CA igual al número obtenido.</p>"
+        }
+      }
+    },
+
+    "Bard": {
+      "name": "Bardo",
+      "description": "<blockquote><p>Un artista inspirador de música, danza y magia</p></blockquote><h3>Atributos Básicos de Bardo</h3><table class=\"core-class-traits\"><tbody><tr><th><p><strong>Característica Principal</strong></p></th><td><p>Carisma</p></td></tr><tr><th><p><strong>Dado de Puntos de Golpe</strong></p></th><td><p>D8 por nivel de bardo</p></td></tr><tr><th><p><strong>Competencias en Tiradas de Salvación</strong></p></th><td><p>Destreza y Carisma</p></td></tr><tr><th><p><strong>Competencias en Habilidades</strong></p></th><td><p><em>Elige tres cualesquiera</em></p></td></tr><tr><th><p><strong>Competencias con Armas</strong></p></th><td><p>Armas sencillas</p></td></tr><tr><th><p><strong>Competencias con Herramientas</strong></p></th><td><p><em>Elige 3 instrumentos musicales</em></p></td></tr><tr><th><p><strong>Entrenamiento con Armaduras</strong></p></th><td><p>Armaduras ligeras</p></td></tr><tr><th><p><strong>Equipo Inicial</strong></p></th><td><p><em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmLeatherArm]{Armadura de Cuero}, 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepDagger0000]{Dagas}, instrumento musical de tu elección, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagEntertainer]{Paquete de Artista}, y [[/award 19gp]]; o (B) [[/award 90GP]]</p></td></tr></tbody></table><p><strong>Invocando la magia a través de la música, la danza</strong> y la poesía, los bardos son duchos en inspirar a los demás, en sanar heridas, en desmoralizar al enemigo y en crear ilusiones. Creen que el multiverso nació del habla de los dioses y que los ecos de sus palabras de creación aún resuenan y brillan en cada plano de existencia. La magia bárdica aspira a servirse de estas palabras que trascienden cualquier idioma.</p><p>Cualquier cosa puede inspirar una nueva canción o historia, así que los bardos sienten fascinación por casi todo. Llegan a dominar muchos ámbitos, como la música, la magia o la mofa.</p><p>Los bardos se pasan la vida viajando, recopilando conocimientos, contando historias y viviendo de la buena voluntad de su público, como la mayoría de artistas. Sin embargo, su amplitud de conocimientos y su dominio de la magia los distingue del resto de intérpretes.</p>",
+      "advancement": {
+        "Class Features": {
+          "title": "Rasgos de Clase"
+        },
+        "Max Prepared Spells": {
+          "title": "Conjuros Máximos Preparados"
+        },
+        "Cantrips Known": {
+          "title": "Trucos Conocidos"
+        },
+        "Inspiration Die": {
+          "title": "Dado de Inspiración"
+        },
+        "Expertise": {
+          "title": "Pericia"
+        },
+        "Saving Throw Proficiencies": {
+          "title": "Competencias en Tiradas de Salvación"
+        },
+        "Skill Proficiencies": {
+          "title": "Competencias en Habilidades"
+        },
+        "Weapon Proficiencies": {
+          "title": "Competencias con Armas"
+        },
+        "Tool Proficiencies": {
+          "title": "Competencias con Herramientas"
+        },
+        "Armor Training": {
+          "title": "Entrenamiento con Armaduras"
+        },
+        "Epic Boon": {
+          "title": "Don Épico"
+        }
+      }
+    },
+
+    "Bardic Inspiration": {
+      "name": "Inspiración del Bardo",
+      "description": "<p>Puedes recurrir a tus palabras, música o danza para inspirar de forma sobrenatural a los demás. Esta inspiración se representa con tu dado de Inspiración bárdica, que es un d6 (actualmente, [[lookup @scale.bard.inspiration.die]]).</p><p><strong>Utilizar la Inspiración bárdica.</strong> Como acción adicional, puedes inspirar a otra criatura que esté a 18m (60ft) o menos de ti y que te pueda ver u oír. Esa criatura obtiene uno de tus dados de Inspiración bárdica. Cada criatura no puede tener más de un dado de Inspiración bárdica.</p><p>Una vez dentro de la próxima hora, cuando la criatura falle una prueba de D20, puede tirar el dado de Inspiración bárdica y sumar el resultado al d20, lo que podría hacerle superar la prueba. Un dado de Inspiración bárdica se gasta al tirarlo.</p><p><strong>Número de usos.</strong> Puedes conceder un dado de Inspiración bárdica una cantidad de veces igual a tu modificador por Carisma (mínimo una vez) y recuperas todos sus usos tras finalizar un Descanso Largo.</p><p><strong>A niveles superiores.</strong> Tu dado de Inspiración bárdica cambia cuando alcanzas ciertos niveles de bardo, como se muestra en la columna \"Dado bárdico\" de la tabla \"Rasgos de bardo\". El dado se convierte en un d8 en el nivel 5, un d10 en el nivel 10 y un d12 en el nivel 15.</p><section class=\"secret\" id=\"secret-PtUXhUXS84HSdaew\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo para rastrear cuando un personaje tiene Inspiración del Bardo para usar.</p><p>La recuperación está establecida en descanso largo (para niveles anteriores a @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdFontOfInsp]{Fuente de Inspiración}). Por favor ajusta manualmente según sea necesario.</p></section>",
+      "activities": {
+        "Inspire": {
+          "name": "Inspirar",
+          "roll": "Inspiración del Bardo"
+        }
+      },
+      "effects": {
+        "Inspired": {
+          "name": "Inspirado",
+          "description": "<p>Has recibido Inspiración del Bardo. Una vez dentro de la próxima hora, cuando falles una prueba de D20, puedes tirar el dado de Inspiración bárdica y sumar el resultado al d20, lo que podría convertir el fallo en éxito. Un dado de Inspiración bárdica se gasta al tirarlo.</p>"
+        }
+      }
+    },
+    "Bastion of Law": {
+      "name": "Bastión de la Ley",
+      "description": "<p>Puedes acceder a la gran ecuación de la existencia para imbuir a una criatura de un escudo resplandeciente de orden. Como acción de magia, puedes gastar de 1 a 5 puntos de hechicería para crear una protección mágica a tu alrededor o alrededor de otra criatura que puedas ver a 9m (30ft) o menos de ti. Esta protección está representada por un número de d8 igual a la cantidad de puntos de hechicería gastados para crearla. Cuando la criatura protegida recibe daño, puede gastar varios de esos dados, tirarlos y restar el resultado al daño recibido.</p><p>La protección durará hasta que finalices un Descanso Largo o hasta que vuelvas a usar este rasgo.</p><section id=\"secret-O9GfdJl9WWz3Wnli\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Gastar Puntos de Hechicería</strong> te permite gastar la cantidad deseada de Puntos de Hechicería. Incluye un Efecto Activo que se puede usar para rastrear la criatura protegida. También incluye una tirada de \"Dado de Protección\" que tira 1d8. Tendrás que rastrear manualmente el número de dados disponibles.</p></section>",
+      "activities": {
+        "Create Shield": {
+          "name": "Crear Escudo",
+          "roll": "Dado de Protección"
+        }
+      },
+      "effects": {
+        "Warded by Law": {
+          "name": "Protegido por la Ley",
+          "description": "<p>Cuando la criatura protegida recibe daño, puede gastar varios de esos dados, tirarlos y restar el resultado al daño recibido. La protección dura hasta que el lanzador finalice un Descanso Largo o hasta que use este rasgo de nuevo.</p>"
+        }
+      }
+    },
+    "Battering Roots": {
+      "name": "Raíces Apaleadoras",
+      "description": "<p>Durante tu turno, tu alcance es 3m (10ft) superior con cualquier arma cuerpo a cuerpo que tenga la propiedad de Pesada o Versátil, ya que los zarcillos del Árbol del Mundo se extienden desde ti. Cuando aciertes con dicha arma en tu turno, puedes activar la propiedad de maestría Empujar o Derribar además de una propiedad de maestría diferente que estés usando con esa arma.</p><section id=\"secret-2uKFL0ICeFFIOlns\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que te otorga la propiedad de maestría Empujar y Derribar.</p></section>",
+      "effects": {
+        "Battering Roots": {
+          "name": "Raíces Apaleadoras"
+        }
+      }
+    },
+    "Battle Magic": {
+      "name": "Magia de Batalla",
+      "description": "<p>Tras lanzar un conjuro que tenga un tiempo de lanzamiento de una acción, podrás hacer un ataque con un arma como acción adicional.</p>"
+    },
+    "Battle Master": {
+      "name": "Maestro del Combate",
+      "description": "<blockquote><p>Domina maniobras de combate avanzadas.</p></blockquote><p>Los maestros del combate estudian el arte de la batalla y aprenden técnicas marciales que transmiten generación tras generación. Los maestros más consumados son figuras equilibradas que combinan las habilidades de combate que han ido perfeccionando cuidadosamente con el estudio académico de la historia, la teoría y las artes.</p>",
+      "advancement": {
+        "Subclass Features": {
+          "title": "Rasgos de Subclase"
+        },
+        "Superiority Dice": {
+          "title": "Dados de Supremacía"
+        },
+        "Student of War: Skills": {
+          "title": "Estudiante de Guerra: Habilidades"
+        },
+        "Student of War: Tools": {
+          "title": "Estudiante de Guerra: Herramientas"
+        },
+        "Combat Superiority: Maneuvers": {
+          "title": "Supremacía en Combate: Maniobras"
+        }
+      }
+    },
+    "Beast Master": {
+      "name": "Señor de las Bestias",
+      "description": "<blockquote><p>Estrecha lazos con una bestia primigenia.</p></blockquote><p>Un señor de las bestias forma un vínculo místico con un animal especial y recurre a la magia primigenia y a una profunda conexión con el mundo natural.</p>",
+      "advancement": {
+        "Subclass Features": {
+          "title": "Rasgos de Subclase"
+        }
+      }
+    },
+    "Beast Spells": {
+      "name": "Conjuros de Bestia",
+      "description": "<p>Mientras uses Forma Salvaje, puedes lanzar conjuros en forma de bestia, excepto cualquier conjuro que tenga un componente material con un coste especificado o que consuma su componente material.</p>"
+    },
+    "Beguiling Defenses": {
+      "name": "Defensas Cautivadoras",
+      "description": "<p>Tu patrón te enseña cómo proteger tu mente y cuerpo. Eres inmune al estado &Reference[Charmed].</p><p>Además, inmediatamente después de que una criatura que puedas ver te acierte con una tirada de ataque, puedes usar una reacción para reducir el daño que recibes a la mitad (redondea hacia abajo), y puedes forzar al atacante a realizar una tirada de salvación de Sabiduría contra tu CD de salvación de conjuros. Si falla la salvación, el atacante recibe daño psíquico igual al daño que recibes. Una vez uses esta reacción, no podrás usarla de nuevo hasta que finalices un Descanso Largo a menos que gastes un espacio de conjuro de Magia de Pacto (no requiere acción) para restaurar su uso.</p><section class=\"secret\" id=\"secret-P1yLxU6Cd9Vr2ejI\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Reacción Cautivadora</strong> incluye la tirada de salvación.</p><p>Con tu ficha seleccionada puedes hacer clic derecho en la tarjeta de chat de la tirada de daño y seleccionar <span class=\"reference\"><em class=\"fas fa-user-shield\"> </em>Aplicar Medio Daño</span> o hacer clic en el botón \"1/2\" y luego en el botón <span class=\"reference\"><em class=\"fa-solid fa-reply-all\"> </em>Aplicar</span>.</p></section>",
+      "activities": {
+        "Beguiling Reaction": {
+          "name": "Reacción Cautivadora",
+          "condition": "Inmediatamente después de que una criatura que puedas ver te acierte con una tirada de ataque"
+        }
+      }
+    },
+    "Beguiling Magic": {
+      "name": "Magia Cautivadora",
+      "description": "<p>Siempre tienes los conjuros @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{Hechizar Persona} e @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMirrorImag]{Imagen Múltiple} preparados.</p><p>Además, inmediatamente después de lanzar un conjuro de Encantamiento o Ilusionismo usando un espacio de conjuro, puedes hacer que una criatura que puedas ver a 18m (60ft) o menos de ti realice una tirada de salvación de Sabiduría contra tu CD de salvación de conjuros. Si falla la salvación, el objetivo tiene el estado &Reference[Charmed] o &Reference[Frightened] (tú eliges) durante 1 minuto. El objetivo repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito.</p><p>Una vez uses este beneficio, no podrás usarlo de nuevo hasta que finalices un Descanso Largo. También puedes restaurar su uso gastando un uso de tu Inspiración del Bardo (no requiere acción).</p><section class=\"secret\" id=\"secret-yJ0pYJyjePrUp7wQ\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Salvación</strong> incluye un Efecto Activo tanto para el estado Hechizado como Asustado.</p><p>La actividad <strong>Recargar con Inspiración</strong> restaura un uso de este rasgo.</p><p>Los conjuros se añaden automáticamente a tu hoja como Siempre Preparados.</p></section>",
+      "activities": {
+        "save": {
+          "condition": "Después de lanzar un conjuro de encantamiento o ilusionismo usando un espacio de conjuro"
+        },
+        "Recharge with Inspiration": {
+          "name": "Recargar con Inspiración"
+        }
+      },
+      "effects": {
+        "Beguiling Fear": {
+          "name": "Miedo Cautivador"
+        },
+        "Beguiling Charm": {
+          "name": "Hechizo Cautivador"
+        }
+      }
+    },
+    "Beguiling Twist": {
+      "name": "Giro Cautivador",
+      "description": "<p>La magia de los Parajes Feéricos protege tu mente. Tienes ventaja en las tiradas de salvación para evitar o terminar el estado Hechizado o Asustado.</p><p>Además, siempre que tú o una criatura que puedas ver a 36m (120ft) de ti tenga éxito en una tirada de salvación para evitar o terminar el estado Hechizado o Asustado, puedes usar una reacción para forzar a una criatura diferente que puedas ver a 36m (120ft) de ti a realizar una tirada de salvación de Sabiduría contra tu CD de salvación de conjuros. Si falla la salvación, el objetivo queda &Reference[Charmed] o &Reference[Frightened] (tú eliges) durante 1 minuto. El objetivo repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito.</p>"
+    },
+    "Bend Luck": {
+      "name": "Doblar la Suerte",
+      "description": "<p>Tienes la capacidad de torcer el destino usando tu magia salvaje. Inmediatamente después de que otra criatura que puedas ver tire el d20 para una prueba de D20, puedes usar una reacción y gastar 1 punto de hechicería para tirar 1d4 y aplicar el número obtenido como bonificador o penalización (tú eliges) a la tirada del d20.</p>",
+      "activities": {
+        "Bend Luck": {
+          "name": "Doblar la Suerte",
+          "roll": "Bonificador/Penalización",
+          "condition": "Inmediatamente después de que otra criatura que puedas ver tire el d20 para una prueba de D20"
+        }
+      }
+    },
+    "Bestial Fury": {
+      "name": "Furia Bestial",
+      "description": "<p>Cuando le ordenas a la bestia primigenia que realice la acción de Golpe de Bestia, podrá usarla dos veces.</p><p>Además, la primera vez cada turno que acierte a una criatura bajo el efecto de tu conjuro Marca del Cazador, la bestia inflige un daño de fuerza adicional igual al daño adicional de ese conjuro.</p><section id=\"secret-oX1a4cTYW435Ii3q\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Daño</strong> incluye la tirada de daño adicional.</p></section>"
+    },
+    "Bewitching Magic": {
+      "name": "Magia Hechizante",
+      "description": "<p>Tu patrón te otorga la capacidad de tejer tu magia con teletransportación. Inmediatamente después de lanzar un conjuro de Encantamiento o Ilusionismo usando una acción y un espacio de conjuro, puedes lanzar @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Paso Brumoso} como parte de la misma acción y sin gastar un espacio de conjuro.</p>"
+    },
+    "Blessed Healer": {
+      "name": "Sanador Bendito",
+      "description": "<p>Los conjuros de curación que lances sobre otros también te sanan a ti. Inmediatamente después de usar un espacio de conjuro para lanzar un conjuro que haga recuperar puntos de golpe a una o varias criaturas que no seas tú, recuperarás una cantidad de puntos de golpe igual a 2 más el nivel del espacio de conjuro.</p><section class=\"secret\" id=\"secret-B3oOPhBUFT9dOwUQ\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una actividad de curación. Establece la escala al nivel del espacio de conjuro que lanzaste y te proporcionará una tirada de curación.</p></section>"
+    },
+    "Blessed Strikes": {
+      "name": "Golpes Benditos",
+      "description": "<p>Te imbuyes de poder divino en la batalla. Obtienes una de las siguientes opciones, a tu elección (si obtienes cualquiera de estas opciones de una subclase de Clérigo de un libro anterior, usa solo la opción que elijas para este rasgo).</p><p><strong>Golpe Divino.</strong> Una vez en cada uno de tus turnos cuando aciertes a una criatura con una tirada de ataque usando un arma, puedes hacer que el objetivo reciba 1d8 de daño necrótico o radiante adicional (tú eliges).</p><p><strong>Lanzamiento de Conjuros Potente.</strong> Añade tu modificador de Sabiduría al daño que inflijas con cualquier truco de clérigo.</p><section id=\"secret-1YTjpzZamslVlTTM\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Durante el avance podrás elegir qué opción prefieres.</p></section>"
+    },
+    "Blessed Strikes: Divine Strike": {
+      "name": "Golpes Benditos: Golpe Divino",
+      "description": "<p>Una vez en cada uno de tus turnos cuando aciertes a una criatura con una tirada de ataque usando un arma, puedes hacer que el objetivo reciba 1d8 de daño necrótico o radiante adicional (tú eliges).</p><section id=\"secret-iZHQe1DZBrtcFZCk\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>El daño de este rasgo aumentará automáticamente cuando obtengas @UUID[Compendium.dnd-players-handbook.classes.Item.phbclcImprovedBl]{Golpes Benditos Mejorados}.</p></section>",
+      "activities": {
+        "Necrotic Divine Strike": {
+          "name": "Golpe Divino Necrótico"
+        },
+        "Radiant Divine Strike": {
+          "name": "Golpe Divino Radiante"
+        }
+      }
+    },
+    "Blessed Strikes: Potent Spellcasting": {
+      "name": "Golpes Benditos: Lanzamiento de Conjuros Potente",
+      "description": "<p>Añade tu modificador de Sabiduría al daño que inflijas con cualquier truco de clérigo.</p><section class=\"secret\" id=\"secret-bDHa7ClHZ3YPWKvs\"><p><strong>Nota Foundry</strong></p><p>Este daño adicional no se incluye automáticamente en tus trucos.</p><p>Puedes añadir [[lookup @abilities.wis.mod]] al campo de Bonificador Situacional de las tiradas de daño de tus trucos o puedes añadirlo permanentemente a tus trucos agregando \"@abilities.wis.mod\" (sin las comillas) en el campo de Bonificación.</p><p>Alternativamente, la actividad <strong>Daño</strong> de este rasgo incluye tu modificador de Sabiduría y te permite elegir el tipo de daño en el cuadro de diálogo de la tirada.</p></section>",
+      "activities": {
+        "damage": {
+          "condition": "Infligir daño con cualquier truco de clérigo"
+        }
+      }
+    },
+    "Blessing of the Trickster": {
+      "name": "Bendición del Embaucador",
+      "description": "<p>Como acción de magia, puedes escogerte a ti o a una criatura voluntaria a 9m (30ft) o menos de ti para que tenga ventaja en las pruebas de Destreza (Sigilo). Esta bendición dura hasta que finalices un Descanso Largo o hasta que vuelvas a usar este rasgo.</p><section class=\"secret\" id=\"secret-HR9knJJry8NACRET\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo para rastrear la bendición, pero no automatiza la ventaja en las pruebas de Sigilo ni termina automáticamente cuando uses este rasgo de nuevo.</p></section>",
+      "activities": {
+        "Blessing": {
+          "name": "Bendición"
+        }
+      },
+      "effects": {
+        "Blessing of the Trickster": {
+          "name": "Bendición del Embaucador",
+          "description": "<p>Tienes ventaja en las pruebas de Destreza (Sigilo). Esta bendición dura hasta que el lanzador finalice un Descanso Largo o use este rasgo de nuevo.</p>"
+        }
+      }
+    },
+    "Body and Mind": {
+      "name": "Cuerpo y Mente",
+      "description": "<p>Has llevado tu cuerpo y mente a otro nivel. Tus puntuaciones de Destreza y Sabiduría aumentan en 4, hasta un máximo de 25.</p>"
+    },
+    "Bonus Proficiencies": {
+      "name": "Competencias Adicionales",
+      "description": "<p>Ganas competencia con tres habilidades de tu elección.</p>"
+    },
+    "Book of Shadows": {
+      "name": "Libro de las Sombras"
+    },
+    "Branches of the Tree": {
+      "name": "Ramas del Árbol",
+      "description": "<p>Cuando una criatura que puedas ver comience su turno a 9m (30ft) o menos de ti mientras estás enfurecido, podrás llevar a cabo una reacción para invocar unas ramas espectrales del Árbol del Mundo a su alrededor. El objetivo deberá superar una tirada de salvación de Fuerza (CD 8 más tu modificador por Fuerza y tu bonificador por competencia) o se teletransportará a un espacio sin ocupar que puedas ver a 1,5m (5ft) de ti o al espacio sin ocupar más cercano que puedas ver. Después de que el objetivo se teletransporte, puedes reducir su velocidad a 0 hasta el final del turno actual.</p><section id=\"secret-iHFpYS3WUCeaQIVP\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que se puede aplicar al objetivo y reducirá su velocidad.</p></section>",
+      "activities": {
+        "save": {
+          "condition": "Cuando una criatura que puedas ver comience su turno a 9m (30ft) o menos de ti mientras estás enfurecido"
+        }
+      },
+      "effects": {
+        "Branches of the Tree": {
+          "name": "Ramas del Árbol",
+          "description": "<p>La velocidad de una criatura movida por Ramas del Árbol puede reducirse a 0 hasta el final de su turno actual.</p>"
+        }
+      }
+    },
+    "Bulwark of Force": {
+      "name": "Baluarte de Fuerza",
+      "description": "<p>Puedes protegerte a ti mismo y a otros con fuerza telequinética. Como acción adicional, puedes elegir criaturas, incluyéndote a ti mismo, a 9m (30ft) o menos de ti, hasta una cantidad de criaturas igual a tu modificador de Inteligencia (mínimo una criatura). Cada una de las criaturas elegidas tiene &Reference[Half Cover] durante 1 minuto o hasta que tengas el estado de Incapacitado.</p><p>Una vez uses este rasgo, no podrás hacerlo de nuevo hasta que finalices un Descanso Largo a menos que gastes un Dado de Energía Psiónica (no requiere acción) para restaurar su uso.</p><section class=\"secret\" id=\"secret-w0D7Z8wuNFjGsQai\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que aplica el estado de Cobertura Media pero no termina automáticamente.</p><p>La actividad <strong>Recargar con Energía Psiónica</strong> consumirá un uso de tu Dado de Energía Psiónica y otorgará otro uso de este rasgo automáticamente.</p></section>",
+      "activities": {
+        "Bulwark of Force": {
+          "name": "Baluarte de Fuerza"
+        },
+        "Recharge with Psionic Energy": {
+          "name": "Recargar con Energía Psiónica"
+        }
+      },
+      "effects": {
+        "Bulwark of Force": {
+          "name": "Baluarte de Fuerza"
+        }
+      }
+    },
+    "Careful Spell": {
+      "name": "Conjuro Cuidadoso",
+      "description": "<blockquote><p>Coste: 1 Punto de Hechicería</p></blockquote><p>Cuando lanzas un conjuro que obliga a otras criaturas a realizar una tirada de salvación, puedes proteger a algunas de esas criaturas de la fuerza completa del conjuro. Para ello, gasta 1 punto de hechicería y escoge hasta una cantidad de criaturas igual tu modificador por Carisma (mínimo una criatura). Las criaturas elegidas tienen éxito automáticamente en sus tiradas de salvación contra el conjuro y no reciben daño alguno si normalmente recibirían la mitad de daño del mismo al superar una tirada de salvación.</p><p><strong>Criaturas que Puedes Proteger:</strong> [[lookup @abilities.cha.mod]]</p>",
+      "activities": {
+        "Careful Spell": {
+          "name": "Conjuro Cuidadoso",
+          "condition": "Cuando lanzas un conjuro que obliga a otras criaturas a realizar una tirada de salvación"
+        }
+      }
+    },
+    "Celestial Patron": {
+      "name": "Patrón Celestial",
+      "description": "<blockquote><p>Invoca el poder de los cielos.</p></blockquote><p>Tu pacto recurre a los Planos Superiores, los reinos de la felicidad eterna. Podrías firmar un acuerdo con un empíreo, un couatl, una esfinge, un unicornio u otra entidad celestial. O podrías invocar a numerosos seres de este tipo mientras persigues objetivos alineados con los suyos. Tu pacto te permite experimentar un indicio de la luz sagrada que ilumina el multiverso.</p>",
+      "advancement": {
+        "Subclass Features": {
+          "title": "Rasgos de Subclase"
+        },
+        "Radiant Soul": {
+          "title": "Alma Radiante",
+          "hint": "Tu vínculo con tu patrón te permite servir de canalizador de energía radiante. Tienes resistencia al daño radiante."
+        },
+        "Celestial Spells": {
+          "title": "Conjuros Celestiales",
+          "hint": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcances un nivel de Brujo especificado en la tabla de Conjuros Celestiales, a partir de entonces siempre tendrás preparados los conjuros listados."
+        }
+      }
+    },
+    "Celestial Resilience": {
+      "name": "Resiliencia Celestial",
+      "description": "<p>Obtienes puntos de golpe temporales siempre que uses el rasgo Astucia Mágica o finalices un Descanso Corto o Largo. La cantidad obtenida es igual a tu nivel de brujo más tu modificador por Carisma. Además, eliges hasta cinco criaturas que puedas ver cuando obtengas los puntos. Cada una de ellas obtiene una cantidad de puntos de golpe temporales igual a la mitad de tu nivel de brujo más tu modificador por Carisma.</p><section id=\"secret-Ny2g5xXGGjCiFgp7\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Tus Puntos de Golpe Temporales</strong> y la actividad <strong>Puntos de Golpe de Criaturas Elegidas</strong> incluyen el número correcto de puntos de golpe temporales para sus respectivos objetivos.</p></section>",
+      "activities": {
+        "Your Temporary Hit Points": {
+          "name": "Tus Puntos de Golpe Temporales",
+          "condition": "Siempre que uses tu Astucia Mágica o finalices un Descanso Corto o Largo"
+        },
+        "Chosen Creatures Hit Points": {
+          "name": "Puntos de Golpe de Criaturas Elegidas",
+          "condition": "Siempre que uses tu Astucia Mágica o finalices un Descanso Corto o Largo"
+        }
+      }
+    },
+    "Celestial Spells": {
+      "name": "Conjuros Celestiales",
+      "description": "<p>La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados; cuando alcances un nivel de Brujo especificado en la tabla de Conjuros Celestiales, a partir de entonces siempre tendrás preparados los conjuros listados.</p><table><caption>Conjuros Celestiales</caption><thead><tr><td>Nivel de Brujo</td><td>Conjuros</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAid0000000]{Ayuda}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds]{Curar Heridas}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidingBol]{Proyectil Guiado}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest]{Restauración Menor}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLight00000]{Luz}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSacredFlam]{Llama Sagrada}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDaylight00]{Luz del Día}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRevivify00]{Revivir}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuardianof]{Guardián de la Fe}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofFire]{Muro de Fuego}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Restauración Mayor}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCele]{Invocar Celestial}</td></tr></tbody></table><section class=\"secret\" id=\"secret-RNJwPu6ygINn1f4Q\"><p><strong>Nota Foundry</strong></p><p>A medida que subas de nivel, estos conjuros se te otorgarán automáticamente.</p></section>"
+    },
+    "Champion": {
+      "name": "Campeón",
+      "description": "<blockquote><p>Aspira a la excelencia física en combate.</p></blockquote><p>Un campeón se centra en desarrollar su destreza marcial en su incansable afán de victoria. Los campeones combinan un entrenamiento riguroso con un estado físico excelente para asestar golpes devastadores, resistir ante el peligro y alcanzar la gloria. Ya sea en una competición atlética o en una sangrienta batalla, los campeones luchan por coronarse como vencedores.</p>",
+      "advancement": {
+        "Subclass Features": {
+          "title": "Rasgos de Subclase"
+        },
+        "Fighting Style": {
+          "title": "Estilo de Combate"
+        }
+      }
+    },
+    "Channel Divinity": {
+      "name": "Canalizar Divinidad",
+      "description": "<p>Puedes canalizar energía divina directamente de los Planos Exteriores para alimentar varios efectos mágicos. Empiezas con dos de estos efectos: Chispa Divina y Expulsar Muertos Vivientes, que se describen a continuación. Cada vez que utilices el rasgo Canalizar Divinidad de esta clase, elige qué efecto de esta clase crear. En niveles superiores de clérigo recibirás opciones adicionales.</p><p>Puedes usar el rasgo Canalizar Divinidad de esta clase dos veces. Recuperas uno de los usos gastados tras finalizar un Descanso Corto y todos tras finalizar un Descanso Largo. Obtienes usos adicionales cuando alcanzas ciertos niveles de clérigo, como se muestra en la columna \"Canalizar Divinidad\" de la tabla \"Rasgos de clérigo\".</p><p>Si un efecto de Canalizar Divinidad requiere una tirada de salvación, la CD es igual a la CD de salvación de conjuros del rasgo Lanzamiento de Conjuros de esta clase.</p><p><strong>Chispa Divina.</strong> Como acción de magia, apuntas tu Símbolo Sagrado a otra criatura que puedas ver a 9m (30ft) o menos de ti y concentras energía divina en ella. Tira 1d8 y suma tu modificador de Sabiduría. O bien restauras puntos de golpe a la criatura igual al total obtenido o fuerzas a la criatura a realizar una tirada de salvación de Constitución. Si falla la salvación, la criatura recibe daño Necrótico o Radiante (a tu elección) igual a ese total. Si tiene éxito en la salvación, la criatura recibe la mitad del daño (redondea hacia abajo).</p><p>Tira 1d8 adicional cuando alcances los niveles 7 (2d8), 13 (3d8) y 18 (4d8) de clérigo.</p><p><strong>Expulsar Muertos Vivientes.</strong> Como acción de magia, presentas tu Símbolo Sagrado y censuras a criaturas No-Muertas. Cada No-Muerto de tu elección a 9m (30ft) o menos de ti debe realizar una tirada de salvación de Sabiduría. Si la criatura falla su salvación, tiene los estados de Asustado e Incapacitado durante 1 minuto. Durante esa duración, intenta alejarse lo más posible de ti en sus turnos. Este efecto termina antes en la criatura si recibe cualquier daño, si tú tienes el estado de Incapacitado o si mueres.</p><section class=\"secret\" id=\"secret-1ECtJAnUinEegKtL\"><p><strong>Nota Foundry</strong></p><p>Este rasgo restaurará automáticamente 1 uso en un Descanso Corto y todos en un Descanso Largo. Los usos escalan automáticamente a medida que subes de nivel.</p><p>La actividad <strong>Chispa Divina: Curar</strong> incluye el efecto de curación.</p><p>La actividad <strong>Chispa Divina: Salvación</strong> incluye la tirada de salvación.</p><p>La actividad <strong>Expulsar Muertos Vivientes</strong> incluye un Efecto Activo que aplica los estados de Asustado e Incapacitado.</p></section>",
+      "activities": {
+        "Divine Spark: Heal": {
+          "name": "Chispa Divina: Curar"
+        },
+        "Divine Spark: Save": {
+          "name": "Chispa Divina: Salvación"
+        },
+        "Turn Undead": {
+          "name": "Expulsar Muertos Vivientes"
+        }
+      },
+      "effects": {
+        "Turned": {
+          "name": "Expulsado",
+          "description": "<p>Durante esa duración, intenta alejarse lo más posible de ti en sus turnos. Este efecto termina antes en la criatura si recibe cualquier daño, si tú tienes el estado de Incapacitado o si mueres.</p>"
+        }
+      },
+      "advancement": {
+        "Divine Spark Die Count": {
+          "title": "Cuenta de Dados de Chispa Divina"
+        }
+      }
+    },
+    "Circle Forms": {
+      "name": "Formas de Círculo",
+      "description": "<p>Puedes canalizar magia lunar cuando asumas una forma de Forma Salvaje, otorgándote los beneficios que se indican a continuación.</p><p><strong>Valor de Desafío.</strong> El Valor de Desafío máximo para la forma es igual a tu nivel de druida dividido por 3 (redondea hacia abajo, actualmente [[(floor(@classes.druid.levels / 3))]]).</p><p><strong>Clase de Armadura.</strong> Hasta que abandones la forma, tu CA es igual a 13 más tu modificador de Sabiduría si ese total es mayor que la CA de la Bestia.</p><p><strong>Puntos de Golpe Temporales.</strong> Ganas una cantidad de puntos de golpe temporales igual a tres veces tu nivel de druida.</p><section class=\"secret\" id=\"secret-mYCNakmKwUlKSQaF\"><p><strong>Nota Foundry</strong></p><p>Este rasgo puede usarse en lugar de Forma Salvaje e incluye las opciones expandidas y los cambios de CA/Puntos de Golpe Temporales.</p></section>",
+      "activities": {
+        "transform": {
+          "profiles": {
+            "Circle Form Options": {
+              "name": "Opciones de Forma de Círculo"
+            }
+          }
+        }
+      }
+    },
+    "Circle of the Land": {
+      "name": "Círculo de la Tierra",
+      "description": "<blockquote><p>Celebra el vínculo con el mundo natural.</p></blockquote><p>El círculo de la tierra se compone de místicos y sabios que custodian ritos y conocimientos antiguos. Estos druidas se reúnen en torno a círculos sagrados de árboles o menhires para susurrar secretos primordiales en lengua druídica. Los miembros más sabios del círculo son los sumos sacerdotes de sus comunidades.</p>",
+      "advancement": {
+        "Subclass Features": {
+          "title": "Rasgos de Subclase"
+        },
+        "Lands Aid Damage": {
+          "title": "Daño de Ayuda de la Tierra"
+        }
+      }
+    },
+    "Circle of the Land Spells": {
+      "name": "Conjuros del Círculo de la Tierra",
+      "description": "<p>Siempre que finalices un Descanso Largo, elige un tipo de tierra: árida, polar, templada o tropical. Consulta la tabla que corresponda al tipo elegido; tienes preparados los conjuros listados para tu nivel de druida e inferiores.</p><table><caption>Tierra Árida</caption><thead><tr><td>Nivel de Druida</td><td>Conjuros de Círculo</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBlur000000]{Desenfocar}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBurningHan]{Manos Ardientes}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireBolt00]{Proyectil de Fuego}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{Bola de Fuego}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBlight0000]{Marchitar}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofSton]{Muro de Piedra}</td></tr></tbody></table><table><caption>Tierra Polar</caption><thead><tr><td>Nivel de Druida</td><td>Conjuros de Círculo</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFogCloud00]{Nube de Niebla}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{Inmovilizar Persona}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofFrost]{Rayo de Escarcha}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSleetStorm]{Tormenta de Aguanieve}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIceStorm00]{Tormenta de Hielo}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConeofCold]{Cono de Frío}</td></tr></tbody></table><table><caption>Tierra Templada</caption><thead><tr><td>Nivel de Druida</td><td>Conjuros de Círculo</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Paso Brumoso}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShockingGr]{Agarre Electrizante}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSleep00000]{Dormir}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLightningB]{Relámpago}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM]{Libertad de Movimiento}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTreeStride]{Paso Arbóreo}</td></tr></tbody></table><table><caption>Tierra Tropical</caption><thead><tr><td>Nivel de Druida</td><td>Conjuros de Círculo</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAcidSplash]{Salpicadura Ácida}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn]{Rayo de Enfermedad}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWeb0000000]{Telaraña}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStinkingCl]{Nube Apestosa}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPolymorph0]{Polimorfar}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInsectPlag]{Plaga de Insectos}</td></tr></tbody></table><section class=\"secret\" id=\"secret-0B8V69GLRm5swkth\"><p><strong>Nota Foundry</strong></p><p>Este rasgo no automatiza el intercambio entre opciones de conjuros preparados.</p></section>"
+    },
+    "Circle of the Moon": {
+      "name": "Círculo de la Luna",
+      "description": "<blockquote><p>Adopta formas de animales para proteger la naturaleza.</p></blockquote><p>Los druidas del círculo de la luna utilizan la magia lunar para transformarse. Su orden se reúne bajo la luz de la luna para intercambiar noticias y realizar ritos.</p><p>Los druidas de este círculo son tan mutables como la propia luna y podrían acechar bajo la forma de grandes felinos una noche, sobrevolar las copas de los árboles como águilas al día siguiente y luego abrirse paso por el sotobosque convertidos en osos para expulsar a un monstruo invasor. La naturaleza salvaje recorre las venas de estos druidas.</p>",
+      "advancement": {
+        "Subclass Features": {
+          "title": "Rasgos de Subclase"
+        },
+        "Circle of the Moon Spells": {
+          "title": "Conjuros del Círculo de la Luna"
+        }
+      }
+    },
+    "Circle of the Moon Spells": {
+      "name": "Conjuros del Círculo de la Luna",
+      "description": "<p>Cuando alcances un nivel de druida especificado en la tabla \"Conjuros del círculo de la luna\", a partir de entonces siempre tendrás preparados los conjuros que se indican.</p><p>Además, puedes lanzar los conjuros de este rasgo mientras utilizas tu Forma Salvaje.</p><table><caption>Conjuros del Círculo de la Luna</caption><thead><tr><td>Nivel de Druida</td><td>Conjuros Preparados</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds]{Curar Heridas}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMoonbeam00]{Rayo de Luna}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStarryWisp]{Voluta Estelar}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConjureAni]{Invocar Animales}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFountofMoo]{Fuente de Luz Lunar}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMassCureWo]{Curar Heridas en Masa}</td></tr></tbody></table>"
+    },
+    "Circle of the Sea": {
+      "name": "Círculo del Mar",
+      "description": "<blockquote><p>Fúndete con las mareas y las tormentas.</p></blockquote><p>Los druidas del círculo del mar utilizan las fuerzas tempestuosas de los océanos y las tormentas. Algunos se ven a sí mismos como encarnaciones de la ira de la naturaleza que pretenden vengarse de quienes expolian la naturaleza. Otros buscan la unidad mística con la naturaleza armonizándose con el flujo y reflujo de las mareas, siguiendo el curso de las corrientes y olas y escuchando los susurros y rugidos inescrutables de los vientos.</p>",
+      "advancement": {
+        "Subclass Features": {
+          "title": "Rasgos de Subclase"
+        },
+        "Circle of the Sea Spells": {
+          "title": "Conjuros del Círculo del Mar"
+        },
+        "Wrath of the Sea Range": {
+          "title": "Alcance de la Ira del Mar"
+        }
+      }
+    },
+    "Circle of the Sea Spells": {
+      "name": "Conjuros del Círculo del Mar",
+      "description": "<p>Cuando alcances un nivel de druida especificado en la tabla \"Conjuros del círculo del mar\", a partir de entonces siempre tendrás preparados los conjuros que se indican.</p><table><caption>Conjuros del Círculo del Mar</caption><thead><tr><td>Nivel de Druida</td><td>Conjuros Preparados</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFogCloud00]{Nube de Niebla}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Ráfaga de Viento}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRayofFrost]{Rayo de Escarcha}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShatter000]{Romper}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThunderwav]{Onda Tronad ora}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLightningB]{Relámpago}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWaterBreat]{Respirar Agua}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplControlWat]{Controlar Agua}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIceStorm00]{Tormenta de Hielo}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConjureEle]{Invocar Elemental}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldMonste]{Inmovilizar Monstruo}</td></tr></tbody></table>"
+    },
+    "Circle of the Stars": {
+      "name": "Círculo de las Estrellas",
+      "description": "<blockquote><p>Utiliza los secretos ocultos en las constelaciones.</p></blockquote><p>El círculo de las estrellas lleva estudiando los patrones celestes desde tiempos inmemoriales para descubrir los secretos ocultos entre las constelaciones. Mediante la comprensión de dichos secretos, los druidas de este círculo aspiran a acceder a los poderes del cosmos.</p>",
+      "advancement": {
+        "Subclass Features": {
+          "title": "Rasgos de Subclase"
+        },
+        "Star Map: Guidance": {
+          "title": "Mapa Estelar: Guía",
+          "hint": "Este conjuro solo puede usarse cuando tienes un Mapa Estelar."
+        },
+        "Star Map: Guiding Bolt": {
+          "title": "Mapa Estelar: Proyectil Guiado",
+          "hint": "Este conjuro solo puede usarse cuando tienes un Mapa Estelar."
+        },
+        "Starry Form Die": {
+          "title": "Dado de Forma Estelar"
+        }
+      }
+    },
+    "Clairvoyant Combatant": {
+      "name": "Combatiente Clarividente",
+      "description": "<p>Cuando formas un vínculo telepático con una criatura usando tu Mente Despierta, puedes forzar a esa criatura a realizar una tirada de salvación de Sabiduría contra tu CD de salvación de conjuros. Si falla la salvación, la criatura tiene desventaja en las tiradas de ataque contra ti y tú tienes ventaja en las tiradas de ataque contra esa criatura durante la duración del vínculo.</p><p>Una vez uses este rasgo, no podrás usarlo de nuevo hasta que finalices un Descanso Corto o Largo a menos que gastes un espacio de conjuro de Magia de Pacto (no requiere acción) para restaurar su uso.</p><section class=\"secret\" id=\"secret-MrXcYF7ER0OTT4q2\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Salvación</strong> incluye un Efecto Activo que puede usarse para rastrear la desventaja, pero no automatiza la ventaja/desventaja.</p><p>La actividad <strong>Recuperar Uso</strong> deducirá un espacio de conjuro de Magia de Pacto y restaurará un uso de este rasgo.</p></section>",
+      "activities": {
+        "save": {
+          "condition": "Cuando formas un vínculo telepático usando Mente Despierta"
+        },
+        "Regain Use": {
+          "name": "Recuperar Uso"
+        }
+      },
+      "effects": {
+        "Clairvoyant Combatant": {
+          "name": "Combatiente Clarividente"
+        }
+      }
+    },
+    "Cleric": {
+      "name": "Clérigo",
+      "description": "<blockquote><p>Un sacerdote milagroso de poder divino</p></blockquote><h3>Atributos Básicos de Clérigo</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p>Característica Principal</p></th><td><p>Sabiduría</p></td></tr><tr><th scope=\"row\"><p>Dado de Puntos de Golpe</p></th><td><p>D8 por nivel de clérigo</p></td></tr><tr><th scope=\"row\"><p>Competencias en Tiradas de Salvación</p></th><td><p>Sabiduría y Carisma</p></td></tr><tr><th scope=\"row\"><p>Competencias en Habilidades</p></th><td><p><em>Elige 2:</em> Historia, Perspicacia, Medicina, Persuasión o Religión</p></td></tr><tr><th scope=\"row\"><p>Competencias con Armas</p></th><td><p>Armas sencillas</p></td></tr><tr><th scope=\"row\"><p>Entrenamiento con Armaduras</p></th><td><p>Armaduras ligeras y medias y escudos</p></td></tr><tr><th scope=\"row\"><p>Equipo Inicial</p></th><td><p><em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmChainShirt]{Camisote de Mallas}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbarmShield0000]{Escudo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepMace000000]{Maza}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagHolySymbolV]{Símbolo Sagrado}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPriestsPack]{Paquete de Sacerdote}, y [[/award 7GP]]; o (B) [[/award 110GP]]</p></td></tr></tbody></table><p>Los clérigos extraen poder de los reinos de los dioses y lo canalizan para hacer milagros. Bendecido por una deidad, un panteón u otra entidad inmortal, un clérigo puede alcanzar la magia divina de los Planos Exteriores —donde moran los dioses— y canalizarla para fortalecer a las personas y combatir enemigos.</p><p>Debido a que su poder es un regalo divino, los clérigos típicamente se asocian con templos dedicados a la deidad u otra fuerza inmortal que desblqueó su magia. Canalizar magia divina no depende de un entrenamiento específico, aunque los clérigos podrían aprender oraciones y ritos que ayuden a extraer poder de los Planos Exteriores.</p><p>No todos los miembros de un templo o santuario son clérigos. Algunos sacerdotes son llamados a una vida simple de servicio al templo, llevando a cabo su devoción a través de oración y rituales, no a través de magia. Muchos mortales dicen hablar por los dioses, pero pocos pueden reunir el poder de esos dioses como lo hace un clérigo.</p><h2>Convertirse en Clérigo …</h2><h3>Como Personaje de Nivel 1</h3><ul><li>Obtén todos los atributos de la tabla de Atributos Básicos de Clérigo.</li><li>Obtén los rasgos de nivel 1 de clérigo, que se listan en la tabla de Rasgos de Clérigo.</li></ul><h3>Como Personaje Multiclase</h3><ul><li>Obtén los siguientes atributos de la tabla de Atributos Básicos de Clérigo: Dado de Puntos de Golpe y entrenamiento con armaduras ligeras y medias y escudos.</li><li>Obtén los rasgos de nivel 1 de clérigo, que se listan en la tabla de Rasgos de Clérigo. Consulta las reglas de multiclase en el capítulo 2 para determinar tus espacios de conjuro disponibles.</li></ul>",
+      "advancement": {
+        "Class Features": {
+          "title": "Rasgos de Clase"
+        },
+        "Channel Divinity Uses": {
+          "title": "Usos de Canalizar Divinidad"
+        },
+        "Max Prepared Spells": {
+          "title": "Conjuros Máximos Preparados"
+        },
+        "Cantrips Known": {
+          "title": "Trucos Conocidos"
+        },
+        "Blessed Strikes": {
+          "title": "Golpes Benditos"
+        },
+        "Divine Order Choice": {
+          "title": "Elección de Orden Divino",
+          "hint": "Te has dedicado a uno de los siguientes roles sagrados de tu elección."
+        },
+        "Blessed Strikes Choice": {
+          "title": "Elección de Golpes Benditos",
+          "hint": "El poder divino te infunde en batalla. Obtienes una de las siguientes opciones de tu elección (si obtienes cualquiera de las opciones de una subclase de Clérigo de un libro anterior, usa solo la opción que eliges para este rasgo)."
+        },
+        "Divine Strike": {
+          "title": "Golpe Divino"
+        },
+        "Saving Throw Proficiencies": {
+          "title": "Competencias en Tiradas de Salvación"
+        },
+        "Skill Proficiencies": {
+          "title": "Competencias en Habilidades"
+        },
+        "Weapon Proficiencies": {
+          "title": "Competencias con Armas"
+        },
+        "Armor Training": {
+          "title": "Entrenamiento con Armaduras"
+        },
+        "Epic Boon": {
+          "title": "Don Épico"
+        }
+      }
+    },
+    "Cloak of Shadows": {
+      "name": "Manto de Sombras",
+      "description": "<p>Como acción de magia mientras estés completamente en luz tenue u oscuridad, puedes gastar 3 puntos de concentración para envolverte en sombras durante 1 minuto, hasta que tengas el estado de Incapacitado o hasta que termines tu turno en luz brillante. Mientras estés envuelto por estas sombras, obtienes los siguientes beneficios.</p><p><strong>Invisibilidad.</strong> Tienes el estado de Invisible.</p><p><strong>Parcialmente Incorpóreo.</strong> Puedes moverte a través de espacios ocupados como si fueran terreno difícil. Si terminas tu turno en un espacio así, eres empujado al último espacio desocupado en el que estuviste.</p><p><strong>Ráfaga de Sombras.</strong> Puedes usar tu Ráfaga de Golpes sin gastar ningún punto de concentración.</p><section id=\"secret-B7g3P8lqK1P97klf\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que aplicará el estado de Invisible.</p></section>",
+      "activities": {
+        "Shroud": {
+          "name": "Envolver",
+          "condition": "Mientras estés completamente en luz tenue u oscuridad"
+        }
+      },
+      "effects": {
+        "Cloak of Shadows": {
+          "name": "Manto de Sombras"
+        }
+      }
+    },
+    "Clockwork Cavalcade": {
+      "name": "Cabalgata Mecánica",
+      "description": "<p>Invocas momentáneamente espíritus del orden para expurgar el desorden a tu alrededor. Como acción de magia, invocas los espíritus en un cubo de 9m (30ft) que se origina de ti. Los espíritus parecen modrones u otros Constructos de tu elección. Los espíritus son intangibles e invulnerables, y crean los efectos que se indican a continuación dentro del cubo antes de desvanecerse. Una vez uses esta acción, no podrás usarla de nuevo hasta que finalices un Descanso Largo a menos que gastes 7 puntos de hechicería (no requiere acción) para restaurar su uso.</p><p><strong>Curar.</strong> Los espíritus restauran hasta 100 puntos de golpe, divididos como elijas entre cualquier número de criaturas de tu elección en el cubo.</p><p><strong>Reparar.</strong> Cualquier objeto dañado completamente en el cubo se repara instantáneamente.</p><p><strong>Disipar.</strong> Todos los conjuros de nivel 6 e inferior terminan en criaturas y objetos de tu elección en el cubo.</p><section id=\"secret-wH5odny5bILRv7eY\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Cabalgata (Gratis)</strong> incluye un uso gratuito y la actividad <strong>Cabalgata (Puntos de Hechicería)</strong> gasta el número correcto de puntos de hechicería. Ambas incluyen una plantilla para rastrear el área impactada.</p></section>",
+      "activities": {
+        "Cavalcade (Free)": {
+          "name": "Cabalgata (Gratis)"
+        },
+        "Cavalcade (Sorcery Points)": {
+          "name": "Cabalgata (Puntos de Hechicería)"
+        }
+      }
+    },
+    "Clockwork Sorcery": {
+      "name": "Hechicería Mecánica",
+      "description": "<blockquote><p>Canaliza las fuerzas cósmicas del orden.</p></blockquote><p>La fuerza cósmica del orden te ha imbuido de magia. Ese poder surge de Mechanus o un reino como él —un plano de existencia moldeado enteramente por eficiencia de relojería. Tú o alguien de tu linaje podría haberse enredado en las maquinaciones de los modrones, los seres ordenados que habitan Mechanus. Quizás tu ancestro incluso participó en la Gran Marcha de los Modrones. Cualquiera que sea su origen dentro de ti, el poder del orden puede parecer extraño para otros, pero para ti, es parte de un vasto y glorioso sistema.</p>",
+      "advancement": {
+        "Subclass Features": {
+          "title": "Rasgos de Subclase"
+        },
+        "Clockwork Spells": {
+          "title": "Conjuros Mecánicos",
+          "hint": "Cuando alcances un nivel de Hechicero especificado en la tabla de Conjuros Mecánicos, a partir de entonces siempre tendrás preparados los conjuros listados."
+        }
+      }
+    },
+    "Clockwork Spells": {
+      "name": "Conjuros Mecánicos",
+      "description": "<p>Cuando alcances un nivel de Hechicero especificado en la tabla de Conjuros Mecánicos, a partir de entonces siempre tendrás preparados los conjuros listados.</p><table><caption>Conjuros Mecánicos</caption><thead><tr><td>Nivel de Hechicero</td><td>Conjuros</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAid0000000]{Ayuda}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAlarm00000]{Alarma}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest]{Restauración Menor}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbEvilAndGoodPr]{Protección contra el Bien y el Mal}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Disipar Magia}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbProtectionFro]{Protección contra Energía}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM]{Libertad de Movimiento}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonCons]{Invocar Constructo}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Restauración Mayor}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofForc]{Muro de Fuerza}</td></tr></tbody></table><p>Además, consulta la tabla de Manifestaciones del Orden y elige o determina aleatoriamente una forma en que tu conexión con el orden se manifiesta mientras lanzas cualquiera de tus conjuros de Hechicero.</p><p>@Embed[Compendium.dnd-players-handbook.tables.RollTable.phbManifestation rollable caption=false]</p><section class=\"secret\" id=\"secret-bh8NWt7XSuwLjVsa\"><p><strong>Nota Foundry</strong></p><p>Los conjuros se otorgarán automáticamente a medida que subas de nivel.</p></section>"
+    },
+    "College of Dance": {
+      "name": "Colegio de la Danza",
+      "description": "<blockquote><p>Muévete en armonía con el cosmos.</p></blockquote><p>Los bardos del colegio de la danza saben que las palabras de creación no pueden encerrarse en un discurso o una canción: las palabras se pronuncian a través del desplazamiento de los cuerpos celestes y fluyen por los movimientos de las criaturas menores. Estos bardos practican una forma de permanecer en armonía con la vorágine del cosmos que enfatiza la agilidad, la velocidad y la elegancia.</p>",
+      "advancement": {
+        "Subclass Features": {
+          "title": "Rasgos de Subclase"
+        },
+        "Dazzling Footwork": {
+          "title": "Juego de Pies Deslumbrante",
+          "hint": "Este ataque sin armas usa Destreza o Fuerza (la que sea mayor) y usa tu dado de Inspiración Bárdica para el daño en lugar del daño normal."
+        }
+      }
+    },
+    "College of Glamour": {
+      "name": "Colegio del Glamour",
+      "description": "<blockquote><p>Urde la magia cautivadora de los feéricos.</p></blockquote><p>El colegio del glamour se originó con la magia cautivadora de los Parajes Feéricos. Los bardos que estudian esta magia tejen hilos de belleza y terror en sus canciones e historias y los más poderosos de ellos pueden envolverse en una majestuosidad sobrenatural. Sus actuaciones suscitan el anhelo nostálgico de una inocencia olvidada, evocan los recuerdos inconscientes de temores arraigados y apelan a las emociones incluso de los oyentes más insensibles.</p>",
+      "advancement": {
+        "Subclass Features": {
+          "title": "Rasgos de Subclase"
+        },
+        "Beguiling Magic": {
+          "title": "Magia Cautivadora"
+        },
+        "Mantle of Majesty": {
+          "title": "Manto de Majestuosidad"
+        }
+      }
+    },
+    "College of Lore": {
+      "name": "Colegio del Conocimiento",
+      "description": "<blockquote><p>Explora las profundidades del conocimiento mágico.</p></blockquote><p>Los bardos del colegio del conocimiento recaban conjuros y secretos de diversas fuentes, como tratados intelectuales, ritos místicos y cuentos de campesinos. Los miembros del colegio se reúnen en bibliotecas y universidades para intercambiar sus conocimientos. También se encuentran en festivales o reuniones de Estado, donde pueden sacar a la luz casos de corrupción, desvelar mentiras o reírse de los vanidosos representantes de la autoridad.</p>",
+      "advancement": {
+        "Subclass Features": {
+          "title": "Rasgos de Subclase"
+        },
+        "Bonus Proficiencies": {
+          "title": "Competencias Adicionales"
+        }
+      }
+    },
+    "College of Valor": {
+      "name": "Colegio del Valor",
+      "description": "<blockquote><p>Canta las hazañas de los héroes de antaño.</p></blockquote><p>Los bardos del colegio del valor son narradores osados cuyos relatos conservan el recuerdo de los grandes héroes del pasado. Estos bardos cantan las hazañas de sus ídolos en salones abovedados o ante un público reunido en torno a refulgentes hogueras. Viajan para presenciar los grandes acontecimientos de primera mano y asegurarse de que su recuerdo no cae en el olvido. Con sus canciones, inspiran a las nuevas generaciones a lograr hitos similares a los de los héroes de antaño.</p>",
+      "advancement": {
+        "Subclass Features": {
+          "title": "Rasgos de Subclase"
+        },
+        "Martial Training": {
+          "title": "Entrenamiento Marcial"
+        }
+      }
+    },
+    "Combat Inspiration": {
+      "name": "Inspiración en Combate",
+      "description": "<p>Puedes emplear tu ingenio para cambiar las tornas de la batalla. Una criatura que tenga uno de tus dados de Inspiración bárdica podrá usarlo para lograr uno de los siguientes efectos.</p><p><strong>Defensa.</strong> Cuando una tirada de ataque acierte a la criatura, esta podrá usar su reacción para tirar el dado de Inspiración bárdica y sumar el número obtenido a su CA contra ese ataque, lo que podría hacer que el ataque falle.</p><p><strong>Ataque.</strong> Inmediatamente después de que la criatura acierte a un objetivo con una tirada de ataque, la criatura puede tirar el dado de Inspiración bárdica y sumar el número obtenido al daño del ataque contra el objetivo.</p>"
+    },
+    "Combat Superiority": {
+      "name": "Supremacía en Combate",
+      "description": "<p>Tu experiencia en el campo de batalla ha refinado tus técnicas de combate. Aprendes maniobras que se alimentan de dados especiales llamados Dados de Superioridad.</p><p><strong>Maniobras.</strong> Aprendes tres maniobras de tu elección de la sección @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFighter000000.JournalEntryPage.Ihf36UhEn91djWwP]{Opciones de Maniobra}. Muchas maniobras mejoran un ataque de alguna manera. Solo puedes usar una maniobra por ataque.</p><p>Aprendes dos maniobras adicionales de tu elección cuando alcanzas los niveles 7, 10 y 15 de guerrero. Cada vez que aprendas nuevas maniobras, también puedes reemplazar una maniobra que conozcas por otra diferente.</p><p><strong>Dados de Superioridad.</strong> Tienes cuatro Dados de Superioridad, que son d8. Un Dado de Superioridad se gasta cuando lo usas. Recuperas todos los Dados de Superioridad gastados cuando finalizas un Descanso Corto o Largo.</p><p>Ganas un Dado de Superioridad adicional cuando alcanzas los niveles 7 de guerrero (cinco dados en total) y 15 (seis dados en total).</p><p><strong>Tiradas de Salvación.</strong> Si una maniobra requiere una tirada de salvación, la CD es igual a 8 más tu modificador de Fuerza o Destreza (a tu elección) y bonificador de competencia.</p><section class=\"secret\" id=\"secret-kj8nFLNQjP133Uoq\"><p><strong>Nota Foundry</strong></p><p>Tus Dados de Superioridad aumentarán automáticamente en cantidad y tipo de dado a medida que subas de nivel.</p></section>"
+    },
+    "Commander's Strike": {
+      "name": "Golpe del Comandante",
+      "description": "<p>Cuando realizas la acción de Ataque en tu turno, puedes reemplazar uno de tus ataques para dirigir a uno de tus compañeros a atacar. Cuando lo haces, elige una criatura dispuesta que pueda verte u oírte y gasta un Dado de Superioridad. Esa criatura puede usar inmediatamente su reacción para hacer un ataque con un arma o un Ataque sin Armas, añadiendo el Dado de Superioridad a la tirada de daño del ataque si acierta.</p><section id=\"secret-0pos4GeVt9Zi2UX5\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Ataque Dirigido</strong> te permite seleccionar el tipo de daño que debe causar en el diálogo de tirada.</p></section>",
+      "activities": {
+        "Directed Attack": {
+          "name": "Ataque Dirigido",
+          "condition": "Cuando realizas la acción de Ataque en tu turno"
+        }
+      }
+    },
+    "Commanding Presence": {
+      "name": "Presencia Dominante",
+      "description": "<p>Cuando realizas una prueba de Carisma (Intimidación, Interpretación o Persuasión), puedes gastar un Dado de Superioridad y añadir ese dado a la tirada.</p>",
+      "activities": {
+        "utility": {
+          "roll": "Bono",
+          "condition": "Cuando realizas una prueba de Carisma (Intimidación, Interpretación o Persuasión)"
+        }
+      }
+    },
+    "Contact Patron": {
+      "name": "Contactar con el Patrón",
+      "description": "<p>En el pasado, normalmente contactabas con tu patrón a través de intermediarios. Ahora puedes comunicarte directamente; siempre tienes preparado el conjuro @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplContactOth]{Contactar con Otro Plano}. Con este rasgo, puedes lanzar el conjuro sin gastar un espacio de conjuro para contactar con tu patrón, y automáticamente tienes éxito en la tirada de salvación del conjuro.</p><p>Una vez lances el conjuro con este rasgo, no podrás hacerlo de esta manera de nuevo hasta que finalices un Descanso Largo.</p><section class=\"secret\" id=\"secret-ZobRIiK6iB3SlCis\"><p><strong>Nota Foundry</strong></p><p>El conjuro se te otorga automáticamente en este nivel con un uso gratuito.</p></section>"
+    },
+    "Controlled Chaos": {
+      "name": "Caos Controlado",
+      "description": "<p>Obtienes un mínimo de control sobre los estallidos de tu magia salvaje. Siempre que tires en la tabla @UUID[Compendium.dnd-players-handbook.tables.RollTable.phbWildMagicSurg]{Oleada de Magia Salvaje}, puedes tirar dos veces y usar cualquiera de los dos números.</p>"
+    },
+    "Corona of Light": {
+      "name": "Corona de Luz",
+      "description": "<p>Como acción de magia, haces que emanes un aura de luz solar que dura 1 minuto o hasta que la descartes (no requiere acción). Emites luz brillante en un radio de 18m (60ft) y luz tenue en 9m (30ft) adicionales. Tus enemigos en la luz brillante tienen desventaja en las tiradas de salvación contra tu Resplandor del Alba y cualquier conjuro que cause daño de Fuego o Radiante.</p><p>Puedes usar este rasgo una cantidad de veces igual a tu modificador de Sabiduría (mínimo una vez), y recuperas todos los usos gastados cuando finalizas un Descanso Largo.</p><section class=\"secret\" id=\"secret-4qUkzR393EmbQxig\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una plantilla de objetivo de 18m para rastrear la luz brillante emitida y un Efecto Activo para marcar criaturas afectadas, pero no automatiza la desventaja.</p></section>",
+      "activities": {
+        "Emit Aura of Sunlight": {
+          "name": "Emitir Aura de Luz Solar"
+        }
+      },
+      "effects": {
+        "Corona of Light": {
+          "name": "Corona de Luz"
+        }
+      }
+    },
+    "Cosmic Omen": {
+      "name": "Presagio Cósmico",
+      "description": "<p>Siempre que finalices un Descanso Largo, puedes consultar tu Mapa Estelar en busca de presagios y tirar un dado. Hasta que finalices tu siguiente Descanso Largo, obtienes acceso a una reacción especial basada en si obtuviste un número par o impar en el dado:</p><p><strong>Dicha (Par).</strong> Siempre que una criatura que puedas ver a 9m (30ft) o menos de ti esté a punto de hacer una Prueba d20, puedes usar una reacción para tirar 1d6 y sumar el número obtenido al total.</p><p><strong>Desgracia (Impar).</strong> Siempre que una criatura que puedas ver a 9m (30ft) o menos de ti esté a punto de hacer una Prueba d20, puedes usar una reacción para tirar 1d6 y restar el número obtenido del total.</p><p>Puedes usar esta reacción una cantidad de veces igual a tu modificador de Sabiduría (mínimo una vez), y recuperas todos los usos gastados cuando finalizas un Descanso Largo.</p><section class=\"secret\" id=\"secret-4KkQJd5AOz4q4G76\"><p><strong>Nota Foundry</strong></p><p>Las actividades <strong>Dicha</strong> y <strong>Desgracia</strong> consumirán un uso de este rasgo y proporcionarán una tirada de Sumar o Restar.</p></section>",
+      "activities": {
+        "Weal (Even)": {
+          "name": "Dicha (Par)",
+          "roll": "Sumar",
+          "condition": "Siempre que una criatura que puedas ver a 9m o menos esté a punto de hacer una Prueba d20"
+        },
+        "Woe (Odd)": {
+          "name": "Desgracia (Impar)",
+          "roll": "Restar",
+          "condition": "Siempre que una criatura que puedas ver a 9m o menos de ti esté a punto de hacer una Prueba d20"
+        }
+      }
+    },
+    "Countercharm": {
+      "name": "Contraencantamiento",
+      "description": "<p>Puedes usar notas musicales o palabras de poder para interrumpir efectos que influyen en la mente. Si tú o una criatura a 9m (30ft) o menos de ti falla una tirada de salvación contra un efecto que aplica el estado de Hechizado o Asustado, puedes usar una reacción para hacer que se repita la salvación, y la nueva tirada tiene ventaja.</p>",
+      "activities": {
+        "utility": {
+          "condition": "Tú o una criatura a 9m o menos de ti falla una tirada de salvación contra un efecto que aplica el estado de Hechizado o Asustado"
+        }
+      }
+    },
+    "Create Thrall": {
+      "name": "Crear Esclavo",
+      "description": "<p>Puedes lanzar @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber]{Invocar Aberración}, puedes modificarlo para que no requiera concentración. Si lo haces, la duración del conjuro se convierte en 1 minuto para ese lanzamiento, y cuando se invoca, la Aberración tiene una cantidad de puntos de golpe temporales igual a tu nivel de brujo más tu modificador por Carisma.</p><p>Además, la primera vez en cada turno que la Aberración golpee a una criatura bajo el efecto de tu <em>Maleficio</em>, la Aberración causa daño psíquico extra al objetivo igual al daño de bonificación de ese conjuro.</p><section class=\"secret\" id=\"secret-vKu1iYvn77Ozv6N2\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Daño de Maleficio</strong> incluye el daño extra.</p><p>La actividad <strong>PG Temporales del Esclavo</strong> incluye los PG Temporales para aplicar a tu Esclavo cuando lo invoques sin concentración.</p><p>El conjuro se otorga automáticamente a medida que subes de nivel.</p></section>",
+      "activities": {
+        "Hex Damage": {
+          "name": "Daño de Maleficio",
+          "condition": "Cuando tu esclavo golpea a una criatura bajo el efecto de tu Maleficio"
+        },
+        "Thrall Temporary HP": {
+          "name": "PG Temporales del Esclavo",
+          "condition": "Cuando lanzas Maleficio sin concentración"
+        }
+      }
+    },
+    "Cunning Action": {
+      "name": "Acción Astuta",
+      "description": "<p>Tu agilidad mental y tu rapidez te permiten moverte y actuar con presteza. En tu turno, puedes llevar a cabo una de las siguientes acciones como acción adicional: &Reference[Correr], &Reference[Destrabarse] o &Reference[Esconderse].</p>",
+      "activities": {
+        "Dash": {
+          "name": "Correr"
+        },
+        "Disengage": {
+          "name": "Destrabarse"
+        },
+        "Hide": {
+          "name": "Esconderse"
+        }
+      },
+      "effects": {
+        "Hiding": {
+          "name": "Escondiéndose"
+        }
+      }
+    },
+    "Cunning Strike": {
+      "name": "Golpe Astuto",
+      "description": "<p>Has desarrollado formas astutas de usar tu Ataque Furtivo. Cuando infliges daño de Ataque Furtivo, puedes añadir uno de los siguientes efectos de Golpe Astuto. Cada uno tiene un coste en dados que es la cantidad de dados de daño de Ataque Furtivo a los que debes renunciar para añadir el efecto. Retiras la cantidad de dados antes de tirar y el efecto se produce inmediatamente después de que se cause el daño del ataque. Por ejemplo, si añades el efecto de veneno, quita 1d6 del daño de Ataque Furtivo antes de tirar.</p><p>Si un efecto de Golpe Astuto requiere una tirada de salvación, la CD es igual a 8 más tu modificador de Destreza y bonificador de competencia.</p><p><strong>Veneno (Coste: 1d6).</strong> Añades una toxina a tu golpe, forzando al objetivo a realizar una tirada de salvación de Constitución. Si falla la salvación, el objetivo tiene el estado de &Reference[Envenenado] durante 1 minuto. Al final de cada uno de sus turnos, el objetivo envenenado repite la salvación, terminando el efecto en sí mismo si tiene éxito.</p><p>Para usar este efecto, debes tener un kit de envenenador en tu persona.</p><p><strong>Tropezar (Coste: 1d6).</strong> Si el objetivo es Grande o menor, debe tener éxito en una tirada de salvación de Destreza o tener el estado de &Reference[Derribado].</p><p><strong>Retirarse (Coste: 1d6).</strong> Inmediatamente después del ataque, te mueves hasta la mitad de tu velocidad sin provocar ataques de oportunidad.</p><section class=\"secret\" id=\"secret-kCs7nMVrTvJRlkCy\"><p><strong>Nota Foundry</strong></p><p>Después de usar los efectos de Golpe Astuto, usa la actividad <strong>Ataque Furtivo Astuto</strong> en este rasgo. Te pedirá que selecciones cuántos dados gastaste en efectos y los deducirá de tu tirada de Ataque Furtivo automáticamente.</p><p>Puedes seleccionar el tipo de daño en el diálogo de tirada de daño.</p><p>La actividad <strong>Veneno</strong> incluye un Efecto Activo que aplica el estado de Envenenado.</p><p>La actividad <strong>Tropezar</strong> incluye un Efecto Activo que aplica el estado de Derribado o puedes usar la referencia en línea anterior.</p></section>",
+      "activities": {
+        "Poison": {
+          "name": "Veneno",
+          "condition": "Cuando infliges daño de Ataque Furtivo"
+        },
+        "Trip": {
+          "name": "Tropezar",
+          "condition": "Cuando infliges daño de Ataque Furtivo"
+        },
+        "Cunning Sneak Attack": {
+          "name": "Ataque Furtivo Astuto",
+          "condition": "Cuando infliges daño de Ataque Furtivo"
+        },
+        "Withdraw": {
+          "name": "Retirarse",
+          "condition": "Cuando infliges daño de Ataque Furtivo"
+        }
+      },
+      "effects": {
+        "Cunning Strike: Poisoned": {
+          "name": "Golpe Astuto: Envenenado",
+          "description": "<p>Si falla la salvación, el objetivo tiene el estado de Envenenado durante 1 minuto.</p>"
+        },
+        "Cunning Strike: Tripped": {
+          "name": "Golpe Astuto: Derribado"
+        }
+      }
+    },
+    "Cutting Words": {
+      "name": "Palabras Cortantes",
+      "description": "<p>Aprendes a usar tu astucia para distraer, confundir y minar la confianza y las aptitudes de los demás de manera sobrenatural. Cuando una criatura que puedas ver a 18m (60ft) o menos de ti haga una tirada de daño o tenga éxito en una prueba de característica o una tirada de ataque, puedes llevar a cabo una reacción para gastar un uso de tu Inspiración Bárdica; tira tu dado de Inspiración Bárdica y resta el número obtenido al resultado de la tirada de la criatura, lo que reducirá el daño o quizá convertirá el éxito en un fallo.</p>",
+      "activities": {
+        "Cut with Words": {
+          "name": "Cortar con Palabras",
+          "roll": "Inspiración Bárdica",
+          "condition": "Criatura que puedes ver a 18m o menos hace una tirada de daño o tiene éxito en una prueba de característica o tirada de ataque"
+        }
+      }
+    },
+    "Barbarian": {
+      "name": "Bárbaro",
+      "description": "<blockquote> <p>Luchadores feroces con una Furia Primigenia</p> </blockquote> <h3>Atríbutos básicos de Bárbaro</h3> <table class=\"core-class-traits\"> <tbody><tr> <th scope=\"row\"> <p>Característica Principal</p> </th> <td> <p>Fuerza</p> </td> </tr><tr> <th> <p><strong>Dado de Puntos de Golpe</strong></p> </th> <td> <p>1d12 por nivel de Bárbaro</p> </td> </tr><tr> <th> <p><strong>Competencias en Tiradas de Salvación</strong></p> </th> <td> <p>Fuerza y Constitución</p> </td> </tr><tr> <th> <p><strong>Competencias en Habilidades</strong></p> </th> <td> <p><em>Elige 2:</em> Atletismo, Intimidación, Naturaleza, Percepción, Supervivencia o Trato con Animales</p> </td> </tr><tr> <th> <p><strong>Competencias con Armas</strong></p> </th> <td> <p>Armas Sencillas y Marciales</p> </td> </tr><tr> <th> <p><strong>Entrenamiento con armadura</strong></p> </th> <td> <p>Armaduras Ligeras y Medias y Escudos</p> </td> </tr><tr> <th> <p><strong>Equipo inicial</strong></p> </th> <td> <p><em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreataxe00]{Hacha a dos manos}, 4 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepHandaxe000]{Hachas de mano}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagExplorersPa]{Paquete de explorador}, y [[/award 15GP]]; o (B) [[/award 75GP]]</p> </td> </tr></tbody> </table> <p>Los bárbaros son poderosos combatientes que se alimentan de las fuerzas primigenias del multiverso que se manifiestan en modo de Furia. No se trata de una simple emoción, ni mucho menos un enfado: esta Furia es el reflejo de la ferocidad de un depredador, la violencia de una tormenta y la agitación de un mar.</p> <p>Algunos Bárbaros conciben su Furia como si fuera un espíritu feroz o un antepasado al que veneran. Otros la ven como una conexión con el dolor y la angustia del mundo, como una maraña impersonal de magia salvaje o como la expresión de su yo más profundo. Para todos los Bárbaros, la Furia es un poder que no sólo aviva su arrojo en la batalla, sino que también afila sus asombrosos reflejos y agudiza sus sentidos.</p> <p>Los bárbaros normalmente actuan como protectores y líderes de sus comunidades, por lo que no dudan en lanzarse al peligro para evitar que sus protegidos tengan que hacerlo. El valor frente a la adversidad los convierte en excelentes aventureros.</p> <h2>Convertirse en un Bárbaro</h2> <h3>Como Personaje de Nivel 1</h3> <ul> <li>Obtienes todos los atributos de la tabla Atributos básicos del bárbaro.</li> <li>Obtienes los rasgos de nivel 1 de bárbaro, que se muestran en la tabla de Rasgos del bárbaro.</li> </ul> <h3>Como Personaje Multiclase</h3> <ul> <li>Obtienes los siguitentes atributos de la tabla de Atributos básicos de bárbaro: Dado de Puntos de Golpe, Competencias con Armas Marciales, y Entrenamiento con Escudos.</li> <li>Obtienes los rasgos de nivel 1 del bárbaro, que se muestran en la tabla Rasgos del bárbaro.</li> </ul>"
+    },
+    "Brutal Strike": {
+      "name": "Golpe Brutal",
+      "description": "<p>Si utilizas [[/item Ataque Temerario]], puedes renunciar a cualquier ventaja en una tirada de ataque de tu elección basada en la Fuerza en tu turno. La tirada de ataque elegida no debe tener desventaja. Si la tirada de ataque elegida acierta, el objetivo sufre [[lookup @scale.barbarian.brutal-strike]] de daño adicional del mismo tipo que inflija el arma o el Ataque sin Armas y puedes causar un efecto de Golpe Brutal de tu elección. Tienes las siguientes opciones de efectos.</p><p><strong>Golpe Enérgico</strong>. El objetivo es empujado 15ft (4,5 m) respecto a ti en línea recta. Luego puedes moverte hasta la mitad de tu velocidad directamente hacia el objetivo sin provocar &Reference[Opportunity Attacks].</p><p><strong>Golpe Ralentizador</strong>. La velocidad del objetivo se reduce en 15ft (4,5 m) hasta el principio de tu siguiente turno. Un objetivo solo puede sufrir un golpe ralentizador cada vez: el más reciente.</p><section class=\"secret\" id=\"secret-vLb1SoKHWW2796Ko\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo para el Golpe Ralentizador el cual puede ser aplicado al objetivo</p><p>El daño escala automáticamente cuando ganas Golpe Brutal Mejora (2).</p></section>"
+    },
+    "Danger Sense": {
+      "name": "Sentir el Peligro",
+      "description": "Eres capaz de percibir de forma casi sobrenatural cuándo las cosas no son como deberían. Gracias a ello, se te da bien evitar el peligro. Tienes ventaja en las Tiradas de Dalvación de Destreza salvo que tengas el estado de &Reference[Incapacitated]."
+    },
+    "Epic Boon": {
+      "name": "Don Épico",
+      "description": "<p>Obtienes una @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{Dote de Don Épico} (consulta el capítulo 5) u otra dote de tu elección para la que cumplas las condiciones.</p>"
+    },
+    "Extra Attack": {
+      "name": "Ataque Adicional",
+      "description": "<p>Cuando lleves a cabo la acción de atacar en tu turno, podrás hacer dos ataques en lugar de uno.</p>"
+    },
+    "Fast Movement": {
+      "name": "Movimiento Rápido",
+      "description": "<p>Tu velocidad aumenta en 10ft (3m) si no llevas armadura pesada.</p><section class=\"secret\" id=\"secret-6cmMiIJhUk5cpOGz\"><p><strong>Nota Foundry</strong></p><p>Este Rasgo incluye un Efecto Activo que automaticamente aumenta la Velocidad de Movimiento. Recuerda desactivar el rasgo si llevas Armadura Pesada.</p></section>"
+    },
+    "Feral Instinct": {
+      "name": "Instinto Salvaje",
+      "description": "<p>Tus instintos están tan afinados que tienes ventaja en las tiradas de iniciativa.</p>"
+    },
+    "Improved Brutal Strike": {
+      "name": "Golpe Brutal Mejorado",
+      "description": "<p>Has perfeccionado tus formas de atacar con fiereza. Entre las opciones de Golpe brutal se encuentran ahora los siguientes efectos:<br></p><p><strong>Golpe abrumador.</strong> El objetivo tiene desventaja en la siguiente tirada de salvación que haga y no puede llevar a cabo ataques de oportunidad hasta el principio de tu siguiente turno.<br></p><p><strong>Golpe desgarrador.</strong> Antes del principio de tu siguiente turno, la próxima tirada de ataque realizada por otra criatura contra el objetivo obtiene un bonificador de +5. Una tirada de ataque puede obtener solo un bonificador de un golpe desgarrador.</p><section class=\"secret\" id=\"secret-5KFPx8fyh5NldmJp\"><p><strong>Nota Foundry</strong></p><p>Este Rasgo incluye una actividad por cada opción que incluyen un Efecto Activo para el seguimiento del Golpe Abrumador y Golpe Desgarrador, pero no automatiza sus efectos.</p></section>"
+    },
+    "Improved Brutal Strike (2)": {
+      "name": "Golpe Brutal Mejorado (2)",
+      "description": "<p>El daño adicional de tu Golpe brutal aumenta a 2d10. Además, puedes utilizar dos efectos diferentes de Golpe Brutal siempre que uses tu rasgo Golpe Brutal.</p><section class=\"secret\" id=\"secret-XCUecJBPB6amtvj9\"><p><strong>Nota Foundry</strong></p><p>La tirada de ataque en Golpe Brutal escala automáticamente para utilizar este nuevo valor.</p></section>"
+    },
+    "Indomitable Might": {
+      "name": "Poderío indómito",
+      "description": "<p>Si tu resultado en una prueba de Fuerza o una tirada de salvación de Fuerza es inferior a tu puntuación de Fuerza, puedes usar esa puntuación en lugar del resultado.</p>"
+    },
+    "Instinctive Pounce": {
+      "name": "Salto Instintivo",
+      "description": "<p>Como parte de la Acción Adicional para dejarte llevar por la Furia, puedes moverte hasta la mitad de tu Velocidad.</p>"
+    },
+    "Persistent Rage": {
+      "name": "Furia Persistente",
+      "description": "<p>Cuando tires Iniciativa, puedes recuperar todos los usos gastados de la Furia. Tras recuperar los usos de la Furia de esta manera, no podrás volver a hacerlo hasta que finalices un Descanso Largo.<br></p><p>Además, tu Furia es tan intensa que ahora dura 10 minutos sin necesidad de hacer nada para prolongarla de un asalto a otro. Tu Furia termina antes si recibes el estado de &Reference[Unconscious] (no solo el de &Reference[Incapacitated]) o te pones una Armadura Pesada.</p><section class=\"secret\" id=\"secret-3IS0iUbWZ04tp74k\"> <p><strong>Nota Foundry</strong></p><p>Este Rasgo incluye una actividad que puede ser usada cuando tires Iniciativa que recargara todos tus usos de Furia</p></section>"
+    },
+    "Primal Champion": {
+      "name": "Campeón Primordial",
+      "description": "<p>Encarnas un poder primigenio. Tus puntuaciones de Fuerza y Constitución aumentan en 4, hasta un máximo de 25.</p>"
+    },
+    "Primal Knowledge": {
+      "name": "Conocimiento Primigenio",
+      "description": "<p>Ganas competencia en otra habilidad de tu elección de la lista de habilidades disponibles para los bárbaros en el nivel 1.</p><p>Además, mientras estés enfurecido, puedes canalizar el poder primigenio cuando intentes determinadas tareas. Siempre que hagas una prueba de característica con una de las siguientes habilidades, podrás hacerla como una prueba de Fuerza, incluso si normalmente utiliza otra característica: Acrobacias, Intimidación, Percepción, Sigilo o Supervivencia. Cuando utilizas esta capacidad, tu Fuerza representa el poder primigenio que fluye por ti y agudiza tu agilidad, porte y sentidos.</p><section class=\"secret\" id=\"secret-himIRZuFGInNkZgU\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que hará que tus características automáticamente utilicen tu modificador de Fuerza si es que es superior a la Puntuación de Habilidad normal asociada a la Habilidad.</p></section>"
+    },
+    "Rage": {
+      "name": "Furia",
+      "description": "<p>Puedes imbuirte de un poder primigenio llamado Furia, que te otorga una fuerza y resistencia extraordinarias. Puedes dejarte llevar por ella como Acción Adicional si no llevas puesta una Armadura Pesada.</p><p><br>Puedes dejarte llevar por la furia tantas veces como se indica para tu nivel de bárbaro en la columna “N.º de furias” de la tabla “Rasgos de bárbaro” (Actualmente [[lookup @scale.barbarian.rages]]). Recuperas uno de los usos gastados tras finalizar un Descanso Corto y todos tras finalizar un Descanso Largo.</p><p> </p><p>Mientras estés enfurecido, usa las siguientes reglas.</p><p><strong>Resistencia al daño</strong>. Tienes resistencia al daño &Reference[bludgeoning], &Reference[slashing] y &Reference[piercing].</p><p><strong>Daño por furia.</strong> Cuando llevas a cabo un ataque que use la Fuerza (ya sea con un Arma o un Ataque sin Armas) y causas daño al objetivo, obtienes un bonificador al daño que aumenta conforme subes de nivel de Bárbaro, como se muestra en la columna “Daño por Furia” de la tabla “Rasgos de Bárbaro”.</p><p><strong>Ventaja en Fuerza.</strong> Tienes ventaja en las pruebas de Fuerza y en las tiradas de salvación de Fuerza.<span> </span></p><p><strong>Sin concentración ni conjuros.</strong> No puedes mantener la Concentración ni lanzar conjuros.</p><p><strong>Duración.</strong> La Furia dura hasta el final de tu siguiente turno y termina antes si te pones una Armadura Pesada o recibes el estado de &Reference[Incapacitated]. Si la Furia sigue activa en tu siguiente turno, puedes prolongarla otro asalto de una de las siguientes formas:</p><ul><li><p>Haces una tirada de ataque contra un enemigo.</p></li><li><p>Obligas a un enemigo a hacer una tirada de salvación.</p></li><li><p>Empleas una acción adicional para prolongar tu furia.</p></li></ul><p>Cada vez que prolongues la Furia, durará hasta el final de tu siguiente turno. Puedes mantener una Furia hasta 10 minutos.</p><section class=\"secret\" id=\"secret-o72MSFMdhSQC7kYa\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que automatiza la Resistencia y Daño Adicional. Además, automatiza la recarga de la Furia usada en un Descanso Corto y Descanso Largo.</p></section>"
+    },
+    "Reckless Attack": {
+      "name": "Ataque Temerario",
+      "description": "<p>Puedes abandonar por completo tu defensa para atacar con una mayor fiereza. Cuando vayas a realizar la primera tirada de ataque de tu turno, puedes decidir Atacar Temerariamente. Si lo haces, tendrás ventaja en las tiradas de ataque que utilicen la Fuerza hasta el principio de tu siguiente turno, pero las tiradas de ataque contra ti también tendrán ventaja durante ese tiempo.</p><section class=\"secret\" id=\"secret-W7MI2ZVKsMQcSW6d\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo para saber si eres temerario o no, pero NO automatiza la Ventaja en tus ataques o en los ataques contra ti.</p></section>"
+    },
+    "Relentless Rage": {
+      "name": "Furia Implacable",
+      "description": "<p>Tu Furia te permite seguir luchando incluso tras sufrir heridas graves. Si tus Puntos de Golpe se reducen a 0 mientras estás Enfurecido, pero no mueres inmediatamente, puedes hacer una tirada de Salvación de Constitución con CD 10. Si la superas, tus Puntos de Golpe pasarán a ser una cantidad igual al doble de tu nivel de Bárbaro.</p><p>Siempre que uses este rasgo después de la primera vez, la CD aumenta en 5. Tras finalizar un Descanso Corto o un Descanso Largo. La CD vuelve a ser 10.</p><section class=\"secret\" id=\"secret-GTpuSHXh1ZobcQYd\"><p><strong>Nota Foundry</strong></p><p>Este rasgo aumentará automáticamente la CD en 5 si consumes el recurso al activarlo. También se restablecerá automáticamente a 10 tras un Descanso Corto o Largo.</p></section>"
+    },
+    "Unarmed Strike": {
+      "name": "Ataque sin Armas",
+      "description": "<p><em>Revisar: &amp;Reference[unarmedstrike]</em></p>",
+      "activities": {
+        "Grapple/Shove": {
+          "name": "Agarre/Empujon"
+        }
+      },
+      "effects": {
+        "Grappled": {
+          "name": "Agarrado"
+        },
+        "Prone": {
+          "name": "Derribado"
+        }
+      }
+    },
+    "Unarmored Defense": {
+      "name": "Defensa sin Armadura",
+      "description": "<p>Mientras no lleves armadura alguna, tu Clase de Armadura base será igual a 10 más tus modificadores por Destreza y Constitución. Obtienes este beneficio aunque lleves un escudo.</p>"
+    },
+    "Weapon Mastery": {
+      "name": "Maestría con Armas",
+      "desciption": "<p>Tu entrenamiento con armas te permite utilizar las propiedades de maestría con dos tipos de Armas Cuerpo a Cuerpo Sencillas o Marciales de tu elección, como las Hachas a dos Manos y las Hachas de Mano. Tras finalizar un Descanso Largo, puedes llevar a cabo ejercicios con armas y cambiar una de dichas elecciones.</p><p>Cuando alcances ciertos niveles de Bárbaro, adquirirás la capacidad de usar las propiedades de maestría con más tipos de armas, como se muestra en la columna “Maestría con Armas” de la tabla “Rasgos de Bárbaro”.</p>"
+    }
+  }
 }

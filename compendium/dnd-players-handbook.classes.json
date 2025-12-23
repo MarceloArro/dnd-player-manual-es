@@ -1371,7 +1371,7 @@
     },
     "Deflect Energy": {
       "name": "Desviar Energía",
-      "description": "<p>You can now use your Deflect Attacks feature against attacks that deal any damage type, not just Bludgeoning, Piercing, or Slashing.</p><section class=\"secret\" id=\"secret-XAQmFmc4TpSF2Oh1\"><p>The <strong>Reduce</strong> activity can be used to heal yourself to reduce the total damage if it's not enough to reduce it to 0.</p><p>The <strong>Redirect</strong> activity can be used to roll damage and consume a use of your Focus Points if you can reduce it to 0. You can select the type of damage in the roll dialog. The dice increase automatically as you level up.</p></section>",
+      "description": "<p>Puedes usar tu Desviar Ataques para desviar ataques elementales, además de ataques con armas a distancia. Cuando lo hagas, el daño que recibes del ataque, ya sea físico o de otro tipo, se reduce en 1d10 + tu modificador por Destreza + tu nivel de monje.</p>",
       "activities": {
         "Reduce": {
           "name": "Reduce",
@@ -1526,7 +1526,7 @@
     },
     "Draconic Resilience": {
       "name": "Resistencia Dracónica",
-      "description": "<p>The magic in your body manifests physical traits of your draconic gift. Your Hit Point maximum increases by 3, and it increases by 1 whenever you gain another Sorcerer level.</p><p>Parts of you are also covered by dragon-like scales. While you aren’t wearing armor, your base Armor Class equals 10 plus your Dexterity and Charisma modifiers.</p><section class=\"secret\" id=\"secret-uBlQVhOqmjWWiLc4\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect that automatically increases your Hit Point maximum and sets up your Unarmored Defense which can be disabled if you would prefer to use armor.</p></section>",
+      "description": "<p>A medida que la magia fluye a través de tu cuerpo, hace que emerjan rasgos físicos de tus ancestros dragones. En el nivel 1, tu máximo de puntos de golpe aumenta en 1 y aumenta en 1 más cada vez que subes de nivel en esta clase.</p><p>Además, partes de tu piel están cubiertas de un sutil brillo de escamas dracónicas. Cuando no llevas armadura, tu CA es igual a 13 + tu modificador por Destreza.</p>",
       "effects": {
         "Draconic Resilience: Armor": {
           "name": "Draconic Resilience: Armor"
@@ -1554,7 +1554,7 @@
     },
     "Draconic Spells": {
       "name": "Conjuros Dracónicos",
-      "description": "<p>When you reach a Sorcerer level specified in the Draconic Spells table, you thereafter always have the listed spells prepared.</p><table><caption>Draconic Spells</caption><thead><tr><td>Sorcerer Level</td><td>Spells</td></tr></thead><tbody><tr><td>3</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAlterSelf0]{Alter Self}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChromaticO]{Chromatic Orb}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]{Command}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDragonsBre]{Dragon’s Breath}</em></td></tr><tr><td>5</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFear000000]{Fear}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFly0000000]{Fly}</em></td></tr><tr><td>7</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0]{Arcane Eye}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmMonst]{Charm Monster}</em></td></tr><tr><td>9</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLegendLore]{Legend Lore}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonDrag]{Summon Dragon}</em></td></tr></tbody></table><section class=\"secret\" id=\"secret-kL8H0ClyrUNajoht\"><p><strong>Foundry Note</strong></p><p>The spells will be automatically granted as you level up.</p></section>"
+      "description": "<p>Cuando alcanzas un nivel de hechicero especificado en la tabla de Conjuros Dracónicos, a partir de entonces siempre tendrás preparados los conjuros indicados.</p>"
     },
     "Dragon Companion": {
       "name": "Compañero Dragón",
@@ -1567,7 +1567,7 @@
     },
     "Dragon Wings": {
       "name": "Alas de Dragón",
-      "description": "<p>As a Bonus Action, you can cause draconic wings to appear on your back. The wings last for 1 hour or until you dismiss them (no action required). For the duration, you have a Fly Speed of 60 feet.</p><p>Once you use this feature, you can’t use it again until you finish a Long Rest unless you spend 3 Sorcery Points (no action required) to restore your use of it.</p><section class=\"secret\" id=\"secret-sOSBeegnxa98QlIn\"><p><strong>Foundry Note</strong></p><p>The <strong>Dragon Wings</strong> activity includes an Active Effect that grants you a Fly Speed of 60 feet.</p><p>The <strong>Restore Use</strong> activity can be used to expend the Sorcery Points to restore a use of the <strong>Dragon Wings</strong> activity.</p></section>",
+      "description": "<p>Obtienes la capacidad de invocar alas dracónicas desde tu espalda, obteniendo una velocidad volando igual a tu velocidad actual. Puedes crear estas alas como acción adicional en tu turno. Duran hasta que las descartes como acción adicional en tu turno.</p><p>No puedes manifestar tus alas mientras llevas armadura a menos que la armadura esté hecha para acomodarlas, y la ropa no hecha para acomodar tus alas podría ser destruida cuando las manifiestes.</p>",
       "activities": {
         "Dragon Wings": {
           "name": "Dragon Wings"
@@ -1778,7 +1778,7 @@
     },
     "Elemental Affinity": {
       "name": "Afinidad Elemental",
-      "description": "<p>Your draconic magic has an affinity with a damage type associated with dragons. Choose one of those types: Acid, Cold, Fire, Lightning, or Poison.</p><p>You have Resistance to that damage type, and when you cast a spell that deals damage of that type, you can add your Charisma modifier to one damage roll of that spell.</p><section class=\"secret\" id=\"secret-3vHUORtVzoP6V4xF\"><p><strong>Foundry Note</strong></p><p>You will be prompted to choose the damage type as you level up. The additional damage is not automatically added but this feature includes an activity for each type of damage.</p><p>You can speed up use of this feature by moving your chosen damage type to the top and it will be used automatically when using this feature.</p></section>",
+      "description": "<p>Cuando lanzas un conjuro que causa daño del tipo asociado con tu herencia dracónica, puedes añadir tu modificador por Carisma al daño de ese conjuro. Al mismo tiempo, puedes gastar 1 punto de hechicería para obtener resistencia a ese tipo de daño durante 1 hora.</p>",
       "activities": {
         "Acid": {
           "name": "Acid",
@@ -1892,7 +1892,7 @@
     },
     "Elusive": {
       "name": "Escurridizo",
-      "description": "<p>Eres tan escurridizo que será raro que un atacante consiga ventaja cuando ataque. Ninguna tirada de ataque contra ti tendrá ventaja a menos que tengas el estado de incapacitado.</p>"
+      "description": "<p>Eres tan evasivo que los atacantes raramente obtienen ventaja contra ti. Ninguna tirada de ataque tiene ventaja contra ti mientras no estés incapacitado.</p>"
     },
     "Empowered Evocation": {
       "name": "Evocación Potenciada",
@@ -2049,7 +2049,7 @@
     },
     "Favored Enemy": {
       "name": "Enemigo Predilecto",
-      "description": "<p>You always have the @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHuntersMar]{Hunter’s Mark} spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.</p><p>The number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table.</p><section id=\"secret-cyuZuzwxsQg01vVN\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The spell is granted to you at this level and will increase the number of free uses available automatically as you level up.</p></section>"
+      "description": "<p>Tienes experiencia significativa estudiando, rastreando, cazando e incluso hablando con un cierto tipo de enemigo.</p><p>Elige un tipo de enemigo predilecto: aberraciones, bestias, celestiales, constructos, dragones, elementales, fey, infernales, monstruosidades, limos, plantas o no-muertos. Alternativamente, puedes seleccionar dos razas de humanoides (como gnolls y orcos) como enemigos predilectos.</p><p>Tienes ventaja en chequeos de Sabiduría (Supervivencia) para rastrear a tus enemigos predilectos, así como en chequeos de Inteligencia para recordar información sobre ellos.</p>"
     },
     "Feinting Attack": {
       "name": "Ataque con Finta",
@@ -2876,7 +2876,7 @@
     },
     "Life Domain Spells": {
       "name": "Conjuros del Dominio de la Vida",
-      "description": "<p>Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Life Domain Spells table, you thereafter always have the listed spells prepared.</p><table><caption>Life Domain Spells</caption><thead><tr><td>Cleric Level</td><td>Prepared Spells</td></tr></thead><tbody><tr><td>3</td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAid0000000]{Aid}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBless00000]{Bless}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds]{Cure Wounds},<br />@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest]{Lesser Restoration}</p></td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMassHealin]{Mass Healing Word}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRevivify00]{Revivify}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAuraofLife]{Aura of Life}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDeathWard0]{Death Ward}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Greater Restoration}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMassCureWo]{Mass Cure Wounds}</td></tr></tbody></table><section class=\"secret\" id=\"secret-Z9pAhvumQlf7onuP\"><p><strong>Foundry Note</strong></p><p>These spells are granted automatically as you advance.</p></section>"
+      "description": "<p>La magia de tu dominio asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel especificado en la tabla de Conjuros del Dominio de la Vida, a partir de entonces siempre tienes los conjuros indicados preparados.</p>"
     },
     "Lifedrinker": {
       "name": "Bebedor de Vida",
@@ -2909,7 +2909,7 @@
     },
     "Light Domain Spells": {
       "name": "Conjuros del Dominio de la Luz",
-      "description": "<p>Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Light Domain Spells table, you thereafter always have the listed spells prepared.</p><table><caption>Light Domain Spells</caption><thead><tr><td>Cleric Level</td><td>Prepared Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBurningHan]{Burning Hands}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire]{Faerie Fire}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScorchingR]{Scorching Ray}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSeeInvisib]{See Invisibility}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDaylight00]{Daylight}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{Fireball}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0]{Arcane Eye}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofFire]{Wall of Fire}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFlameStrik]{Flame Strike}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScrying000]{Scrying}</td></tr></tbody></table><section class=\"secret\" id=\"secret-gGmJsB1mwI4zNuDh\"><p><strong>Foundry Note</strong></p><p>These spells are granted automatically as you advance.</p></section>"
+      "description": "<p>La magia de tu dominio asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel especificado en la tabla de Conjuros del Dominio de la Luz, a partir de entonces siempre tienes los conjuros indicados preparados.</p>"
     },
     "Living Legend": {
       "name": "Leyenda Viviente",
@@ -3292,7 +3292,7 @@
     },
     "Oath of Devotion Spells": {
       "name": "Conjuros del Juramento de Entrega",
-      "description": "<p>The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Devotion Spells table, you thereafter always have the listed spells prepared.</p><table><caption>Oath of Devotion Spells</caption><thead><tr><td>Paladin Level</td><td>Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbEvilAndGoodPr]{Protection from Evil and Good}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShieldofFa]{Shield of Faith}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAid0000000]{Aid}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplZoneofTrut]{Zone of Truth}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBeaconofHo]{Beacon of Hope}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Dispel Magic}</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM]{Freedom of Movement}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuardianof]{Guardian of Faith}</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommune000]{Commune}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFlameStrik]{Flame Strike}</td></tr></tbody></table><section class=\"secret\" id=\"secret-BJb1nvUMxSS77zuz\"><p><strong>Foundry Note</strong></p><p>The spells will be automatically granted as you level up.</p></section>"
+      "description": "<p>La magia de tu juramento asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel especificado en la tabla de Conjuros del Juramento de Devoción, a partir de entonces siempre tienes los conjuros indicados preparados.</p>"
     },
     "Oath of Glory": {
       "name": "Juramento de Gloria",
@@ -3308,7 +3308,7 @@
     },
     "Oath of Glory Spells": {
       "name": "Conjuros del Juramento de Gloria",
-      "description": "<p>The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Glory Spells table, you thereafter always have the listed spells prepared.</p><table><caption>Oath of Glory Spells</caption><thead><tr><td>Paladin Level</td><td>Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidingBol]{Guiding Bolt}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHeroism000]{Heroism}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnhanceAbi]{Enhance Ability}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicWeapo]{Magic Weapon}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHaste00000]{Haste}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbProtectionFro]{Protection from Energy}</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCompulsion]{Compulsion}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM]{Freedom of Movement}</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLegendLore]{Legend Lore}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplYolandesRe]{Yolande’s Regal Presence}</td></tr></tbody></table><section class=\"secret\" id=\"secret-az07CRGGmv4y8sVC\"><p><strong>Foundry Note</strong></p><p>The spells will be automatically granted as you level up.</p></section>"
+      "description": "<p>La magia de tu juramento asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel especificado en la tabla de Conjuros del Juramento de Gloria, a partir de entonces siempre tienes los conjuros indicados preparados.</p>"
     },
     "Oath of Vengeance": {
       "name": "Juramento de Venganza",
@@ -3324,7 +3324,7 @@
     },
     "Oath of Vengeance Spells": {
       "name": "Conjuros del Juramento de Venganza",
-      "description": "<p>The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Vengeance Spells table, you thereafter always have the listed spells prepared.</p><table><caption>Oath of Vengeance</caption><thead><tr><td>Paladin Level</td><td>Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBane000000]{Bane}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHuntersMar]{Hunter’s Mark}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{Hold Person}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Misty Step}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHaste00000]{Haste}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbProtectionFro]{Protection from Energy}</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBanishment]{Banishment}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDimensionD]{Dimension Door}</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldMonste]{Hold Monster}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScrying000]{Scrying}</td></tr></tbody></table><section class=\"secret\" id=\"secret-ARuMZTj8D6EPgcw7\"><p><strong>Foundry Note</strong></p><p>The spells will be automatically granted as you level up.</p></section>"
+      "description": "<p>La magia de tu juramento asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel especificado en la tabla de Conjuros del Juramento de Venganza, a partir de entonces siempre tienes los conjuros indicados preparados.</p>"
     },
     "Oath of the Ancients": {
       "name": "Juramento de los Antiguos",
@@ -3340,7 +3340,7 @@
     },
     "Oath of the Ancients Spells": {
       "name": "Conjuros del Juramento de los Antiguos",
-      "description": "<p>The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of the Ancients Spells table, you thereafter always have the listed spells prepared.</p><table><caption>Oath of the Ancients</caption><thead><tr><td>Paladin Level</td><td>Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnsnaringS]{Ensnaring Strike}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]{Speak with Animals}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Misty Step}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMoonbeam00]{Moonbeam}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPlantGrowt]{Plant Growth}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbProtectionFro]{Protection from Energy}</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIceStorm00]{Ice Storm}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStoneskin0]{Stoneskin}</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommunewit]{Commune with Nature}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTreeStride]{Tree Stride}</td></tr></tbody></table><section class=\"secret\" id=\"secret-T4Lyq3RpPYOb6FaN\"><p><strong>Foundry Note</strong></p><p>The spells will be automatically granted as you level up.</p></section>"
+      "description": "<p>La magia de tu juramento asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel especificado en la tabla de Conjuros del Juramento de los Antiguos, a partir de entonces siempre tienes los conjuros indicados preparados.</p>"
     },
     "Oceanic Gift": {
       "name": "Don Oceánico",
@@ -3720,7 +3720,7 @@
     },
     "Projected Ward": {
       "name": "Protección Proyectada",
-      "description": "<p>When a creature that you can see within 30 feet of yourself takes damage, you can take a Reaction to cause your Arcane Ward to absorb that damage. If this damage reduces the ward to 0 Hit Points, the warded creature takes any remaining damage. If that creature has any Resistances or Vulnerabilities, apply them before reducing the ward’s Hit Points.</p><section class=\"secret\" id=\"secret-pSOEhQX3JbZyO19Q\"><p><strong>Foundry Note</strong></p><p>The <strong>Project Ward</strong> activity uses your reaction and can be used to reduce the Ward's uses (\"HP\").</p></section>",
+      "description": "<p>Aprendes a tejer tu Barrera Arcana para proteger a otros. Cuando una criatura que puedas ver a 9 metros de ti reciba daño, puedes usar tu reacción para hacer que tu Barrera Arcana absorba ese daño. Si este daño reduce la barrera a 0 puntos de golpe, la criatura protegida recibe cualquier daño restante.</p>",
       "activities": {
         "Project Ward": {
           "name": "Project Ward",
@@ -4000,7 +4000,7 @@
     },
     "Relentless Avenger": {
       "name": "Vengador Incansable",
-      "description": "<p>Your supernatural focus helps you close off a foe’s retreat. When you hit a creature with an Opportunity Attack, you can reduce the creature’s Speed to 0 until the end of the current turn. You can then move up to half your Speed as part of the same Reaction. This movement doesn’t provoke Opportunity Attacks.</p><section id=\"secret-uwcgo5JN2zR5OpEv\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which will reduce the enemies Speed to 0.</p></section>",
+      "description": "<p>Tu Ataque de Oportunidad contra la criatura también reduce su velocidad a 0 hasta el final del turno. Además, puedes moverte hasta la mitad de tu velocidad como parte de la misma reacción sin provocar ataques de oportunidad de la criatura objetivo.</p>",
       "activities": {
         "Prevent Retreat": {
           "name": "Prevent Retreat"
@@ -4327,7 +4327,7 @@
     },
     "Slippery Mind": {
       "name": "Mente Escurridiza",
-      "description": "<p>Your cunning mind is exceptionally difficult to control. You gain proficiency in Wisdom and Charisma saving throws.</p><section id=\"secret-57oM7wI8FDY1iw4F\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>These proficiencies are granted automatically as you level up.</p></section>"
+      "description": "<p>Has adquirido mayor fortaleza mental. Obtienes competencia en tiradas de salvación de Sabiduría.</p>"
     },
     "Slow Fall": {
       "name": "Caída Lenta",
@@ -4445,7 +4445,7 @@
     },
     "Spell Mastery": {
       "name": "Maestría de Conjuros",
-      "description": "<p>You have achieved such mastery over certain spells that you can cast them at will. Choose a level 1 and a level 2 spell in your spellbook that have a casting time of an action. You always have those spells prepared, and you can cast them at their lowest level without expending a spell slot. To cast either spell at a higher level, you must expend a spell slot.</p><p>Whenever you finish a Long Rest, you can study your spellbook and replace one of those spells with an eligible spell of the same level from the book.</p><section class=\"secret\" id=\"secret-OhEjtOfrcVMJh1qk\"><p><strong>Foundry Note</strong></p><p>The <strong>Master</strong> activity includes an enchantment that marks the spells as \"Always Prepared\" and adds \", Mastered\" to their name for easy identification.</p><p>Uncheck the \"Consumption\" box when casting at the lowest level. You can drag multiple spells to the same chat card.</p></section>",
+      "description": "<p>Has logrado tal maestría sobre ciertos conjuros que puedes lanzarlos a voluntad. Elige un conjuro de mago de nivel 1 y un conjuro de mago de nivel 2 que estén en tu grimorio. Puedes lanzar esos conjuros a su nivel más bajo sin gastar un espacio de conjuro cuando los tengas preparados. Si quieres lanzar cualquiera de estos conjuros a un nivel superior, debes gastar un espacio de conjuro como es normal.</p><p>Pasando 8 horas en estudio, puedes intercambiar uno o ambos conjuros que elegiste por conjuros diferentes de los mismos niveles.</p>",
       "activities": {
         "Master Spell": {
           "name": "Master Spell"
@@ -4462,7 +4462,7 @@
     },
     "Spell Resistance": {
       "name": "Resistencia a Conjuros",
-      "description": "<p>You have Advantage on saving throws against spells, and you have Resistance to the damage of spells.</p><section id=\"secret-JwtRxR7ZBFh3IFBo\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature does not automate the Advantage or Resistance.</p><p>With your token selected you can either right click on the damage roll's chat card and select <span class=\"reference\"><em class=\"fas fa-user-shield\"> </em>Apply Half Damage</span> or click the \"1/2\" button and then the <span class=\"reference\"><em class=\"fa-solid fa-reply-all\"> </em>Apply</span> button.</p></section>"
+      "description": "<p>Tienes ventaja en tiradas de salvación contra conjuros. Además, tienes resistencia contra el daño de conjuros.</p>"
     },
     "Spell Thief": {
       "name": "Ladrón de Conjuros",
@@ -4533,7 +4533,7 @@
     },
     "Steady Aim": {
       "name": "Puntería Firme",
-      "description": "<p>As a Bonus Action, you give yourself Advantage on your next attack roll on the current turn. You can use this feature only if you haven’t moved during this turn, and after you use it, your Speed is 0 until the end of the current turn.</p>",
+      "description": "<p>Como acción adicional, te concentras en tu objetivo y obtienes ventaja en tu próxima tirada de ataque en el turno actual. Ese ataque puede beneficiarse de tu Ataque Furtivo incluso si ya has usado tu Ataque Furtivo en este turno, pero no si ya has usado Steady Aim en este turno. No puedes usar este rasgo si tu velocidad es 0.</p>",
       "activities": {
         "Steady Aim": {
           "name": "Steady Aim"
@@ -4876,7 +4876,7 @@
     },
     "Tides of Chaos": {
       "name": "Mareas del Caos",
-      "description": "<p>You can manipulate chaos itself to give yourself Advantage on one D20 Test before you roll the d20. Once you do so, you must cast a Sorcerer spell with a spell slot or finish a Long Rest before you can use this feature again.</p><p>If you do cast a Sorcerer spell with a spell slot before you finish a Long Rest, you automatically roll on the @UUID[Compendium.dnd-players-handbook.tables.RollTable.phbWildMagicSurg]{Wild Magic Surge} table.</p>"
+      "description": "<p>Puedes manipular las fuerzas del azar y el caos para obtener ventaja en una tirada de ataque, chequeo de habilidad o tirada de salvación. Una vez que hagas esto, debes finalizar un descanso largo antes de poder usar este rasgo de nuevo.</p><p>En cualquier momento antes de recuperar el uso de este rasgo, el DM puede hacer que tires en la tabla de Oleada de Magia Salvaje inmediatamente después de que lances un conjuro de hechicero de nivel 1 o superior. Luego recuperas el uso de este rasgo.</p>"
     },
     "Tireless": {
       "name": "Incansable",
@@ -4945,7 +4945,7 @@
     },
     "Trickery Domain Spells": {
       "name": "Conjuros del Dominio del Engaño",
-      "description": "<p>Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Trickery Domain Spells table, you thereafter always have the listed spells prepared.</p><table><caption>Trickery Domain Spells</caption><thead><tr><td>Cleric Level</td><td>Prepared Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{Charm Person}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe]{Disguise Self}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili]{Invisibility}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou]{Pass without Trace}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHypnoticPa]{Hypnotic Pattern}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplNondetecti]{Nondetection}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConfusion0]{Confusion}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDimensionD]{Dimension Door}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDominatePe]{Dominate Person}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplModifyMemo]{Modify Memory}</td></tr></tbody></table><section class=\"secret\" id=\"secret-1AoObJM20S7dzOx9\"><p><strong>Foundry Note</strong></p><p>These spells are granted automatically as you advance.</p></section>"
+      "description": "<p>La magia de tu dominio asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel especificado en la tabla de Conjuros del Dominio del Engaño, a partir de entonces siempre tienes los conjuros indicados preparados.</p>"
     },
     "Trickster's Transposition": {
       "name": "Transposición del Tramposo",
@@ -5117,7 +5117,7 @@
     },
     "Vow of Enmity": {
       "name": "Voto de Enemistad",
-      "description": "<p>When you take the Attack action, you can expend one use of your Channel Divinity to utter a vow of enmity against a creature you can see within 30 feet of yourself. You have Advantage on attack rolls against the creature for 1 minute or until you use this feature again.</p><p>If the creature drops to 0 Hit Points before the vow ends, you can transfer the vow to a different creature within 30 feet of yourself (no action required).</p><section class=\"secret\" id=\"secret-Y9AmNgpQoEkUuCHU\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for tracking the creature you have vowed against but it does not automate the Advantage.</p></section>",
+      "description": "<p>Como acción adicional, puedes proferir un voto de enemistad contra una criatura que puedas ver a 3 metros de ti, usando tu Canalizar Divinidad. Obtienes ventaja en tiradas de ataque contra la criatura durante 1 minuto o hasta que caiga a 0 puntos de golpe o quede inconsciente.</p>",
       "activities": {
         "utility": {
           "condition": "When you take the Attack action"
@@ -5165,7 +5165,7 @@
     },
     "War Domain Spells": {
       "name": "Conjuros del Dominio de la Guerra",
-      "description": "<p>Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the War Domain Spells table, you thereafter always have the listed spells prepared.</p><table><caption>War Domain Spells</caption><thead><tr><td>Cleric Level</td><td>Prepared Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidingBol]{Guiding Bolt}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicWeapo]{Magic Weapon}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShieldofFa]{Shield of Faith}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpiritualW]{Spiritual Weapon}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCrusadersM]{Crusader's Mantle}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpiritGuar]{Spirit Guardians}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireShield]{Fire Shield}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM]{Freedom of Movement}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldMonste]{Hold Monster}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSteelWindS]{Steel Wind Strike}</td></tr></tbody></table><section class=\"secret\" id=\"secret-Qu99GvyNrwjfGfHE\"><p><strong>Foundry Note</strong></p><p>These spells are granted automatically as you advance.</p></section>"
+      "description": "<p>La magia de tu dominio asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel especificado en la tabla de Conjuros del Dominio de la Guerra, a partir de entonces siempre tienes los conjuros indicados preparados.</p>"
     },
     "War God's Blessing": {
       "name": "Bendición del Dios de la Guerra",

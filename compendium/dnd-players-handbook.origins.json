@@ -117,7 +117,6 @@
           "title": "Mejora de Puntuación de Característica de Trasfondo",
           "hint": "Tu trasfondo te permite aumentar tu puntuacion de Fuerza, Destreza e Inteligencia; aumenta una de ellas en 2 y otra diferente en 1, o aumenta las tres en 1. Ninguno de estos aumentos puede superar una puntuación por encima de 20."
         },
-
         "Choose Languages": {
           "title": "Elegir Idiomas",
           "hint": "Tu personaje conoce al menos tres idiomas: Común más dos idiomas que elijas de la tabla de Idiomas Estándar."
@@ -130,7 +129,7 @@
     },
     "Breath Weapon": {
       "name": "Ataque de Aliento",
-      "description": "<p> Cuando lleves a cabo la Acción de Atacar en tu turno, puedes sustituir uno de tus ataques por una exhalación de energía mágica en un cono de 15ft (4,5 m) o en una línea de 30ft (9 m) de largo y 5ft (1,5 m) de ancho (elige la forma cada vez).</p><p> Todas las criaturas situadas en esa zona deberán hacer una tirada de Salvación de Destreza (CD 8 más tu Modificador por Constitución y tu Bonificador por Competencia). Si la Fallan, sufrirán 1d10 de daño del tipo determinado por tu atributo Linaje Dracónico. Si la Superan, recibirán la mitad de ese daño.</p><p>El daño aumenta en 1d10 cuando alcanzas los niveles 5 (2d10), 11 (3d10) y 17 (4d10) de personaje. Puedes utilizar este ataque de aliento una cantidad de veces igual a tu Bonificador por Competencia y recuperas todos los usos tras finalizar un Descanso Largo.</p>",
+      "description": "<p> Cuando lleves a cabo la Acción de Atacar en tu turno, puedes sustituir uno de tus ataques por una exhalación de energía mágica en un cono de 15ft (4,5 m) o en una línea de 30ft (9 m) de largo y 5ft (1,5 m) de ancho (elige la forma cada vez).</p><p> Todas las criaturas situadas en esa zona deberán hacer una tirada de Salvación de Destreza (CD 8 más tu Modificador por Constitución y tu Bonificador por Competencia). Si la Fallan, sufrirán 1d10 de daño del tipo determinado por tu atributo Linaje Dracónico. Si la Superan, recibirán la mitad de ese daño.</p><p>El daño aumenta en 1d10 cuando alcanzas los niveles 5 (2d10), 11 (3d10) y 17 (4d10) de personaje. Puedes utilizar este ataque de aliento una cantidad de veces igual a tu Bonificador por Competencia y recuperas todos los usos tras finalizar un Descanso Largo.</p><section class=\"secret\" id=\"secret-iuhfGfxgl8GeYWBf\"><p><strong>Nota Foundry</strong></p><p>Las actividades <strong>Ataque de Aliento (Cono)</strong> y <strong>Ataque de Aliento (Línea)</strong> están ambas configuradas para su tipo de plantilla e incluyen cada tipo de daño. El daño también escala a medida que subes de nivel.</p><p>Puedes seleccionar el tipo de daño en el cuadro de diálogo de la tirada de daño. Recordará tu elección de daño posteriormente. Puedes editar las actividades para eliminar los otros tipos de daño si deseas omitir esto.</p><p>Los siguientes objetos complementarios incluyen el tipo de daño y la resistencia al daño asociados con tu Linaje Dracónico: @UUID[Compendium.dnd-players-handbook.origins.Item.brwAcidBreathWea]{Ataque de Aliento Ácido}, @UUID[Compendium.dnd-players-handbook.origins.Item.brwColdBreathWea]{Ataque de Aliento Frío}, @UUID[Compendium.dnd-players-handbook.origins.Item.brwFireBreathWea]{Ataque de Aliento Fuego}, @UUID[Compendium.dnd-players-handbook.origins.Item.brwLightningBrea]{Ataque de Aliento Relámpago}, @UUID[Compendium.dnd-players-handbook.origins.Item.brwPoisonBreathW]{Ataque de Aliento Veneno}</p></section>",
       "activities": {
         "Exhale Cone": {
           "name": "Exhalar Cono"
@@ -534,7 +533,13 @@
     },
     "Gnomish Cunning": {
       "name": "Astucia Gnoma",
-      "description": "<p>Tienes Ventaja en las Tiradas de Salvación de Inteligencia, Sabiduría y Carisma.</p>"
+      "description": "<p>Tienes Ventaja en las Tiradas de Salvación de Inteligencia, Sabiduría y Carisma.</p>",
+      "effects": {
+        "Gnomish Cunning": {
+          "name": "Astucia Gnoma",
+          "description": "<p>Tienes Ventaja en las Tiradas de Salvación de Inteligencia, Sabiduría y Carisma.</p>"
+        }
+      }
     },
     "Gnomish Lineage": {
       "name": "Linaje Gnomo",

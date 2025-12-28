@@ -92,7 +92,7 @@
     },
     "Alter Self": {
       "name": "Alterar el Propio Aspecto",
-      "description": "<p>Modificas tu forma física. Elige una de las siguientes opciones. Los efectos duran hasta que el conjuro termine; entretanto, puedes usar una acción de magia para sustituir la opción elegida por otra distinta.</p><p><strong>Adaptación Acuática.</strong> Te salen branquias y te crecen membranas entre los dedos. Puedes respirar bajo el agua y obtienes una velocidad nadando igual a tu velocidad.</p><p><strong>Armas Naturales.</strong> Te crecen Pezuñas (contundente), colmillos (perforante), cuernos (perforante) o garras (cortante). Cuando hagas un ataque sin armas para causar daño con el nuevo apéndice, hará 1d6 de daño del tipo indicado entre paréntesis en vez del daño normal de tu ataque sin armas. Además, usarás tu modificador por característica mágica para las tiradas de ataque y de daño en vez de tu Fuerza.</p><p><strong>Cambiar de Aspecto.</strong> Alteras tu apariencia. Decide tu aspecto, especificando tu altura, peso, rasgos faciales, timbre de voz, longitud del pelo, tono de piel y cualquier otro rasgo distintivo. Puedes presentarte como un miembro de otra especie, aunque esto no modificará tu perfil de juego. No puedes adoptar el aspecto de una criatura de un tamaño distinto y conservarás tu forma básica: si eres una criatura bípeda, no podrás usar este conjuro para ser un cuadrúpedo, por ejemplo. Hasta que termine el conjuro, puedes usar una acción de magia para volver a cambiar tu aspecto.</p>",
+      "description": "<p>Modificas tu forma física. Elige una de las siguientes opciones. Los efectos duran hasta que el conjuro termine; entretanto, puedes usar una acción de magia para sustituir la opción elegida por otra distinta.</p><p><strong>Adaptación Acuática.</strong> Te salen branquias y te crecen membranas entre los dedos. Puedes respirar bajo el agua y obtienes una velocidad nadando igual a tu velocidad.</p><p><strong>Armas Naturales.</strong> Te crecen Pezuñas (contundente), colmillos (perforante), cuernos (perforante) o garras (cortante). Cuando hagas un ataque sin armas para causar daño con el nuevo apéndice, hará 1d6 de daño del tipo indicado entre paréntesis en vez del daño normal de tu ataque sin armas. Además, usarás tu modificador de característica mágica para las tiradas de ataque y de daño en vez de tu Fuerza.</p><p><strong>Cambiar de Aspecto.</strong> Alteras tu apariencia. Decide tu aspecto, especificando tu altura, peso, rasgos faciales, timbre de voz, longitud del pelo, tono de piel y cualquier otro rasgo distintivo. Puedes presentarte como un miembro de otra especie, aunque esto no modificará tu perfil de juego. No puedes adoptar el aspecto de una criatura de un tamaño distinto y conservarás tu forma básica: si eres una criatura bípeda, no podrás usar este conjuro para ser un cuadrúpedo, por ejemplo. Hasta que termine el conjuro, puedes usar una acción de magia para volver a cambiar tu aspecto.</p>",
       "activities": {
         "Aquatic Adaptation": {
           "name": "Adaptación Acuática"
@@ -123,7 +123,7 @@
         },
         "Natural Weapon": {
           "name": "Arma Natural",
-          "description": "<p>Cuando hagas un ataque sin armas para causar daño con el nuevo apéndice, hará 1d6 de daño del tipo indicado entre paréntesis en vez del daño normal de tu ataque sin armas. Además, usarás tu modificador por característica mágica para las tiradas de ataque y de daño en vez de tu Fuerza.</p>"
+          "description": "<p>Cuando hagas un ataque sin armas para causar daño con el nuevo apéndice, hará 1d6 de daño del tipo indicado entre paréntesis en vez del daño normal de tu ataque sin armas. Además, usarás tu modificador de característica mágica para las tiradas de ataque y de daño en vez de tu Fuerza.</p>"
         }
       }
     },
@@ -949,7 +949,7 @@
     },
     "Cure Wounds": {
       "name": "Curar Heridas",
-      "description": "<p>Una criatura a la que toques recupera una cantidad de puntos de golpe igual a 2d8 más tu modificador por | característica mágica.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> La curación aumenta en 2d8 por cada nivel por encima de 1 que tenga el espacio.</p>"
+      "description": "<p>Una criatura a la que toques recupera una cantidad de puntos de golpe igual a 2d8 más tu modificador de característica mágica.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> La curación aumenta en 2d8 por cada nivel por encima de 1 que tenga el espacio.</p>"
     },
     "Dancing Lights": {
       "name": "Luces Danzantes",
@@ -1935,7 +1935,7 @@
     },
     "Healing Word": {
       "name": "Palabra de Curación",
-      "description": "<p>Una criatura de tu elección que puedas ver dentro del alcance recupera una cantidad de puntos de golpe igual a 2d4 más tu modificador por característica mágica.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> La curación aumenta en 2d4 por cada nivel por encima de 1 que tenga el espacio.</p>"
+      "description": "<p>Una criatura de tu elección que puedas ver dentro del alcance recupera una cantidad de puntos de golpe igual a 2d4 más tu modificador de característica mágica.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> La curación aumenta en 2d4 por cada nivel por encima de 1 que tenga el espacio.</p>"
     },
     "Heat Metal": {
       "name": "Calentar Metal",
@@ -1983,11 +1983,11 @@
     },
     "Heroism": {
       "name": "Heroísmo",
-      "description": "<p>Insuflas valor a una criatura voluntaria a la que toques. Hasta que el conjuro termine, la criatura es inmune al estado de asustada y obtiene una cantidad de puntos de golpe temporales igual a tu modificador por característica mágica al principio de cada uno de sus turnos.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.</p>",
+      "description": "<p>Insuflas valor a una criatura voluntaria a la que toques. Hasta que el conjuro termine, la criatura es inmune al estado de asustada y obtiene una cantidad de puntos de golpe temporales igual a tu modificador de característica mágica al principio de cada uno de sus turnos.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.</p>",
       "effects": {
         "Bravery": {
           "name": "Valentía",
-          "description": "<p>la criatura es inmune al estado de asustada y obtiene una cantidad de puntos de golpe temporales igual a tu modificador por característica mágica al principio de cada uno de sus turnos.</p>"
+          "description": "<p>la criatura es inmune al estado de asustada y obtiene una cantidad de puntos de golpe temporales igual a tu modificador de característica mágica al principio de cada uno de sus turnos.</p>"
         }
       }
     },
@@ -2289,11 +2289,11 @@
     },
     "Mage Armor": {
       "name": "Armadura de Mago",
-      "description": "<p>Tocas a una criatura voluntaria que no lleve armadura. Hasta que el conjuro termine, la CA base del objetivo pasa a ser de 13 más su modificador por Destreza. El conjuro termina antes si el objetivo se pone una armadura.</p>",
+      "description": "<p>Tocas a una criatura voluntaria que no lleve armadura. Hasta que el conjuro termine, la CA base del objetivo pasa a ser de 13 más su modificador de Destreza. El conjuro termina antes si el objetivo se pone una armadura.</p>",
       "effects": {
         "Mage Armor": {
           "name": "Armadura de Mago",
-          "description": "<p>la CA base del objetivo pasa a ser de 13 más su modificador por Destreza.</p>"
+          "description": "<p>la CA base del objetivo pasa a ser de 13 más su modificador de Destreza.</p>"
         }
       }
     },
@@ -3431,7 +3431,7 @@
     },
     "Sorcerous Burst": {
       "name": "Estallido Mágico",
-      "description": "<p>Lanzas energía mágica contra una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 148 de daño del tipo que elijas: ácido, frío, fuego, psíquico, relámpago, trueno o veneno.</p><p>Si sacas un 8 en un d8 con este conjuro, puedes tirar otro d8 y sumarlo al daño. Cuando lances este conjuro, la cantidad máxima de d8 que puedes sumar al daño del conjuro es igual a tu modificador por característica mágica.</p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).</p>"
+      "description": "<p>Lanzas energía mágica contra una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 148 de daño del tipo que elijas: ácido, frío, fuego, psíquico, relámpago, trueno o veneno.</p><p>Si sacas un 8 en un d8 con este conjuro, puedes tirar otro d8 y sumarlo al daño. Cuando lances este conjuro, la cantidad máxima de d8 que puedes sumar al daño del conjuro es igual a tu modificador de característica mágica.</p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).</p>"
     },
     "Spare the Dying": {
       "name": "Piedad con los Moribundos",
@@ -3494,7 +3494,7 @@
     },
     "Spiritual Weapon": {
       "name": "Arma Espiritual",
-      "description": "<pCreas una fuerza espectral flotante con el aspecto de un arma de tu elección que permanece hasta que termine el conjuro. La fuerza aparece dentro del alcance en un espacio de tu elección y puedes hacer inmediatamente un ataque de conjuro cuerpo a cuerpo contra una criatura que esté a 5ft (1,5 m) o menos de ella. Si acierta, el objetivo recibe una cantidad de daño de fuerza igual a 1d8 más tu modificador por característica mágica.</p><p>Como acción adicional en tus siguientes turnos, puedes mover la fuerza hasta 6 m y repetir el ataque contra una criatura que esté a 1,5 m o menos de ella.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio.</p>"
+      "description": "<pCreas una fuerza espectral flotante con el aspecto de un arma de tu elección que permanece hasta que termine el conjuro. La fuerza aparece dentro del alcance en un espacio de tu elección y puedes hacer inmediatamente un ataque de conjuro cuerpo a cuerpo contra una criatura que esté a 5ft (1,5 m) o menos de ella. Si acierta, el objetivo recibe una cantidad de daño de fuerza igual a 1d8 más tu modificador de característica mágica.</p><p>Como acción adicional en tus siguientes turnos, puedes mover la fuerza hasta 6 m y repetir el ataque contra una criatura que esté a 1,5 m o menos de ella.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio.</p>"
     },
     "Staggering Smite": {
       "name": "Castigo Abrumador",

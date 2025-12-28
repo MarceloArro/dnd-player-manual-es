@@ -1,4 +1,63 @@
-
+# Directorios de fuente
 /compendium-src
+
+# Archivos de backup
 compendium/dnd5e.rules copy.json
+*.backup
+*.bak
+*~
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Scripts temporales de procesamiento
+APPLY_*.py
+NORMALIZE_*.py
+SYNC_*.py
+VALIDATE_*.py
+*_TEMP.py
+*_DEBUG.py
+
+# Archivos JSON temporales
+CONJUROS_PENDIENTES.json
+*_pending.json
+*_temp.json
+
+# Reportes y scripts de verificación
+reports/
+scripts/
+
+# Logs
+*.log
+
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+*.code-workspace
+
+# Node (si se usa)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de sistema
+*.tmp
+.cache/

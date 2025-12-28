@@ -45,7 +45,7 @@
       "description": "<p>Elige hasta tres criaturas dentro del alcance. Los puntos de golpe máximos y actuales de cada objetivo aumentan en 5 hasta que termine el conjuro.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Los puntos de golpe de cada objetivo aumentan en 5 adicionales por cada nivel por encima de 2 que tenga el espacio.</p>",
       "effects": {
         "Level 2: +5 Max HP": {
-          "name": "Level 2: +5 PG Máximos",
+          "name": "Nivel 2: +5 PG Máximos",
           "description": "<p>Los Puntos de Golpe Máximos del objetivo aumentan hasta que termine el conjuro</p>"
         },
         "Level 3: +10 Max HP": {
@@ -92,7 +92,7 @@
     },
     "Alter Self": {
       "name": "Alterar el Propio Aspecto",
-      "description": "<p>Modificas tu forma física. Elige una de las siguientes opciones. Los efectos duran hasta que el conjuro termine; entretanto, puedes usar una acción de magia para sustituir la opción elegida por otra distinta.</p><p><strong>Adaptación Acuática.</strong> Te salen branquias y te crecen membranas entre los dedos. Puedes respirar bajo el agua y obtienes una velocidad nadando igual a tu velocidad.</p><p><strong>Armas Naturales.</strong> Te crecen Pezuñas (contundente), colmillos (perforante), cuernos (perforante) o garras (cortante). Cuando hagas un ataque sin armas para causar daño con el nuevo apéndice, hará 1d6 de daño del tipo indicado entre paréntesis en vez del daño normal de tu ataque sin armas. Además, usarás tu modificador por aptitud mágica para las tiradas de ataque y de daño en vez de tu Fuerza.</p><p><strong>Cambiar de Aspecto.</strong> Alteras tu apariencia. Decide tu aspecto, especificando tu altura, peso, rasgos faciales, timbre de voz, longitud del pelo, tono de piel y cualquier otro rasgo distintivo. Puedes presentarte como un miembro de otra especie, aunque esto no modificará tu perfil de juego. No puedes adoptar el aspecto de una criatura de un tamaño distinto y conservarás tu forma básica: si eres una criatura bípeda, no podrás usar este conjuro para ser un cuadrúpedo, por ejemplo. Hasta que termine el conjuro, puedes usar una acción de magia para volver a cambiar tu aspecto.</p>",
+      "description": "<p>Modificas tu forma física. Elige una de las siguientes opciones. Los efectos duran hasta que el conjuro termine; entretanto, puedes usar una acción de magia para sustituir la opción elegida por otra distinta.</p><p><strong>Adaptación Acuática.</strong> Te salen branquias y te crecen membranas entre los dedos. Puedes respirar bajo el agua y obtienes una velocidad nadando igual a tu velocidad.</p><p><strong>Armas Naturales.</strong> Te crecen Pezuñas (contundente), colmillos (perforante), cuernos (perforante) o garras (cortante). Cuando hagas un ataque sin armas para causar daño con el nuevo apéndice, hará 1d6 de daño del tipo indicado entre paréntesis en vez del daño normal de tu ataque sin armas. Además, usarás tu modificador por característica mágica para las tiradas de ataque y de daño en vez de tu Fuerza.</p><p><strong>Cambiar de Aspecto.</strong> Alteras tu apariencia. Decide tu aspecto, especificando tu altura, peso, rasgos faciales, timbre de voz, longitud del pelo, tono de piel y cualquier otro rasgo distintivo. Puedes presentarte como un miembro de otra especie, aunque esto no modificará tu perfil de juego. No puedes adoptar el aspecto de una criatura de un tamaño distinto y conservarás tu forma básica: si eres una criatura bípeda, no podrás usar este conjuro para ser un cuadrúpedo, por ejemplo. Hasta que termine el conjuro, puedes usar una acción de magia para volver a cambiar tu aspecto.</p>",
       "activities": {
         "Aquatic Adaptation": {
           "name": "Adaptación Acuática"
@@ -123,7 +123,7 @@
         },
         "Natural Weapon": {
           "name": "Arma Natural",
-          "description": "<p>Cuando hagas un ataque sin armas para causar daño con el nuevo apéndice, hará 1d6 de daño del tipo indicado entre paréntesis en vez del daño normal de tu ataque sin armas. Además, usarás tu modificador por aptitud mágica para las tiradas de ataque y de daño en vez de tu Fuerza.</p>"
+          "description": "<p>Cuando hagas un ataque sin armas para causar daño con el nuevo apéndice, hará 1d6 de daño del tipo indicado entre paréntesis en vez del daño normal de tu ataque sin armas. Además, usarás tu modificador por característica mágica para las tiradas de ataque y de daño en vez de tu Fuerza.</p>"
         }
       }
     },
@@ -177,7 +177,7 @@
     },
     "Animate Objects": {
       "name": "Animar Objetos",
-      "description": "<p>Los objetos se animan a tu orden. Elige un número de objetos no mágicos dentro del alcance que no estén siendo usados o llevados, no estén fijos a una superficie y no sean Gargantuescos. El número máximo de objetos es igual a tu modificador de aptitud de lanzamiento de conjuros; para este número, un objetivo Mediano o más pequeño cuenta como un objeto, un objetivo Grande cuenta como dos, y un objetivo Enorme cuenta como tres.</p><p>Cada objetivo se anima, le crecen piernas y se convierte en un Constructo que usa el bloque de estadísticas de <strong>Objeto Animado</strong>; esta criatura está bajo tu control hasta que el conjuro termine o hasta que se reduzca a 0 Puntos de Golpe. Cada criatura que creas con este conjuro es un aliado para ti y tus aliados. En combate, comparte tu cuenta de Iniciativa y toma su turno inmediatamente después del tuyo.</p><p>Hasta que el conjuro termine, puedes usar una Acción Adicional para comandar mentalmente a cualquier criatura que hayas hecho con este conjuro si la criatura está a 500 pies de ti (si controlas múltiples criaturas, puedes comandar a cualquiera de ellas al mismo tiempo, emitiendo el mismo comando a cada una). Si no emites comandos, la criatura realiza la acción de &Reference[Dodge] y se mueve solo para evitar el daño. Cuando la criatura cae a 0 Puntos de Golpe, vuelve a su forma de objeto, y cualquier daño restante se traslada a esa forma.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño de Golpetazo de la criatura aumenta en 1d4 (Mediano o más pequeño), 1d6 (Grande) o 1d12 (Enorme) por cada nivel de espacio de conjuro por encima de 5.</p><h3>Tamaños de Objeto Animado</h3><p>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbtaoAnimatedOb]{Diminuto}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbsaoAnimatedOb]{Pequeño}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmaoAnimatedOb]{Mediano}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phblaoAnimatedOb]{Grande}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbhaoAnimatedOb]{Enorme}</p>",
+      "description": "<p>Los objetos se animan a tu orden. Elige un número de objetos no mágicos dentro del alcance que no estén siendo usados o llevados, no estén fijos a una superficie y no sean Gargantuescos. El número máximo de objetos es igual a tu modificador de característica de lanzamiento de conjuros; para este número, un objetivo Mediano o más pequeño cuenta como un objeto, un objetivo Grande cuenta como dos, y un objetivo Enorme cuenta como tres.</p><p>Cada objetivo se anima, le crecen piernas y se convierte en un Constructo que usa el bloque de estadísticas de <strong>Objeto Animado</strong>; esta criatura está bajo tu control hasta que el conjuro termine o hasta que se reduzca a 0 Puntos de Golpe. Cada criatura que creas con este conjuro es un aliado para ti y tus aliados. En combate, comparte tu cuenta de Iniciativa y toma su turno inmediatamente después del tuyo.</p><p>Hasta que el conjuro termine, puedes usar una Acción Adicional para comandar mentalmente a cualquier criatura que hayas hecho con este conjuro si la criatura está a 500 pies de ti (si controlas múltiples criaturas, puedes comandar a cualquiera de ellas al mismo tiempo, emitiendo el mismo comando a cada una). Si no emites comandos, la criatura realiza la acción de &Reference[Dodge] y se mueve solo para evitar el daño. Cuando la criatura cae a 0 Puntos de Golpe, vuelve a su forma de objeto, y cualquier daño restante se traslada a esa forma.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño de Golpetazo de la criatura aumenta en 1d4 (Mediano o más pequeño), 1d6 (Grande) o 1d12 (Enorme) por cada nivel de espacio de conjuro por encima de 5.</p><h3>Tamaños de Objeto Animado</h3><p>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbtaoAnimatedOb]{Diminuto}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbsaoAnimatedOb]{Pequeño}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmaoAnimatedOb]{Mediano}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phblaoAnimatedOb]{Grande}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbhaoAnimatedOb]{Enorme}</p>",
       "activities": {
         "summon": {
           "profiles": {
@@ -253,7 +253,7 @@
     },
     "Arcane Vigor": {
       "name": "Vigor Arcano",
-      "description": "<p>Accedes a tu fuerza vital para curarte. Lanza uno o dos de tus Dados de Golpe no gastados y recuperas un número de Puntos de Golpe igual al total de la tirada más tu modificador de aptitud de lanzamiento de conjuros. Esos dados se gastan.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El número de Dados de Golpe no gastados que puedes lanzar aumenta en uno por cada nivel de espacio de conjuro por encima de 2.</p>",
+      "description": "<p>Accedes a tu fuerza vital para curarte. Lanza uno o dos de tus Dados de Golpe no gastados y recuperas un número de Puntos de Golpe igual al total de la tirada más tu modificador de característica de lanzamiento de conjuros. Esos dados se gastan.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El número de Dados de Golpe no gastados que puedes lanzar aumenta en uno por cada nivel de espacio de conjuro por encima de 2.</p>",
       "activities": {
         "Cast": {
           "name": "Lanzar",
@@ -430,10 +430,10 @@
     },
     "Bestow Curse": {
       "name": "Imponer Maldición",
-      "description": "<p>Tocas a una criatura, que debe tener éxito en una tirada de salvación de Sabiduría o ser maldecida por la duración. Hasta que la maldición termine, el objetivo sufre uno de los siguientes efectos de tu elección:</p><ul><li>Elige una aptitud. El objetivo tiene Desventaja en las pruebas de aptitud y tiradas de salvación hechas con esa aptitud (actividad <strong>Maldición de Aptitud</strong>).</li><li>El objetivo tiene Desventaja en las tiradas de ataque contra ti (actividad <strong>Maldición de Ataques</strong>).</li><li>En combate, el objetivo debe tener éxito en una tirada de salvación de Sabiduría al principio de cada uno de sus turnos o ser forzado a realizar la acción de &Reference[Dodge] en ese turno (actividad <strong>Maldición de Acciones</strong>).</li><li>Si infliges daño al objetivo con una tirada de ataque o un conjuro, el objetivo recibe un extra de 1d8 de daño Necrótico (actividad <strong>Maldición de Resistencia</strong>).</li></ul><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Si lanzas este conjuro usando un espacio de conjuro de nivel 4, puedes mantener la Concentración en él hasta por 10 minutos. Si usas un espacio de conjuro de nivel 5+, el conjuro no requiere Concentración, y la duración se convierte en 8 horas (espacio de nivel 5–6) o 24 horas (espacio de nivel 7–8). Si usas un espacio de conjuro de nivel 9, el conjuro dura hasta ser disipado.</p>",
+      "description": "<p>Tocas a una criatura, que debe tener éxito en una tirada de salvación de Sabiduría o ser maldecida por la duración. Hasta que la maldición termine, el objetivo sufre uno de los siguientes efectos de tu elección:</p><ul><li>Elige una característica. El objetivo tiene Desventaja en las pruebas de característica y tiradas de salvación hechas con esa característica (actividad <strong>Maldición de Característica</strong>).</li><li>El objetivo tiene Desventaja en las tiradas de ataque contra ti (actividad <strong>Maldición de Ataques</strong>).</li><li>En combate, el objetivo debe tener éxito en una tirada de salvación de Sabiduría al principio de cada uno de sus turnos o ser forzado a realizar la acción de &Reference[Dodge] en ese turno (actividad <strong>Maldición de Acciones</strong>).</li><li>Si infliges daño al objetivo con una tirada de ataque o un conjuro, el objetivo recibe un extra de 1d8 de daño Necrótico (actividad <strong>Maldición de Resistencia</strong>).</li></ul><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Si lanzas este conjuro usando un espacio de conjuro de nivel 4, puedes mantener la Concentración en él hasta por 10 minutos. Si usas un espacio de conjuro de nivel 5+, el conjuro no requiere Concentración, y la duración se convierte en 8 horas (espacio de nivel 5–6) o 24 horas (espacio de nivel 7–8). Si usas un espacio de conjuro de nivel 9, el conjuro dura hasta ser disipado.</p>",
       "activities": {
         "Curse Ability": {
-          "name": "Maldición de Aptitud"
+          "name": "Maldición de Característica"
         },
         "Curse Attacks": {
           "name": "Maldición de Ataques"
@@ -448,27 +448,27 @@
       "effects": {
         "Cursed Charisma": {
           "name": "Carisma Maldito",
-          "description": "<p>El objetivo tiene Desventaja en las pruebas de aptitud y tiradas de salvación hechas con la aptitud elegida.</p>"
+          "description": "<p>El objetivo tiene Desventaja en las pruebas de característica y tiradas de salvación hechas con la característica elegida.</p>"
         },
         "Cursed Constitution": {
           "name": "Constitución Maldita",
-          "description": "<p>El objetivo tiene Desventaja en las pruebas de aptitud y tiradas de salvación hechas con la aptitud elegida.</p>"
+          "description": "<p>El objetivo tiene Desventaja en las pruebas de característica y tiradas de salvación hechas con la característica elegida.</p>"
         },
         "Cursed Dexterity": {
           "name": "Destreza Maldita",
-          "description": "<p>El objetivo tiene Desventaja en las pruebas de aptitud y tiradas de salvación hechas con la aptitud elegida.</p>"
+          "description": "<p>El objetivo tiene Desventaja en las pruebas de característica y tiradas de salvación hechas con la característica elegida.</p>"
         },
         "Cursed Intelligence": {
           "name": "Inteligencia Maldita",
-          "description": "<p>El objetivo tiene Desventaja en las pruebas de aptitud y tiradas de salvación hechas con la aptitud elegida.</p>"
+          "description": "<p>El objetivo tiene Desventaja en las pruebas de característica y tiradas de salvación hechas con la característica elegida.</p>"
         },
         "Cursed Strength": {
           "name": "Fuerza Maldita",
-          "description": "<p>El objetivo tiene Desventaja en las pruebas de aptitud y tiradas de salvación hechas con la aptitud elegida.</p>"
+          "description": "<p>El objetivo tiene Desventaja en las pruebas de característica y tiradas de salvación hechas con la característica elegida.</p>"
         },
         "Cursed Wisdom": {
           "name": "Sabiduría Maldita",
-          "description": "<p>El objetivo tiene Desventaja en las pruebas de aptitud y tiradas de salvación hechas con la aptitud elegida.</p>"
+          "description": "<p>El objetivo tiene Desventaja en las pruebas de característica y tiradas de salvación hechas con la característica elegida.</p>"
         },
         "Cursed Attacks": {
           "name": "Ataques Malditos",
@@ -744,7 +744,7 @@
     },
     "Conjure Celestial": {
       "name": "Conjurar Celestial",
-      "description": "<p>Conjuras un espíritu de los Planos Superiores, que se manifiesta como un pilar de luz en un Cilindro de 10 pies de radio y 40 pies de alto centrado en un punto dentro del alcance. Para cada criatura que puedas ver en el Cilindro, elige cuál de estas luces brilla sobre ella:</p><p><strong>Luz Sanadora.</strong> El objetivo recupera Puntos de Golpe iguales a 4d12 más tu modificador de aptitud de lanzamiento de conjuros.</p><p><strong>Luz Abrasadora.</strong> El objetivo realiza una tirada de salvación de Destreza, recibiendo 6d12 de daño Radiante si falla o la mitad de daño si tiene éxito.</p><p>Hasta que el conjuro termine, Luz Brillante llena el Cilindro, y cuando te mueves en tu turno, también puedes mover el Cilindro hasta 30 pies.</p><p>Cada vez que el Cilindro se mueva al espacio de una criatura que puedas ver y cada vez que una criatura que puedas ver entre en el Cilindro o termine su turno allí, puedes bañarla en una de las luces. Una criatura puede ser afectada por este conjuro solo una vez por turno.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> La curación y el daño aumentan en 1d12 por cada nivel de espacio de conjuro por encima del 7.</p>",
+      "description": "<p>Conjuras un espíritu de los Planos Superiores, que se manifiesta como un pilar de luz en un Cilindro de 10 pies de radio y 40 pies de alto centrado en un punto dentro del alcance. Para cada criatura que puedas ver en el Cilindro, elige cuál de estas luces brilla sobre ella:</p><p><strong>Luz Sanadora.</strong> El objetivo recupera Puntos de Golpe iguales a 4d12 más tu modificador de característica de lanzamiento de conjuros.</p><p><strong>Luz Abrasadora.</strong> El objetivo realiza una tirada de salvación de Destreza, recibiendo 6d12 de daño Radiante si falla o la mitad de daño si tiene éxito.</p><p>Hasta que el conjuro termine, Luz Brillante llena el Cilindro, y cuando te mueves en tu turno, también puedes mover el Cilindro hasta 30 pies.</p><p>Cada vez que el Cilindro se mueva al espacio de una criatura que puedas ver y cada vez que una criatura que puedas ver entre en el Cilindro o termine su turno allí, puedes bañarla en una de las luces. Una criatura puede ser afectada por este conjuro solo una vez por turno.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> La curación y el daño aumentan en 1d12 por cada nivel de espacio de conjuro por encima del 7.</p>",
       "activities": {
         "Conjure Pillar": {
           "name": "Conjurar Pilar"
@@ -768,7 +768,7 @@
     },
     "Conjure Fey": {
       "name": "Conjurar Feérico",
-      "description": "<p>Conjuras un espíritu Mediano del Feywild en un espacio desocupado que puedas ver dentro del alcance. El espíritu dura por la duración, y se parece a una criatura Feérica de tu elección. Cuando el espíritu aparece, puedes hacer un ataque de conjuro cuerpo a cuerpo contra una criatura a 5 pies de él. Si aciertas, el objetivo recibe daño Psíquico igual a 3d12 más tu modificador de aptitud de lanzamiento de conjuros, y el objetivo tiene la condición de &Reference[Frightened] hasta el principio de tu siguiente turno, contigo y el espíritu como fuente del miedo.</p><p>Como una Acción Adicional en tus turnos posteriores, puedes teletransportar al espíritu a un espacio desocupado que puedas ver a 30 pies del espacio que dejó y hacer el ataque contra una criatura a 5 pies de él.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño aumenta en 1d12 por cada nivel de espacio de conjuro por encima del 6.</p>",
+      "description": "<p>Conjuras un espíritu Mediano del Feywild en un espacio desocupado que puedas ver dentro del alcance. El espíritu dura por la duración, y se parece a una criatura Feérica de tu elección. Cuando el espíritu aparece, puedes hacer un ataque de conjuro cuerpo a cuerpo contra una criatura a 5 pies de él. Si aciertas, el objetivo recibe daño Psíquico igual a 3d12 más tu modificador de característica de lanzamiento de conjuros, y el objetivo tiene la condición de &Reference[Frightened] hasta el principio de tu siguiente turno, contigo y el espíritu como fuente del miedo.</p><p>Como una Acción Adicional en tus turnos posteriores, puedes teletransportar al espíritu a un espacio desocupado que puedas ver a 30 pies del espacio que dejó y hacer el ataque contra una criatura a 5 pies de él.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño aumenta en 1d12 por cada nivel de espacio de conjuro por encima del 6.</p>",
       "activities": {
         "Teleport and Attack": {
           "name": "Teletransportar y Atacar"
@@ -812,31 +812,31 @@
     },
     "Contagion": {
       "name": "Contagio",
-      "description": "<p>Tu toque inflige un contagio mágico. El objetivo debe tener éxito en una tirada de salvación de Constitución o recibir 11d8 de daño Necrótico y tener la condición de &Reference[Poisoned apply=false]. Además, elige una aptitud cuando lances el conjuro. Mientras esté Envenenado, el objetivo tiene Desventaja en las tiradas de salvación hechas con la aptitud elegida.</p><p>El objetivo debe repetir la tirada de salvación al final de cada uno de sus turnos hasta que obtenga tres éxitos o fracasos. Si el objetivo tiene éxito en tres de estas salvaciones, el conjuro termina en el objetivo. Si el objetivo falla tres de las salvaciones, el conjuro dura 7 días en él.</p><p>Cada vez que el objetivo Envenenado reciba un efecto que terminaría la condición de Envenenado, el objetivo debe tener éxito en una [[/save ability=con dc=@attributes.spell.dc format=long]], o la condición de Envenenado no termina en él.</p>",
+      "description": "<p>Tu toque inflige un contagio mágico. El objetivo debe tener éxito en una tirada de salvación de Constitución o recibir 11d8 de daño Necrótico y tener la condición de &Reference[Poisoned apply=false]. Además, elige una característica cuando lances el conjuro. Mientras esté Envenenado, el objetivo tiene Desventaja en las tiradas de salvación hechas con la característica elegida.</p><p>El objetivo debe repetir la tirada de salvación al final de cada uno de sus turnos hasta que obtenga tres éxitos o fracasos. Si el objetivo tiene éxito en tres de estas salvaciones, el conjuro termina en el objetivo. Si el objetivo falla tres de las salvaciones, el conjuro dura 7 días en él.</p><p>Cada vez que el objetivo Envenenado reciba un efecto que terminaría la condición de Envenenado, el objetivo debe tener éxito en una [[/save ability=con dc=@attributes.spell.dc format=long]], o la condición de Envenenado no termina en él.</p>",
       "effects": {
         "Infected (Strength)": {
           "name": "Infectado (Fuerza)",
-          "description": "<ul><li><p>Mientras está &Reference[Poisoned apply=false], el objetivo tiene Desventaja en las tiradas de salvación hechas con la aptitud elegida.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">El objetivo debe repetir la [[/save ability=con format=long]] al final de cada uno de sus turnos hasta que obtenga tres éxitos o fracasos.</span></p></li><li><p>Cada vez que el objetivo reciba un efecto que terminaría la condición de Envenenado, el objetivo debe tener éxito en una [[/save ability=con format=long]], o la condición no termina en él.</p></li></ul>"
+          "description": "<ul><li><p>Mientras está &Reference[Poisoned apply=false], el objetivo tiene Desventaja en las tiradas de salvación hechas con la característica elegida.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">El objetivo debe repetir la [[/save ability=con format=long]] al final de cada uno de sus turnos hasta que obtenga tres éxitos o fracasos.</span></p></li><li><p>Cada vez que el objetivo reciba un efecto que terminaría la condición de Envenenado, el objetivo debe tener éxito en una [[/save ability=con format=long]], o la condición no termina en él.</p></li></ul>"
         },
         "Infected (Dexterity)": {
           "name": "Infectado (Destreza)",
-          "description": "<ul><li><p>Mientras está &Reference[Poisoned apply=false], el objetivo tiene Desventaja en las tiradas de salvación hechas con la aptitud elegida.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">El objetivo debe repetir la [[/save ability=con format=long]] al final de cada uno de sus turnos hasta que obtenga tres éxitos o fracasos.</span></p></li><li><p>Cada vez que el objetivo reciba un efecto que terminaría la condición de Envenenado, el objetivo debe tener éxito en una [[/save ability=con format=long]], o la condición no termina en él.</p></li></ul>"
+          "description": "<ul><li><p>Mientras está &Reference[Poisoned apply=false], el objetivo tiene Desventaja en las tiradas de salvación hechas con la característica elegida.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">El objetivo debe repetir la [[/save ability=con format=long]] al final de cada uno de sus turnos hasta que obtenga tres éxitos o fracasos.</span></p></li><li><p>Cada vez que el objetivo reciba un efecto que terminaría la condición de Envenenado, el objetivo debe tener éxito en una [[/save ability=con format=long]], o la condición no termina en él.</p></li></ul>"
         },
         "Infected (Constitution)": {
           "name": "Infectado (Constitución)",
-          "description": "<ul><li><p>Mientras está &Reference[Poisoned apply=false], el objetivo tiene Desventaja en las tiradas de salvación hechas con la aptitud elegida.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">El objetivo debe repetir la [[/save ability=con format=long]] al final de cada uno de sus turnos hasta que obtenga tres éxitos o fracasos.</span></p></li><li><p>Cada vez que el objetivo reciba un efecto que terminaría la condición de Envenenado, el objetivo debe tener éxito en una [[/save ability=con format=long]], o la condición no termina en él.</p></li></ul>"
+          "description": "<ul><li><p>Mientras está &Reference[Poisoned apply=false], el objetivo tiene Desventaja en las tiradas de salvación hechas con la característica elegida.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">El objetivo debe repetir la [[/save ability=con format=long]] al final de cada uno de sus turnos hasta que obtenga tres éxitos o fracasos.</span></p></li><li><p>Cada vez que el objetivo reciba un efecto que terminaría la condición de Envenenado, el objetivo debe tener éxito en una [[/save ability=con format=long]], o la condición no termina en él.</p></li></ul>"
         },
         "Infected (Intelligence)": {
           "name": "Infectado (Inteligencia)",
-          "description": "<ul><li><p>Mientras está &Reference[Poisoned apply=false], el objetivo tiene Desventaja en las tiradas de salvación hechas con la aptitud elegida.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">El objetivo debe repetir la [[/save ability=con format=long]] al final de cada uno de sus turnos hasta que obtenga tres éxitos o fracasos.</span></p></li><li><p>Cada vez que el objetivo reciba un efecto que terminaría la condición de Envenenado, el objetivo debe tener éxito en una [[/save ability=con format=long]], o la condición no termina en él.</p></li></ul>"
+          "description": "<ul><li><p>Mientras está &Reference[Poisoned apply=false], el objetivo tiene Desventaja en las tiradas de salvación hechas con la característica elegida.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">El objetivo debe repetir la [[/save ability=con format=long]] al final de cada uno de sus turnos hasta que obtenga tres éxitos o fracasos.</span></p></li><li><p>Cada vez que el objetivo reciba un efecto que terminaría la condición de Envenenado, el objetivo debe tener éxito en una [[/save ability=con format=long]], o la condición no termina en él.</p></li></ul>"
         },
         "Infected (Wisdom)": {
           "name": "Infectado (Sabiduría)",
-          "description": "<ul><li><p>Mientras está &Reference[Poisoned apply=false], el objetivo tiene Desventaja en las tiradas de salvación hechas con la aptitud elegida.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">El objetivo debe repetir la [[/save ability=con format=long]] al final de cada uno de sus turnos hasta que obtenga tres éxitos o fracasos.</span></p></li><li><p>Cada vez que el objetivo reciba un efecto que terminaría la condición de Envenenado, el objetivo debe tener éxito en una [[/save ability=con format=long]], o la condición no termina en él.</p></li></ul>"
+          "description": "<ul><li><p>Mientras está &Reference[Poisoned apply=false], el objetivo tiene Desventaja en las tiradas de salvación hechas con la característica elegida.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">El objetivo debe repetir la [[/save ability=con format=long]] al final de cada uno de sus turnos hasta que obtenga tres éxitos o fracasos.</span></p></li><li><p>Cada vez que el objetivo reciba un efecto que terminaría la condición de Envenenado, el objetivo debe tener éxito en una [[/save ability=con format=long]], o la condición no termina en él.</p></li></ul>"
         },
         "Infected (Charisma)": {
           "name": "Infectado (Carisma)",
-          "description": "<ul><li><p>Mientras está &Reference[Poisoned apply=false], el objetivo tiene Desventaja en las tiradas de salvación hechas con la aptitud elegida.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">El objetivo debe repetir la [[/save ability=con format=long]] al final de cada uno de sus turnos hasta que obtenga tres éxitos o fracasos.</span></p></li><li><p>Cada vez que el objetivo reciba un efecto que terminaría la condición de Envenenado, el objetivo debe tener éxito en una [[/save ability=con format=long]], o la condición no termina en él.</p></li></ul>"
+          "description": "<ul><li><p>Mientras está &Reference[Poisoned apply=false], el objetivo tiene Desventaja en las tiradas de salvación hechas con la característica elegida.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">El objetivo debe repetir la [[/save ability=con format=long]] al final de cada uno de sus turnos hasta que obtenga tres éxitos o fracasos.</span></p></li><li><p>Cada vez que el objetivo reciba un efecto que terminaría la condición de Envenenado, el objetivo debe tener éxito en una [[/save ability=con format=long]], o la condición no termina en él.</p></li></ul>"
         }
       }
     },
@@ -949,7 +949,7 @@
     },
     "Cure Wounds": {
       "name": "Curar Heridas",
-      "description": "<p>Una criatura a la que toques recupera una cantidad de puntos de golpe igual a 2d8 más tu modificador por | aptitud mágica.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> La curación aumenta en 2d8 por cada nivel por encima de 1 que tenga el espacio.</p>"
+      "description": "<p>Una criatura a la que toques recupera una cantidad de puntos de golpe igual a 2d8 más tu modificador por | característica mágica.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> La curación aumenta en 2d8 por cada nivel por encima de 1 que tenga el espacio.</p>"
     },
     "Dancing Lights": {
       "name": "Luces Danzantes",
@@ -1105,7 +1105,7 @@
     },
     "Dispel Magic": {
       "name": "Disipar Magia",
-      "description": "<p>Elige una criatura, objeto o efecto mágico dentro del alcance. Cualquier conjuro en curso de nivel 3 o inferior sobre el objetivo termina. Por cada conjuro en curso de nivel 4 o superior sobre el objetivo, realiza una prueba de aptitud usando tu aptitud de lanzamiento de conjuros (CD 10 + el nivel de ese conjuro). Si tienes éxito, el conjuro termina.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Terminas automáticamente un conjuro sobre el objetivo si el nivel del conjuro es igual o inferior al nivel del espacio de conjuro que usas.</p>"
+      "description": "<p>Elige una criatura, objeto o efecto mágico dentro del alcance. Cualquier conjuro en curso de nivel 3 o inferior sobre el objetivo termina. Por cada conjuro en curso de nivel 4 o superior sobre el objetivo, realiza una prueba de característica usando tu característica de lanzamiento de conjuros (CD 10 + el nivel de ese conjuro). Si tienes éxito, el conjuro termina.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Terminas automáticamente un conjuro sobre el objetivo si el nivel del conjuro es igual o inferior al nivel del espacio de conjuro que usas.</p>"
     },
     "Dissonant Whispers": {
       "name": "Susurros Discordantes",
@@ -1316,27 +1316,27 @@
     },
     "Enhance Ability": {
       "name": "Potenciar Característica",
-      "description": "<p>Tocas a una criatura y eliges Fuerza, Destreza, Inteligencia, Sabiduría o Carisma. Por la duración, el objetivo tiene Ventaja en las pruebas de aptitud que usen la aptitud elegida.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio. Puedes elegir una aptitud diferente para cada objetivo.</p>",
+      "description": "<p>Tocas a una criatura y eliges Fuerza, Destreza, Inteligencia, Sabiduría o Carisma. Por la duración, el objetivo tiene Ventaja en las pruebas de característica que usen la característica elegida.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio. Puedes elegir una característica diferente para cada objetivo.</p>",
       "effects": {
         "Enhanced Strength": {
           "name": "Fuerza Mejorada",
-          "description": "<p>El objetivo tiene Ventaja en las pruebas de aptitud hechas con la aptitud elegida.</p>"
+          "description": "<p>El objetivo tiene Ventaja en las pruebas de característica hechas con la característica elegida.</p>"
         },
         "Enhanced Dexterity": {
           "name": "Destreza Mejorada",
-          "description": "<p>El objetivo tiene Ventaja en las pruebas de aptitud hechas con la aptitud elegida.</p>"
+          "description": "<p>El objetivo tiene Ventaja en las pruebas de característica hechas con la característica elegida.</p>"
         },
         "Enhanced Intelligence": {
           "name": "Inteligencia Mejorada",
-          "description": "<p>El objetivo tiene Ventaja en las pruebas de aptitud hechas con la aptitud elegida.</p>"
+          "description": "<p>El objetivo tiene Ventaja en las pruebas de característica hechas con la característica elegida.</p>"
         },
         "Enhanced Wisdom": {
           "name": "Sabiduría Mejorada",
-          "description": "<p>El objetivo tiene Ventaja en las pruebas de aptitud hechas con la aptitud elegida.</p>"
+          "description": "<p>El objetivo tiene Ventaja en las pruebas de característica hechas con la característica elegida.</p>"
         },
         "Enhanced Charisma": {
           "name": "Carisma Mejorado",
-          "description": "<p>El objetivo tiene Ventaja en las pruebas de aptitud hechas con la aptitud elegida.</p>"
+          "description": "<p>El objetivo tiene Ventaja en las pruebas de característica hechas con la característica elegida.</p>"
         }
       }
     },
@@ -1579,7 +1579,7 @@
     },
     "Flame Blade": {
       "name": "Hoja de Fuego",
-      "description": "<p>Evocas una hoja de fuego en tu mano libre. La hoja es similar en tamaño y forma a una cimitarra, y dura por la duración. Si sueltas la hoja, desaparece, pero puedes evocarla de nuevo como una Acción Adicional.</p><p>Como una acción de Magia, puedes hacer un ataque de conjuro cuerpo a cuerpo con la hoja de fuego. Si aciertas, el objetivo recibe daño por Fuego igual a 3d6 más tu modificador de aptitud de lanzamiento de conjuros.</p><p>La hoja de fuego emite Luz Brillante en un radio de 10 pies y Luz Tenue por 10 pies adicionales.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio.</p>",
+      "description": "<p>Evocas una hoja de fuego en tu mano libre. La hoja es similar en tamaño y forma a una cimitarra, y dura por la duración. Si sueltas la hoja, desaparece, pero puedes evocarla de nuevo como una Acción Adicional.</p><p>Como una acción de Magia, puedes hacer un ataque de conjuro cuerpo a cuerpo con la hoja de fuego. Si aciertas, el objetivo recibe daño por Fuego igual a 3d6 más tu modificador de característica de lanzamiento de conjuros.</p><p>La hoja de fuego emite Luz Brillante en un radio de 10 pies y Luz Tenue por 10 pies adicionales.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio.</p>",
       "activities": {
         "Evoke Blade": {
           "name": "Evocar Hoja"
@@ -1801,7 +1801,7 @@
     },
     "Greater Restoration": {
       "name": "Restablecimiento Mayor",
-      "description": "<p>Tocas a una criatura y eliminas mágicamente uno de los siguientes efectos de ella:</p><ul><li>1 nivel de &Reference[Exhaustion]</li><li>La condición de &Reference[Charmed] o &Reference[Petrified]</li><li>Una maldición, incluida la Sintonía del objetivo con un objeto mágico maldito</li><li>Cualquier reducción a una de las puntuaciones de aptitud del objetivo</li><li>Cualquier reducción al máximo de Puntos de Golpe del objetivo</li></ul>"
+      "description": "<p>Tocas a una criatura y eliminas mágicamente uno de los siguientes efectos de ella:</p><ul><li>1 nivel de &Reference[Exhaustion]</li><li>La condición de &Reference[Charmed] o &Reference[Petrified]</li><li>Una maldición, incluida la Sintonía del objetivo con un objeto mágico maldito</li><li>Cualquier reducción a una de las puntuaciones de característica del objetivo</li><li>Cualquier reducción al máximo de Puntos de Golpe del objetivo</li></ul>"
     },
     "Guardian of Faith": {
       "name": "Guardián de la Fe",
@@ -1935,7 +1935,7 @@
     },
     "Healing Word": {
       "name": "Palabra de Curación",
-      "description": "<p>Una criatura de tu elección que puedas ver dentro del alcance recupera una cantidad de puntos de golpe igual a 2d4 más tu modificador por aptitud mágica.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> La curación aumenta en 2d4 por cada nivel por encima de 1 que tenga el espacio.</p>"
+      "description": "<p>Una criatura de tu elección que puedas ver dentro del alcance recupera una cantidad de puntos de golpe igual a 2d4 más tu modificador por característica mágica.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> La curación aumenta en 2d4 por cada nivel por encima de 1 que tenga el espacio.</p>"
     },
     "Heat Metal": {
       "name": "Calentar Metal",
@@ -1983,11 +1983,11 @@
     },
     "Heroism": {
       "name": "Heroísmo",
-      "description": "<p>Insuflas valor a una criatura voluntaria a la que toques. Hasta que el conjuro termine, la criatura es inmune al estado de asustada y obtiene una cantidad de puntos de golpe temporales igual a tu modificador por aptitud mágica al principio de cada uno de sus turnos.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.</p>",
+      "description": "<p>Insuflas valor a una criatura voluntaria a la que toques. Hasta que el conjuro termine, la criatura es inmune al estado de asustada y obtiene una cantidad de puntos de golpe temporales igual a tu modificador por característica mágica al principio de cada uno de sus turnos.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.</p>",
       "effects": {
         "Bravery": {
           "name": "Valentía",
-          "description": "<p>la criatura es inmune al estado de asustada y obtiene una cantidad de puntos de golpe temporales igual a tu modificador por aptitud mágica al principio de cada uno de sus turnos.</p>"
+          "description": "<p>la criatura es inmune al estado de asustada y obtiene una cantidad de puntos de golpe temporales igual a tu modificador por característica mágica al principio de cada uno de sus turnos.</p>"
         }
       }
     },
@@ -2385,7 +2385,7 @@
     },
     "Mass Cure Wounds": {
       "name": "Curar en Masa",
-      "description": "<p>Una ola de energía curativa se extiende desde un punto que puedas ver dentro del alcance. Elige hasta seis criaturas en una Esfera de 30 pies de radio centrada en ese punto. Cada objetivo recupera Puntos de Golpe iguales a 5d8 más tu modificador de aptitud de lanzamiento de conjuros.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> La curación aumenta en 1d8 por cada nivel de espacio de conjuro por encima del 5.</p>"
+      "description": "<p>Una ola de energía curativa se extiende desde un punto que puedas ver dentro del alcance. Elige hasta seis criaturas en una Esfera de 30 pies de radio centrada en ese punto. Cada objetivo recupera Puntos de Golpe iguales a 5d8 más tu modificador de característica de lanzamiento de conjuros.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> La curación aumenta en 1d8 por cada nivel de espacio de conjuro por encima del 5.</p>"
     },
     "Mass Heal": {
       "name": "Curar en Masa",
@@ -2393,7 +2393,7 @@
     },
     "Mass Healing Word": {
       "name": "Palabra de Curación en Masa",
-      "description": "<p>Hasta seis criaturas de tu elección que puedas ver dentro del alcance recuperan Puntos de Golpe iguales a 2d4 más tu modificador de aptitud de lanzamiento de conjuros.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> La curación aumenta en 1d4 por cada nivel de espacio de conjuro por encima del 3.</p>"
+      "description": "<p>Hasta seis criaturas de tu elección que puedas ver dentro del alcance recuperan Puntos de Golpe iguales a 2d4 más tu modificador de característica de lanzamiento de conjuros.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> La curación aumenta en 1d4 por cada nivel de espacio de conjuro por encima del 3.</p>"
     },
     "Mass Suggestion": {
       "name": "Sugestión en Masa",
@@ -2585,7 +2585,7 @@
     },
     "Mordenkainen's Sword": {
       "name": "Espada de Mordenkainen",
-      "description": "<p>Creas una espada espectral que flota dentro del alcance. Dura por la duración.</p><p>Cuando aparece la espada, realizas un ataque de conjuro cuerpo a cuerpo contra un objetivo a 5 pies de la espada. Si aciertas, el objetivo recibe daño de Fuerza igual a 4d12 más tu modificador de aptitud de lanzamiento de conjuros.</p><p>En tus turnos posteriores, puedes usar una Acción Adicional para mover la espada hasta 30 pies a un lugar que puedas ver y repetir el ataque contra el mismo objetivo o uno diferente.</p>",
+      "description": "<p>Creas una espada espectral que flota dentro del alcance. Dura por la duración.</p><p>Cuando aparece la espada, realizas un ataque de conjuro cuerpo a cuerpo contra un objetivo a 5 pies de la espada. Si aciertas, el objetivo recibe daño de Fuerza igual a 4d12 más tu modificador de característica de lanzamiento de conjuros.</p><p>En tus turnos posteriores, puedes usar una Acción Adicional para mover la espada hasta 30 pies a un lugar que puedas ver y repetir el ataque contra el mismo objetivo o uno diferente.</p>",
       "activities": {
         "Create Spectral Sword": {
           "name": "Crear Espada Espectral"
@@ -2710,11 +2710,11 @@
     },
     "Phantasmal Killer": {
       "name": "Asesino Fantasmal",
-      "description": "<p>Te adentras en las pesadillas de una criatura que puedas ver dentro del alcance y creas una ilusión de sus miedos más profundos, visible solo para esa criatura. El objetivo realiza una tirada de salvación de Sabiduría. Si falla, el objetivo recibe 4d10 de daño Psíquico y tiene Desventaja en las pruebas de aptitud y tiradas de ataque por la duración. Si tiene éxito, el objetivo recibe la mitad de daño y el conjuro termina.</p><p>Por la duración, el objetivo realiza una tirada de salvación de [[/save ability=wis dc=@attributes.spell.dc]] al final de cada uno de sus turnos. Si falla, recibe el daño Psíquico de nuevo. Si tiene éxito, el conjuro termina.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño aumenta en 1d10 por cada nivel de espacio de conjuro por encima del 4.</p>",
+      "description": "<p>Te adentras en las pesadillas de una criatura que puedas ver dentro del alcance y creas una ilusión de sus miedos más profundos, visible solo para esa criatura. El objetivo realiza una tirada de salvación de Sabiduría. Si falla, el objetivo recibe 4d10 de daño Psíquico y tiene Desventaja en las pruebas de característica y tiradas de ataque por la duración. Si tiene éxito, el objetivo recibe la mitad de daño y el conjuro termina.</p><p>Por la duración, el objetivo realiza una tirada de salvación de [[/save ability=wis dc=@attributes.spell.dc]] al final de cada uno de sus turnos. Si falla, recibe el daño Psíquico de nuevo. Si tiene éxito, el conjuro termina.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño aumenta en 1d10 por cada nivel de espacio de conjuro por encima del 4.</p>",
       "effects": {
         "Fears Manifested": {
           "name": "Miedos Manifestados",
-          "description": "<p>El objetivo tiene Desventaja en las pruebas de aptitud y tiradas de ataque por la duración.</p><p>Por la duración, el objetivo realiza una tirada de salvación de [[/save ability=wis]] al final de cada uno de sus turnos. Si falla, recibe el daño Psíquico de nuevo. Si tiene éxito, el conjuro termina.</p>"
+          "description": "<p>El objetivo tiene Desventaja en las pruebas de característica y tiradas de ataque por la duración.</p><p>Por la duración, el objetivo realiza una tirada de salvación de [[/save ability=wis]] al final de cada uno de sus turnos. Si falla, recibe el daño Psíquico de nuevo. Si tiene éxito, el conjuro termina.</p>"
         }
       }
     },
@@ -3320,7 +3320,7 @@
     },
     "Shillelagh": {
       "name": "Shillelagh",
-      "description": "<p>Un bastón o un garrote que sostengas se ve impregnado del poder de la naturaleza. Hasta que termine el conjuro, puedes usar tu aptitud mágica en lugar de tu Fuerza para las tiradas de ataque y de daño de tus ataques cuerpo a cuerpo usando esa arma y el dado de daño pasa a ser un d8. Si el ataque inflige daño, puede ser de fuerza o del tipo de daño normal del arma (a tu elección).</p><p>El conjuro termina antes de tiempo si lo vuelves a lanzar o si sueltas el arma.</p><p><strong>Mejora de Truco.</strong> El dado de daño cambia cuando alcanzas los niveles 5 (d10), 11 (d12) y 17 (2d6).</p>",
+      "description": "<p>Un bastón o un garrote que sostengas se ve impregnado del poder de la naturaleza. Hasta que termine el conjuro, puedes usar tu característica mágica en lugar de tu Fuerza para las tiradas de ataque y de daño de tus ataques cuerpo a cuerpo usando esa arma y el dado de daño pasa a ser un d8. Si el ataque inflige daño, puede ser de fuerza o del tipo de daño normal del arma (a tu elección).</p><p>El conjuro termina antes de tiempo si lo vuelves a lanzar o si sueltas el arma.</p><p><strong>Mejora de Truco.</strong> El dado de daño cambia cuando alcanzas los niveles 5 (d10), 11 (d12) y 17 (2d6).</p>",
       "activities": {
         "Imbue Weapon": {
           "name": "Imbuir Arma"
@@ -3431,7 +3431,7 @@
     },
     "Sorcerous Burst": {
       "name": "Estallido Mágico",
-      "description": "<p>Lanzas energía mágica contra una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 148 de daño del tipo que elijas: ácido, frío, fuego, psíquico, relámpago, trueno o veneno.</p><p>Si sacas un 8 en un d8 con este conjuro, puedes tirar otro d8 y sumarlo al daño. Cuando lances este conjuro, la cantidad máxima de d8 que puedes sumar al daño del conjuro es igual a tu modificador por aptitud mágica.</p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).</p>"
+      "description": "<p>Lanzas energía mágica contra una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 148 de daño del tipo que elijas: ácido, frío, fuego, psíquico, relámpago, trueno o veneno.</p><p>Si sacas un 8 en un d8 con este conjuro, puedes tirar otro d8 y sumarlo al daño. Cuando lances este conjuro, la cantidad máxima de d8 que puedes sumar al daño del conjuro es igual a tu modificador por característica mágica.</p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).</p>"
     },
     "Spare the Dying": {
       "name": "Piedad con los Moribundos",
@@ -3494,7 +3494,7 @@
     },
     "Spiritual Weapon": {
       "name": "Arma Espiritual",
-      "description": "<pCreas una fuerza espectral flotante con el aspecto de un arma de tu elección que permanece hasta que termine el conjuro. La fuerza aparece dentro del alcance en un espacio de tu elección y puedes hacer inmediatamente un ataque de conjuro cuerpo a cuerpo contra una criatura que esté a 5ft (1,5 m) o menos de ella. Si acierta, el objetivo recibe una cantidad de daño de fuerza igual a 1d8 más tu modificador por aptitud mágica.</p><p>Como acción adicional en tus siguientes turnos, puedes mover la fuerza hasta 6 m y repetir el ataque contra una criatura que esté a 1,5 m o menos de ella.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio.</p>"
+      "description": "<pCreas una fuerza espectral flotante con el aspecto de un arma de tu elección que permanece hasta que termine el conjuro. La fuerza aparece dentro del alcance en un espacio de tu elección y puedes hacer inmediatamente un ataque de conjuro cuerpo a cuerpo contra una criatura que esté a 5ft (1,5 m) o menos de ella. Si acierta, el objetivo recibe una cantidad de daño de fuerza igual a 1d8 más tu modificador por característica mágica.</p><p>Como acción adicional en tus siguientes turnos, puedes mover la fuerza hasta 6 m y repetir el ataque contra una criatura que esté a 1,5 m o menos de ella.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio.</p>"
     },
     "Staggering Smite": {
       "name": "Castigo Abrumador",
@@ -3728,7 +3728,7 @@
     },
     "Symbol": {
       "name": "Símbolo",
-      "description": "<p>Inscribes un glifo dañino ya sea en una superficie (como una sección de suelo o pared) o dentro de un objeto que se pueda cerrar (como un libro o cofre). El glifo puede cubrir un área no mayor de 10 pies de diámetro. Si eliges un objeto, debe permanecer en su lugar; si se mueve más de 10 pies de donde lanzaste este conjuro, el glifo se rompe y el conjuro termina sin ser activado.</p><p>El glifo es casi imperceptible y requiere una prueba exitosa de Sabiduría (Percepción) contra la CD de salvación de tu conjuro para notarlo.</p><p>Cuando inscribes el glifo, estableces su desencadenante y eliges qué efecto tiene el símbolo: Muerte, Discordia, Miedo, Dolor, Sueño o Aturdimiento. Cada uno se explica a continuación.</p><p><strong>Establecer el Desencadenante.</strong> Decides qué desencadena el glifo cuando lanzas el conjuro. Para los glifos inscritos en una superficie, los desencadenantes comunes incluyen tocar o pisar el glifo, quitar otro objeto que lo cubra, o acercarse a una cierta distancia de él. Para los glifos inscritos dentro de un objeto, los desencadenantes comunes incluyen abrir ese objeto o ver el glifo.</p><p>Puedes refinar el desencadenante para que solo criaturas de ciertos tipos lo activen (por ejemplo, el glifo podría estar configurado para afectar a Aberraciones). También puedes establecer condiciones para las criaturas que no activan el glifo, como aquellas que dicen una cierta contraseña.</p><p>Una vez activado, el glifo brilla, llenando una Esfera de 60 pies de radio con Luz Tenue durante 10 minutos, después de lo cual el conjuro termina. Cada criatura en la Esfera cuando el glifo se activa es objetivo de su efecto, al igual que una criatura que entra en la Esfera por primera vez en un turno o termina su turno allí. Una criatura es objetivo solo una vez por turno.</p><p><strong>Muerte.</strong> Cada objetivo realiza una tirada de salvación de Constitución, recibiendo 10d10 de daño Necrótico si falla o la mitad de daño si tiene éxito.</p><p><strong>Discordia.</strong> Cada objetivo realiza una tirada de salvación de Sabiduría. Si falla, un objetivo discute con otras criaturas durante 1 minuto. Durante este tiempo, es incapaz de una comunicación significativa y tiene Desventaja en las tiradas de ataque y pruebas de aptitud.</p><p><strong>Miedo.</strong> Cada objetivo debe tener éxito en una tirada de salvación de Sabiduría o tener la condición de Asustado durante 1 minuto. Mientras está Asustado, el objetivo debe moverse al menos 30 pies lejos del glifo en cada uno de sus turnos, si es posible.</p><p><strong>Dolor.</strong> Cada objetivo debe tener éxito en una tirada de salvación de Constitución o tener la condición de Incapacitado durante 1 minuto.</p><p><strong>Sueño.</strong> Cada objetivo debe tener éxito en una tirada de salvación de Sabiduría o tener la condición de Inconsciente durante 10 minutos. Una criatura se despierta si recibe daño o si alguien realiza una acción para despertarla.</p><p><strong>Aturdimiento.</strong> Cada objetivo debe tener éxito en una tirada de salvación de Sabiduría o tener la condición de Aturdido durante 1 minuto.</p>",
+      "description": "<p>Inscribes un glifo dañino ya sea en una superficie (como una sección de suelo o pared) o dentro de un objeto que se pueda cerrar (como un libro o cofre). El glifo puede cubrir un área no mayor de 10 pies de diámetro. Si eliges un objeto, debe permanecer en su lugar; si se mueve más de 10 pies de donde lanzaste este conjuro, el glifo se rompe y el conjuro termina sin ser activado.</p><p>El glifo es casi imperceptible y requiere una prueba exitosa de Sabiduría (Percepción) contra la CD de salvación de tu conjuro para notarlo.</p><p>Cuando inscribes el glifo, estableces su desencadenante y eliges qué efecto tiene el símbolo: Muerte, Discordia, Miedo, Dolor, Sueño o Aturdimiento. Cada uno se explica a continuación.</p><p><strong>Establecer el Desencadenante.</strong> Decides qué desencadena el glifo cuando lanzas el conjuro. Para los glifos inscritos en una superficie, los desencadenantes comunes incluyen tocar o pisar el glifo, quitar otro objeto que lo cubra, o acercarse a una cierta distancia de él. Para los glifos inscritos dentro de un objeto, los desencadenantes comunes incluyen abrir ese objeto o ver el glifo.</p><p>Puedes refinar el desencadenante para que solo criaturas de ciertos tipos lo activen (por ejemplo, el glifo podría estar configurado para afectar a Aberraciones). También puedes establecer condiciones para las criaturas que no activan el glifo, como aquellas que dicen una cierta contraseña.</p><p>Una vez activado, el glifo brilla, llenando una Esfera de 60 pies de radio con Luz Tenue durante 10 minutos, después de lo cual el conjuro termina. Cada criatura en la Esfera cuando el glifo se activa es objetivo de su efecto, al igual que una criatura que entra en la Esfera por primera vez en un turno o termina su turno allí. Una criatura es objetivo solo una vez por turno.</p><p><strong>Muerte.</strong> Cada objetivo realiza una tirada de salvación de Constitución, recibiendo 10d10 de daño Necrótico si falla o la mitad de daño si tiene éxito.</p><p><strong>Discordia.</strong> Cada objetivo realiza una tirada de salvación de Sabiduría. Si falla, un objetivo discute con otras criaturas durante 1 minuto. Durante este tiempo, es incapaz de una comunicación significativa y tiene Desventaja en las tiradas de ataque y pruebas de característica.</p><p><strong>Miedo.</strong> Cada objetivo debe tener éxito en una tirada de salvación de Sabiduría o tener la condición de Asustado durante 1 minuto. Mientras está Asustado, el objetivo debe moverse al menos 30 pies lejos del glifo en cada uno de sus turnos, si es posible.</p><p><strong>Dolor.</strong> Cada objetivo debe tener éxito en una tirada de salvación de Constitución o tener la condición de Incapacitado durante 1 minuto.</p><p><strong>Sueño.</strong> Cada objetivo debe tener éxito en una tirada de salvación de Sabiduría o tener la condición de Inconsciente durante 10 minutos. Una criatura se despierta si recibe daño o si alguien realiza una acción para despertarla.</p><p><strong>Aturdimiento.</strong> Cada objetivo debe tener éxito en una tirada de salvación de Sabiduría o tener la condición de Aturdido durante 1 minuto.</p>",
       "activities": {
         "Inscribe Glyph": {
           "name": "Inscribir Glifo"
@@ -3755,7 +3755,7 @@
       "effects": {
         "Arguing": {
           "name": "Discutiendo",
-          "description": "<p>El objetivo es incapaz de una comunicación significativa y tiene Desventaja en las tiradas de ataque y pruebas de aptitud.</p>"
+          "description": "<p>El objetivo es incapaz de una comunicación significativa y tiene Desventaja en las tiradas de ataque y pruebas de característica.</p>"
         },
         "Frightened": {
           "name": "Asustado",
@@ -3775,17 +3775,17 @@
     },
     "Synaptic Static": {
       "name": "Estática Sináptica",
-      "description": "<p>Haces que la energía psíquica estalle en un punto dentro del alcance. Cada criatura en una Esfera de 20 pies de radio centrada en ese punto realiza una tirada de salvación de Inteligencia, recibiendo 8d6 de daño Psíquico si falla o la mitad de daño si tiene éxito.</p><p>Si falla la salvación, un objetivo también tiene pensamientos confusos durante 1 minuto. Durante ese tiempo, resta [[/r 1d6]] de todas sus tiradas de ataque y pruebas de aptitud, así como de cualquier tirada de salvación de Constitución para mantener la Concentración. El objetivo realiza una [[/save ability=int dc=@attributes.spell.dc format=long]] al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito.</p>",
+      "description": "<p>Haces que la energía psíquica estalle en un punto dentro del alcance. Cada criatura en una Esfera de 20 pies de radio centrada en ese punto realiza una tirada de salvación de Inteligencia, recibiendo 8d6 de daño Psíquico si falla o la mitad de daño si tiene éxito.</p><p>Si falla la salvación, un objetivo también tiene pensamientos confusos durante 1 minuto. Durante ese tiempo, resta [[/r 1d6]] de todas sus tiradas de ataque y pruebas de característica, así como de cualquier tirada de salvación de Constitución para mantener la Concentración. El objetivo realiza una [[/save ability=int dc=@attributes.spell.dc format=long]] al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito.</p>",
       "effects": {
         "Muddled Thoughts": {
           "name": "Pensamientos Confusos",
-          "description": "<p>El objetivo resta 1d6 de todas sus tiradas de ataque y pruebas de aptitud, así como de cualquier tirada de salvación de Constitución para mantener la Concentración. El objetivo realiza una [[/save ability=int format=long]] al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito.</p>"
+          "description": "<p>El objetivo resta 1d6 de todas sus tiradas de ataque y pruebas de característica, así como de cualquier tirada de salvación de Constitución para mantener la Concentración. El objetivo realiza una [[/save ability=int format=long]] al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito.</p>"
         }
       }
     },
     "Tasha's Bubbling Cauldron": {
       "name": "Caldero Burbujeante de Tasha",
-      "description": "<p>Conjuras un caldero con patas de garra lleno de líquido burbujeante. El caldero aparece en un espacio desocupado en el suelo a 5 pies de ti y dura por la duración. El caldero no puede ser movido y desaparece cuando el conjuro termina, junto con el líquido burbujeante en su interior.</p><p>El líquido en el caldero duplica las propiedades de una poción Común o Poco Común de tu elección (como una <em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPotionofHea]{Poción de Curación}</em>). Como una Acción Adicional, tú o un aliado podéis meter la mano en el caldero y sacar una poción de ese tipo. La poción está contenida en un vial que desaparece cuando se consume la poción. El caldero puede producir un número de estas pociones igual a tu modificador de aptitud de lanzamiento de conjuros (mínimo 1). Cuando se saca la última de estas pociones del caldero, el caldero desaparece y el conjuro termina.</p><p>Las pociones obtenidas del caldero que no se consumen desaparecen cuando lanzas este conjuro de nuevo.</p>",
+      "description": "<p>Conjuras un caldero con patas de garra lleno de líquido burbujeante. El caldero aparece en un espacio desocupado en el suelo a 5 pies de ti y dura por la duración. El caldero no puede ser movido y desaparece cuando el conjuro termina, junto con el líquido burbujeante en su interior.</p><p>El líquido en el caldero duplica las propiedades de una poción Común o Poco Común de tu elección (como una <em>@UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPotionofHea]{Poción de Curación}</em>). Como una Acción Adicional, tú o un aliado podéis meter la mano en el caldero y sacar una poción de ese tipo. La poción está contenida en un vial que desaparece cuando se consume la poción. El caldero puede producir un número de estas pociones igual a tu modificador de característica de lanzamiento de conjuros (mínimo 1). Cuando se saca la última de estas pociones del caldero, el caldero desaparece y el conjuro termina.</p><p>Las pociones obtenidas del caldero que no se consumen desaparecen cuando lanzas este conjuro de nuevo.</p>",
       "activities": {
         "Create Cauldron": {
           "name": "Crear Caldero"
@@ -3841,8 +3841,8 @@
       "description": "<p>Manifiestas un pequeño milagro dentro del alcance y produces uno de los siguientes efectos mágicos. Si lanzas este conjuro varias veces, puedes mantener activos a la vez hasta tres de sus efectos de 1 minuto.</p><p><strong>Jugar con Fuego.</strong> Haces que las llamas parpadeen, brillen más, se atenúen o cambien de color durante 1 minuto.</p><p><strong>Mano Invisible.</strong> Abres o cierras de golpe una puerta o ventana que no esté cerrada con llave.</p><p><strong>Ojos Alterados.</strong> A Cambias el aspecto de tus ojos durante 1 minuto.</p><p><strong>Sonido Fantasmal.</strong>  Creas un sonido instantáneo que procede de un punto de tu elección dentro del alcance. Por ejemplo, el retumbar de un trueno, el graznido de un cuervo o unos susurros de mal agúero.</p><p><strong>Temblores.</strong> Provocas que la tierra tiemble sin causar daños durante 1 minuto.</p><p><strong>Voz Atronadora.</strong>  Tu voz resuena hasta tres veces más alto de lo normal durante 1 minuto. Hasta que termine el conjuro, tienes ventaja en las pruebas de Carisma (Intimidación).</p>",
       "effects": {
         "Booming Voice": {
-          "name": "Booming Voice",
-          "description": "<p>Your voice booms up to three times as loud as normal for 1 minute. For the duration, you have Advantage on [[/check ability=cha skill=itm]] checks.</p>"
+          "name": "Voz Atronadora",
+          "description": "<p>Tu voz resuena hasta tres veces más alto de lo normal durante 1 minuto. Hasta que termine el conjuro, tienes ventaja en las pruebas de [[/check ability=cha skill=itm]].</p>"
         }
       }
     },
@@ -3952,7 +3952,7 @@
     },
     "True Strike": {
       "name": "Impacto Certero",
-      "description": "<p>Un destello de perspicacia mágica te guía y haces un ataque con el arma empleada para lanzar el conjuro. El ataque usa tu aptitud mágica para las tiradas de ataque y de daño en lugar de la Fuerza o la Destreza. Si el ataque inflige daño, puede ser radiante o del tipo de daño normal del arma (a tu elección).</p><p><strong>Mejora de Truco.</strong>  Independientemente de si haces daño radiante o del tipo normal del arma, el ataque inflige daño radiante adicional cuando alcanzas los niveles 5 (1d6), 11 (2d6) y 17 (3d6).</p>",
+      "description": "<p>Un destello de perspicacia mágica te guía y haces un ataque con el arma empleada para lanzar el conjuro. El ataque usa tu característica mágica para las tiradas de ataque y de daño en lugar de la Fuerza o la Destreza. Si el ataque inflige daño, puede ser radiante o del tipo de daño normal del arma (a tu elección).</p><p><strong>Mejora de Truco.</strong>  Independientemente de si haces daño radiante o del tipo normal del arma, el ataque inflige daño radiante adicional cuando alcanzas los niveles 5 (1d6), 11 (2d6) y 17 (3d6).</p>",
       "activities": {
         "Enchant Weapon": {
           "name": "Encantar Arma"

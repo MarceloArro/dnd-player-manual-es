@@ -124,11 +124,11 @@
         },
         "Bright Light": {
           "name": "Luz Brillante",
-          "text": "<p><strong>Bright Light</strong> lets most creatures see normally. Even gloomy days provide Bright Light, as do torches, lanterns, fires, and other sources of illumination within a specific radius.</p>"
+          "text": "<p><strong>Luz brillante</strong> es la iluminación normal. Consulta también el capítulo 1 (\"Exploración\").</p>"
         },
         "Dim Light": {
           "name": "Luz Tenue",
-          "text": "<p>An area with Dim Light is &amp;Reference[Lightly Obscured]. See also @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbExploration00]{Exploration}.</p>"
+          "text": "<p>Una zona con luz tenue está ligeramente oscura. Consulta también \"Ligeramente oscuro\" y el capítulo 1 (\"Exploración\").</p>"
         },
         "Darkness": {
           "name": "Oscuridad",
@@ -168,23 +168,23 @@
         },
         "Dash": {
           "name": "Correr",
-          "text": "<p>When you take the Dash action, you gain extra movement for the current turn. The increase equals your &amp;Reference[Speed] after applying any modifiers. With a Speed of 30 feet, for example, you can move up to 60 feet on your turn if you Dash. If your Speed of 30 feet is reduced to 15 feet, you can move up to 30 feet this turn if you Dash.</p><p>If you have a special speed, such as a Fly Speed or Swim Speed, you can use that speed instead of your Speed when you take this action. You choose which speed to use each time you take it.</p>"
+          "text": "<p>Cuando llevas a cabo la acción de correr, consigues movimiento adicional para ese turno. Este aumento es igual a tu velocidad tras aplicar cualquier modificador pertinente. Así, si tu velocidad fuera de 9 m, podrías moverte hasta 18 m en un turno en el que corras. Si tu velocidad de 9 m se redujera a 4,5 m, podrías moverte hasta 9 m en un turno en el que realizaras la acción de correr.</p><p>Si tienes una velocidad especial, como una velocidad nadando o una velocidad volando, puedes emplearla en lugar de tu velocidad normal cuando llevas a cabo esta acción. Eliges la velocidad que vas a emplear cada vez que realizas la acción. Consulta también \"Velocidad\".</p>"
         },
         "Disengage": {
           "name": "Destrabarse",
-          "text": "<p>If you take the Disengage action, your movement doesn’t provoke &amp;Reference[Opportunity Attacks] for the rest of the current turn.</p>"
+          "text": "<p>Si llevas a cabo la acción de destrabarse, tu movimiento no provocará ataques de oportunidad durante el resto del turno actual.</p>"
         },
         "Dodge": {
           "name": "Esquivar",
-          "text": "<p>If you take the Dodge action, you gain the following benefits: until the start of your next turn, any attack roll made against you has &amp;Reference[Disadvantage] if you can see the attacker, and you make Dexterity saving throws with &amp;Reference[Advantage].</p><p>You lose these benefits if you have the Incapacitated condition or if your Speed is 0.</p>"
+          "text": "<p>Si llevas a cabo la acción de esquivar, obtienes los siguientes beneficios: hasta el principio de tu siguiente turno, las tiradas de ataque contra ti tendrán desventaja si puedes ver al atacante y tendrás ventaja en las tiradas de salvación de Destreza.</p><p>Perderás estos beneficios si tienes el estado de incapacitado o si tu velocidad es 0.</p>"
         },
         "Help": {
           "name": "Ayudar",
-          "text": "<p>When you take the Help action, you do one of the following.</p><p><em><strong>Assist an Ability Check.</strong></em> Choose one of your skill or tool proficiencies and one ally who is near enough for you to assist verbally or physically when they make an ability check. That ally has &amp;Reference[Advantage] on the next ability check they make with the chosen skill or tool. This benefit expires if the ally doesn’t use it before the start of your next turn. The DM has final say on whether your assistance is possible.</p><p><em><strong>Assist an Attack Roll.</strong></em> You momentarily distract an enemy within 5 feet of you, giving Advantage to the next attack roll by one of your allies against that enemy. This benefit expires at the start of your next turn.</p>"
+          "text": "<p>Cuando llevas a cabo la acción de ayudar, tienes estas opciones:</p><p><em><strong>Ayudar en una prueba de característica.</strong></em> Elige una de tus competencias en habilidades o con herramientas y un aliado que esté lo bastante cerca como para ayudarle verbal o físicamente cuando haga una prueba de característica. Ese aliado tendrá ventaja en la siguiente prueba de característica que haga con la habilidad o herramienta elegidas. Este beneficio concluye si el aliado no lo usa antes del principio de tu siguiente turno. Tu DM tiene la última palabra sobre si puedes o no prestar esta ayuda.</p><p><em><strong>Ayudar en una tirada de ataque.</strong></em> Distraes por un momento a un enemigo que esté a 1,5 m o menos de ti, lo que da ventaja a la siguiente tirada de ataque que uno de tus aliados haga contra ese enemigo. Este beneficio concluye al principio de tu siguiente turno.</p>"
         },
         "Influence": {
           "name": "Influir",
-          "text": "<p>With the Influence action, you urge a monster to do something. Describe or roleplay how you’re communicating with the monster. Are you trying to deceive, intimidate, amuse, or gently persuade? The DM then determines whether the monster feels willing, unwilling, or hesitant due to your interaction; this determination establishes whether an ability check is necessary, as explained below.</p><p><em><strong>Willing.</strong></em> If your urging aligns with the monster’s desires, no ability check is necessary; the monster fulfills your request in a way it prefers.</p><p><em><strong>Unwilling.</strong></em> If your urging is repugnant to the monster or counter to its alignment, no ability check is necessary; it doesn’t comply.</p><p><em><strong>Hesitant.</strong></em> If you urge the monster to do something that it is hesitant to do, you must make an ability check, which is affected by the monster’s attitude: Indifferent, Friendly, or Hostile, each of which is defined in this glossary. The Influence Checks table suggests which ability check to make based on how you’re interacting with the monster. The DM chooses the check, which has a default DC equal to 15 or the monster’s Intelligence score, whichever is higher. On a successful check, the monster does as urged. On a failed check, you must wait 24 hours (or a duration set by the DM) before urging it in the same way again.</p><table><caption>Influence Checks</caption><thead><tr><th><p>Ability Check</p></th><th><p>Interaction</p></th></tr></thead><tbody><tr><td><p>[[/check dec]]</p></td><td><p>Deceiving a monster that understands you</p></td></tr><tr><td><p>[[/check itm]]</p></td><td><p>Intimidating a monster</p></td></tr><tr><td><p>[[/check prf]]</p></td><td><p>Amusing a monster</p></td></tr><tr><td><p>[[/check per]]</p></td><td><p>Persuading a monster that understands you</p></td></tr><tr><td><p>[[/check ani]]</p></td><td><p>Gently coaxing a Beast or Monstrosity</p></td></tr></tbody></table>"
+          "text": "<p>Con la acción de influir, instarás a un monstruo a hacer algo. Describe o interpreta cómo te estás comunicando con el monstruo. ¿Intentas engañarlo, intimidarlo, divertirlo o persuadirlo amablemente? A continuación, el DM determinará si el monstruo está dispuesto, no está dispuesto o duda debido a tu interacción; esto establece si es necesaria una prueba de característica, como se explica a continuación.</p><p><em><strong>Dispuesto.</strong></em> Si tu petición concuerda con los deseos del monstruo, no se requiere ninguna prueba de característica: el monstruo cumplirá tu petición de una forma que prefiera.</p><p><em><strong>No está dispuesto.</strong></em> Si tu petición repugna al monstruo o es contraria a su alineamiento, no se requiere ninguna prueba de característica: no cumplirá tu petición.</p><p><em><strong>Duda.</strong></em> Si instasal monstruo a hacer algo que duda en hacer, deberás superar una prueba de característica, que se verá afectada por la actitud del monstruo: indiferente, amistosa u hostil (cada una de ellas se define en este glosario). La tabla \"Pruebas de influencia\" indica qué prueba de característica deberás hacer en función de cómo interactúes con el monstruo. El DM elige la prueba, que tiene una CD por defecto de 15 o la puntuación de Inteligencia del monstruo, lo que sea mayor. Si la superas, el monstruo hará lo que le instaas. Si fallas, deberás esperar 24 horas (o la duración que determines el DM) antes de poder instarlo de la misma forma de nuevo.</p>"
         },
         "Magic": {
           "name": "Magia",
@@ -192,15 +192,15 @@
         },
         "Ready": {
           "name": "Prepararse",
-          "text": "<p>You take the Ready action to wait for a particular circumstance before you act. To do so, you take this action on your turn, which lets you act by taking a @UUID[.OhSIWaQ61dOp7S8M]{Reaction} before the start of your next turn.</p><p>First, you decide what perceivable circumstance will trigger your Reaction. Then, you choose the action you will take in response to that trigger, or you choose to move up to your Speed in response to it. Examples include “If the cultist steps on the trapdoor, I’ll pull the lever that opens it,” and “If the zombie steps next to me, I move away.”</p><p>When the trigger occurs, you can either take your Reaction right after the trigger finishes or ignore the trigger.</p><p>When you Ready a spell, you cast it as normal (expending any resources used to cast it) but hold its energy, which you release with your Reaction when the trigger occurs. To be readied, a spell must have a casting time of an action, and holding on to the spell’s magic requires @UUID[.0a2umg2mJMAzM9Q3]{Concentration}, which you can maintain up to the start of your next turn. If your Concentration is broken, the spell dissipates without taking effect.</p>"
+          "text": "<p>Usas la acción de preparar una acción para esperar a que se dé una circunstancia concreta antes de actuar. Para ello, usas esta acción en tu turno, lo que te permite actuar mediante una reacción antes del comienzo de tu siguiente turno.</p><p>Primero, decides qué circunstancia perceptible desencadenará tu reacción. Después, eliges la acción que llevarás a cabo como respuesta a ese desencadenante o eliges moverte hasta tu velocidad como respuesta a él.</p><p>Cuando se produce el desencadenante, puedes usar tu reacción justo después de que este finalice o bien ignorarlo.</p><p>Cuando preparas un conjuro, lo lanzas de la forma habitual (gastando cualquier recurso usado para lanzarlo), pero conservas su energía, que liberarás con tu reacción cuando se produzca el desencadenante. Para ser preparado, un conjuro debe tener un tiempo de lanzamiento de una acción, y conservar la magia del conjuro requiere concentración, que puedes mantener hasta el principio de tu siguiente turno. Si pierdes la concentración, el conjuro se disipará sin surtir efecto.</p>"
         },
         "Search": {
           "name": "Buscar",
-          "text": "<p>When you take the Search action, you make a Wisdom check to discern something that isn’t obvious. The Search table suggests which skills are applicable when you take this action, depending on what you’re trying to detect.</p><table><caption>Search</caption><thead><tr><th><p>Skill</p></th><th><p>Thing to Detect</p></th></tr></thead><tbody><tr><td><p>Insight</p></td><td><p>Creature’s state of mind</p></td></tr><tr><td><p>Medicine</p></td><td><p>Creature’s ailment or cause of death</p></td></tr><tr><td><p>Perception</p></td><td><p>Concealed creature or object</p></td></tr><tr><td><p>Survival</p></td><td><p>Tracks or food</p></td></tr></tbody></table>"
+          "text": "<p>Cuando llevas a cabo la acción de buscar, realizas una prueba de Sabiduría para distinguir algo que no resulta evidente. La tabla \"Búsqueda\" indica las habilidades que se pueden aplicar al usar esta acción, en función de lo que trates de detectar.</p>"
         },
         "Study": {
           "name": "Estudiar",
-          "text": "<p>When you take the Study action, you make an Intelligence check to study your memory, a book, a clue, or another source of knowledge and call to mind an important piece of information about it.</p><p>The Areas of Knowledge table suggests which skills are applicable to various areas of knowledge.</p><table><caption>Areas of Knowledge</caption><thead><tr><th><p>Skill</p></th><th><p>Areas</p></th></tr></thead><tbody><tr><td><p>Arcana</p></td><td><p>Spells, magic items, eldritch symbols, magical traditions, planes of existence, and certain creatures (Aberrations, Constructs, Elementals, Fey, and Monstrosities)</p></td></tr><tr><td><p>History</p></td><td><p>Historic events and people, ancient civilizations, wars, and certain creatures (Giants and Humanoids)</p></td></tr><tr><td><p>Investigation</p></td><td><p>Traps, ciphers, riddles, and gadgetry</p></td></tr><tr><td><p>Nature</p></td><td><p>Terrain, flora, weather, and certain creatures (Beasts, Dragons, Oozes, and Plants)</p></td></tr><tr><td><p>Religion</p></td><td><p>Deities, religious hierarchies and rites, holy symbols, cults, and certain creatures (Celestials, Fiends, and Undead)</p></td></tr></tbody></table>"
+          "text": "<p>Cuando llevas a cabo la acción de estudiar, haces una prueba de Inteligencia para explorar tus recuerdos o examinar un libro, una pista u otra fuente de conocimiento y recordar algún dato importante.</p><p>La tabla \"Áreas de conocimiento\" sugiere qué habilidades se pueden aplicar a diversos ámbitos.</p>"
         },
         "Utilize": {
           "name": "Utilizar",
@@ -212,7 +212,7 @@
         },
         "Hide": {
           "name": "Esconderse",
-          "text": "<p>With the Hide action, you try to conceal yourself. To do so, you must succeed on a [[/check stealth dc=15]] check while you’re @UUID[.YkuKTIH2YaYW8lTS]{Heavily Obscured} or behind &amp;Reference[Three-Quarters Cover] or &amp;Reference[Total Cover], and you must be out of any enemy’s line of sight; if you can see a creature, you can discern whether it can see you.</p><p>On a successful check, you have the &amp;Reference[Invisible] condition while hidden. Make note of your check’s total, which is the DC for a creature to find you with a [[/check prc]] check.</p><p>You stop being hidden immediately after any of the following occurs: you make a sound louder than a whisper, an enemy finds you, you make an attack roll, or you cast a spell with a Verbal component.</p>"
+          "text": "<p>Con la acción de esconderse, tratarás de ocultarte. Para ello, deberás superar una prueba de Destreza (Sigilo) con CD 15 mientras estás en una zona muy oscura o detrás de una cobertura tres cuartos o completa, y deberás estar fuera de la línea de visión de cualquier enemigo: si puedes ver a una criatura, sabrás si te puede ver o no.</p><p>Si la superas, tendrás el estado de invisible mientras permanezcas oculto. Anota el resultado de tu prueba, que es la CD para que una criatura te detecte con una prueba de Sabiduría (Percepción).</p><p>Dejas de estar oculto inmediatamente después de que ocurra algo de lo siguiente: haces un ruido más alto que un susurro; un enemigo te detecta; haces una tirada de ataque, o lanzas un conjuro con un componente verbal.</p>"
         },
         "Condition": {
           "name": "Estado",
@@ -220,15 +220,15 @@
         },
         "Blinded": {
           "name": "Cegado",
-          "text": "<p><em><strong>Can’t See.</strong></em> You can’t see and automatically fail any ability check that requires sight.</p><p><em><strong>Attacks Affected.</strong></em> Attack rolls against you have Advantage, and your attack rolls have &amp;Reference[Disadvantage].</p>"
+          "text": "<p>Mientras tengas el estado de cegado, experimentarás los siguientes efectos:</p><p><em><strong>No puedes ver.</strong></em> No puedes ver y fallas automáticamente todas las pruebas de característica que requieran la vista.</p><p><em><strong>Ataques afectados.</strong></em> Las tiradas de ataque contra ti tienen ventaja y tus tiradas de ataque tienen desventaja.</p>"
         },
         "Charmed": {
           "name": "Hechizado",
-          "text": "<p>While you have the Charmed condition, you experience the following effects.</p><p><em><strong>Can’t Harm the Charmer.</strong></em> You can’t attack the charmer or target the charmer with damaging abilities or magical effects.</p><p><em><strong>Social Advantage.</strong></em> The charmer has Advantage on any ability check to interact with you socially.</p>"
+          "text": "<p>Mientras tengas el estado de hechizado, experimentarás los siguientes efectos:</p><p><em><strong>No puedes dañar a quien te haya hechizado.</strong></em> No puedes atacar ni elegir como objetivo de efectos dañinos o mágicos a quien te haya hechizado.</p><p><em><strong>Ventaja social.</strong></em> Quien te haya hechizado tiene ventaja en las pruebas de característica para interactuar socialmente contigo.</p>"
         },
         "Deafened": {
           "name": "Ensordecido",
-          "text": "<p><strong>Can’t Hear.</strong> You can’t hear and automatically fail any ability check that requires hearing.</p>"
+          "text": "<p><strong>No puedes oír.</strong> No puedes oír y fallas automáticamente cualquier prueba de característica que requiera el oído.</p>"
         },
         "Exhaustion": {
           "name": "Cansancio",
@@ -236,47 +236,47 @@
         },
         "Frightened": {
           "name": "Asustado",
-          "text": "<p>While you have the Frightened condition, you experience the following effects.</p><p><em><strong>Ability Checks and Attacks Affected.</strong></em> You have &amp;Reference[Disadvantage] on ability checks and attack rolls while the source of fear is within line of sight.</p><p><em><strong>Can’t Approach.</strong></em> You can’t willingly move closer to the source of fear.</p>"
+          "text": "<p>Mientras tengas el estado de asustado, experimentarás los siguientes efectos:</p><p><em><strong>Pruebas de característica y ataques afectados.</strong></em> Tienes desventaja en las pruebas de característica y las tiradas de ataque mientras la fuente de tu miedo esté en tu línea de visión.</p><p><em><strong>No puedes acercarte.</strong></em> No puedes acercarte voluntariamente a la fuente de tu miedo.</p>"
         },
         "Grappled": {
           "name": "Agarrado",
-          "text": "<p>While you have the Grappled condition, you experience the following effects.</p><p><em><strong>Speed 0.</strong></em> Your Speed is 0 and can’t increase.</p><p><em><strong>Attacks Affected.</strong></em> You have &amp;Reference[Disadvantage] on attack rolls against any target other than the grappler.</p><p><em><strong>Movable.</strong></em> The grappler can drag or carry you when it moves, but every foot of movement costs it 1 extra foot unless you are Tiny or two or more sizes smaller than it.</p>"
+          "text": "<p>Mientras tengas el estado de agarrado, experimentarás los siguientes efectos:</p><p><em><strong>Velocidad 0.</strong></em> Tu velocidad es 0 y no puede aumentar.</p><p><em><strong>Ataques afectados.</strong></em> Tienes desventaja en las tiradas de ataque contra cualquier objetivo que no sea quien te agarra.</p><p><em><strong>Desplazable.</strong></em> Quien te agarra puede arrastrarte o transportarte al moverse, pero cada metro de movimiento le cuesta 1 m adicional, salvo que seas Diminuto o tu tamaño sea dos o más categorías inferior al suyo.</p>"
         },
         "Incapacitated": {
           "name": "Incapacitado",
-          "text": "<p>While you have the &amp;Reference[incapacitated] condition, you experience the following effects.</p><p><em><strong>Inactive.</strong></em> You can’t take any @UUID[.SsIXfzS2ZttwAaKj]{action}, @UUID[.EjR3KL7KLTwjWBS0]{Bonus Action}, or @UUID[.OhSIWaQ61dOp7S8M]{Reaction}.</p><p><em><strong>No Concentration.</strong></em> Your @UUID[.0a2umg2mJMAzM9Q3]{Concentration} is broken.</p><p><em><strong>Speechless.</strong></em> You can’t speak.</p><p><em><strong>Surprised.</strong></em> If you’re Incapacitated when you roll Initiative, you have &amp;Reference[Disadvantage] on the roll.</p>"
+          "text": "<p>Mientras tengas el estado de incapacitado, experimentarás los siguientes efectos:</p><p><em><strong>Inactivo.</strong></em> No puedes realizar ninguna acción, acción adicional ni reacción.</p><p><em><strong>Sin concentración.</strong></em> Tu concentración se rompe.</p><p><em><strong>Sin habla.</strong></em> No puedes hablar.</p><p><em><strong>Sorprendido.</strong></em> Si estás incapacitado cuando tiras iniciativa, tendrás desventaja en la tirada.</p>"
         },
         "Invisible": {
           "name": "Invisible",
-          "text": "<p>While you have the Invisible condition, you experience the following effects.</p><p><em><strong>Surprise.</strong></em> If you’re Invisible when you roll Initiative, you have &amp;Reference[Advantage] on the roll.</p><p><em><strong>Concealed.</strong></em> You aren’t affected by any effect that requires its target to be seen unless the effect’s creator can somehow see you. Any equipment you are wearing or carrying is also concealed.</p><p><em><strong>Attacks Affected.</strong></em> Attack rolls against you have &amp;Reference[Disadvantage], and your attack rolls have Advantage. If a creature can somehow see you, you don’t gain this benefit against that creature.</p>"
+          "text": "<p>Mientras tengas el estado de invisible, experimentarás los siguientes efectos:</p><p><em><strong>Sorpresa.</strong></em> Si estás invisible cuando tiras ir, tendrás ventaja en la tirada.</p><p><em><strong>Oculto.</strong></em> No te afecta ningún efecto que requiera que su objetivo esté visible, salvo que el creador del efecto pueda verte de alguna forma. Cualquier equipo que lleves o transportes también está oculto.</p><p><em><strong>Ataques afectados.</strong></em> Las tiradas de ataque contra ti tienen desventaja y tus tiradas de ataque tienen ventaja. Si una criatura puede verte de alguna forma, no obtendrás este beneficio contra ella.</p>"
         },
         "Paralyzed": {
           "name": "Paralizado",
-          "text": "<p>While you have the Paralyzed condition, you experience the following effects.</p><p><em><strong>Incapacitated.</strong></em> You have the &amp;Reference[Incapacitated] condition.</p><p><em><strong>Speed 0.</strong></em> Your Speed is 0 and can’t increase.</p><p><em><strong>Saving Throws Affected.</strong></em> You automatically fail Strength and Dexterity saving throws.</p><p><em><strong>Attacks Affected.</strong></em> Attack rolls against you have &amp;Reference[Advantage].</p><p><em><strong>Automatic Critical Hits.</strong></em> Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you.</p>"
+          "text": "<p>Mientras tengas el estado de paralizado, experimentarás los siguientes efectos:</p><p><em><strong>Incapacitado.</strong></em> Tienes el estado de incapacitado.</p><p><em><strong>Velocidad 0.</strong></em> Tu velocidad es 0 y no puede aumentar.</p><p><em><strong>Tiradas de salvación afectadas.</strong></em> Fallas automáticamente las tiradas de salvación de Fuerza y Destreza.</p><p><em><strong>Ataques afectados.</strong></em> Las tiradas de ataque contra ti tienen ventaja.</p><p><em><strong>Críticos automáticos.</strong></em> Cualquier tirada de ataque que te acierte será un crítico si el atacante está a 1,5 m o menos de ti.</p>"
         },
         "Petrified": {
           "name": "Petrificado",
-          "text": "<p>While you have the Petrified condition, you experience the following effects.</p><p><em><strong>Turned to Inanimate Substance.</strong></em> You are transformed, along with any nonmagical objects you are wearing and carrying, into a solid inanimate substance (usually stone). Your weight increases by a factor of ten, and you cease aging.</p><p><em><strong>Incapacitated.</strong></em> You have the &amp;Reference[Incapacitated] condition.</p><p><em><strong>Speed 0.</strong></em> Your Speed is 0 and can’t increase.</p><p><em><strong>Attacks Affected.</strong></em> Attack rolls against you have &amp;Reference[Advantage].</p><p><em><strong>Saving Throws Affected.</strong></em> You automatically fail Strength and Dexterity saving throws.</p><p><em><strong>Resist Damage.</strong></em> You have &amp;Reference[Resistance] to all damage.</p><p><em><strong>Poison Immunity.</strong></em> You have Immunity to the &amp;Reference[Poisoned] condition.</p>"
+          "text": "<p>Mientras tengas el estado de petrificado, experimentarás los siguientes efectos:</p><p><em><strong>Convertido en sustancia inanimada.</strong></em> Te transformas, junto con cualquier objeto no mágico que lleves y transportes, en una sustancia sólida inanimada (normalmente piedra). Tu peso aumenta por un factor de diez y dejas de envejecer.</p><p><em><strong>Incapacitado.</strong></em> Tienes el estado de incapacitado.</p><p><em><strong>Velocidad 0.</strong></em> Tu velocidad es 0 y no puede aumentar.</p><p><em><strong>Ataques afectados.</strong></em> Las tiradas de ataque contra ti tienen ventaja.</p><p><em><strong>Tiradas de salvación afectadas.</strong></em> Fallas automáticamente las tiradas de salvación de Fuerza y Destreza.</p><p><em><strong>Resistir daño.</strong></em> Tienes resistencia a todo el daño.</p><p><em><strong>Inmunidad al veneno.</strong></em> Tienes inmunidad al estado de envenenado.</p>"
         },
         "Poisoned": {
           "name": "Envenenado",
-          "text": "<p>While you have the Poisoned condition, you experience the following effect.</p><p><em><strong>Ability Checks and Attacks Affected.</strong></em> You have &amp;Reference[Disadvantage] on attack rolls and ability checks.</p>"
+          "text": "<p>Mientras tengas el estado de envenenado, experimentarás el siguiente efecto:</p><p><em><strong>Pruebas de característica y ataques afectados.</strong></em> Tienes desventaja en las tiradas de ataque y las pruebas de característica.</p>"
         },
         "Prone": {
           "name": "Derribado",
-          "text": "<p>While you have the Prone condition, you experience the following effects.</p><p><em><strong>Restricted Movement.</strong></em> Your only movement options are to crawl or to spend an amount of movement equal to half your &amp;Reference[Speed] (round down) to right yourself and thereby end the condition. If your Speed is 0, you can’t right yourself.</p><p><em><strong>Attacks Affected.</strong></em> You have &amp;Reference[Disadvantage] on attack rolls. An attack roll against you has &amp;Reference[Advantage] if the attacker is within 5 feet of you. Otherwise, that attack roll has Disadvantage.</p>"
+          "text": "<p>Mientras tengas el estado de derribado, experimentarás los siguientes efectos:</p><p><em><strong>Movimiento restringido.</strong></em> Tus únicas opciones de movimiento son arrastrarte o gastar una cantidad de movimiento igual a la mitad de tu velocidad (redondeando hacia abajo) para levantarte y, por tanto, poner fin a este estado. Si tu velocidad es 0, no puedes levantarte.</p><p><em><strong>Ataques afectados.</strong></em> Tienes desventaja en las tiradas de ataque. Las tiradas de ataque contra ti tienen ventaja si el atacante está a 1,5 m o menos de ti. De lo contrario, las tiradas de ataque tienen desventaja.</p>"
         },
         "Restrained": {
           "name": "Apresado",
-          "text": "<p>While you have the Restrained condition, you experience the following effects.</p><p><em><strong>Speed 0.</strong></em> Your &amp;Reference[Speed] is 0 and can’t increase.</p><p><em><strong>Attacks Affected.</strong></em> Attack rolls against you have Advantage, and your attack rolls have &amp;Reference[Disadvantage].</p><p><em><strong>Saving Throws Affected.</strong></em> You have Disadvantage on Dexterity saving throws.</p>"
+          "text": "<p>Mientras tengas el estado de apresado, experimentarás los siguientes efectos:</p><p><em><strong>Velocidad 0.</strong></em> Tu velocidad es 0 y no puede aumentar.</p><p><em><strong>Ataques afectados.</strong></em> Las tiradas de ataque contra ti tienen ventaja y tus tiradas de ataque tienen desventaja.</p><p><em><strong>Tiradas de salvación afectadas.</strong></em> Tienes desventaja en las tiradas de salvación de Destreza.</p>"
         },
         "Stunned": {
           "name": "Aturdido",
-          "text": "<p>When you have the Stunned condition, you experience the following effects.</p><p><em><strong>Incapacitated.</strong></em> You have the @UUID[.4i3G895hy99piand]{Incapacitated} condition.</p><p><em><strong>Saving Throws Affected.</strong></em> You automatically fail Strength and Dexterity saving throws.</p><p><em><strong>Attacks Affected.</strong></em> Attack rolls against you have &amp;Reference[Advantage].</p>"
+          "text": "<p>Mientras tengas el estado de aturdido, experimentarás los siguientes efectos:</p><p><em><strong>Incapacitado.</strong></em> Tienes el estado de incapacitado.</p><p><em><strong>Tiradas de salvación afectadas.</strong></em> Fallas automáticamente las tiradas de salvación de Fuerza y Destreza.</p><p><em><strong>Ataques afectados.</strong></em> Las tiradas de ataque contra ti tienen ventaja.</p>"
         },
         "Unconscious": {
           "name": "Inconsciente",
-          "text": "<p>While you have the Unconscious condition, you experience the following effects.</p><p><em><strong>Inert.</strong></em> You have the &amp;Reference[Incapacitated] and &amp;Reference[Prone] conditions, and you drop whatever you’re holding. When this condition ends, you remain Prone.</p><p><em><strong>Speed 0.</strong></em> Your &amp;Reference[Speed] is 0 and can’t increase.</p><p><em><strong>Attacks Affected.</strong></em> Attack rolls against you have &amp;Reference[Advantage].</p><p><em><strong>Saving Throws Affected.</strong></em> You automatically fail Strength and Dexterity saving throws.</p><p><em><strong>Automatic Critical Hits.</strong></em> Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you.</p>"
+          "text": "<p>Mientras tengas el estado de inconsciente, experimentarás los siguientes efectos:</p><p><em><strong>Inerte.</strong></em> Tienes los estados de incapacitado y derribado, y sueltas lo que tengas. Cuando este estado termine, seguirás derribado.</p><p><em><strong>Velocidad 0.</strong></em> Tu velocidad es 0 y no puede aumentar.</p><p><em><strong>Ataques afectados.</strong></em> Las tiradas de ataque contra ti tienen ventaja.</p><p><em><strong>Tiradas de salvación afectadas.</strong></em> Fallas automáticamente las tiradas de salvación de Fuerza y Destreza.</p><p><em><strong>Críticos automáticos.</strong></em> Cualquier tirada de ataque que te acierte será un crítico si el atacante está a 1,5 m o menos de ti.</p>"
         },
         "Hazard": {
           "name": "Peligro",
@@ -284,11 +284,11 @@
         },
         "Burning": {
           "name": "Fuego",
-          "text": "<p>A burning creature or object takes [[/damage 1d4 type=fire]] damage at the start of each of its turns. As an action, you can extinguish fire on yourself by giving yourself the @UUID[.QxCrRcgMdUd3gfzz]{Prone} condition and rolling on the ground. The fire also goes out if it is doused, submerged, or suffocated.</p>"
+          "text": "<p>Una criatura u objeto que arda sufre 1d4 de daño de fuego al principio de cada uno de sus turnos. Como acción, puedes apagar el fuego que te afecta adoptando el estado de derribado y rodando por el suelo. El fuego también se extingue si se empapa, se sumerge o se ahoga.</p>"
         },
         "Dehydration": {
           "name": "Deshidratación",
-          "text": "<p>A creature requires an amount of water per day based on its size, as shown in the Water Needs per Day table. A creature that drinks less than half the required water for a day gains 1 Exhaustion level at the day’s end. @UUID[.jSQtPgNm0i4f3Qi3]{Exhaustion} caused by dehydration can’t be removed until the creature drinks the full amount of water required for a day.</p><table><caption>Water Needs per Day</caption><thead><tr><th><p>Size</p></th><th><p>Water</p></th></tr></thead><tbody><tr><td><p>Tiny</p></td><td><p>1/4 gallon</p></td></tr><tr><td><p>Small</p></td><td><p>1 gallon</p></td></tr><tr><td><p>Medium</p></td><td><p>1 gallon</p></td></tr><tr><td><p>Large</p></td><td><p>4 gallons</p></td></tr><tr><td><p>Huge</p></td><td><p>16 gallons</p></td></tr><tr><td><p>Gargantuan</p></td><td><p>64 gallons</p></td></tr></tbody></table>"
+          "text": "<p>Las criaturas requieren cierta cantidad de agua al día en función de su tamaño, como se muestra en la tabla \"Consumo de agua al día\". Si una criatura bebe menos de la mitad del agua que necesita al día, sumará 1 nivel de cansancio al final del día. El cansancio causado por la deshidratación no puede eliminarse hasta que la criatura beba la cantidad completa de agua necesaria al día.</p>"
         },
         "Falling": {
           "name": "Caídas",
@@ -296,11 +296,11 @@
         },
         "Malnutrition": {
           "name": "Desnutrición",
-          "text": "<p>A creature needs an amount of food per day based on its size, as shown in the Food Needs per Day table. A creature that eats but consumes less than half the required food for a day must succeed on a [[/save dc=10 con]] saving throw or gain 1 &amp;Reference[exhaustion] level at the day’s end. A creature that eats nothing for 5 days automatically gains 1 Exhaustion level at the end of the fifth day as well as an additional level at the end of each subsequent day without food.</p><p>Exhaustion caused by malnutrition can’t be removed until the creature eats the full amount of food required for a day.</p><table><caption>Food Needs per Day</caption><thead><tr><th><p>Size</p></th><th><p>Food</p></th><th></th><th><p>Size</p></th><th><p>Food</p></th></tr></thead><tbody><tr><td><p>Tiny</p></td><td><p>1/4 pound</p></td><td></td><td><p>Large</p></td><td><p>4 pounds</p></td></tr><tr><td><p>Small</p></td><td><p>1 pound</p></td><td></td><td><p>Huge</p></td><td><p>16 pounds</p></td></tr><tr><td><p>Medium</p></td><td><p>1 pound</p></td><td></td><td><p>Gargantuan</p></td><td><p>64 pounds</p></td></tr></tbody></table>"
+          "text": "<p>Las criaturas necesitan cierta cantidad de alimentos al día en función de su tamaño, como se muestra en la tabla \"Consumo de alimentos al día\". Si una criatura come, pero ingiere menos de la mitad de los alimentos que necesita al día, deberá superar una tirada de salvación de Constitución con CD 10 o sumará 1 nivel de cansancio al final del día. Si una criatura no come nada durante 5 días, sumará automáticamente 1 nivel de cansancio al final del quinto día y un nivel adicional al final de cada día posterior sin comer.</p><p>El cansancio causado por la desnutrición no puede eliminarse hasta que la criatura coma la cantidad completa de alimentos necesarios al día.</p>"
         },
         "Suffocation": {
           "name": "Asfixia",
-          "text": "<p>A creature can hold its breath for a number of minutes equal to 1 plus its Constitution modifier (minimum of 30 seconds) before suffocation begins. When a creature runs out of breath or is choking, it gains 1 &amp;Reference[Exhaustion] level at the end of each of its turns. When a creature can breathe again, it removes all levels of Exhaustion it gained from suffocating.</p>"
+          "text": "<p>Una criatura puede aguantar la respiración durante una cantidad de minutos igual a 1 más su modificador por Constitución (mínimo de 30 segundos) antes de que empiece a asfixiarse. Cuando una criatura se quede sin aire o se esté ahogando, sumará 1 nivel de cansancio al final de cada uno de sus turnos. Cuando recupere el aliento, perderá todos los niveles de cansancio sumados por la asfixia.</p>"
         },
         "Area of Effect": {
           "name": "Área de Efecto",
@@ -320,7 +320,7 @@
         },
         "Emanation": {
           "name": "Emanación",
-          "text": "<p>An Emanation is an area of effect that extends in straight lines from a creature or an object in all directions. The effect that creates an Emanation specifies the distance it extends.</p><p>An Emanation moves with the creature or object that is its origin unless it is an instantaneous or a stationary effect.</p><p>An Emanation’s origin (creature or object) isn’t included in the area of effect unless its creator decides otherwise.</p>"
+          "text": "<p>Una emanación es un área de efecto que se extiende en líneas rectas desde una criatura o un objeto en todas las direcciones. El efecto que crea una emanación especifica la distancia que abarca.</p><p>Una emanación se mueve con la criatura o el objeto que sea su origen, salvo que se trate de un efecto instantáneo o estático.</p><p>El origen de una emanación (criatura u objeto) no se incluye en el área de efecto, salvo que su creador decida lo contrario.</p>"
         },
         "Line": {
           "name": "Línea",
@@ -328,23 +328,23 @@
         },
         "Sphere": {
           "name": "Esfera",
-          "text": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.npdEWb2egUPnB5Fa inline]</p>"
+          "text": "<p>Una esfera es un área de efecto que se extiende en líneas rectas desde un punto de origen hacia fuera en todas las direcciones. El efecto que crea una esfera especifica la distancia que se extiende como el radio de la esfera.</p><p>El punto de origen de una esfera está incluido en su área de efecto.</p>"
         },
         "Attitude": {
           "name": "Actitud",
-          "text": "<p>A monster has a starting attitude toward a player character: &amp;Reference[Friendly], &amp;Reference[Hostile], or &amp;Reference[Indifferent]. See also &amp;Reference[Influence].</p>"
+          "text": "<p>Los monstruos tienen una actitud inicial hacia un personaje de un jugador, la cual puede ser amistosa, hostil o indiferente. Consulta también \"Amistosa\", \"Hostil\", \"Indiferente\" e \"Influir\".</p>"
         },
         "Friendly": {
           "name": "Amistosa",
-          "text": "<p>A Friendly creature views you favorably. You have Advantage on an ability check to influence a Friendly creature. <em>See also</em> &amp;Reference[Influence].</p>"
+          "text": "<p>Una criatura amistosa te verá con buenos ojos. Tienes ventaja en las pruebas de característica para influir en una criatura amistosa. Consulta también \"Influir\".</p>"
         },
         "Hostile": {
           "name": "Hostil",
-          "text": "<p>A Hostile creature views you unfavorably. You have Disadvantage on an ability check to influence a Hostile creature. <em>See also</em> &amp;Reference[Influence].</p>"
+          "text": "<p>Una criatura hostil te verá con malos ojos. Tienes desventaja en las pruebas de característica para influir en una criatura hostil. Consulta también \"Influir\".</p>"
         },
         "Indifferent": {
           "name": "Indiferente",
-          "text": "<p>An Indifferent creature has no desire to help or hinder you. Indifferent is the default attitude of a monster. <em>See also</em> &amp;Reference[Influence].</p>"
+          "text": "<p>Una criatura indiferente no tendrá deseos de ayudarte ni de perjudicarte. Indiferente es la actitud por defecto de un monstruo. Consulta también \"Influir\".</p>"
         },
         "Speed": {
           "name": "Velocidad",
@@ -360,7 +360,7 @@
         },
         "Climbing": {
           "name": "Escalar",
-          "text": "<p>While you’re climbing, each foot of movement costs 1 extra foot (2 extra feet in @UUID[.9tzB6KQDTIuw1FlZ]{Difficult Terrain}). You ignore this extra cost if you have a Climb Speed and use it to climb.</p><p>At the DM’s option, climbing a slippery surface or one with few handholds might require a successful [[/check dc=15 ath]] check.</p>"
+          "text": "<p>Cuando escalas, cada metro de movimiento te cuesta 1 m adicional (2 m adicionales en terreno difícil). Ignoras este coste adicional si tienes una velocidad escalando y la usas para escalar.</p><p>Si tu DM lo cree conveniente, para escalar una superficie resbaladiza o con pocos agarres podría tener que superarse una prueba de Fuerza (Atletismo) con CD 15.</p>"
         },
         "Flying": {
           "name": "Volar",
@@ -372,11 +372,11 @@
         },
         "Swimming": {
           "name": "Nadar",
-          "text": "<p>While you’re swimming, each foot of movement costs 1 extra foot (2 extra feet in @UUID[.9tzB6KQDTIuw1FlZ]{Difficult Terrain}). You ignore this extra cost if you have a Swim Speed and use it to swim. At the DM’s option, moving any distance in rough water might require a successful [[/check dc=15 ath]] check.</p>"
+          "text": "<p>Cuando nadas, cada metro de movimiento te cuesta 1 m adicional (2 m adicionales en terreno difícil). Ignoras este coste adicional si tienes una velocidad nadando y la usas para nadar. Si tu DM lo cree conveniente, para recorrer cualquier distancia por aguas revueltas podría tener que superarse una prueba de Fuerza (Atletismo) con CD 15.</p>"
         },
         "Hover": {
           "name": "Flotar",
-          "text": "<p>Some creatures can hover, as noted in their stat blocks, and some spells and other effects grant the ability to hover. Hovering while flying prevents you from falling in certain circumstances. <em>See also </em>@UUID[.ozHhbP8JVHCJAx0b]{Flying}.</p>"
+          "text": "<p>Algunas criaturas pueden levitar, como se indica en sus perfiles, y algunos conjuros y otros efectos otorgan la capacidad de levitar. Si levitas al volar, evitarás caerte en determinadas circunstancias. Consulta también \"Volar\".</p>"
         },
         "Ability Check": {
           "name": "Prueba de Característica",
@@ -436,7 +436,7 @@
         },
         "Damage": {
           "name": "Daño",
-          "text": "<p>Damage represents harm that causes a creature or an object to lose Hit Points.</p>"
+          "text": "<p>Recibir daño hace que una criatura o un objeto pierda puntos de golpe.</p>"
         },
         "Damage Roll": {
           "name": "Tirada de Daño",
@@ -528,7 +528,7 @@
         },
         "Immunity": {
           "name": "Inmunidad",
-          "text": "<p>If you have Immunity to a damage type or a condition, it doesn’t affect you in any way.</p>"
+          "text": "<p>Si tienes inmunidad a un tipo de daño o a un estado, no te afecta de ninguna forma.</p>"
         },
         "Improvised Weapons": {
           "name": "Armas Improvisadas",
@@ -540,7 +540,7 @@
         },
         "Knocking Out a Creature": {
           "name": "Dejar Inconsciente a una Criatura",
-          "text": "<p>When you would reduce a creature to 0 Hit Points with a melee attack, you can instead reduce the creature to 1 Hit Point. The creature then has the @UUID[.fZCRaKEJd4KoQCqH]{Unconscious} condition and starts a @UUID[.wVuNbEADtC16ejAi]{Short Rest}.</p><p>The creature remains Unconscious until it regains any Hit Points or until someone uses an action to administer first aid to it, which requires a successful [[/check dc=10 med]] check.</p>"
+          "text": "<p>Si fueses a reducir a 0 los puntos de golpe de una criatura con un ataque cuerpo a cuerpo, puedes optar por dejarla con 1 punto de golpe. En tal caso, la criatura tendrá el estado de inconsciente y comenzará un descanso corto.</p><p>La criatura permanecerá inconsciente hasta que recupere algún punto de golpe o hasta que alguien utilice una acción para administrarle primeros auxilios, para lo que deberá superar una prueba de Sabiduría (Medicina) con CD 10.</p>"
         },
         "Magical Effect": {
           "name": "Efecto Mágico",
@@ -560,7 +560,7 @@
         },
         "Occupied Space": {
           "name": "Espacio Ocupado",
-          "text": "<p>A space is occupied if a creature is in it or if it is completely filled by objects.</p>"
+          "text": "<p>Un espacio se considera ocupado si una criatura se encuentra en él o si está completamente lleno de objetos.</p>"
         },
         "Opportunity Attacks": {
           "name": "Ataques de Oportunidad",
@@ -568,7 +568,7 @@
         },
         "Passive Perception": {
           "name": "Percepción Pasiva",
-          "text": "<p>Passive Perception is a score that reflects a creature’s general awareness of its surroundings. The DM uses this score when determining whether a creature notices something without consciously making a Wisdom (Perception) check.</p><p>A creature’s Passive Perception equals 10 plus the creature’s Wisdom (Perception) check bonus. If the creature has Advantage on such checks, increase the score by 5. If the creature has &amp;Reference[Disadvantage] on them, decrease the score by 5. For example, a level 1 character with a Wisdom of 15 and proficiency in Perception has a Passive Perception of 14 (10 + 2 + 2). If that character has Advantage on Wisdom (Perception) checks, the score becomes 19.</p>"
+          "text": "<p>La Percepción pasiva es una puntuación que refleja la atención general de una criatura al entorno. El DM usa esta puntuación para determinar si una criatura se percata de algo sin tener que realizar adrede una prueba de Sabiduría (Percepción).</p><p>La Percepción pasiva de una criatura es igual a 10 más su bonificador a las pruebas de Sabiduría (Percepción). Si la criatura tiene ventaja en estas pruebas, aumenta la puntuación en 5. Si tiene desventaja, la puntuación se reduce en 5.</p>"
         },
         "Per Day": {
           "name": "Por Día",
@@ -664,7 +664,7 @@
         },
         "Unoccupied Space": {
           "name": "Espacio Desocupado",
-          "text": "<p>A space is unoccupied if no creatures are in it and it isn’t completely filled by objects.</p>"
+          "text": "<p>Un espacio está sin ocupar si no hay criaturas en él y si no está completamente lleno de objetos.</p>"
         },
         "Vulnerability": {
           "name": "Vulnerabilidad",
@@ -716,7 +716,7 @@
         },
         "Bloodied": {
           "name": "Ensangrentado",
-          "text": "<p>A creature is Bloodied while it has half its Hit Points or fewer remaining.</p>"
+          "text": "<p>Una criatura está ensangrentada mientras tiene la mitad o menos de sus puntos de golpe.</p>"
         },
         "Breaking Objects": {
           "name": "Romper Objetos",

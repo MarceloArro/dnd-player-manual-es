@@ -37,11 +37,11 @@
   },
   "entries": {
     "Acid Splash": {
-      "name": "Salpicadura  Ácida",
+      "name": "Salpicadura Ácida",
       "description": "<p>Creas una burbuja ácida en un punto dentro del alcance, donde explotará en una esfera de 1,5 m de radio. Todas las criaturas situadas en la esfera deberán superar una tirada de salvación de Destreza o sufrirán 1d6 de daño de ácido.</p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).</p>"
     },
     "Aid": {
-      "name": "Auxilio",
+      "name": "Ayuda",
       "description": "<p>Elige hasta tres criaturas dentro del alcance. Los puntos de golpe máximos y actuales de cada objetivo aumentan en 5 hasta que termine el conjuro.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Los puntos de golpe de cada objetivo aumentan en 5 adicionales por cada nivel por encima de 2 que tenga el espacio.</p>",
       "effects": {
         "Level 2: +5 Max HP": {
@@ -148,7 +148,7 @@
       }
     },
     "Animal Shapes": {
-      "name": "Formas Animales",
+      "name": "Aspectos Animales",
       "description": "<p>Elige cualquier número de criaturas voluntarias que puedas ver dentro del alcance. Cada objetivo cambia de forma a una Bestia Grande o más pequeña de tu elección que tenga un Grado de Desafío de 4 o inferior. Puedes elegir una forma diferente para cada objetivo. En turnos posteriores, puedes realizar una acción de Magia para transformar a los objetivos nuevamente.</p><p>Las estadísticas de juego de un objetivo son reemplazadas por las estadísticas de la Bestia elegida, pero el objetivo retiene su tipo de criatura; Puntos de Golpe; Dados de Golpe; alineamiento; habilidad para comunicarse; y puntuaciones de Inteligencia, Sabiduría y Carisma. Las acciones del objetivo están limitadas por la anatomía de la forma de Bestia, y no puede lanzar conjuros. El equipo del objetivo se fusiona con la nueva forma, y el objetivo no puede usar nada de ese equipo mientras esté en esa forma.</p><p>El objetivo gana un número de Puntos de Golpe Temporales igual a los Puntos de Golpe de la forma de Bestia. La transformación dura por la duración para cada objetivo, hasta que el objetivo no tenga Puntos de Golpe Temporales, o hasta que el objetivo abandone la forma como una Acción Adicional.</p>",
       "activities": {
         "Initial Transformation": {
@@ -201,7 +201,7 @@
       }
     },
     "Antilife Shell": {
-      "name": "Coraza Antivida",
+      "name": "Caparazón Antivida",
       "description": "<p>Un aura se extiende desde ti en una Emanación de 10 pies por la duración. El aura impide que criaturas que no sean Constructos y No Muertos pasen o alcancen a través de ella. Una criatura afectada puede lanzar conjuros o realizar ataques con armas a Distancia o de Alcance a través de la barrera.</p><p>Si te mueves de manera que una criatura afectada se vea obligada a pasar a través de la barrera, el conjuro termina.</p>"
     },
     "Antimagic Field": {
@@ -429,7 +429,7 @@
       }
     },
     "Bestow Curse": {
-      "name": "Lanzar Maldición",
+      "name": "Imponer Maldición",
       "description": "<p>Tocas a una criatura, que debe tener éxito en una tirada de salvación de Sabiduría o ser maldecida por la duración. Hasta que la maldición termine, el objetivo sufre uno de los siguientes efectos de tu elección:</p><ul><li>Elige una aptitud. El objetivo tiene Desventaja en las pruebas de aptitud y tiradas de salvación hechas con esa aptitud (actividad <strong>Maldición de Aptitud</strong>).</li><li>El objetivo tiene Desventaja en las tiradas de ataque contra ti (actividad <strong>Maldición de Ataques</strong>).</li><li>En combate, el objetivo debe tener éxito en una tirada de salvación de Sabiduría al principio de cada uno de sus turnos o ser forzado a realizar la acción de &Reference[Dodge] en ese turno (actividad <strong>Maldición de Acciones</strong>).</li><li>Si infliges daño al objetivo con una tirada de ataque o un conjuro, el objetivo recibe un extra de 1d8 de daño Necrótico (actividad <strong>Maldición de Resistencia</strong>).</li></ul><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Si lanzas este conjuro usando un espacio de conjuro de nivel 4, puedes mantener la Concentración en él hasta por 10 minutos. Si usas un espacio de conjuro de nivel 5+, el conjuro no requiere Concentración, y la duración se convierte en 8 horas (espacio de nivel 5–6) o 24 horas (espacio de nivel 7–8). Si usas un espacio de conjuro de nivel 9, el conjuro dura hasta ser disipado.</p>",
       "activities": {
         "Curse Ability": {
@@ -501,7 +501,7 @@
       }
     },
     "Blade Ward": {
-      "name": "Guardia de Cuchillas",
+      "name": "Guardia de Espada",
       "description": "<p>Siempre que una criatura haga una tirada de ataque contra ti antes de que el conjuro termine, el atacante restará 1d4 a esa tirada.</p>",
       "activities": {
         "utility": {
@@ -520,7 +520,7 @@
       }
     },
     "Blight": {
-      "name": "Añublo",
+      "name": "Marchitar",
       "description": "<p>Una criatura que puedas ver dentro del alcance realiza una tirada de salvación de Constitución, recibiendo 8d8 de daño Necrótico si falla o la mitad de daño si tiene éxito. Una criatura de tipo Planta falla automáticamente la salvación.</p><p>Alternativamente, apunta a una planta no mágica que no sea una criatura, como un árbol o un arbusto. No realiza una salvación; simplemente se marchita y muere.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño aumenta en 1d8 por cada nivel de espacio de conjuro por encima del 4.</p>"
     },
     "Blinding Smite": {
@@ -539,7 +539,7 @@
       }
     },
     "Blindness/Deafness": {
-      "name": "Ceguera/Sordera",
+      "name": "Sordera/Ceguera",
       "description": "<p>Una criatura que puedas ver dentro del alcance debe tener éxito en una tirada de salvación de Constitución, o tendrá la condición de &Reference[Blinded apply=false] o &Reference[Deafened apply=false] (a tu elección) por la duración. Al final de cada uno de sus turnos, el objetivo repite la salvación, terminando el conjuro sobre sí mismo si tiene éxito.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio.</p>",
       "effects": {
         "Blindness": {
@@ -623,7 +623,7 @@
       }
     },
     "Chill Touch": {
-      "name": "Toque Helado",
+      "name": "Toque Gélido",
       "description": "<p>Canalizas un frío sepulcral y haces un ataque de conjuro cuerpo a cuerpo contra un objetivo dentro del alcance. Si acierta, el objetivo recibirá 1d10 de daño necrótico y no podrá recuperar puntos de golpe hasta el final de tu siguiente turno.</p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d10 cuando alcanzas los niveles 5 (2d10), 11 (3d10) y 17 (4d10).</p>",
       "effects": {
         "Blocked Healing": {
@@ -680,7 +680,7 @@
       }
     },
     "Command": {
-      "name": "Orden Imperiosa",
+      "name": "Orden",
       "description": "<p>Das una orden de una sola palabra a una criatura que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvación de Sabiduría o verse obligado a obedecer la orden en su próximo turno. Elige una de las siguientes órdenes:</p><p><strong>Acércate.</strong> El objetivo se acerca a ti por la ruta más corta y directa posible, y su turno acaba si se sitúa a 5ft (1,5 m) o menos de ti.</p><p><strong>Detente.</strong> En su turno, el objetivo no se mueve y no usa acciones ni acciones adicionales.</p><p><strong>Huye.</strong> El objetivo emplea su turno en alejarse de ti de la manera más rápida posible.</p><p><strong>Póstrate.</strong> El objetivo adopta el estado de derribado y termina su turno.</p><p><strong>Suelta.</strong> El objetivo suelta lo que sea que esté sujetando y acaba su turno.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Puedes afectar a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.</p>"
     },
     "Commune": {
@@ -898,7 +898,7 @@
       }
     },
     "Counterspell": {
-      "name": "Contraconjuro",
+      "name": "Contrahechizo",
       "description": "<p>Intentas interrumpir a una criatura en el proceso de lanzar un conjuro. La criatura realiza una tirada de salvación de Constitución. Si falla, el conjuro se disipa sin efecto, y la acción, Acción Adicional o Reacción utilizada para lanzarlo se desperdicia. Si ese conjuro fue lanzado con un espacio de conjuro, el espacio no se gasta.</p>"
     },
     "Create Food and Water": {
@@ -992,7 +992,7 @@
       }
     },
     "Delayed Blast Fireball": {
-      "name": "Bola de Fuego de Explosión Retardada",
+      "name": "Bola de Fuego Retardada",
       "description": "<p>Un rayo de luz amarilla destella desde ti, luego se condensa en un punto elegido dentro del alcance como una perla brillante por la duración. Cuando el conjuro termina, la perla explota, y cada criatura en una Esfera de 20 pies de radio centrada en ese punto realiza una tirada de salvación de Destreza. Una criatura recibe daño por Fuego igual al daño total acumulado si falla la salvación o la mitad de daño si tiene éxito.</p><p>El daño base del conjuro es 12d6, y el daño aumenta en 1d6 cada vez que termina tu turno y el conjuro no ha terminado.</p><p>Si una criatura toca la perla brillante antes de que termine el conjuro, esa criatura realiza una tirada de salvación de Destreza. Si falla, el conjuro termina, causando que la perla explote. Si tiene éxito, la criatura puede lanzar la perla hasta 40 pies. Si la perla lanzada entra en el espacio de una criatura o choca con un objeto sólido, el conjuro termina, y la perla explota.</p><p>Cuando la perla explota, los objetos inflamables en la explosión que no estén siendo usados o llevados comienzan a arder.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño base aumenta en 1d6 por cada nivel de espacio de conjuro por encima del 7.</p>",
       "activities": {
         "Create Bead": {
@@ -1247,7 +1247,7 @@
       }
     },
     "Eldritch Blast": {
-      "name": "Descarga Sobrenatural",
+      "name": "Explosión Mística",
       "description": "<p>Lanzas un rayo de energía chisporroteante. Haz un ataque de conjuro a distancia contra una criatura u objeto dentro del alcance. Si acierta, el objetivo recibe 1d10 de daño de fuerza.</p><p><strong>Mejora de Truco.</strong> El conjuro crea dos rayos a nivel 5, tres rayos al nivel 11 y cuatro rayos al nivel 17. Puedes dirigir los rayos al mismo objetivo o a objetivos diferentes. Realiza una tirada de ataque separada para cada rayo.</p><p>[[(floor((@details.level+1)/6)+1)]]{Total de Rayos}</p>"
     },
     "Elemental Weapon": {
@@ -1390,7 +1390,7 @@
       }
     },
     "Etherealness": {
-      "name": "Forma Etérea",
+      "name": "Etereidad",
       "description": "<p>Entras en las regiones fronterizas del Plano Etéreo, donde se superpone con tu plano actual. Permaneces en la Frontera Etérea por la duración. Durante este tiempo, puedes moverte en cualquier dirección. Si te mueves hacia arriba o hacia abajo, cada pie de movimiento cuesta un pie extra. Puedes percibir el plano que dejaste, que se ve gris, y no puedes ver nada allí a más de 60 pies de distancia.</p><p>Mientras estás en el Plano Etéreo, solo puedes afectar y ser afectado por criaturas, objetos y efectos en ese plano. Las criaturas que no están en el Plano Etéreo no pueden percibirte ni interactuar contigo a menos que una característica les dé la capacidad de hacerlo.</p><p>Cuando el conjuro termina, regresas al plano que dejaste en el lugar que corresponde a tu espacio en la Frontera Etérea. Si apareces en un espacio ocupado, eres desplazado al espacio desocupado más cercano y recibes daño de Fuerza igual al doble del número de pies que te mueves.</p><p>Este conjuro termina instantáneamente si lo lanzas mientras estás en el Plano Etéreo o en un plano que no lo bordea, como uno de los Planos Exteriores.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Puedes apuntar hasta a tres criaturas voluntarias (incluyéndote a ti) por cada nivel de espacio de conjuro por encima del 7. Las criaturas deben estar a 10 pies de ti cuando lances el conjuro.</p>",
       "activities": {
         "Enter Border Ethereal": {
@@ -1418,7 +1418,7 @@
       "description": "<p>Realizas la acción de correr y, hasta que el conjuro termine, puedes volver a hacerla como acción adicional.</p>"
     },
     "Eyebite": {
-      "name": "Mal de Ojo",
+      "name": "Mordedura Ocular",
       "description": "<p>Por la duración, tus ojos se convierten en un vacío de tinta. Una criatura de tu elección a 60 pies de ti que puedas ver debe tener éxito en una tirada de salvación de Sabiduría o ser afectada por uno de los siguientes efectos de tu elección por la duración.</p><p>En cada uno de tus turnos hasta que el conjuro termine, puedes realizar una acción de Magia para apuntar a otra criatura, pero no Puedes hacer objetivo a una criatura de nuevo si ha tenido éxito en una salvación contra este lanzamiento del conjuro.</p><p><strong>Dormido.</strong> El objetivo tiene la condición de &Reference[Unconscious apply=false]. Se despierta si recibe algún daño o si otra criatura realiza una acción para despertarlo.</p><p><strong>Aterrorizado.</strong> El objetivo tiene la condición de &Reference[Frightened apply=false]. En cada uno de sus turnos, el objetivo Aterrorizado debe realizar la acción de &Reference[Dash] y alejarse de ti por la ruta más segura y corta disponible. Si el objetivo se mueve a un espacio a al menos 60 pies de ti donde no pueda verte, este efecto termina.</p><p><strong>Enfermo.</strong> El objetivo tiene la condición de &Reference[Poisoned apply=false].</p>",
       "activities": {
         "Initial Cast": {
@@ -1458,7 +1458,7 @@
       }
     },
     "False Life": {
-      "name": "Falsa Vida",
+      "name": "Vida Falsa",
       "description": "<p>Obtienes 2d4 + 4 puntos de golpe temporales.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Obtienes 5 Puntos de Golpe Temporales adicionales por cada nivel por encima de 1 que tenga el espacio.</p>",
       "activities": {
         "Temporary Health": {
@@ -1490,7 +1490,7 @@
       }
     },
     "Find Familiar": {
-      "name": "Encontrar Familiar",
+      "name": "Buscar Familiar",
       "description": "<p>Obtienes los servicios de un familiar, un espíritu que adopta una forma animal de tu elección:<strong>Araña</strong>, <strong>Búhi</strong>, <strong>Comadreja</strong>, <strong>Cuervo</strong>, <strong>Gato</strong>, <strong>Halcón</strong>, <strong>Lagarto</strong>, <strong>Murciélago</strong>, <strong>Pulpo</strong>, <strong>Rana</strong>, <strong>Rata</strong>, u otra bestia con un valor de desafío de O. El familiar, que aparecerá en un espacio sin ocupar dentro del alcance, tiene el perfil de la forma elegida (consulta el apéndice B), aunque es un celestial, un feérico o un infernal (a tu elección) en vez de una bestia. Tu familiar actúa con independencia de ti, pero obedece tus órdenes.</p><p><strong>Conexión Telepática.</strong> Mientras tu familiar esté a 100ft (30 m) o menos de ti, puedes comunicarte con él telepáticamente. Además, como acción adicional, puedes ver a través de sus ojos y escuchar lo que oiga hasta el principio de tu siguiente turno, y también obtienes los beneficios de cualquier sentido especial que tenga.</p><p>Por último, cuando lances un conjuro con un alcance de toque, puedes hacer que tu familiar sea quien toque al objetivo. Tu familiar debe estar a 100ft (30 m) o menos de ti y debe usar una reacción para tocar al objetivo cuando lances el conjuro.</p><p><strong>Combate.</strong>  El familiar se considera un aliado para tus aliados y para ti, tira su propia iniciativa y actúa en su propio turno. Un familiar no puede atacar, pero puede realizar otras acciones de manera normal.</p><p><strong>Desaparición del Familiar.</strong>  Si los puntos de golpe del familiar se reducen a O, desaparecerá y reaparecerá después de que vuelvas a lanzar este conjuro. Como acción de magia, puedes hacer que el familiar se retire temporalmente a una dimensión de bolsillo. Como alternativa, puedes hacer que se desvanezca para siempre. Como acción de magia mientras esté desaparecido temporalmente, puedes hacer que reaparezca en un espacio sin ocupar a 30ft (9 m) o menos de ti. Siempre que sus puntos de golpe se reduzcan a O o que el familiar se retire a la dimensión de bolsillo, dejará en el espacio que ocupaba cualquier cosa que vistiera o llevase.</p><p><strong>Un Solo Familiar.</strong> . No puedes tener más de un familiar al mismo tiempo. Si lanzas este conjuro mientras tengas un familiar, harás que adopte una nueva forma que cumpla los requisitos..</p>",
       "activities": {
         "summon": {
@@ -1503,7 +1503,7 @@
       }
     },
     "Find Steed": {
-      "name": "Encontrar Corcel",
+      "name": "Hallar Corcel",
       "description": "<p>Convocas a un ser de otro mundo que aparece como un corcel leal en un espacio desocupado de tu elección dentro del alcance. Esta criatura usa el bloque de estadísticas de <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobOtherworld]{Corcel de Otro Mundo}</strong>. Si ya tienes un corcel de este conjuro, el corcel es reemplazado por el nuevo.</p><p>El corcel se asemeja a un animal Grande y montable de tu elección, como un caballo, un camello, un lobo terrible o un alce. Cada vez que lances el conjuro, elige el tipo de criatura del corcel—Celestial, Feérico o Infernal—lo que determina ciertos rasgos en el bloque de estadísticas.</p><p><strong>Combate.</strong> El corcel es un aliado para ti y tus aliados. En combate, comparte tu cuenta de Iniciativa y funciona como una &Reference[controllingamount]{montura controlada} mientras lo montas (como se define en las reglas sobre combate montado). Si tienes la condición de Incapacitado, el corcel toma su turno inmediatamente después del tuyo y actúa de forma independiente, centrándose en protegerte.</p><p><strong>Desaparición del Corcel.</strong> El corcel desaparece si cae a 0 Puntos de Golpe o si mueres. Cuando desaparece, deja atrás cualquier cosa que estuviera usando o llevando. Si lanzas este conjuro de nuevo, decides si convocas al corcel que desapareció o a uno diferente.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Usa el nivel del espacio de conjuro para el nivel del conjuro en el bloque de estadísticas.</p>",
       "activities": {
         "Summon Steed": {
@@ -1541,7 +1541,7 @@
       }
     },
     "Fire Bolt": {
-      "name": "Descarga de Fuego",
+      "name": "Dardo de Fuego",
       "description": "<p>Arrojas una mota de fuego a una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d10 de daño de fuego. Los objetos inflamables a los que acierte el conjuro empezarán a arder si nadie los lleva o viste.</p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d10 cuando alcanzas los niveles 5 (2d10), 11 (3d10) y 17 (4d10).</p>"
     },
     "Fire Shield": {
@@ -1587,7 +1587,7 @@
       }
     },
     "Flame Strike": {
-      "name": "Llamarada",
+      "name": "Golpe Abrasador",
       "description": "<p>Una columna vertical de fuego brillante ruge desde arriba. Cada criatura en un Cilindro de 10 pies de radio y 40 pies de alto centrado en un punto dentro del alcance realiza una tirada de salvación de Destreza, recibiendo 5d6 de daño por Fuego y 5d6 de daño Radiante si falla o la mitad de daño si tiene éxito.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño por Fuego y el daño Radiante aumentan en 1d6 por cada nivel de espacio de conjuro por encima del 5.</p>"
     },
     "Flaming Sphere": {
@@ -1618,7 +1618,7 @@
       }
     },
     "Fog Cloud": {
-      "name": "Nube de Oscurecimiento",
+      "name": "Nube de Niebla",
       "description": "<p>Creas una esfera de niebla de 20ft (6 m) de radio centrada en un punto dentro del alcance. La esfera está muy oscura y dura hasta que el conjuro termine o hasta que la disperse un viento fuerte (por ejemplo, el que crea <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Ráfaga de Viento}</em>).</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El radio de la niebla aumenta en 20 pies (6 m) por cada nivel por encima de 1 que tenga el espacio.</p>"
     },
     "Forbiddance": {
@@ -1762,7 +1762,7 @@
       "description": "<p>Una barrera inmóvil y brillante aparece en una Emanación de 10 pies a tu alrededor y permanece por la duración.</p><p>Cualquier conjuro de nivel 5 o inferior lanzado desde fuera de la barrera no puede afectar a nada dentro de ella. Dicho conjuro puede apuntar a criaturas y objetos dentro de la barrera, pero el conjuro no tiene efecto sobre ellos. Del mismo modo, el área dentro de la barrera se excluye de las áreas de efecto creadas por dichos conjuros.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> La barrera bloquea conjuros de 1 nivel superior por cada nivel de espacio de conjuro por encima del 6.</p>"
     },
     "Glyph of Warding": {
-      "name": "Glifo de Custodia",
+      "name": "Glifo Custodio",
       "description": "<p>Inscribes un glifo que más tarde desata un efecto mágico. Lo inscribes ya sea en una superficie (como una mesa o una sección de suelo) o dentro de un objeto que se pueda cerrar (como un libro o un cofre) para ocultar el glifo. El glifo puede cubrir un área no mayor de 10 pies de diámetro. Si la superficie u objeto se mueve más de 10 pies de donde lanzaste este conjuro, el glifo se rompe y el conjuro termina sin ser activado.</p><p>El glifo es casi imperceptible y requiere una prueba exitosa de [[/check ability=wis skill=prc dc=@attributes.spell.dc]] contra la CD de salvación de tu conjuro para notarlo.</p><p>Cuando inscribes el glifo, estableces su desencadenante y eliges si es una runa explosiva o un glifo de conjuro, como se explica a continuación.</p><p><strong>Establecer el Desencadenante.</strong> Decides qué desencadena el glifo cuando lanzas el conjuro. Para los glifos inscritos en una superficie, los desencadenantes comunes incluyen tocar o pisar el glifo, quitar otro objeto que lo cubra, o acercarse a una cierta distancia de él. Para los glifos inscritos dentro de un objeto, los desencadenantes comunes incluyen abrir ese objeto o ver el glifo. Una vez que un glifo es activado, este conjuro termina.</p><p>Puedes refinar el desencadenante para que solo criaturas de ciertos tipos lo activen (por ejemplo, el glifo podría estar configurado para afectar a Aberraciones). También puedes establecer condiciones para las criaturas que no activan el glifo, como aquellas que dicen una cierta contraseña.</p><p><strong>Runa Explosiva.</strong> Cuando se activa, el glifo estalla con energía mágica en una Esfera de 20 pies de radio centrada en el glifo. Cada criatura en el área realiza una tirada de salvación de [[/save ability=dex dc=@attributes.spell.dc]]. Una criatura recibe 5d8 de daño de [[/damage (@item.level + 2)d8 type=acid]]{Ácido}, [[/damage (@item.level + 2)d8 type=cold]]{Frío}, [[/damage (@item.level + 2)d8 type=fire]]{Fuego}, [[/damage (@item.level + 2)d8 type=lightning]]{Rayo}, o [[/damage (@item.level + 2)d8 type=thunder]]{Trueno} (a tu elección cuando creas el glifo) si falla la salvación o la mitad de daño si tiene éxito.</p><p><strong>Glifo de Conjuro.</strong> Puedes almacenar un conjuro preparado de nivel 3 o inferior en el glifo lanzándolo como parte de la creación del glifo. El conjuro debe apuntar a una sola criatura o a un área. El conjuro que se almacena no tiene efecto inmediato cuando se lanza de esta manera.</p><p>Cuando el glifo se activa, el conjuro almacenado entra en efecto. Si el conjuro tiene un objetivo, apunta a la criatura que activó el glifo. Si el conjuro afecta a un área, el área se centra en esa criatura. Si el conjuro convoca a criaturas Hostiles o crea objetos o trampas dañinas, aparecen lo más cerca posible del intruso y lo atacan. Si el conjuro requiere Concentración, dura hasta el final de su duración completa.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño de una runa explosiva aumenta en 1d8 por cada nivel de espacio de conjuro por encima del 3. Si creas un glifo de conjuro, puedes almacenar cualquier conjuro de hasta el mismo nivel que el espacio de conjuro que usas para el <em>Glifo de Custodia</em>.</p>",
       "activities": {
         "Spell Glyph": {
@@ -1774,7 +1774,7 @@
       }
     },
     "Goodberry": {
-      "name": "Buenas Bayas",
+      "name": "Fruto Feérico",
       "description": "<p>En tu mano aparecen @UUID[Compendium.dnd-players-handbook.spells.Item.phbutlMagicalBer]{Diez Bayas}  que están impregnadas de magia hasta que termine el conjuro. Una criatura puede usar una acción adicional para comerse una, lo que le permite recuperar 1 punto de golpe. Además, la baya proporciona alimento suficiente como para mantener a una criatura durante 1 día.</p><p>Las bayas que no se consuman desaparecen cuando el conjuro termine.</p>",
       "activities": {
         "Create Berries": {
@@ -1791,7 +1791,7 @@
       "description": "<p>Una grasa no inflamable cubre una zona cuadrada del suelo de 10ft (3 m) de lado centrada en un punto dentro del alcance y que la convierte en terreno difícil hasta que termina el conjuro.</p><p>Cuando aparezca la grasa, las criaturas que haya en esa zona deberán superar una tirada de salvación de Destreza o tendrán el estado de derribadas. Una criatura que entre en la zona o termine su turno ahí deberá superar esa tirada de salvación o caerá derribada.</p>"
     },
     "Greater Invisibility": {
-      "name": "Invisibilidad Mayor",
+      "name": "Invisibilidad Mejorada",
       "description": "<p>Una criatura que tocas tiene la condición de Invisible hasta que el conjuro termine.</p>",
       "effects": {
         "Invisible": {
@@ -1800,7 +1800,7 @@
       }
     },
     "Greater Restoration": {
-      "name": "Restablecimiento Mayor",
+      "name": "Restauración Mayor",
       "description": "<p>Tocas a una criatura y eliminas mágicamente uno de los siguientes efectos de ella:</p><ul><li>1 nivel de &Reference[Exhaustion]</li><li>La condición de &Reference[Charmed] o &Reference[Petrified]</li><li>Una maldición, incluida la Sintonía del objetivo con un objeto mágico maldito</li><li>Cualquier reducción a una de las puntuaciones de aptitud del objetivo</li><li>Cualquier reducción al máximo de Puntos de Golpe del objetivo</li></ul>"
     },
     "Guardian of Faith": {
@@ -1872,7 +1872,7 @@
       }
     },
     "Guiding Bolt": {
-      "name": "Saeta Guía",
+      "name": "Proyectil Guiado",
       "description": "<p>Lanzas un rayo de luz hacia una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibirá 4d6 de daño radiante y la siguiente tirada de ataque contra él antes del final de tu siguiente turno tendrá ventaja.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.</p>",
       "effects": {
         "Guiding Bolt": {
@@ -1908,7 +1908,7 @@
       "description": "<p>Desatas magia virulenta sobre una criatura que puedas ver dentro del alcance. El objetivo realiza una tirada de salvación de Constitución. Si falla, recibe 14d6 de daño Necrótico, y su máximo de Puntos de Golpe se reduce en una cantidad igual al daño Necrótico que recibió. Si tiene éxito, recibe la mitad de daño solamente. Este conjuro no puede reducir el máximo de Puntos de Golpe de un objetivo por debajo de 1.</p>"
     },
     "Haste": {
-      "name": "Prisa",
+      "name": "Acelerar",
       "description": "<p>Elige una criatura voluntaria que puedas ver dentro del alcance. Hasta que el conjuro termine, la Velocidad del objetivo se duplica, gana un bonificador de +2 a la Clase de Armadura, tiene Ventaja en las tiradas de salvación de Destreza, y gana una acción adicional en cada uno de sus turnos. Esa acción solo puede usarse para realizar el ataque (un solo ataque), Correr, Destrabarse, Esconderse o Utilizar.</p><p>Cuando el conjuro termina, el objetivo queda &Reference[Incapacitated apply=false] y tiene una Velocidad de 0 hasta el final de su siguiente turno, mientras una ola de letargo lo invade.</p>",
       "activities": {
         "Cast": {
@@ -1934,7 +1934,7 @@
       "description": "<p>Elige una criatura que puedas ver dentro del alcance. Una energía positiva inunda al objetivo, restaurando 70 Puntos de Golpe. Este conjuro también termina las condiciones de &Reference[Blinded], &Reference[Deafened], y &Reference[Poisoned] en el objetivo.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> La curación aumenta en 10 por cada nivel de espacio de conjuro por encima del 6.</p>"
     },
     "Healing Word": {
-      "name": "Palabra de Curación",
+      "name": "Palabra Curativa",
       "description": "<p>Una criatura de tu elección que puedas ver dentro del alcance recupera una cantidad de puntos de golpe igual a 2d4 más tu modificador por aptitud mágica.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> La curación aumenta en 2d4 por cada nivel por encima de 1 que tenga el espacio.</p>"
     },
     "Heat Metal": {
@@ -1963,7 +1963,7 @@
       "description": "<p>La criatura que te ha dañado se ve rodeada momentáneamente por unas llamas verdes y hará una tirada de salvación de Destreza; sufrirá 2d10 de daño de fuego si la falla o la mitad del daño si la supera.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño aumenta en 1d10 por cada nivel por encima de 1 que tenga el espacio.</p>"
     },
     "Heroes' Feast": {
-      "name": "Festín de los Héroes",
+      "name": "Festín de Héroes",
       "description": "<p>Conjuras un festín que aparece sobre una superficie en un Cubo desocupado de 10 pies junto a ti. El festín tarda 1 hora en consumirse y desaparece al final de ese tiempo, y los efectos beneficiosos no se activan hasta que esta hora haya pasado. Hasta doce criaturas pueden participar del festín.</p><p>Una criatura que participe obtiene varios beneficios, que duran 24 horas. La criatura tiene &Reference[damageResistance]{Resistencia} al daño por Veneno, y tiene Inmunidad a las condiciones de &Reference[Frightened] y &Reference[Poisoned]. Su máximo de Puntos de Golpe también aumenta en 2d10, y gana el mismo número de Puntos de Golpe.</p>",
       "activities": {
         "Conjure Feast": {
@@ -2034,7 +2034,7 @@
       }
     },
     "Hold Monster": {
-      "name": "Inmovilizar Monstruo",
+      "name": "Paralizar Monstruo",
       "description": "<p>Elige una criatura que puedas ver dentro del alcance. El objetivo debe tener éxito en una tirada de salvación de Sabiduría o tener la condición de Paralizado por la duración. Al final de cada uno de sus turnos, el objetivo repite la salvación, terminando el conjuro sobre sí mismo si tiene éxito.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Puedes hacer objetivo a una criatura adicional por cada nivel de espacio de conjuro por encima del 5.</p>",
       "effects": {
         "Paralyzed": {
@@ -2044,7 +2044,7 @@
       }
     },
     "Hold Person": {
-      "name": "Inmovilizar Persona",
+      "name": "Paralizar Persona",
       "description": "<p>Elige un Humanoide que puedas ver dentro del alcance. El objetivo debe tener éxito en una tirada de salvación de Sabiduría o tener la condición de &Reference[paralyzed apply=false] por la duración. Al final de cada uno de sus turnos, el objetivo repite la salvación, terminando el conjuro sobre sí mismo si tiene éxito.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Puedes apuntar a un Humanoide adicional por cada nivel por encima de 2 que tenga el espacio.</p>",
       "effects": {
         "Paralyzed": {
@@ -2216,7 +2216,7 @@
       }
     },
     "Knock": {
-      "name": "Abrir",
+      "name": "Llamar",
       "description": "<p>Elige un objeto que puedas ver dentro del alcance. Puede ser una puerta, una caja, un cofre, unas esposas, un candado o cualquier otro objeto que posea alguna manera mágica o mundana de impedir el acceso.</p><p>Un objetivo que esté cerrado mediante una cerradura normal o que esté atascado o atrancado se abre, desatasca o desatranca. Si el objeto tiene varios cerrojos, solo se desbloquea uno de ellos.</p><p>Si el objetivo está cerrado mediante cerradura arcana, ese conjuro quedará anulado durante 10 minutos y, durante ese tiempo, el objeto se podrá abrir y cerrar.</p><p>uando lanzas el conjuro, se escucha un fuerte golpe surgir del objetivo, que es audible a una distancia de 300ft (90 m).</p>"
     },
     "Legend Lore": {
@@ -2258,11 +2258,11 @@
       "description": "<p>Tocas un objeto Grande o más pequeño que nadie lleve o vista. Hasta que el conjuro termine, el objeto emitirá luz brillante en un radio de 6 m y luz tenue otros 6 m más allá. La luz puede tener el color que desees.</p><p>Tapar completamente el objeto con un material opaco bloquea la luz. El conjuro termina si lo vuelves a lanzar.</p>"
     },
     "Lightning Arrow": {
-      "name": "Flecha de Rayo",
+      "name": "Flecha de Relámpago",
       "description": "<p>Mientras tu ataque golpea o falla al objetivo, el arma o munición que estás usando se transforma en un rayo. En lugar de recibir cualquier daño u otros efectos del ataque, el objetivo recibe 4d8 de daño por Rayo si aciertas o la mitad de daño si fallas. Cada criatura a 10 pies del objetivo realiza entonces una tirada de salvación de Destreza, recibiendo 2d8 de daño por Rayo si falla o la mitad de daño si tiene éxito.</p><p>El arma o munición luego vuelve a su forma normal.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño de ambos efectos del conjuro aumenta en 1d8 por cada nivel de espacio de conjuro por encima del 3.</p>"
     },
     "Lightning Bolt": {
-      "name": "Rayo Relampagueante",
+      "name": "Relámpago",
       "description": "<p>Un trazo de rayo formando una Línea de 100 pies de largo y 5 pies de ancho sale disparado de ti en la dirección que elijas. Cada criatura en la Línea realiza una tirada de salvación de Destreza, recibiendo 8d6 de daño por Rayo si falla o la mitad de daño si tiene éxito.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño aumenta en 1d6 por cada nivel de espacio de conjuro por encima del 3.</p>"
     },
     "Locate Animals or Plants": {
@@ -2278,7 +2278,7 @@
       "description": "<p>Describe o nombra un objeto que te sea familiar. Sientes la dirección hacia la ubicación del objeto si ese objeto está a 1,000 pies de ti. Si el objeto está en movimiento, sabes la dirección de su movimiento.</p><p>El conjuro puede localizar un objeto específico conocido por ti si lo has visto de cerca—a 30 pies—al menos una vez. Alternativamente, el conjuro puede localizar el objeto más cercano de un tipo particular, como un cierto tipo de ropa, joyería, mueble, herramienta o arma.</p><p>Este conjuro no puede localizar un objeto si cualquier grosor de plomo bloquea un camino directo entre tú y el objeto.</p>"
     },
     "Longstrider": {
-      "name": "Zancada Prodigiosa",
+      "name": "Zancada",
       "description": "<p>Tocas a una criatura y su velocidad aumenta en 10ft (3 m) hasta que el conjuro termine.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.</p>",
       "effects": {
         "Longstrider": {
@@ -2384,15 +2384,15 @@
       }
     },
     "Mass Cure Wounds": {
-      "name": "Curar Heridas en Masa",
+      "name": "Curar en Masa",
       "description": "<p>Una ola de energía curativa se extiende desde un punto que puedas ver dentro del alcance. Elige hasta seis criaturas en una Esfera de 30 pies de radio centrada en ese punto. Cada objetivo recupera Puntos de Golpe iguales a 5d8 más tu modificador de aptitud de lanzamiento de conjuros.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> La curación aumenta en 1d8 por cada nivel de espacio de conjuro por encima del 5.</p>"
     },
     "Mass Heal": {
-      "name": "Sanar en Masa",
+      "name": "Sanación de Grupo",
       "description": "<p>Un torrente de energía curativa fluye de ti hacia las criaturas a tu alrededor. Restauras hasta 700 Puntos de Golpe, divididos como elijas entre cualquier número de criaturas que puedas ver dentro del alcance. A las criaturas curadas por este conjuro también se les eliminan las condiciones de &Reference[Blinded], &Reference[Deafened], y &Reference[Poisoned].</p>"
     },
     "Mass Healing Word": {
-      "name": "Palabra de Curación en Masa",
+      "name": "Palabra Curativa de Grupo",
       "description": "<p>Hasta seis criaturas de tu elección que puedas ver dentro del alcance recuperan Puntos de Golpe iguales a 2d4 más tu modificador de aptitud de lanzamiento de conjuros.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> La curación aumenta en 1d4 por cada nivel de espacio de conjuro por encima del 3.</p>"
     },
     "Mass Suggestion": {
@@ -2548,7 +2548,7 @@
       "description": "<p>Brevemente rodeado de niebla plateada, te teletransportas hasta 30 pies a un espacio desocupado que puedas ver.</p>"
     },
     "Modify Memory": {
-      "name": "Modificar Recuerdo",
+      "name": "Alterar los Recuerdos",
       "description": "<p>Intentas remodelar los recuerdos de otra criatura. Una criatura que puedas ver dentro del alcance realiza una tirada de salvación de Sabiduría. Si estás luchando contra la criatura, tiene Ventaja en la salvación. Si falla, el objetivo tiene la condición de &Reference[Charmed apply=false] por la duración. Mientras está Hechizado de esta manera, el objetivo también tiene la condición de &Reference[Incapacitated apply=false] y no es consciente de su entorno, aunque puede oírte. Si recibe algún daño o es objetivo de otro conjuro, este conjuro termina y no se modifican los recuerdos.</p><p>Mientras dura este hechizo, puedes afectar el recuerdo del objetivo de un evento que experimentó en las últimas 24 horas y que no duró más de 10 minutos. Puedes eliminar permanentemente todo recuerdo del evento, permitir que el objetivo recuerde el evento con perfecta claridad, cambiar su recuerdo de los detalles del evento o crear un recuerdo de algún otro evento.</p><p>Debes hablar con el objetivo para describir cómo se ven afectados sus recuerdos, y debe ser capaz de entender tu idioma para que los recuerdos modificados se arraiguen. Su mente llena los vacíos en los detalles de tu descripción. Si el conjuro termina antes de que termines de describir los recuerdos modificados, el recuerdo de la criatura no se altera. De lo contrario, los recuerdos modificados se afianzan cuando el conjuro termina.</p><p>Un recuerdo modificado no afecta necesariamente cómo se comporta una criatura, particularmente si el recuerdo contradice las inclinaciones naturales, el alineamiento o las creencias de la criatura. Un recuerdo modificado ilógico, como un falso recuerdo de cuánto disfrutó la criatura nadando en ácido, se descarta como un mal sueño. El DM puede considerar un recuerdo modificado demasiado absurdo para afectar a una criatura.</p><p>Un conjuro de <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRemoveCurs]{Quitar Maldición}</em> o <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Restablecimiento Mayor}</em> lanzado sobre el objetivo restaura el verdadero recuerdo de la criatura.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Puedes alterar los recuerdos del objetivo de un evento que tuvo lugar hasta hace 7 días (espacio de conjuro de nivel 6), 30 días (espacio de conjuro de nivel 7), 365 días (espacio de conjuro de nivel 8), o en cualquier momento del pasado de la criatura (espacio de conjuro de nivel 9).</p>",
       "effects": {
         "Memory Modification": {
@@ -2673,7 +2673,7 @@
       }
     },
     "Pass without Trace": {
-      "name": "Pasar sin Dejar Rastro",
+      "name": "Pasar sin Rastro",
       "description": "<p>Irradias un aura de ocultación en una Emanación de 30 pies por la duración. Mientras estén en el aura, tú y cada criatura que elijas tenéis un bonificador de +10 a las pruebas de [[/check ability=dex skill=ste]] y no dejáis rastro.</p>",
       "effects": {
         "Concealed": {
@@ -2793,7 +2793,7 @@
       }
     },
     "Power Word Kill": {
-      "name": "Palabra de Poder: Matar",
+      "name": "Palabra de Poder Matar",
       "description": "<p>Obligas a morir a una criatura que puedas ver dentro del alcance. Si el objetivo tiene 100 Puntos de Golpe o menos, muere. De lo contrario, recibe 12d12 de daño Psíquico.</p>",
       "activities": {
         "Compel to Die": {
@@ -2802,7 +2802,7 @@
       }
     },
     "Power Word Stun": {
-      "name": "Palabra de Poder: Aturdir",
+      "name": "Palabra de Poder Aturdir",
       "description": "<p>Abrumas la mente de una criatura que puedas ver dentro del alcance. Si el objetivo tiene 150 Puntos de Golpe o menos, tiene la condición de Aturdido. De lo contrario, su Velocidad es 0 hasta el principio de tu siguiente turno.</p><p>El objetivo &Reference[Stunned apply=false] realiza una tirada de salvación de [[/save ability=con dc=@attributes.spell.dc]] al final de cada uno de sus turnos, terminando la condición sobre sí mismo si tiene éxito.</p>",
       "effects": {
         "Stunned": {
@@ -2970,7 +2970,7 @@
       "description": "<p>Eliminas el veneno y la podredumbre de la comida y bebida no mágicas en una esfera de 5ft (1,5 m) de radio centrada en un punto dentro del alcance.</p>"
     },
     "Raise Dead": {
-      "name": "Revivir a los Muertos",
+      "name": "Resucitar Muertos",
       "description": "<p>Con un toque, revives a una criatura muerta si no ha estado muerta más de 10 días y no era un No Muerto cuando murió.</p><p>La criatura vuelve a la vida con 1 Punto de Golpe. Este conjuro también neutraliza cualquier veneno que afectara a la criatura en el momento de la muerte.</p><p>Este conjuro cierra todas las heridas mortales, pero no restaura partes del cuerpo perdidas. Si a la criatura le faltan partes del cuerpo u órganos integrales para su supervivencia—su cabeza, por ejemplo—el conjuro falla automáticamente.</p><p>Volver de la muerte es una prueba. El objetivo sufre una Penalizador de −4 a las Pruebas de d20. Cada vez que el objetivo termina un Descanso Largo, la Penalizador se reduce en 1 hasta que se convierte en 0.</p>",
       "activities": {
         "Revive": {
@@ -2997,7 +2997,7 @@
       }
     },
     "Rary's Telepathic Bond": {
-      "name": "Vínculo Telepático de Rary",
+      "name": "Enlace Telepático de Rary",
       "description": "<p>Forjas un vínculo telepático entre hasta ocho criaturas voluntarias de tu elección dentro del alcance, vinculando psíquicamente a cada criatura con todas las demás por la duración. Las criaturas que no pueden comunicarse en ningún idioma no se ven afectadas por este conjuro.</p><p>Hasta que el conjuro termine, los objetivos pueden comunicarse telepáticamente a través del vínculo, compartan o no un idioma. La comunicación es posible a cualquier distancia, aunque no puede extenderse a otros planos de existencia.</p>",
       "activities": {
         "Forge Telepathic Link": {
@@ -3150,7 +3150,7 @@
       "description": "<p>Este conjuro invierte la gravedad en un Cilindro de 50 pies de radio y 100 pies de alto centrado en un punto dentro del alcance. Todas las criaturas y objetos en esa área que no estén anclados al suelo caen hacia arriba y alcanzan la parte superior del Cilindro. Una criatura puede hacer una tirada de salvación de Destreza para agarrar un objeto fijo que pueda alcanzar, evitando así la caída hacia arriba.</p><p>Si se encuentra un techo o un objeto anclado en esta caída hacia arriba, las criaturas y los objetos lo golpean tal como lo harían durante una caída hacia abajo. Si una criatura u objeto afectado alcanza la parte superior del Cilindro sin golpear nada, flota allí por la duración. Cuando el conjuro termina, los objetos y criaturas afectados caen hacia abajo.</p>"
     },
     "Revivify": {
-      "name": "Revivificar",
+      "name": "Revivir",
       "description": "<p>Tocas a una criatura que ha muerto en el último minuto. Esa criatura revive con 1 Punto de Golpe. Este conjuro no puede revivir a una criatura que ha muerto de vejez, ni restaura ninguna parte del cuerpo perdida.</p>"
     },
     "Rope Trick": {
@@ -3184,7 +3184,7 @@
       "description": "<p>Lanzas tres rayos de fuego. Puedes lanzarlos a un objetivo dentro del alcance o a varios. Realiza un ataque de conjuro a distancia por cada rayo. Si aciertas, el objetivo recibe 2d6 de daño por Fuego.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Creas un rayo adicional por cada nivel por encima de 2 que tenga el espacio.</p><p>[[@item.level + 1]]{Total de Rayos}</p>"
     },
     "Scrying": {
-      "name": "Escudriñar",
+      "name": "Adivinación",
       "description": "<p>Puedes ver y oír a una criatura que elijas que esté en el mismo plano de existencia que tú. El objetivo realiza una tirada de salvación de Sabiduría, que se modifica (ver las tablas a continuación) según lo bien que conozcas al objetivo y el tipo de conexión física que tengas con él. El objetivo no sabe contra qué está haciendo la salvación, solo que se siente inquieto.</p><table><thead><tr><td>Tu Conocimiento del Objetivo es…</td><td>Modificador de Salvación</td></tr></thead><tbody><tr><td>De oídas (has oído hablar del objetivo)</td><td>+5</td></tr><tr><td>De primera mano (has conocido al objetivo)</td><td>+0</td></tr><tr><td>Extensivo (conoces bien al objetivo)</td><td>−5</td></tr></tbody></table><table><thead><tr><td>Tienes del Objetivo…</td><td>Modificador de Salvación</td></tr></thead><tbody><tr><td>Imagen u otro retrato</td><td>−2</td></tr><tr><td>Prenda u otra posesión</td><td>−4</td></tr><tr><td>Parte del cuerpo, mechón de pelo o trozo de uña</td><td>−10</td></tr></tbody></table><p>Si tiene éxito en la salvación, el objetivo no se ve afectado, y no puedes usar este conjuro sobre él de nuevo durante 24 horas.</p><p>Si falla la salvación, el conjuro crea un sensor Invisible e intangible a 10 pies del objetivo. Puedes ver y oír a través del sensor como si estuvieras allí. El sensor se mueve con el objetivo, permaneciendo a 10 pies de él por la duración. Si algo puede ver el sensor, aparece como un orbe luminoso del tamaño de tu puño.</p><p>En lugar de apuntar a una criatura, puedes apuntar a una ubicación que hayas visto. Cuando lo haces, el sensor aparece en esa ubicación y no se mueve.</p>",
       "activities": {
         "Secondhand and Picture": {
@@ -3220,7 +3220,7 @@
       }
     },
     "Searing Smite": {
-      "name": "Castigo Abrasador",
+      "name": "Castigo Abrumador",
       "description": "<p>Al golpear al objetivo, sufre 1d6 de daño de fuego adicional del ataque. Al principio de cada uno de sus turnos hasta que el conjuro termine, el objetivo sufrirá 1d6 de daño de fuego y luego hará una tirada de salvación de Constitución. Si la falla, el conjuro seguirá activo. Si la supera, el conjuro terminará.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Todo el daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.</p>",
       "activities": {
         "Start of Turn Save": {
@@ -3238,7 +3238,7 @@
       }
     },
     "See Invisibility": {
-      "name": "Ver lo Invisible",
+      "name": "Ver Invisibilidad",
       "description": "<p>Por la duración, ves a las criaturas y objetos que tienen la condición de &Reference[invisible apply=false] como si fueran visibles, y puedes ver dentro del Plano Etéreo. Las criaturas y objetos allí aparecen fantasmales.</p>",
       "effects": {
         "See Invisibility": {
@@ -3269,7 +3269,7 @@
       }
     },
     "Sending": {
-      "name": "Enviar Mensaje",
+      "name": "Enviar",
       "description": "<p>Envías un mensaje corto de 25 palabras o menos a una criatura que has conocido o una criatura que te ha sido descrita por alguien que la ha conocido. El objetivo oye el mensaje en su mente, te reconoce como el remitente si te conoce, y puede responder de manera similar inmediatamente. El conjuro permite a los objetivos entender el significado de tu mensaje.</p><p>Puedes enviar el mensaje a cualquier distancia e incluso a otros planos de existencia, pero si el objetivo está en un plano diferente al tuyo, hay un 5 por ciento de probabilidad de que el mensaje no llegue. Sabes si la entrega falla.</p><p>Al recibir tu mensaje, una criatura puede bloquear tu capacidad de alcanzarla de nuevo con este conjuro durante 8 horas. Si intentas enviar otro mensaje durante ese tiempo, te enteras de que estás bloqueado y el conjuro falla.</p>"
     },
     "Sequester": {
@@ -3406,7 +3406,7 @@
       }
     },
     "Sleep": {
-      "name": "Dormir",
+      "name": "Sueño",
       "description": "<p>Todas las criaturas de tu elección en una esfera de 5ft (1,5 m) de radio centrada en un punto dentro del alcance deben superar una tirada de salvación de Sabiduría o tendrán el estado de &Reference[incapacitated apply=false] hasta el final de su siguiente turno, momento en el que deberán repetir la tirada de salvación. Si un objetivo falla la segunda tirada, tendrá el estado de &Reference[unconscious] hasta que termine el conjuro. El conjuro termina sobre un objetivo si recibe daño o si alguien a 5ft (1,5 m) o menos de él emplea una acción para zarandearlo y poner fin al efecto del conjuro.</p><p>Las criaturas que no duermen, como los elfos, o que tengan inmunidad al estado de cansancio superan automáticamente las tiradas de salvación contra este conjuro.</p>",
       "effects": {
         "Sleeping": {
@@ -3420,7 +3420,7 @@
       "description": "<p>Hasta que el conjuro termine, aguanieve cae en un Cilindro de 40 pies de alto y 20 pies de radio centrado en un punto que elijas dentro del alcance. El área está &Reference[heavilyobscured], y las llamas expuestas en el área se apagan.</p><p>El suelo en el Cilindro es &Reference[difficultterrain]. Cuando una criatura entra en el Cilindro por primera vez en un turno o comienza su turno allí, debe tener éxito en una tirada de salvación de Destreza o tener la condición de &Reference[prone] y perder &Reference[concentration].</p>"
     },
     "Slow": {
-      "name": "Ralentizar",
+      "name": "Lentitud",
       "description": "<p>Alteras el tiempo alrededor de hasta seis criaturas de tu elección en un Cubo de 40 pies dentro del alcance. Cada objetivo debe tener éxito en una tirada de salvación de Sabiduría o ser afectado por este conjuro por la duración.</p><p>La Velocidad de un objetivo afectado se reduce a la mitad, sufre una Penalizador de −2 a la CA y a las tiradas de salvación de Destreza, y no puede realizar Reacciones. En sus turnos, puede realizar una acción o una Acción Adicional, no ambas, y solo puede hacer un ataque si realiza la acción de Atacar. Si lanza un conjuro con un componente Somático, hay un [[/r 1d100cs>25#Conjuro lanzado con éxito en 1]]{25 por ciento} de probabilidad de que el conjuro falle como resultado de que el objetivo realice los gestos del conjuro demasiado lentamente.</p><p>Un objetivo afectado repite la salvación al final de cada uno de sus turnos, terminando el conjuro sobre sí mismo si tiene éxito.</p>",
       "effects": {
         "Slowed": {
@@ -3465,7 +3465,7 @@
       }
     },
     "Spider Climb": {
-      "name": "Trepar cual Arácnido",
+      "name": "Trepar como Araña",
       "description": "<p>Hasta que el conjuro termine, una criatura voluntaria que toques gana la habilidad de moverse hacia arriba, abajo y a través de superficies verticales y a lo largo de techos, mientras deja sus manos libres. El objetivo también gana una Velocidad de Trepar igual a su Velocidad.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio.</p>",
       "effects": {
         "Spider Climb": {
@@ -3511,7 +3511,7 @@
       }
     },
     "Steel Wind Strike": {
-      "name": "Golpe de Viento de Acero",
+      "name": "Golpe de Viento Acerado",
       "description": "<p>Blandes el arma utilizada en el lanzamiento y luego te desvaneces para golpear como el viento. Elige hasta cinco criaturas que puedas ver dentro del alcance. Realiza un ataque de conjuro cuerpo a cuerpo contra cada objetivo. Si aciertas, un objetivo recibe 6d10 de daño de Fuerza.</p><p>Luego te teletransportas a un espacio desocupado que puedas ver a 5 pies de uno de los objetivos.</p>"
     },
     "Stinking Cloud": {
@@ -3530,7 +3530,7 @@
       }
     },
     "Stone Shape": {
-      "name": "Moldear la Piedra",
+      "name": "Moldear Piedra",
       "description": "<p>Tocas un objeto de piedra de tamaño Mediano o más pequeño o una sección de piedra no mayor de 5 pies en cualquier dimensión y le das la forma que desees. Por ejemplo, podrías dar forma a una gran roca para convertirla en un arma, una estatua o un cofre, o podrías hacer un pequeño pasaje a través de una pared de 5 pies de grosor. También podrías dar forma a una puerta de piedra o a su marco para sellar la puerta. El objeto que creas puede tener hasta dos bisagras y un pestillo, pero no es posible un detalle mecánico más fino.</p>"
     },
     "Stoneskin": {
@@ -3583,7 +3583,7 @@
       }
     },
     "Summon Aberration": {
-      "name": "Convocar Aberración",
+      "name": "Invocar Aberración",
       "description": "<p>Invocas a un espíritu aberrante. Se manifiesta en un espacio desocupado que puedas ver dentro del alcance y usa el bloque de estadísticas del <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobAberrantSp]{Espíritu Aberrante}</strong>. Cuando lanzas el conjuro, elige Contemplador, Azotamentes o Slaad. La criatura se asemeja a una Aberración de ese tipo, lo que determina ciertos detalles en su bloque de estadísticas. La criatura desaparece cuando cae a 0 Puntos de Golpe o cuando el conjuro termina.</p><p>La criatura es un aliado para ti y tus aliados. En combate, comparte tu cuenta de Iniciativa, pero toma su turno inmediatamente después del tuyo. Obedece tus órdenes verbales (no se requiere acción por tu parte). Si no das ninguna, realiza la acción de &Reference[Dodge] y usa su movimiento para evitar el peligro.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Usa el nivel del espacio de conjuro para el nivel del conjuro en el bloque de estadísticas.</p>"
     },
     "Summon Beast": {
@@ -3825,7 +3825,7 @@
       }
     },
     "Teleport": {
-      "name": "Teletransportar",
+      "name": "Teletransporte",
       "description": "<p>Este conjuro te transporta instantáneamente a ti y hasta a ocho criaturas voluntarias que puedas ver dentro del alcance, o un solo objeto que puedas ver dentro del alcance, a un destino que selecciones. Si apuntas a un objeto, debe ser Grande o más pequeño, y no puede ser sostenido o llevado por una criatura no dispuesta.</p><p>El destino que elijas debe ser conocido por ti, y debe estar en el mismo plano de existencia que tú. Tu familiaridad con el destino determina si llegas allí con éxito. El DM lanza [[/gmr 1d100]] y consulta la tabla de Resultados de Teletransportación y las explicaciones posteriores.</p><details><summary><strong>@UUID[Compendium.dnd-players-handbook.tables.RollTable.phbsplTeleportMi]{Resultado de la Teletransportación}</strong></summary><table><thead><tr><td>Familiaridad</td><td>Contratiempo</td><td>Área Similar</td><td>Fuera de Objetivo</td><td>En el Objetivo</td></tr></thead><tbody><tr><td>Círculo permanente</td><td>—</td><td>—</td><td>—</td><td>01–100</td></tr><tr><td>Objeto vinculado</td><td>—</td><td>—</td><td>—</td><td>01–100</td></tr><tr><td>Muy familiar</td><td>01–05</td><td>06–13</td><td>14–24</td><td>25–100</td></tr><tr><td>Visto casualmente</td><td>01–33</td><td>34–43</td><td>44–53</td><td>54–100</td></tr><tr><td>Visto una vez o descrito</td><td>01–43</td><td>44–53</td><td>54–73</td><td>74–100</td></tr><tr><td>Destino falso</td><td>01–50</td><td>51–100</td><td>—</td><td>—</td></tr></tbody></table></details><p><strong>Familiaridad.</strong> Aquí están los significados de los términos en la columna de Familiaridad de la tabla:</p><ul><li>“Círculo permanente” significa un círculo de teletransportación permanente cuya secuencia de sellos conoces.</li><li>“Objeto vinculado” significa que posees un objeto tomado del destino deseado en los últimos seis meses, como un libro de la biblioteca de un mago.</li><li>“Muy familiar” es un lugar que has visitado a menudo, un lugar que has estudiado cuidadosamente, o un lugar que puedes ver cuando lanzas el conjuro.</li><li>“Visto casualmente” es un lugar que has visto más de una vez pero con el que no estás muy familiarizado.</li><li>“Visto una vez o descrito” es un lugar que has visto una vez, posiblemente usando magia, o un lugar que conoces a través de la descripción de otra persona, quizás de un mapa.</li><li>“Destino falso” es un lugar que no existe. Quizás intentaste escudriñar el santuario de un enemigo pero en su lugar viste una ilusión, o estás intentando teletransportarte a una ubicación que ya no existe.</li></ul><p><strong>Contratiempo.</strong> La magia impredecible del conjuro resulta en un viaje difícil. Cada criatura teletransportada (o el objeto objetivo) recibe [[/damage 3d10 type=force]] de daño, y el DM vuelve a tirar en la tabla para ver dónde terminas (pueden ocurrir múltiples contratiempos, infligiendo daño cada vez).</p><p><strong>Área Similar.</strong> Tú y tu grupo (o el objeto objetivo) aparecéis en un área diferente que es visual o temáticamente similar al área objetivo. Apareces en el lugar similar más cercano. Si te diriges a tu laboratorio en casa, por ejemplo, podrías aparecer en el laboratorio de otra persona en la misma ciudad.</p><p><strong>Fuera de Objetivo.</strong> Tú y tu grupo (o el objeto objetivo) aparecéis a [[/r 2d12]] millas de distancia del destino en una dirección aleatoria. Lanza [[/r 1d8]] para la dirección: 1, este; 2, sureste; 3, sur; 4, suroeste; 5, oeste; 6, noroeste; 7, norte; u 8, noreste.</p><p><strong>En el Objetivo.</strong> Tú y tu grupo (o el objeto objetivo) aparecéis donde pretendíais.</p>"
     },
     "Teleportation Circle": {
@@ -3875,7 +3875,7 @@
       }
     },
     "Thunderwave": {
-      "name": "Ola Atronadora",
+      "name": "Onda Atronadora",
       "description": "<p>Desatas una ola de energía atronadora. Todas las criaturas situadas en un cubo de 15ft (4,5 m) de lado adyacente a ti harán una tirada de salvación de Constitución. Si la fallan, recibirán 2d8 de daño de trueno y serán empujadas 10ft (3 m) respecto a ti. Si la superan, solo sufrirán la mitad de ese daño.</p><p>Además, a los objetos sueltos que estén completamente dentro del cubo se les empujará 10ft (3 m) respecto a ti y la explosión atronadora podrá oírse a 300ft (90 m) de distancia.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño aumenta en 1d8 por cada nivel por encima de 1 que tenga el espacio.</p>"
     },
     "Time Stop": {
@@ -3900,7 +3900,7 @@
       }
     },
     "Tongues": {
-      "name": "Don de Lenguas",
+      "name": "Lenguas",
       "description": "<p>Este conjuro otorga a la criatura que tocas la habilidad de entender cualquier idioma hablado o signado que oiga o vea. Además, cuando el objetivo se comunica hablando o signando, cualquier criatura que conozca al menos un idioma puede entenderlo si esa criatura puede oír el habla o ver los signos.</p>",
       "effects": {
         "Universal Communication": {
@@ -3917,7 +3917,7 @@
       "description": "<p>Obtienes la habilidad de entrar en un árbol y moverte desde su interior al interior de otro árbol del mismo tipo a 500 pies. Ambos árboles deben estar vivos y ser al menos del mismo tamaño que tú. Debes usar 5 pies de movimiento para entrar en un árbol. Conoces instantáneamente la ubicación de todos los demás árboles del mismo tipo a 500 pies y, como parte del movimiento utilizado para entrar en el árbol, puedes pasar a uno de esos árboles o salir del árbol en el que estás. Apareces en un lugar de tu elección a 5 pies del árbol de destino, usando otros 5 pies de movimiento. Si no te queda movimiento, apareces a 5 pies del árbol en el que entraste.</p><p>Puedes usar esta habilidad de transporte solo una vez en cada uno de tus turnos. Debes terminar cada turno fuera de un árbol.</p>"
     },
     "True Polymorph": {
-      "name": "Polimorfar Verdadero",
+      "name": "Polimorfar Supremo",
       "description": "<p>Elige una criatura o un objeto no mágico que puedas ver dentro del alcance. La criatura cambia de forma a una criatura diferente o un objeto no mágico, o el objeto cambia de forma a una criatura (el objeto no debe ser usado ni llevado). La transformación dura por la duración o hasta que el objetivo muera o sea destruido, pero si mantienes la Concentración en este conjuro durante toda la duración, el conjuro dura hasta ser disipado.</p><p>Una criatura no dispuesta puede hacer una tirada de salvación de Sabiduría, y si tiene éxito, no se ve afectada por este conjuro.</p><p><strong>Criatura en Criatura.</strong> Si conviertes a una criatura en otro tipo de criatura, la nueva forma puede ser de cualquier tipo que elijas que tenga un Grado de Desafío igual o inferior al Grado de Desafío o nivel del objetivo. Las estadísticas de juego del objetivo son reemplazadas por el bloque de estadísticas de la nueva forma, pero conserva sus Puntos de Golpe, Dados de Golpe, alineamiento y personalidad.</p><p>El objetivo gana un número de Puntos de Golpe Temporales igual a los Puntos de Golpe de la nueva forma.</p><p>El objetivo está limitado en las acciones que puede realizar por la anatomía de su nueva forma, y no puede hablar ni lanzar conjuros.</p><p>El equipo del objetivo se fusiona con la nueva forma. La criatura no puede usar ni beneficiarse de ninguna manera de ese equipo.</p><p><strong>Objeto en Criatura.</strong> Puedes convertir un objeto en cualquier tipo de criatura, siempre que el tamaño de la criatura no sea mayor que el del objeto y la criatura tenga un Grado de Desafío de 9 o inferior. La criatura es Amistosa contigo y tus aliados. En combate, toma sus turnos inmediatamente después del tuyo y obedece tus órdenes.</p><p>Si el conjuro dura más de una hora, ya no controlas a la criatura. Podría permanecer Amistosa contigo, dependiendo de cómo la hayas tratado.</p><p><strong>Criatura en Objeto.</strong> Si conviertes a una criatura en un objeto, se transforma junto con todo lo que lleva y viste en esa forma, siempre que el tamaño del objeto no sea mayor que el de la criatura. Las estadísticas de la criatura se convierten en las del objeto, y la criatura no tiene memoria del tiempo pasado en esta forma después de que el conjuro termine y vuelva a la normalidad.</p>",
       "activities": {
         "transform": {
@@ -3937,7 +3937,7 @@
       "description": "<p>Tocas a una criatura que ha estado muerta no más de 200 años y que murió por cualquier razón excepto la vejez. La criatura es revivida con todos sus Puntos de Golpe.</p><p>Este conjuro cierra todas las heridas, neutraliza cualquier veneno, cura todos los contagios mágicos y levanta cualquier maldición que afectara a la criatura cuando murió. El conjuro reemplaza los órganos y extremidades dañados o perdidos. Si la criatura era un No Muerto, se restaura a su forma no-No Muerta.</p><p>El conjuro puede proporcionar un nuevo cuerpo si el original ya no existe, en cuyo caso debes decir el nombre de la criatura. La criatura aparece entonces en un espacio desocupado que elijas a 10 pies de ti.</p>"
     },
     "True Seeing": {
-      "name": "Visión Verdadera",
+      "name": "Visión Veraz",
       "description": "<p>Por la duración, la criatura voluntaria que tocas tiene Visión Verdadera con un alcance de 120 pies.</p>",
       "activities": {
         "Grant Truesight": {
@@ -4026,7 +4026,7 @@
       }
     },
     "Wall of Force": {
-      "name": "Muro de Fuerza",
+      "name": "Muro de Energía",
       "description": "<p>Un muro de fuerza Invisible surge a la existencia en un punto que elijas dentro del alcance. El muro aparece en cualquier orientación que elijas, como una barrera horizontal o vertical o en ángulo. Puede flotar libremente o descansar sobre una superficie sólida. Puedes formarlo en una cúpula semiesférica o un globo con un radio de hasta 10 pies, o puedes dar forma a una superficie plana compuesta por diez paneles de 10 por 10 pies. Cada panel debe ser contiguo a otro panel. En cualquier forma, el muro tiene 1/4 de pulgada de grosor y dura por la duración. Si el muro atraviesa el espacio de una criatura cuando aparece, la criatura es empujada a un lado del muro (tú eliges qué lado).</p><p>Nada puede pasar físicamente a través del muro. Es inmune a todo daño y no puede ser disipado por <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Disipar Magia}.</em> Sin embargo, un conjuro de <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisintegra]{Desintegrar}</em> destruye el muro instantáneamente. El muro también se extiende al Plano Etéreo y bloquea el viaje etéreo a través del muro.</p>",
       "activities": {
         "Sphere or Globe": {
@@ -4092,7 +4092,7 @@
       }
     },
     "Water Breathing": {
-      "name": "Respiración Acuática",
+      "name": "Respirar Agua",
       "description": "<p>Este conjuro otorga hasta a diez criaturas voluntarias de tu elección dentro del alcance la capacidad de respirar bajo el agua hasta que el conjuro termine. Las criaturas afectadas también conservan su modo normal de respiración.</p>",
       "effects": {
         "Water Breathing": {

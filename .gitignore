@@ -1,14 +1,29 @@
-# Directorios de fuente
-/compendium-src
+# ============================================
+# ARCHIVOS DE REFERENCIA (mantener localmente)
+# ============================================
+# compendium-en/ - Referencia EN para tracking de cambios
+# uploads/ - Archivos de documentación/imágenes de Babele wiki
 
-# Archivos de backup
-compendium/dnd5e.rules copy.json
+# ============================================
+# DIRECTORIOS TEMPORALES Y DE TRABAJO
+# ============================================
+/compendium-src
+chapters/
+reports/
+scripts/
+
+# ============================================
+# ARCHIVOS DE BACKUP
+# ============================================
 *.backup
 *.bak
 *~
 *.swp
+compendium/dnd5e.rules copy.json
 
-# Python
+# ============================================
+# PYTHON
+# ============================================
 __pycache__/
 *.py[cod]
 *$py.class
@@ -20,44 +35,45 @@ venv/
 dist/
 build/
 
-# Scripts temporales de procesamiento
-APPLY_*.py
-NORMALIZE_*.py
-SYNC_*.py
-VALIDATE_*.py
-*_TEMP.py
-*_DEBUG.py
-
-# Archivos JSON temporales
-CONJUROS_PENDIENTES.json
+# Archivos JSON temporales de procesamiento
+*_TEMP.json
 *_pending.json
 *_temp.json
+CONJUROS_PENDIENTES.json
 
-# Reportes y scripts de verificación
-reports/
-scripts/
-
-# Logs
+# ============================================
+# LOGS Y TEMPORALES
+# ============================================
 *.log
+*.tmp
+.cache/
 
+# ============================================
+# SISTEMA OPERATIVO
+# ============================================
 # macOS
 .DS_Store
 .AppleDouble
 .LSOverride
 Thumbs.db
 
-# IDE
+# Windows
+desktop.ini
+$RECYCLE.BIN/
+
+# ============================================
+# IDE Y EDITORES
+# ============================================
 .vscode/
 .idea/
 *.sublime-*
 *.code-workspace
 
-# Node (si se usa)
+# ============================================
+# NODE (si se usa en el futuro)
+# ============================================
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# Archivos de sistema
-*.tmp
-.cache/
+package-lock.json

@@ -2107,7 +2107,7 @@
       "effects": {
         "Hunter's Mark": {
           "name": "Marca del Cazador",
-          "description": "<p>Hasta que el conjuro termine, infliges 1d6 de daño de fuerza adicional al objetivo siempre que le aciertes con una tirada de ataque.</p>"
+          "description": "<p>Hasta que el conjuro termine, infliges [[/damage 1d6 type=force]] adicional al objetivo siempre que le aciertes con una tirada de ataque.</p>"
         }
       }
     },
@@ -3175,7 +3175,7 @@
       "effects": {
         "Warded": {
           "name": "Protegido",
-          "description": "<p>Hasta que el conjuro termine, cualquier criatura que haga objetivo a la criatura protegida con un ataque o un conjuro que inflija daño deberá superar primero una tirada de salvación de Sabiduría; de lo contrario, elegirá un nuevo objetivo o perderá el ataque o conjuro. Este conjuro no protege a la criatura contra los efectos de área. El conjuro termina si la criatura protegida hace una tirada de ataque, lanza un conjuro o inflige daño.</p>"
+          "description": "<p>Hasta que el conjuro termine, cualquier criatura que haga objetivo a la criatura protegida con un ataque o un conjuro que inflija daño deberá superar primero una [[/save wis dc=@attributes.spell.dc format=long]]; de lo contrario, elegirá un nuevo objetivo o perderá el ataque o conjuro. Este conjuro no protege a la criatura contra los efectos de área. El conjuro termina si la criatura protegida hace una tirada de ataque, lanza un conjuro o inflige daño.</p>"
         }
       }
     },
@@ -4184,7 +4184,7 @@
       "effects": {
         "Sustained Lightning": {
           "name": "Relámpago Sostenido",
-          "description": "<p>En cada uno de tus siguientes turnos, puedes emplear una Acción Adicional para causar 1d12 de daño de relámpago al objetivo automáticamente, incluso si el primer ataque falla.</p><p>El conjuro termina si en algún momento el objetivo queda fuera del alcance del conjuro o si consigue tener cobertura completa respecto a ti.</p>"
+          "description": "<p>En cada uno de tus siguientes turnos, puedes emplear una Acción Adicional para causar [[/damage 1d12 type=lightning]] al objetivo automáticamente, incluso si el primer ataque falla.</p><p>El conjuro termina si en algún momento el objetivo queda fuera del alcance del conjuro o si consigue tener cobertura completa respecto a ti.</p>"
         }
       }
     },

@@ -487,7 +487,8 @@
             "Determine Position by Stargazing": {
               "name": "Determinar Posición por las Estrellas"
             }
-          }
+          },
+          "description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Trazar un rumbo (CD 10) o determinar la posición mediante la contemplando las estrellas (CD 15) </p><p>Estos instrumentos se utilizan para orientarse en el mar. Si eres competente con ellos, podrás planear la ruta de un barco e interpretar cartas náuticas, además de añadir tu bonificador por competencia a cualquier prueba de característica para evitar perderte en el mar.</p>"
         },
         "Rope": {
           "name": "Cuerda",
@@ -1353,7 +1354,8 @@
             "Guiding Bolt": {
               "name": "Saeta Guía"
             }
-          }
+          },
+          "description": "<p>Lanzas un rayo de luz hacia una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibirá [[/damage 4d6 type=radiant]] y la siguiente tirada de ataque contra él antes del final de tu siguiente turno tendrá ventaja.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño aumenta en [[/damage 1d6 type=radiant]] por cada nivel por encima de 1 que tenga el espacio.</p>"
         },
         "Shield of Faith": {
           "name": "Escudo de Fe",
@@ -3127,7 +3129,8 @@
             "Draft a Map": {
               "name": "Dibujar Mapa"
             }
-          }
+          },
+          "description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[wis]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Dibujar un mapa de una zona pequeña (CD 15) </p> <p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMap00000000]{Mapa}</p>"
         },
         "Bedroll": {
           "name": "Petate",
@@ -3689,7 +3692,8 @@
             "Pick a Lock/Disarm a Trap": {
               "name": "Forzar una cerradura/Desactivar una trampa"
             }
-          }
+          },
+          "description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[dex]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Forzar una cerradura (CD 15) o desactivar una trampa (CD 15).</p><p>Este conjunto de herramientas incluye una pequeña lima, un juego de ganzúas, un espejito montado en un asa metálica, una serie de tijeras de punta estrecha y unas tenazas. La competencia con estas herramientas te permite añadir tu bonificador por competencia a las pruebas de característica para desarmar trampas o forzar cerraduras.</p>"
         },
         "Bedroll": {
           "name": "Petate",
@@ -3981,7 +3985,8 @@
             "Pick a Lock/Disarm a Trap": {
               "name": "Forzar una cerradura/Desactivar una trampa"
             }
-          }
+          },
+          "description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[dex]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Forzar una cerradura (CD 15) o desactivar una trampa (CD 15).</p><p>Este conjunto de herramientas incluye una pequeña lima, un juego de ganzúas, un espejito montado en un asa metálica, una serie de tijeras de punta estrecha y unas tenazas. La competencia con estas herramientas te permite añadir tu bonificador por competencia a las pruebas de característica para desarmar trampas o forzar cerraduras.</p>"
         },
         "Crowbar": {
           "name": "Palanqueta",
@@ -4700,10 +4705,12 @@
           "description": "<p><em>Dote de Origen</em></p><p>Obtienes los siguientes beneficios:</p><p><strong>Dos Trucos.</strong> Aprendes dos trucos de tu elección escogidos de entre los de la lista de conjuros de @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Clérigo}, @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druida} o @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Mago}. Tu aptitud mágica para los conjuros de esta Dote es la Inteligencia, la Sabiduría o el Carisma (elígela cuando selecciones esta Dote).</p><p><strong>Conjuro de Nivel 1.</strong> Elige un conjuro de nivel 1 de la misma lista que seleccionaste para los trucos de esta Dote. Siempre tienes ese conjuro preparado. Puedes lanzarlo una vez sin gastar un espacio de conjuro y recuperas la capacidad de hacerlo de esta forma tras finalizar un descanso largo. También puedes lanzar el conjuro usando cualquier espacio de conjuro que tengas.</p><p><strong>Cambiar Conjuro.</strong> Cada vez que subas un nivel, puedes reemplazar uno de los conjuros que elijas con esta Dote por un conjuro distinto del mismo nivel de la lista de conjuros seleccionada.</p><p><strong>Repetible.</strong> Puedes elegir esta Dote más de una vez, pero debes elegir una lista de conjuros distinta cada vez.</p><section id=\"secret-7JQCSgnGrtu9huzf\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Los conjuros deben añadirse manualmente a tu hoja de personaje con los cambios anteriores.</p></section>"
         },
         "Calligrapher’s Supplies": {
-          "name": "Útiles de Caligrafía"
+          "name": "Útiles de Caligrafía",
+          "description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[dex]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Escribir texto lleno de florituras impresionantes que no se pueden falsificar(CD 15) </p> <p class=\"phb-meta\"><strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Tinta}, Pergamino de Conjuro</p>"
         },
         "Book of Prayers": {
-          "name": "Libro de Oraciones"
+          "name": "Libro de Oraciones",
+          "description": "<p><p>Un libro contiene ficción o no ficción. Si consultas un libro veraz de no ficción para saber algo sobre su materia, ganarás un bonificador de +5 a las pruebas de Inteligencia (&Reference[Arcana], &Reference[History], &Reference[Nature], or &Reference[Religion]) que hagas sobre esa materia.</p>"
         },
         "Reliquary": {
           "name": "Relicario"
@@ -4759,7 +4766,8 @@
           "name": "Orbe"
         },
         "Book of Occult Lore": {
-          "name": "Libro de Saber Oculto"
+          "name": "Libro de Saber Oculto",
+          "description": "<p><p>Un libro contiene ficción o no ficción. Si consultas un libro veraz de no ficción para saber algo sobre su materia, ganarás un bonificador de +5 a las pruebas de Inteligencia (&Reference[Arcana], &Reference[History], &Reference[Nature], or &Reference[Religion]) que hagas sobre esa materia.</p>"
         },
         "Sacred Flame": {
           "name": "Llama Sagrada",
@@ -5056,7 +5064,8 @@
           "name": "Habilidoso"
         },
         "Calligrapher’s Supplies": {
-          "name": "Útiles de Caligrafía"
+          "name": "Útiles de Caligrafía",
+          "description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[dex]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Escribir texto lleno de florituras impresionantes que no se pueden falsificar(CD 15) </p> <p class=\"phb-meta\"><strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagInk00000000]{Tinta}, Pergamino de Conjuro</p>"
         },
         "Fine Clothes": {
           "name": "Ropas de Calidad",

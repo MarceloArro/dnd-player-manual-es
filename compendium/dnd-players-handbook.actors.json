@@ -253,15 +253,15 @@
       "items": {
         "Life Bond": {
           "name": "Vínculo Vital",
-          "description": "<p> When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if you’re within 5 feet of it.</p>"
+          "description": "<p> Cuando recuperas Puntos de Golpe gracias a un conjuro de nivel 1 o superior, el corcel recupera la misma cantidad de Puntos de Golpe si estás a 1,5 m (5 pies) o menos de él.</p>"
         },
         "Otherworldly Slam": {
           "name": "Golpe de Otro Mundo",
-          "description": "<p> <em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d8 plus the spell’s level of Radiant (Celestial), Psychic (Fey), or Necrotic (Fiend) damage.</p>"
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d8 + el nivel del conjuro de daño Radiante (Celestial), Psíquico (Feérico) o Necrótico (Infernal).</p>"
         },
         "Fell Glare": {
           "name": "Mirada Funesta",
-          "description": "<p><em>Wisdom Saving Throw:</em> DC equals your spell save DC, one creature within 60 feet the steed can see. <em>Failure:</em> The target has the &amp;Reference[frightened apply=false] condition until the end of your next turn.</p>",
+          "description": "<p><em>Tirada de Salvación de Sabiduría:</em> CD igual a tu CD de salvación de conjuros, una criatura a 18 m (60 pies) o menos que el corcel pueda ver. <em>Fallo:</em> el objetivo tendrá el estado de &amp;Reference[frightened apply=false] hasta el final de tu siguiente turno.</p>",
           "effects": {
             "Frightened": {
               "name": "Asustado"
@@ -274,10 +274,12 @@
             "Teleport": {
               "name": "Teletransporte"
             }
-          }
+          },
+          "description": "<p> El corcel se teletransporta, junto con su jinete, a un espacio sin ocupar de tu elección a una distancia de hasta 18 m (60 pies) de sí mismo.</p>"
         },
         "Healing Touch": {
-          "name": "Toque Curativo"
+          "name": "Toque Curativo",
+          "description": "<p> Una criatura a 1,5 m (5 pies) o menos del corcel recupera una cantidad de Puntos de Golpe igual a 2d8 más el nivel del conjuro.</p>"
         }
       }
     },
@@ -303,10 +305,12 @@
       "tokenName": "Espíritu Aberrante",
       "items": {
         "Regeneration": {
-          "name": "Regeneración"
+          "name": "Regeneración",
+          "description": "<p>El espíritu recupera [[/healing 5]]{5 Puntos de Golpe} al principio de su turno si tiene al menos 1 Punto de Golpe.</p>"
         },
         "Whispering Aura": {
-          "name": "Aura Susurrante"
+          "name": "Aura Susurrante",
+          "description": "<p>Al principio de cada uno de los turnos del espíritu, este emite energía psiónica si no tiene el estado de Incapacitado. <em>Tirada de Salvación de Sabiduría:</em> CD igual a tu CD de salvación de conjuros, todas las criaturas (excepto tú) a 1,5 m (5 pies) o menos del espíritu. <em>Fallo:</em> 2d6 de daño Psíquico.</p>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -314,7 +318,8 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Claw": {
           "name": "Garra",
@@ -322,13 +327,16 @@
             "Blocked Healing": {
               "name": "Curación Bloqueada"
             }
-          }
+          },
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d10 + 3 + el nivel del conjuro de daño Cortante, y el objetivo no puede recuperar Puntos de Golpe hasta el principio del siguiente turno del espíritu.</p>"
         },
         "Eye Ray": {
-          "name": "Rayo Ocular"
+          "name": "Rayo Ocular",
+          "description": "<p> <em>Tirada de Ataque a Distancia:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 45 m (150 pies). <em>Acierto:</em> 1d8 + 3 + el nivel del conjuro de daño Psíquico.</p>"
         },
         "Psychic Slam": {
-          "name": "Golpe Psíquico"
+          "name": "Golpe Psíquico",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto: </em>1d8 + 3 + el nivel del conjuro de daño Psíquico.</p>"
         }
       }
     },
@@ -337,7 +345,8 @@
       "tokenName": "Espíritu Elemental del Aire",
       "items": {
         "Amorphous Form": {
-          "name": "Forma Amorfa"
+          "name": "Forma Amorfa",
+          "description": "<p>El espíritu puede atravesar un espacio tan estrecho como 2,5 cm (1 pulgada) de ancho sin que se considere Terreno Difícil.</p>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -345,10 +354,12 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques de [[/item Slam]] igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Slam": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d10 + 4 + el nivel del conjuro de daño Relámpago.</p>"
         }
       }
     },
@@ -377,7 +388,8 @@
       "tokenName": "Ojo Arcano",
       "items": {
         "Move": {
-          "name": "Mover"
+          "name": "Mover",
+          "description": "<p>Con una Acción Adicional, puedes mover el ojo hasta 9 m (30 pies) en cualquier dirección. Una barrera sólida bloquea el movimiento del ojo, pero este puede pasar por una abertura de apenas 2,5 cm (1 pulgada) de diámetro.</p>"
         }
       }
     },
@@ -391,13 +403,16 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Radiant Bow": {
-          "name": "Arco Radiante"
+          "name": "Arco Radiante",
+          "description": "<p> <em>Tirada de Ataque a Distancia</em>: bonificador igual a tu modificador de ataque de conjuros, alcance 180 m (600 pies). <em>Acierto:</em> 2d6 + 2 + el nivel del conjuro de daño Radiante.</p>"
         },
         "Healing Touch": {
-          "name": "Toque Curativo"
+          "name": "Toque Curativo",
+          "description": "<p> El espíritu toca a otra criatura. El objetivo recupera una cantidad de Puntos de Golpe igual a 2d8 + el nivel del conjuro.</p>"
         }
       }
     },
@@ -819,7 +834,8 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Eye Ray": {
           "name": "Rayo Ocular",
@@ -827,7 +843,8 @@
             "Attack": {
               "name": "Atacar"
             }
-          }
+          },
+          "description": "<p> <em>Tirada de Ataque a Distancia:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 45 m (150 pies). <em>Acierto:</em> 1d8 + 3 + el nivel del conjuro de daño Psíquico.</p>"
         }
       }
     },
@@ -836,7 +853,8 @@
       "tokenName": "Espíritu Bestial del Aire",
       "items": {
         "Flyby": {
-          "name": "Pasar Volando"
+          "name": "Pasar Volando",
+          "description": "<p> El espíritu no provoca Ataques de Oportunidad cuando vuela para salir del alcance de un enemigo.</p>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -844,10 +862,12 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques de [[/item Rend]] igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Rend": {
-          "name": "Desgarrar"
+          "name": "Desgarrar",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d8 + 4 + el nivel del conjuro de daño Perforante.</p>"
         }
       }
     },
@@ -856,7 +876,8 @@
       "tokenName": "Espíritu Bestial de Tierra",
       "items": {
         "Pack Tactics": {
-          "name": "Tácticas de Manada"
+          "name": "Tácticas de Manada",
+          "description": "<p> El espíritu tiene Ventaja en las tiradas de ataque contra una criatura si al menos uno de sus aliados está a 1,5 m (5 pies) o menos de la criatura y dicho aliado no tiene el estado de Incapacitado.</p>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -864,10 +885,12 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques de [[/item Rend]] igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Rend": {
-          "name": "Desgarrar"
+          "name": "Desgarrar",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d8 + 4 + el nivel del conjuro de daño Perforante.</p>"
         }
       }
     },
@@ -876,13 +899,16 @@
       "tokenName": "Espíritu Bestial",
       "items": {
         "Flyby": {
-          "name": "Pasar Volando"
+          "name": "Pasar Volando",
+          "description": "<p> El espíritu no provoca Ataques de Oportunidad cuando vuela para salir del alcance de un enemigo.</p>"
         },
         "Pack Tactics": {
-          "name": "Tácticas de Manada"
+          "name": "Tácticas de Manada",
+          "description": "<p> El espíritu tiene Ventaja en las tiradas de ataque contra una criatura si al menos uno de sus aliados está a 1,5 m (5 pies) o menos de la criatura y dicho aliado no tiene el estado de Incapacitado.</p>"
         },
         "Water Breathing": {
-          "name": "Respirar bajo el Agua"
+          "name": "Respirar bajo el Agua",
+          "description": "<p> El espíritu solo puede respirar bajo el agua.</p>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -890,10 +916,12 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques de [[/item Rend]] igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Rend": {
-          "name": "Desgarrar"
+          "name": "Desgarrar",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d8 + 4 + el nivel del conjuro de daño Perforante.</p>"
         }
       }
     },
@@ -902,10 +930,12 @@
       "tokenName": "Espíritu Bestial del Agua",
       "items": {
         "Pack Tactics": {
-          "name": "Tácticas de Manada"
+          "name": "Tácticas de Manada",
+          "description": "<p> El espíritu tiene Ventaja en las tiradas de ataque contra una criatura si al menos uno de sus aliados está a 1,5 m (5 pies) o menos de la criatura y dicho aliado no tiene el estado de Incapacitado.</p>"
         },
         "Water Breathing": {
-          "name": "Respirar bajo el Agua"
+          "name": "Respirar bajo el Agua",
+          "description": "<p> El espíritu solo puede respirar bajo el agua.</p>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -913,10 +943,12 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques de [[/item Rend]] igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Rend": {
-          "name": "Desgarrar"
+          "name": "Desgarrar",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d8 + 4 + el nivel del conjuro de daño Perforante.</p>"
         }
       }
     },
@@ -925,10 +957,12 @@
       "tokenName": "Mano de Bigby",
       "items": {
         "Clenched Fist": {
-          "name": "Puño Cerrado"
+          "name": "Puño Cerrado",
+          "description": "<p> La mano golpea a un objetivo a 1,5 m (5 pies) o menos de ella. Realiza una tirada de ataque de conjuro cuerpo a cuerpo. Si aciertas, el objetivo sufre 5d8 de daño de Fuerza.</p>"
         },
         "Forceful Hand": {
-          "name": "Mano Contundente"
+          "name": "Mano Contundente",
+          "description": "<p>La mano intenta empujar a una criatura Enorme o más pequeña a 1,5 m (5 pies) o menos de ella. El objetivo debe superar una tirada de salvación de Fuerza o la mano lo empuja hasta 1,5 m (5 pies), más 1,5 m (5 pies) por cada punto de tu modificador de característica de lanzamiento de conjuros. La mano se mueve con el objetivo y permanece a 1,5 m (5 pies) o menos de él.</p>"
         },
         "Grasping Hand": {
           "name": "Mano Agarradora",
@@ -939,7 +973,8 @@
             "Crush": {
               "name": "Aplastar"
             }
-          }
+          },
+          "description": "<p>La mano intenta agarrar a una criatura Enorme o más pequeña a 1,5 m (5 pies) o menos de ella. El objetivo debe superar una tirada de salvación de Destreza o tendrá el estado de &amp;Reference[Grappled], con una CD para escapar igual a tu CD de salvación de conjuros. Mientras la mano agarre al objetivo, puedes usar una Acción Adicional para que la mano lo estruje, infligiéndole daño Contundente igual a 4d6 más tu modificador de característica de lanzamiento de conjuros.</p><h3>Pruebas para Escapar de la Presa</h3><p>[[/check ability=str skill=ath dc=8+@prof+@flags.dnd5e.summon.mod]]{Fuerza (Atletismo)} [[/check ability=dex skill=acr dc=8+@prof+@flags.dnd5e.summon.mod]]{Destreza (Acrobacias)}</p>"
         },
         "Interposing Hand": {
           "name": "Mano Interpuesta",
@@ -955,7 +990,8 @@
             "Interposed": {
               "name": "Interpuesto"
             }
-          }
+          },
+          "description": "<p>La mano te otorga &amp;Reference[HalfCover] frente a los ataques y otros efectos que se originen en su espacio o que lo atraviesen. Además, su espacio se considera &amp;Reference[DifficultTerrain] para tus enemigos.</p>"
         }
       }
     },
@@ -1044,10 +1080,12 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Radiant Bow": {
-          "name": "Arco Radiante"
+          "name": "Arco Radiante",
+          "description": "<p><em>(Solo Vengador)</em></p><p><em>Tirada de Ataque a Distancia</em>: bonificador igual a tu modificador de ataque de conjuros, alcance 180 m (600 pies). <em>Acierto:</em> 2d6 + 2 + el nivel del conjuro de daño Radiante.</p>"
         },
         "Radiant Mace": {
           "name": "Maza Radiante",
@@ -1055,10 +1093,12 @@
             "Temporary Healing": {
               "name": "Curación Temporal"
             }
-          }
+          },
+          "description": "<p><em>(Solo Defensor)</em></p><p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d10 + 3 + el nivel del conjuro de daño Radiante, y el espíritu puede elegirse a sí mismo o a otra criatura que pueda ver a 3 m (10 pies) o menos del objetivo. La criatura elegida obtiene [[/healing 1d10 type=temphp]]{1d10 Puntos de Golpe Temporales}.</p>"
         },
         "Healing Touch": {
-          "name": "Toque Curativo"
+          "name": "Toque Curativo",
+          "description": "<p> El espíritu toca a otra criatura. El objetivo recupera una cantidad de Puntos de Golpe igual a 2d8 + el nivel del conjuro.</p>"
         }
       }
     },
@@ -1072,13 +1112,16 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques de [[/item Slam]] igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Slam": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d8 + 4 + el nivel del conjuro de daño Contundente.</p>"
         },
         "Berserk Lashing": {
-          "name": "Embate Frenético"
+          "name": "Embate Frenético",
+          "description": "<p><em>Desencadenante:</em> el espíritu sufre daño de una criatura. <em>Respuesta:</em> el espíritu realiza un ataque de [[/item Slam]] contra esa criatura si es posible o se mueve hasta la mitad de su Velocidad hacia ella sin provocar Ataques de Oportunidad.</p>"
         }
       }
     },
@@ -1397,7 +1440,8 @@
       "tokenName": "Animales Conjurados",
       "items": {
         "Pack Damage": {
-          "name": "Daño de Manada"
+          "name": "Daño de Manada",
+          "description": "<p>Siempre que la manada se mueva hasta 3 m (10 pies) o menos de una criatura que puedas ver, y siempre que una criatura que puedas ver entre en un espacio a 3 m (10 pies) o menos de la manada o termine su turno allí, puedes obligar a esa criatura a hacer una tirada de salvación de Destreza. Si falla la salvación, la criatura sufre 3d10 de daño Cortante. Una criatura solo hace esta salvación una vez por turno.</p>"
         }
       }
     },
@@ -1508,7 +1552,8 @@
             "Stony Lethargy": {
               "name": "Letargo Pétreo"
             }
-          }
+          },
+          "description": "<p> Cuando una criatura empieza su turno a 3 m (10 pies) o menos del espíritu, este puede convertirla en objetivo de energía mágica si puede verla. <em>Tirada de Salvación de Sabiduría:</em> CD igual a tu CD de salvación de conjuros, el objetivo. <em>Fallo:</em> hasta el principio de su siguiente turno, el objetivo no puede realizar Ataques de Oportunidad y su Velocidad se reduce a la mitad.</p>"
         },
         "Heated Body": {
           "name": "Cuerpo Ardiente",
@@ -1516,7 +1561,8 @@
             "Contact Damage": {
               "name": "Daño por Contacto"
             }
-          }
+          },
+          "description": "<p> Una criatura que acierte al espíritu con un ataque cuerpo a cuerpo, o que empiece su turno agarrando al espíritu, sufre 1d10 de daño de Fuego.</p>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -1524,10 +1570,12 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques de [[/item Slam]] igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Slam": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d8 + 4 + el nivel del conjuro de daño Contundente.</p>"
         },
         "Berserk Lashing": {
           "name": "Embate Frenético",
@@ -1535,7 +1583,8 @@
             "Attack or Move": {
               "name": "Atacar o Mover"
             }
-          }
+          },
+          "description": "<p><em>Desencadenante:</em> el espíritu sufre daño de una criatura. <em>Respuesta:</em> el espíritu realiza un ataque de [[/item Slam]] contra esa criatura si es posible o se mueve hasta la mitad de su Velocidad hacia ella sin provocar Ataques de Oportunidad.</p>"
         }
       }
     },
@@ -1588,7 +1637,8 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Radiant Mace": {
           "name": "Maza Radiante",
@@ -1596,10 +1646,12 @@
             "Temporary Healing": {
               "name": "Curación Temporal"
             }
-          }
+          },
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d10 + 3 + el nivel del conjuro de daño Radiante, y el espíritu puede elegirse a sí mismo o a otra criatura que pueda ver a 3 m (10 pies) o menos del objetivo. La criatura elegida obtiene [[/healing 1d10 type=temphp]]{1d10 Puntos de Golpe Temporales}.</p>"
         },
         "Healing Touch": {
-          "name": "Toque Curativo"
+          "name": "Toque Curativo",
+          "description": "<p> El espíritu toca a otra criatura. El objetivo recupera una cantidad de Puntos de Golpe igual a 2d8 + el nivel del conjuro.</p>"
         }
       }
     },
@@ -1613,10 +1665,12 @@
             "Explode": {
               "name": "Explotar"
             }
-          }
+          },
+          "description": "<p>Cuando el espíritu cae a 0 Puntos de Golpe o el conjuro termina, el espíritu explota. <em>Tirada de Salvación de Destreza:</em> CD igual a tu CD de salvación de conjuros, todas las criaturas en una Emanación de 3 m (10 pies) que se origine en el espíritu. <em>Fallo:</em> 2d10 + el nivel de este conjuro de daño de Fuego. <em>Éxito:</em> mitad del daño.</p>"
         },
         "Magic Resistance": {
-          "name": "Resistencia a la Magia"
+          "name": "Resistencia a la Magia",
+          "description": "<p> El espíritu tiene Ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -1624,10 +1678,12 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Bite": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). Acierto: 1d12 + 3 + el nivel del conjuro de daño Necrótico.</p>"
         }
       }
     },
@@ -1636,10 +1692,12 @@
       "tokenName": "Espíritu Diablo",
       "items": {
         "Devil’s Sight": {
-          "name": "Visión del Diablo"
+          "name": "Visión del Diablo",
+          "description": "<p> La Oscuridad mágica no impide la Visión en la Oscuridad del espíritu.</p>"
         },
         "Magic Resistance": {
-          "name": "Resistencia a la Magia"
+          "name": "Resistencia a la Magia",
+          "description": "<p> El espíritu tiene Ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -1647,7 +1705,8 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Fiery Strike": {
           "name": "Golpe Ígneo",
@@ -1658,7 +1717,8 @@
             "Ranged Attack": {
               "name": "Ataque a Distancia"
             }
-          }
+          },
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo o a Distancia:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies) o alcance 45 m (150 pies). <em>Acierto:</em> 2d6 + 3 + el nivel del conjuro de daño de Fuego.</p>"
         }
       }
     },
@@ -1713,7 +1773,8 @@
             "Shared Poison Resistance": {
               "name": "Resistencia a Veneno Compartida"
             }
-          }
+          },
+          "description": "<p>Cuando invocas al espíritu, elige una de sus Resistencias. Tienes &amp;Reference[damageresistance]{Resistencia} al tipo de daño elegido hasta que el conjuro termine.</p><section id=\"secret-FlNLM1mGXlBLAFfA\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Los efectos activos y las actividades que los aplican en este objeto se proporcionan para la aplicación opcional de la resistencia elegida.</p></section>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -1721,13 +1782,16 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques de [[/item Rend]] igual a la mitad del nivel del conjuro (redondeado hacia abajo) y usa [[/item Breath Weapon]].</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Rend": {
-          "name": "Desgarrar"
+          "name": "Desgarrar",
+          "description": "<p><em>Ataque Cuerpo a Cuerpo: </em>bonificador igual a tu modificador de ataque de conjuros, alcance 3 m (10 pies). <em>Acierto: </em>1d6 + 4 + el nivel del conjuro de daño Perforante.</p>"
         },
         "Breath Weapon": {
-          "name": "Ataque de Aliento"
+          "name": "Ataque de Aliento",
+          "description": "<p><em>Tirada de Salvación de Destreza: </em>CD igual a tu CD de salvación de conjuros, todas las criaturas en un Cono de 9 m (30 pies). <em>Fallo: </em>2d6 de daño de un tipo al que este espíritu tenga Resistencia (a tu elección cuando lanzas el conjuro). <em>Éxito: </em>mitad del daño.</p>"
         }
       }
     },
@@ -1984,10 +2048,12 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques de [[/item Slam]] igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Slam": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d10 + 4 + el nivel del conjuro de daño Contundente.</p>"
         }
       }
     },
@@ -1996,7 +2062,8 @@
       "tokenName": "Espíritu Elemental",
       "items": {
         "Amorphous Form": {
-          "name": "Forma Amorfa"
+          "name": "Forma Amorfa",
+          "description": "<p>El espíritu puede atravesar un espacio tan estrecho como 2,5 cm (1 pulgada) de ancho sin que se considere Terreno Difícil.</p>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -2004,10 +2071,12 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques de [[/item Slam]] igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Slam": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d10 + 4 + el nivel del conjuro de daño Contundente (solo Tierra), Frío (solo Agua), Relámpago (solo Aire) o de Fuego (solo Fuego).</p>"
         }
       }
     },
@@ -2050,7 +2119,8 @@
       "tokenName": "Mastín Fiel",
       "items": {
         "Bite": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p>Al principio de cada uno de tus turnos, el sabueso intenta morder a un enemigo a 1,5 m (5 pies) o menos de él. Ese enemigo debe superar una tirada de salvación de Destreza o sufrir 4d8 de daño de Fuerza.</p>"
         }
       }
     },
@@ -2064,10 +2134,12 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques de [[/item Fey Blade]] igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Fey Blade": {
-          "name": "Hoja Feérica"
+          "name": "Hoja Feérica",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 2d6 + 3 + el nivel del conjuro de daño de Fuerza.</p>"
         },
         "Fey Step": {
           "name": "Paso Feérico",
@@ -2075,7 +2147,8 @@
             "Teleport": {
               "name": "Teletransporte"
             }
-          }
+          },
+          "description": "<p>El espíritu se teletransporta mágicamente hasta 9 m (30 pies) a un espacio sin ocupar que pueda ver. Entonces se produce uno de los siguientes efectos, según el humor elegido del espíritu:</p><p><strong>Furioso.</strong></p><p>El espíritu tiene Ventaja en la siguiente tirada de ataque que haga antes del final de este turno.</p><p><strong>[[/item Mirthful]]</strong> @Embed[.phbaoiMirthful00 caption=false cite=false]</p><p><strong>[[/item Tricksy]]</strong> @Embed[.phbaoiTricksy000 caption=false cite=false]</p>"
         },
         "Mirthful": {
           "name": "Alegre",
@@ -2083,10 +2156,12 @@
             "Charmed": {
               "name": "Hechizado"
             }
-          }
+          },
+          "description": "<p><em>Tirada de Salvación de Sabiduría:</em> CD igual a tu CD de salvación de conjuros, una criatura que el espíritu pueda ver a 3 m (10 pies) o menos de sí mismo. <em>Fallo:</em> el objetivo está &amp;Reference[charmed apply=false] por ti y por el espíritu durante 1 minuto o hasta que el objetivo sufra cualquier daño.</p>"
         },
         "Tricksy": {
-          "name": "Travieso"
+          "name": "Travieso",
+          "description": "<p>El espíritu llena un Cubo de 3 m (10 pies) a 1,5 m (5 pies) o menos de él con &amp;Reference[darkness] mágica, que dura hasta el final de su siguiente turno.</p>"
         }
       }
     },
@@ -2100,13 +2175,16 @@
             "Explode": {
               "name": "Explotar"
             }
-          }
+          },
+          "description": "<p>Cuando el espíritu cae a 0 Puntos de Golpe o el conjuro termina, el espíritu explota. <em>Tirada de Salvación de Destreza:</em> CD igual a tu CD de salvación de conjuros, todas las criaturas en una Emanación de 3 m (10 pies) que se origine en el espíritu. <em>Fallo:</em> 2d10 + el nivel de este conjuro de daño de Fuego. <em>Éxito:</em> mitad del daño.</p>"
         },
         "Devil’s Sight": {
-          "name": "Visión del Diablo"
+          "name": "Visión del Diablo",
+          "description": "<p> La Oscuridad mágica no impide la Visión en la Oscuridad del espíritu.</p>"
         },
         "Magic Resistance": {
-          "name": "Resistencia a la Magia"
+          "name": "Resistencia a la Magia",
+          "description": "<p> El espíritu tiene Ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -2114,10 +2192,12 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Bite (Demon Only)": {
-          "name": "Mordisco (solo Demonio)"
+          "name": "Mordisco (solo Demonio)",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). Acierto: 1d12 + 3 + el nivel del conjuro de daño Necrótico.</p>"
         },
         "Claws (Yugoloth Only)": {
           "name": "Garras (solo Yugoloth)",
@@ -2125,7 +2205,8 @@
             "Attack and Teleport": {
               "name": "Atacar y Teletransportar"
             }
-          }
+          },
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d8 + 3 + el nivel del conjuro de daño Cortante. Justo después de que el ataque acierte o falle, el espíritu puede teletransportarse hasta 9 m (30 pies) a un espacio sin ocupar que pueda ver.</p>"
         },
         "Fiery Strike (Devil Only)": {
           "name": "Golpe Ígneo (solo Diablo)",
@@ -2136,7 +2217,8 @@
             "Ranged Attack": {
               "name": "Ataque a Distancia"
             }
-          }
+          },
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo o a Distancia:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies) o alcance 45 m (150 pies). <em>Acierto:</em> 2d6 + 3 + el nivel del conjuro de daño de Fuego.</p>"
         }
       }
     },
@@ -2333,7 +2415,8 @@
       "tokenName": "Espíritu Elemental del Fuego",
       "items": {
         "Amorphous Form": {
-          "name": "Forma Amorfa"
+          "name": "Forma Amorfa",
+          "description": "<p>El espíritu puede atravesar un espacio tan estrecho como 2,5 cm (1 pulgada) de ancho sin que se considere Terreno Difícil.</p>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -2341,10 +2424,12 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques de [[/item Slam]] igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Slam": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d10 + 4 + el nivel del conjuro de daño de Fuego.</p>"
         }
       }
     },
@@ -2353,7 +2438,8 @@
       "tokenName": "Esfera de Llamas",
       "items": {
         "Flames": {
-          "name": "Llamas"
+          "name": "Llamas",
+          "description": "<p>Creas una esfera de fuego de 1,5 m (5 pies) de diámetro en un espacio sin ocupar sobre el suelo dentro del alcance. Dura lo que indique la duración. Cualquier criatura que termine su turno a 1,5 m (5 pies) o menos de la esfera hace una tirada de salvación de Destreza y sufre 2d6 de daño de Fuego si falla, o la mitad del daño si tiene éxito.</p>"
         },
         "Roll": {
           "name": "Rodar",
@@ -2361,7 +2447,8 @@
             "Move and Save": {
               "name": "Mover y Salvar"
             }
-          }
+          },
+          "description": "<p>Con una Acción Adicional, puedes mover la esfera hasta 9 m (30 pies), haciéndola rodar por el suelo. Si mueves la esfera al espacio de una criatura, esa criatura hace la salvación contra la esfera y la esfera deja de moverse durante ese turno.</p><p>Cuando mueves la esfera, puedes dirigirla sobre barreras de hasta 1,5 m (5 pies) de alto y hacerla saltar sobre fosos de hasta 3 m (10 pies) de ancho. Los objetos inflamables que nadie lleve puesto ni transporte empiezan a arder si la esfera los toca.</p>"
         }
       }
     },
@@ -2370,7 +2457,8 @@
       "tokenName": "Disco Flotante",
       "items": {
         "Carry Weight Adjustment": {
-          "name": "Ajuste de Capacidad de Carga"
+          "name": "Ajuste de Capacidad de Carga",
+          "description": "<section id=\"secret-xvPfZzVKWfhDyIwx\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este objeto sirve para ajustar la capacidad de carga calculada del disco de 510 lb (255 kg) a 500 lb (250 kg), de acuerdo con la descripción del conjuro.</p></section>"
         }
       }
     },
@@ -2399,10 +2487,12 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques de [[/item Fey Blade]] igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Fey Blade": {
-          "name": "Hoja Feérica"
+          "name": "Hoja Feérica",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 2d6 + 3 + el nivel del conjuro de daño de Fuerza.</p>"
         },
         "Fey Step": {
           "name": "Paso Feérico",
@@ -2410,7 +2500,8 @@
             "Fuming Teleport": {
               "name": "Teletransporte Furioso"
             }
-          }
+          },
+          "description": "<p>El espíritu se teletransporta mágicamente hasta 9 m (30 pies) a un espacio sin ocupar que pueda ver. Entonces se produce el siguiente efecto, según el humor elegido del espíritu:</p><p><strong>Furioso. </strong>El espíritu tiene Ventaja en la siguiente tirada de ataque que haga antes del final de este turno.</p>"
         }
       }
     },
@@ -2419,7 +2510,8 @@
       "tokenName": "Espíritu Fantasmal",
       "items": {
         "Incorporeal Passage": {
-          "name": "Paso Incorpóreo"
+          "name": "Paso Incorpóreo",
+          "description": "<p>El espíritu puede atravesar otras criaturas y objetos como si fueran &amp;Reference[difficultterrain]. Si termina su turno dentro de un objeto, es desplazado al espacio sin ocupar más cercano y sufre [[/damage 1d10 type=force]] de daño por cada 1,5 m (5 pies) recorridos.</p>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -2427,7 +2519,8 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Deathly Touch": {
           "name": "Toque Mortal",
@@ -2435,7 +2528,8 @@
             "Frightened": {
               "name": "Asustado"
             }
-          }
+          },
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d8 + 3 + el nivel del conjuro de daño Necrótico, y el objetivo tendrá el estado de &amp;Reference[frightened apply=false] hasta el final de su siguiente turno.</p>"
         }
       }
     },
@@ -2453,7 +2547,8 @@
       "tokenName": "Ciempiés Gigante",
       "items": {
         "Spider Climb": {
-          "name": "Trepar cual Arácnido"
+          "name": "Trepar cual Arácnido",
+          "description": "<p> El insecto puede trepar por superficies difíciles, incluso por los techos, sin necesidad de hacer una prueba de característica.</p>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -2461,10 +2556,12 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El insecto realiza una cantidad de ataques igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Poison Jab": {
-          "name": "Pinchazo Venenoso"
+          "name": "Pinchazo Venenoso",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 3 m (10 pies). <em>Acierto:</em> 1d6 + 3 + el nivel del conjuro de daño Perforante más 1d4 de daño de Veneno.</p>"
         },
         "Venomous Spew": {
           "name": "Vómito Venenoso",
@@ -2472,7 +2569,8 @@
             "Poisoned": {
               "name": "Envenenado"
             }
-          }
+          },
+          "description": "<p><em>Tirada de Salvación de Constitución:</em> tu CD de salvación de conjuros, una criatura que el insecto pueda ver a 3 m (10 pies) o menos. <em>Fallo:</em> el objetivo tendrá el estado de &amp;Reference[Poisoned apply=false] hasta el principio del siguiente turno del insecto.</p>"
         }
       }
     },
@@ -2507,7 +2605,8 @@
       "tokenName": "Insecto Gigante",
       "items": {
         "Spider Climb": {
-          "name": "Trepar cual Arácnido"
+          "name": "Trepar cual Arácnido",
+          "description": "<p> El insecto puede trepar por superficies difíciles, incluso por los techos, sin necesidad de hacer una prueba de característica.</p>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -2515,10 +2614,12 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El insecto realiza una cantidad de ataques igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Poison Jab": {
-          "name": "Pinchazo Venenoso"
+          "name": "Pinchazo Venenoso",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 3 m (10 pies). <em>Acierto:</em> 1d6 + 3 + el nivel del conjuro de daño Perforante más 1d4 de daño de Veneno.</p>"
         },
         "Web Bolt": {
           "name": "Saeta de Telaraña",
@@ -2526,7 +2627,8 @@
             "Webbed": {
               "name": "Atrapado en Telaraña"
             }
-          }
+          },
+          "description": "<p> <em>Tirada de Ataque a Distancia:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 18 m (60 pies). <em>Acierto:</em> 1d10 + 3 + el nivel del conjuro de daño Contundente, y la Velocidad del objetivo se reduce a 0 hasta el principio del siguiente turno del insecto.</p>"
         },
         "Venomous Spew": {
           "name": "Vómito Venenoso",
@@ -2534,7 +2636,8 @@
             "Poisoned": {
               "name": "Envenenado"
             }
-          }
+          },
+          "description": "<p><em>Tirada de Salvación de Constitución:</em> tu CD de salvación de conjuros, una criatura que el insecto pueda ver a 3 m (10 pies) o menos. <em>Fallo:</em> el objetivo tendrá el estado de &amp;Reference[Poisoned apply=false] hasta el principio del siguiente turno del insecto.</p>"
         }
       }
     },
@@ -2591,7 +2694,8 @@
       "tokenName": "Avispa Gigante",
       "items": {
         "Spider Climb": {
-          "name": "Trepar cual Arácnido"
+          "name": "Trepar cual Arácnido",
+          "description": "<p> El insecto puede trepar por superficies difíciles, incluso por los techos, sin necesidad de hacer una prueba de característica.</p>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -2599,10 +2703,12 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El insecto realiza una cantidad de ataques igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Poison Jab": {
-          "name": "Pinchazo Venenoso"
+          "name": "Pinchazo Venenoso",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 3 m (10 pies). <em>Acierto:</em> 1d6 + 3 + el nivel del conjuro de daño Perforante más 1d4 de daño de Veneno.</p>"
         }
       }
     },
@@ -2634,7 +2740,8 @@
       "tokenName": "Enredadera",
       "items": {
         "Vine Attack": {
-          "name": "Ataque de Enredadera"
+          "name": "Ataque de Enredadera",
+          "description": "<p>Realiza una tirada de ataque de conjuro cuerpo a cuerpo contra una criatura a 9 m (30 pies) o menos de la enredadera. Si aciertas, el objetivo sufre 4d8 de daño Contundente y es arrastrado hasta 9 m (30 pies) hacia la enredadera; si el objetivo es Enorme o más pequeño, tendrá el estado de &amp;Reference[Grappled] (CD para escapar igual a tu CD de salvación de conjuros).</p><p>La enredadera puede tener agarradas a [[@flags.dnd5e.summon.level - 3]] criatura(s) a la vez, y puedes hacer que la enredadera suelte a una criatura agarrada (no requiere acción).</p><h3>Pruebas para Escapar</h3><p>[[/check ability=str skill=ath dc=8+@prof+@flags.dnd5e.summon.mod]]</p><p>[[/check ability=dex skill=acr dc=8+@prof+@flags.dnd5e.summon.mod]]</p>"
         }
       }
     },
@@ -2648,7 +2755,8 @@
             "Consume Damage Pool": {
               "name": "Consumir Reserva de Daño"
             }
-          }
+          },
+          "description": "<p>Cualquier enemigo que se mueva a un espacio a 3 m (10 pies) o menos del guardián por primera vez en un turno, o que empiece su turno allí, hace una tirada de salvación de Destreza y sufre 20 de daño Radiante si falla, o la mitad del daño si tiene éxito. El guardián se desvanece cuando ha infligido un total de 60 de daño.</p><section id=\"secret-fNtHgg2PRmVbaDl5\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Los Usos Limitados de este rasgo se proporcionan de forma opcional para llevar la cuenta del daño total infligido por el guardián. Además, la actividad <strong>Consume Damage Pool</strong> está configurada para consumir usos de forma escalada en incrementos de 5 de daño, para usarla después de determinar y aplicar el daño final.</p></section>"
         }
       }
     },
@@ -2798,7 +2906,8 @@
       "tokenName": "Espíritu Autómata de Metal",
       "items": {
         "Heated Body": {
-          "name": "Cuerpo Ardiente"
+          "name": "Cuerpo Ardiente",
+          "description": "<p> Una criatura que acierte al espíritu con un ataque cuerpo a cuerpo, o que empiece su turno agarrando al espíritu, sufre 1d10 de daño de Fuego.</p>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -2806,10 +2915,12 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques de [[/item Slam]] igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Slam": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d8 + 4 + el nivel del conjuro de daño Contundente.</p>"
         }
       }
     },
@@ -2818,7 +2929,8 @@
       "tokenName": "Espíritu Azotamentes",
       "items": {
         "Whispering Aura": {
-          "name": "Aura Susurrante"
+          "name": "Aura Susurrante",
+          "description": "<p>Al principio de cada uno de los turnos del espíritu, este emite energía psiónica si no tiene el estado de Incapacitado. <em>Tirada de Salvación de Sabiduría:</em> CD igual a tu CD de salvación de conjuros, todas las criaturas (excepto tú) a 1,5 m (5 pies) o menos del espíritu. <em>Fallo:</em> 2d6 de daño Psíquico.</p>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -2826,10 +2938,12 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Psychic Slam": {
-          "name": "Golpe Psíquico"
+          "name": "Golpe Psíquico",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto: </em>1d8 + 3 + el nivel del conjuro de daño Psíquico.</p>"
         }
       }
     },
@@ -2843,10 +2957,12 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques de [[/item Fey Blade]] igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Fey Blade": {
-          "name": "Hoja Feérica"
+          "name": "Hoja Feérica",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 2d6 + 3 + el nivel del conjuro de daño de Fuerza.</p>"
         },
         "Fey Step": {
           "name": "Paso Feérico",
@@ -2859,7 +2975,8 @@
             "Charmed": {
               "name": "Hechizado"
             }
-          }
+          },
+          "description": "<p>El espíritu se teletransporta mágicamente hasta 9 m (30 pies) a un espacio sin ocupar que pueda ver. Entonces se produce el siguiente efecto, según el humor elegido del espíritu:</p><p><strong>Alegre. </strong><em>Tirada de Salvación de Sabiduría:</em> CD igual a tu CD de salvación de conjuros, una criatura que el espíritu pueda ver a 3 m (10 pies) o menos de sí mismo. <em>Fallo:</em> el objetivo está &amp;Reference[charmed apply=false] por ti y por el espíritu durante 1 minuto o hasta que el objetivo sufra cualquier daño.</p>"
         }
       }
     },
@@ -3069,7 +3186,8 @@
       "tokenName": "Espada de Mordenkainen",
       "items": {
         "Move and Attack": {
-          "name": "Mover y Atacar"
+          "name": "Mover y Atacar",
+          "description": "<p>En tus turnos posteriores, puedes usar una Acción Adicional para mover la espada hasta 9 m (30 pies) a un punto que puedas ver y repetir el ataque contra el mismo objetivo o contra otro distinto. Si aciertas, el objetivo sufre daño de Fuerza igual a 4d12 más tu modificador de característica de lanzamiento de conjuros.</p>"
         }
       }
     },
@@ -3297,7 +3415,8 @@
       "tokenName": "Corcel Fantasma",
       "items": {
         "Hooves": {
-          "name": "Pezuñas"
+          "name": "Pezuñas",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> +5, alcance 1,5 m (5 pies). <em>Acierto: </em>7 (1d8 + 3) de daño Contundente.</p>"
         }
       }
     },
@@ -3351,7 +3470,8 @@
             "Poisoned": {
               "name": "Envenenado"
             }
-          }
+          },
+          "description": "<p><em>Tirada de Salvación de Constitución:</em> CD igual a tu CD de salvación de conjuros, cualquier criatura (excepto tú) que empiece su turno dentro de una Emanación de 1,5 m (5 pies) que se origine en el espíritu. <em>Fallo:</em> la criatura tendrá el estado de &amp;Reference[Poisoned apply=false] hasta el principio de su siguiente turno.</p>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -3359,7 +3479,8 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Rotting Claw": {
           "name": "Garra Putrefacta",
@@ -3367,7 +3488,8 @@
             "Paralyzed": {
               "name": "Paralizado"
             }
-          }
+          },
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d6 + 3 + el nivel del conjuro de daño Cortante. Si el objetivo tiene el estado de &amp;Reference[poisoned apply=false], tendrá el estado de &amp;Reference[paralyzed apply=false] hasta el final de su siguiente turno.</p>"
         }
       }
     },
@@ -3908,10 +4030,12 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Grave Bolt": {
-          "name": "Saeta Sepulcral"
+          "name": "Saeta Sepulcral",
+          "description": "<p><em>Tirada de Ataque a Distancia:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 45 m (150 pies). <em>Acierto:</em> 2d4 + 3 + el nivel del conjuro de daño Necrótico.</p>"
         }
       }
     },
@@ -3932,7 +4056,8 @@
       "tokenName": "Espíritu Slaad",
       "items": {
         "Regeneration": {
-          "name": "Regeneración"
+          "name": "Regeneración",
+          "description": "<p>El espíritu recupera [[/healing 5]]{5 Puntos de Golpe} al principio de su turno si tiene al menos 1 Punto de Golpe.</p>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -3940,7 +4065,8 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Claw": {
           "name": "Garra",
@@ -3948,7 +4074,8 @@
             "Blocked Healing": {
               "name": "Curación Bloqueada"
             }
-          }
+          },
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d10 + 3 + el nivel del conjuro de daño Cortante, y el objetivo no puede recuperar Puntos de Golpe hasta el principio del siguiente turno del espíritu.</p>"
         }
       }
     },
@@ -4216,7 +4343,8 @@
       "tokenName": "Arma Espiritual",
       "items": {
         "Move and Attack": {
-          "name": "Mover y Atacar"
+          "name": "Mover y Atacar",
+          "description": "<p>Con una Acción Adicional en tus turnos posteriores, puedes mover la fuerza hasta 6 m (20 pies) y repetir el ataque contra una criatura a 1,5 m (5 pies) o menos de ella. Si aciertas, el objetivo sufre daño de Fuerza igual a 1d8 más tu modificador de característica de lanzamiento de conjuros.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño aumenta en 1d8 por cada nivel de espacio por encima de 2.</p>"
         }
       }
     },
@@ -4271,7 +4399,8 @@
             "Stony Lethargy": {
               "name": "Letargo Pétreo"
             }
-          }
+          },
+          "description": "<p> Cuando una criatura empieza su turno a 3 m (10 pies) o menos del espíritu, este puede convertirla en objetivo de energía mágica si puede verla. <em>Tirada de Salvación de Sabiduría:</em> CD igual a tu CD de salvación de conjuros, el objetivo. <em>Fallo:</em> hasta el principio de su siguiente turno, el objetivo no puede realizar Ataques de Oportunidad y su Velocidad se reduce a la mitad.</p>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -4279,10 +4408,12 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques de [[/item Slam]] igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Slam": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d8 + 4 + el nivel del conjuro de daño Contundente.</p>"
         }
       }
     },
@@ -4323,10 +4454,12 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques de [[/item Fey Blade]] igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Fey Blade": {
-          "name": "Hoja Feérica"
+          "name": "Hoja Feérica",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 2d6 + 3 + el nivel del conjuro de daño de Fuerza.</p>"
         },
         "Fey Step": {
           "name": "Paso Feérico",
@@ -4334,7 +4467,8 @@
             "Teleport and Shroud": {
               "name": "Teletransportar y Cubrir"
             }
-          }
+          },
+          "description": "<p>El espíritu se teletransporta mágicamente hasta 9 m (30 pies) a un espacio sin ocupar que pueda ver. Entonces se produce el siguiente efecto, según el humor elegido del espíritu:</p><p><strong>Travieso.</strong> El espíritu llena un Cubo de 3 m (10 pies) a 1,5 m (5 pies) o menos de él con &amp;Reference[darkness] mágica, que dura hasta el final de su siguiente turno.</p>"
         }
       }
     },
@@ -4348,10 +4482,12 @@
             "Poisoned": {
               "name": "Envenenado"
             }
-          }
+          },
+          "description": "<p><em>Tirada de Salvación de Constitución:</em> CD igual a tu CD de salvación de conjuros, cualquier criatura (excepto tú) que empiece su turno dentro de una Emanación de 1,5 m (5 pies) que se origine en el espíritu. <em>Fallo:</em> la criatura tendrá el estado de &amp;Reference[Poisoned apply=false] hasta el principio de su siguiente turno.</p>"
         },
         "Incorporeal Passage": {
-          "name": "Paso Incorpóreo"
+          "name": "Paso Incorpóreo",
+          "description": "<p>El espíritu puede atravesar otras criaturas y objetos como si fueran &amp;Reference[difficultterrain]. Si termina su turno dentro de un objeto, es desplazado al espacio sin ocupar más cercano y sufre [[/damage 1d10 type=force]] de daño por cada 1,5 m (5 pies) recorridos.</p>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -4359,7 +4495,8 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Deathly Touch": {
           "name": "Toque Mortal",
@@ -4367,10 +4504,12 @@
             "Frightened": {
               "name": "Asustado"
             }
-          }
+          },
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d8 + 3 + el nivel del conjuro de daño Necrótico, y el objetivo tendrá el estado de &amp;Reference[frightened apply=false] hasta el final de su siguiente turno.</p>"
         },
         "Grave Bolt": {
-          "name": "Saeta Sepulcral"
+          "name": "Saeta Sepulcral",
+          "description": "<p><em>Tirada de Ataque a Distancia:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 45 m (150 pies). <em>Acierto:</em> 2d4 + 3 + el nivel del conjuro de daño Necrótico.</p>"
         },
         "Rotting Claw": {
           "name": "Garra Putrefacta",
@@ -4378,7 +4517,8 @@
             "Paralyzed": {
               "name": "Paralizado"
             }
-          }
+          },
+          "description": "<p><em>(Solo Pútrido)</em></p><p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d6 + 3 + el nivel del conjuro de daño Cortante. Si el objetivo tiene el estado de &amp;Reference[poisoned apply=false], tendrá el estado de &amp;Reference[paralyzed apply=false] hasta el final de su siguiente turno.</p>"
         }
       }
     },
@@ -4737,7 +4877,8 @@
       "tokenName": "Espíritu Elemental del Agua",
       "items": {
         "Amorphous Form": {
-          "name": "Forma Amorfa"
+          "name": "Forma Amorfa",
+          "description": "<p>El espíritu puede atravesar un espacio tan estrecho como 2,5 cm (1 pulgada) de ancho sin que se considere Terreno Difícil.</p>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -4745,10 +4886,12 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques de [[/item Slam]] igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Slam": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d10 + 4 + el nivel del conjuro de daño Frío.</p>"
         }
       }
     },
@@ -4969,7 +5112,8 @@
       "tokenName": "Espíritu Yugoloth",
       "items": {
         "Magic Resistance": {
-          "name": "Resistencia a la Magia"
+          "name": "Resistencia a la Magia",
+          "description": "<p> El espíritu tiene Ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -4977,7 +5121,8 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El espíritu realiza una cantidad de ataques igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Claws": {
           "name": "Garras",
@@ -4985,7 +5130,8 @@
             "Attack and Teleport": {
               "name": "Atacar y Teletransportar"
             }
-          }
+          },
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d8 + 3 + el nivel del conjuro de daño Cortante. Justo después de que el ataque acierte o falle, el espíritu puede teletransportarse hasta 9 m (30 pies) a un espacio sin ocupar que pueda ver.</p>"
         }
       }
     },

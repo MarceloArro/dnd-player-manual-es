@@ -447,7 +447,8 @@
             "Powerful Build": {
               "name": "Constitución Poderosa"
             }
-          }
+          },
+          "description": "<p>Tienes Ventaja en cualquier tirada de salvación que hagas para terminar el estado &amp;Reference[Grappled]. Además, cuentas como una categoría de tamaño mayor a efectos de determinar tu capacidad de carga.</p><section id=\"secret-7qaTRjmRe4PD41G3\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que mejora automáticamente tu tamaño al determinar la capacidad de carga.</p></section>"
         },
         "Storm's Thunder": {
           "name": "Trueno de la Tormenta",
@@ -793,7 +794,8 @@
           "description": "<p><strong>Puntuaciones de Característica:</strong> Fuerza, Destreza, Carisma</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftMusician000]{Músico}</p><p><strong>Competencia en Habilidades:</strong> Acrobacias e Interpretación</p><p><strong>Competencia con Herramientas:</strong> <em>Elige un tipo de</em> <em>Instrumento Musical</em></p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) Instrumento Musical (el mismo que arriba), 2 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Disfraces}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMirror00000]{Espejo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Ropas de Viaje}, 11 PO, o (B) 50 PO</p><p>Pasaste buena parte de tu juventud recorriendo ferias y festivales en los que desempeñabas tareas diversas para músicos y acróbatas a cambio de que formaran. Quizá aprendiste a caminar sobre la cuerda floja, a tocar el laúd con un estilo particular o a recitar poesía con una dicción impecable. Aún hoy, te creces con los aplausos y anhelas subir al escenario.</p>"
         },
         "Musician": {
-          "name": "Músico"
+          "name": "Músico",
+          "description": "<p>Obtienes los siguientes beneficios.</p><p><strong>Entrenamiento con Instrumentos.</strong> Obtienes competencia con tres Instrumentos Musicales de tu elección.</p><p><strong>Canción Alentadora.</strong> Cuando terminas un Descanso Corto o Largo, puedes tocar una canción con un Instrumento Musical con el que tengas competencia y dar Inspiración Heroica a los aliados que oigan la canción. El número de aliados a los que puedes afectar de esta forma es igual a tu Bonificador por Competencia (actualmente [[lookup @prof]]).</p><section class=\"secret\" id=\"secret-uSBAbHsB2VxFaHwm\"><p><strong>Nota Foundry</strong></p><p>Este rasgo no otorga las competencias automáticamente. Puedes activar el modo \"Editar\" en la pestaña <strong>\"</strong>Detalles\" de tu hoja y hacer clic en el engranaje junto a \"Herramientas\", debajo de tus Habilidades, para elegir tus competencias con Instrumentos Musicales.</p></section>"
         },
         "Bard": {
           "name": "Bardo",
@@ -1154,7 +1156,8 @@
       "tokenName": "Clérigo",
       "items": {
         "Guard": {
-          "name": "Guardia"
+          "name": "Guardia",
+          "description": "<p><strong>Puntuaciones de Característica:</strong> Fuerza, Inteligencia, Sabiduría</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftAlert000000]{Alerta}</p><p><strong>Competencias en Habilidades:</strong> Atletismo y Percepción</p><p><strong>Competencia con Herramientas:</strong> <em>Elige un tipo de</em> <em>Juego de Mesa</em></p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepSpear00000]{Lanza}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepLightCross]{Ballesta Ligera}, 20 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbamoBolts00000]{Virotes}, Juego de Mesa (el mismo que arriba), @UUID[Compendium.dnd5e.items.Item.wjHtGnd05SPdURqE]{Linterna con Capucha}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagManacles000]{Esposas}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagQuiver00000]{Aljaba}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesTrav]{Ropa de Viajero}, 12 PO; o (B) 50 PO</p><p>Te duelen los pies cuando recuerdas las incontables horas que pasaste en tu puesto en la torre. Te entrenaron para mantener un ojo mirando fuera de la muralla, vigilando a los merodeadores que barrían el bosque cercano, y el otro ojo mirando dentro de la muralla, buscando carteristas y alborotadores.</p>"
         },
         "Alert": {
           "name": "Alerta",
@@ -1882,7 +1885,8 @@
           "description": "<p>Obtienes una @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]{dote de Origen} de tu elección. Se recomienda @UUID[Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000]{Habilidoso}.</p><section id=\"secret-9E1yve6WHohyBage\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Se te pedirá tu elección cuando selecciones esta Especie.</p></section>"
         },
         "Skilled": {
-          "name": "Habilidoso"
+          "name": "Habilidoso",
+          "description": "<p>Obtienes competencia en cualquier combinación de tres habilidades o herramientas de tu elección. Opciones: Historia, Perspicacia, Supervivencia</p><p><strong>Repetible.</strong> Puedes tomar esta dote más de una vez.</p><section class=\"secret\" id=\"secret-36vceWBnGWiMkySr\"><p><strong>Nota Foundry</strong></p><p>Este rasgo no otorga las competencias automáticamente. Puedes activar el modo \"Editar\" en la pestaña <strong>\"</strong>Detalles\" de tu hoja y hacer clic en los círculos junto a las Habilidades para elegir tus competencias.</p></section>"
         },
         "Sickle": {
           "name": "Hoz"
@@ -1893,7 +1897,8 @@
             "Seal or Pry Open": {
               "name": "Sellar o Forzar"
             }
-          }
+          },
+          "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Fuerza</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Sellar o forzar la apertura de una puerta o un contenedor (CD 20)</p><p class=\"phb-meta\"><strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepClub000000]{Garrote}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreatclub0]{Garrote Grande}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBarrel00000]{Barril}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagChest000000]{Cofre}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLadder00000]{Escalera}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000]{Vara}, @UUID[Compendium.dnd5e.items.Item.srTRzwTfWKO5opOo]{Ariete Portátil}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Antorcha}</p>"
         },
         "Healer’s Kit": {
           "name": "Botiquín",
@@ -3131,7 +3136,8 @@
             "Discern Previous Contents": {
               "name": "Discernir Contenidos Anteriores"
             }
-          }
+          },
+          "description": "<p class=\"phb-meta\"><strong>Característica:</strong> Inteligencia</p><p class=\"phb-meta\"><strong>Utilizar:</strong> Discernir qué contuvo un objeto de cristal en las últimas 24 horas (CD 15)</p><p class=\"phb-meta\"><strong>Fabricar:</strong> @UUID[Compendium.dnd5e.items.Item.HZp69hhyNZUUCipF]{Botella de Cristal}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagMagnifyingG]{Lupa}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagSpyglass100]{Catalejo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagVial0000000]{Vial}</p>"
         },
         "Shortbow": {
           "name": "Arco Corto"
@@ -3354,7 +3360,8 @@
           "description": "<p><strong>Puntuaciones de Característica:</strong> Fuerza, Inteligencia, Carisma</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000]{Habilidoso}</p><p><strong>Competencia en Habilidades:</strong> Historia y Persuasión</p><p><strong>Competencia con Herramientas:</strong> <em>Elige un tipo de</em> <em>Juego</em> (@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbEquipment0000.JournalEntryPage.GCvg8n7Q7ltSPRxe#gaming-set-(varies)]{consulta capítulo 6})</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) Juego(el mismo de arriba), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPerfume0000]{Perfume}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]{Ropas de Calidad}, 29 PO, o (B) 50 PO</p><p>Te criaste en un castillo entre riqueza, poder y privilegios. Tu familia de aristócratas menores procuró que recibieras la mejor educación, parte de la cual apreciabas y parte de la cual aborrecías. El tiempo que pasaste en el castillo, en especial las muchas horas que dedicabas a observar a tu familia en la corte, también te aportó amplios conocimientos sobre el liderazgo.</p>"
         },
         "Skilled": {
-          "name": "Habilidoso"
+          "name": "Habilidoso",
+          "description": "<p>Obtienes competencia en cualquier combinación de tres habilidades o herramientas de tu elección.</p><p><strong>Repetible.</strong> Puedes tomar esta dote más de una vez.</p><section class=\"secret\" id=\"secret-36vceWBnGWiMkySr\"><p><strong>Nota Foundry</strong></p><p>Este rasgo no otorga las competencias automáticamente. Puedes activar el modo \"Editar\" en la pestaña <strong>\"</strong>Detalles\" de tu hoja y hacer clic en los círculos junto a las Habilidades para elegir tus competencias.</p></section>"
         },
         "Orc": {
           "name": "Orco",
@@ -3796,7 +3803,8 @@
             "Ensnared": {
               "name": "Enredado"
             }
-          }
+          },
+          "description": "<p>Cuando aciertas al objetivo, aparecen enredaderas que lo aferran y este hace una tirada de salvación de Fuerza. Una criatura Grande o mayor tiene Ventaja en esta salvación. Si falla la salvación, el objetivo tiene el estado <span style=\"font-family:Signika, sans-serif\">&amp;Reference[restrained apply=false] </span>hasta que el conjuro termine. Si tiene éxito, las enredaderas se marchitan y el conjuro termina.</p><p>Mientras esté Apresado, el objetivo sufre [[/damage (@item.level)d6 type=piercing]] perforante al principio de cada uno de sus turnos. El objetivo o una criatura a su alcance puede emplear una acción para hacer una [[/check ability=str skill=ath dc=@attributes.spell.dc]] contra la CD de salvación de tus conjuros. Si tiene éxito, el conjuro termina.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño aumenta en 1d6 por cada nivel del espacio de conjuro por encima de 1.</p>"
         },
         "Sprig of mistletoe": {
           "name": "Rama de Muérdago",
@@ -4249,7 +4257,8 @@
           "description": "<p><strong>Puntuaciones de Característica:</strong> Destreza, Constitución, Carisma</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000]{Habilidoso}</p><p><strong>Competencia en Habilidades:</strong> Engaño y Juego de Manos</p><p><strong>Competencia con Herramientas:</strong> Útiles para Falsificar</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulForgeryKit]{Útiles para falsificar}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCostume0000]{Disfraz}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]{Ropas de Caalidad}, 15 PO, o (B) 50 PO</p><p>En cuanto tuviste edad suficiente para pedir una pinta, no tardaste en apropiarte de un taburete en cada taberna a 10 km a la redonda del lugar en que naciste. Mientras recori bares. y antros, aprendiste a aprovecharte de los desafortunados que se dejaban colar alguna mentira reconfortante o dos, como una poción falsa o un árbol genealógico falsificado.</p>"
         },
         "Skilled": {
-          "name": "Habilidoso"
+          "name": "Habilidoso",
+          "description": "<p>Obtienes competencia en cualquier combinación de tres habilidades o herramientas de tu elección.</p><p><strong>Repetible.</strong> Puedes tomar esta dote más de una vez.</p><section class=\"secret\" id=\"secret-36vceWBnGWiMkySr\"><p><strong>Nota Foundry</strong></p><p>Este rasgo no otorga las competencias automáticamente. Puedes activar el modo \"Editar\" en la pestaña <strong>\"</strong>Detalles\" de tu hoja y hacer clic en los círculos junto a las Habilidades para elegir tus competencias.</p></section>"
         },
         "Elf, Drow": {
           "name": "Elfo, Drow",
@@ -4722,7 +4731,8 @@
       "tokenName": "Brujo",
       "items": {
         "Acolyte": {
-          "name": "Acólito"
+          "name": "Acólito",
+          "description": "<p><strong>Puntuaciones de Característica:</strong> Inteligencia, Sabiduría, Carisma</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftMagicInitia]{Iniciado en la Magia} (Clérigo)</p><p><strong>Competencias en Habilidades:</strong> Perspicacia y Religión</p><p><strong>Competencia con Herramientas:</strong> Útiles de Caligrafía</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph]{Útiles de Caligrafía}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBook0000000]{Libro} (oraciones), Símbolo Sagrado, @UUID[Compendium.dnd5e.items.Item.9c0CHs90xqPw81iP]{Pergamino} (10 hojas), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRobe0000000]{Túnica}, 8 PO; o (B) 50 PO</p><p>Te consagraste al servicio en un templo, ya fuera enclavado en una ciudad o aislado en una arboleda sagrada. Allí oficiabas ritos en honor a un dios o un panteón. Serviste a las órdenes de un sacerdote y estudiaste religión. Gracias a la instrucción de tu sacerdote y a tu propia devoción, también aprendiste a canalizar una pizca de poder divino al servicio de tu lugar de culto y de las personas que rezaban allí.</p>"
         },
         "Magic Initiate": {
           "name": "Iniciado en la Magia",
@@ -4875,7 +4885,8 @@
           "description": "<p>Impones una maldición a una criatura que puedas ver dentro del alcance. Hasta que el conjuro termine, infliges [[/damage 1d6 type=necrotic]] adicional al objetivo siempre que le aciertes con una tirada de ataque. Además, elige una característica cuando lances el conjuro. El objetivo tendrá desventaja en las pruebas que haga con la característica elegida.</p><p>Silos Puntos de Golpe del objetivo se reducen a O antes de que el conjuro termine, puedes usar una acción adicional en un turno posterior para maldecir a una nueva criatura.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Tu concen- tración puede durar más si usas un espacio de conjuro de nivel 2 (hasta 4 horas), 3 o 4 (hasta 8 horas) o 5 o más (24 horas).</p>"
         },
         "Book of Shadows": {
-          "name": "Libro de las Sombras"
+          "name": "Libro de las Sombras",
+          "description": "<p>Un grimorio que te ha entregado tu patrón. Elige tres trucos de la lista de conjuros de cualquier clase (los tres no tienen por qué ser de la misma lista). Mientras el libro esté en tu poder, puedes lanzar esos trucos a voluntad. No cuentan para tu número de trucos conocidos. Aunque no aparezcan en la lista de conjuros de brujo, para ti son conjuros de brujo. </p>\n<p>Si pierdes tu Libro de las Sombras, puedes realizar una ceremonia de 1 hora para recibir un reemplazo de tu patrón. Esta ceremonia puede realizarse durante un descanso corto o largo, y destruye el libro anterior. El libro se convierte en cenizas cuando mueres.</p>"
         },
         "Comprehend Languages": {
           "name": "Entender Idiomas",
@@ -5087,7 +5098,8 @@
           "description": "<p><strong>Puntuaciones de Característica:</strong> Destreza, Inteligencia, Sabiduría</p><p><strong>Dote:</strong> @UUID[Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000]{Habilidoso}</p><p><strong>Competencia en Habilidades:</strong> Investigación y Percepción</p><p><strong>Competencia con Herramientas:</strong> Suministros de Calígrafo</p><p><strong>Equipo:</strong> <em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulCalligraph]{Suministros de Calígrafo}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite} (3 frascos), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLamp0000000]{Lámpara}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagParchment00]{Pergamino} (12 hojas), @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagClothesFine]{Ropa de Calidad} y 23 PO, o (B) 50 PO</p><p>Pasaste tus años de formación en un scriptorium, un monasterio consagrado a la conservación del conocimiento o un organismo gubernamental, donde aprendiste a escribir con letra clara y producir textos exquisitos. Quizá transcribías documentos of o copiabas tomos de literatura. Podrías tener ciert: cualidades para la poesía, la narrativa o la investiga: Sobre todo, prestas mucha atención a los detalles, lo que te impide cometer errores en los documentos que copias y creas.</p>"
         },
         "Skilled": {
-          "name": "Habilidoso"
+          "name": "Habilidoso",
+          "description": "<p>Obtienes competencia en cualquier combinación de tres habilidades o herramientas de tu elección.</p><p><strong>Repetible.</strong> Puedes tomar esta dote más de una vez.</p><section class=\"secret\" id=\"secret-36vceWBnGWiMkySr\"><p><strong>Nota Foundry</strong></p><p>Este rasgo no otorga las competencias automáticamente. Puedes activar el modo \"Editar\" en la pestaña <strong>\"</strong>Detalles\" de tu hoja y hacer clic en los círculos junto a las Habilidades para elegir tus competencias.</p></section>"
         },
         "Calligrapher’s Supplies": {
           "name": "Útiles de Caligrafía",

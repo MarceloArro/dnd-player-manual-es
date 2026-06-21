@@ -434,7 +434,8 @@
       "tokenName": "Bárbaro",
       "items": {
         "Goliath": {
-          "name": "Goliat"
+          "name": "Goliat",
+          "description": "<p>Los goliats son descendientes lejanos de los gigantes y sobrepasan en altura a la mayoría de especies. Todos los goliats disfrutan de los favores de los primeros gigantes, lo que se manifiesta a modo de diversos beneficios sobrenaturales, como la capacidad de crecer de forma súbita y alcanzar temporalmente la altura de sus parientes gigantescos.</p><p>Los goliats tienen características físicas que evocan a sus antepasados. Por ejemplo, algunos goliats se parecen a los gigantes de piedra, mientras que otros tienen semejanza con los gigantes de fuego. Independientemente de sus parentescos, los goliats se han forjado su propio camino en el multiverso, sin la carga de los conflictos internos que han asolado a los gigantes durante siglos, y aspiran a encumbrarse por encima de sus antepasados.</p><h3 data-anchor=\"goliath-traits\">Atributos de los Goliat</h3><p><strong>Tipo de Criatura: </strong>Humanoide<p><strong>Tamaño: </strong>Mediano (de 2,1 a 2,4 metros de altura)</p><p><strong>Velocidad:</strong> 35 pies (10,5 m)</p><p>Como Goliat, tienes estos Atributos especiales.</p><p><strong>Constitución Poderosa.</strong> Tienes Ventaja en cualquier prueba de característica que hagas para poner fin al estado de &amp;Reference[Grappled]. Además, al determinar tu capacidad de carga, cuentas como si tuvieras un tamaño una categoría superior.</p><p><strong>Forma Grande.</strong>  A partir del nivel 5 de personaje, puedes cambiar de tamaño a Grande como Acción Adicional si estás en un lugar lo bastante espacioso. Esta transformación dura 10 minutos o hasta que le pongas fin (no requiere Acción). Durante ese tiempo, tendrás Ventaja en las pruebas de Fuerza y tu velocidad aumentará en 10ft (3 m). Cuando uses este atributo, no podrás volver a hacerlo hasta que finalices un Descanso Largo.</p><p><strong>Linaje Gigante.</strong> Desciendes de los gigantes. Elige uno de los siguientes beneficios sobrenaturales que te concede tu linaje; podrás usar el beneficio elegido una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un Descanso Largo:</p><p><strong>Abrasión del Fuego (Gigante de Fuego).</strong> Cuando aciertes a un objetivo con una tirada de ataque y le causes daño, también puedes causarle 1d10 de daño de Fuego</p><p><strong>Caída de las Colinas (Gigante de las Colinas). </strong>Cuando golpeas a una criatura Grande o más pequeña con una tirada de ataque y le infliges daño, puedes hacer que ese objetivo caiga &amp;Reference[Prone].</p><p><strong>Excursión de las Nubes (Gigante de las Nubes). </strong>Como Acción Adicional, te teletransportas mágicamente hasta 30 ft (9m) a un espacio sin ocupar que puedas ver.</p><p><strong>Frío de la Escarcha (Gigante de Escarcha).</strong> Cuando aciertes a un objetivo con una tirada de ataque y le causes daño, también puedes causarle 1d6 de daño de Frío y reducir su velocidad en 10ft (3 m) hasta el principio de tu siguiente turno.</p><p><strong>Resistencia de la Piedra (Gigante de Piedra).</strong>  Cuando recibas daño, puedes usar una reacción para tirar 1d12. Suma tu modificador por Constitución al resultado y reduce el daño en ese total.</p><p><strong>Trueno de la Tormenta (Gigante de las Tormentas).</strong> Cuando una criatura que esté a 60ft (18 m) o menos de ti te cause daño, puedes usar una reacción para infligirle 1d8 de daño de trueno.</p>"
         },
         "Giant Ancestry": {
           "name": "Linaje Gigante",
@@ -580,7 +581,8 @@
             "Rage": {
               "name": "Furia"
             }
-          }
+          },
+          "description": "<p>Puedes imbuirte de un poder primario llamado Furia, una fuerza que te otorga un vigor y una resistencia extraordinarios. Puedes entrar en ella con una Acción Adicional si no llevas armadura Pesada.</p><p>Puedes entrar en tu Furia la cantidad de veces que se indica para tu nivel de Bárbaro en la columna Furias de la tabla de Rasgos del Bárbaro (actualmente [[lookup @scale.barbarian.rages]]). Recuperas un uso gastado cuando terminas un Descanso Corto, y recuperas todos los usos gastados cuando terminas un Descanso Largo.</p><p>Mientras está activa, tu Furia sigue las reglas siguientes.</p><p><strong>Resistencia al Daño.</strong> Tienes Resistencia al daño Contundente, Perforante y Cortante.</p><p><strong>Daño por Furia.</strong> Cuando haces un ataque usando Fuerza —con un arma o con un Ataque sin Armas— e infliges daño al objetivo, obtienes una bonificación al daño que aumenta conforme ganas niveles de Bárbaro, como se indica en la columna Daño por Furia de la tabla de Rasgos del Bárbaro.</p><p><strong>Ventaja en Fuerza.</strong> Tienes Ventaja en las pruebas de Fuerza y en las tiradas de salvación de Fuerza.</p><p><strong>Sin Concentración ni Conjuros.</strong> No puedes mantener la Concentración ni lanzar conjuros.</p><p><strong>Duración.</strong> La Furia dura hasta el final de tu siguiente turno y termina antes si te pones armadura Pesada o tienes el estado de Incapacitado. Si tu Furia sigue activa en tu siguiente turno, puedes prolongarla un asalto más haciendo una de las siguientes cosas:</p><ul><li>Hacer una tirada de ataque contra un enemigo.</li><li>Obligar a un enemigo a hacer una tirada de salvación.</li><li>Usar una Acción Adicional para prolongar tu Furia.</li></ul><p>Cada vez que se prolonga la Furia, dura hasta el final de tu siguiente turno. Puedes mantener una Furia hasta 10 minutos.</p><section class=\"secret\" id=\"secret-o72MSFMdhSQC7kYa\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que automatiza la Resistencia, el daño adicional y la Ventaja en pruebas y salvaciones de Fuerza. Este rasgo también recarga automáticamente tus usos de Furia en un Descanso Corto y Largo.</p></section>"
         },
         "Unarmored Defense": {
           "name": "Defensa sin Armadura",
@@ -1191,7 +1193,8 @@
             "Stonecunning": {
               "name": "Afinidad con la Piedra"
             }
-          }
+          },
+          "description": "<p>Como acción adicional, ganas la &amp;Reference[Tremorsense] con un alcance de 18 m durante 10 minutos. Debes encontrarte sobre una superficie de piedra o en contacto con una superficie de piedra para usar esta capacidad. La piedra puede ser natural o labrada.</p><p>Puedes usar esta acción adicional una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un Descanso Largo.</p><section class=\"secret\" id=\"secret-7BtT80083mC3Eavg\"><p><strong>Nota Foundry</strong></p><p>Este Atributo incluye los usos limitados y un Efecto Activo que te otorga 60 pies de &amp;Reference[Tremorsense]. No actualiza automáticamente la configuración de visión de tu Token.</p></section>"
         },
         "Spear": {
           "name": "Lanza"
@@ -2314,7 +2317,8 @@
             "Stonecunning": {
               "name": "Afinidad con la Piedra"
             }
-          }
+          },
+          "description": "<p>Como acción adicional, ganas la &amp;Reference[Tremorsense] con un alcance de 18 m durante 10 minutos. Debes encontrarte sobre una superficie de piedra o en contacto con una superficie de piedra para usar esta capacidad. La piedra puede ser natural o labrada.</p><p>Puedes usar esta acción adicional una cantidad de veces igual a tu bonificador por competencia y recuperas todos los usos tras finalizar un Descanso Largo.</p><section class=\"secret\" id=\"secret-7BtT80083mC3Eavg\"><p><strong>Nota Foundry</strong></p><p>Este Atributo incluye los usos limitados y un Efecto Activo que te otorga 60 pies de &amp;Reference[Tremorsense]. No actualiza automáticamente la configuración de visión de tu Token.</p></section>"
         },
         "Spear": {
           "name": "Lanza"
@@ -3093,7 +3097,8 @@
             "Breath Weapon (Line)": {
               "name": "Arma de Aliento (Línea)"
             }
-          }
+          },
+          "description": "<p> Cuando lleves a cabo la Acción de Atacar en tu turno, puedes sustituir uno de tus ataques por una exhalación de energía mágica en un cono de 15ft (4,5 m) o en una línea de 30ft (9 m) de largo y 5ft (1,5 m) de ancho (elige la forma cada vez).</p><p> Todas las criaturas situadas en esa zona deberán hacer una tirada de Salvación de Destreza (CD 8 más tu Modificador por Constitución y tu Bonificador por Competencia). Si la Fallan, sufrirán 1d10 de daño del tipo determinado por tu atributo Linaje Dracónico. Si la Superan, recibirán la mitad de ese daño.</p><p>El daño aumenta en 1d10 cuando alcanzas los niveles 5 (2d10), 11 (3d10) y 17 (4d10) de personaje. Puedes utilizar este ataque de aliento una cantidad de veces igual a tu Bonificador por Competencia y recuperas todos los usos tras finalizar un Descanso Largo.</p><section class=\"secret\" id=\"secret-iuhfGfxgl8GeYWBf\"><p><strong>Nota Foundry</strong></p><p>Las actividades <strong>Ataque de Aliento (Cono)</strong> y <strong>Ataque de Aliento (Línea)</strong> están ambas configuradas para su tipo de plantilla e incluyen cada tipo de daño. El daño también escala a medida que subes de nivel.</p><p>Puedes seleccionar el tipo de daño en el cuadro de diálogo de la tirada de daño. Recordará tu elección de daño posteriormente. Puedes editar las actividades para eliminar los otros tipos de daño si deseas omitir esto.</p><p>Los siguientes objetos complementarios incluyen el tipo de daño y la resistencia al daño asociados con tu Linaje Dracónico: @UUID[Compendium.dnd-players-handbook.origins.Item.brwAcidBreathWea]{Ataque de Aliento Ácido}, @UUID[Compendium.dnd-players-handbook.origins.Item.brwColdBreathWea]{Ataque de Aliento Frío}, @UUID[Compendium.dnd-players-handbook.origins.Item.brwFireBreathWea]{Ataque de Aliento Fuego}, @UUID[Compendium.dnd-players-handbook.origins.Item.brwLightningBrea]{Ataque de Aliento Relámpago}, @UUID[Compendium.dnd-players-handbook.origins.Item.brwPoisonBreathW]{Ataque de Aliento Veneno}</p></section>"
         },
         "Mage Hand": {
           "name": "Mano de Mago",
@@ -4866,7 +4871,8 @@
             "Hexed Charisma": {
               "name": "Carisma Maldecido"
             }
-          }
+          },
+          "description": "<p>Impones una maldición a una criatura que puedas ver dentro del alcance. Hasta que el conjuro termine, infliges [[/damage 1d6 type=necrotic]] adicional al objetivo siempre que le aciertes con una tirada de ataque. Además, elige una característica cuando lances el conjuro. El objetivo tendrá desventaja en las pruebas que haga con la característica elegida.</p><p>Silos Puntos de Golpe del objetivo se reducen a O antes de que el conjuro termine, puedes usar una acción adicional en un turno posterior para maldecir a una nueva criatura.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Tu concen- tración puede durar más si usas un espacio de conjuro de nivel 2 (hasta 4 horas), 3 o 4 (hasta 8 horas) o 5 o más (24 horas).</p>"
         },
         "Book of Shadows": {
           "name": "Libro de las Sombras"

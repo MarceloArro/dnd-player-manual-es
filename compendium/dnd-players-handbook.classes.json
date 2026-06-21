@@ -169,7 +169,7 @@
     },
     "Ambush": {
       "name": "Emboscada",
-      "description": "<p>Cuando hagas una prueba de Destreza (Sigilo) o una tirada de iniciativa, puedes gastar un Dado de Superioridad y añadir la tirada del dado al resultado, siempre y cuando no tengas el estado de Incapacitado.</p>",
+      "description": "<p>Cuando hagas una prueba de Destreza (Sigilo) o una tirada de iniciativa, puedes gastar un Dado de Supremacía y añadir la tirada del dado al resultado, siempre y cuando no tengas el estado de Incapacitado.</p>",
       "activities": {
         "utility": {
           "roll": "Bonificación"
@@ -435,7 +435,7 @@
     },
     "Bait and Switch": {
       "name": "Señuelo e Intercambio",
-      "description": "<p>Cuando estés a 1,5m (5ft) o menos de una criatura en tu turno, puedes gastar un Dado de Superioridad e intercambiar posiciones con esa criatura, siempre y cuando gastes al menos 1,5m (5ft) de movimiento y la criatura esté dispuesta y no tenga el estado de Incapacitado. Este movimiento no provoca ataques de oportunidad.</p><p>Tira el Dado de Superioridad. Hasta el principio de tu siguiente turno, la criatura elegida o tú (tú eliges) obtenéis un bonificador a la CA igual al número obtenido.</p><section class=\"secret\" id=\"secret-L87MUloqB18hV04V\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye Efectos Activos para cada posible valor del Dado de Superioridad, que otorga el bonificador de CA indicado.</p></section>",
+      "description": "<p>Cuando estés a 1,5m (5ft) o menos de una criatura en tu turno, puedes gastar un Dado de Supremacía e intercambiar posiciones con esa criatura, siempre y cuando gastes al menos 1,5m (5ft) de movimiento y la criatura esté dispuesta y no tenga el estado de Incapacitado. Este movimiento no provoca ataques de oportunidad.</p><p>Tira el Dado de Supremacía. Hasta el principio de tu siguiente turno, la criatura elegida o tú (tú eliges) obtenéis un bonificador a la CA igual al número obtenido.</p><section class=\"secret\" id=\"secret-L87MUloqB18hV04V\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye Efectos Activos para cada posible valor del Dado de Supremacía, que otorga el bonificador de CA indicado.</p></section>",
       "activities": {
         "Switch Places": {
           "name": "Cambiar Posiciones",
@@ -1142,11 +1142,11 @@
     },
     "Combat Superiority": {
       "name": "Supremacía en Combate",
-      "description": "<p>Tu experiencia en el campo de batalla ha refinado tus técnicas de combate. Aprendes maniobras que se alimentan de dados especiales llamados Dados de Superioridad.</p><p><strong>Maniobras.</strong> Aprendes tres maniobras de tu elección de la sección @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFighter000000.JournalEntryPage.Ihf36UhEn91djWwP]{Opciones de Maniobra}. Muchas maniobras mejoran un ataque de alguna manera. Solo puedes usar una maniobra por ataque.</p><p>Aprendes dos maniobras adicionales de tu elección cuando alcanzas los niveles 7, 10 y 15 de guerrero. Cada vez que aprendas nuevas maniobras, también puedes reemplazar una maniobra que conozcas por otra diferente.</p><p><strong>Dados de Superioridad.</strong> Tienes cuatro Dados de Superioridad, que son d8. Un Dado de Superioridad se gasta cuando lo usas. Recuperas todos los Dados de Superioridad gastados cuando finalizas un Descanso Corto o Largo.</p><p>Ganas un Dado de Superioridad adicional cuando alcanzas los niveles 7 de guerrero (cinco dados en total) y 15 (seis dados en total).</p><p><strong>Tiradas de Salvación.</strong> Si una maniobra requiere una tirada de salvación, la CD es igual a 8 más tu modificador de Fuerza o Destreza (a tu elección) y bonificador de competencia.</p><section class=\"secret\" id=\"secret-kj8nFLNQjP133Uoq\"><p><strong>Nota Foundry</strong></p><p>Tus Dados de Superioridad aumentarán automáticamente en cantidad y tipo de dado a medida que subas de nivel.</p></section>"
+      "description": "<p>Tu experiencia en el campo de batalla ha refinado tus técnicas de combate. Aprendes maniobras que se alimentan de dados especiales llamados Dados de Supremacía.</p><p><strong>Maniobras.</strong> Aprendes tres maniobras de tu elección de la sección @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFighter000000.JournalEntryPage.Ihf36UhEn91djWwP]{Opciones de Maniobra}. Muchas maniobras mejoran un ataque de alguna manera. Solo puedes usar una maniobra por ataque.</p><p>Aprendes dos maniobras adicionales de tu elección cuando alcanzas los niveles 7, 10 y 15 de guerrero. Cada vez que aprendas nuevas maniobras, también puedes reemplazar una maniobra que conozcas por otra diferente.</p><p><strong>Dados de Supremacía.</strong> Tienes cuatro Dados de Supremacía, que son d8. Un Dado de Supremacía se gasta cuando lo usas. Recuperas todos los Dados de Supremacía gastados cuando finalizas un Descanso Corto o Largo.</p><p>Ganas un Dado de Supremacía adicional cuando alcanzas los niveles 7 de guerrero (cinco dados en total) y 15 (seis dados en total).</p><p><strong>Tiradas de Salvación.</strong> Si una maniobra requiere una tirada de salvación, la CD es igual a 8 más tu modificador de Fuerza o Destreza (a tu elección) y bonificador de competencia.</p><section class=\"secret\" id=\"secret-kj8nFLNQjP133Uoq\"><p><strong>Nota Foundry</strong></p><p>Tus Dados de Supremacía aumentarán automáticamente en cantidad y tipo de dado a medida que subas de nivel.</p></section>"
     },
     "Commander's Strike": {
       "name": "Golpe del Comandante",
-      "description": "<p>Cuando realizas la acción de Ataque en tu turno, puedes reemplazar uno de tus ataques para dirigir a uno de tus compañeros a atacar. Cuando lo haces, elige una criatura dispuesta que pueda verte u oírte y gasta un Dado de Superioridad. Esa criatura puede usar inmediatamente su reacción para hacer un ataque con un arma o un Ataque sin Armas, añadiendo el Dado de Superioridad a la tirada de daño del ataque si acierta.</p><section id=\"secret-0pos4GeVt9Zi2UX5\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Lactividad <strong>Ataque Dirigido</strong> te permite seleccionar el tipo de daño que debe causar en el diálogo de tirada.</p></section>",
+      "description": "<p>Cuando realizas la acción de Ataque en tu turno, puedes reemplazar uno de tus ataques para dirigir a uno de tus compañeros a atacar. Cuando lo haces, elige una criatura dispuesta que pueda verte u oírte y gasta un Dado de Supremacía. Esa criatura puede usar inmediatamente su reacción para hacer un ataque con un arma o un Ataque sin Armas, añadiendo el Dado de Supremacía a la tirada de daño del ataque si acierta.</p><section id=\"secret-0pos4GeVt9Zi2UX5\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Lactividad <strong>Ataque Dirigido</strong> te permite seleccionar el tipo de daño que debe causar en el diálogo de tirada.</p></section>",
       "activities": {
         "Directed Attack": {
           "name": "Ataque Dirigido",
@@ -1156,7 +1156,7 @@
     },
     "Commanding Presence": {
       "name": "Presencia Dominante",
-      "description": "<p>Cuando realizas una prueba de Carisma (Intimidación, Interpretación o Persuasión), puedes gastar un Dado de Superioridad y añadir ese dado a la tirada.</p>",
+      "description": "<p>Cuando realizas una prueba de Carisma (Intimidación, Interpretación o Persuasión), puedes gastar un Dado de Supremacía y añadir ese dado a la tirada.</p>",
       "activities": {
         "utility": {
           "roll": "Bono",
@@ -1372,7 +1372,7 @@
     },
     "Deflect Energy": {
       "name": "Desviar Energía",
-      "description": "<p>Puedes usar tu reacción cuando eres golpeado por un ataque que causa daño de Ácido, Frío, Fuego, Relámpago o Trueno para reducir el daño que recibes. El daño se reduce en 1d10 más tu modificador por Destreza.</p><p>Si reduces el daño a 0 y el ataque era un ataque a distancia, puedes redirigir el daño como parte de la misma reacción si tienes un Punto de Foco para gastar. Haces un ataque a distancia usando tu Arma Marcial dedicaa contra un objetivo a 18 metros de ti que puedas ver. Este ataque tiene el mismo alcance que el ataque detenido, y usa el ataque original y el tipo de daño, infligiendo daño igual al daño original reducido.</p><section id=\"secret-pLvObJ6oZuOHzMcM\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que reduce automáticamente el daño cuando se aplica.</p></section>",
+      "description": "<p>Puedes usar tu reacción cuando eres golpeado por un ataque que causa daño de Ácido, Frío, Fuego, Relámpago o Trueno para reducir el daño que recibes. El daño se reduce en 1d10 más tu modificador por Destreza.</p><p>Si reduces el daño a 0 y el ataque era un ataque a distancia, puedes redirigir el daño como parte de la misma reacción si tienes un Punto de Concentración para gastar. Haces un ataque a distancia usando tu Arma Marcial dedicaa contra un objetivo a 18 metros de ti que puedas ver. Este ataque tiene el mismo alcance que el ataque detenido, y usa el ataque original y el tipo de daño, infligiendo daño igual al daño original reducido.</p><section id=\"secret-pLvObJ6oZuOHzMcM\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que reduce automáticamente el daño cuando se aplica.</p></section>",
       "activities": {
         "Reduce": {
           "name": "Reducir",
@@ -1435,7 +1435,7 @@
     },
     "Disarming Attack": {
       "name": "Ataque Desarmante",
-      "description": "<p>Cuando golpees a una criatura con un ataque con arma, puedes gastar un Dado de Superioridad para intentar desarmar al objetivo, forzándolo a soltar un objeto de tu elección que esté sosteniendo. Añades el Dado de Superioridad a la tirada de daño del ataque, y el objetivo debe hacer una tirada de salvación de Fuerza. En un fallo, suelta el objeto que elijas. El objeto cae a sus pies.</p><section class=\"secret\" id=\"secret-OIeqhDE1w3MxjygU\"><p><strong>Nota Foundry</strong></p><p>Este rasgo automáticamente usa el mayor entre tu Fuerza/Destreza por la salvación.</p><p>The Daño included en la salvación allows Tú/Usted a select el/la type de daño it debería deal en el/la roll dialog. It remember tu choice going porwards.</p></section>",
+      "description": "<p>Cuando golpees a una criatura con un ataque con arma, puedes gastar un Dado de Supremacía para intentar desarmar al objetivo, forzándolo a soltar un objeto de tu elección que esté sosteniendo. Añades el Dado de Supremacía a la tirada de daño del ataque, y el objetivo debe hacer una tirada de salvación de Fuerza. En un fallo, suelta el objeto que elijas. El objeto cae a sus pies.</p><section class=\"secret\" id=\"secret-OIeqhDE1w3MxjygU\"><p><strong>Nota Foundry</strong></p><p>Este rasgo automáticamente usa el mayor entre tu Fuerza/Destreza por la salvación.</p><p>The Daño included en la salvación allows Tú/Usted a select el/la type de daño it debería deal en el/la roll dialog. It remember tu choice going porwards.</p></section>",
       "activities": {
         "save": {
           "condition": "When you hit a creature with an attack roll"
@@ -1467,7 +1467,7 @@
     },
     "Distracting Strike": {
       "name": "Golpe Perturbador",
-      "description": "<p>Cuando golpees a una criatura con un ataque con arma, puedes gastar un Dado de Superioridad para distraer a la criatura, dando a tus aliados una apertura. Añades el Dado de Superioridad a la tirada de daño del ataque. La próxima tirada de ataque contra el objetivo por un atacante distinto a ti tiene ventaja si el ataque se hace antes del inicio de tu próximo turno.</p><section class=\"secret\" id=\"secret-IbvdKkHFBNOThkil\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que puede usarsepara rastrear el objetivo distraído pero no automatiza la Ventaja.</p><p>La actividad <strong>Daño</strong> te permite seleccionar el tipo de daño que debe infligir en el diálogo de tirada.</p></section>",
+      "description": "<p>Cuando golpees a una criatura con un ataque con arma, puedes gastar un Dado de Supremacía para distraer a la criatura, dando a tus aliados una apertura. Añades el Dado de Supremacía a la tirada de daño del ataque. La próxima tirada de ataque contra el objetivo por un atacante distinto a ti tiene ventaja si el ataque se hace antes del inicio de tu próximo turno.</p><section class=\"secret\" id=\"secret-IbvdKkHFBNOThkil\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que puede usarsepara rastrear el objetivo distraído pero no automatiza la Ventaja.</p><p>La actividad <strong>Daño</strong> te permite seleccionar el tipo de daño que debe infligir en el diálogo de tirada.</p></section>",
       "effects": {
         "Distracted": {
           "name": "Distraído"
@@ -1829,7 +1829,7 @@
     },
     "Elemental Burst": {
       "name": "Estallido Elemental",
-      "description": "<p>Como acción mágica, puedes gastar 2 Puntos de Foco para causar energía elemental que salga de ti en un radio de 6 metros. Elige un tipo de daño: Ácido, Frío, Fuego, Relámpago o Trueno. Cada criatura de tu elección en el área debe hacer una tirada de salvación de Destreza contra tu CD de conjuros de monje. En una salvación fallida, una criatura recibe daño del tipo elegido igual a tres tiradas de tu Dado de Artes Marciales. En una salvación exitosa, recibe la mitad del daño.</p><p>Antes de tirar el daño, puedes gastar 1 Punto de Foco adicional para aumentar el daño en un tirón adicional de tu Dado de Artes Marciales.</p><section id=\"secret-ibRDHOMdegAOpfmU\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>el daño type puedes be selected en el/la roll dialog.</p></section>",
+      "description": "<p>Como acción mágica, puedes gastar 2 Puntos de Concentración para causar energía elemental que salga de ti en un radio de 6 metros. Elige un tipo de daño: Ácido, Frío, Fuego, Relámpago o Trueno. Cada criatura de tu elección en el área debe hacer una tirada de salvación de Destreza contra tu CD de conjuros de monje. En una salvación fallida, una criatura recibe daño del tipo elegido igual a tres tiradas de tu Dado de Artes Marciales. En una salvación exitosa, recibe la mitad del daño.</p><p>Antes de tirar el daño, puedes gastar 1 Punto de Concentración adicional para aumentar el daño en un tirón adicional de tu Dado de Artes Marciales.</p><section id=\"secret-ibRDHOMdegAOpfmU\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>el daño type puedes be selected en el/la roll dialog.</p></section>",
       "activities": {
         "Burst": {
           "name": "Ráfaga"
@@ -1943,7 +1943,7 @@
     },
     "Evasive Footwork": {
       "name": "Juego de Pies Evasivo",
-      "description": "<p>Cuando te mueves, puedes gastar un Dado de Superioridad, tirarlo, y añadir el número obtenido a tu CA hasta que dejes de moverte.</p>",
+      "description": "<p>Cuando te mueves, puedes gastar un Dado de Supremacía, tirarlo, y añadir el número obtenido a tu CA hasta que dejes de moverte.</p>",
       "activities": {
         "Evade": {
           "name": "Evadir",
@@ -2054,7 +2054,7 @@
     },
     "Feinting Attack": {
       "name": "Ataque con Finta",
-      "description": "<p>Puedes gastar un Dado de Superioridad y usar una acción adicional en tu turno para fingir, eligiendo una criatura a 1,5 metros de ti como tu objetivo. Tienes ventaja en tu próxima tirada de ataque contra esa criatura este turno. Si ese ataque acierta, añade el Dado de Superioridad a la tirada de daño del ataque.</p><section class=\"secret\" id=\"secret-SPgOlwvOGiFCmygG\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo por tracking al objetivo but it does not automate el/la Ventaja.</p><p>The <strong>Daño</strong> activity allows Tú/Usted a select el/la type de daño it debería deal en el/la roll dialog.</p></section>",
+      "description": "<p>Puedes gastar un Dado de Supremacía y usar una acción adicional en tu turno para fingir, eligiendo una criatura a 1,5 metros de ti como tu objetivo. Tienes ventaja en tu próxima tirada de ataque contra esa criatura este turno. Si ese ataque acierta, añade el Dado de Supremacía a la tirada de daño del ataque.</p><section class=\"secret\" id=\"secret-SPgOlwvOGiFCmygG\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo por tracking al objetivo but it does not automate el/la Ventaja.</p><p>The <strong>Daño</strong> activity allows Tú/Usted a select el/la type de daño it debería deal en el/la roll dialog.</p></section>",
       "effects": {
         "Feinted": {
           "name": "Fintado"
@@ -2230,7 +2230,7 @@
     },
     "Flurry of Healing and Harm": {
       "name": "Ráfaga de Curación y Daño",
-      "description": "<p>Puedes ahora mezclar los dos usos de tu Mano de Curación y Mano de Daño, usando cualquiera de ellos con el mismo Punto de Foco.</p><p>Por ejemplo, cuando uses Ráfaga de Golpes, puedes reemplazar uno de los ataques desarmados con un uso de tu Mano de Curación y reemplazar el otro con un uso de tu Mano de Daño.</p><p>Como otro ejemplo, cuando uses Mano de Curación en una criatura, puedes también usar Mano de Daño en otra criatura a 1,5 metros de la primera.</p><section id=\"secret-FnxdUfwVso4SoAFQ\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo puedes be used por tracking tu available uses.</p></section>"
+      "description": "<p>Puedes ahora mezclar los dos usos de tu Mano de Curación y Mano de Daño, usando cualquiera de ellos con el mismo Punto de Concentración.</p><p>Por ejemplo, cuando uses Ráfaga de Golpes, puedes reemplazar uno de los ataques desarmados con un uso de tu Mano de Curación y reemplazar el otro con un uso de tu Mano de Daño.</p><p>Como otro ejemplo, cuando uses Mano de Curación en una criatura, puedes también usar Mano de Daño en otra criatura a 1,5 metros de la primera.</p><section id=\"secret-FnxdUfwVso4SoAFQ\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo puedes be used por tracking tu available uses.</p></section>"
     },
     "Foe Slayer": {
       "name": "Mataenemigos",
@@ -2346,7 +2346,7 @@
     },
     "Goading Attack": {
       "name": "Ataque Provocador",
-      "description": "<p>Cuando aciertas a una criatura con una tirada de ataque, puedes gastar un Dado de Superioridad para intentar provocar al objetivo a que te ataque. Añade el [[/damage @scale.battle-master.superiority.die]]{Dado de Superioridad} a la tirada de daño del ataque. El objetivo debe superar una tirada de salvación de Sabiduría o tendrá Desventaja en las tiradas de ataque contra objetivos que no seas tú hasta el final de tu siguiente turno.</p><section class=\"secret\" id=\"secret-BS37R5kndzjT5lCr\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye actividades para salvar contra tu <strong>Strength</strong> o <strong>Dexterity</strong>. Puedes usar la tirada de daño en línea para el daño adicional o la actividad <strong>Damage</strong>.</p><p>La actividad <strong>Damage</strong> te permite seleccionar el tipo de daño que debe infligir en el diálogo de tirada.</p></section>",
+      "description": "<p>Cuando aciertas a una criatura con una tirada de ataque, puedes gastar un Dado de Supremacía para intentar provocar al objetivo a que te ataque. Añade el [[/damage @scale.battle-master.superiority.die]]{Dado de Supremacía} a la tirada de daño del ataque. El objetivo debe superar una tirada de salvación de Sabiduría o tendrá Desventaja en las tiradas de ataque contra objetivos que no seas tú hasta el final de tu siguiente turno.</p><section class=\"secret\" id=\"secret-BS37R5kndzjT5lCr\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye actividades para salvar contra tu <strong>Strength</strong> o <strong>Dexterity</strong>. Puedes usar la tirada de daño en línea para el daño adicional o la actividad <strong>Damage</strong>.</p><p>La actividad <strong>Damage</strong> te permite seleccionar el tipo de daño que debe infligir en el diálogo de tirada.</p></section>",
       "activities": {
         "save": {
           "condition": "When you hit a creature with an attack roll"
@@ -2393,7 +2393,7 @@
     },
     "Guarded Mind": {
       "name": "Mente Protegida",
-      "description": "<p>Tienes Resistencia al daño psíquico. Además, si comienzas tu turno Hechizado o Asustado, puedes gastar 1 Punto de Foco (sin acción requerida) para terminar cada uno de esos efectos sobre ti.</p><section class=\"secret\" id=\"secret-Pl2CSPC7oFuZEjKb\"><p><strong>Nota Foundry</strong></p><p>The Psychic Resistance is otorgado as Tú/Usted level up.</p><p>The <strong>End Effects</strong> activity puede usarse a consume a uso de tu Psionic Energy Die. It does not automáticamente end el efectos though.</p></section>",
+      "description": "<p>Tienes Resistencia al daño psíquico. Además, si comienzas tu turno Hechizado o Asustado, puedes gastar 1 Punto de Concentración (sin acción requerida) para terminar cada uno de esos efectos sobre ti.</p><section class=\"secret\" id=\"secret-Pl2CSPC7oFuZEjKb\"><p><strong>Nota Foundry</strong></p><p>The Psychic Resistance is otorgado as Tú/Usted level up.</p><p>The <strong>End Effects</strong> activity puede usarse a consume a uso de tu Psionic Energy Die. It does not automáticamente end el efectos though.</p></section>",
       "activities": {
         "End Effects": {
           "name": "Finalizar Efectos"
@@ -2425,7 +2425,7 @@
     },
     "Hand of Healing": {
       "name": "Mano Sanadora",
-      "description": "<p>Como acción mágica, puedes gastar 1 Punto de Foco para tocar a una criatura y restaurar una cantidad de Puntos de Golpe igual a un tirón de tu Dado de Artes Marciales + tu modificador por Sabiduría.</p><p>Cuando uses tu Ataque Furtivo, puedes reemplazar ese daño con un uso de esta característica sin gastar un Punto de Foco para la curación.</p><section id=\"secret-LN6wqVwidwz8lQxo\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>For el/la free uso cuando replacing an Unarmed Strike uncheck el/la Consume Item Use prompt.</p></section>",
+      "description": "<p>Como acción mágica, puedes gastar 1 Punto de Concentración para tocar a una criatura y restaurar una cantidad de Puntos de Golpe igual a un tirón de tu Dado de Artes Marciales + tu modificador por Sabiduría.</p><p>Cuando uses tu Ataque Furtivo, puedes reemplazar ese daño con un uso de esta característica sin gastar un Punto de Concentración para la curación.</p><section id=\"secret-LN6wqVwidwz8lQxo\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>For el/la free uso cuando replacing an Unarmed Strike uncheck el/la Consume Item Use prompt.</p></section>",
       "activities": {
         "Healing Hand": {
           "name": "Mano Sanadora"
@@ -2434,7 +2434,7 @@
     },
     "Hand of Ultimate Mercy": {
       "name": "Mano de la Misericordia Suprema",
-      "description": "<p>Tu dominio de la energía vital te permite devolver a los muertos a la vida. Como acción, tocas el cadáver de una criatura que haya muerto durante las últimas 24 horas, gastando 5 Puntos de Foco. La criatura luego regresa a la vida, recuperando un número de Puntos de Golpe igual a 4d10 + tu modificador por Sabiduría. Si la criatura murió con alguna de las siguientes condiciones, revive con las condiciones terminadas: Cegado, Ensordecido, Paralizado, Envenenado y Aturdido.</p><p>Una vez que uses este rasgo, no puedes hacerlo de nuevo hasta que finalices un Descanso Largo.</p><section id=\"secret-qP8GEBd6nXKTiRMj\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye a single use por Descanso Largo y a healing roll.</p></section>"
+      "description": "<p>Tu dominio de la energía vital te permite devolver a los muertos a la vida. Como acción, tocas el cadáver de una criatura que haya muerto durante las últimas 24 horas, gastando 5 Puntos de Concentración. La criatura luego regresa a la vida, recuperando un número de Puntos de Golpe igual a 4d10 + tu modificador por Sabiduría. Si la criatura murió con alguna de las siguientes condiciones, revive con las condiciones terminadas: Cegado, Ensordecido, Paralizado, Envenenado y Aturdido.</p><p>Una vez que uses este rasgo, no puedes hacerlo de nuevo hasta que finalices un Descanso Largo.</p><section id=\"secret-qP8GEBd6nXKTiRMj\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye a single use por Descanso Largo y a healing roll.</p></section>"
     },
     "Healing Light": {
       "name": "Luz Sanadora",
@@ -2611,8 +2611,8 @@
       }
     },
     "Improved Combat Superiority": {
-      "name": "Superioridad en Combate Mejorada",
-      "description": "<p>Tu Dado de Superioridad se convierte en un d10.</p>"
+      "name": "Supremacía en Combate Mejorada",
+      "description": "<p>Tu Dado de Supremacía se convierte en un d10.</p>"
     },
     "Improved Critical": {
       "name": "Crítico Mejorado",
@@ -2833,7 +2833,7 @@
           "name": "Discernir Fortalezas y Debilidades"
         },
         "Recharge with Superiority Die": {
-          "name": "Recargar con Dado de Superioridad"
+          "name": "Recargar con Dado de Supremacía"
         }
       }
     },
@@ -2944,7 +2944,7 @@
     },
     "Lunging Attack": {
       "name": "Ataque con Estocada",
-      "description": "<p>Cuando hagas un ataque de arma cuerpo a cuerpo en tu turno, puedes gastar un Dado de Superioridad para aumentar tu alcance para ese ataque en 1,5 metros. Si golpeas, añades el Dado de Superioridad a la tirada de daño del ataque.</p><section id=\"secret-khNyinLybLxVPkDd\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>The <strong>Daño</strong> activity allows Tú/Usted a select el/la type de daño it debería deal en el/la roll dialog.</p></section>"
+      "description": "<p>Cuando hagas un ataque de arma cuerpo a cuerpo en tu turno, puedes gastar un Dado de Supremacía para aumentar tu alcance para ese ataque en 1,5 metros. Si golpeas, añades el Dado de Supremacía a la tirada de daño del ataque.</p><section id=\"secret-khNyinLybLxVPkDd\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>The <strong>Daño</strong> activity allows Tú/Usted a select el/la type de daño it debería deal en el/la roll dialog.</p></section>"
     },
     "Mage Hand Legerdemain": {
       "name": "Juego de Manos con Mano de Mago",
@@ -2973,7 +2973,7 @@
     },
     "Maneuvering Attack": {
       "name": "Ataque con Maniobra",
-      "description": "<p>Cuando golpees a una criatura con un ataque con arma, puedes gastar un Dado de Superioridad para maniobrar a uno de tus camaradas a una posición más ventajosa. Añades el Dado de Superioridad a la tirada de daño del ataque, y eliges una criatura amistosa que pueda verte u oírte. Esa criatura puede usar su reacción para moverse hasta la mitad de su velocidad sin provocar ataques de oportunidad del objetivo de tu ataque.</p>",
+      "description": "<p>Cuando golpees a una criatura con un ataque con arma, puedes gastar un Dado de Supremacía para maniobrar a uno de tus camaradas a una posición más ventajosa. Añades el Dado de Supremacía a la tirada de daño del ataque, y eliges una criatura amistosa que pueda verte u oírte. Esa criatura puede usar su reacción para moverse hasta la mitad de su velocidad sin provocar ataques de oportunidad del objetivo de tu ataque.</p>",
       "activities": {
         "Maneuver": {
           "name": "Maniobra",
@@ -3046,7 +3046,7 @@
     },
     "Menacing Attack": {
       "name": "Ataque Amenazante",
-      "description": "<p>Cuando golpees a una criatura con un ataque con arma, puedes gastar un Dado de Superioridad para intentar asustar al objetivo. Añades el Dado de Superioridad a la tirada de daño del ataque, y el objetivo debe hacer una tirada de salvación de Sabiduría. En un fallo, el objetivo tiene la condición Asustado hasta el final de tu próximo turno.</p><section class=\"secret\" id=\"secret-sPNAs2sYsogCvvxn\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una <strong>Strength Save</strong> activity y a <strong>Destreza Save</strong> activity que consume a uso de tu Superiority Die.</p><p>The <strong>Daño</strong> activity allows Tú/Usted a select el/la type de daño it debería deal en el/la roll dialog.</p></section>",
+      "description": "<p>Cuando golpees a una criatura con un ataque con arma, puedes gastar un Dado de Supremacía para intentar asustar al objetivo. Añades el Dado de Supremacía a la tirada de daño del ataque, y el objetivo debe hacer una tirada de salvación de Sabiduría. En un fallo, el objetivo tiene la condición Asustado hasta el final de tu próximo turno.</p><section class=\"secret\" id=\"secret-sPNAs2sYsogCvvxn\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una <strong>Strength Save</strong> activity y a <strong>Destreza Save</strong> activity que consume a uso de tu Superiority Die.</p><p>The <strong>Daño</strong> activity allows Tú/Usted a select el/la type de daño it debería deal en el/la roll dialog.</p></section>",
       "activities": {
         "save": {
           "condition": "When you hit a creature with an attack roll"
@@ -3144,7 +3144,7 @@
     },
     "Monk's Focus": {
       "name": "Concentración del Monje",
-      "description": "<p>Tu entrenamiento marcial te permite aprovechar la energía mística llamada foco. Tu acceso a esta energía está representado por un número de puntos de foco.</p><p><strong>Puntos de Foco.</strong> Tu nivel de monje determina el número de puntos de foco que tienes, como se muestra en la columna Puntos de Foco de la tabla de Monje. Puedes gastar estos puntos para alimentar ciertos rasgos de monje. Comienzas conociendo uno de esos rasgos: Ráfaga de Golpes.</p><p>Cuando gastas un punto de foco, no está disponible hasta que finalizas un descanso corto o largo, al final del cual recuperas todos tus puntos de foco gastados.</p><p><strong>Ráfaga de Golpes.</strong> Inmediatamente después de realizar la acción de Ataque en tu turno, puedes gastar 1 punto  de foco para realizar dos ataques desarmados como acción adicional.</p><p><strong>CD de Salvación del Foco.</strong> Algunos rasgos que usan foco requieren que tu objetivo haga una tirada de salvación. La CD se calcula así:</p><p><strong>CD de Salvación del Foco</strong> = 8 + tu bonificador por competencia + tu modificador por Sabiduría</p><section class=\"secret\" id=\"secret-Kb8gEVefEUz6IHer\"><p><strong>Nota Foundry</strong></p><p>The <strong>Flurry de Blows</strong> activity is a Bonificación Action que expends a Focus Point y incluye el/la Ataque Roll y Daño por an Unarmored Strike usando tu Martial Arts Die que automáticamente scales as Tú/Usted level up. Sir [[/item Unarmed Strike]] is impacted por other magic items, puedes uso el/la <strong>Expend Focus Point</strong> activity y then uso tu Unarmed Strike as usual.</p><p>The <strong>Patient Defense</strong> Bonificación Action actividad incluye un Efecto Activo por tracking que Tú/Usted're Disengaged. El/La <strong>Patient Defense (Focus Point)</strong> activity expends a Focus Point y incluye un Efecto Activo que añade el/la Dodging status.</p><p>The <strong>Step de el/la Wind</strong> Bonificación Action activity expends 1 Focus Point y incluye un Efecto Activo por tracking que Tú/Usted're Disengaged.</p></section>",
+      "description": "<p>Tu entrenamiento marcial te permite aprovechar la energía mística llamada foco. Tu acceso a esta energía está representado por un número de puntos de foco.</p><p><strong>Puntos de Concentración.</strong> Tu nivel de monje determina el número de puntos de foco que tienes, como se muestra en la columna Puntos de Concentración de la tabla de Monje. Puedes gastar estos puntos para alimentar ciertos rasgos de monje. Comienzas conociendo uno de esos rasgos: Ráfaga de Golpes.</p><p>Cuando gastas un punto de foco, no está disponible hasta que finalizas un descanso corto o largo, al final del cual recuperas todos tus puntos de foco gastados.</p><p><strong>Ráfaga de Golpes.</strong> Inmediatamente después de realizar la acción de Ataque en tu turno, puedes gastar 1 punto  de foco para realizar dos ataques desarmados como acción adicional.</p><p><strong>CD de Salvación del Foco.</strong> Algunos rasgos que usan foco requieren que tu objetivo haga una tirada de salvación. La CD se calcula así:</p><p><strong>CD de Salvación del Foco</strong> = 8 + tu bonificador por competencia + tu modificador por Sabiduría</p><section class=\"secret\" id=\"secret-Kb8gEVefEUz6IHer\"><p><strong>Nota Foundry</strong></p><p>The <strong>Flurry de Blows</strong> activity is a Bonificación Action que expends a Focus Point y incluye el/la Ataque Roll y Daño por an Unarmored Strike usando tu Martial Arts Die que automáticamente scales as Tú/Usted level up. Sir [[/item Unarmed Strike]] is impacted por other magic items, puedes uso el/la <strong>Expend Focus Point</strong> activity y then uso tu Unarmed Strike as usual.</p><p>The <strong>Patient Defense</strong> Bonificación Action actividad incluye un Efecto Activo por tracking que Tú/Usted're Disengaged. El/La <strong>Patient Defense (Focus Point)</strong> activity expends a Focus Point y incluye un Efecto Activo que añade el/la Dodging status.</p><p>The <strong>Step de el/la Wind</strong> Bonificación Action activity expends 1 Focus Point y incluye un Efecto Activo por tracking que Tú/Usted're Disengaged.</p></section>",
       "activities": {
         "Flurry of Blows": {
           "name": "Ráfaga de Golpes"
@@ -3159,7 +3159,7 @@
           "name": "Paso del Viento"
         },
         "Expend Focus Point": {
-          "name": "Gastar Punto de Foco"
+          "name": "Gastar Punto de Concentración"
         }
       },
       "effects": {
@@ -3507,7 +3507,7 @@
     },
     "Parry": {
       "name": "Parada",
-      "description": "<p>Cuando otra criatura te cause daño con un ataque cuerpo a cuerpo, puedes usar tu reacción y gastar un Dado de Superioridad para reducir el daño por la cantidad que obtengas al tirar tu Dado de Superioridad + tu modificador por Destreza.</p><section class=\"secret\" id=\"secret-0wY3O9dAMQDKj066\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una Healing Reaction activity que puede usarse a retroactively recover el/la received damage.</p></section>",
+      "description": "<p>Cuando otra criatura te cause daño con un ataque cuerpo a cuerpo, puedes usar tu reacción y gastar un Dado de Supremacía para reducir el daño por la cantidad que obtengas al tirar tu Dado de Supremacía + tu modificador por Destreza.</p><section class=\"secret\" id=\"secret-0wY3O9dAMQDKj066\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una Healing Reaction activity que puede usarse a retroactively recover el/la received damage.</p></section>",
       "activities": {
         "heal": {
           "condition": "When another creature damages you with a melee attack roll"
@@ -3605,7 +3605,7 @@
     },
     "Physician's Touch": {
       "name": "Toque del Médico",
-      "description": "<p>Puedes administrar cuidados médicos para ayudar a un aliado herido a recuperarse de enfermedades maliciosas y aflicciones debilitantes. Cuando uses tu Mano de Curación en una criatura, también puedes terminarafects en la criatura que le causen las condiciones Cegado y Envenenado.</p><p>También puedes gastar 1 Punto de Foco para curar enfermedades. Cuando lo hagas, terminas una enfermedad que afecte a la criatura.</p><section id=\"secret-0OzKGSx4PSkIO5se\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Puedes uso el/la <strong>Hand de Harm</strong> y <strong>Hand de Healing</strong> activities en Este rasgo going porward. <strong>Hand de Harm</strong> incluye un Efecto Activo que aplicar el/la Poisoned status.</p></section>",
+      "description": "<p>Puedes administrar cuidados médicos para ayudar a un aliado herido a recuperarse de enfermedades maliciosas y aflicciones debilitantes. Cuando uses tu Mano de Curación en una criatura, también puedes terminarafects en la criatura que le causen las condiciones Cegado y Envenenado.</p><p>También puedes gastar 1 Punto de Concentración para curar enfermedades. Cuando lo hagas, terminas una enfermedad que afecte a la criatura.</p><section id=\"secret-0OzKGSx4PSkIO5se\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Puedes uso el/la <strong>Hand de Harm</strong> y <strong>Hand de Healing</strong> activities en Este rasgo going porward. <strong>Hand de Harm</strong> incluye un Efecto Activo que aplicar el/la Poisoned status.</p></section>",
       "activities": {
         "Hand of Harm": {
           "name": "Mano del Daño",
@@ -3657,7 +3657,7 @@
     },
     "Precision Attack": {
       "name": "Ataque Preciso",
-      "description": "<p>Cuando hagas un ataque con arma contra una criatura, puedes gastar un Dado de Superioridad para añadirlo a la tirada de ataque. Puedes usar este maniobra antes o después de hacer la tirada de ataque, pero antes de que se apliquen los efectos del ataque.</p>",
+      "description": "<p>Cuando hagas un ataque con arma contra una criatura, puedes gastar un Dado de Supremacía para añadirlo a la tirada de ataque. Puedes usar este maniobra antes o después de hacer la tirada de ataque, pero antes de que se apliquen los efectos del ataque.</p>",
       "activities": {
         "utility": {
           "roll": "Bonus",
@@ -3824,7 +3824,7 @@
     },
     "Pushing Attack": {
       "name": "Ataque Empujador",
-      "description": "<p>Cuando golpees a una criatura con un ataque con arma, puedes gastar un Dado de Superioridad para intentar empujar al objetivo. Añades el Dado de Superioridad a la tirada de daño del ataque, y si el objetivo es Grande o más pequeño, debe hacer una tirada de salvación de Fuerza. En un fallo, empujas al objetivo hasta 4,5 metros lejos de ti.</p><section id=\"secret-S6d1XbWlRjPp1t0t\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una <strong>Strength Save</strong> activity y a <strong>Destreza Save</strong> activity que consume a uso de tu Superiority Die.</p><p>The <strong>Daño</strong> activity allows Tú/Usted a select el/la type de daño it debería deal en el/la roll dialog.</p></section>",
+      "description": "<p>Cuando golpees a una criatura con un ataque con arma, puedes gastar un Dado de Supremacía para intentar empujar al objetivo. Añades el Dado de Supremacía a la tirada de daño del ataque, y si el objetivo es Grande o más pequeño, debe hacer una tirada de salvación de Fuerza. En un fallo, empujas al objetivo hasta 4,5 metros lejos de ti.</p><section id=\"secret-S6d1XbWlRjPp1t0t\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una <strong>Strength Save</strong> activity y a <strong>Destreza Save</strong> activity que consume a uso de tu Superiority Die.</p><p>The <strong>Daño</strong> activity allows Tú/Usted a select el/la type de daño it debería deal en el/la roll dialog.</p></section>",
       "activities": {
         "save": {
           "condition": "When you hit a creature with an attack roll"
@@ -3843,7 +3843,7 @@
     },
     "Quivering Palm": {
       "name": "Palma Temblorosa",
-      "description": "<p>A partir del nivel 17, obtienes la capacidad de configurar vibraciones letales en el cuerpo de alguien. Cuando golpees a una criatura con un ataque desarmado, puedes gastar 3 puntos de foco para comenzar estas vibraciones imperceptibles, que duran un número de días igual a tu nivel de monje. Las vibraciones son inofensivas a menos que uses tu acción para terminarlas. Para hacerlo, tú y el objetivo debéis estar en el mismo plano de existencia. Cuando uses esta acción, la criatura debe hacer una tirada de salvación de Constitución. Si falla, se reduce a 0 puntos de golpe. Si tiene éxito, recibe 10d10 de daño necrótico.</p><p>Solo puedes tener un conjunto de vibraciones activas a la vez. Puedes terminar las vibraciones inofensivamente sin usar una acción.</p><section id=\"secret-BSTexn4tHp20evAQ\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Lactividad <strong>Instilar Vibraciones</strong> gasta 4 Puntos de Foco e incluye un Efecto Activo que puede usarse para rastrear al objetivo en el que has establecido vibraciones letales.</p><p>Lactividad <strong>Terminar Vibraciones</strong> incluye las tiradas de salvación y daño.</p></section>",
+      "description": "<p>A partir del nivel 17, obtienes la capacidad de configurar vibraciones letales en el cuerpo de alguien. Cuando golpees a una criatura con un ataque desarmado, puedes gastar 3 puntos de foco para comenzar estas vibraciones imperceptibles, que duran un número de días igual a tu nivel de monje. Las vibraciones son inofensivas a menos que uses tu acción para terminarlas. Para hacerlo, tú y el objetivo debéis estar en el mismo plano de existencia. Cuando uses esta acción, la criatura debe hacer una tirada de salvación de Constitución. Si falla, se reduce a 0 puntos de golpe. Si tiene éxito, recibe 10d10 de daño necrótico.</p><p>Solo puedes tener un conjunto de vibraciones activas a la vez. Puedes terminar las vibraciones inofensivamente sin usar una acción.</p><section id=\"secret-BSTexn4tHp20evAQ\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Lactividad <strong>Instilar Vibraciones</strong> gasta 4 Puntos de Concentración e incluye un Efecto Activo que puede usarse para rastrear al objetivo en el que has establecido vibraciones letales.</p><p>Lactividad <strong>Terminar Vibraciones</strong> incluye las tiradas de salvación y daño.</p></section>",
       "activities": {
         "End Vibrations": {
           "name": "Finalizar Vibraciones",
@@ -3939,7 +3939,7 @@
     },
     "Rally": {
       "name": "Reagrupar",
-      "description": "<p>En tu turno, puedes usar una acción adicional y gastar un Dado de Superioridad para reforzar la determinación de uno de tus camaradas. Cuando lo hagas, elige una criatura amistosa que pueda verte u oírte. Esa criatura obtiene puntos de golpe temporales iguales al resultado del Dado de Superioridad + tu modificador por Carisma.</p>"
+      "description": "<p>En tu turno, puedes usar una acción adicional y gastar un Dado de Supremacía para reforzar la determinación de uno de tus camaradas. Cuando lo hagas, elige una criatura amistosa que pueda verte u oírte. Esa criatura obtiene puntos de golpe temporales iguales al resultado del Dado de Supremacía + tu modificador por Carisma.</p>"
     },
     "Ranger": {
       "name": "Explorador",
@@ -3997,7 +3997,7 @@
     },
     "Relentless": {
       "name": "Incansable",
-      "description": "<p>Una vez por turno, cuando usas una maniobra, puedes tirar [[/r 1d8]] y usar el número obtenido en lugar de gastar un Dado de Superioridad.</p>"
+      "description": "<p>Una vez por turno, cuando usas una maniobra, puedes tirar [[/r 1d8]] y usar el número obtenido en lugar de gastar un Dado de Supremacía.</p>"
     },
     "Relentless Avenger": {
       "name": "Vengador Incansable",
@@ -4126,7 +4126,7 @@
     },
     "Riposte": {
       "name": "Respuesta",
-      "description": "<p>Cuando una criatura falle un ataque cuerpo a cuerpo contra ti, puedes usar tu reacción y gastar un Dado de Superioridad para hacer un ataque de arma cuerpo a cuerpo contra la criatura. Si golpeas, añades el Dado de Superioridad a la tirada de daño del ataque.</p><section id=\"secret-aL4TzEY3Wy7mzsWY\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>The <strong>Riposte Daño</strong> reaction activity allows Tú/Usted a select el/la type de daño it debería deal en el/la roll dialog y consume a uso de tu Superiority Die.</p></section>",
+      "description": "<p>Cuando una criatura falle un ataque cuerpo a cuerpo contra ti, puedes usar tu reacción y gastar un Dado de Supremacía para hacer un ataque de arma cuerpo a cuerpo contra la criatura. Si golpeas, añades el Dado de Supremacía a la tirada de daño del ataque.</p><section id=\"secret-aL4TzEY3Wy7mzsWY\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>The <strong>Riposte Daño</strong> reaction activity allows Tú/Usted a select el/la type de daño it debería deal en el/la roll dialog y consume a uso de tu Superiority Die.</p></section>",
       "activities": {
         "Riposte Damage": {
           "name": "Daño de Estocada",
@@ -4269,7 +4269,7 @@
       "description": "<p>Has aprendido a recurrir al poder del Páramo Sombrío, obteniendo los siguientes beneficios.</p><p><strong>Oscuridad.</strong> Puedes gastar 1 Punto de Concentración para lanzar el conjuro @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Oscuridad} sin componentes de conjuro. Puedes ver dentro del área del conjuro cuando lo lanzas con este rasgo. Mientras el conjuro persiste, puedes mover su área de Oscuridad a un espacio a 18 m (60 pies) o menos de ti al principio de cada uno de tus turnos.</p><p><strong>Visión en la Oscuridad.</strong> Obtienes Visión en la Oscuridad con un alcance de 18 m (60 pies). Si ya tienes Visión en la Oscuridad, su alcance aumenta en 18 m (60 pies).</p><p><strong>Espejismos Sombríos.</strong> Conoces el conjuro Ilusión Menor. Sabiduría es tu característica de lanzamiento de conjuros para él.</p><section class=\"secret\" id=\"secret-wd4smhB7uw8Awq0x\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Expend Focus Point</strong> gasta un uso y luego puedes usar el conjuro [[/item Darkness]] que se te otorga en este nivel.</p><p>Este rasgo incluye un Efecto Activo que aumenta tu Visión en la Oscuridad.</p><p>Se te otorga el conjuro Ilusión Menor cuando alcanzas este nivel.</p></section>",
       "activities": {
         "Expend Focus Point": {
-          "name": "Gastar Punto de Foco"
+          "name": "Gastar Punto de Concentración"
         }
       },
       "effects": {
@@ -4727,7 +4727,7 @@
     },
     "Sweeping Attack": {
       "name": "Ataque Arrollador",
-      "description": "<p>Cuando golpees a una criatura con un ataque de arma cuerpo a cuerpo, puedes gastar un Dado de Superioridad para intentar dañar a otra criatura con el mismo ataque. Elige otra criatura a 1,5 metros del objetivo original y dentro de tu alcance. Si la tirada de ataque original hubiera golpeado a la segunda criatura, recibe daño igual al número que obtengas al tirar tu Dado de Superioridad. El daño es del mismo tipo causado por el ataque original.</p><section id=\"secret-p0vnnA6PRSzYVHVf\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>The <strong>Daño</strong> activity allows Tú/Usted a select el/la type de daño it debería deal en el/la roll dialog y consumes a uso de tu Superiority Die.</p></section>"
+      "description": "<p>Cuando golpees a una criatura con un ataque de arma cuerpo a cuerpo, puedes gastar un Dado de Supremacía para intentar dañar a otra criatura con el mismo ataque. Elige otra criatura a 1,5 metros del objetivo original y dentro de tu alcance. Si la tirada de ataque original hubiera golpeado a la segunda criatura, recibe daño igual al número que obtengas al tirar tu Dado de Supremacía. El daño es del mismo tipo causado por el ataque original.</p><section id=\"secret-p0vnnA6PRSzYVHVf\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>The <strong>Daño</strong> activity allows Tú/Usted a select el/la type de daño it debería deal en el/la roll dialog y consumes a uso de tu Superiority Die.</p></section>"
     },
     "Tactical Assessment": {
       "name": "Evaluación Táctica",
@@ -4741,7 +4741,7 @@
     },
     "Tactical Master": {
       "name": "Maestro Táctico",
-      "description": "<p>Como acción adicional, puedes gastar un uso de Superioridad para conceder a un aliado que puedas ver a 18 metros la capacidad de añadir un Dado de Superioridad a su próxima tirada de ataque o chequeo de habilidad.</p>",
+      "description": "<p>Como acción adicional, puedes gastar un uso de Supremacía para conceder a un aliado que puedas ver a 18 metros la capacidad de añadir un Dado de Supremacía a su próxima tirada de ataque o chequeo de habilidad.</p>",
       "effects": {
         "Tactical Master": {
           "name": "Maestro Táctico"
@@ -4959,7 +4959,7 @@
     },
     "Trip Attack": {
       "name": "Ataque con Zancadilla",
-      "description": "<p>Cuando aciertas a una criatura con una tirada de ataque usando un arma o un Ataque sin Armas, puedes gastar un Dado de Superioridad y añadir el dado a la tirada de daño del ataque. Si el objetivo es Grande o más pequeño, debe superar una tirada de salvación de Fuerza o tendrá el estado de &amp;Reference[Prone].</p><section class=\"secret\" id=\"secret-QeXYRpr665AxyLvo\"><p><strong>Nota Foundry</strong></p><p>Este rasgo usará automáticamente el mayor de tu Fuerza/Destreza para la salvación.</p><p>El daño incluido en la salvación te permite seleccionar el tipo de daño que debe infligir en el diálogo de tirada. Recordará tu elección en adelante.</p></section>",
+      "description": "<p>Cuando aciertas a una criatura con una tirada de ataque usando un arma o un Ataque sin Armas, puedes gastar un Dado de Supremacía y añadir el dado a la tirada de daño del ataque. Si el objetivo es Grande o más pequeño, debe superar una tirada de salvación de Fuerza o tendrá el estado de &amp;Reference[Prone].</p><section class=\"secret\" id=\"secret-QeXYRpr665AxyLvo\"><p><strong>Nota Foundry</strong></p><p>Este rasgo usará automáticamente el mayor de tu Fuerza/Destreza para la salvación.</p><p>El daño incluido en la salvación te permite seleccionar el tipo de daño que debe infligir en el diálogo de tirada. Recordará tu elección en adelante.</p></section>",
       "activities": {
         "save": {
           "condition": "When you hit a creature with an attack roll"
@@ -4990,8 +4990,8 @@
       "description": "<p>Puedes atacar tres veces en lugar de una cuando realizas la acción de Ataque en tu turno.</p>"
     },
     "Ultimate Combat Superiority": {
-      "name": "Superioridad en Combate Suprema",
-      "description": "<p>Tu Dado de Superioridad se convierte en un d12.</p>"
+      "name": "Supremacía en Combate Suprema",
+      "description": "<p>Tu Dado de Supremacía se convierte en un d12.</p>"
     },
     "Umbral Sight": {
       "name": "Vista Umbría",
@@ -5067,7 +5067,7 @@
     },
     "Uncanny Metabolism": {
       "name": "Metabolismo Asombroso",
-      "description": "<p>Cuando tires Iniciativa, puedes recuperar todos los Puntos de Foco gastados. Una vez que uses esta característica, no puedes hacerlo de nuevo hasta que finalices un Descanso Largo.</p><section id=\"secret-KTgTyrtJJBs1nIDS\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>usando Este rasgo restore all expended Focus Points y offers a Healing roll por restoring tu Hit Points. It incluye a single free use por Descanso Largo.</p></section>",
+      "description": "<p>Cuando tires Iniciativa, puedes recuperar todos los Puntos de Concentración gastados. Una vez que uses esta característica, no puedes hacerlo de nuevo hasta que finalices un Descanso Largo.</p><section id=\"secret-KTgTyrtJJBs1nIDS\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>usando Este rasgo restore all expended Focus Points y offers a Healing roll por restoring tu Hit Points. It incluye a single free use por Descanso Largo.</p></section>",
       "activities": {
         "Uncanny Metabolism": {
           "name": "Metabolismo Asombroso",

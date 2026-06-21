@@ -506,7 +506,8 @@
           "description": "<p>Como Acción de Utilizar, puedes Hacer un Nudo con una cuerda si superas una Prueba de Destreza (Juego de manos | [[/check slt dc=10]]) con CD 10. Para romper la cuerda, se debe superar una Prueba de Fuerza (Atletismo | [[/check ath dc=20]]) con CD 20.</p><p>Puedes Atar a una Criatura no voluntaria con la cuerda solo si tiene el estado de &Reference[Grappled], &Reference[Incapacitated], o &Reference[Restrained].</p><p> Si la criatura tiene las piernas atadas, tendrá el estado de &Reference[Restrained] hasta que se libere. Para liberarse de la cuerda, deberá superar una Prueba de Destreza (Acrobacias | [[/check acr dc=15]]) con CD 15 como acción.</p>"
         },
         "Traveler's Clothes": {
-          "name": "Ropa de Viajero"
+          "name": "Ropa de Viajero",
+          "description": "<p>Un conjunto de ropa que llevan los viajeros.</p>"
         },
         "Handaxe": {
           "name": "Hacha de Mano"
@@ -1242,7 +1243,8 @@
           "description": "<p>Como Acción de Utilizar, puedes esposar a una criatura Pequeña o Mediana no voluntaria que esté a 5 pies (1,5 m) o menos de ti que tenga el estado de &amp;Reference[Grappled], &amp;Reference[Restrained] O &amp;Reference[Incapacitated] si superas una prueba de Destreza ([[/check slt dc=13]]) con CD 13. Mientras esté esposada, la criatura tendrá desventaja en las tiradas de ataque y estará &Reference[Restrained] si las esposas están sujetas a una cadena o garfio fijados en el sitio. Para liberarse de las esposas, deberá superar una prueba de Destreza (Juego de manos | [[/check slt dc=20]]) con CD 20 como Acción. Para romperlas, deberá superar una prueba de Fuerza (Atletismo | [[/check ath dc=25]]) con CD 25 como Acción. </p><p>Cada juego de esposas viene con una llave. Sin la llave, una criatura puede usar @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{Herramientas de Ladrón} para forzar la cerradura de las esposas si supera una prueba de Destreza (Juego de manos | [[/tool thief dex 15]]) con CD 15.</p>"
         },
         "Traveler's Clothes": {
-          "name": "Ropa de Viajero"
+          "name": "Ropa de Viajero",
+          "description": "<p>Un conjunto de ropa que llevan los viajeros.</p>"
         },
         "Chain Shirt": {
           "name": "Camisa de Malla"
@@ -1865,7 +1867,8 @@
           "description": "<p>Los humanos, que están repartidos por todo el multiverso, son tan variados como numerosos y tratan de lograr todo lo posible en el tiempo que viven. Su ambición e ingenio son encomiables, respetados y temidos en muchos mundos.</p><p>Los humanos presentan aspectos tan diversos como entre la población de la Tierra y tienen muchos dioses. Los eruditos debaten el origen de la humanidad, pero se dice que una de las primeras concentraciones humanas conocidas tuvo lugar en Sigil, la ciudad toroidal situada en el centro del multiverso y el lugar en el que nació la lengua común. Desde ahí, los humanos podrían haberse dispersado por todos los rincones del multiverso y llevado consigo el cosmopolitismo de la Ciudad de las Puertas.</p><h3 data-anchor=\"human-traits\">Atributos de Humano</h3><p><strong>Tipo de Criatura: </strong>Humanoide</p><p><strong>Tamaño: </strong>Mediano (de 1,2 a 2,1 metros de altura) o Pequeño (de 60 cm a 1,2 metros de altura), elegido al seleccionar la especie</p><p><strong>Velocidad: </strong>30 pies (9 m)</p><p>Como Humano, tienes estos Atributos especiales.</p><p><strong>Habilidoso. </strong>Ganas competencia en una habilidad de tu elección.</p><p><strong>Ingenioso. </strong>Obtienes inspiración heroica tras finalizar un Descanso Largo.</p><p><strong>Versátil.</strong> Obtienes una dote de origen de tu elección (consulta el capítulo 5). Se recomienda @UUID[Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000]{Habilidoso}.</p>"
         },
         "Resourceful": {
-          "name": "Ingenioso"
+          "name": "Ingenioso",
+          "description": "<p>Obtienes Inspiración Heroica cada vez que terminas un Descanso Largo.</p>"
         },
         "Skillful": {
           "name": "Diestro",
@@ -1899,14 +1902,16 @@
           "description": "<p>Los Útiles de Sanador tienen diez usos. Como Acción de Utilizar, puedes gastar uno de ellos para Estabilizar a una criatura inconsciente que tenga 0 Puntos de Golpe sin necesidad de hacer una prueba de Sabiduría (Medicina).</p>"
         },
         "Iron Pot": {
-          "name": "Olla de Hierro"
+          "name": "Olla de Hierro",
+          "description": "<p>En una olla de hierro caben 4 litros de líquido.</p>"
         },
         "Shovel": {
           "name": "Pala",
           "description": "<p>Con 1 hora de trabajo, puedes usar una Pala para cavar un agujero cúbico de 5 pies (1,5 m) de lado en la tierra o en un material similar. </p>"
         },
         "Traveler's Clothes": {
-          "name": "Ropa de Viajero"
+          "name": "Ropa de Viajero",
+          "description": "<p>Un conjunto de ropa que llevan los viajeros.</p>"
         },
         "Leather Armor": {
           "name": "Armadura de Cuero"
@@ -2346,7 +2351,8 @@
           "description": "<p>Una aljaba puede contener hasta 20 flechas</p>"
         },
         "Traveler's Clothes": {
-          "name": "Ropa de Viajero"
+          "name": "Ropa de Viajero",
+          "description": "<p>Un conjunto de ropa que llevan los viajeros.</p>"
         },
         "Chain Mail": {
           "name": "Cota de Malla"
@@ -3150,7 +3156,8 @@
           "description": "<p>En una Tienda pueden dormir hasta dos criaturas Pequeñas o Medianas. </p>"
         },
         "Traveler's Clothes": {
-          "name": "Ropa de Viajero"
+          "name": "Ropa de Viajero",
+          "description": "<p>Un conjunto de ropa que llevan los viajeros.</p>"
         },
         "Spear": {
           "name": "Lanza"
@@ -3711,7 +3718,8 @@
           "description": "<p>Una Bolsita de cuero o tela que puede contener hasta ⅕ pies cúbicos (6 l) o 6 libras (3 kg) de equipo.</p>"
         },
         "Traveler's Clothes": {
-          "name": "Ropa de Viajero"
+          "name": "Ropa de Viajero",
+          "description": "<p>Un conjunto de ropa que llevan los viajeros.</p>"
         },
         "Playing Cards": {
           "name": "Naipes",
@@ -4724,7 +4732,8 @@
           "description": "<p><p>Un libro contiene ficción o no ficción. Si consultas un libro veraz de no ficción para saber algo sobre su materia, ganarás un bonificador de +5 a las pruebas de Inteligencia (&Reference[Arcana], &Reference[History], &Reference[Nature], or &Reference[Religion]) que hagas sobre esa materia.</p>"
         },
         "Reliquary": {
-          "name": "Relicario"
+          "name": "Relicario",
+          "description": "<p><em><strong>Requisito de Uso: </strong>Sostenido</em></p>"
         },
         "Parchment": {
           "name": "Pergamino",

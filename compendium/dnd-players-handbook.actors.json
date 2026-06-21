@@ -1,284 +1,4748 @@
 {
-	"label": "Actores",
-	"folders": {
-		"Companions": "Compañeros",
-		"Otherworldly Steeds": "Corceles Sobrenaturales",
-		"Primal Companions": "Compañeros Primigenios ",
-		"Conjurations": "Conjuraciones",
-		"Animated Objects": "Objetos Animados",
-		"Conjured Elementals": "Conjurar Elementales",
-		"Creatures": "Criaturas",
-		"Example Characters": "Ejemplos de Personajes",
-		"Summons": "Invocaciones",
-		"Aberrant Spirits": "Espíritus Aberrantes",
-		"Bestial Spirits": "Espíritus Bestiales",
-		"Celestial Spirits": "Espíritus Celestiales",
-		"Construct Spirits": "Espíritus Autómatas",
-		"Elemental Spirits": "Espíritus Elementales",
-		"Fey Spirits": "Espíritus Feéricos",
-		"Fiendish Spirits": "Espíritus Infernales",
-		"Giant Insects": "Insectos Gigantes",
-		"Summon Templates": "Plantillas de Invocaciones",
-		"Undead Spirits": "Espíritus Muertos Vivientes",
-		"Vehicles": "Vehículos"
-	},
-	"entries": {
-		"Airship": {
-			"name": "Aeronave",
-			"tokenName": "Aeronave",
-			"description": "<p><strong>Speed:</strong> 8 mph</p><p><strong>Crew:</strong> 10</p><p><strong>Passengers:</strong> 20</p><p><strong>Cargo (Tons):</strong> 1</p><p><strong>AC:</strong> 13</p><p><strong>HP:</strong> 300</p><p><strong>Damage Threshold:</strong> —</p><p><strong>Cost:</strong> 40,000 GP</p>"
-		},
-		"Beast of the Land": {
-			"name": "Bestia de Tierra Firme",
-			"tokenName": "Bestia de Tierra Firme",
-			"description": "<p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbrgrPrimalComp caption=false]</p>",
-			"items": {
-				"Primal Bond": {
-					"name": "Vínculo Primigenio",
-					"description": "<p>Suma tu bonificador por competencia a cualquier prueba de característica o tirada de salvación que realice la bestia.</p><section class=\"secret\" id=\"secret-pNoLkUZKFbyzHTbF\"><p><strong>Nota Foundry</strong></p><p>Esta bonificación se ha incluido en las Bonificaciones Globales de la bestia.</p></section>"
-				},
-				"Beast's Strike": {
-					"name": "Golpe de Bestia",
-					"description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 5 ft (1.5 m). <em>Acierto:</em> 1d8 + 2 más tu modificador por Sabiduría de daño Contundente, Cortante o Perforante (a tu elección cuando invocas a la bestia). Si la bestia recorrió al menos 6 m en línea recta hacia el objetivo antes de acertarle, este recibe 1d6 de Daño Adicional del mismo tipo y, si es una criatura Grande o más pequeña, tendrá el estado de &amp;Reference[prone].</p><section class=\"secret\" id=\"secret-EslplTbdjSBUKz5n\"><p><strong>Foundry Note</strong></p><p>The <strong>Attack</strong> and <strong>Charging Attack</strong> activities will allow you to choose the damage type in the roll dialog. You should choose one damage type and use it consistently until resummoning your companion.</p><p>The <strong>Charging Attack</strong> activity includes the additional damage.</p><p>Additionally, they have force as a damage option which should only be used once you reach level 7 and get the @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrExceptiona]{Exceptional Training} feature.</p></section>",
-					"activities": {
-						"Charge": {
-							"name": "Carga",
-							"condition": "Se movio al menos 20 ft (6 m) en línea recta hacia el objetivo"
-						}
-					},
-					"effects": {
-						"Prone": {
-							"name": "Derribado"
-						}
-					}
-				}
-			}
-		},
-		"Beast of the Sea": {
-			"name": "Bestia de los Mares",
-			"tokenName": "Bestia de los Mares",
-			"description": "<p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbrgrPrimalComp caption=false]</p>",
-			"items": {
-				"Amphibious": {
-					"name": "Anfibia",
-					"description": "<p>La bestia puede respirar tanto dentro como fuera del agua.</p>"
-				},
-				"Primal Bond": {
-					"name": "Vínculo Primigenio",
-					"description": "<p>Suma tu bonificador por competencia a cualquier prueba de característica o tirada de salvación que realice la bestia.</p><section class=\"secret\" id=\"secret-pNoLkUZKFbyzHTbF\"><p><strong>Nota Foundry</strong></p><p>Esta bonificación se ha incluido en las Bonificaciones Globales de la bestia.</p></section>"
-				},
-				"Beast's Strike": {
-					"name": "Golpe de Bestia",
-					"description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 5 ft (1.5 m). <em>Acierto:</em> 1d6 + más tu modificador por Sabiduría de daño Contundente o Perforante (a tu elección cuando invocas a la bestia) y el objetivo tendrá el estado de &amp;Reference[grappled] (CD para escapar igual a tu CD de salvación de conjuros).</p><section class=\"secret\" id=\"secret-zGW1whEmGkycnc94\"><p><strong>Nota Foundry</strong></p><p>La Actividad de <strong>Ataque</strong> te permitira elejir el tipo de daño del ataque. Debes elegir un tipo de daño y usarlo de forma constante hasta que vuelvas a invocar a tu compañero.</p><p>Además, tienen el tipo Fuerza como opción de daño, que sólo debe utilizarse una vez alcanzado el nivel 7 y conseguido @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrExceptiona]{Entrenamiento Excepcional}.</p></section>",
-					"activities": {
-						"Escape Check": {
-							"name": "Tirada para Escapar",
-							"condition": "Utilizado por la critarua agarrada para escapar"
-						}
-					},
-					"effects": {
-						"Grappled": {
-							"name": "Agarrado",
-							"description": "<p>La CD para escapar es igual a la Salvación de Conjuro del Explorador. [[/check ath acr]].</p>"
-						}
-					}
-				}
-			}
-		},
-		"Beast of the Sky": {
-			"name": "Bestia del Cielo",
-			"tokenName": "Bestia del Cielo",
-			"description": "<p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbrgrPrimalComp caption=false]</p>",
-			"items": {
-				"Flyby": {
-					"name": "Pasar Volando",
-					"description": "<p> La bestia no provoca ataques de oportunidad cuando vuela para ponerse fuera del alcance de un enemigo.</p>"
-				},
-				"Primal Bond": {
-					"name": "Vínculo Primigenio",
-					"description": "<p>Suma tu bonificador por competencia a cualquier prueba de característica o tirada de salvación que realice la bestia.</p><section class=\"secret\" id=\"secret-pNoLkUZKFbyzHTbF\"><p><strong>Nota Foundry</strong></p><p>Esta bonificación se ha incluido en las Bonificaciones Globales de la bestia.</p></section>"
-				},
-				"Beast's Strike": {
-					"name": "Golpe de Bestia",
-					"description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 5 ft (1.5 m). <em>Acierto:</em> 1d4 + 3 más tu modificador por Sabiduría de daño cortante.</p><section class=\"secret\" id=\"secret-zGW1whEmGkycnc94\"><p><strong>Nota Foundry</strong></p><p>La Actividad de <strong>Ataque</strong> te permitira elejir el tipo de daño del ataque. Debes elegir un tipo de daño y usarlo de forma constante hasta que vuelvas a invocar a tu compañero.</p><p>Además, tienen el tipo Fuerza como opción de daño, que sólo debe utilizarse una vez alcanzado el nivel 7 y conseguido @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrExceptiona]{Entrenamiento Excepcional}.</p></section>"
-				}
-			}
-		},
-		"Celestial Steed": {
-			"name": "Celestial Steed",
-			"tokenName": "Otherworldly Steed",
-			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>",
-			"items": {
-				"Life Bond": {
-					"name": "Life Bond",
-					"description": "<p> When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if you’re within 5 feet of it.</p>"
-				},
-				"Otherworldly Slam": {
-					"name": "Otherworldly Slam",
-					"description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d8 plus the spell’s level of Radiant damage.</p>"
-				},
-				"Healing Touch": {
-					"name": "Healing Touch",
-					"description": "<p> One creature within 5 feet of the steed regains a number of Hit Points equal to 2d8 plus the spell’s level.</p>"
-				}
-			}
-		},
-		"Fey Steed": {
-			"name": "Fey Steed",
-			"tokenName": "Otherworldly Steed",
-			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>",
-			"items": {
-				"Life Bond": {
-					"name": "Life Bond",
-					"description": "<p> When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if you’re within 5 feet of it.</p>"
-				},
-				"Otherworldly Slam": {
-					"name": "Otherworldly Slam",
-					"description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d8 plus the spell’s level of Psychic damage.</p>"
-				},
-				"Fey Step": {
-					"name": "Fey Step",
-					"description": "<p> The steed teleports, along with its rider, to an unoccupied space of your choice up to 60 feet away from itself.</p>",
-					"activities": {
-						"Teleport": {
-							"name": "Teleport"
-						}
-					}
-				}
-			}
-		},
-		"Fiend Steed": {
-			"name": "Fiend Steed",
-			"tokenName": "Otherworldly Steed",
-			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>",
-			"items": {
-				"Life Bond": {
-					"name": "Life Bond",
-					"description": "<p> When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if you’re within 5 feet of it.</p>"
-				},
-				"Otherworldly Slam": {
-					"name": "Otherworldly Slam",
-					"description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d8 plus the spell’s level of Necrotic damage.</p>"
-				},
-				"Fell Glare": {
-					"name": "Fell Glare",
-					"description": "<p><em>Wisdom Saving Throw:</em> DC equals your spell save DC, one creature within 60 feet the steed can see. <em>Failure:</em> The target has the &amp;Reference[frightened] condition until the end of your next turn.</p>",
-					"effects": {
-						"Frightened": {
-							"name": "Frightened"
-						}
-					}
-				}
-			}
-		},
-		"Galley": {
-			"name": "Galera",
-			"tokenName": "Galera",
-			"description": "<p><strong>Speed:</strong> 4 mph</p><p><strong>Crew:</strong> 80</p><p><strong>Passengers:</strong> —</p><p><strong>Cargo (Tons):</strong> 150</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 500</p><p><strong>Damage Threshold:</strong> 20</p><p><strong>Cost:</strong> 30,000 GP</p>"
-		},
-		"Huge Animated Object": {
-			"name": "Huge Animated Object",
-			"tokenName": "Animated Object",
-			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
-			"items": {
-				"Slam": {
-					"name": "Slam",
-					"description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> Force damage equal to 2d12 + 3 + your spellcasting ability modifier.</p>"
-				}
-			}
-		},
-		"Keelboat": {
-			"name": "Barcaza",
-			"tokenName": "Barcaza",
-			"description": "<p><strong>Speed:</strong> 1 mph</p><p><strong>Crew:</strong> 1</p><p><strong>Passengers:</strong> —</p><p><strong>Cargo (Tons):</strong> 1/2</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 100</p><p><strong>Damage Threshold:</strong> 10</p><p><strong>Cost:</strong> 3,000 GP</p>"
-		},
-		"Large Animated Object": {
-			"name": "Large Animated Object",
-			"tokenName": "Animated Object",
-			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
-			"items": {
-				"Slam": {
-					"name": "Slam",
-					"description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> Force damage equal to 2d6 + 3 + your spellcasting ability modifier.</p>"
-				}
-			}
-		},
-		"Longship": {
-			"name": "Drakkar",
-			"tokenName": "Drakkar",
-			"description": "<p><strong>Speed:</strong> 3 mph</p><p><strong>Crew:</strong> 40</p><p><strong>Passengers:</strong> 150</p><p><strong>Cargo (Tons):</strong> 10</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 300</p><p><strong>Damage Threshold:</strong> 15</p><p><strong>Cost:</strong> 10,000 GP</p>"
-		},
-		"Medium Animated Object": {
-			"name": "Medium Animated Object",
-			"tokenName": "Animated Object",
-			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
-			"items": {
-				"Slam": {
-					"name": "Slam",
-					"description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> Force damage equal to 1d4 + 3.</p>"
-				}
-			}
-		},
-		"Rowboat": {
-			"name": "Bote de Remos",
-			"tokenName": "Bote de Remos",
-			"description": "<p><strong>Speed:</strong> 1 1/2 mph</p><p><strong>Crew:</strong> 1</p><p><strong>Passengers:</strong> 3</p><p><strong>Cargo (Tons):</strong> —</p><p><strong>AC:</strong> 11</p><p><strong>HP:</strong> 50</p><p><strong>Damage Threshold:</strong> —</p><p><strong>Cost:</strong> 50 GP</p>"
-		},
-		"Sailing Ship": {
-			"name": "Velero",
-			"tokenName": "Velero",
-			"description": "<p><strong>Speed:</strong> 2 mph</p><p><strong>Crew:</strong> 20</p><p><strong>Passengers:</strong> 20</p><p><strong>Cargo (Tons):</strong> 100</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 300</p><p><strong>Damage Threshold:</strong> 15</p><p><strong>Cost:</strong> 10,000 GP</p>"
-		},
-		"Small Animated Object": {
-			"name": "Small Animated Object",
-			"tokenName": "Animated Object",
-			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
-			"items": {
-				"Slam": {
-					"name": "Slam",
-					"description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> Force damage equal to 1d4 + 3.</p>"
-				}
-			}
-		},
-		"Otherworldly Steed": {
-			"name": "Otherworldly Steed",
-			"tokenName": "Otherworldly Steed",
-			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>",
-			"items": {
-				"Life Bond": {
-					"name": "Life Bond",
-					"description": "<p> When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if you’re within 5 feet of it.</p>"
-				},
-				"Otherworldly Slam": {
-					"name": "Otherworldly Slam",
-					"description": "<p> <em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d8 plus the spell’s level of Radiant (Celestial), Psychic (Fey), or Necrotic (Fiend) damage.</p>"
-				},
-				"Fell Glare": {
-					"name": "Fell Glare",
-					"description": "<p><em>Wisdom Saving Throw:</em> DC equals your spell save DC, one creature within 60 feet the steed can see. <em>Failure:</em> The target has the &amp;Reference[frightened apply=false] condition until the end of your next turn.</p>",
-					"effects": {
-						"Frightened": {
-							"name": "Frightened"
-						}
-					}
-				}
-			}
-		},
-		"Tiny Animated Object": {
-			"name": "Tiny Animated Object",
-			"tokenName": "Animated Object",
-			"description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
-			"items": {
-				"Slam": {
-					"name": "Slam",
-					"description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> Force damage equal to 1d4 + 3.</p>"
-				}
-			}
-		},
-		"Warship": {
-			"name": "Navío de Guerra",
-			"tokenName": "Navío de Guerra ",
-			"description": "<p><strong>Speed:</strong> 2 1/2 mph</p><p><strong>Crew:</strong> 60</p><p><strong>Passengers:</strong> 60</p><p><strong>Cargo (Tons):</strong> 200</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 500</p><p><strong>Damage Threshold:</strong> 20</p><p><strong>Cost:</strong> 25,000 GP</p>"
-		}
-	}
+  "label": "Actores",
+  "folders": {
+    "Companions": "Compañeros",
+    "Otherworldly Steeds": "Corceles Sobrenaturales",
+    "Primal Companions": "Compañeros Primigenios ",
+    "Conjurations": "Conjuraciones",
+    "Animated Objects": "Objetos Animados",
+    "Conjured Elementals": "Conjurar Elementales",
+    "Creatures": "Criaturas",
+    "Example Characters": "Ejemplos de Personajes",
+    "Summons": "Invocaciones",
+    "Aberrant Spirits": "Espíritus Aberrantes",
+    "Bestial Spirits": "Espíritus Bestiales",
+    "Celestial Spirits": "Espíritus Celestiales",
+    "Construct Spirits": "Espíritus Autómatas",
+    "Elemental Spirits": "Espíritus Elementales",
+    "Fey Spirits": "Espíritus Feéricos",
+    "Fiendish Spirits": "Espíritus Infernales",
+    "Giant Insects": "Insectos Gigantes",
+    "Summon Templates": "Plantillas de Invocaciones",
+    "Undead Spirits": "Espíritus Muertos Vivientes",
+    "Vehicles": "Vehículos"
+  },
+  "entries": {
+    "Airship": {
+      "name": "Aeronave",
+      "tokenName": "Aeronave",
+      "description": "<p><strong>Speed:</strong> 8 mph</p><p><strong>Crew:</strong> 10</p><p><strong>Passengers:</strong> 20</p><p><strong>Cargo (Tons):</strong> 1</p><p><strong>AC:</strong> 13</p><p><strong>HP:</strong> 300</p><p><strong>Damage Threshold:</strong> —</p><p><strong>Cost:</strong> 40,000 GP</p>",
+      "items": {}
+    },
+    "Beast of the Land": {
+      "name": "Bestia de Tierra Firme",
+      "tokenName": "Bestia de Tierra Firme",
+      "description": "<p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbrgrPrimalComp caption=false]</p>",
+      "items": {
+        "Primal Bond": {
+          "name": "Vínculo Primigenio",
+          "description": "<p>Suma tu bonificador por competencia a cualquier prueba de característica o tirada de salvación que realice la bestia.</p><section class=\"secret\" id=\"secret-pNoLkUZKFbyzHTbF\"><p><strong>Nota Foundry</strong></p><p>Esta bonificación se ha incluido en las Bonificaciones Globales de la bestia.</p></section>"
+        },
+        "Beast's Strike": {
+          "name": "Golpe de Bestia",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 5 ft (1.5 m). <em>Acierto:</em> 1d8 + 2 más tu modificador por Sabiduría de daño Contundente, Cortante o Perforante (a tu elección cuando invocas a la bestia). Si la bestia recorrió al menos 6 m en línea recta hacia el objetivo antes de acertarle, este recibe 1d6 de Daño Adicional del mismo tipo y, si es una criatura Grande o más pequeña, tendrá el estado de &amp;Reference[prone].</p><section class=\"secret\" id=\"secret-EslplTbdjSBUKz5n\"><p><strong>Foundry Note</strong></p><p>The <strong>Attack</strong> and <strong>Charging Attack</strong> activities will allow you to choose the damage type in the roll dialog. You should choose one damage type and use it consistently until resummoning your companion.</p><p>The <strong>Charging Attack</strong> activity includes the additional damage.</p><p>Additionally, they have force as a damage option which should only be used once you reach level 7 and get the @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrExceptiona]{Exceptional Training} feature.</p></section>",
+          "activities": {
+            "Charge": {
+              "name": "Carga",
+              "condition": "Se movio al menos 20 ft (6 m) en línea recta hacia el objetivo"
+            }
+          },
+          "effects": {
+            "Prone": {
+              "name": "Derribado"
+            }
+          }
+        }
+      }
+    },
+    "Beast of the Sea": {
+      "name": "Bestia de los Mares",
+      "tokenName": "Bestia de los Mares",
+      "description": "<p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbrgrPrimalComp caption=false]</p>",
+      "items": {
+        "Amphibious": {
+          "name": "Anfibia",
+          "description": "<p>La bestia puede respirar tanto dentro como fuera del agua.</p>"
+        },
+        "Primal Bond": {
+          "name": "Vínculo Primigenio",
+          "description": "<p>Suma tu bonificador por competencia a cualquier prueba de característica o tirada de salvación que realice la bestia.</p><section class=\"secret\" id=\"secret-pNoLkUZKFbyzHTbF\"><p><strong>Nota Foundry</strong></p><p>Esta bonificación se ha incluido en las Bonificaciones Globales de la bestia.</p></section>"
+        },
+        "Beast's Strike": {
+          "name": "Golpe de Bestia",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 5 ft (1.5 m). <em>Acierto:</em> 1d6 + más tu modificador por Sabiduría de daño Contundente o Perforante (a tu elección cuando invocas a la bestia) y el objetivo tendrá el estado de &amp;Reference[grappled] (CD para escapar igual a tu CD de salvación de conjuros).</p><section class=\"secret\" id=\"secret-zGW1whEmGkycnc94\"><p><strong>Nota Foundry</strong></p><p>La Actividad de <strong>Ataque</strong> te permitira elejir el tipo de daño del ataque. Debes elegir un tipo de daño y usarlo de forma constante hasta que vuelvas a invocar a tu compañero.</p><p>Además, tienen el tipo Fuerza como opción de daño, que sólo debe utilizarse una vez alcanzado el nivel 7 y conseguido @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrExceptiona]{Entrenamiento Excepcional}.</p></section>",
+          "activities": {
+            "Escape Check": {
+              "name": "Tirada para Escapar",
+              "condition": "Utilizado por la critarua agarrada para escapar"
+            }
+          },
+          "effects": {
+            "Grappled": {
+              "name": "Agarrado",
+              "description": "<p>La CD para escapar es igual a la Salvación de Conjuro del Explorador. [[/check ath acr]].</p>"
+            }
+          }
+        }
+      }
+    },
+    "Beast of the Sky": {
+      "name": "Bestia del Cielo",
+      "tokenName": "Bestia del Cielo",
+      "description": "<p>@Embed[Compendium.dnd-players-handbook.classes.Item.phbrgrPrimalComp caption=false]</p>",
+      "items": {
+        "Flyby": {
+          "name": "Pasar Volando",
+          "description": "<p> La bestia no provoca ataques de oportunidad cuando vuela para ponerse fuera del alcance de un enemigo.</p>"
+        },
+        "Primal Bond": {
+          "name": "Vínculo Primigenio",
+          "description": "<p>Suma tu bonificador por competencia a cualquier prueba de característica o tirada de salvación que realice la bestia.</p><section class=\"secret\" id=\"secret-pNoLkUZKFbyzHTbF\"><p><strong>Nota Foundry</strong></p><p>Esta bonificación se ha incluido en las Bonificaciones Globales de la bestia.</p></section>"
+        },
+        "Beast's Strike": {
+          "name": "Golpe de Bestia",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 5 ft (1.5 m). <em>Acierto:</em> 1d4 + 3 más tu modificador por Sabiduría de daño cortante.</p><section class=\"secret\" id=\"secret-zGW1whEmGkycnc94\"><p><strong>Nota Foundry</strong></p><p>La Actividad de <strong>Ataque</strong> te permitira elejir el tipo de daño del ataque. Debes elegir un tipo de daño y usarlo de forma constante hasta que vuelvas a invocar a tu compañero.</p><p>Además, tienen el tipo Fuerza como opción de daño, que sólo debe utilizarse una vez alcanzado el nivel 7 y conseguido @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrExceptiona]{Entrenamiento Excepcional}.</p></section>"
+        }
+      }
+    },
+    "Celestial Steed": {
+      "name": "Corcel Celestial",
+      "tokenName": "Corcel Celestial",
+      "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>",
+      "items": {
+        "Life Bond": {
+          "name": "Vínculo Vital",
+          "description": "<p> When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if you’re within 5 feet of it.</p>"
+        },
+        "Otherworldly Slam": {
+          "name": "Golpe de Otro Mundo",
+          "description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d8 plus the spell’s level of Radiant damage.</p>"
+        },
+        "Healing Touch": {
+          "name": "Toque Curativo",
+          "description": "<p> One creature within 5 feet of the steed regains a number of Hit Points equal to 2d8 plus the spell’s level.</p>"
+        }
+      }
+    },
+    "Fey Steed": {
+      "name": "Corcel Feérico",
+      "tokenName": "Corcel Feérico",
+      "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>",
+      "items": {
+        "Life Bond": {
+          "name": "Vínculo Vital",
+          "description": "<p> When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if you’re within 5 feet of it.</p>"
+        },
+        "Otherworldly Slam": {
+          "name": "Golpe de Otro Mundo",
+          "description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d8 plus the spell’s level of Psychic damage.</p>"
+        },
+        "Fey Step": {
+          "name": "Paso Feérico",
+          "description": "<p> The steed teleports, along with its rider, to an unoccupied space of your choice up to 60 feet away from itself.</p>",
+          "activities": {
+            "Teleport": {
+              "name": "Teletransporte"
+            }
+          }
+        }
+      }
+    },
+    "Fiend Steed": {
+      "name": "Corcel Infernal",
+      "tokenName": "Corcel Infernal",
+      "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>",
+      "items": {
+        "Life Bond": {
+          "name": "Vínculo Vital",
+          "description": "<p> When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if you’re within 5 feet of it.</p>"
+        },
+        "Otherworldly Slam": {
+          "name": "Golpe de Otro Mundo",
+          "description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d8 plus the spell’s level of Necrotic damage.</p>"
+        },
+        "Fell Glare": {
+          "name": "Mirada Funesta",
+          "description": "<p><em>Wisdom Saving Throw:</em> DC equals your spell save DC, one creature within 60 feet the steed can see. <em>Failure:</em> The target has the &amp;Reference[frightened] condition until the end of your next turn.</p>",
+          "effects": {
+            "Frightened": {
+              "name": "Asustado"
+            }
+          }
+        }
+      }
+    },
+    "Galley": {
+      "name": "Galera",
+      "tokenName": "Galera",
+      "description": "<p><strong>Speed:</strong> 4 mph</p><p><strong>Crew:</strong> 80</p><p><strong>Passengers:</strong> —</p><p><strong>Cargo (Tons):</strong> 150</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 500</p><p><strong>Damage Threshold:</strong> 20</p><p><strong>Cost:</strong> 30,000 GP</p>",
+      "items": {}
+    },
+    "Huge Animated Object": {
+      "name": "Objeto Animado Enorme",
+      "tokenName": "Objeto Animado Enorme",
+      "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
+      "items": {
+        "Slam": {
+          "name": "Golpe",
+          "description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> Force damage equal to 2d12 + 3 + your spellcasting ability modifier.</p>"
+        }
+      }
+    },
+    "Keelboat": {
+      "name": "Barcaza",
+      "tokenName": "Barcaza",
+      "description": "<p><strong>Speed:</strong> 1 mph</p><p><strong>Crew:</strong> 1</p><p><strong>Passengers:</strong> —</p><p><strong>Cargo (Tons):</strong> 1/2</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 100</p><p><strong>Damage Threshold:</strong> 10</p><p><strong>Cost:</strong> 3,000 GP</p>",
+      "items": {}
+    },
+    "Large Animated Object": {
+      "name": "Objeto Animado Grande",
+      "tokenName": "Objeto Animado Grande",
+      "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
+      "items": {
+        "Slam": {
+          "name": "Golpe",
+          "description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> Force damage equal to 2d6 + 3 + your spellcasting ability modifier.</p>"
+        }
+      }
+    },
+    "Longship": {
+      "name": "Drakkar",
+      "tokenName": "Drakkar",
+      "description": "<p><strong>Speed:</strong> 3 mph</p><p><strong>Crew:</strong> 40</p><p><strong>Passengers:</strong> 150</p><p><strong>Cargo (Tons):</strong> 10</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 300</p><p><strong>Damage Threshold:</strong> 15</p><p><strong>Cost:</strong> 10,000 GP</p>",
+      "items": {}
+    },
+    "Medium Animated Object": {
+      "name": "Objeto Animado Mediano",
+      "tokenName": "Objeto Animado Mediano",
+      "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
+      "items": {
+        "Slam": {
+          "name": "Golpe",
+          "description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> Force damage equal to 1d4 + 3.</p>"
+        }
+      }
+    },
+    "Rowboat": {
+      "name": "Bote de Remos",
+      "tokenName": "Bote de Remos",
+      "description": "<p><strong>Speed:</strong> 1 1/2 mph</p><p><strong>Crew:</strong> 1</p><p><strong>Passengers:</strong> 3</p><p><strong>Cargo (Tons):</strong> —</p><p><strong>AC:</strong> 11</p><p><strong>HP:</strong> 50</p><p><strong>Damage Threshold:</strong> —</p><p><strong>Cost:</strong> 50 GP</p>",
+      "items": {}
+    },
+    "Sailing Ship": {
+      "name": "Velero",
+      "tokenName": "Velero",
+      "description": "<p><strong>Speed:</strong> 2 mph</p><p><strong>Crew:</strong> 20</p><p><strong>Passengers:</strong> 20</p><p><strong>Cargo (Tons):</strong> 100</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 300</p><p><strong>Damage Threshold:</strong> 15</p><p><strong>Cost:</strong> 10,000 GP</p>",
+      "items": {}
+    },
+    "Small Animated Object": {
+      "name": "Objeto Animado Pequeño",
+      "tokenName": "Objeto Animado Pequeño",
+      "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
+      "items": {
+        "Slam": {
+          "name": "Golpe",
+          "description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> Force damage equal to 1d4 + 3.</p>"
+        }
+      }
+    },
+    "Otherworldly Steed": {
+      "name": "Corcel de Otro Mundo",
+      "tokenName": "Corcel de Otro Mundo",
+      "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0 caption=false]</p>",
+      "items": {
+        "Life Bond": {
+          "name": "Vínculo Vital",
+          "description": "<p> When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if you’re within 5 feet of it.</p>"
+        },
+        "Otherworldly Slam": {
+          "name": "Golpe de Otro Mundo",
+          "description": "<p> <em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d8 plus the spell’s level of Radiant (Celestial), Psychic (Fey), or Necrotic (Fiend) damage.</p>"
+        },
+        "Fell Glare": {
+          "name": "Mirada Funesta",
+          "description": "<p><em>Wisdom Saving Throw:</em> DC equals your spell save DC, one creature within 60 feet the steed can see. <em>Failure:</em> The target has the &amp;Reference[frightened apply=false] condition until the end of your next turn.</p>",
+          "effects": {
+            "Frightened": {
+              "name": "Asustado"
+            }
+          }
+        },
+        "Fey Step": {
+          "name": "Paso Feérico",
+          "activities": {
+            "Teleport": {
+              "name": "Teletransporte"
+            }
+          }
+        },
+        "Healing Touch": {
+          "name": "Toque Curativo"
+        }
+      }
+    },
+    "Tiny Animated Object": {
+      "name": "Objeto Animado Diminuto",
+      "tokenName": "Objeto Animado Diminuto",
+      "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj caption=false]</p>",
+      "items": {
+        "Slam": {
+          "name": "Golpe",
+          "description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> Force damage equal to 1d4 + 3.</p>"
+        }
+      }
+    },
+    "Warship": {
+      "name": "Navío de Guerra",
+      "tokenName": "Navío de Guerra",
+      "description": "<p><strong>Speed:</strong> 2 1/2 mph</p><p><strong>Crew:</strong> 60</p><p><strong>Passengers:</strong> 60</p><p><strong>Cargo (Tons):</strong> 200</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 500</p><p><strong>Damage Threshold:</strong> 20</p><p><strong>Cost:</strong> 25,000 GP</p>",
+      "items": {}
+    },
+    "Aberrant Spirit": {
+      "name": "Espíritu Aberrante",
+      "tokenName": "Espíritu Aberrante",
+      "items": {
+        "Regeneration": {
+          "name": "Regeneración"
+        },
+        "Whispering Aura": {
+          "name": "Aura Susurrante"
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Claw": {
+          "name": "Garra",
+          "effects": {
+            "Blocked Healing": {
+              "name": "Curación Bloqueada"
+            }
+          }
+        },
+        "Eye Ray": {
+          "name": "Rayo Ocular"
+        },
+        "Psychic Slam": {
+          "name": "Golpe Psíquico"
+        }
+      }
+    },
+    "Air Elemental Spirit": {
+      "name": "Espíritu Elemental del Aire",
+      "tokenName": "Espíritu Elemental del Aire",
+      "items": {
+        "Amorphous Form": {
+          "name": "Forma Amorfa"
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Slam": {
+          "name": "Golpe"
+        }
+      }
+    },
+    "Ape": {
+      "name": "Simio",
+      "tokenName": "Simio",
+      "items": {
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Fist": {
+          "name": "Puño"
+        },
+        "Rock": {
+          "name": "Roca"
+        }
+      }
+    },
+    "Arcane Eye": {
+      "name": "Ojo Arcano",
+      "tokenName": "Ojo Arcano",
+      "items": {
+        "Move": {
+          "name": "Mover"
+        }
+      }
+    },
+    "Avenger Spirit": {
+      "name": "Espíritu Vengador",
+      "tokenName": "Espíritu Vengador",
+      "items": {
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Radiant Bow": {
+          "name": "Arco Radiante"
+        },
+        "Healing Touch": {
+          "name": "Toque Curativo"
+        }
+      }
+    },
+    "Badger": {
+      "name": "Tejón",
+      "tokenName": "Tejón",
+      "items": {
+        "Bite": {
+          "name": "Mordisco"
+        }
+      }
+    },
+    "Barbarian": {
+      "name": "Bárbaro",
+      "tokenName": "Bárbaro",
+      "items": {
+        "Goliath": {
+          "name": "Goliat"
+        },
+        "Giant Ancestry": {
+          "name": "Linaje Gigante"
+        },
+        "Powerful Build": {
+          "name": "Constitución Poderosa",
+          "effects": {
+            "Powerful Build": {
+              "name": "Constitución Poderosa"
+            }
+          }
+        },
+        "Storm's Thunder": {
+          "name": "Trueno de la Tormenta",
+          "activities": {
+            "Storm's Thunder": {
+              "name": "Trueno de la Tormenta"
+            }
+          }
+        },
+        "Sailor": {
+          "name": "Marinero"
+        },
+        "Tavern Brawler": {
+          "name": "Matón de Taberna",
+          "activities": {
+            "Enhanced Unarmed Strike": {
+              "name": "Ataque sin Armas Mejorado"
+            }
+          },
+          "effects": {
+            "New Effect": {
+              "name": "Efecto Nuevo"
+            }
+          }
+        },
+        "Dagger": {
+          "name": "Daga"
+        },
+        "Navigator’s Tools": {
+          "name": "Herramientas de Navegante",
+          "activities": {
+            "Plot a Course": {
+              "name": "Trzar un Rumbo"
+            },
+            "Determine Position by Stargazing": {
+              "name": "Determinar Posición por las Estrellas"
+            }
+          }
+        },
+        "Rope": {
+          "name": "Cuerda",
+          "activities": {
+            "Tie Knot": {
+              "name": "Hacer Nudo"
+            },
+            "Burst Rope": {
+              "name": "Tirada para Romper la Cuerda"
+            },
+            "Escape Check": {
+              "name": "Tirada para Liberarse de la Cadena"
+            }
+          }
+        },
+        "Traveler's Clothes": {
+          "name": "Ropa de Viajero"
+        },
+        "Handaxe": {
+          "name": "Hacha de Mano"
+        },
+        "Greataxe": {
+          "name": "Hacha a Dos Manos"
+        },
+        "Explorer’s Pack": {
+          "name": "Equipo de Explorador"
+        },
+        "Bedroll": {
+          "name": "Petate"
+        },
+        "Oil": {
+          "name": "Aceite",
+          "activities": {
+            "Throw": {
+              "name": "Lanzar"
+            },
+            "Douse Space": {
+              "name": "Empapar un Espacio"
+            }
+          }
+        },
+        "Rations": {
+          "name": "Raciones"
+        },
+        "Tinderbox": {
+          "name": "Yesquero",
+          "activities": {
+            "Light": {
+              "name": "Luz"
+            }
+          }
+        },
+        "Torch": {
+          "name": "Antorcha"
+        },
+        "Waterskin": {
+          "name": "Cantimplora"
+        },
+        "Water (Pint)": {
+          "name": "Agua (Pinta)",
+          "activities": {
+            "Consume": {
+              "name": "Consumir"
+            }
+          }
+        },
+        "Barbarian": {
+          "name": "Bárbaro"
+        },
+        "Rage": {
+          "name": "Furia",
+          "activities": {
+            "Expend Rage": {
+              "name": "Gastar Furia"
+            }
+          },
+          "effects": {
+            "Rage": {
+              "name": "Furia"
+            }
+          }
+        },
+        "Unarmored Defense": {
+          "name": "Defensa sin Armadura",
+          "effects": {
+            "Unarmored Defense": {
+              "name": "Defensa sin Armadura"
+            }
+          }
+        },
+        "Weapon Mastery": {
+          "name": "Maestría con Armas"
+        },
+        "Unarmed Strike": {
+          "name": "Ataque sin Armas",
+          "activities": {
+            "Grapple/Shove": {
+              "name": "Agarrar/Empujar"
+            }
+          },
+          "effects": {
+            "Grappled": {
+              "name": "Agarrado"
+            },
+            "Prone": {
+              "name": "Derribado"
+            }
+          }
+        }
+      }
+    },
+    "Bard": {
+      "name": "Bardo",
+      "tokenName": "Bardo",
+      "items": {
+        "Lute": {
+          "name": "Laúd",
+          "activities": {
+            "Play a Known Tune": {
+              "name": "Tocar una melodía conocida"
+            },
+            "Improvise a Song": {
+              "name": "Improsivar una canción"
+            }
+          }
+        },
+        "Costume": {
+          "name": "Disfraz"
+        },
+        "Mirror": {
+          "name": "Espejo"
+        },
+        "Perfume": {
+          "name": "Perfume"
+        },
+        "Clothes, Traveler’s": {
+          "name": "Ropa de Viajero"
+        },
+        "Leather Armor": {
+          "name": "Armadura de Cuero"
+        },
+        "Dagger": {
+          "name": "Daga"
+        },
+        "Entertainer’s Pack": {
+          "name": "Equipo de Artista"
+        },
+        "Flute": {
+          "name": "Flauta",
+          "activities": {
+            "Play a Known Tune": {
+              "name": "Tocar una melodía conocida"
+            },
+            "Improvise a Song": {
+              "name": "Improsivar una canción"
+            }
+          }
+        },
+        "Dancing Lights": {
+          "name": "Luces Danzantes",
+          "activities": {
+            "Create Lights": {
+              "name": "Crear Luces"
+            },
+            "Move Lights": {
+              "name": "Mover Luces"
+            }
+          }
+        },
+        "Vicious Mockery": {
+          "name": "Burla Dañina",
+          "effects": {
+            "Mocked": {
+              "name": "Ridiculizado"
+            }
+          }
+        },
+        "Charm Person": {
+          "name": "Hechizar Persona",
+          "effects": {
+            "Charmed": {
+              "name": "Hechizado"
+            }
+          }
+        },
+        "Color Spray": {
+          "name": "Rociada de Color",
+          "effects": {
+            "Blinded": {
+              "name": "Cegado"
+            }
+          }
+        },
+        "Dissonant Whispers": {
+          "name": "Susurros Discordantes"
+        },
+        "Healing Word": {
+          "name": "Palabra de Curación"
+        },
+        "Bedroll": {
+          "name": "Petate"
+        },
+        "Bell": {
+          "name": "Campana"
+        },
+        "Bullseye Lantern": {
+          "name": "Linterna Ojo de Buey"
+        },
+        "Oil": {
+          "name": "Aceite",
+          "activities": {
+            "Throw": {
+              "name": "Lanzar"
+            },
+            "Douse Space": {
+              "name": "Empapar un Espacio"
+            }
+          }
+        },
+        "Rations": {
+          "name": "Raciones"
+        },
+        "Tinderbox": {
+          "name": "Yesquero",
+          "activities": {
+            "Light": {
+              "name": "Luz"
+            }
+          }
+        },
+        "Waterskin": {
+          "name": "Cantimplora"
+        },
+        "Water (Pint)": {
+          "name": "Agua (Pinta)",
+          "activities": {
+            "Consume": {
+              "name": "Consumir"
+            }
+          }
+        },
+        "Tiefling, Chthonic": {
+          "name": "Tiefling, Ctónico"
+        },
+        "Thaumaturgy": {
+          "name": "Taumaturgia",
+          "activities": {
+            "Cast": {
+              "name": "Lanzar"
+            }
+          }
+        },
+        "Otherworldly Presence": {
+          "name": "Presencia Sobrenatural"
+        },
+        "Fiendish Legacy, Chthonic": {
+          "name": "Legado Infernal, Ctónico"
+        },
+        "Entertainer": {
+          "name": "Animador"
+        },
+        "Musician": {
+          "name": "Músico"
+        },
+        "Bard": {
+          "name": "Bardo"
+        },
+        "Chill Touch": {
+          "name": "Toque Helado",
+          "effects": {
+            "Blocked Healing": {
+              "name": "Curación Bloqueada"
+            }
+          }
+        },
+        "Bardic Inspiration": {
+          "name": "Inspiración del Bardo",
+          "activities": {
+            "Inspire": {
+              "name": "Inspirar"
+            }
+          },
+          "effects": {
+            "Inspired": {
+              "name": "Inspirado"
+            }
+          }
+        },
+        "Spellcasting": {
+          "name": "Lanzamiento de Conjuros"
+        }
+      }
+    },
+    "Bat": {
+      "name": "Murciélago",
+      "tokenName": "Murciélago",
+      "items": {
+        "Bite": {
+          "name": "Mordisco"
+        }
+      }
+    },
+    "Beholderkin Spirit": {
+      "name": "Espíritu Contemplador",
+      "tokenName": "Espíritu Contemplador",
+      "items": {
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Eye Ray": {
+          "name": "Rayo Ocular",
+          "activities": {
+            "Attack": {
+              "name": "Atacar"
+            }
+          }
+        }
+      }
+    },
+    "Bestial Air Spirit": {
+      "name": "Espíritu Bestial del Aire",
+      "tokenName": "Espíritu Bestial del Aire",
+      "items": {
+        "Flyby": {
+          "name": "Pasar Volando"
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Rend": {
+          "name": "Desgarrar"
+        }
+      }
+    },
+    "Bestial Land Spirit": {
+      "name": "Espíritu Bestial de Tierra",
+      "tokenName": "Espíritu Bestial de Tierra",
+      "items": {
+        "Pack Tactics": {
+          "name": "Tácticas de Manada"
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Rend": {
+          "name": "Desgarrar"
+        }
+      }
+    },
+    "Bestial Spirit": {
+      "name": "Espíritu Bestial",
+      "tokenName": "Espíritu Bestial",
+      "items": {
+        "Flyby": {
+          "name": "Pasar Volando"
+        },
+        "Pack Tactics": {
+          "name": "Tácticas de Manada"
+        },
+        "Water Breathing": {
+          "name": "Respirar bajo el Agua"
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Rend": {
+          "name": "Desgarrar"
+        }
+      }
+    },
+    "Bestial Water Spirit": {
+      "name": "Espíritu Bestial del Agua",
+      "tokenName": "Espíritu Bestial del Agua",
+      "items": {
+        "Pack Tactics": {
+          "name": "Tácticas de Manada"
+        },
+        "Water Breathing": {
+          "name": "Respirar bajo el Agua"
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Rend": {
+          "name": "Desgarrar"
+        }
+      }
+    },
+    "Bigby's Hand": {
+      "name": "Mano de Bigby",
+      "tokenName": "Mano de Bigby",
+      "items": {
+        "Clenched Fist": {
+          "name": "Puño Cerrado"
+        },
+        "Forceful Hand": {
+          "name": "Mano Contundente"
+        },
+        "Grasping Hand": {
+          "name": "Mano Agarradora",
+          "activities": {
+            "Grapple": {
+              "name": "Agarrar"
+            },
+            "Crush": {
+              "name": "Aplastar"
+            }
+          }
+        },
+        "Interposing Hand": {
+          "name": "Mano Interpuesta",
+          "activities": {
+            "Interpose": {
+              "name": "Interponer"
+            }
+          },
+          "effects": {
+            "Half Cover": {
+              "name": "Cobertura Media"
+            },
+            "Interposed": {
+              "name": "Interpuesto"
+            }
+          }
+        }
+      }
+    },
+    "Black Bear": {
+      "name": "Oso Negro",
+      "tokenName": "Oso Negro",
+      "items": {
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Rend": {
+          "name": "Desgarrar"
+        }
+      }
+    },
+    "Boar": {
+      "name": "Jabalí",
+      "tokenName": "Jabalí",
+      "items": {
+        "Bloodied Fury": {
+          "name": "Furia Ensangrentada"
+        },
+        "Gore": {
+          "name": "Cornada",
+          "activities": {
+            "Charging Attack": {
+              "name": "Ataque de Carga"
+            }
+          }
+        }
+      }
+    },
+    "Brown Bear": {
+      "name": "Oso Pardo",
+      "tokenName": "Oso Pardo",
+      "items": {
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Bite": {
+          "name": "Mordisco"
+        },
+        "Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Camel": {
+      "name": "Camello",
+      "tokenName": "Camello",
+      "items": {
+        "Bite": {
+          "name": "Mordisco"
+        }
+      }
+    },
+    "Cat": {
+      "name": "Gato",
+      "tokenName": "Gato",
+      "items": {
+        "Jumper": {
+          "name": "Saltador"
+        },
+        "Scratch": {
+          "name": "Arañazo"
+        }
+      }
+    },
+    "Celestial Spirit": {
+      "name": "Espíritu Celestial",
+      "tokenName": "Espíritu Celestial",
+      "items": {
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Radiant Bow": {
+          "name": "Arco Radiante"
+        },
+        "Radiant Mace": {
+          "name": "Maza Radiante",
+          "activities": {
+            "Temporary Healing": {
+              "name": "Curación Temporal"
+            }
+          }
+        },
+        "Healing Touch": {
+          "name": "Toque Curativo"
+        }
+      }
+    },
+    "Clay Construct Spirit": {
+      "name": "Espíritu Autómata de Arcilla",
+      "tokenName": "Espíritu Autómata de Arcilla",
+      "items": {
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Slam": {
+          "name": "Golpe"
+        },
+        "Berserk Lashing": {
+          "name": "Embate Frenético"
+        }
+      }
+    },
+    "Cleric": {
+      "name": "Clérigo",
+      "tokenName": "Clérigo",
+      "items": {
+        "Guard": {
+          "name": "Guardia"
+        },
+        "Alert": {
+          "name": "Alerta",
+          "effects": {
+            "Alert": {
+              "name": "Alerta"
+            }
+          }
+        },
+        "Dwarf": {
+          "name": "Enano"
+        },
+        "Dwarven Resilience": {
+          "name": "Resistencia Enana"
+        },
+        "Dwarven Toughness": {
+          "name": "Aguante Enano",
+          "effects": {
+            "Dwarven Toughness": {
+              "name": "Aguante Enano"
+            }
+          }
+        },
+        "Stonecunning": {
+          "name": "Afinidad con la Piedra",
+          "activities": {
+            "Stonecunning": {
+              "name": "Afinidad con la Piedra"
+            }
+          },
+          "effects": {
+            "Stonecunning": {
+              "name": "Afinidad con la Piedra"
+            }
+          }
+        },
+        "Spear": {
+          "name": "Lanza"
+        },
+        "Light Crossbow": {
+          "name": "Ballesta Ligera"
+        },
+        "Case, Crossbow Bolt": {
+          "name": "Estuche para Virotes de Ballesta"
+        },
+        "Bolts": {
+          "name": "Virotes"
+        },
+        "Dragonchess": {
+          "name": "Ajedrez Dragón",
+          "activities": {
+            "Catch Cheating": {
+              "name": "Atrapar Tramposo"
+            },
+            "Play to Win": {
+              "name": "Jugar para Ganar"
+            }
+          }
+        },
+        "Hooded Lantern": {
+          "name": "Linterna Sorda"
+        },
+        "Manacles": {
+          "name": "Esposas",
+          "activities": {
+            "Bind": {
+              "name": "Atar"
+            },
+            "Escape Check": {
+              "name": "Tirada para Liberarse de la Cadena"
+            },
+            "Burst Check": {
+              "name": "Tirada para Romper las Esposas"
+            }
+          },
+          "effects": {
+            "Manacled": {
+              "name": "Esposado"
+            }
+          }
+        },
+        "Traveler's Clothes": {
+          "name": "Ropa de Viajero"
+        },
+        "Chain Shirt": {
+          "name": "Camisa de Malla"
+        },
+        "Shield": {
+          "name": "Escudo"
+        },
+        "Mace": {
+          "name": "Maza"
+        },
+        "Guidance": {
+          "name": "Guía",
+          "activities": {
+            "Cast": {
+              "name": "Lanzar"
+            }
+          },
+          "effects": {
+            "Acrobatic Guidance": {
+              "name": "Guía Acrobacias"
+            },
+            "Animal Handling Guidance": {
+              "name": "Guía Trato con Animales"
+            },
+            "Arcana Guidance": {
+              "name": "Guía Conocimiento Arcano"
+            },
+            "Athletic Guidance": {
+              "name": "Guía Atletismo"
+            },
+            "Deception Guidance": {
+              "name": "Guía Engaño"
+            },
+            "History Guidance": {
+              "name": "Guía Historia"
+            },
+            "Insight Guidance": {
+              "name": "Guía Perspicacia"
+            },
+            "Investigation Guidance": {
+              "name": "Guía Investigación"
+            },
+            "Intimidation Guidance": {
+              "name": "Guía Intimidación"
+            },
+            "Medicine Guidance": {
+              "name": "Guía Medicina"
+            },
+            "Nature Guidance": {
+              "name": "Guía Naturaleza"
+            },
+            "Persuasion Guidance": {
+              "name": "Guía Persuasión"
+            },
+            "Perception Guidance": {
+              "name": "Guía Percepción"
+            },
+            "Performance Guidance": {
+              "name": "Guía Interpretación"
+            },
+            "Religion Guidance": {
+              "name": "Guía Religión"
+            },
+            "Sleight of Hand Guidance": {
+              "name": "Guía Juego de Manos"
+            },
+            "Stealth Guidance": {
+              "name": "Guía Sigilo"
+            },
+            "Survival Guidance": {
+              "name": "Guía Supervivencia"
+            }
+          }
+        },
+        "Sacred Flame": {
+          "name": "Llama Sagrada",
+          "activities": {
+            "Cast": {
+              "name": "Lanzar"
+            }
+          }
+        },
+        "Thaumaturgy": {
+          "name": "Taumaturgia",
+          "activities": {
+            "Cast": {
+              "name": "Lanzar"
+            }
+          }
+        },
+        "Bless": {
+          "name": "Bendición",
+          "effects": {
+            "Blessed": {
+              "name": "Bendecido"
+            }
+          }
+        },
+        "Cure Wounds": {
+          "name": "Curar Heridas"
+        },
+        "Guiding Bolt": {
+          "name": "Saeta Guía",
+          "effects": {
+            "Guiding Bolt": {
+              "name": "Saeta Guía"
+            }
+          }
+        },
+        "Shield of Faith": {
+          "name": "Escudo de Fe",
+          "effects": {
+            "Shimmering Field": {
+              "name": "Campo Titilante"
+            }
+          }
+        },
+        "Amulet": {
+          "name": "Amuleto"
+        },
+        "Priest’s Pack": {
+          "name": "Equipo de Sacerdote"
+        },
+        "Blanket": {
+          "name": "Manta"
+        },
+        "Holy Water": {
+          "name": "Agua Bendita",
+          "activities": {
+            "Throw": {
+              "name": "Lanzar"
+            }
+          }
+        },
+        "Lamp": {
+          "name": "Lámpara",
+          "activities": {
+            "Light": {
+              "name": "Luz"
+            }
+          }
+        },
+        "Rations": {
+          "name": "Raciones"
+        },
+        "Robe": {
+          "name": "Túnica"
+        },
+        "Tinderbox": {
+          "name": "Yesquero",
+          "activities": {
+            "Light": {
+              "name": "Luz"
+            }
+          }
+        },
+        "Cleric": {
+          "name": "Clérigo"
+        },
+        "Spellcasting": {
+          "name": "Lanzamiento de Conjuros"
+        },
+        "Divine Order": {
+          "name": "Orden Divino"
+        },
+        "Divine Order: Protector": {
+          "name": "Orden Divino: Protector",
+          "effects": {
+            "Divine Order: Protector": {
+              "name": "Orden Divino: Protector"
+            }
+          }
+        }
+      }
+    },
+    "Conjured Air Elemental": {
+      "name": "Elemental del Aire Conjurado",
+      "tokenName": "Elemental del Aire Conjurado",
+      "items": {
+        "Air Element": {
+          "name": "Elemento de Aire",
+          "activities": {
+            "Initial Save": {
+              "name": "Salvación Inicial"
+            },
+            "Save while Restrained": {
+              "name": "Salvación estando Apresado"
+            }
+          },
+          "effects": {
+            "Restrained": {
+              "name": "Apresado"
+            }
+          }
+        }
+      }
+    },
+    "Conjured Animals": {
+      "name": "Animales Conjurados",
+      "tokenName": "Animales Conjurados",
+      "items": {
+        "Pack Damage": {
+          "name": "Daño de Manada"
+        }
+      }
+    },
+    "Conjured Earth Elemental": {
+      "name": "Elemental de la Tierra Conjurado",
+      "tokenName": "Elemental de la Tierra Conjurado",
+      "items": {
+        "Earth Element": {
+          "name": "Elemento de Tierra",
+          "activities": {
+            "Initial Save": {
+              "name": "Salvación Inicial"
+            },
+            "Save while Restrained": {
+              "name": "Salvación estando Apresado"
+            }
+          },
+          "effects": {
+            "Restrained": {
+              "name": "Apresado"
+            }
+          }
+        }
+      }
+    },
+    "Conjured Fey": {
+      "name": "Feérico Conjurado",
+      "tokenName": "Feérico Conjurado",
+      "items": {
+        "Command": {
+          "name": "Orden Imperiosa",
+          "activities": {
+            "Teleport and Attack": {
+              "name": "Teletransportar y Atacar"
+            }
+          },
+          "effects": {
+            "Frightened": {
+              "name": "Asustado"
+            }
+          }
+        }
+      }
+    },
+    "Conjured Fire Elemental": {
+      "name": "Elemental del Fuego Conjurado",
+      "tokenName": "Elemental del Fuego Conjurado",
+      "items": {
+        "Fire Element": {
+          "name": "Elemento de Fuego",
+          "activities": {
+            "Initial Save": {
+              "name": "Salvación Inicial"
+            },
+            "Save while Restrained": {
+              "name": "Salvación estando Apresado"
+            }
+          },
+          "effects": {
+            "Restrained": {
+              "name": "Apresado"
+            }
+          }
+        }
+      }
+    },
+    "Conjured Water Elemental": {
+      "name": "Elemental del Agua Conjurado",
+      "tokenName": "Elemental del Agua Conjurado",
+      "items": {
+        "Water Element": {
+          "name": "Elemento de Agua",
+          "activities": {
+            "Initial Save": {
+              "name": "Salvación Inicial"
+            },
+            "Save while Restrained": {
+              "name": "Salvación estando Apresado"
+            }
+          },
+          "effects": {
+            "Restrained": {
+              "name": "Apresado"
+            }
+          }
+        }
+      }
+    },
+    "Constrictor Snake": {
+      "name": "Serpiente Constrictora",
+      "tokenName": "Serpiente Constrictora",
+      "items": {
+        "Bite": {
+          "name": "Mordisco"
+        },
+        "Constrict": {
+          "name": "Constreñir"
+        }
+      }
+    },
+    "Construct Spirit": {
+      "name": "Espíritu Autómata",
+      "tokenName": "Espíritu Autómata",
+      "items": {
+        "Stony Lethargy": {
+          "name": "Letargo Pétreo",
+          "effects": {
+            "Stony Lethargy": {
+              "name": "Letargo Pétreo"
+            }
+          }
+        },
+        "Heated Body": {
+          "name": "Cuerpo Ardiente",
+          "activities": {
+            "Contact Damage": {
+              "name": "Daño por Contacto"
+            }
+          }
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Slam": {
+          "name": "Golpe"
+        },
+        "Berserk Lashing": {
+          "name": "Embate Frenético",
+          "activities": {
+            "Attack or Move": {
+              "name": "Atacar o Mover"
+            }
+          }
+        }
+      }
+    },
+    "Crab": {
+      "name": "Cangrejo",
+      "tokenName": "Cangrejo",
+      "items": {
+        "Amphibious": {
+          "name": "Anfibia"
+        },
+        "Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Crocodile": {
+      "name": "Cocodrilo",
+      "tokenName": "Cocodrilo",
+      "items": {
+        "Hold Breath": {
+          "name": "Aguantar la Respiración"
+        },
+        "Bite": {
+          "name": "Mordisco",
+          "effects": {
+            "Grappled": {
+              "name": "Agarrado"
+            }
+          }
+        }
+      }
+    },
+    "Dancing Light (Medium)": {
+      "name": "Luz Danzante (Mediana)",
+      "tokenName": "Luz Danzante (Mediana)",
+      "items": {}
+    },
+    "Dancing Light (Tiny)": {
+      "name": "Luz Danzante (Diminuta)",
+      "tokenName": "Luz Danzante (Diminuta)",
+      "items": {}
+    },
+    "Defender Spirit": {
+      "name": "Espíritu Defensor",
+      "tokenName": "Espíritu Defensor",
+      "items": {
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Radiant Mace": {
+          "name": "Maza Radiante",
+          "activities": {
+            "Temporary Healing": {
+              "name": "Curación Temporal"
+            }
+          }
+        },
+        "Healing Touch": {
+          "name": "Toque Curativo"
+        }
+      }
+    },
+    "Demon Spirit": {
+      "name": "Espíritu Demonio",
+      "tokenName": "Espíritu Demonio",
+      "items": {
+        "Death Throes": {
+          "name": "Estertores de Muerte",
+          "activities": {
+            "Explode": {
+              "name": "Explotar"
+            }
+          }
+        },
+        "Magic Resistance": {
+          "name": "Resistencia a la Magia"
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Bite": {
+          "name": "Mordisco"
+        }
+      }
+    },
+    "Devil Spirit": {
+      "name": "Espíritu Diablo",
+      "tokenName": "Espíritu Diablo",
+      "items": {
+        "Devil’s Sight": {
+          "name": "Visión del Diablo"
+        },
+        "Magic Resistance": {
+          "name": "Resistencia a la Magia"
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Fiery Strike": {
+          "name": "Golpe Ígneo",
+          "activities": {
+            "Melee Attack": {
+              "name": "Ataque Cuerpo a Cuerpo"
+            },
+            "Ranged Attack": {
+              "name": "Ataque a Distancia"
+            }
+          }
+        }
+      }
+    },
+    "Dire Wolf": {
+      "name": "Huargo",
+      "tokenName": "Huargo",
+      "items": {
+        "Pack Tactics": {
+          "name": "Tácticas de Manada"
+        },
+        "Bite": {
+          "name": "Mordisco"
+        }
+      }
+    },
+    "Draconic Spirit": {
+      "name": "Espíritu Dracónico",
+      "tokenName": "Espíritu Dracónico",
+      "items": {
+        "Shared Resistances": {
+          "name": "Resistencias Compartidas",
+          "activities": {
+            "Share Acid Resistance": {
+              "name": "Compartir Resistencia a Ácido"
+            },
+            "Share Cold Resistance": {
+              "name": "Compartir Resistencia a Frío"
+            },
+            "Share Fire Resistance": {
+              "name": "Compartir Resistencia a Fuego"
+            },
+            "Share Lightning Resistance": {
+              "name": "Compartir Resistencia a Relámpago"
+            },
+            "Share Poison Resistance": {
+              "name": "Compartir Resistencia a Veneno"
+            }
+          },
+          "effects": {
+            "Shared Acid Resistance": {
+              "name": "Resistencia a Ácido Compartida"
+            },
+            "Shared Cold Resistance": {
+              "name": "Resistencia a Frío Compartida"
+            },
+            "Shared Fire Resistance": {
+              "name": "Resistencia a Fuego Compartida"
+            },
+            "Shared Lightning Resistance": {
+              "name": "Resistencia a Relámpago Compartida"
+            },
+            "Shared Poison Resistance": {
+              "name": "Resistencia a Veneno Compartida"
+            }
+          }
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Rend": {
+          "name": "Desgarrar"
+        },
+        "Breath Weapon": {
+          "name": "Ataque de Aliento"
+        }
+      }
+    },
+    "Draft Horse": {
+      "name": "Caballo de Tiro",
+      "tokenName": "Caballo de Tiro",
+      "items": {
+        "Hooves": {
+          "name": "Pezuñas"
+        }
+      }
+    },
+    "Druid": {
+      "name": "Druida",
+      "tokenName": "Druida",
+      "items": {
+        "Farmer": {
+          "name": "Campesino"
+        },
+        "Tough": {
+          "name": "Duro",
+          "effects": {
+            "Tough": {
+              "name": "Duro"
+            }
+          }
+        },
+        "Human": {
+          "name": "Humano"
+        },
+        "Resourceful": {
+          "name": "Ingenioso"
+        },
+        "Skillful": {
+          "name": "Diestro"
+        },
+        "Versatile": {
+          "name": "Versátil"
+        },
+        "Skilled": {
+          "name": "Habilidoso"
+        },
+        "Sickle": {
+          "name": "Hoz"
+        },
+        "Carpenter’s Tools": {
+          "name": "Herramientas de Carpintero",
+          "activities": {
+            "Seal or Pry Open": {
+              "name": "Sellar o Forzar"
+            }
+          }
+        },
+        "Healer’s Kit": {
+          "name": "Botiquín",
+          "activities": {
+            "Stabilize": {
+              "name": "Estabilizar"
+            }
+          }
+        },
+        "Iron Pot": {
+          "name": "Olla de Hierro"
+        },
+        "Shovel": {
+          "name": "Pala"
+        },
+        "Traveler's Clothes": {
+          "name": "Ropa de Viajero"
+        },
+        "Leather Armor": {
+          "name": "Armadura de Cuero"
+        },
+        "Shield": {
+          "name": "Escudo"
+        },
+        "Herbalism Kit": {
+          "name": "Útiles de Herborista",
+          "activities": {
+            "Identify Plant": {
+              "name": "Identificar Planta"
+            }
+          }
+        },
+        "Druidcraft": {
+          "name": "Saber Druídico",
+          "activities": {
+            "Cast": {
+              "name": "Lanzar"
+            }
+          }
+        },
+        "Produce Flame": {
+          "name": "Crear Llama",
+          "activities": {
+            "Cast": {
+              "name": "Lanzar"
+            },
+            "Hurl Fire": {
+              "name": "Arrojar Fuego"
+            }
+          }
+        },
+        "Animal Friendship": {
+          "name": "Encantar Animal",
+          "effects": {
+            "Charmed": {
+              "name": "Hechizado"
+            }
+          }
+        },
+        "Cure Wounds": {
+          "name": "Curar Heridas"
+        },
+        "Faerie Fire": {
+          "name": "Fuego Feérico",
+          "effects": {
+            "Outlined": {
+              "name": "Resaltado"
+            }
+          }
+        },
+        "Thunderwave": {
+          "name": "Ola Atronadora"
+        },
+        "Wooden staff": {
+          "name": "Bastón de Madera (También Bastón) "
+        },
+        "Explorer’s Pack": {
+          "name": "Equipo de Explorador"
+        },
+        "Bedroll": {
+          "name": "Petate"
+        },
+        "Oil": {
+          "name": "Aceite",
+          "activities": {
+            "Throw": {
+              "name": "Lanzar"
+            },
+            "Douse Space": {
+              "name": "Empapar un Espacio"
+            }
+          }
+        },
+        "Rations": {
+          "name": "Raciones"
+        },
+        "Rope": {
+          "name": "Cuerda",
+          "activities": {
+            "Tie Knot": {
+              "name": "Hacer Nudo"
+            },
+            "Burst Rope": {
+              "name": "Tirada para Romper la Cuerda"
+            },
+            "Escape Check": {
+              "name": "Tirada para Liberarse de la Cadena"
+            }
+          }
+        },
+        "Tinderbox": {
+          "name": "Yesquero",
+          "activities": {
+            "Light": {
+              "name": "Luz"
+            }
+          }
+        },
+        "Torch": {
+          "name": "Antorcha"
+        },
+        "Waterskin": {
+          "name": "Cantimplora"
+        },
+        "Water (Pint)": {
+          "name": "Agua (Pinta)",
+          "activities": {
+            "Consume": {
+              "name": "Consumir"
+            }
+          }
+        },
+        "Druid": {
+          "name": "Druida"
+        },
+        "Spellcasting": {
+          "name": "Lanzamiento de Conjuros"
+        },
+        "Druidic": {
+          "name": "Druídico"
+        },
+        "Primal Order": {
+          "name": "Orden Primigenio"
+        },
+        "Speak with Animals": {
+          "name": "Hablar con los Animales",
+          "effects": {
+            "Bestial Communication": {
+              "name": "Comunicación Bestial"
+            }
+          }
+        },
+        "Primal Order: Magician": {
+          "name": "Orden Primigenio: Mago",
+          "effects": {
+            "Magician Checks & Cantrip": {
+              "name": "Chequeos de Mago y Truco"
+            }
+          }
+        }
+      }
+    },
+    "Duplicate": {
+      "name": "Duplicado",
+      "tokenName": "Duplicado",
+      "items": {}
+    },
+    "Earth Elemental Spirit": {
+      "name": "Espíritu Elemental de la Tierra",
+      "tokenName": "Espíritu Elemental de la Tierra",
+      "items": {
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Slam": {
+          "name": "Golpe"
+        }
+      }
+    },
+    "Elemental Spirit": {
+      "name": "Espíritu Elemental",
+      "tokenName": "Espíritu Elemental",
+      "items": {
+        "Amorphous Form": {
+          "name": "Forma Amorfa"
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Slam": {
+          "name": "Golpe"
+        }
+      }
+    },
+    "Elephant": {
+      "name": "Elefante",
+      "tokenName": "Elefante",
+      "items": {
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Gore": {
+          "name": "Cornada"
+        },
+        "Trample": {
+          "name": "Pisotear"
+        }
+      }
+    },
+    "Elk": {
+      "name": "Alce",
+      "tokenName": "Alce",
+      "items": {
+        "Ram": {
+          "name": "Carnero",
+          "activities": {
+            "Charging Attack": {
+              "name": "Ataque de Carga"
+            }
+          }
+        }
+      }
+    },
+    "Faithful Hound": {
+      "name": "Mastín Fiel",
+      "tokenName": "Mastín Fiel",
+      "items": {
+        "Bite": {
+          "name": "Mordisco"
+        }
+      }
+    },
+    "Fey Spirit": {
+      "name": "Espíritu Feérico",
+      "tokenName": "Espíritu Feérico",
+      "items": {
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Fey Blade": {
+          "name": "Hoja Feérica"
+        },
+        "Fey Step": {
+          "name": "Paso Feérico",
+          "activities": {
+            "Teleport": {
+              "name": "Teletransporte"
+            }
+          }
+        },
+        "Mirthful": {
+          "name": "Alegre",
+          "effects": {
+            "Charmed": {
+              "name": "Hechizado"
+            }
+          }
+        },
+        "Tricksy": {
+          "name": "Travieso"
+        }
+      }
+    },
+    "Fiendish Spirit": {
+      "name": "Espíritu Infernal",
+      "tokenName": "Espíritu Infernal",
+      "items": {
+        "Death Throes": {
+          "name": "Estertores de Muerte",
+          "activities": {
+            "Explode": {
+              "name": "Explotar"
+            }
+          }
+        },
+        "Devil’s Sight": {
+          "name": "Visión del Diablo"
+        },
+        "Magic Resistance": {
+          "name": "Resistencia a la Magia"
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Bite (Demon Only)": {
+          "name": "Mordisco (solo Demonio)"
+        },
+        "Claws (Yugoloth Only)": {
+          "name": "Garras (solo Yugoloth)",
+          "activities": {
+            "Attack and Teleport": {
+              "name": "Atacar y Teletransportar"
+            }
+          }
+        },
+        "Fiery Strike (Devil Only)": {
+          "name": "Golpe Ígneo (solo Diablo)",
+          "activities": {
+            "Melee Attack": {
+              "name": "Ataque Cuerpo a Cuerpo"
+            },
+            "Ranged Attack": {
+              "name": "Ataque a Distancia"
+            }
+          }
+        }
+      }
+    },
+    "Fighter": {
+      "name": "Guerrero",
+      "tokenName": "Guerrero",
+      "items": {
+        "Soldier": {
+          "name": "Soldado"
+        },
+        "Savage Attacker": {
+          "name": "Atacante Salvaje"
+        },
+        "Dwarf": {
+          "name": "Enano"
+        },
+        "Dwarven Resilience": {
+          "name": "Resistencia Enana"
+        },
+        "Dwarven Toughness": {
+          "name": "Aguante Enano",
+          "effects": {
+            "Dwarven Toughness": {
+              "name": "Aguante Enano"
+            }
+          }
+        },
+        "Stonecunning": {
+          "name": "Afinidad con la Piedra",
+          "activities": {
+            "Stonecunning": {
+              "name": "Afinidad con la Piedra"
+            }
+          },
+          "effects": {
+            "Stonecunning": {
+              "name": "Afinidad con la Piedra"
+            }
+          }
+        },
+        "Spear": {
+          "name": "Lanza"
+        },
+        "Shortbow": {
+          "name": "Arco Corto"
+        },
+        "Arrows": {
+          "name": "Flechas"
+        },
+        "Dice": {
+          "name": "Dados",
+          "activities": {
+            "Catch Cheating": {
+              "name": "Atrapar Tramposo"
+            },
+            "Play to Win": {
+              "name": "Jugar para Ganar"
+            }
+          }
+        },
+        "Healer’s Kit": {
+          "name": "Botiquín",
+          "activities": {
+            "Stabilize": {
+              "name": "Estabilizar"
+            }
+          }
+        },
+        "Quiver": {
+          "name": "Aljaba"
+        },
+        "Traveler's Clothes": {
+          "name": "Ropa de Viajero"
+        },
+        "Chain Mail": {
+          "name": "Cota de Malla"
+        },
+        "Greatsword": {
+          "name": "Espadón"
+        },
+        "Flail": {
+          "name": "Mangual"
+        },
+        "Javelin": {
+          "name": "Jabalina"
+        },
+        "Dungeoneer’s Pack": {
+          "name": "Equipo de Mazmorrero"
+        },
+        "Caltrops": {
+          "name": "Abrojos",
+          "effects": {
+            "Slowed": {
+              "name": "Ralentizado"
+            }
+          }
+        },
+        "Crowbar": {
+          "name": "Palanqueta"
+        },
+        "Oil": {
+          "name": "Aceite",
+          "activities": {
+            "Throw": {
+              "name": "Lanzar"
+            },
+            "Douse Space": {
+              "name": "Empapar un Espacio"
+            }
+          }
+        },
+        "Rations": {
+          "name": "Raciones"
+        },
+        "Rope": {
+          "name": "Cuerda",
+          "activities": {
+            "Tie Knot": {
+              "name": "Hacer Nudo"
+            },
+            "Burst Rope": {
+              "name": "Tirada para Romper la Cuerda"
+            },
+            "Escape Check": {
+              "name": "Tirada para Liberarse de la Cadena"
+            }
+          }
+        },
+        "Tinderbox": {
+          "name": "Yesquero",
+          "activities": {
+            "Light": {
+              "name": "Luz"
+            }
+          }
+        },
+        "Torch": {
+          "name": "Antorcha"
+        },
+        "Waterskin": {
+          "name": "Cantimplora"
+        },
+        "Water (Pint)": {
+          "name": "Agua (Pinta)",
+          "activities": {
+            "Consume": {
+              "name": "Consumir"
+            }
+          }
+        },
+        "Fighter": {
+          "name": "Guerrero"
+        },
+        "Fighting Style": {
+          "name": "Estilo de Combate"
+        },
+        "Second Wind": {
+          "name": "Segundo Aliento"
+        },
+        "Weapon Mastery": {
+          "name": "Maestría con Armas"
+        },
+        "Defense": {
+          "name": "Defensa",
+          "effects": {
+            "Defense": {
+              "name": "Defensa"
+            }
+          }
+        }
+      }
+    },
+    "Fire Elemental Spirit": {
+      "name": "Espíritu Elemental del Fuego",
+      "tokenName": "Espíritu Elemental del Fuego",
+      "items": {
+        "Amorphous Form": {
+          "name": "Forma Amorfa"
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Slam": {
+          "name": "Golpe"
+        }
+      }
+    },
+    "Flaming Sphere": {
+      "name": "Esfera de Llamas",
+      "tokenName": "Esfera de Llamas",
+      "items": {
+        "Flames": {
+          "name": "Llamas"
+        },
+        "Roll": {
+          "name": "Rodar",
+          "activities": {
+            "Move and Save": {
+              "name": "Mover y Salvar"
+            }
+          }
+        }
+      }
+    },
+    "Floating Disk": {
+      "name": "Disco Flotante",
+      "tokenName": "Disco Flotante",
+      "items": {
+        "Carry Weight Adjustment": {
+          "name": "Ajuste de Capacidad de Carga"
+        }
+      }
+    },
+    "Frog": {
+      "name": "Rana",
+      "tokenName": "Rana",
+      "items": {
+        "Amphibious": {
+          "name": "Anfibia"
+        },
+        "Standing Leap": {
+          "name": "Salto sin Carrera"
+        },
+        "Bite": {
+          "name": "Mordisco"
+        }
+      }
+    },
+    "Fuming Fey Spirit": {
+      "name": "Espíritu Feérico Furioso",
+      "tokenName": "Espíritu Feérico Furioso",
+      "items": {
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Fey Blade": {
+          "name": "Hoja Feérica"
+        },
+        "Fey Step": {
+          "name": "Paso Feérico",
+          "activities": {
+            "Fuming Teleport": {
+              "name": "Teletransporte Furioso"
+            }
+          }
+        }
+      }
+    },
+    "Ghostly Spirit": {
+      "name": "Espíritu Fantasmal",
+      "tokenName": "Espíritu Fantasmal",
+      "items": {
+        "Incorporeal Passage": {
+          "name": "Paso Incorpóreo"
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Deathly Touch": {
+          "name": "Toque Mortal",
+          "effects": {
+            "Frightened": {
+              "name": "Asustado"
+            }
+          }
+        }
+      }
+    },
+    "Giant Badger": {
+      "name": "Tejón Gigante",
+      "tokenName": "Tejón Gigante",
+      "items": {
+        "Bite": {
+          "name": "Mordisco"
+        }
+      }
+    },
+    "Giant Centipede": {
+      "name": "Ciempiés Gigante",
+      "tokenName": "Ciempiés Gigante",
+      "items": {
+        "Spider Climb": {
+          "name": "Trepar cual Arácnido"
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Poison Jab": {
+          "name": "Pinchazo Venenoso"
+        },
+        "Venomous Spew": {
+          "name": "Vómito Venenoso",
+          "effects": {
+            "Poisoned": {
+              "name": "Envenenado"
+            }
+          }
+        }
+      }
+    },
+    "Giant Crab": {
+      "name": "Cangrejo Gigante",
+      "tokenName": "Cangrejo Gigante",
+      "items": {
+        "Amphibious": {
+          "name": "Anfibia"
+        },
+        "Claw": {
+          "name": "Garra"
+        }
+      }
+    },
+    "Giant Goat": {
+      "name": "Cabra Gigante",
+      "tokenName": "Cabra Gigante",
+      "items": {
+        "Ram": {
+          "name": "Carnero",
+          "activities": {
+            "Charging Attack": {
+              "name": "Ataque de Carga"
+            }
+          }
+        }
+      }
+    },
+    "Giant Insect": {
+      "name": "Insecto Gigante",
+      "tokenName": "Insecto Gigante",
+      "items": {
+        "Spider Climb": {
+          "name": "Trepar cual Arácnido"
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Poison Jab": {
+          "name": "Pinchazo Venenoso"
+        },
+        "Web Bolt": {
+          "name": "Saeta de Telaraña",
+          "effects": {
+            "Webbed": {
+              "name": "Atrapado en Telaraña"
+            }
+          }
+        },
+        "Venomous Spew": {
+          "name": "Vómito Venenoso",
+          "effects": {
+            "Poisoned": {
+              "name": "Envenenado"
+            }
+          }
+        }
+      }
+    },
+    "Giant Seahorse": {
+      "name": "Caballito de Mar Gigante",
+      "tokenName": "Caballito de Mar Gigante",
+      "items": {
+        "Water Breathing": {
+          "name": "Respirar bajo el Agua"
+        },
+        "Ram": {
+          "name": "Carnero",
+          "activities": {
+            "Charging Attack": {
+              "name": "Ataque de Carga"
+            }
+          }
+        },
+        "Bubble Dash": {
+          "name": "Carrera Burbujeante"
+        }
+      }
+    },
+    "Giant Spider": {
+      "name": "Araña Gigante",
+      "tokenName": "Araña Gigante",
+      "items": {
+        "Spider Climb": {
+          "name": "Trepar cual Arácnido"
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Poison Jab": {
+          "name": "Pinchazo Venenoso"
+        },
+        "Web Bolt": {
+          "name": "Saeta de Telaraña",
+          "effects": {
+            "Webbed": {
+              "name": "Atrapado en Telaraña"
+            }
+          }
+        }
+      }
+    },
+    "Giant Wasp": {
+      "name": "Avispa Gigante",
+      "tokenName": "Avispa Gigante",
+      "items": {
+        "Spider Climb": {
+          "name": "Trepar cual Arácnido"
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Poison Jab": {
+          "name": "Pinchazo Venenoso"
+        }
+      }
+    },
+    "Giant Weasel": {
+      "name": "Comadreja Gigante",
+      "tokenName": "Comadreja Gigante",
+      "items": {
+        "Bite": {
+          "name": "Mordisco"
+        }
+      }
+    },
+    "Goat": {
+      "name": "Cabra",
+      "tokenName": "Cabra",
+      "items": {
+        "Ram": {
+          "name": "Carnero",
+          "activities": {
+            "Charging Attack": {
+              "name": "Ataque de Carga"
+            }
+          }
+        }
+      }
+    },
+    "Grasping Vine": {
+      "name": "Enredadera",
+      "tokenName": "Enredadera",
+      "items": {
+        "Vine Attack": {
+          "name": "Ataque de Enredadera"
+        }
+      }
+    },
+    "Guardian of Faith": {
+      "name": "Guardián de la Fe",
+      "tokenName": "Guardián de la Fe",
+      "items": {
+        "Guarded Area": {
+          "name": "Zona Protegida",
+          "activities": {
+            "Consume Damage Pool": {
+              "name": "Consumir Reserva de Daño"
+            }
+          }
+        }
+      }
+    },
+    "Hawk": {
+      "name": "Halcón",
+      "tokenName": "Halcón",
+      "items": {
+        "Talons": {
+          "name": "Garras"
+        }
+      }
+    },
+    "Illusory Creature": {
+      "name": "Criatura Ilusoria",
+      "tokenName": "Criatura Ilusoria",
+      "items": {}
+    },
+    "Illusory Object": {
+      "name": "Objeto Ilusorio",
+      "tokenName": "Objeto Ilusorio",
+      "items": {}
+    },
+    "Illusory Phenomenon": {
+      "name": "Fenómeno Ilusorio",
+      "tokenName": "Fenómeno Ilusorio",
+      "items": {}
+    },
+    "Imp": {
+      "name": "Diablillo",
+      "tokenName": "Diablillo",
+      "items": {
+        "Devil’s Sight": {
+          "name": "Visión del Diablo"
+        },
+        "Magic Resistance": {
+          "name": "Resistencia a la Magia"
+        },
+        "Sting": {
+          "name": "Aguijón"
+        },
+        "Invisibility": {
+          "name": "Invisibilidad"
+        },
+        "Shape-Shift": {
+          "name": "Cambiar de Forma",
+          "activities": {
+            "Change Form": {
+              "name": "Cambiar de Forma"
+            }
+          },
+          "effects": {
+            "Rat Form": {
+              "name": "Forma de Rata"
+            },
+            "Raven Form": {
+              "name": "Forma de Cuervo"
+            },
+            "Spider Form": {
+              "name": "Forma de Araña"
+            }
+          }
+        },
+        "oHafKbzbqYGiL4i1": {
+          "name": "Invisibilidad",
+          "activities": {
+            "Cast": {
+              "name": "Lanzar"
+            }
+          },
+          "effects": {
+            "Invisibility": {
+              "name": "Invisibilidad"
+            }
+          }
+        }
+      }
+    },
+    "Invisible Sensor": {
+      "name": "Sensor Invisible",
+      "tokenName": "Sensor Invisible",
+      "items": {}
+    },
+    "Light": {
+      "name": "Luz",
+      "tokenName": "Luz",
+      "items": {}
+    },
+    "Lion": {
+      "name": "León",
+      "tokenName": "León",
+      "items": {
+        "Pack Tactics": {
+          "name": "Tácticas de Manada"
+        },
+        "Running Leap": {
+          "name": "Salto con Carrera"
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Rend": {
+          "name": "Desgarrar"
+        },
+        "Roar": {
+          "name": "Rugido",
+          "effects": {
+            "Frightened": {
+              "name": "Asustado"
+            }
+          }
+        }
+      }
+    },
+    "Lizard": {
+      "name": "Lagarto",
+      "tokenName": "Lagarto",
+      "items": {
+        "Spider Climb": {
+          "name": "Trepar cual Arácnido"
+        },
+        "Bite": {
+          "name": "Mordisco"
+        }
+      }
+    },
+    "Mage Hand": {
+      "name": "Mano de Mago",
+      "tokenName": "Mano de Mago",
+      "items": {}
+    },
+    "Mastiff": {
+      "name": "Mastín",
+      "tokenName": "Mastín",
+      "items": {
+        "Bite": {
+          "name": "Mordisco"
+        }
+      }
+    },
+    "Metal Construct Spirit": {
+      "name": "Espíritu Autómata de Metal",
+      "tokenName": "Espíritu Autómata de Metal",
+      "items": {
+        "Heated Body": {
+          "name": "Cuerpo Ardiente"
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Slam": {
+          "name": "Golpe"
+        }
+      }
+    },
+    "Mind Flayer Spirit": {
+      "name": "Espíritu Azotamentes",
+      "tokenName": "Espíritu Azotamentes",
+      "items": {
+        "Whispering Aura": {
+          "name": "Aura Susurrante"
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Psychic Slam": {
+          "name": "Golpe Psíquico"
+        }
+      }
+    },
+    "Mirthful Fey Spirit": {
+      "name": "Espíritu Feérico Alegre",
+      "tokenName": "Espíritu Feérico Alegre",
+      "items": {
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Fey Blade": {
+          "name": "Hoja Feérica"
+        },
+        "Fey Step": {
+          "name": "Paso Feérico",
+          "activities": {
+            "Teleport and Charm": {
+              "name": "Teletransportar y Hechizar"
+            }
+          },
+          "effects": {
+            "Charmed": {
+              "name": "Hechizado"
+            }
+          }
+        }
+      }
+    },
+    "Monk": {
+      "name": "Monje",
+      "tokenName": "Monje",
+      "items": {
+        "Guide": {
+          "name": "Guía"
+        },
+        "Magic Initiate": {
+          "name": "Iniciado en la Magia"
+        },
+        "Dragonborn": {
+          "name": "Dracónido"
+        },
+        "Breath Weapon": {
+          "name": "Ataque de Aliento",
+          "activities": {
+            "Breath Weapon (Cone)": {
+              "name": "Arma de Aliento (Cono)"
+            },
+            "Breath Weapon (Line)": {
+              "name": "Arma de Aliento (Línea)"
+            }
+          }
+        },
+        "Mage Hand": {
+          "name": "Mano de Mago"
+        },
+        "Fire Bolt": {
+          "name": "Descarga de Fuego"
+        },
+        "Sleep": {
+          "name": "Dormir",
+          "activities": {
+            "Free Cast (1/day)": {
+              "name": "Lanzamiento Gratuito (1/día)"
+            },
+            "Cast with Spell Slot": {
+              "name": "Lanzar con Espacio de Conjuro"
+            }
+          },
+          "effects": {
+            "Sleeping": {
+              "name": "Durmiendo"
+            }
+          }
+        },
+        "Glassblower’s Tools": {
+          "name": "Herramientas de Soplador de Vidrio",
+          "activities": {
+            "Discern Previous Contents": {
+              "name": "Discernir Contenidos Anteriores"
+            }
+          }
+        },
+        "Shortbow": {
+          "name": "Arco Corto"
+        },
+        "Arrows": {
+          "name": "Flechas"
+        },
+        "Cartographer’s Tools": {
+          "name": "Herramientas de Cartógrafo",
+          "activities": {
+            "Draft a Map": {
+              "name": "Dibujar Mapa"
+            }
+          }
+        },
+        "Bedroll": {
+          "name": "Petate"
+        },
+        "Quiver": {
+          "name": "Aljaba"
+        },
+        "Tent": {
+          "name": "Tienda"
+        },
+        "Traveler's Clothes": {
+          "name": "Ropa de Viajero"
+        },
+        "Spear": {
+          "name": "Lanza"
+        },
+        "Dagger": {
+          "name": "Daga"
+        },
+        "Explorer’s Pack": {
+          "name": "Equipo de Explorador"
+        },
+        "Oil": {
+          "name": "Aceite",
+          "activities": {
+            "Throw": {
+              "name": "Lanzar"
+            },
+            "Douse Space": {
+              "name": "Empapar un Espacio"
+            }
+          }
+        },
+        "Rations": {
+          "name": "Raciones"
+        },
+        "Rope": {
+          "name": "Cuerda",
+          "activities": {
+            "Tie Knot": {
+              "name": "Hacer Nudo"
+            },
+            "Burst Rope": {
+              "name": "Tirada para Romper la Cuerda"
+            },
+            "Escape Check": {
+              "name": "Tirada para Liberarse de la Cadena"
+            }
+          }
+        },
+        "Tinderbox": {
+          "name": "Yesquero",
+          "activities": {
+            "Light": {
+              "name": "Luz"
+            }
+          }
+        },
+        "Torch": {
+          "name": "Antorcha"
+        },
+        "Waterskin": {
+          "name": "Cantimplora"
+        },
+        "Water (Pint)": {
+          "name": "Agua (Pinta)",
+          "activities": {
+            "Consume": {
+              "name": "Consumir"
+            }
+          }
+        },
+        "Monk": {
+          "name": "Monje"
+        },
+        "Martial Arts": {
+          "name": "Artes Marciales",
+          "activities": {
+            "Master Simple Weapon": {
+              "name": "Dominar Arma Simple"
+            },
+            "Master Light Martial Weapon": {
+              "name": "Dominar Arma Marcial Ligera"
+            }
+          },
+          "effects": {
+            "Dexterous Attacks & Martial Arts Damage": {
+              "name": "Ataques Diestros y Daño de Artes Marciales"
+            }
+          }
+        },
+        "Unarmored Defense": {
+          "name": "Defensa sin Armadura",
+          "effects": {
+            "Unarmored Defense": {
+              "name": "Defensa sin Armadura"
+            }
+          }
+        },
+        "Unarmed Strike": {
+          "name": "Ataque sin Armas",
+          "activities": {
+            "Grapple/Shove": {
+              "name": "Agarrar/Empujar"
+            }
+          },
+          "effects": {
+            "Grappled": {
+              "name": "Agarrado"
+            },
+            "Prone": {
+              "name": "Derribado"
+            }
+          }
+        }
+      }
+    },
+    "Mordenkainen’s Sword": {
+      "name": "Espada de Mordenkainen",
+      "tokenName": "Espada de Mordenkainen",
+      "items": {
+        "Move and Attack": {
+          "name": "Mover y Atacar"
+        }
+      }
+    },
+    "Mule": {
+      "name": "Mula",
+      "tokenName": "Mula",
+      "items": {
+        "Beast of Burden": {
+          "name": "Bestia de Carga"
+        },
+        "Hooves": {
+          "name": "Pezuñas"
+        }
+      }
+    },
+    "Octopus": {
+      "name": "Pulpo",
+      "tokenName": "Pulpo",
+      "items": {
+        "Compression": {
+          "name": "Compresión"
+        },
+        "Water Breathing": {
+          "name": "Respirar bajo el Agua"
+        },
+        "Ink Cloud": {
+          "name": "Nube de Tinta",
+          "activities": {
+            "Obscure Area": {
+              "name": "Oscurecer Zona"
+            }
+          }
+        },
+        "Tentacles": {
+          "name": "Tentáculos"
+        }
+      }
+    },
+    "Owl": {
+      "name": "Búho",
+      "tokenName": "Búho",
+      "items": {
+        "Flyby": {
+          "name": "Pasar Volando"
+        },
+        "Talons": {
+          "name": "Garras"
+        }
+      }
+    },
+    "Paladin": {
+      "name": "Paladín",
+      "tokenName": "Paladín",
+      "items": {
+        "Noble": {
+          "name": "Noble"
+        },
+        "Skilled": {
+          "name": "Habilidoso"
+        },
+        "Orc": {
+          "name": "Orco"
+        },
+        "Adrenaline Rush": {
+          "name": "Descarga de Adrenalina",
+          "activities": {
+            "Adrenaline Rush: Dash": {
+              "name": "Descarga de Adrenalina: Correr"
+            }
+          }
+        },
+        "Relentless Endurance": {
+          "name": "Aguante Incansable",
+          "activities": {
+            "Relentlessly Endure": {
+              "name": "Resistencia Implacable"
+            }
+          }
+        },
+        "Dragonchess": {
+          "name": "Ajedrez Dragón",
+          "activities": {
+            "Catch Cheating": {
+              "name": "Atrapar Tramposo"
+            },
+            "Play to Win": {
+              "name": "Jugar para Ganar"
+            }
+          }
+        },
+        "Fine Clothes": {
+          "name": "Ropas de Calidad"
+        },
+        "Perfume": {
+          "name": "Perfume"
+        },
+        "Chain Mail": {
+          "name": "Cota de Malla"
+        },
+        "Shield": {
+          "name": "Escudo"
+        },
+        "Longsword": {
+          "name": "Espada Larga"
+        },
+        "Javelin": {
+          "name": "Jabalina"
+        },
+        "Priest’s Pack": {
+          "name": "Equipo de Sacerdote"
+        },
+        "Heroism": {
+          "name": "Heroísmo",
+          "effects": {
+            "Bravery": {
+              "name": "Valentía"
+            }
+          }
+        },
+        "Searing Smite": {
+          "name": "Castigo Abrasador",
+          "effects": {
+            "Seared": {
+              "name": "Abrasado"
+            }
+          }
+        },
+        "Emblem": {
+          "name": "Emblema"
+        },
+        "Blanket": {
+          "name": "Manta"
+        },
+        "Holy Water": {
+          "name": "Agua Bendita",
+          "activities": {
+            "Throw": {
+              "name": "Lanzar"
+            }
+          }
+        },
+        "Lamp": {
+          "name": "Lámpara",
+          "activities": {
+            "Light": {
+              "name": "Luz"
+            }
+          }
+        },
+        "Rations": {
+          "name": "Raciones"
+        },
+        "Robe": {
+          "name": "Túnica"
+        },
+        "Tinderbox": {
+          "name": "Yesquero",
+          "activities": {
+            "Light": {
+              "name": "Luz"
+            }
+          }
+        },
+        "Paladin": {
+          "name": "Paladín"
+        },
+        "Lay on Hands": {
+          "name": "Imposición de Manos",
+          "activities": {
+            "Remove Poison": {
+              "name": "Eliminar Veneno"
+            }
+          }
+        },
+        "Spellcasting": {
+          "name": "Lanzamiento de Conjuros"
+        },
+        "Weapon Mastery": {
+          "name": "Maestría con Armas"
+        }
+      }
+    },
+    "Panther": {
+      "name": "Pantera",
+      "tokenName": "Pantera",
+      "items": {
+        "Rend": {
+          "name": "Desgarrar"
+        },
+        "Nimble Escape": {
+          "name": "Escape Ágil",
+          "activities": {
+            "Expend Use": {
+              "name": "Gastar Uso"
+            }
+          },
+          "effects": {
+            "Apply Hide Action to Target": {
+              "name": "Aplicar Acción de Esconderse al Objetivo"
+            }
+          }
+        }
+      }
+    },
+    "Phantom Steed": {
+      "name": "Corcel Fantasma",
+      "tokenName": "Corcel Fantasma",
+      "items": {
+        "Hooves": {
+          "name": "Pezuñas"
+        }
+      }
+    },
+    "Pony": {
+      "name": "Poni",
+      "tokenName": "Poni",
+      "items": {
+        "Hooves": {
+          "name": "Pezuñas"
+        }
+      }
+    },
+    "Pseudodragon": {
+      "name": "Pseudodragón",
+      "tokenName": "Pseudodragón",
+      "items": {
+        "Magic Resistance": {
+          "name": "Resistencia a la Magia"
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Bite": {
+          "name": "Mordisco"
+        },
+        "Sting": {
+          "name": "Aguijón",
+          "effects": {
+            "Poisoned": {
+              "name": "Envenenado"
+            },
+            "Unconscious": {
+              "name": "Inconsciente"
+            }
+          }
+        }
+      }
+    },
+    "Putrid Spirit": {
+      "name": "Espíritu Pútrido",
+      "tokenName": "Espíritu Pútrido",
+      "items": {
+        "Festering Aura": {
+          "name": "Aura Pútrida",
+          "effects": {
+            "Poisoned": {
+              "name": "Envenenado"
+            }
+          }
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Rotting Claw": {
+          "name": "Garra Putrefacta",
+          "effects": {
+            "Paralyzed": {
+              "name": "Paralizado"
+            }
+          }
+        }
+      }
+    },
+    "Quasit": {
+      "name": "Cuasit",
+      "tokenName": "Cuasit",
+      "items": {
+        "Magic Resistance": {
+          "name": "Resistencia a la Magia"
+        },
+        "Rend": {
+          "name": "Desgarrar",
+          "effects": {
+            "Poisoned": {
+              "name": "Envenenado"
+            }
+          }
+        },
+        "Invisibility": {
+          "name": "Invisibilidad",
+          "activities": {
+            "Cast": {
+              "name": "Lanzar"
+            }
+          }
+        },
+        "Scare": {
+          "name": "Asustar",
+          "effects": {
+            "Frightened": {
+              "name": "Asustado"
+            }
+          }
+        },
+        "Shape-Shift": {
+          "name": "Cambiar de Forma",
+          "activities": {
+            "Change Form": {
+              "name": "Cambiar de Forma"
+            }
+          },
+          "effects": {
+            "Centipede Form": {
+              "name": "Forma de Ciempiés"
+            },
+            "Bat Form": {
+              "name": "Forma de Murciélago"
+            },
+            "Toad Form": {
+              "name": "Forma de Sapo"
+            }
+          }
+        },
+        "7wNdT95XqhyGOpBd": {
+          "name": "Invisibilidad",
+          "activities": {
+            "Cast": {
+              "name": "Lanzar"
+            }
+          },
+          "effects": {
+            "Invisibility": {
+              "name": "Invisibilidad"
+            }
+          }
+        }
+      }
+    },
+    "Ranger": {
+      "name": "Explorador",
+      "tokenName": "Explorador",
+      "items": {
+        "Wayfarer": {
+          "name": "Vagabundo"
+        },
+        "Lucky": {
+          "name": "Afortunado",
+          "activities": {
+            "Advantage": {
+              "name": "Ventaja"
+            },
+            "Disadvantage": {
+              "name": "Desventaja"
+            }
+          }
+        },
+        "Dagger": {
+          "name": "Daga"
+        },
+        "Thieves’ Tools": {
+          "name": "Herramientas de Ladrón",
+          "activities": {
+            "Pick a Lock/Disarm a Trap": {
+              "name": "Forzar una cerradura/Desactivar una trampa"
+            }
+          }
+        },
+        "Bedroll": {
+          "name": "Petate"
+        },
+        "Pouch": {
+          "name": "Bolsa"
+        },
+        "Traveler's Clothes": {
+          "name": "Ropa de Viajero"
+        },
+        "Playing Cards": {
+          "name": "Naipes",
+          "activities": {
+            "Catch Cheating": {
+              "name": "Atrapar Tramposo"
+            },
+            "Play to Win": {
+              "name": "Jugar para Ganar"
+            }
+          }
+        },
+        "Elf, Wood": {
+          "name": "Elfo, de los Bosques"
+        },
+        "Fey Ancestry": {
+          "name": "Linaje Feérico"
+        },
+        "Keen Senses": {
+          "name": "Sentidos Agudos"
+        },
+        "Trance": {
+          "name": "Trance"
+        },
+        "Elven Lineage, Wood Elf": {
+          "name": "Linaje Élfico, Elfo de los Bosques"
+        },
+        "Studded Leather Armor": {
+          "name": "Armadura de Cuero Tachonado"
+        },
+        "Scimitar": {
+          "name": "Cimitarra"
+        },
+        "Shortsword": {
+          "name": "Espada Corta"
+        },
+        "Longbow": {
+          "name": "Arco largo"
+        },
+        "Arrows": {
+          "name": "Flechas"
+        },
+        "Quiver": {
+          "name": "Aljaba"
+        },
+        "Explorer’s Pack": {
+          "name": "Equipo de Explorador"
+        },
+        "Cure Wounds": {
+          "name": "Curar Heridas"
+        },
+        "Ensnaring Strike": {
+          "name": "Golpe Apresador",
+          "activities": {
+            "Start of Turn Damage": {
+              "name": "Daño al Principio del Turno"
+            }
+          },
+          "effects": {
+            "Ensnared": {
+              "name": "Enredado"
+            }
+          }
+        },
+        "Sprig of mistletoe": {
+          "name": "Rama de Muérdago"
+        },
+        "Oil": {
+          "name": "Aceite",
+          "activities": {
+            "Throw": {
+              "name": "Lanzar"
+            },
+            "Douse Space": {
+              "name": "Empapar un Espacio"
+            }
+          }
+        },
+        "Rations": {
+          "name": "Raciones"
+        },
+        "Rope": {
+          "name": "Cuerda",
+          "activities": {
+            "Tie Knot": {
+              "name": "Hacer Nudo"
+            },
+            "Burst Rope": {
+              "name": "Tirada para Romper la Cuerda"
+            },
+            "Escape Check": {
+              "name": "Tirada para Liberarse de la Cadena"
+            }
+          }
+        },
+        "Tinderbox": {
+          "name": "Yesquero",
+          "activities": {
+            "Light": {
+              "name": "Luz"
+            }
+          }
+        },
+        "Torch": {
+          "name": "Antorcha"
+        },
+        "Waterskin": {
+          "name": "Cantimplora"
+        },
+        "Water (Pint)": {
+          "name": "Agua (Pinta)",
+          "activities": {
+            "Consume": {
+              "name": "Consumir"
+            }
+          }
+        },
+        "Ranger": {
+          "name": "Explorador"
+        },
+        "Druidcraft": {
+          "name": "Saber Druídico"
+        },
+        "Spellcasting": {
+          "name": "Lanzamiento de Conjuros"
+        },
+        "Favored Enemy": {
+          "name": "Enemigo Predilecto"
+        },
+        "Weapon Mastery": {
+          "name": "Maestría con Armas"
+        },
+        "Hunter's Mark": {
+          "name": "Marca del Cazador",
+          "activities": {
+            "Bonus Mark Damage": {
+              "name": "Daño Adicional por Marca"
+            },
+            "Mark Creature": {
+              "name": "Marcar Criatura"
+            },
+            "Move Mark": {
+              "name": "Transferir Marca"
+            },
+            "Mark Creature (free casting)": {
+              "name": "Marcar Criatura (lanzamiento gratuito)"
+            }
+          },
+          "effects": {
+            "Hunter's Mark": {
+              "name": "Marca del Cazador"
+            }
+          }
+        }
+      }
+    },
+    "Rat": {
+      "name": "Rata",
+      "tokenName": "Rata",
+      "items": {
+        "Agile": {
+          "name": "Ágil"
+        },
+        "Bite": {
+          "name": "Mordisco"
+        }
+      }
+    },
+    "Raven": {
+      "name": "Cuervo",
+      "tokenName": "Cuervo",
+      "items": {
+        "Mimicry": {
+          "name": "Imitación"
+        },
+        "Beak": {
+          "name": "Pico"
+        }
+      }
+    },
+    "Reef Shark": {
+      "name": "Tiburón de Arrecife",
+      "tokenName": "Tiburón de Arrecife",
+      "items": {
+        "Pack Tactics": {
+          "name": "Tácticas de Manada"
+        },
+        "Water Breathing": {
+          "name": "Respirar bajo el Agua"
+        },
+        "Bite": {
+          "name": "Mordisco"
+        }
+      }
+    },
+    "Riding Horse": {
+      "name": "Caballo de Monta",
+      "tokenName": "Caballo de Monta",
+      "items": {
+        "Hooves": {
+          "name": "Pezuñas"
+        }
+      }
+    },
+    "Rogue": {
+      "name": "Pícaro",
+      "tokenName": "Pícaro",
+      "items": {
+        "Criminal": {
+          "name": "Criminal"
+        },
+        "Alert": {
+          "name": "Alerta",
+          "effects": {
+            "Alert": {
+              "name": "Alerta"
+            }
+          }
+        },
+        "Halfling": {
+          "name": "Mediano"
+        },
+        "Brave": {
+          "name": "Valiente"
+        },
+        "Halfling Nimbleness": {
+          "name": "Agilidad de Mediano"
+        },
+        "Luck": {
+          "name": "Suerte"
+        },
+        "Naturally Stealthy": {
+          "name": "Sigiloso por Naturaleza"
+        },
+        "Dagger": {
+          "name": "Daga"
+        },
+        "Thieves’ Tools": {
+          "name": "Herramientas de Ladrón",
+          "activities": {
+            "Pick a Lock/Disarm a Trap": {
+              "name": "Forzar una cerradura/Desactivar una trampa"
+            }
+          }
+        },
+        "Crowbar": {
+          "name": "Palanqueta"
+        },
+        "Pouch": {
+          "name": "Bolsa"
+        },
+        "Clothes, Traveler’s": {
+          "name": "Ropa de Viajero"
+        },
+        "Leather Armor": {
+          "name": "Armadura de Cuero"
+        },
+        "Shortsword": {
+          "name": "Espada Corta"
+        },
+        "Shortbow": {
+          "name": "Arco Corto"
+        },
+        "Arrows": {
+          "name": "Flechas"
+        },
+        "Quiver": {
+          "name": "Aljaba"
+        },
+        "Burglar’s Pack": {
+          "name": "Equipo de Ladrón"
+        },
+        "Ball Bearings": {
+          "name": "Bolas de Metal",
+          "activities": {
+            "Spill Ball Bearings": {
+              "name": "Verter Bolas de Metal"
+            },
+            "Recover Ball Bearings": {
+              "name": "Recuperar Bolas de Metal"
+            }
+          },
+          "effects": {
+            "Tripped": {
+              "name": "Tropezado"
+            }
+          }
+        },
+        "Bell": {
+          "name": "Campana"
+        },
+        "Candle": {
+          "name": "Vela",
+          "activities": {
+            "Light": {
+              "name": "Luz"
+            }
+          }
+        },
+        "Hooded Lantern": {
+          "name": "Linterna Sorda"
+        },
+        "Oil": {
+          "name": "Aceite",
+          "activities": {
+            "Throw": {
+              "name": "Lanzar"
+            },
+            "Douse Space": {
+              "name": "Empapar un Espacio"
+            }
+          }
+        },
+        "Rations": {
+          "name": "Raciones"
+        },
+        "Rope": {
+          "name": "Cuerda",
+          "activities": {
+            "Tie Knot": {
+              "name": "Hacer Nudo"
+            },
+            "Burst Rope": {
+              "name": "Tirada para Romper la Cuerda"
+            },
+            "Escape Check": {
+              "name": "Tirada para Liberarse de la Cadena"
+            }
+          }
+        },
+        "Tinderbox": {
+          "name": "Yesquero",
+          "activities": {
+            "Light": {
+              "name": "Luz"
+            }
+          }
+        },
+        "Waterskin": {
+          "name": "Cantimplora"
+        },
+        "Water (Pint)": {
+          "name": "Agua (Pinta)",
+          "activities": {
+            "Consume": {
+              "name": "Consumir"
+            }
+          }
+        },
+        "Rogue": {
+          "name": "Pícaro"
+        },
+        "Expertise": {
+          "name": "Pericia"
+        },
+        "Sneak Attack": {
+          "name": "Ataque Furtivo"
+        },
+        "Thieves' Cant": {
+          "name": "Jerga de Ladrones"
+        },
+        "Weapon Mastery": {
+          "name": "Maestría con Armas"
+        }
+      }
+    },
+    "Scorpion": {
+      "name": "Escorpión",
+      "tokenName": "Escorpión",
+      "items": {
+        "Sting": {
+          "name": "Aguijón"
+        }
+      }
+    },
+    "Secret Chest": {
+      "name": "Cofre Oculto",
+      "tokenName": "Cofre Oculto",
+      "items": {}
+    },
+    "Skeletal Spirit": {
+      "name": "Espíritu Esquelético",
+      "tokenName": "Espíritu Esquelético",
+      "items": {
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Grave Bolt": {
+          "name": "Saeta Sepulcral"
+        }
+      }
+    },
+    "Skeleton": {
+      "name": "Esqueleto",
+      "tokenName": "Esqueleto",
+      "items": {
+        "Shortsword": {
+          "name": "Espada Corta"
+        },
+        "Shortbow": {
+          "name": "Arco Corto"
+        }
+      }
+    },
+    "Slaad Spirit": {
+      "name": "Espíritu Slaad",
+      "tokenName": "Espíritu Slaad",
+      "items": {
+        "Regeneration": {
+          "name": "Regeneración"
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Claw": {
+          "name": "Garra",
+          "effects": {
+            "Blocked Healing": {
+              "name": "Curación Bloqueada"
+            }
+          }
+        }
+      }
+    },
+    "Slaad Tadpole": {
+      "name": "Renacuajo Slaad",
+      "tokenName": "Renacuajo Slaad",
+      "items": {
+        "Magic Resistance": {
+          "name": "Resistencia a la Magia"
+        },
+        "Bite": {
+          "name": "Mordisco"
+        }
+      }
+    },
+    "Sorcerer": {
+      "name": "Hechicero",
+      "tokenName": "Hechicero",
+      "items": {
+        "Charlatan": {
+          "name": "Charlatán"
+        },
+        "Skilled": {
+          "name": "Habilidoso"
+        },
+        "Elf, Drow": {
+          "name": "Elfo, Drow"
+        },
+        "Fey Ancestry": {
+          "name": "Linaje Feérico"
+        },
+        "Keen Senses": {
+          "name": "Sentidos Agudos"
+        },
+        "Trance": {
+          "name": "Trance"
+        },
+        "Elven Lineage, Drow": {
+          "name": "Linaje Élfico, Drow"
+        },
+        "Forgery Kit": {
+          "name": "Útiles para Falsificar",
+          "activities": {
+            "Mimic Handwriting": {
+              "name": "Imitar Escritura"
+            },
+            "Duplicate Wax Seal": {
+              "name": "Duplicar Sello de Cera"
+            }
+          }
+        },
+        "Costume": {
+          "name": "Disfraz"
+        },
+        "Clothes, Fine": {
+          "name": "Ropas de Calidad"
+        },
+        "Spear": {
+          "name": "Lanza"
+        },
+        "Dagger": {
+          "name": "Daga"
+        },
+        "Dungeoneer’s Pack": {
+          "name": "Equipo de Mazmorrero"
+        },
+        "Light": {
+          "name": "Luz",
+          "activities": {
+            "Cast": {
+              "name": "Lanzar"
+            }
+          }
+        },
+        "Prestidigitation": {
+          "name": "Prestidigitación",
+          "activities": {
+            "Cast": {
+              "name": "Lanzar"
+            }
+          }
+        },
+        "Shocking Grasp": {
+          "name": "Agarre Electrizante",
+          "effects": {
+            "Shocked": {
+              "name": "Electrificado"
+            }
+          }
+        },
+        "Sorcerous Burst": {
+          "name": "Estallido Mágico"
+        },
+        "Detect Magic": {
+          "name": "Detectar Magia",
+          "activities": {
+            "Cast": {
+              "name": "Lanzar"
+            }
+          },
+          "effects": {
+            "Detection": {
+              "name": "Detección"
+            }
+          }
+        },
+        "Burning Hands": {
+          "name": "Manos Ardientes"
+        },
+        "Wand": {
+          "name": "Varita"
+        },
+        "Caltrops": {
+          "name": "Abrojos",
+          "effects": {
+            "Slowed": {
+              "name": "Ralentizado"
+            }
+          }
+        },
+        "Crowbar": {
+          "name": "Palanqueta"
+        },
+        "Oil": {
+          "name": "Aceite",
+          "activities": {
+            "Throw": {
+              "name": "Lanzar"
+            },
+            "Douse Space": {
+              "name": "Empapar un Espacio"
+            }
+          }
+        },
+        "Rations": {
+          "name": "Raciones"
+        },
+        "Rope": {
+          "name": "Cuerda",
+          "activities": {
+            "Tie Knot": {
+              "name": "Hacer Nudo"
+            },
+            "Burst Rope": {
+              "name": "Tirada para Romper la Cuerda"
+            },
+            "Escape Check": {
+              "name": "Tirada para Liberarse de la Cadena"
+            }
+          }
+        },
+        "Tinderbox": {
+          "name": "Yesquero",
+          "activities": {
+            "Light": {
+              "name": "Luz"
+            }
+          }
+        },
+        "Torch": {
+          "name": "Antorcha"
+        },
+        "Waterskin": {
+          "name": "Cantimplora"
+        },
+        "Water (Pint)": {
+          "name": "Agua (Pinta)",
+          "activities": {
+            "Consume": {
+              "name": "Consumir"
+            }
+          }
+        },
+        "Sorcerer": {
+          "name": "Hechicero"
+        },
+        "Dancing Lights": {
+          "name": "Luces Danzantes",
+          "activities": {
+            "Create Lights": {
+              "name": "Crear Luces"
+            },
+            "Move Lights": {
+              "name": "Mover Luces"
+            }
+          }
+        },
+        "Spellcasting": {
+          "name": "Lanzamiento de Conjuros"
+        },
+        "Innate Sorcery": {
+          "name": "Hechicería Innata",
+          "activities": {
+            "Innate Sorcery": {
+              "name": "Hechicería Innata"
+            }
+          },
+          "effects": {
+            "Innate Sorcery": {
+              "name": "Hechicería Innata"
+            }
+          }
+        }
+      }
+    },
+    "Sphinx of Wonder": {
+      "name": "Esfinge de las Maravillas",
+      "tokenName": "Esfinge de las Maravillas",
+      "items": {
+        "Magic Resistance": {
+          "name": "Resistencia a la Magia"
+        },
+        "Rend": {
+          "name": "Desgarrar"
+        },
+        "Burst of Ingenuity": {
+          "name": "Arranque de Ingenio"
+        }
+      }
+    },
+    "Spider": {
+      "name": "Araña",
+      "tokenName": "Araña",
+      "items": {
+        "Spider Climb": {
+          "name": "Trepar cual Arácnido"
+        },
+        "Web Walker": {
+          "name": "Caminante de Telarañas"
+        },
+        "Bite": {
+          "name": "Mordisco"
+        }
+      }
+    },
+    "Spiritual Weapon": {
+      "name": "Arma Espiritual",
+      "tokenName": "Arma Espiritual",
+      "items": {
+        "Move and Attack": {
+          "name": "Mover y Atacar"
+        }
+      }
+    },
+    "Sprite": {
+      "name": "Sílfide",
+      "tokenName": "Sílfide",
+      "items": {
+        "Needle Sword": {
+          "name": "Espada Aguja"
+        },
+        "Enchanting Bow": {
+          "name": "Arco Encantador",
+          "effects": {
+            "Charmed": {
+              "name": "Hechizado"
+            }
+          }
+        },
+        "Heart Sight": {
+          "name": "Visión del Corazón"
+        },
+        "Invisibility": {
+          "name": "Invisibilidad",
+          "activities": {
+            "Cast": {
+              "name": "Lanzar"
+            }
+          }
+        },
+        "lO6diOZO5FReftK6": {
+          "name": "Invisibilidad",
+          "activities": {
+            "Cast": {
+              "name": "Lanzar"
+            }
+          },
+          "effects": {
+            "Invisibility": {
+              "name": "Invisibilidad"
+            }
+          }
+        }
+      }
+    },
+    "Stone Construct Spirit": {
+      "name": "Espíritu Autómata de Piedra",
+      "tokenName": "Espíritu Autómata de Piedra",
+      "items": {
+        "Stony Lethargy": {
+          "name": "Letargo Pétreo",
+          "effects": {
+            "Stony Lethargy": {
+              "name": "Letargo Pétreo"
+            }
+          }
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Slam": {
+          "name": "Golpe"
+        }
+      }
+    },
+    "Tiger": {
+      "name": "Tigre",
+      "tokenName": "Tigre",
+      "items": {
+        "Rend": {
+          "name": "Desgarrar",
+          "effects": {
+            "Prone": {
+              "name": "Derribado"
+            }
+          }
+        },
+        "Nimble Escape": {
+          "name": "Escape Ágil",
+          "activities": {
+            "Expend Use": {
+              "name": "Gastar Uso"
+            }
+          },
+          "effects": {
+            "Apply Hide Action to Target": {
+              "name": "Aplicar Acción de Esconderse al Objetivo"
+            }
+          }
+        }
+      }
+    },
+    "Tricksy Fey Spirit": {
+      "name": "Espíritu Feérico Travieso",
+      "tokenName": "Espíritu Feérico Travieso",
+      "items": {
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Fey Blade": {
+          "name": "Hoja Feérica"
+        },
+        "Fey Step": {
+          "name": "Paso Feérico",
+          "activities": {
+            "Teleport and Shroud": {
+              "name": "Teletransportar y Cubrir"
+            }
+          }
+        }
+      }
+    },
+    "Undead Spirit": {
+      "name": "Espíritu Muerto Viviente",
+      "tokenName": "Espíritu Muerto Viviente",
+      "items": {
+        "Festering Aura": {
+          "name": "Aura Pútrida",
+          "effects": {
+            "Poisoned": {
+              "name": "Envenenado"
+            }
+          }
+        },
+        "Incorporeal Passage": {
+          "name": "Paso Incorpóreo"
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Deathly Touch": {
+          "name": "Toque Mortal",
+          "effects": {
+            "Frightened": {
+              "name": "Asustado"
+            }
+          }
+        },
+        "Grave Bolt": {
+          "name": "Saeta Sepulcral"
+        },
+        "Rotting Claw": {
+          "name": "Garra Putrefacta",
+          "effects": {
+            "Paralyzed": {
+              "name": "Paralizado"
+            }
+          }
+        }
+      }
+    },
+    "Unseen Servant": {
+      "name": "Sirviente Invisible",
+      "tokenName": "Sirviente Invisible",
+      "items": {}
+    },
+    "Venomous Snake": {
+      "name": "Serpiente Venenosa",
+      "tokenName": "Serpiente Venenosa",
+      "items": {
+        "Bite": {
+          "name": "Mordisco"
+        }
+      }
+    },
+    "Warhorse": {
+      "name": "Caballo de Guerra",
+      "tokenName": "Caballo de Guerra",
+      "items": {
+        "Hooves": {
+          "name": "Pezuñas",
+          "activities": {
+            "Charging Attack": {
+              "name": "Ataque de Carga"
+            }
+          }
+        }
+      }
+    },
+    "Warlock": {
+      "name": "Brujo",
+      "tokenName": "Brujo",
+      "items": {
+        "Acolyte": {
+          "name": "Acólito"
+        },
+        "Magic Initiate": {
+          "name": "Iniciado en la Magia"
+        },
+        "Calligrapher’s Supplies": {
+          "name": "Útiles de Caligrafía"
+        },
+        "Book of Prayers": {
+          "name": "Libro de Oraciones"
+        },
+        "Reliquary": {
+          "name": "Relicario"
+        },
+        "Parchment": {
+          "name": "Pergamino"
+        },
+        "Robe": {
+          "name": "Túnica"
+        },
+        "Gnome, Rock": {
+          "name": "Gnomo, de las Rocas"
+        },
+        "Gnomish Cunning": {
+          "name": "Astucia Gnoma"
+        },
+        "Gnomish Lineage, Rock": {
+          "name": "Linaje Gnomo, de las Rocas"
+        },
+        "Mending": {
+          "name": "Reparar",
+          "activities": {
+            "Cast": {
+              "name": "Lanzar"
+            }
+          }
+        },
+        "Prestidigitation": {
+          "name": "Prestidigitación",
+          "activities": {
+            "Cast": {
+              "name": "Lanzar"
+            }
+          }
+        },
+        "Leather Armor": {
+          "name": "Armadura de Cuero"
+        },
+        "Sickle": {
+          "name": "Hoz"
+        },
+        "Dagger": {
+          "name": "Daga"
+        },
+        "Orb": {
+          "name": "Orbe"
+        },
+        "Book of Occult Lore": {
+          "name": "Libro de Saber Oculto"
+        },
+        "Sacred Flame": {
+          "name": "Llama Sagrada",
+          "activities": {
+            "Cast": {
+              "name": "Lanzar"
+            }
+          }
+        },
+        "Bane": {
+          "name": "Perdición",
+          "activities": {
+            "Cast": {
+              "name": "Lanzar"
+            },
+            "Free Cast (1/day)": {
+              "name": "Lanzamiento Gratuito (1/día)"
+            }
+          },
+          "effects": {
+            "Bane": {
+              "name": "Perdición"
+            }
+          }
+        },
+        "Eldritch Blast": {
+          "name": "Descarga Sobrenatural"
+        },
+        "Blade Ward": {
+          "name": "Guardia de Cuchillas",
+          "activities": {
+            "Cast": {
+              "name": "Lanzar"
+            }
+          }
+        },
+        "Charm Person": {
+          "name": "Hechizar Persona",
+          "effects": {
+            "Charmed": {
+              "name": "Hechizado"
+            }
+          }
+        },
+        "Hex": {
+          "name": "Maleficio",
+          "activities": {
+            "Bonus Hex Damage": {
+              "name": "Daño Adicional por Maleficio"
+            },
+            "Place Curse": {
+              "name": "Imponer Maldición"
+            }
+          },
+          "effects": {
+            "Hexed Strength": {
+              "name": "Fuerza Maldecida"
+            },
+            "Hexed Dexterity": {
+              "name": "Destreza Maldecida"
+            },
+            "Hexed Constitution": {
+              "name": "Constitución Maldecida"
+            },
+            "Hexed Intelligence": {
+              "name": "Inteligencia Maldecida"
+            },
+            "Hexed Wisdom": {
+              "name": "Sabiduría Maldecida"
+            },
+            "Hexed Charisma": {
+              "name": "Carisma Maldecido"
+            }
+          }
+        },
+        "Book of Shadows": {
+          "name": "Libro de las Sombras"
+        },
+        "Comprehend Languages": {
+          "name": "Entender Idiomas",
+          "activities": {
+            "Cast": {
+              "name": "Lanzar"
+            }
+          },
+          "effects": {
+            "Comprehension": {
+              "name": "Entendimiento"
+            }
+          }
+        },
+        "Find Familiar": {
+          "name": "Encontrar Familiar"
+        },
+        "Toll the Dead": {
+          "name": "Tañido por los Muertos",
+          "activities": {
+            "Healthy Target": {
+              "name": "Objetivo Sano"
+            },
+            "Damaged Target": {
+              "name": "Objetivo Dañado"
+            }
+          }
+        },
+        "Mind Sliver": {
+          "name": "Fragmento Mental",
+          "effects": {
+            "Slivered": {
+              "name": "Fragmentado"
+            }
+          }
+        },
+        "Guidance": {
+          "name": "Guía",
+          "activities": {
+            "Cast": {
+              "name": "Lanzar"
+            }
+          },
+          "effects": {
+            "Acrobatic Guidance": {
+              "name": "Guía Acrobacias"
+            },
+            "Animal Handling Guidance": {
+              "name": "Guía Trato con Animales"
+            },
+            "Arcana Guidance": {
+              "name": "Guía Conocimiento Arcano"
+            },
+            "Athletic Guidance": {
+              "name": "Guía Atletismo"
+            },
+            "Deception Guidance": {
+              "name": "Guía Engaño"
+            },
+            "History Guidance": {
+              "name": "Guía Historia"
+            },
+            "Insight Guidance": {
+              "name": "Guía Perspicacia"
+            },
+            "Investigation Guidance": {
+              "name": "Guía Investigación"
+            },
+            "Intimidation Guidance": {
+              "name": "Guía Intimidación"
+            },
+            "Medicine Guidance": {
+              "name": "Guía Medicina"
+            },
+            "Nature Guidance": {
+              "name": "Guía Naturaleza"
+            },
+            "Persuasion Guidance": {
+              "name": "Guía Persuasión"
+            },
+            "Perception Guidance": {
+              "name": "Guía Percepción"
+            },
+            "Performance Guidance": {
+              "name": "Guía Interpretación"
+            },
+            "Religion Guidance": {
+              "name": "Guía Religión"
+            },
+            "Sleight of Hand Guidance": {
+              "name": "Guía Juego de Manos"
+            },
+            "Stealth Guidance": {
+              "name": "Guía Sigilo"
+            },
+            "Survival Guidance": {
+              "name": "Guía Supervivencia"
+            }
+          }
+        },
+        "Scholar’s Pack": {
+          "name": "Equipo de Erudito"
+        },
+        "Lamp": {
+          "name": "Lámpara",
+          "activities": {
+            "Light": {
+              "name": "Luz"
+            }
+          }
+        },
+        "Ink": {
+          "name": "Tinta"
+        },
+        "Oil": {
+          "name": "Aceite",
+          "activities": {
+            "Throw": {
+              "name": "Lanzar"
+            },
+            "Douse Space": {
+              "name": "Empapar un Espacio"
+            }
+          }
+        },
+        "Tinderbox": {
+          "name": "Yesquero",
+          "activities": {
+            "Light": {
+              "name": "Luz"
+            }
+          }
+        },
+        "Book": {
+          "name": "Libro"
+        },
+        "Ink Pen": {
+          "name": "Pluma para Escribir"
+        },
+        "Warlock": {
+          "name": "Brujo"
+        },
+        "Eldritch Invocations": {
+          "name": "Invocaciones Sobrenaturales"
+        },
+        "Pact Magic": {
+          "name": "Magia del Pacto"
+        },
+        "Pact of the Tome": {
+          "name": "Pacto del Tomo"
+        }
+      }
+    },
+    "Water Elemental Spirit": {
+      "name": "Espíritu Elemental del Agua",
+      "tokenName": "Espíritu Elemental del Agua",
+      "items": {
+        "Amorphous Form": {
+          "name": "Forma Amorfa"
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Slam": {
+          "name": "Golpe"
+        }
+      }
+    },
+    "Weasel": {
+      "name": "Comadreja",
+      "tokenName": "Comadreja",
+      "items": {
+        "Bite": {
+          "name": "Mordisco"
+        }
+      }
+    },
+    "Wizard": {
+      "name": "Mago",
+      "tokenName": "Mago",
+      "items": {
+        "Scribe": {
+          "name": "Escriba"
+        },
+        "Skilled": {
+          "name": "Habilidoso"
+        },
+        "Calligrapher’s Supplies": {
+          "name": "Útiles de Caligrafía"
+        },
+        "Fine Clothes": {
+          "name": "Ropas de Calidad"
+        },
+        "Lamp": {
+          "name": "Lámpara",
+          "activities": {
+            "Light": {
+              "name": "Luz"
+            }
+          }
+        },
+        "Oil": {
+          "name": "Aceite",
+          "activities": {
+            "Throw": {
+              "name": "Lanzar"
+            },
+            "Douse Space": {
+              "name": "Empapar un Espacio"
+            }
+          }
+        },
+        "Parchment": {
+          "name": "Pergamino"
+        },
+        "Aasimar": {
+          "name": "Aasimar"
+        },
+        "Celestial Resistance": {
+          "name": "Resistencia Celestial"
+        },
+        "Healing Hands": {
+          "name": "Manos Curativas"
+        },
+        "Light Bearer": {
+          "name": "Portador de Luz"
+        },
+        "Light": {
+          "name": "Luz",
+          "activities": {
+            "Cast": {
+              "name": "Lanzar"
+            }
+          }
+        },
+        "Dagger": {
+          "name": "Daga"
+        },
+        "Robe": {
+          "name": "Túnica"
+        },
+        "Scholar’s Pack": {
+          "name": "Equipo de Erudito"
+        },
+        "Mage Hand": {
+          "name": "Mano de Mago"
+        },
+        "Ray of Frost": {
+          "name": "Rayo de Escarcha",
+          "effects": {
+            "Reduced Movement": {
+              "name": "Movimiento Reducido"
+            }
+          }
+        },
+        "Acid Splash": {
+          "name": "Salpicadura Ácida"
+        },
+        "Detect Magic": {
+          "name": "Detectar Magia",
+          "activities": {
+            "Cast": {
+              "name": "Lanzar"
+            }
+          },
+          "effects": {
+            "Detection": {
+              "name": "Detección"
+            }
+          }
+        },
+        "Feather Fall": {
+          "name": "Caída de Pluma"
+        },
+        "Mage Armor": {
+          "name": "Armadura de Mago",
+          "activities": {
+            "Cast": {
+              "name": "Lanzar"
+            }
+          },
+          "effects": {
+            "Mage Armor": {
+              "name": "Armadura de Mago"
+            }
+          }
+        },
+        "Magic Missile": {
+          "name": "Proyectil Mágico",
+          "activities": {
+            "Cast": {
+              "name": "Lanzar"
+            }
+          }
+        },
+        "Sleep": {
+          "name": "Dormir",
+          "effects": {
+            "Sleeping": {
+              "name": "Durmiendo"
+            }
+          }
+        },
+        "Thunderwave": {
+          "name": "Ola Atronadora"
+        },
+        "Staff": {
+          "name": "Bastón"
+        },
+        "Book": {
+          "name": "Libro"
+        },
+        "Ink": {
+          "name": "Tinta"
+        },
+        "Ink Pen": {
+          "name": "Pluma para Escribir"
+        },
+        "Tinderbox": {
+          "name": "Yesquero",
+          "activities": {
+            "Light": {
+              "name": "Luz"
+            }
+          }
+        },
+        "Wizard": {
+          "name": "Mago"
+        },
+        "Spellcasting": {
+          "name": "Lanzamiento de Conjuros"
+        },
+        "Ritual Adept": {
+          "name": "Adepto Ritual"
+        },
+        "Arcane Recovery": {
+          "name": "Recuperación Arcana"
+        }
+      }
+    },
+    "Wolf": {
+      "name": "Lobo",
+      "tokenName": "Lobo",
+      "items": {
+        "Pack Tactics": {
+          "name": "Tácticas de Manada"
+        },
+        "Bite": {
+          "name": "Mordisco"
+        }
+      }
+    },
+    "Yugoloth Spirit": {
+      "name": "Espíritu Yugoloth",
+      "tokenName": "Espíritu Yugoloth",
+      "items": {
+        "Magic Resistance": {
+          "name": "Resistencia a la Magia"
+        },
+        "Multiattack": {
+          "name": "Ataque Múltiple",
+          "activities": {
+            "Activate": {
+              "name": "Activar"
+            }
+          }
+        },
+        "Claws": {
+          "name": "Garras",
+          "activities": {
+            "Attack and Teleport": {
+              "name": "Atacar y Teletransportar"
+            }
+          }
+        }
+      }
+    },
+    "Zombie": {
+      "name": "Zombi",
+      "tokenName": "Zombi",
+      "items": {
+        "Undead Fortitude": {
+          "name": "Fortaleza de Muerto Viviente"
+        },
+        "Slam": {
+          "name": "Golpe"
+        }
+      }
+    },
+    "phbmobGiantSpide": {
+      "name": "Araña Gigante",
+      "tokenName": "Araña Gigante",
+      "items": {
+        "Spider Climb": {
+          "name": "Trepar cual Arácnido"
+        },
+        "Web Walker": {
+          "name": "Caminante de Telarañas"
+        },
+        "Bite": {
+          "name": "Mordisco"
+        },
+        "Web": {
+          "name": "Telaraña"
+        }
+      }
+    }
+  }
 }

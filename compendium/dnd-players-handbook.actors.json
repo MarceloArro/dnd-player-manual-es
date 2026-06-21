@@ -1027,7 +1027,8 @@
       "tokenName": "Jabalí",
       "items": {
         "Bloodied Fury": {
-          "name": "Furia Ensangrentada"
+          "name": "Furia Ensangrentada",
+          "description": "<p> Mientras esté Ensangrentado, el jabalí tiene Ventaja en las tiradas de ataque.</p>"
         },
         "Gore": {
           "name": "Cornada",
@@ -1078,7 +1079,8 @@
       "tokenName": "Gato",
       "items": {
         "Jumper": {
-          "name": "Saltador"
+          "name": "Saltador",
+          "description": "<p>La distancia de salto del gato se determina usando su Destreza en lugar de su Fuerza.</p>"
         },
         "Scratch": {
           "name": "Arañazo",
@@ -1449,7 +1451,8 @@
             "Restrained": {
               "name": "Apresado"
             }
-          }
+          },
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureEle caption=false]</p>"
         }
       }
     },
@@ -1481,7 +1484,8 @@
             "Restrained": {
               "name": "Apresado"
             }
-          }
+          },
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureEle caption=false]</p>"
         }
       }
     },
@@ -1500,7 +1504,8 @@
             "Frightened": {
               "name": "Asustado"
             }
-          }
+          },
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureFey caption=false]</p>"
         }
       }
     },
@@ -1522,7 +1527,8 @@
             "Restrained": {
               "name": "Apresado"
             }
-          }
+          },
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureEle caption=false]</p>"
         }
       }
     },
@@ -1544,7 +1550,8 @@
             "Restrained": {
               "name": "Apresado"
             }
-          }
+          },
+          "description": "<p>@Embed[Compendium.dnd-players-handbook.spells.Item.phbsplConjureEle caption=false]</p>"
         }
       }
     },
@@ -1613,7 +1620,8 @@
       "tokenName": "Cangrejo",
       "items": {
         "Amphibious": {
-          "name": "Anfibia"
+          "name": "Anfibia",
+          "description": "<p> El cangrejo puede respirar aire y agua.</p>"
         },
         "Claw": {
           "name": "Garra",
@@ -1626,7 +1634,8 @@
       "tokenName": "Cocodrilo",
       "items": {
         "Hold Breath": {
-          "name": "Aguantar la Respiración"
+          "name": "Aguantar la Respiración",
+          "description": "<p>El cocodrilo puede contener la respiración durante 1 hora.</p>"
         },
         "Bite": {
           "name": "Mordisco",
@@ -1749,7 +1758,8 @@
       "tokenName": "Huargo",
       "items": {
         "Pack Tactics": {
-          "name": "Tácticas de Manada"
+          "name": "Tácticas de Manada",
+          "description": "<p>El huargo tiene Ventaja en una tirada de ataque contra una criatura si al menos uno de los aliados del huargo está a 1,5 m (5 pies) de la criatura y ese aliado no tiene el estado Incapacitado.</p>"
         },
         "Bite": {
           "name": "Mordisco",
@@ -2501,10 +2511,12 @@
       "tokenName": "Rana",
       "items": {
         "Amphibious": {
-          "name": "Anfibia"
+          "name": "Anfibia",
+          "description": "<p> La rana puede respirar aire y agua.</p>"
         },
         "Standing Leap": {
-          "name": "Salto sin Carrera"
+          "name": "Salto sin Carrera",
+          "description": "<p>El Salto de Longitud de la rana es de hasta 3 m (10 pies) y su Salto de Altura de hasta 1,5 m (5 pies), con o sin carrera.</p>"
         },
         "Bite": {
           "name": "Mordisco",
@@ -2615,7 +2627,8 @@
       "tokenName": "Cangrejo Gigante",
       "items": {
         "Amphibious": {
-          "name": "Anfibia"
+          "name": "Anfibia",
+          "description": "<p> El cangrejo puede respirar aire y agua.</p>"
         },
         "Claw": {
           "name": "Garra",
@@ -2684,7 +2697,8 @@
       "tokenName": "Caballito de Mar Gigante",
       "items": {
         "Water Breathing": {
-          "name": "Respirar bajo el Agua"
+          "name": "Respirar bajo el Agua",
+          "description": "<p>El caballito de mar solo puede respirar bajo el agua.</p>"
         },
         "Ram": {
           "name": "Carnero",
@@ -2696,7 +2710,8 @@
           "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo: </em>+4, alcance 1,5 m (5 pies). <em>Acierto: </em>9 (2d6 + 2) daño Contundente, o el caballito de mar inflige 11 (2d8 + 2) de daño Contundente si se movió al menos 6 m (20 pies) en línea recta hacia el objetivo justo antes del impacto.</p>"
         },
         "Bubble Dash": {
-          "name": "Carrera Burbujeante"
+          "name": "Carrera Burbujeante",
+          "description": "<p> Mientras esté bajo el agua, el caballito de mar se mueve hasta la mitad de su Velocidad de Nado sin provocar Ataques de Oportunidad.</p>"
         }
       }
     },
@@ -2835,10 +2850,12 @@
       "tokenName": "Diablillo",
       "items": {
         "Devil’s Sight": {
-          "name": "Visión del Diablo"
+          "name": "Visión del Diablo",
+          "description": "<p>La Oscuridad Mágica no impide la Visión en la Oscuridad del diablillo.</p>"
         },
         "Magic Resistance": {
-          "name": "Resistencia a la Magia"
+          "name": "Resistencia a la Magia",
+          "description": "<p> El diablillo tiene Ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "Sting": {
           "name": "Aguijón",
@@ -2865,7 +2882,8 @@
             "Spider Form": {
               "name": "Forma de Araña"
             }
-          }
+          },
+          "description": "<p> El diablillo cambia de forma para parecer una rata (Velocidad 6 m (20 pies)), un cuervo (6 m (20 pies), Volar 18 m (60 pies)) o una araña (6 m (20 pies), Trepar 6 m (20 pies)), o recupera su forma real. Sus características son las mismas en cada forma, salvo su Velocidad. El equipo que lleve puesto o transporte no se transforma.</p>"
         },
         "oHafKbzbqYGiL4i1": {
           "name": "Invisibilidad",
@@ -2898,10 +2916,12 @@
       "tokenName": "León",
       "items": {
         "Pack Tactics": {
-          "name": "Tácticas de Manada"
+          "name": "Tácticas de Manada",
+          "description": "<p>El león tiene Ventaja en una tirada de ataque contra una criatura si al menos uno de los aliados del león está a 1,5 m (5 pies) de la criatura y ese aliado no tiene el estado Incapacitado.</p>"
         },
         "Running Leap": {
-          "name": "Salto con Carrera"
+          "name": "Salto con Carrera",
+          "description": "<p>Con una carrera de 3 m (10 pies), el león puede hacer un Salto de Longitud de hasta 7,5 m (25 pies).</p>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -2932,7 +2952,8 @@
       "tokenName": "Lagarto",
       "items": {
         "Spider Climb": {
-          "name": "Trepar cual Arácnido"
+          "name": "Trepar cual Arácnido",
+          "description": "<p> El lagarto puede trepar por superficies difíciles, incluso por techos, sin necesidad de hacer una prueba de característica.</p>"
         },
         "Bite": {
           "name": "Mordisco",
@@ -3253,7 +3274,8 @@
       "tokenName": "Mula",
       "items": {
         "Beast of Burden": {
-          "name": "Bestia de Carga"
+          "name": "Bestia de Carga",
+          "description": "<p> La mula cuenta como una categoría de tamaño mayor a efectos de determinar su capacidad de carga.</p>"
         },
         "Hooves": {
           "name": "Pezuñas",
@@ -3266,10 +3288,12 @@
       "tokenName": "Pulpo",
       "items": {
         "Compression": {
-          "name": "Compresión"
+          "name": "Compresión",
+          "description": "<p>El pulpo puede moverse a través de un espacio tan estrecho como 2,5 cm (1 pulgada) sin gastar movimiento adicional por ello.</p>"
         },
         "Water Breathing": {
-          "name": "Respirar bajo el Agua"
+          "name": "Respirar bajo el Agua",
+          "description": "<p>El pulpo solo puede respirar bajo el agua.</p>"
         },
         "Ink Cloud": {
           "name": "Nube de Tinta",
@@ -3277,7 +3301,8 @@
             "Obscure Area": {
               "name": "Oscurecer Zona"
             }
-          }
+          },
+          "description": "<p><em>Desencadenante:</em> Una criatura termina su turno a 1,5 m (5 pies) del pulpo mientras está bajo el agua. <em>Respuesta:</em> El pulpo libera tinta que llena un Cubo de 1,5 m (5 pies) centrado en sí mismo, y el pulpo se mueve hasta su Velocidad de Nado. El Cubo está &amp;Reference[heavilyobscured] durante 1 minuto o hasta que una corriente fuerte o un efecto similar disperse la tinta.</p>"
         },
         "Tentacles": {
           "name": "Tentáculos",
@@ -3290,7 +3315,8 @@
       "tokenName": "Búho",
       "items": {
         "Flyby": {
-          "name": "Pasar Volando"
+          "name": "Pasar Volando",
+          "description": "<p> El búho no provoca Ataques de Oportunidad cuando sale volando del alcance de un enemigo.</p>"
         },
         "Talons": {
           "name": "Garras",
@@ -3470,7 +3496,8 @@
             "Apply Hide Action to Target": {
               "name": "Aplicar Acción de Esconderse al Objetivo"
             }
-          }
+          },
+          "description": "<p class=\"feature\">La [[lookup @name lowercase]] realiza la acción de &amp;Reference[Disengage] o &amp;Reference[Hide].</p>"
         }
       }
     },
@@ -3499,7 +3526,8 @@
       "tokenName": "Pseudodragón",
       "items": {
         "Magic Resistance": {
-          "name": "Resistencia a la Magia"
+          "name": "Resistencia a la Magia",
+          "description": "<p> El pseudodragón tiene Ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -3566,7 +3594,8 @@
       "tokenName": "Cuasit",
       "items": {
         "Magic Resistance": {
-          "name": "Resistencia a la Magia"
+          "name": "Resistencia a la Magia",
+          "description": "<p> El cuasit tiene Ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "Rend": {
           "name": "Desgarrar",
@@ -3612,7 +3641,8 @@
             "Toad Form": {
               "name": "Forma de Sapo"
             }
-          }
+          },
+          "description": "<p> El cuasit cambia de forma para parecer un murciélago (Velocidad 3 m (10 pies), Volar 12 m (40 pies)), un ciempiés (12 m (40 pies), Trepar 12 m (40 pies)) o un sapo (12 m (40 pies), Nadar 12 m (40 pies)), o recupera su forma real. Sus características son las mismas en cada forma, salvo su Velocidad. El equipo que lleve puesto o transporte no se transforma.</p>"
         },
         "7wNdT95XqhyGOpBd": {
           "name": "Invisibilidad",
@@ -3854,7 +3884,8 @@
       "tokenName": "Rata",
       "items": {
         "Agile": {
-          "name": "Ágil"
+          "name": "Ágil",
+          "description": "<p> La rata no provoca Ataques de Oportunidad cuando sale del alcance de un enemigo.</p>"
         },
         "Bite": {
           "name": "Mordisco",
@@ -3867,7 +3898,8 @@
       "tokenName": "Cuervo",
       "items": {
         "Mimicry": {
-          "name": "Imitación"
+          "name": "Imitación",
+          "description": "<p>El cuervo puede imitar sonidos simples que haya oído, como un susurro o un parloteo. Quien lo oiga puede discernir que los sonidos son imitaciones con una [[/check skill=ins dc=10]] con éxito.</p>"
         },
         "Beak": {
           "name": "Pico",
@@ -3880,10 +3912,12 @@
       "tokenName": "Tiburón de Arrecife",
       "items": {
         "Pack Tactics": {
-          "name": "Tácticas de Manada"
+          "name": "Tácticas de Manada",
+          "description": "<p>El tiburón tiene Ventaja en una tirada de ataque contra una criatura si al menos uno de los aliados del tiburón está a 1,5 m (5 pies) de la criatura y ese aliado no tiene el estado Incapacitado.</p>"
         },
         "Water Breathing": {
-          "name": "Respirar bajo el Agua"
+          "name": "Respirar bajo el Agua",
+          "description": "<p>El tiburón solo puede respirar bajo el agua.</p>"
         },
         "Bite": {
           "name": "Mordisco",
@@ -4169,7 +4203,8 @@
       "tokenName": "Renacuajo Slaad",
       "items": {
         "Magic Resistance": {
-          "name": "Resistencia a la Magia"
+          "name": "Resistencia a la Magia",
+          "description": "<p> El slaad tiene Ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "Bite": {
           "name": "Mordisco",
@@ -4401,7 +4436,8 @@
       "tokenName": "Esfinge de las Maravillas",
       "items": {
         "Magic Resistance": {
-          "name": "Resistencia a la Magia"
+          "name": "Resistencia a la Magia",
+          "description": "<p> La esfinge tiene Ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "Rend": {
           "name": "Desgarrar",
@@ -4418,10 +4454,12 @@
       "tokenName": "Araña",
       "items": {
         "Spider Climb": {
-          "name": "Trepar cual Arácnido"
+          "name": "Trepar cual Arácnido",
+          "description": "<p>La araña puede trepar por superficies difíciles, incluso por techos, sin necesidad de hacer una prueba de característica.</p>"
         },
         "Web Walker": {
-          "name": "Caminante de Telarañas"
+          "name": "Caminante de Telarañas",
+          "description": "<p> La araña ignora las restricciones de movimiento causadas por las telarañas y conoce la ubicación de cualquier otra criatura en contacto con la misma telaraña.</p>"
         },
         "Bite": {
           "name": "Mordisco",
@@ -4523,7 +4561,8 @@
             "Prone": {
               "name": "Derribado"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Grande o más pequeña, tiene el estado &amp;Reference[Prone apply=false].</p>"
         },
         "Nimble Escape": {
           "name": "Escape Ágil",
@@ -4536,7 +4575,8 @@
             "Apply Hide Action to Target": {
               "name": "Aplicar Acción de Esconderse al Objetivo"
             }
-          }
+          },
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] realiza la acción de &amp;Reference[Disengage] o &amp;Reference[Hide].</p>"
         }
       }
     },
@@ -5202,7 +5242,8 @@
       "tokenName": "Lobo",
       "items": {
         "Pack Tactics": {
-          "name": "Tácticas de Manada"
+          "name": "Tácticas de Manada",
+          "description": "<p>El lobo tiene Ventaja en las tiradas de ataque contra una criatura si al menos uno de los aliados del lobo está a 1,5 m (5 pies) de la criatura y ese aliado no tiene el estado Incapacitado.</p>"
         },
         "Bite": {
           "name": "Mordisco",
@@ -5243,7 +5284,8 @@
       "tokenName": "Zombi",
       "items": {
         "Undead Fortitude": {
-          "name": "Fortaleza de Muerto Viviente"
+          "name": "Fortaleza de Muerto Viviente",
+          "description": "<p> Si un daño reduce al zombi a 0 Puntos de Golpe, debe hacer una tirada de salvación de Constitución con una CD de 5 más el daño sufrido, a menos que el daño sea Radiante o provenga de un Golpe Crítico. Si tiene éxito en la salvación, el zombi pasa a 1 Punto de Golpe en su lugar.</p>"
         },
         "Slam": {
           "name": "Golpe",
@@ -5256,10 +5298,12 @@
       "tokenName": "Araña Gigante",
       "items": {
         "Spider Climb": {
-          "name": "Trepar cual Arácnido"
+          "name": "Trepar cual Arácnido",
+          "description": "<p> La araña puede trepar por superficies difíciles, incluso por techos, sin necesidad de hacer una prueba de característica.</p>"
         },
         "Web Walker": {
-          "name": "Caminante de Telarañas"
+          "name": "Caminante de Telarañas",
+          "description": "<p> La araña ignora las restricciones de movimiento causadas por las telarañas y conoce la ubicación de cualquier otra criatura en contacto con la misma telaraña.</p>"
         },
         "Bite": {
           "name": "Mordisco",

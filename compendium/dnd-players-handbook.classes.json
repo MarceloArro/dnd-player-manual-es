@@ -1227,7 +1227,7 @@
     },
     "Cunning Action": {
       "name": "Acción Astuta",
-      "description": "<p>Tu agilidad y rapidez te permiten moverte y actuar rápidamente. Puedes usar una acción adicional en cada uno de tus turnos en combate para realizar la acción de Tablero, Desconexión o Esconderse.</p>",
+      "description": "<p>Tu pensamiento rápido y tu agilidad te permiten moverte y actuar con rapidez. En tu turno, puedes llevar a cabo una de las siguientes acciones con una Acción Adicional: &amp;Reference[Dash], &amp;Reference[Disengage] o &amp;Reference[Hide].</p>",
       "activities": {
         "Dash": {
           "name": "Correr"
@@ -1399,7 +1399,7 @@
     },
     "Devious Strikes": {
       "name": "Golpes Traicioneros",
-      "description": "<p>Si usas tu rasgo de Ataque Furtivo en tu turno, puedes reemplazar el efecto de Ataque Furtivo con una de las siguientes opciones especiales de tu elección:</p><p><strong>Confundir.</strong> El objetivo debe tener éxito en una tirada de salvación de Constitución o tendrá desventaja en tiradas de ataque hasta el inicio de tu próximo turno.</p><p><strong>Desarmar.</strong> El objetivo debe tener éxito en una tirada de salvación de Destreza o deja caer un objeto que esté sosteniendo de tu elección. El objeto aterriza en un espacio a 3 metros del objetivo en una dirección de tu elección.</p><p><strong>Empujar.</strong> El objetivo debe tener éxito en una tirada de salvación de Fuerza o es empujado hasta 4,5 metros en la dirección de tu elección.</p><p><strong>Tropezar.</strong> El objetivo debe tener éxito en una tirada de salvación de Destreza o cae derribado.</p><p>La CD de salvación es igual a 8 + tu bonificador por competencia + tu modificador por Destreza.</p><section class=\"secret\" id=\"secret-1jUuw8B9GvVx5ctH\"><p><strong>Nota Foundry</strong></p><p>Después de usar los efectos de Golpe Astuto, usa el/la [[/item Cunning Strike activity=Cunning Sneak Ataque]]{Cunning Sneak Ataque} activity. It prompt Tú/Usted a select how many dice Tú/Usted expended en efectos y deduct them de tu Sneak Ataque roll automáticamente.</p><p>Puedes control el/la daño type en el/la daño roll dialog box.</p><p>Lactividad \\<strong\\>Daze\\</strong\\> incluye un Efecto Activo por tracking el/la dazed objetivo but it does not automate el efecto.</p><p>Lactividad \\<strong\\>Knock Out\\</strong\\> incluye un Efecto Activo que applies el/la Unconscious condición.</p><p>Lactividad \\<strong\\>Obscure\\</strong\\> incluye un Efecto Activo que applies el/la Blinded condición.</p></section>",
+      "description": "<p>Has practicado nuevas formas de usar tu Ataque Furtivo de manera artera. Los siguientes efectos están ahora entre tus opciones de Golpe Astuto.</p><p><strong>Aturdir (Coste: 2d6).</strong> El objetivo debe superar una tirada de salvación de Constitución o, en su siguiente turno, solo podrá hacer una de las siguientes cosas: moverse, llevar a cabo una acción o una Acción Adicional.</p><p><strong>Noquear (Coste: 6d6).</strong> El objetivo debe superar una tirada de salvación de Constitución o tendrá el estado de &amp;Reference[Unconscious] durante 1 minuto o hasta que sufra cualquier daño. El objetivo Inconsciente repite la salvación al final de cada uno de sus turnos y termina el efecto sobre sí mismo si tiene éxito.</p><p><strong>Ofuscar (Coste: 3d6).</strong> El objetivo debe superar una tirada de salvación de Destreza o tendrá el estado de &amp;Reference[Blinded] hasta el final de su siguiente turno.</p><section class=\"secret\" id=\"secret-1jUuw8B9GvVx5ctH\"><p><strong>Nota Foundry</strong></p><p>Tras usar los efectos de Golpe Astuto, usa la actividad [[/item Cunning Strike activity=Cunning Sneak Attack]]{Ataque Furtivo Astuto}. Te pedirá que selecciones cuántos dados gastaste en efectos y los descontará automáticamente de tu tirada de Ataque Furtivo.</p><p>Puedes controlar el tipo de daño en el diálogo de la tirada de daño.</p><p>La actividad <strong>Daze</strong> incluye un Efecto Activo para llevar la cuenta del objetivo aturdido, pero no automatiza el efecto.</p><p>La actividad <strong>Knock Out</strong> incluye un Efecto Activo que aplica el estado de Inconsciente.</p><p>La actividad <strong>Obscure</strong> incluye un Efecto Activo que aplica el estado de Cegado.</p></section>",
       "activities": {
         "Daze": {
           "name": "Aturdir",
@@ -1925,7 +1925,7 @@
     },
     "Envenom Weapons": {
       "name": "Envenenar Armas",
-      "description": "<p>Cuando realizas la acción de Ataque, puedes usar una acción adicional para producir un veneno viscoso y cubrirlo en un arma cuerpo a cuerpo o tres municiones. El veneno retiene su potencia durante 1 minuto. La próxima vez que golpees con ese arma o munición, el objetivo recibe 2d6 de daño por veneno adicional.</p><p>Puedes usar esta característica un número de veces igual a Puedes usar este rasgo un número de veces igual a tu bonificador por competencia, y recuperas todos los usos gastados cuando finalices un descanso largo.</p><section class=\"secret\" id=\"secret-JI5zawKdS8pQDlYO\"><p><strong>Nota Foundry</strong></p><p>The <strong>Poison</strong> activity en Este rasgo incluye la salvación y poison daño.</p><p>Alternatively, puedes uso el/la inline roll above si've already usod el/la original activity.</p><p><strong>Important:</strong> This daño does not automáticamente bypass resistances so ensure el/la correct daño is being applied.</p></section>",
+      "description": "<p>Cuando usas la opción [[/item Cunning Strike activity=\"Poison\"]]{Veneno} de tu Golpe Astuto, el objetivo también sufre [[/damage 2d6 poison]] de daño siempre que falle la tirada de salvación. Este daño ignora la Resistencia al daño de Veneno.</p><section class=\"secret\" id=\"secret-JI5zawKdS8pQDlYO\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Poison</strong> de este rasgo incluye la salvación y el daño de veneno.</p><p>Como alternativa, puedes usar la tirada en línea de arriba si ya has usado la actividad original.</p><p><strong>Importante:</strong> este daño no ignora automáticamente las resistencias, así que asegúrate de que se aplica el daño correcto.</p></section>",
       "activities": {
         "Poison": {
           "name": "Veneno",
@@ -2625,7 +2625,7 @@
     },
     "Improved Cunning Strike": {
       "name": "Golpe Astuto Mejorado",
-      "description": "<p>Puedes usar hasta dos efectos de Golpe Astuto cuando usas tu Ataque Furtivo, pagando el costo de Dados de Ataque Furtivo para cada uno.</p><section id=\"secret-2sYhqPGq8Z5fwBvZ\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo existe solo para documentación. No tiene efecto mecánico.</p></section>"
+      "description": "<p>Puedes usar hasta dos efectos de Golpe Astuto cuando infliges daño de Ataque Furtivo, pagando el coste en dados de cada efecto.</p><section class=\"secret\" id=\"secret-8yelsP7k8fXkEA5W\"><p><strong>Nota Foundry</strong></p><p>Tras usar los efectos de Golpe Astuto, usa la actividad [[/item Cunning Strike activity=Cunning Sneak Attack]]{Ataque Furtivo Astuto}. Te pedirá que selecciones cuántos dados gastaste en efectos y los descontará automáticamente de tu tirada de Ataque Furtivo.</p><p>Puedes controlar el tipo de daño en el diálogo de la tirada de daño.</p></section>"
     },
     "Improved Duplicity": {
       "name": "Duplicidad Mejorada",
@@ -2677,7 +2677,7 @@
     },
     "Infiltration Expertise": {
       "name": "Pericia en Infiltración",
-      "description": "<p>Puedes crear de forma infalible identidades falsas para ti mismo. Debes pasar siete días y 25 PO para establecer la historia, profesión y afiliaciones de una identidad. No puedes establecer una identidad que pertenezca a alguien más. Por ejemplo, podrías adquirir ropa apropiada, cartas de presentación y documentos con aspecto oficial para establecerte como un miembro de una casa comercial desde una ciudad remota para que puedas infiltrarte en la compañía de otros mercaderes ricos.</p><p>A partir de entonces, si adoptas la nueva identidad como disfraz, otras criaturas creen que eres esa persona hasta que se les dé una razón obvia para no hacerlo.</p>"
+      "description": "<p>Eres experto en las siguientes técnicas que facilitan tus infiltraciones.</p><p><strong>Mímica Magistral.</strong> Puedes imitar de forma infalible el habla de otra persona, su caligrafía o ambas si has pasado al menos 1 hora estudiándolas.</p><p><strong>Puntería Errante.</strong> Tu Velocidad no se reduce a 0 por usar Puntería Firme.</p>"
     },
     "Innate Sorcery": {
       "name": "Hechicería Innata",
@@ -2948,11 +2948,11 @@
     },
     "Mage Hand Legerdemain": {
       "name": "Juego de Manos con Mano de Mago",
-      "description": "<p>Cuando lanzas Mano de Mago, puedes hacer que la mano espectral sea invisible, y puedes realizar las siguientes tareas adicionales con ella:</p><p>• Puedes guardar un objeto que la mano lleve en un contenedor llevado o portado por otra criatura.</p><p>• Puedes recuperar un objeto en un contenedor llevado o portado por otra criatura.</p><p>• Puedes usar herramientas de ladrón para abrir cerraduras y desarmar trampas a distancia.</p><p>Puedes realizar una de estas tareas sin ser notado por una criatura si tienes éxito en un chequeo de Destreza (Juego de Manos) enfrentado al chequeo de Sabiduría (Perspicacia) de la criatura.</p><p>Además, puedes usar la acción adicional otorgada por tu Acción Astuta para controlar la mano.</p>"
+      "description": "<p>Cuando lanzas <em>Mano de Mago</em>, puedes lanzarla con una Acción Adicional y puedes hacer que la mano espectral sea Invisible. Puedes controlar la mano con una Acción Adicional y, a través de ella, puedes hacer pruebas de [[/skill slt]].</p>"
     },
     "Magical Ambush": {
       "name": "Emboscada Mágica",
-      "description": "<p>Si estás escondido de una criatura cuando lanzas un conjuro sobre ella, la criatura tiene desventaja en cualquier tirada de salvación que haga contra el conjuro en este turno.</p>"
+      "description": "<p>Si tienes el estado de &amp;Reference[Invisible] cuando lanzas un conjuro sobre una criatura, esta tiene Desventaja en cualquier tirada de salvación que haga contra el conjuro en el mismo turno.</p>"
     },
     "Magical Cunning": {
       "name": "Astucia Mágica",
@@ -3806,7 +3806,7 @@
     },
     "Psychic Veil": {
       "name": "Velo Psíquico",
-      "description": "<p>Puedes tejer un velo de energía psíquica alrededor de ti. Como acción, puedes volverte invisible mágicamente, junto con cualquier cosa que lleves o portes, durante 1 hora o hasta que lo descartes (sin acción requerida). Esta invisibilidad termina si haces daño a una criatura o fuerzas a una cricriaturaura a hacer una tirada de salvación.</p><p>Una vez que uses este rasgo, no puedes hacerlo de nuevo hasta que finalices un Descanso Largo, a menos que gastes un espacio de conjuro de nivel 2 o superior para usarlo de nuevo.</p><section class=\"secret\" id=\"secret-MTMHfyyZutKeocHW\"><p><strong>Nota Foundry</strong></p><p>The <strong>Psychic Veil (Free)</strong> activity contains a free uso. El/La <strong>Psychic Veil</strong> activity consumes a Psionic Die. They both include un Efecto Activo que applies el/la Invisible condición.</p></section>",
+      "description": "<p>Puedes tejer un velo de interferencia psíquica para enmascararte. Con una acción de Magia, obtienes el estado de &amp;Reference[Invisible] durante 1 hora o hasta que disipes este efecto (no requiere acción). Esta invisibilidad termina antes inmediatamente después de que inflijas daño a una criatura u obligues a una criatura a hacer una tirada de salvación.</p><p>Una vez usas este rasgo, no puedes volver a hacerlo hasta que termines un Descanso Largo, a menos que gastes un Dado de Energía Psiónica (no requiere acción) para restaurar su uso.</p><section class=\"secret\" id=\"secret-MTMHfyyZutKeocHW\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Psychic Veil (Free)</strong> contiene un uso gratuito. La actividad <strong>Psychic Veil</strong> consume un Dado Psiónico. Ambas incluyen un Efecto Activo que aplica el estado de Invisible.</p></section>",
       "activities": {
         "Psychic Veil (Free)": {
           "name": "Velo Psíquico (Gratis)"
@@ -4248,7 +4248,7 @@
     },
     "Second-Story Work": {
       "name": "Trabajo de Segundo Piso",
-      "description": "<p>Escalar no te cuesta movimiento adicional. Además, cuando haces un salto con carrera, la distancia que cubres aumenta en una cantidad de pies igual a tu modificador por Destreza.</p><section class=\"secret\" id=\"secret-7BCLTkAFUjinYhJw\"><p><strong>Nota Foundry</strong></p><p>Este rasgo does not automáticamente añadas el/la Climb velocidad y have a be added manually.</p></section>"
+      "description": "<p>Te has entrenado para acceder a lugares especialmente difíciles de alcanzar, lo que te otorga estos beneficios.</p><p><strong>Trepador.</strong> Obtienes una Velocidad Trepando igual a tu Velocidad.</p><p><strong>Saltador.</strong> Puedes determinar tu distancia de &amp;Reference[Jumping]{salto} usando tu Destreza en lugar de tu Fuerza.</p><section class=\"secret\" id=\"secret-7BCLTkAFUjinYhJw\"><p><strong>Nota Foundry</strong></p><p>Este rasgo no añade automáticamente la Velocidad Trepando; deberá añadirse manualmente.</p></section>"
     },
     "Seeking Spell": {
       "name": "Conjuro Buscador",
@@ -4350,7 +4350,7 @@
     },
     "Sneak Attack": {
       "name": "Ataque Furtivo",
-      "description": "<p>Sabes cómo atacar sutilmente y explotar la distracción de un enemigo. Una vez por turno, puedes causar 1d6 de daño adicional a una criatura que aciertes con un ataque si tienes ventaja en la tirada de ataque. El ataque debe usar un arma de precisión o a distancia.</p><p>No necesitas ventaja en la tirada de ataque si otro enemigo del objetivo está a 1,5 metros o menos del mismo, ese enemigo no está incapacitado y no tienes desventaja en la tirada de ataque.</p><p>La cantidad de daño adicional aumenta a medida que subes de nivel en esta clase, según se muestra en la columna de Ataque Furtivo de la tabla de Pícaro.</p><section class=\"secret\" id=\"secret-ulLpai4CguAExpmN\"><p><strong>Nota Foundry</strong></p><p>Tu sneak ataque daño automáticamente scale as Tú/Usted level up. Puedes select el/la daño type en el/la daño roll's dialog box.</p></section>"
+      "description": "<p>Sabes golpear con sutileza y aprovechar la distracción de un enemigo. Una vez por turno, puedes infligir 1d6 de daño adicional a una criatura a la que aciertes con una tirada de ataque si tienes Ventaja en la tirada y el ataque usa un arma Sutil o a Distancia. El tipo del daño adicional es el mismo que el del arma.</p><p>No necesitas Ventaja en la tirada de ataque si al menos uno de tus aliados está a 1,5 m (5 pies) o menos del objetivo, ese aliado no tiene el estado de Incapacitado y tú no tienes Desventaja en la tirada de ataque.</p><p>El daño adicional aumenta conforme ganas niveles de Pícaro, como se indica en la columna Ataque Furtivo de la tabla de Rasgos del Pícaro.</p><p><strong>Daño Actual de Ataque Furtivo:</strong> [[lookup @scale.rogue.sneak-attack]]</p><section class=\"secret\" id=\"secret-ulLpai4CguAExpmN\"><p><strong>Nota Foundry</strong></p><p>Tu daño de Ataque Furtivo escalará automáticamente conforme subes de nivel. Puedes seleccionar el tipo de daño en el diálogo de la tirada de daño.</p></section>"
     },
     "Sorcerer": {
       "name": "Hechicero",
@@ -4425,7 +4425,7 @@
     },
     "Soulknife": {
       "name": "Rebanaalmas",
-      "description": "<p><blockquote>Golpea Enemigos con Hojas Psíquicas</blockquote></p><p>Los pícaros que eligen el arquetipo Psychic Blade son conocidos como Soulknife. Su poder psionic les permite manifestar hojas psíquicas de energía mental pura con las que golpear a sus enemigos de cerca o a distancia.</p>",
+      "description": "<blockquote><p>Golpea a tus Enemigos con Hojas Psiónicas</p></blockquote><p>Un Rebanaalmas golpea con la mente, atravesando barreras tanto físicas como psíquicas. Estos Pícaros descubren el poder psiónico en su interior y lo canalizan para hacer su trabajo de pícaros. Como Rebanaalmas, tus capacidades psiónicas pueden haberte atormentado desde la infancia, revelando todo su potencial solo cuando experimentaste el estrés de la aventura. O puede que hayas buscado una orden de adeptos psíquicos y pasado años aprendiendo a manifestar tu poder.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -4576,7 +4576,7 @@
     },
     "Stroke of Luck": {
       "name": "Golpe de Suerte",
-      "description": "<p>Tienes una habilidad sobrenatural para tener éxito cuando lo necesitas. Si tu ataque falla contra un objetivo dentro del alcance, puedes convertir el fallo en un acierto. Alternativamente, si fallas un chequeo de habilidad, puedes tratar el resultado del d20 como un 20.</p><p>Una vez que uses este rasgo, no puedes usarlo de nuevo hasta que finalices un descanso corto o largo.</p>",
+      "description": "<p>Tienes una habilidad maravillosa para tener éxito cuando lo necesitas. Si fallas una Prueba de D20, puedes convertir la tirada en un 20.</p><p>Una vez usas este rasgo, no puedes volver a usarlo hasta que termines un Descanso Corto o Largo.</p>",
       "activities": {
         "Stroke of Luck": {
           "name": "Golpe de Suerte",
@@ -4707,7 +4707,7 @@
     },
     "Supreme Sneak": {
       "name": "Sigilo Supremo",
-      "description": "<p>Tienes ventaja en chequeos de Destreza (Sigilo) si te mueves no más de la mitad de tu velocidad en el mismo turno.</p>"
+      "description": "<p>Obtienes la siguiente opción de Golpe Astuto.</p><p><strong>Ataque Sigiloso (Coste: 1d6).</strong> Si tienes el estado de Invisible de la acción de &amp;Reference[Hide], este ataque no termina ese estado sobre ti si terminas el turno tras &amp;Reference[Three-Quarters Cover] o &amp;Reference[Total Cover].</p>"
     },
     "Survivor": {
       "name": "Superviviente",
@@ -5086,7 +5086,7 @@
     },
     "Use Magic Device": {
       "name": "Usar Objeto Mágico",
-      "description": "<p>Has aprendido lo suficiente sobre el funcionamiento de la magia que puedes improvisar el uso de objetos incluso cuando no están destinados para ti. Ignoras todos los requisitos de clase, raza y nivel en el uso de objetos mágicos.</p><p>Además, puedes usar objetos mágicos que normalmente requerirían el uso de un espacio de conjuro, como varitas o bastones, usando tu propia habilidad innata con objetos mágicos en lugar del lanzamiento de conjuros tradicional.</p><section class=\"secret\" id=\"secret-2tHTpsolDU6Nggvo\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que automáticamente aumenta tu attunement maximum.</p><p>When usando an item property que expends charges roll el/la d6 y uncheck el/la consumption box a uso it por free.</p></section>",
+      "description": "<p>Has aprendido a maximizar el uso de los objetos mágicos, lo que te otorga los siguientes beneficios.</p><p><strong>Sintonización.</strong> Puedes sintonizarte con hasta cuatro objetos mágicos a la vez.</p><p><strong>Cargas.</strong> Siempre que usas una propiedad de un objeto mágico que gasta cargas, tira [[/r 1d6]]. Con un resultado de 6, usas la propiedad sin gastar las cargas.</p><p><strong>Pergaminos.</strong> Puedes usar cualquier <em>Pergamino de Conjuro</em>, usando Inteligencia como tu característica de lanzamiento de conjuros para el conjuro. Si el conjuro es un truco o un conjuro de nivel 1, puedes lanzarlo con fiabilidad. Si el pergamino contiene un conjuro de nivel superior, primero debes superar una prueba de [[/skill arc]] (CD 10 más el nivel del conjuro). Si la prueba tiene éxito, lanzas el conjuro desde el pergamino. Si falla, el pergamino se desintegra.</p><section class=\"secret\" id=\"secret-2tHTpsolDU6Nggvo\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que aumenta automáticamente tu máximo de sintonización.</p><p>Al usar una propiedad de objeto que gasta cargas, tira el d6 y desmarca la casilla de consumo para usarla gratis.</p></section>",
       "effects": {
         "Attunement Bonus": {
           "name": "Bonificación de Sintonización",
@@ -5096,7 +5096,7 @@
     },
     "Versatile Trickster": {
       "name": "Tramposo Versátil",
-      "description": "<p>Obtienes la capacidad de distraer objetivos con tu ilusión de Invocar Duplicidad. Como acción adicional en tu turno, puedes mover la ilusión hasta 9 metros. Cuando tú y tus aliados hacen tiradas de ataque contra una criatura a 1,5 metros de la ilusión, las tiradas de ataque tienen ventaja.</p>"
+      "description": "<p>Obtienes la capacidad de distraer a los objetivos con tu <em>Mano de Mago</em>. Cuando usas la opción [[/item Cunning Strike activity=\"Trip\"]]{Tropezar} de tu Golpe Astuto sobre una criatura, también puedes usar esa opción sobre otra criatura a 1,5 m (5 pies) o menos de la mano espectral.</p>"
     },
     "Visions of Distant Realms": {
       "name": "Visiones de Reinos Distantes",

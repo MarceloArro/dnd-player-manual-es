@@ -2656,7 +2656,7 @@
     },
     "Improved War Magic": {
       "name": "Magia de Guerra Mejorada",
-      "description": "<p>Cuando usas tu acción para lanzar un conjuro, puedes hacer un ataque con arma como acción adicional.</p>"
+      "description": "<p>Cuando llevas a cabo la acción de Atacar en tu turno, puedes reemplazar dos de los ataques por el lanzamiento de uno de tus conjuros de Mago de nivel 1 o nivel 2 que tenga un tiempo de lanzamiento de una acción.</p>"
     },
     "Improved Warding Flare": {
       "name": "Destello Protector Mejorado",
@@ -2664,7 +2664,7 @@
     },
     "Indomitable": {
       "name": "Indomable",
-      "description": "<p>Puedes volver a tirar una tirada de salvación que falles. Si lo haces, debes usar la nueva tirada, y no puedes usar este rasgo de nuevo hasta que finalices un descanso largo.</p><p>Puedes usar este rasgo dos veces entre descansos largos a partir del nivel 13 y tres veces entre descansos largos a partir del nivel 17.</p><section class=\"secret\" id=\"secret-eVLmL8YfOocgD4rC\"><p><strong>Nota Foundry</strong></p><p>Este rasgo's maximum usages scale automáticamente as Tú/Usted level up.</p></section>",
+      "description": "<p>Si fallas una tirada de salvación, puedes repetirla con una bonificación igual a tu nivel de Guerrero (actualmente, [[lookup @classes.fighter.levels]]). Debes usar la nueva tirada y no puedes volver a usar este rasgo hasta que termines un Descanso Largo.</p><p>Puedes usar este rasgo dos veces antes de un Descanso Largo a partir del nivel 13 y tres veces antes de un Descanso Largo a partir del nivel 17.</p><section class=\"secret\" id=\"secret-eVLmL8YfOocgD4rC\"><p><strong>Nota Foundry</strong></p><p>Los usos máximos de este rasgo escalan automáticamente conforme subes de nivel.</p></section>",
       "activities": {
         "utility": {
           "roll": "Bonus"
@@ -3750,7 +3750,7 @@
     },
     "Psionic Power": {
       "name": "Poder Psiónico",
-      "description": "<p>Albergas una fuerza psiquica latente dentro de ti, que representa tu conexión con el poder psionic. Esta fuerza se representa por tus Dados Psíquicos, que son cada uno un d6. Tienes un número de estos dados igual a tu bonificador por competencia, y impulsan varios poderes psíquicos que tienes, que se detallan a continuación.</p><p>Algunos de tus poderes gastan el Dado Psíquico que usan, según se anota en la descripción de un poder, y no puedes usar un poder si requiere que uses un dado cuando ninguno te queda. Recuperas todos tus Dados Psíquicos gastados cuando finalices un Descanso Largo.</p><p>Cuando alcances ciertos niveles en esta clase, el tamaño de tus Dados Psíquicos aumenta: en el nivel 5 (d8), nivel 11 (d10), y nivel 17 (d12).</p><p>Los poderes a continuación usan tus Dados Psíquicos. El poder de Lanzamiento Psíquico usa múltiples dados a la vez, mientras que los otros poderes usan solo un dado.</p><p><strong>Armas Psíquicas.</strong> Cuando golpees a un objetivo a 9 metros de ti con un ataque simple o marcial con arma, puedes gastar un Dado Psíquico para infundir el ataque con energía psíquica. Cuando lo hagas, tira el dado y añade el número tirado como daño de Fuerza al objetivo.</p><p><strong>Lanzamiento Psónico.</strong> Cuando hagas una tirada de daño con un conjuro usando un espacio de conjuro de nivel 5 o inferior, puedes gastar un número de Dados Psíquicos igual al nivel de espacio del conjuro + 1. Cuando lo hagas, tira los dados gastados y añade su total al daño del conjuro. Este daño adicional es del tipo del conjuro.</p><p><strong>Empuje Telectekinético.</strong> Cuando fuerces a una criatura dentro de 18 metros de ti a hacer una tirada de salvación usando un conjuro o rasgo que lanzas o usas, puedes gastar un Dado Psíquico. Cuando lo hagas, tira el dado, y el objetivo recibe una penalización a la tirada de salvación igual al número tirado.</p><section class=\"secret\" id=\"secret-In1Cp4zUX1YMzSOF\"><p><strong>Nota Foundry</strong></p><p>Tu Psionic Energy Die automáticamente update as Tú/Usted level up.</p><p>The Protective Field activity consume a uso y proporcionará a healing roll por reducing el/la daño.</p><p>The Psionic Strike activity consume a uso y proporcionará a Porce daño roll.</p><p>The Telekinetic Movement activity has a single uso que does not consume a uso de tu Psionic Energy Die. Puedes uso el/la Telekinetic Movement usando Psionic Energy activity a uso it again por consuming a Psionic Energy Die.</p></section>",
+      "description": "<p>Albergas un manantial de energía psiónica en tu interior. Se representa con tus Dados de Energía Psiónica, que alimentan los poderes que tienes de esta subclase. La tabla Dados de Energía del Guerrero Psiónico muestra el tamaño y la cantidad de estos dados que tienes cuando alcanzas ciertos niveles de Guerrero.</p><table><caption>Dados de Energía del Guerrero Psiónico</caption><thead><tr><td>Nivel de Guerrero</td><td>Tamaño del Dado</td><td>Cantidad</td></tr></thead><tbody><tr><td>3</td><td>D6</td><td>4</td></tr><tr><td>5</td><td>D8</td><td>6</td></tr><tr><td>9</td><td>D8</td><td>8</td></tr><tr><td>11</td><td>D10</td><td>8</td></tr><tr><td>13</td><td>D10</td><td>10</td></tr><tr><td>17</td><td>D12</td><td>12</td></tr></tbody></table><p><strong>Dados Actuales:</strong> [[lookup @scale.psi-warrior.die]]</p><p>Cualquier rasgo de esta subclase que use un Dado de Energía Psiónica usa solo los dados de esta subclase. Algunos de tus poderes gastan el Dado de Energía Psiónica, como se especifica en la descripción del poder, y no puedes usar un poder si te exige usar un dado cuando todos tus Dados de Energía Psiónica están gastados.</p><p>Recuperas uno de tus Dados de Energía Psiónica gastados cuando terminas un Descanso Corto, y los recuperas todos cuando terminas un Descanso Largo.</p><p><strong>Campo Protector.</strong> Cuando tú u otra criatura que puedas ver a 9 m (30 pies) o menos de ti sufre daño, puedes usar una Reacción para gastar un Dado de Energía Psiónica, tirarlo y reducir el daño sufrido en el número obtenido más tu modificador por Inteligencia (reducción mínima de 1), al crear un escudo momentáneo de fuerza telecinética.</p><p><strong>Golpe Psiónico.</strong> Puedes impulsar tus armas con fuerza psiónica. Una vez en cada uno de tus turnos, justo después de acertar a un objetivo a 9 m (30 pies) o menos de ti con un ataque e infligirle daño con un arma, puedes gastar un Dado de Energía Psiónica, tirarlo e infligir al objetivo daño de Fuerza igual al número obtenido más tu modificador por Inteligencia.</p><p><strong>Movimiento Telecinético.</strong> Puedes mover un objeto o una criatura con tu mente. Con una acción de Magia, elige un objetivo que puedas ver a 9 m (30 pies) o menos de ti; el objetivo debe ser un objeto suelto que sea Grande o más pequeño, o una criatura voluntaria que no seas tú. Transportas el objetivo hasta 9 m (30 pies) a un espacio sin ocupar que puedas ver. Como alternativa, si el objetivo es un objeto Diminuto, puedes transportarlo hacia o desde tu mano.</p><p>Una vez llevas a cabo esta acción, no puedes volver a hacerlo hasta que termines un Descanso Corto o Largo, a menos que gastes un Dado de Energía Psiónica (no requiere acción) para restaurar su uso.</p><section class=\"secret\" id=\"secret-In1Cp4zUX1YMzSOF\"><p><strong>Nota Foundry</strong></p><p>Tu Dado de Energía Psiónica se actualizará automáticamente conforme subes de nivel.</p><p>La actividad Campo Protector consumirá un uso y proporcionará una tirada de curación para reducir el daño.</p><p>La actividad Golpe Psiónico consumirá un uso y proporcionará una tirada de daño de Fuerza.</p><p>La actividad Movimiento Telecinético tiene un único uso que no consume un uso de tu Dado de Energía Psiónica. Puedes usar la actividad Movimiento Telecinético con Energía Psiónica para usarla de nuevo consumiendo un Dado de Energía Psiónica.</p></section>",
       "activities": {
         "Protective Field": {
           "name": "Campo Protector",
@@ -3997,7 +3997,7 @@
     },
     "Relentless": {
       "name": "Incansable",
-      "description": "<p>Cuando tiras iniciativa y no tienes usos de Inspiración de Bardo restantes, recuperas un uso.</p>"
+      "description": "<p>Una vez por turno, cuando usas una maniobra, puedes tirar [[/r 1d8]] y usar el número obtenido en lugar de gastar un Dado de Superioridad.</p>"
     },
     "Relentless Avenger": {
       "name": "Vengador Incansable",
@@ -4750,7 +4750,7 @@
     },
     "Tactical Mind": {
       "name": "Mente Táctica",
-      "description": "<p>Has desarrollado pensamiento estratégico. Cuando falles un chequeo de habilidad, puedes gastar un uso de Superioridad y añadir el resultado a la tirada, potencialmente convirtiendo el fallo en éxito.</p>",
+      "description": "<p>Tienes mente para la táctica dentro y fuera del campo de batalla. Cuando fallas una prueba de característica, puedes gastar un uso de tu Segundo Aliento para empujarte hacia el éxito. En lugar de recuperar Puntos de Golpe, tiras 1d10 y sumas el número obtenido a la prueba de característica, con lo que podrías convertirla en un éxito. Si la prueba sigue fallando, este uso de Segundo Aliento no se gasta.</p>",
       "activities": {
         "Expend Second Wind": {
           "name": "Gastar Segundo Aliento",
@@ -4761,7 +4761,7 @@
     },
     "Tactical Shift": {
       "name": "Cambio Táctico",
-      "description": "<p>Puedes usar una acción adicional en tu turno para Tablero o Esconderte.</p>"
+      "description": "<p>Siempre que activas tu Segundo Aliento con una Acción Adicional, puedes moverte hasta la mitad de tu Velocidad sin provocar Ataques de Oportunidad.</p>"
     },
     "Tamed Surge": {
       "name": "Oleada Domada",
@@ -5179,7 +5179,7 @@
     },
     "War Magic": {
       "name": "Magia de Guerra",
-      "description": "<p>Cuando usas tu acción para lanzar un truco, puedes hacer un ataque con arma como acción adicional.</p>"
+      "description": "<p>Cuando llevas a cabo la acción de Atacar en tu turno, puedes reemplazar uno de los ataques por el lanzamiento de uno de tus trucos de Mago que tenga un tiempo de lanzamiento de una acción.</p>"
     },
     "War Priest": {
       "name": "Sacerdote de Guerra",

@@ -1386,7 +1386,7 @@
     },
     "Deft Explorer": {
       "name": "Explorador Diestro",
-      "description": "<p>Eres un maestro sin igual de la navegación del mundo natural, y reaccionas con rapidez y decisión cuando eres atacado. Obtienes los siguientes beneficios:</p><p><strong>Maestría Experta.</strong> Cuando uses la acción de Ayuda para ayudar a un aliado en un chequeo de habilidad, puedes hacer una cantidad de chequeos adicionales de Ayuda igual a tu bonificador por competencia (mínimo uno), siempre que cada uno beneficie a un aliado diferente.</p><p><strong>Vagabundo Cansado.</strong> Al finalizar un descanso largo, reduces tu nivel de agotamiento, si lo hay, en 1 adicional.</p><p><strong>Ambulante Experto.</strong> Tu velocidad de caminar aumenta en 1,5 metros.</p><section class=\"secret\" id=\"secret-MKYXod5Sdpyj2x7V\"><p><strong>Nota Foundry</strong></p><p>Se te pedirá para elegir opciones cuando añadas la clase de Explorador a tu character sheet.</p></section>"
+      "description": "<p>Gracias a tus viajes, obtienes los siguientes beneficios.</p><p><strong>Pericia.</strong> Elige una de tus competencias en habilidades en la que no tengas Pericia. Obtienes Pericia en esa habilidad.</p><p><strong>Idiomas.</strong> Conoces dos idiomas de tu elección de las tablas de idiomas del capítulo 2.</p><section class=\"secret\" id=\"secret-MKYXod5Sdpyj2x7V\"><p><strong>Nota Foundry</strong></p><p>Se te pedirán elecciones cuando añadas la clase de Explorador a tu hoja de personaje.</p></section>"
     },
     "Devil's Sight": {
       "name": "Vista del Diablo",
@@ -1559,7 +1559,7 @@
     },
     "Dragon Companion": {
       "name": "Compañero Dragón",
-      "description": "<p>Puedes invocar el espíritu de un dragón para que luche junto a ti. Cuando alcanzas el nivel 3 en esta subclase, obtienes los servicios de un Espíritu de Dragón. Este espíritu toma la forma que elijas, usando las estadísticas de Espíritu de Dragón. El dragón es amigable contigo y obedece tus comandos.</p><p>En combate, comparte tu valor de iniciativa, y actúa en su propio turno inmediatamente después del tuyo. El dragón solo puede tomar la acción de Esquivar, a menos que uses una acción adicional en tu turno para ordenarle que realice una acción de su bloque de estadísticas o alguna otra acción.</p><p>Si el dragón ha muerto durante la última hora, puedes usar tu acción para tocarlo e invocar su espíritu de nuevo, devolviéndolo a la vida después de 1 minuto con todos sus puntos de golpe.</p><section class=\"secret\" id=\"secret-dxl0rjuVblJvTXgy\"><p><strong>Nota Foundry</strong></p><p>Este rasgo puede usarse para rastrear tu uso gratuito. Al lanzar el conjuro puedes desmarcar la casilla \"Consumo\" y, opcionalmente, la casilla \"Concentración\".</p></section>",
+      "description": "<p>Puedes lanzar @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonDrag]{Invocar Dragón} sin componente Material. También puedes lanzarlo una vez sin un espacio de conjuro, y recuperas la capacidad de lanzarlo de esta manera cuando terminas un Descanso Largo.</p><p>Siempre que empiezas a lanzar el conjuro, puedes modificarlo para que no requiera Concentración. Si lo haces, la duración del conjuro pasa a ser de 1 minuto para ese lanzamiento.</p><section id=\"secret-dxl0rjuVblJvTXgy\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo puede usarse para llevar la cuenta de tu uso gratuito. Cuando lanzas el conjuro, puedes desmarcar la casilla «Consumption» y, opcionalmente, la casilla «Concentration».</p></section>",
       "activities": {
         "Expend Use": {
           "name": "Gastar Uso"
@@ -1972,7 +1972,7 @@
     },
     "Exceptional Training": {
       "name": "Entrenamiento Excepcional",
-      "description": "<p>A partir del nivel 11, en cualquiera de tus turnos cuando tu compañero no ataque, puedes usar una acción adicional para ordenarle que realice la acción de Tablero, Esquivar o Ayuda en su turno.</p><section class=\"secret\" id=\"secret-dFb0uteASfxCBh4m\"><p><strong>Nota Foundry</strong></p><p>The <strong>Train Companion</strong> enchantment activity is designed a be applied a tu Companion's \"Beast's Strike\" item y añade el/la option de Porce daño a que Action's daño roll configuration.</p></section>",
+      "description": "<p>Cuando usas una Acción Adicional para ordenar a tu bestia de Compañero Primigenio que lleve a cabo una acción, también puedes ordenarle que lleve a cabo la acción de &amp;Reference[Dash], &amp;Reference[Disengage], &amp;Reference[Dodge] o &amp;Reference[Help] usando su Acción Adicional.</p><p>Además, siempre que acierta con una tirada de ataque e inflige daño, puede infligir daño de Fuerza o su tipo de daño normal (a tu elección).</p><section class=\"secret\" id=\"secret-dFb0uteASfxCBh4m\"><p><strong>Nota Foundry</strong></p><p>La actividad de encantamiento <strong>Train Companion</strong> está diseñada para aplicarse al objeto «Beast's Strike» de tu Compañero y añade la opción de daño de Fuerza a la configuración de la tirada de daño de esa Acción.</p></section>",
       "activities": {
         "Command Companion": {
           "name": "Comandar Compañero"
@@ -2063,7 +2063,7 @@
     },
     "Feral Instinct": {
       "name": "Instinto Salvaje",
-      "description": "<p>Tus instintos están tan afinados que tienes ventaja en tiradas de iniciativa.</p><p>Además, si estás sorprendido al comienzo del combate y no estás incapacitado, puedes actuar normalmente en tu primer turno, pero solo si entras en tu furia antes de hacer cualquier otra cosa en ese turno.</p>",
+      "description": "<p>Tus instintos están tan afinados que tienes Ventaja en las tiradas de Iniciativa.</p>",
       "effects": {
         "Feral Instinct": {
           "name": "Instinto Salvaje"
@@ -2072,7 +2072,7 @@
     },
     "Feral Senses": {
       "name": "Sentidos Salvajes",
-      "description": "<p>Obtienes sentidos preternaturales que te ayudan a luchar contra criaturas que no puedes ver. Cuando atacas a una criatura que no puedes ver, tu incapacidad de verla no impone desventaja en tus tiradas de ataque contra ella.</p><p>También eres consciente de la ubicación de cualquier criatura invisible a 9 metros de ti, siempre que esa criatura no esté escondida de ti y no estés cegado ni ensordecido.</p><section class=\"secret\" id=\"secret-g31kKSDLrDEpbpbo\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que upgrades tu Blindsight a 30 feet si do not already have it.</p></section>",
+      "description": "<p>Tu conexión con las fuerzas de la naturaleza te otorga Visión Ciega con un alcance de 9 m (30 pies).</p><section class=\"secret\" id=\"secret-g31kKSDLrDEpbpbo\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que mejora tu Visión Ciega a 9 m (30 pies) si aún no la tienes.</p></section>",
       "effects": {
         "Feral Senses": {
           "name": "Sentidos Salvajes"
@@ -2090,7 +2090,7 @@
     },
     "Fey Wanderer": {
       "name": "Errante Feérico",
-      "description": "<p>Has formado un vínculo con el Feywild, accediendo a sus encantos y misterios. Obtienes los siguientes rasgos en el nivel 3.</p>",
+      "description": "<blockquote><p>Esgrime la Alegría y la Furia Feéricas</p></blockquote><p>Una mística feérica te rodea, gracias al don de un archifeérico o de un lugar de los Parajes Feéricos que te transformó. Sea como sea que obtuviste la magia feérica, ahora eres un Errante Feérico. Tu risa jubilosa alegra el corazón de los oprimidos, y tu destreza marcial siembra el terror en tus enemigos, pues grande es la alegría de los feéricos y terrible es su furia.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -2234,7 +2234,7 @@
     },
     "Foe Slayer": {
       "name": "Mataenemigos",
-      "description": "<p> @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHuntersMar]Te conviertes en un cazador increíble de tus enemigos. Una vez en cada uno de tus turnos, puedes añadir tu modificador por Sabiduría a la tirada de ataque o de daño de un ataque que hagas contra uno de tus enemigos predilectos. Puedes elegir usar este rasgo antes o después de la tirada, pero antes de que se apliquen los efectos de la tirada.</p><section id=\"secret-GUET2urq4zcuitcV\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Puedes uso Este rasgo en place de el/la <strong>Bonificación Mark Daño</strong> activity en el/la <em>Hunter's Mark</em> conjuro.</p></section>",
+      "description": "<p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHuntersMar]{Marca del Cazador} usa un d10 en lugar de un d6.</p><section id=\"secret-GUET2urq4zcuitcV\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Puedes usar este rasgo en lugar de la actividad <strong>Bonus Mark Damage</strong> del conjuro <em>Marca del Cazador</em>.</p></section>",
       "activities": {
         "Improved Hunter's Mark Damage": {
           "name": "Daño Mejorado de Marca del Cazador"
@@ -2312,7 +2312,7 @@
     },
     "Gloom Stalker": {
       "name": "Acechador en la Penumbra",
-      "description": "<p>Has perfeccionado el arte de cazar en la oscuridad. Obtienes visión en la oscuridad hasta un alcance de 18 metros. Si ya tienes visión en la oscuridad, su alcance aumenta en 18 metros.</p><p>Además, eres invisible para cualquier criatura que dependa de visión en la oscuridad para verte en esa oscuridad.</p>",
+      "description": "<blockquote><p>Recurre a la Magia de las Sombras para Combatir a tus Enemigos</p></blockquote><p>Los Acechadores en la Penumbra se sienten como en casa en los lugares más oscuros, esgrimiendo magia extraída del Páramo Sombrío para combatir a enemigos que acechan en la oscuridad.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -2495,7 +2495,7 @@
     },
     "Hunter's Lore": {
       "name": "Conocimiento del Cazador",
-      "description": "<p>Obtienes competencia en dos de las siguientes habilidades de tu elección: Trato con Animales, Arcanos, Historia, Investigación, Naturaleza o Supervivencia.</p>"
+      "description": "<p>Puedes recurrir a las fuerzas de la naturaleza para revelar ciertas fortalezas y debilidades de tu presa. Mientras una criatura esté marcada por tu <em>Marca del Cazador</em>, sabes si esa criatura tiene Inmunidades, Resistencias o Vulnerabilidades y, si las tiene, sabes cuáles son.</p>"
     },
     "Hunter's Prey": {
       "name": "Presa del Cazador",
@@ -4487,7 +4487,7 @@
     },
     "Stalker's Flurry": {
       "name": "Ráfaga del Acechador",
-      "description": "<p>Has aperfeccionado tus habilidades de cazador. Una vez en cada uno de tus turnos cuando falles un ataque con arma, puedes hacer otro ataque con arma como parte de la misma acción.</p><section class=\"secret\" id=\"secret-1EO1czD31TZtrQzN\"><p><strong>Nota Foundry</strong></p><p>The daño de tu <strong>Dreadful Strike</strong> activity automáticamente scale as Tú/Usted level up.</p><p>To uso el/la <strong>Sudden Strike</strong> efecto simply make another ataque.</p><p>The <strong>Mass Fear</strong> activity en Este rasgo incluye la salvación.</p></section>",
+      "description": "<p>El daño Psíquico de tu Golpe Pavoroso pasa a ser 2d8. Además, cuando usas el efecto de Golpe Pavoroso de tu rasgo Emboscador Pavoroso, puedes causar uno de los siguientes efectos adicionales.</p><p><strong>Golpe Súbito.</strong> Puedes hacer otro ataque con la misma arma contra una criatura diferente que esté a 1,5 m (5 pies) o menos del objetivo original y dentro del alcance del arma.</p><p><strong>Miedo Masivo.</strong> El objetivo y cada criatura a 3 m (10 pies) o menos de él deben hacer una tirada de salvación de Sabiduría contra tu CD de salvación de conjuros. Si falla la salvación, la criatura tiene el estado de &amp;Reference[Frightened] hasta el principio de tu siguiente turno.</p><section class=\"secret\" id=\"secret-1EO1czD31TZtrQzN\"><p><strong>Nota Foundry</strong></p><p>El daño de tu actividad <strong>Dreadful Strike</strong> escalará automáticamente conforme subes de nivel.</p><p>Para usar el efecto <strong>Sudden Strike</strong>, simplemente haz otro ataque.</p><p>La actividad <strong>Mass Fear</strong> de este rasgo incluye la salvación.</p></section>",
       "activities": {
         "Mass Fear": {
           "name": "Miedo Masivo",
@@ -4995,7 +4995,7 @@
     },
     "Umbral Sight": {
       "name": "Vista Umbría",
-      "description": "<p>Obtienes Visión en la Oscuridad con un alcance de 18metros. Si ya tienes Visión en la Oscuridad, su alcance aumenta en 18 metros.</p><p>Mientras estés en Oscuridad, eres Invisible para cualquier criatura que dependa de Visión en la Oscuridad para verte.</p><section class=\"secret\" id=\"secret-EavrzDSgyIsjHyEj\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que automáticamente aumentará tu Darkvision range.</p></section>",
+      "description": "<p>Obtienes Visión en la Oscuridad con un alcance de 18 m (60 pies). Si ya tienes Visión en la Oscuridad cuando obtienes este rasgo, su alcance aumenta en 18 m (60 pies).</p><p>También eres hábil eludiendo a las criaturas que dependen de la Visión en la Oscuridad. Mientras estés enteramente en Oscuridad, tienes el estado de &amp;Reference[Invisible] para cualquier criatura que dependa de la Visión en la Oscuridad para verte en esa Oscuridad.</p><section class=\"secret\" id=\"secret-EavrzDSgyIsjHyEj\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que aumentará automáticamente tu alcance de Visión en la Oscuridad.</p></section>",
       "effects": {
         "Umbral Sight": {
           "name": "Vista Umbría"

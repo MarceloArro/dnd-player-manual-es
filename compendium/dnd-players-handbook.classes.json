@@ -868,7 +868,7 @@
     },
     "Channel Divinity": {
       "name": "Canalizar Divinidad",
-      "description": "<p>Obtienes la capacidad de canalizar energía divina directamente de tu deidad, usando esa energía para alimentar efectos mágicos. Comienzas con dos efectos: Expulsar No-Muertos y un efecto determinado por tu dominio. Algunos dominios te otorgan efectos adicionales a medida que avanzas de nivel, como se indica en la descripción del dominio.</p><p>Cuando usas tu Canalizar Divinidad, eliges qué efecto crear. Debes finalizar un descanso corto o largo para usar tu Canalizar Divinidad de nuevo.</p><p>Algunos efectos de Canalizar Divinidad requieren tiradas de salvación. Cuando usas tal efecto de esta clase, la CD es igual a tu CD de salvación de conjuros de clérigo.</p><p>A partir del nivel 6, puedes usar tu Canalizar Divinidad dos veces entre descansos, y a partir del nivel 18, puedes usarlo tres veces entre descansos. Cuando finalizas un descanso corto o largo, recuperas tus usos gastados.</p><section class=\"secret\" id=\"secret-1ECtJAnUinEegKtL\"><p><strong>Nota Foundry</strong></p><p>Este rasgo restaura automáticamente 1 uso en un Descanso Corto y todos los usos en un Descanso Largo. Los usos escalan automáticamente a medida que subes de nivel.</p><p>La actividad <strong>Divine Spark: Heal</strong> incluye el efecto de curación.</p><p>La actividad <strong>Divine Spark: Smite</strong> añade el daño extra al ataque que usas.</p></section>",
+      "description": "<p>Puedes canalizar energía divina directamente desde los Planos Exteriores para alimentar efectos mágicos. Empiezas con dos efectos de este tipo: Chispa Divina y Expulsar Muertos Vivientes, descritos a continuación. Cada vez que usas el Canalizar Divinidad de esta clase, elige qué efecto de Canalizar Divinidad de esta clase crear. Obtienes opciones de efecto adicionales en niveles superiores de Clérigo.</p><p>Puedes usar el Canalizar Divinidad de esta clase dos veces. Recuperas uno de sus usos gastados cuando terminas un Descanso Corto, y recuperas todos los usos gastados cuando terminas un Descanso Largo. Obtienes usos adicionales cuando alcanzas ciertos niveles de Clérigo, como se indica en la columna Canalizar Divinidad de la tabla de Rasgos del Clérigo.</p><p>Si un efecto de Canalizar Divinidad requiere una tirada de salvación, la CD es igual a la CD de salvación de conjuros del rasgo Lanzamiento de Conjuros de esta clase.</p><p><strong>Chispa Divina.</strong> Con una acción de Magia, apuntas con tu Símbolo Sagrado a otra criatura que puedas ver a 9 m (30 pies) o menos de ti y concentras energía divina en ella. Tira 1d8 y suma tu modificador por Sabiduría. O bien restauras a la criatura una cantidad de Puntos de Golpe igual a ese total, o bien obligas a la criatura a hacer una tirada de salvación de Constitución. Si falla la salvación, la criatura sufre daño Necrótico o Radiante (a tu elección) igual a ese total. Si tiene éxito, la criatura sufre la mitad del daño (redondea hacia abajo).</p><p>Tiras un d8 adicional cuando alcanzas los niveles de Clérigo 7 (2d8), 13 (3d8) y 18 (4d8).</p><p><strong>Expulsar Muertos Vivientes.</strong> Con una acción de Magia, presentas tu Símbolo Sagrado y reprendes a las criaturas Muertas Vivientes. Cada Muerto Viviente de tu elección a 9 m (30 pies) o menos de ti debe hacer una tirada de salvación de Sabiduría. Si la criatura falla la salvación, tiene los estados de Asustado e Incapacitado durante 1 minuto. Mientras dure, intenta alejarse de ti todo lo posible en sus turnos. Este efecto termina antes en la criatura si sufre cualquier daño, si tú tienes el estado de Incapacitado o si mueres.</p><section class=\"secret\" id=\"secret-1ECtJAnUinEegKtL\"><p><strong>Nota Foundry</strong></p><p>Este rasgo restaura automáticamente 1 uso en un Descanso Corto y todos en un Descanso Largo. Los usos escalan automáticamente conforme subes de nivel.</p><p>La actividad <strong>Divine Spark: Heal</strong> incluye el efecto de curación.</p><p>La actividad <strong>Divine Spark: Save</strong> incluye la tirada de salvación.</p><p>La actividad <strong>Turn Undead</strong> incluye un Efecto Activo que aplica los estados de Asustado e Incapacitado.</p></section>",
       "activities": {
         "Divine Spark: Heal": {
           "name": "Chispa Divina: Curar"
@@ -1509,7 +1509,7 @@
     },
     "Divine Order: Thaumaturge": {
       "name": "Orden Divina: Taumaturgo",
-      "description": "<p>Has dedicado tu vida al estudio de las artes místicas. Aprendes un truco de tu elección de la lista de conjuros de clérigo y un truco de tu elección de la lista de conjuros de mago.</p><p>Además, tu conexión con la magia divina te permite aprender conjuros normalmente fuera del alcance del poder del clérigo. Cuando alcances ciertos niveles de Clérigo, ganarás acceso a los conjuros listados para esos niveles en la tabla de Conjuros de Orden Divino: Taumaturgo.</p><p>Una vez que obtengas acceso a uno de estos conjuros, siempre lo tienes preparado, y no cuenta contra el número de conjuros que puedes preparar cada día. Si obtienes acceso a un conjuro que no aparece en la lista de conjuros de clérigo, el conjuro es sin embargo un conjuro de clérigo para ti.</p><section id=\"secret-9NLpq7kfc33QLf8I\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que aumenta el/la number de cantrips puedes know y otorga el/la bonificación a tu Intelligence (Arcana o Religion) checks.</p> @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]</section>",
+      "description": "<p>Te has consagrado al siguiente papel sagrado:</p><p><strong>Taumaturgo.</strong> Conoces un truco adicional de la @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{lista de conjuros de Clérigo}. Además, tu conexión mística con lo divino te otorga una bonificación a tus pruebas de Inteligencia (Conocimiento Arcano o Religión). La bonificación es igual a tu modificador por Sabiduría (mínimo de +1, actualmente [[lookup @abilities.wis.mod]]).</p><section id=\"secret-9NLpq7kfc33QLf8I\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que aumenta la cantidad de trucos que puedes conocer y otorga la bonificación a tus pruebas de Inteligencia (Conocimiento Arcano o Religión).</p></section>",
       "effects": {
         "Thaumaturge": {
           "name": "Taumaturgo"
@@ -2385,7 +2385,7 @@
     },
     "Greater Divine Intervention": {
       "name": "Intervención Divina Superior",
-      "description": "<p>Puedes llamar a una intervención divina aún más poderosa. Cuando uses tu acción de Intervención Divina, si la tirada falla, recuperas un uso de esa acción. Si la tirada tiene éxito, no puedes usar la acción de nuevo durante 2d4 días.</p><section class=\"secret\" id=\"secret-LP9WqNdaJevppYeM\"><p><strong>Nota Foundry</strong></p><p>Este rasgo consume a uso de tu Divine Intervention but it puedes not automáticamente recharge el/la usage Después el/la rolled number de Long Rests.</p> @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]</section>"
+      "description": "<p>Puedes invocar una intervención divina aún más poderosa. Cuando usas tu rasgo Intervención Divina, puedes elegir @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Deseo} al seleccionar un conjuro. Si lo haces, no puedes volver a usar Intervención Divina hasta que termines [[/r 2d4]] Descansos Largos.</p><section class=\"secret\" id=\"secret-LP9WqNdaJevppYeM\"><p><strong>Nota Foundry</strong></p><p>Este rasgo consume un uso de tu Intervención Divina, pero no puede recargar automáticamente el uso tras el número tirado de Descansos Largos.</p></section>"
     },
     "Greater Portent": {
       "name": "Portento Superior",
@@ -2567,7 +2567,7 @@
     },
     "Improved Blessed Strikes": {
       "name": "Golpes Benditos Mejorados",
-      "description": "<p>El daño adicional de tu rasgo de Golpes Benditos aumenta a 2d8.</p><section id=\"secret-wkDQJfpIjrqBfDzn\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una Actividad de Daño DIVINE que puede usarse en ataques con arma, y una Actividad de HEAL que puede usarse cuando se lanza un truco de curación.</p></section>",
+      "description": "<p>La opción que elegiste para Golpes Benditos se vuelve más poderosa.</p><p><strong>Golpe Divino.</strong> El daño adicional de tu Golpe Divino aumenta a 2d8.</p><p><strong>Lanzamiento de Conjuros Potente.</strong> Cuando lanzas un truco de Clérigo e infliges daño a una criatura con él, puedes dar vitalidad a ti mismo o a otra criatura a 18 m (60 pies) o menos de ti, otorgándole una cantidad de Puntos de Golpe Temporales igual al doble de tu modificador por Sabiduría.</p><section class=\"secret\" id=\"secret-UW0So7XcJyHUaivE\"><p><strong>Nota Foundry</strong></p><p>Si elegiste <strong>Golpe Divino</strong>, el daño aumenta automáticamente. Si elegiste <strong>Lanzamiento de Conjuros Potente</strong>, puedes usar la actividad de Lanzamiento de Conjuros Potente en este rasgo.</p></section>",
       "activities": {
         "Potent Spellcasting: Heal": {
           "name": "Lanzamiento Potente: Curar",
@@ -2805,7 +2805,7 @@
     },
     "Invoke Duplicity": {
       "name": "Invocar Duplicidad",
-      "description": "<p>Puedes crear un duplicado ilusorio de ti mismo. Como acción, creas una ilusión perfecta de ti mismo que dura 1 minuto o hasta que pierdas tu concentración (como si estuvieras concentrándote en un conjuro). La ilusión aparece en un espacio desocupado que puedas ver a 9 metros de ti. Como acción adicional en tu turno, puedes mover la ilusión hasta 9 metros a un espacio que puedas ver, pero debe permanecer a 36 metros de ti.</p><p>Durante la duración, puedes lanzar conjuros como si estuvieras en el espacio de la ilusión, pero debes usar tus propios sentidos. Además, cuando ambos tú y tu ilusión estáis a 1,5 metros de una criatura que pueda ver la ilusión, tienes ventaja en tiradas de ataque contra esa criatura, dada la distracción de tu contraparte ilusoria.</p><p>Puedes usar este rasgo un número de veces igual a tu modificador por Sabiduría (mínimo una vez), y recuperas todos los usos gastados cuando finalices un descanso largo.</p>",
+      "description": "<p>Con una Acción Adicional, puedes gastar un uso de tu Canalizar Divinidad para crear una ilusión visual perfecta de ti mismo en un espacio sin ocupar que puedas ver a 9 m (30 pies) o menos de ti. La ilusión es intangible y no ocupa su espacio. Dura 1 minuto, pero termina antes si la disipas (no requiere acción) o si tienes el estado de &amp;Reference[Incapacitated]. La ilusión está animada e imita tus expresiones y gestos. Mientras persiste, obtienes los siguientes beneficios.</p><p><strong>Lanzar Conjuros.</strong> Puedes lanzar conjuros como si estuvieras en el espacio de la ilusión, pero debes usar tus propios sentidos.</p><p><strong>Distraer.</strong> Cuando tú y tu ilusión estáis ambos a 1,5 m (5 pies) o menos de una criatura que pueda ver la ilusión, tienes Ventaja en las tiradas de ataque contra esa criatura, dado lo distractora que resulta la ilusión para el objetivo.</p><p><strong>Mover.</strong> Con una Acción Adicional, puedes mover la ilusión hasta 9 m (30 pies) a un espacio sin ocupar que puedas ver y que esté a 36 m (120 pies) o menos de ti.</p>",
       "activities": {
         "Move Duplicate": {
           "name": "Mover Duplicado"
@@ -2865,7 +2865,7 @@
     },
     "Life Domain": {
       "name": "Dominio de la Vida",
-      "description": "<blockquote><p>Canaliza energía vital hacia tus aliados</p></blockquote><p>El dominio de la vida se centra en la fuerza vital vibrante que sostiene el mundo. Los clérigos de este dominio son maestros de la curación y preservan la vida en todas sus formas.</p>",
+      "description": "<blockquote><p>Sana las Heridas del Mundo</p></blockquote><p>El Dominio de la Vida se centra en la energía positiva que ayuda a sostener toda la vida del multiverso. Los Clérigos que recurren a este dominio son maestros de la curación y usan esa fuerza vital para curar muchas heridas.</p><p>La existencia misma depende de la energía positiva asociada a este dominio, así que un Clérigo de casi cualquier tradición religiosa podría elegirlo. Este dominio se asocia especialmente con deidades agrícolas, dioses de la curación o la resistencia, y dioses del hogar y la comunidad. Las órdenes religiosas de curación también buscan la magia de este dominio.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -3667,7 +3667,7 @@
     },
     "Preserve Life": {
       "name": "Preservar Vida",
-      "description": "<p>Como acción mágica, presentas tu Santo Símbolo y evocas energía curativa que puede restaurar puntos de golpe igual a cinco veces tu nivel de clérigo. Elige cualquier número de criaturas a 9 metros de ti y divide esos puntos de golpe entre ellas. Esta característica puede restaurar una criatura a no más de la mitad de su máximo de puntos de golpe. No puedes usar esta característica en un No-Muerto o un Constructo.</p><section class=\"secret\" id=\"secret-vybBdwcDQO3jMVDo\"><p><strong>Nota Foundry</strong></p><p>The <strong>Heal</strong> activity does not automáticamente restrict el/la HP gained a 50% de al objetivo's max.</p></section>"
+      "description": "<p>Con una acción de Magia, presentas tu Símbolo Sagrado y gastas un uso de tu Canalizar Divinidad para evocar energía curativa que puede restaurar una cantidad de Puntos de Golpe igual a cinco veces tu nivel de Clérigo. Elige criaturas &amp;Reference[Bloodied] a 9 m (30 pies) o menos de ti (entre las que puedes incluirte) y reparte esos Puntos de Golpe entre ellas. Este rasgo no puede restaurar a una criatura a más de la mitad de su máximo de Puntos de Golpe.</p><section class=\"secret\" id=\"secret-vybBdwcDQO3jMVDo\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Heal</strong> no restringe automáticamente los PG obtenidos al 50 % del máximo del objetivo.</p></section>"
     },
     "Primal Champion": {
       "name": "Campeón Primigenio",
@@ -3862,7 +3862,7 @@
     },
     "Radiance of the Dawn": {
       "name": "Resplandor del Alba",
-      "description": "<p>Puedes usar tu Canalizar Divinidad para aprovechar la luz del sol, desterrando la @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Oscuridad} y causando daño radiante a tus enemigos.</p><p>Como acción, presentas tu símbolo sagrado y cualquier oscuridad mágica dentro de 9 metros de ti se disipa. Además, las criaturas hostiles a 9 metros de ti deben hacer una tirada de salvación de Constitución o recibir daño radiante igual a 2d10 + tu nivel de clérigo, o la mitad de ese daño en una salvación exitosa. Una criatura que tiene cobertura total de ti no se ve afectada.</p>"
+      "description": "<p>Con una acción de Magia, presentas tu Símbolo Sagrado y gastas un uso de tu Canalizar Divinidad para emitir un destello de luz en una Emanación de 9 m (30 pies) que se origina en ti. Cualquier &amp;Reference[Darkness] mágica —como la creada por el conjuro @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Oscuridad}— en esa área se disipa. Además, cada criatura de tu elección en esa área debe hacer una tirada de salvación de Constitución y sufre daño Radiante igual a 2d10 más tu nivel de Clérigo si falla, o la mitad del daño si tiene éxito.</p>"
     },
     "Radiant Soul": {
       "name": "Alma Radiante",
@@ -4216,7 +4216,7 @@
     },
     "Sear Undead": {
       "name": "Abrasar No Muerto",
-      "description": "<p>Siempre que uses Expulsar No-Muerto, puedes tirar un número de d8 igual a tu modificador por Sabiduría (mínimo 1d8) y cada No-Muerto que falle su tirada de salvación contra tu Expulsar No-Muerto recibe daño radiante igual al total tirado.</p><section class=\"secret\" id=\"secret-VJPPRFTlu1fFg8XB\"><p><strong>Nota Foundry</strong></p><p>Este rasgo puede usarse en place de Turn Undead. It consumes a uso de Channel Divinity, incluye la salvación, Efecto Activos para el/la condicións, y Este rasgo's damage roll.</p></section>",
+      "description": "<p>Siempre que usas Expulsar Muertos Vivientes, puedes tirar una cantidad de d8 igual a tu modificador por Sabiduría (mínimo de 1d8, actualmente [[lookup @abilities.wis.mod]]) y sumar las tiradas. Cada Muerto Viviente que falle su tirada de salvación contra ese uso de Expulsar Muertos Vivientes sufre daño Radiante igual al total de la tirada. Este daño no termina el efecto de expulsión.</p><section class=\"secret\" id=\"secret-VJPPRFTlu1fFg8XB\"><p><strong>Nota Foundry</strong></p><p>Este rasgo puede usarse en lugar de Expulsar Muertos Vivientes. Consume un uso de Canalizar Divinidad e incluye la tirada de salvación, los Efectos Activos para los estados y la tirada de daño de este rasgo.</p></section>",
       "activities": {
         "Channel Divinity: Turn Undead": {
           "name": "Canalizar Divinidad: Rechazar No Muertos"
@@ -5183,7 +5183,7 @@
     },
     "War Priest": {
       "name": "Sacerdote de Guerra",
-      "description": "<p>Desde el nivel 1, tu dios te entrega estallidos de inspiración divina mientras estás en combate. Cuando uses la acción de Ataque, puedes hacer un ataque con arma como acción adicional. Puedes usar este rasgo un número de veces igual a tu modificador por Sabiduría (mínimo una vez). Recuperas todos los usos gastados cuando finalices un descanso largo.</p>",
+      "description": "<p>Con una Acción Adicional, puedes hacer un ataque con un arma o con un Ataque sin Armas. Puedes usar esta Acción Adicional una cantidad de veces igual a tu modificador por Sabiduría (mínimo de una vez, actualmente [[lookup @abilities.wis.mod]]). Recuperas todos los usos gastados cuando terminas un Descanso Corto o Largo.</p>",
       "activities": {
         "Expend Use": {
           "name": "Gastar Uso"
@@ -5192,7 +5192,7 @@
     },
     "Warding Flare": {
       "name": "Destello Protector",
-      "description": "<p>Puedes interponer luz divina entre ti y un enemigo atacante. Cuando seas atacado por una criatura a 9 metros de ti que puedas ver, puedes usar tu reacción para imponer desventaja en la tirada de ataque, causando que la luz estalle ante el atacante antes de que golpee o falle. Un atacante que no pueda ser cegado es inmune a este rasgo.</p><p>Puedes usar este rasgo un número de veces igual a tu modificador por Sabiduría (mínimo una vez). Recuperas todos los usos gastados cuando finalices un descanso largo.</p><section class=\"secret\" id=\"secret-FVDTK9yzluaZoQ0v\"><p><strong>Nota Foundry</strong></p><p>Lactividad \\<strong\\>Flare\\</strong\\> incluye una 30 foot emanation para identifying impacted creatures. It does not automate el/la Desventaja.</p></section>",
+      "description": "<p>Cuando una criatura que puedas ver a 9 m (30 pies) o menos de ti hace una tirada de ataque, puedes usar una Reacción para imponer Desventaja en la tirada de ataque, haciendo que la luz destelle antes de que acierte o falle.</p><p>Puedes usar este rasgo una cantidad de veces igual a tu modificador por Sabiduría (mínimo de una vez, actualmente [[lookup @abilities.wis.mod]]). Recuperas todos los usos gastados cuando terminas un Descanso Largo.</p><section class=\"secret\" id=\"secret-FVDTK9yzluaZoQ0v\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Flare</strong> incluye una emanación de 9 m (30 pies) para identificar a las criaturas afectadas. No automatiza la Desventaja.</p></section>",
       "activities": {
         "Flare": {
           "name": "Destello",

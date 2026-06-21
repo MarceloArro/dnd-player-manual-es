@@ -1289,7 +1289,7 @@
     },
     "Danger Sense": {
       "name": "Sentir el Peligro",
-      "description": "<p>Obtienes un sentido sobrenatural de cuándo las cosas cercanas no están como deberían, otorgándote una ventaja cuando evitas el peligro. Tienes ventaja en tiradas de salvación de Destreza contra efectos que puedas ver, como trampas y conjuros. Para obtener este beneficio, no debes estar cegado, ensordecido o incapacitado.</p><section id=\"secret-gIJELszWrIqRFCxF\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo automatiza la Ventaja en tiradas de salvación de Destrezas but is not automáticamente disabled cuando Incapacitated. It puedes be temporarily deactivated en el Efectos tab.</p></section>",
+      "description": "<p>Obtienes un sentido sobrenatural de cuándo las cosas no son como deberían, lo que te da ventaja al esquivar peligros. Tienes Ventaja en las tiradas de salvación de Destreza a menos que tengas el estado de &amp;Reference[Incapacitated].</p><section id=\"secret-gIJELszWrIqRFCxF\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo automatiza la Ventaja en las tiradas de salvación de Destreza, pero no se desactiva automáticamente cuando estás Incapacitado. Puede desactivarse temporalmente en la pestaña de Efectos.</p></section>",
       "effects": {
         "Danger Sense": {
           "name": "Sentir el Peligro",
@@ -1539,7 +1539,7 @@
     },
     "Draconic Sorcery": {
       "name": "Hechicería Dracónica",
-      "description": "<blockquote><p>El poder dracónico hierve en tus venas</p></blockquote><p>Tu magia innata proviene de la magia dracónica que se mezcló con tu sangre o la de tus ancestros. Algunos hechiceros dracónicos pueden rastrear su linaje hasta un poderoso dragón.</p>",
+      "description": "<blockquote><p>Respira la Magia de los Dragones</p></blockquote><p>Tu magia innata proviene del don de un dragón. Quizá un dragón antiguo que afrontaba la muerte legó parte de su poder mágico a ti o a tu antepasado. Podrías haber absorbido magia de un lugar imbuido del poder de los dragones. O quizá manejaste un tesoro tomado del cúmulo de un dragón que estaba impregnado de poder dracónico. O podrías tener a un dragón por antepasado.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -1724,7 +1724,7 @@
     },
     "Eldritch Master": {
       "name": "Maestro Sobrenatural",
-      "description": "<p>Puedes recurrir a tu reserva interior de poder místico mientras ruega a tu patrón para recuperar espacios de conjuro gastados. Puedes pasar 1 minuto suplicando a tu patrón para obtener ayuda para recuperar todos tus espacios de conjuro de Magia de Pacto gastados. Una vez que recuperas espacios de conjuro con este rasgo, debes finalizar un descanso largo antes de poder hacerlo de nuevo.</p><section id=\"secret-Ei3yWRJ5hdPjWIH0\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Use Este rasgo a restaurar all expended Pact Magic conjuro slots. It consume el/la free uso de tu Magical Cunning feature.</p></section>",
+      "description": "<p>Cuando usas tu rasgo Astucia Mágica, recuperas todos tus espacios de conjuro de Magia de Pacto gastados.</p><section id=\"secret-Ei3yWRJ5hdPjWIH0\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Usa este rasgo para restaurar todos los espacios de conjuro de Magia de Pacto gastados. Consumirá el uso gratuito de tu rasgo Astucia Mágica.</p></section>",
       "activities": {
         "Eldritch Master": {
           "name": "Maestro Sobrenatural",
@@ -2112,7 +2112,7 @@
     },
     "Fiend Patron": {
       "name": "Patrón Infernal",
-      "description": "<blockquote><p>Extrae poder de un señor infernal</p></blockquote><p>Tu pacto te vincula a un señor infernal, un ser cuya ambición y sed de poder no conoce límites. Tales seres incluyen demonios, diablos y otros seres de los Planos Inferiores.</p>",
+      "description": "<blockquote><p>Haz un Trato con los Planos Inferiores</p></blockquote><p>Tu pacto recurre a los Planos Inferiores, los reinos de la perdición. Podrías forjar un trato con un señor demoníaco como Demogorgon u Orcus; un archidiablo como Asmodeus; o un diablo de foso, un balor, un yugoloth o una bruja nocturna especialmente poderosos. Los objetivos de ese patrón son malvados —la corrupción o destrucción de todas las cosas, incluido tú al final—, y tu camino se define por hasta qué punto luchas contra esos objetivos.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -2346,7 +2346,7 @@
     },
     "Goading Attack": {
       "name": "Ataque Provocador",
-      "description": "<p>Cuando golpees a una criatura con un ataque con arma, puedes gastar un Dado de Superioridad para intentar provocar al objetivo para que te ataque. Añades el Dado de Superioridad a la tirada de daño del ataque, y el objetivo debe hacer una tirada de salvación de Sabiduría. En un fallo, el objetivo tiene desventaja en todas las tiradas de ataque contra objetivos distintos a ti hasta el final de tu próximo turno.</p><section class=\"secret\" id=\"secret-BS37R5kndzjT5lCr\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye unactivities por saving contra tu <strong>Strength</strong> o <strong>Destreza</strong>. Puedes uso el/la inline daño roll para el/la extra daño o el/la <strong>Daño</strong> activity.</p><p>The <strong>Daño</strong> activity allows Tú/Usted a select el/la type de daño it debería deal en el/la roll dialog.</p></section>",
+      "description": "<p>Cuando aciertas a una criatura con una tirada de ataque, puedes gastar un Dado de Superioridad para intentar provocar al objetivo a que te ataque. Añade el [[/damage @scale.battle-master.superiority.die]]{Dado de Superioridad} a la tirada de daño del ataque. El objetivo debe superar una tirada de salvación de Sabiduría o tendrá Desventaja en las tiradas de ataque contra objetivos que no seas tú hasta el final de tu siguiente turno.</p><section class=\"secret\" id=\"secret-BS37R5kndzjT5lCr\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye actividades para salvar contra tu <strong>Strength</strong> o <strong>Dexterity</strong>. Puedes usar la tirada de daño en línea para el daño adicional o la actividad <strong>Damage</strong>.</p><p>La actividad <strong>Damage</strong> te permite seleccionar el tipo de daño que debe infligir en el diálogo de tirada.</p></section>",
       "activities": {
         "save": {
           "condition": "When you hit a creature with an attack roll"
@@ -2361,7 +2361,7 @@
     },
     "Great Old One Patron": {
       "name": "Patrón Primigenio",
-      "description": "<blockquote><p>Sirve a una entidad cósmica incomprensible</p></blockquote><p>Tu pacto es con un misterioso ser cuya naturaleza es completamente ajena a la realidad. Podrías no saber mucho sobre esta entidad, o podrías saber que es un horror que existe más allá de lo que la mente mortal puede comprender.</p>",
+      "description": "<blockquote><p>Desentierra el Saber Prohibido de Seres Inefables</p></blockquote><p>Cuando eliges esta subclase, podrías vincularte a un ser indescriptible del Reino Lejano o a un dios antiguo: un ser como Tharizdun, el Dios Encadenado; Zargon, el Retornado; Hadar, el Hambre Oscura; o el gran Cthulhu. O podrías invocar a varias entidades sin uncirte a una. Los motivos de estos seres son incomprensibles, y el Primigenio podría ser indiferente a tu existencia. Pero los secretos que has aprendido te permiten, no obstante, extraer de él una magia extraña.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -2389,7 +2389,7 @@
     },
     "Greater Portent": {
       "name": "Portento Superior",
-      "description": "<p>Tiras tres d20 para tu rasgo Portento, en lugar de dos.</p>"
+      "description": "<p>Las visiones de tus sueños se intensifican y pintan en tu mente una imagen más precisa de lo que está por venir. Tira tres d20 para tu rasgo Portento en lugar de dos.</p>"
     },
     "Guarded Mind": {
       "name": "Mente Protegida",
@@ -2508,7 +2508,7 @@
     },
     "Hurl Through Hell": {
       "name": "Arrastrar por el Infierno",
-      "description": "<p>A partir del nivel 14, cuando golpees a una criatura con un ataque, puedes usar este rasgo para transportar instantáneamente al objetivo a través de los planos inferiores. La criatura desaparece y atraviesa un paisaje de pesadilla.</p><p>Al final de tu próximo turno, el objetivo regresa al espacio que ocupó previamente, o al espacio desocupado más cercano. Si el objetivo no es un infernal, recibe 10d10 de daño psíquico mientras se tambalea debido a su experiencia horrible.</p><p>Una vez que uses este rasgo, no puedes usarlo de nuevo hasta que finalices un descanso largo.</p><section class=\"secret\" id=\"secret-gG3gHikiPJVXNkev\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye one limited uso.</p><p>The <strong>Regain Use</strong> activity expend a Pact Magic spell slot y restaurar a uso de Este rasgo.</p></section>",
+      "description": "<p>Una vez por turno, cuando aciertas a una criatura con una tirada de ataque, puedes intentar transportar al objetivo instantáneamente a través de los Planos Inferiores. El objetivo debe superar una tirada de salvación de Carisma contra tu CD de salvación de conjuros, o el objetivo desaparece y se precipita a través de un paisaje de pesadilla. El objetivo sufre 8d10 de daño Psíquico si no es un Infernal, y tiene el estado de &amp;Reference[Incapacitated] hasta el final de tu siguiente turno, cuando regresa al espacio que ocupaba anteriormente o al espacio sin ocupar más cercano.</p><p>Una vez usas este rasgo, no puedes volver a usarlo hasta que termines un Descanso Largo, a menos que gastes un espacio de conjuro de Magia de Pacto (no requiere acción) para restaurar su uso.</p><section class=\"secret\" id=\"secret-gG3gHikiPJVXNkev\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un uso limitado.</p><p>La actividad <strong>Regain Use</strong> gastará un espacio de conjuro de Magia de Pacto y restaurará un uso de este rasgo.</p></section>",
       "activities": {
         "Hurl Through Hell": {
           "name": "Arrastrar por el Infierno",
@@ -2525,7 +2525,7 @@
     },
     "Illusionist": {
       "name": "Ilusionista",
-      "description": "<p>Cuando lanzas un conjuro de Ilusión de nivel 1 o superior, puedes elegir un objeto inanimado no mágico que no esté siendo llevado por nadie y que puedas ver a 9 metros. El objeto se vuelve invisible hasta el final de tu próximo descanso largo, hasta que quedes incapacitado o mueras, o hasta que descartes este efecto como acción.</p>",
+      "description": "<blockquote><p>Teje Sutiles Conjuros de Engaño</p></blockquote><p>Te especializas en magia que deslumbra los sentidos y engaña la mente, y las ilusiones que creas hacen que lo imposible parezca real.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -2577,7 +2577,7 @@
     },
     "Improved Brutal Strike": {
       "name": "Golpe Brutal Mejorado",
-      "description": "<p>El daño adicional de tu Golpe Brutal aumenta: el daño de 1d10 se vuelve 2d10, y el daño de 1d6 se vuelve 2d6.</p><section class=\"secret\" id=\"secret-5KFPx8fyh5NldmJp\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye unan activity para each option que incluye un Efecto Activo para tracking el/la Staggering y Sundering Blows but does not automate their efectos.</p></section>",
+      "description": "<p>Has perfeccionado nuevas formas de atacar con furia. Los siguientes efectos están ahora entre tus opciones de Golpe Brutal.</p><p><strong>Golpe Aturdidor.</strong> El objetivo tiene Desventaja en la siguiente tirada de salvación que haga y no puede realizar Ataques de Oportunidad hasta el principio de tu siguiente turno.</p><p><strong>Golpe Destrozador.</strong> Antes del principio de tu siguiente turno, la siguiente tirada de ataque hecha por otra criatura contra el objetivo obtiene un bonificador de +5 a la tirada. Una tirada de ataque solo puede obtener un bonificador de Golpe Destrozador.</p><section class=\"secret\" id=\"secret-5KFPx8fyh5NldmJp\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una actividad para cada opción, que incluye un Efecto Activo para llevar la cuenta de los Golpes Aturdidor y Destrozador, pero no automatiza sus efectos.</p></section>",
       "activities": {
         "Sundering Blow": {
           "name": "Golpe Demoledor"
@@ -2719,7 +2719,7 @@
     },
     "Intimidating Presence": {
       "name": "Presencia Intimidante",
-      "description": "<p>A partir del nivel 10, puedes usar tu acción para asustar a alguien con tu presencia amenazante. Cuando lo hagas, elige una criatura que puedas ver a 9 metros de ti. Si la criatura puede verte u oírte, debe tener éxito en una tirada de salvación de Sabiduría (CD igual a 8 + tu bonificador por competencia + tu modificador por Carisma) o quedar asustada de ti hasta el final de tu próximo turno. En turnos subsiguientes, puedes usar tu acción para extender la duración de este efecto en la criatura asustada hasta el final de tu próximo turno. Este efecto termina si la criatura termina su turno fuera de tu línea de visión o a más de 18 metros de ti.</p><p>Si la criatura tiene éxito en su salvación, no puedes usar este rasgo en esa criatura de nuevo durante 24 horas.</p><section class=\"secret\" id=\"secret-vRQdGrtACAbxH4Tm\"><p><strong>Nota Foundry</strong></p><p>Lactividad \\<strong\\>Save\\</strong\\> incluye un Efecto Activo que añade el/la Frightened condición.</p><p>The <strong>Recharge</strong> activity consumes a uso de Rage y recharges tu uso de Intimidating Presence.</p></section>",
+      "description": "<p>Con una Acción Adicional, puedes infundir terror en los demás con tu presencia amenazante y tu poder primario. Cuando lo haces, cada criatura de tu elección en una Emanación de 9 m (30 pies) que se origine en ti debe hacer una tirada de salvación de Sabiduría (CD 8 más tu modificador por Fuerza y tu Bonificador por Competencia). Si falla la salvación, la criatura tiene el estado de Asustado durante 1 minuto. Al final de cada uno de los turnos de la criatura &amp;Reference[Frightened], esta repite la salvación y termina el efecto sobre sí misma si tiene éxito.</p><p>Una vez usas este rasgo, no puedes volver a usarlo hasta que termines un Descanso Largo, a menos que gastes un uso de tu Furia (no requiere acción) para restaurar su uso.</p><section class=\"secret\" id=\"secret-vRQdGrtACAbxH4Tm\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Save</strong> incluye un Efecto Activo que añade el estado de Asustado.</p><p>La actividad <strong>Recharge</strong> consume un uso de Furia y recarga tu uso de Presencia Intimidante.</p></section>",
       "activities": {
         "Recharge with Rage": {
           "name": "Recargar con Ira"
@@ -2898,7 +2898,7 @@
     },
     "Light Domain": {
       "name": "Dominio de la Luz",
-      "description": "<blockquote><p>Arde con el resplandor radiante de la luz</p></blockquote><p>Los dioses de la luz promueven ideales de renacimiento, renovación, verdad, vigilancia y belleza. Los clérigos de este dominio portan luz a donde sea que vayan, quemando la oscuridad.</p>",
+      "description": "<blockquote><p>Trae la Luz para Desterrar la Oscuridad</p></blockquote><p>El Dominio de la Luz enfatiza el poder divino de provocar fuego abrasador y revelación. Los Clérigos que esgrimen este poder son almas iluminadas imbuidas de resplandor y del poder de la visión perspicaz de sus deidades, encargados de ahuyentar las mentiras y consumir la oscuridad.</p><p>El Dominio de la Luz se asocia con dioses de la verdad, la vigilancia, la belleza, la perspicacia y la renovación. Algunos de estos dioses se identifican con el sol o como aurigas que guían el sol a través del cielo. Otros son centinelas que atraviesan el engaño. Algunos son deidades de la belleza y la maestría artística que enseñan que el arte es un vehículo para la mejora del alma.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -3064,7 +3064,7 @@
     },
     "Mindless Rage": {
       "name": "Furia Irracional",
-      "description": "<p>No puedes ser hechizado o asustado mientras estás furioso. Si estás hechizado o asustado cuando entras en Furia, el efecto se suspende durante la Furia.</p><section class=\"secret\" id=\"secret-CnCRD0Dyvx4FFGfV\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que otorga el/la Charmed y Frightened condición immunity. It is not applied automáticamente cuando begin tu Rage though.</p></section>",
+      "description": "<p>Tienes Inmunidad a los estados de &amp;Reference[Charmed] y &amp;Reference[Frightened] mientras tu Furia está activa. Si estás Hechizado o Asustado cuando entras en tu Furia, el estado termina sobre ti.</p><section class=\"secret\" id=\"secret-CnCRD0Dyvx4FFGfV\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que otorga inmunidad a los estados Hechizado y Asustado. Sin embargo, no se aplica automáticamente cuando empiezas tu Furia.</p></section>",
       "effects": {
         "Mindless Rage": {
           "name": "Furia Irracional"
@@ -3073,7 +3073,7 @@
     },
     "Misty Escape": {
       "name": "Escape Brumoso",
-      "description": "<p>Puedes desvanecerte en la niebla en respuesta al daño. Cuando recibes daño, puedes usar tu reacción para volverte invisible y teleportarte hasta 18 metros a un espacio desocupado que puedas ver. Permaneces invisible hasta el inicio de tu próximo turno o hasta que ataques o lances un conjuro.</p><p>Una vez que uses este rasgo, no puedes hacerlo de nuevo hasta que finalices un descanso corto o largo.</p><section class=\"secret\" id=\"secret-TTIMVNpwS90Cackr\"><p><strong>Nota Foundry</strong></p><p>Lactividad \\<strong\\>Disappearing Step\\</strong\\> incluye un Efecto Activo que applies el/la Invisible condición.</p> @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]</section>",
+      "description": "<p>Puedes lanzar @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Paso Brumoso} como una Reacción en respuesta a sufrir daño.</p><p>Además, los siguientes efectos están ahora entre tus opciones de Pasos de las Hadas.</p><p><strong>Paso Evanescente. </strong>Tienes el estado de &amp;Reference[Invisible] hasta el principio de tu siguiente turno o hasta inmediatamente después de que hagas una tirada de ataque, inflijas daño o lances un conjuro.</p><p><strong>Paso Pavoroso.</strong> Las criaturas a 1,5 m (5 pies) o menos del espacio que dejaste o del espacio en el que apareces (a tu elección) deben superar una tirada de salvación de Sabiduría contra tu CD de salvación de conjuros o sufrir 2d10 de daño Psíquico.</p><section class=\"secret\" id=\"secret-TTIMVNpwS90Cackr\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Disappearing Step</strong> incluye un Efecto Activo que aplica el estado de Invisible.</p></section>",
       "activities": {
         "Disappearing Step": {
           "name": "Paso Desvanecedor",
@@ -3583,7 +3583,7 @@
     },
     "Persistent Rage": {
       "name": "Furia Persistente",
-      "description": "<p>Tu furia es tan feroz que solo termina antes de tiempo si quedas inconsciente o si eliges terminarla.</p><section class=\"secret\" id=\"secret-3IS0iUbWZ04tp74k\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye an activity que puedes be used cuando roll Initiative que recharge all de tu Rage uses.</p></section>",
+      "description": "<p>Cuando tiras Iniciativa, puedes recuperar todos los usos gastados de Furia. Después de recuperar usos de Furia de esta manera, no puedes volver a hacerlo hasta que termines un Descanso Largo.</p><p>Además, tu Furia es tan feroz que ahora dura 10 minutos sin que necesites hacer nada para prolongarla de asalto en asalto. Tu Furia termina antes si tienes el estado de &amp;Reference[Unconscious] (no solo el estado de &amp;Reference[Incapacitated]) o te pones armadura Pesada.</p><section class=\"secret\" id=\"secret-3IS0iUbWZ04tp74k\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una actividad que puede usarse cuando tiras Iniciativa, que recargará todos tus usos de Furia.</p></section>",
       "activities": {
         "Recharge Rage on Initiative": {
           "name": "Recargar Ira en Iniciativa",
@@ -3623,7 +3623,7 @@
     },
     "Portent": {
       "name": "Portento",
-      "description": "<p>Vislumbres del futuro comienzan a presionarte. Cuando finalices un descanso largo, tira dos d20 y anota los números obtenidos. Puedes reemplazar cualquier tirada de ataque, tirada de salvación o chequeo de habilidad hecho por ti o una criatura que puedas ver con una de estas tiradas de predicción. Debes elegir hacerlo antes de la tirada, y puedes reemplazar una tirada de esta manera solo una vez por turno.</p><p>Cada tirada de predicción puede usarse solo una vez. Cuando finalices un descanso largo, pierdes cualquier tirada de predicción no usada.</p><section class=\"secret\" id=\"secret-UWpQx1BOZPI14hq0\"><p><strong>Nota Foundry</strong></p><p>Cuando roll both de el/la d20 puedes edit Este rasgo's description a track them o log it another way.</p></section>"
+      "description": "<p>Vislumbres del futuro empiezan a presionar tu conciencia. Siempre que terminas un Descanso Largo, tira dos [[/r d20]] y anota los números obtenidos. Puedes reemplazar cualquier &amp;Reference[D20 Test] hecha por ti o por una criatura que puedas ver con una de estas tiradas premonitorias. Debes elegir hacerlo antes de la tirada, y solo puedes reemplazar una tirada de esta manera una vez por turno.</p><p>Cada tirada premonitoria solo puede usarse una vez. Cuando terminas un Descanso Largo, pierdes cualquier tirada premonitoria sin usar.</p><p><strong>Tiradas de Portento Actuales:</strong> x, y</p><section class=\"secret\" id=\"secret-UWpQx1BOZPI14hq0\"><p><strong>Nota Foundry</strong></p><p>Cuando tiras los dos d20, puedes editar la descripción de este rasgo para anotarlos o registrarlos de otra manera.</p></section>"
     },
     "Potent Cantrip": {
       "name": "Truco Potente",
@@ -3866,7 +3866,7 @@
     },
     "Radiant Soul": {
       "name": "Alma Radiante",
-      "description": "<p>Cuando lances un conjuro que inflija daño Radiante o de Fuego, añades tu modificador de Carisma a ese daño.</p><p>Además, obtienes resistencia al daño Radiante.</p><section class=\"secret\" id=\"secret-radiant-soul\"><p><strong>Nota Foundry</strong></p><p>El daño de bonificación de este rasgo se añade automáticamente cuando lanzas conjuros de daño Radiante o de Fuego.</p></section>"
+      "description": "<p>Tu vínculo con tu patrón te permite servir de conducto para la energía radiante. Tienes Resistencia al daño Radiante. Una vez por turno, cuando un conjuro que lanzas inflige daño Radiante o de Fuego, puedes añadir tu modificador por Carisma al daño de ese conjuro contra uno de los objetivos del conjuro.</p><section class=\"secret\" id=\"secret-svyjVvard8Z17Yjz\"><p><strong>Nota Foundry</strong></p><p>Conforme subes de nivel, se te otorgará automáticamente la Resistencia al daño Radiante.</p><p>La actividad <strong>Damage</strong> incluye una tirada de daño que te permite seleccionar el tipo de daño en el diálogo de la tirada. Como alternativa, puedes añadir tu modificador por Carisma en el campo de Bonificación Situacional del conjuro al tirar el daño.</p></section>"
     },
     "Radiant Strikes": {
       "name": "Golpes Radiantes",
@@ -4463,7 +4463,7 @@
     },
     "Spell Resistance": {
       "name": "Resistencia a Conjuros",
-      "description": "<p>Tienes ventaja en tiradas de salvación contra conjuros.</p><section id=\"secret-wR8JvT2m6XpCs9Gr\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que otorga ventaja en tiradas de salvación contra conjuros.</p></section>"
+      "description": "<p>Tienes Ventaja en las tiradas de salvación contra conjuros y tienes Resistencia al daño de los conjuros.</p><section id=\"secret-JwtRxR7ZBFh3IFBo\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo no automatiza la Ventaja ni la Resistencia.</p><p>Con tu token seleccionado, puedes hacer clic derecho en la tarjeta de chat de la tirada de daño y seleccionar <span class=\"reference\"><em class=\"fas fa-user-shield\"> </em>Aplicar Mitad de Daño</span>, o hacer clic en el botón «1/2» y luego en el botón <span class=\"reference\"><em class=\"fa-solid fa-reply-all\"> </em>Aplicar</span>.</p></section>"
     },
     "Spell Thief": {
       "name": "Ladrón de Conjuros",
@@ -4586,7 +4586,7 @@
     },
     "Student of War": {
       "name": "Estudiante de Guerra",
-      "description": "<p>Obtienes competencia con un tipo de herramientas de artesano de tu elección.</p><section id=\"secret-cnuoImK7Jn9u5eo6\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Se te pedirá por these choices while leveling up.</p></section>"
+      "description": "<p>Obtienes competencia con un tipo de Herramientas de Artesano de tu elección y obtienes competencia en una habilidad de tu elección de entre las habilidades disponibles para los Guerreros en el nivel 1.</p><section id=\"secret-cnuoImK7Jn9u5eo6\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Se te pedirán estas elecciones mientras subes de nivel.</p></section>"
     },
     "Studied Attacks": {
       "name": "Ataques Estudiados",
@@ -4934,7 +4934,7 @@
     },
     "Trickery Domain": {
       "name": "Dominio del Engaño",
-      "description": "<blockquote><p>Prospera en el engaño y la ilusión</p></blockquote><p>Los dioses del engaño son protectores de los tramposos y pícaros. Sus clérigos son una fuerza disruptiva en el mundo, usando trucos y mentiras para alcanzar sus objetivos.</p>",
+      "description": "<blockquote><p>Haz Travesuras y Desafía a la Autoridad</p></blockquote><p>El Dominio del Engaño ofrece magia de engaño, ilusión y sigilo. Los Clérigos que esgrimen esta magia son una fuerza disruptiva en el mundo: pinchan el orgullo, se burlan de los tiranos, liberan cautivos y desafían las tradiciones vacías. Prefieren la subversión y las bromas a la confrontación directa.</p><p>Los dioses del engaño son embaucadores e instigadores que suponen un desafío constante al orden aceptado tanto entre dioses como entre mortales. Encarnan las fuerzas del cambio y la agitación social, y son patrones de ladrones, bribones, jugadores, rebeldes y libertadores. Las órdenes religiosas que operan en secreto, especialmente las que buscan socavar gobiernos o jerarquías opresivas, también recurren al poder del Dominio del Engaño.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -4959,7 +4959,7 @@
     },
     "Trip Attack": {
       "name": "Ataque con Zancadilla",
-      "description": "<p>Cuando golpees a una criatura con un ataque con arma, puedes gastar un Dado de Superioridad para intentar derribar al objetivo. Añades el Dado de Superioridad a la tirada de daño del ataque, y si el objetivo es Grande o más pequeño, debe hacer una tirada de salvación de Fuerza. En un fallo, el objetivo tiene la condición Derribado.</p><section class=\"secret\" id=\"secret-QeXYRpr665AxyLvo\"><p><strong>Nota Foundry</strong></p><p>Este rasgo automáticamente usa el mayor entre tu Fuerza/Destreza por la salvación.</p><p>The Daño included en la salvación allows Tú/Usted a select el/la type de daño it debería deal en el/la roll dialog. It remember tu choice going porwards.</p></section>",
+      "description": "<p>Cuando aciertas a una criatura con una tirada de ataque usando un arma o un Ataque sin Armas, puedes gastar un Dado de Superioridad y añadir el dado a la tirada de daño del ataque. Si el objetivo es Grande o más pequeño, debe superar una tirada de salvación de Fuerza o tendrá el estado de &amp;Reference[Prone].</p><section class=\"secret\" id=\"secret-QeXYRpr665AxyLvo\"><p><strong>Nota Foundry</strong></p><p>Este rasgo usará automáticamente el mayor de tu Fuerza/Destreza para la salvación.</p><p>El daño incluido en la salvación te permite seleccionar el tipo de daño que debe infligir en el diálogo de tirada. Recordará tu elección en adelante.</p></section>",
       "activities": {
         "save": {
           "condition": "When you hit a creature with an attack roll"
@@ -5154,7 +5154,7 @@
     },
     "War Domain": {
       "name": "Dominio de la Guerra",
-      "description": "<blockquote><p>Invoca el poder de la guerra</p></blockquote><p>La guerra tiene muchas manifestaciones. Puede convertir a gente ordinaria en héroes. Puede ser desesperada y horrorosa, con actos de crueldad que eclipsan cualquier atisbo de gloria. Los clérigos de este dominio sobresalen en batalla.</p>",
+      "description": "<blockquote><p>Inspira Valor y Castiga a los Enemigos</p></blockquote><p>La guerra tiene muchas manifestaciones. Puede hacer héroes de gente corriente. Puede ser desesperada y horrible, con actos de crueldad y cobardía eclipsando instancias de excelencia y valor. Los Clérigos que recurren a la magia del Dominio de la Guerra destacan en la batalla, inspirando a otros a luchar por una buena causa u ofreciendo actos de violencia como plegarias.</p><p>Los dioses del Dominio de la Guerra velan por los guerreros y los recompensan por sus grandes hazañas. Incluyen campeones del honor y la caballería, así como dioses de la destrucción y el pillaje. Otros dioses de la guerra adoptan una postura más neutral, promoviendo la guerra en todas sus manifestaciones y apoyando a los guerreros en cualquier circunstancia.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -5345,7 +5345,7 @@
     },
     "Wild Magic Sorcery": {
       "name": "Hechicería de Magia Salvaje",
-      "description": "<blockquote><p>La magia caótica fluye a través de ti</p></blockquote><p>Tu magia innata proviene de las fuerzas salvajes delcaos que subyacen al orden de la creación. Podrías haber sido expuesto a magia cruda del Limbo o de otra manera marcado por la magia salvaje.</p>",
+      "description": "<blockquote><p>Desata la Magia Caótica</p></blockquote><p>Tu magia innata surge de las fuerzas del caos que subyacen al orden de la creación. Tú o un antepasado podríais haber soportado la exposición a magia pura, quizá a través de un portal planar que conducía al Limbo o a los Planos Elementales. Quizá te bendijo un ser feérico o te marcó un demonio. O tu magia podría ser una casualidad sin causa aparente. Sea cual sea su origen, esta magia se agita en tu interior, esperando cualquier salida.</p>",
       "advancement": {
         "Subclass Features": {
           "title": "Rasgos de Subclase"
@@ -5480,7 +5480,7 @@
     },
     "phbbrdExtraAttac": {
       "name": "Ataque Adicional",
-      "description": "<p>Puedes atacar dos veces, en lugar de una, cuando realizas la acción de Ataque en tu turno.</p>"
+      "description": "<p>Puedes atacar dos veces, en lugar de una, siempre que llevas a cabo la acción de Atacar en tu turno.</p><p>Además, puedes lanzar uno de tus trucos que tenga un tiempo de lanzamiento de una acción en lugar de uno de esos ataques.</p>"
     },
     "phbbrdUnarmedStr": {
       "name": "Ataque sin Armas",
@@ -5578,7 +5578,7 @@
     },
     "phbpdnFightingSt": {
       "name": "Estilo de Combate",
-      "description": "<p>Has adoptado un estilo de combate particular como tu especialidad. Elige uno de los siguientes. No puedes elegir un estilo de combate más de una vez, incluso si posteriormente obtienes este rasgo de nuevo.</p> @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.sbHImaCB8ZMEHYkb]"
+      "description": "<p>Obtienes una @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.sbHImaCB8ZMEHYkb]{dote de Estilo de Combate} de tu elección. En lugar de elegir una de esas dotes, puedes elegir la opción de abajo.</p><hr /><p>@Embed[Compendium.dnd-players-handbook.feats.Item.phbfstBlessedWar caption=false]</p>"
     },
     "phbpdnSpellcasti": {
       "name": "Lanzamiento de Conjuros",
@@ -5639,11 +5639,11 @@
     },
     "phbrgrExpertise0": {
       "name": "Pericia",
-      "description": "<p>Elige dos de tus competencias de habilidad, o una de tus competencias de habilidad y tu competencia con herramientas de ladrón. Tu bonificador por competencia se duplica para cualquier chequeo de habilidad que hagas que use cualquiera de las competencias elegidas.</p><section class=\"secret\" id=\"secret-8Sp7JCTIzt2U5K6u\"><p><strong>Nota Foundry</strong></p><p>Se te pedirá con a choice cuando reach this level.</p></section>"
+      "description": "<p>Elige dos de tus competencias en habilidades en las que no tengas Pericia. Obtienes Pericia en esas habilidades.</p><section class=\"secret\" id=\"secret-8Sp7JCTIzt2U5K6u\"><p><strong>Nota Foundry</strong></p><p>Se te pedirá una elección cuando alcances este nivel.</p></section>"
     },
     "phbrgrFightingSt": {
       "name": "Estilo de Combate",
-      "description": "<p>Has adoptado un estilo de combate particular como tu especialidad. Elige uno de los siguientes. No puedes elegir un estilo de combate más de una vez, incluso si posteriormente obtienes este rasgo de nuevo.</p> @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.sbHImaCB8ZMEHYkb]"
+      "description": "<p>Obtienes una @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.sbHImaCB8ZMEHYkb]{dote de Estilo de Combate} de tu elección. En lugar de elegir una de esas dotes, puedes elegir la opción de abajo.</p><hr /><p>@Embed[Compendium.dnd-players-handbook.feats.Item.phbfstDruidicWar caption=false]</p>"
     },
     "phbrgrSpellcasti": {
       "name": "Lanzamiento de Conjuros",
@@ -5651,7 +5651,7 @@
     },
     "phbrgrWeaponMast": {
       "name": "Maestría con Armas",
-      "description": "<p>Tu entrenamiento con armas te permite usar efectivamente las propiedades de dominio de armas.</p>"
+      "description": "<p>Tu entrenamiento con armas te permite usar las propiedades de maestría de dos tipos de armas de tu elección con las que tengas competencia, como los Arcos Largos y las Espadas Cortas.</p><p>Siempre que terminas un Descanso Largo, puedes cambiar los tipos de armas que elegiste. Por ejemplo, podrías pasar a usar las propiedades de maestría de las Cimitarras y las Espadas Largas.</p>"
     },
     "phbscrEpicBoon00": {
       "name": "Don Épico",

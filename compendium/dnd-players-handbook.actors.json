@@ -1943,7 +1943,7 @@
               "name": "Arrojar Fuego"
             }
           },
-          "description": "<p>En tu mano aparece una llama titilante, que permanece hasta que termine el conjuro. En tu mano, la llama no genera calor, no puede quemar nada y emite una luz brillante en un radio de 6 m (20 pies) y luz tenue 6 m (20 pies) más allá. El conjuro termina si lo vuelves a lanzar.</p><p>Hasta que el conjuro termine, puedes usar una acción de magia para arrojar la llama a una criatura u objeto a 18 m (60 pies) o menos de ti. Haz un ataque de conjuro a distancia. Si acierta, el objetivo recibe 148 de daño de fuego.</p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).</p>"
+          "description": "<p>En tu mano aparece una llama titilante, que permanece hasta que termine el conjuro. En tu mano, la llama no genera calor, no puede quemar nada y emite una luz brillante en un radio de 6 m (20 pies) y luz tenue 6 m (20 pies) más allá. El conjuro termina si lo vuelves a lanzar.</p><p>Hasta que el conjuro termine, puedes usar una acción de magia para arrojar la llama a una criatura u objeto a 18 m (60 pies) o menos de ti. Haz un ataque de conjuro a distancia. Si acierta, el objetivo recibe 1d8 de daño de fuego.</p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).</p>"
         },
         "Animal Friendship": {
           "name": "Encantar Animal",
@@ -4317,7 +4317,7 @@
         },
         "Sorcerous Burst": {
           "name": "Estallido Mágico",
-          "description": "<p>Lanzas energía mágica contra una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 148 de daño del tipo que elijas: ácido, frío, fuego, psíquico, relámpago, trueno o veneno.</p><p>Si sacas un 8 en un d8 con este conjuro, puedes tirar otro d8 y sumarlo al daño. Cuando lances este conjuro, la cantidad máxima de d8 que puedes sumar al daño del conjuro es igual a tu modificador por aptitud mágica.</p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).</p>"
+          "description": "<p>Lanzas energía mágica contra una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d8 de daño del tipo que elijas: ácido, frío, fuego, psíquico, relámpago, trueno o veneno.</p><p>Si sacas un 8 en un d8 con este conjuro, puedes tirar otro d8 y sumarlo al daño. Cuando lances este conjuro, la cantidad máxima de d8 que puedes sumar al daño del conjuro es igual a tu modificador por aptitud mágica.</p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).</p>"
         },
         "Detect Magic": {
           "name": "Detectar Magia",

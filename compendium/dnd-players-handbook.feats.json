@@ -457,7 +457,7 @@
       "activities": {
         "Advantage": {
           "name": "Ventaja",
-          "condition": "Cuando tires 1420 para realizar una prueba con d20"
+          "condition": "Cuando tires 1d20 para realizar una prueba con d20"
         },
         "Disadvantage": {
           "name": "Desventaja",

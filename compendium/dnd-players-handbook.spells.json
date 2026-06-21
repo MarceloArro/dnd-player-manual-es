@@ -177,7 +177,7 @@
     },
     "Animate Objects": {
       "name": "Animar Objetos",
-      "description": "<p>Tus órdenes hacen que los objetos cobren vida. Elige una cantidad de objetos no mágicos dentro del alcance que no vista ni lleve nadie, que no estén fijos en una superficie y que no sean Gargantuescos. La cantidad máxima de objetos es igual a tu modificador por aptitud mágica.</p><p>A estos efectos, un objetivo Mediano o más pequeño cuenta como un objeto, un objetivo Grande cuenta como dos y un objetivo Enorme cuenta como tres. Cada objetivo se animará, le crecerán patas, se convertirá en un autómata que emplea el perfil de un objeto animado y permanecerá bajo tu control hasta que el conjuro termine o hasta que sus Puntos de Golpe se reduzcan a O. Cada criatura que crees con este conjuro se considera una aliada para tus aliados y para ti.</p><p>En combate, comparte tu orden de iniciativa y su turno va justo después del tuyo. Hasta que el conjuro termine, puedes usar una acción adicional para dar órdenes mentalmente a cada criatura que hayas creado con el conjuro que esté a 150 m (500 pies) o menos de ti (si controlas a varias criaturas, puedes dar órdenes a cualesquiera de ellas a la vez transmitiéndole la misma orden a cada una). Si no das ninguna orden, la criatura hace la acción de esquivar y solo se mueve para evitar peligros.</p><p><strong>Cuando los Puntos de Golpe de la criatura se reduzcan a 0, recuperará su forma de objeto y cualquier daño sobrante se aplicará a esa forma.</strong> Con un Espacio de Conjuro de Nivel Superior.</p><p>El daño del golpe de la criatura aumenta en 1d4 (Mediana o más pequeña), 1d6 (Grande) o 1412 (Enorme) por cada nivel por encima de 5 que tenga el espacio.</p>",
+      "description": "<p>Tus órdenes hacen que los objetos cobren vida. Elige una cantidad de objetos no mágicos dentro del alcance que no vista ni lleve nadie, que no estén fijos en una superficie y que no sean Gargantuescos. La cantidad máxima de objetos es igual a tu modificador por aptitud mágica.</p><p>A estos efectos, un objetivo Mediano o más pequeño cuenta como un objeto, un objetivo Grande cuenta como dos y un objetivo Enorme cuenta como tres. Cada objetivo se animará, le crecerán patas, se convertirá en un autómata que emplea el perfil de un objeto animado y permanecerá bajo tu control hasta que el conjuro termine o hasta que sus Puntos de Golpe se reduzcan a O. Cada criatura que crees con este conjuro se considera una aliada para tus aliados y para ti.</p><p>En combate, comparte tu orden de iniciativa y su turno va justo después del tuyo. Hasta que el conjuro termine, puedes usar una acción adicional para dar órdenes mentalmente a cada criatura que hayas creado con el conjuro que esté a 150 m (500 pies) o menos de ti (si controlas a varias criaturas, puedes dar órdenes a cualesquiera de ellas a la vez transmitiéndole la misma orden a cada una). Si no das ninguna orden, la criatura hace la acción de esquivar y solo se mueve para evitar peligros.</p><p><strong>Cuando los Puntos de Golpe de la criatura se reduzcan a 0, recuperará su forma de objeto y cualquier daño sobrante se aplicará a esa forma.</strong> Con un Espacio de Conjuro de Nivel Superior.</p><p>El daño del golpe de la criatura aumenta en 1d4 (Mediana o más pequeña), 1d6 (Grande) o 1d12 (Enorme) por cada nivel por encima de 5 que tenga el espacio.</p>",
       "activities": {
         "summon": {
           "profiles": {
@@ -420,7 +420,7 @@
     },
     "Befuddlement": {
       "name": "Ofuscación",
-      "description": "<p>Atacas la mente de una criatura que puedas ver dentro del alcance. El objetivo hace una [[/save int dc=@attributes.spell.dc format=long]].</p><p>Si la falla, sufrirá 10412 de daño psíquico y no podrá lanzar conjuros ni realizar acciones de magia. Al final de cada 30 días, el objetivo repite la Tirada de Salvación y, si tiene éxito, se librará del efecto. También se puede finalizar este efecto mediante un conjuro curar, deseo o restablecimiento mayor.</p><p>Si supera la tirada, solo sufrirá la mitad de ese daño. OJO</p>",
+      "description": "<p>Atacas la mente de una criatura que puedas ver dentro del alcance. El objetivo hace una [[/save int dc=@attributes.spell.dc format=long]].</p><p>Si la falla, sufrirá 10d12 de daño psíquico y no podrá lanzar conjuros ni realizar acciones de magia. Al final de cada 30 días, el objetivo repite la Tirada de Salvación y, si tiene éxito, se librará del efecto. También se puede finalizar este efecto mediante un conjuro curar, deseo o restablecimiento mayor.</p><p>Si supera la tirada, solo sufrirá la mitad de ese daño. OJO</p>",
       "effects": {
         "Befuddled": {
           "name": "Aturdido",
@@ -759,7 +759,7 @@
     },
     "Conjure Elemental": {
       "name": "Conjurar Elemental",
-      "description": "<p>Invocas un espíritu Grande e intangible de los Planos Elementales, que aparece en un espacio sin ocupar dentro. del alcance. Elige el elemento del espíritu, que determina su tipo de daño: agua (frío), aire (relámpago), fuego (fuego) o tierra (trueno). El espíritu permanece hasta que el conjuro termine.</p><p>Siempre que una criatura que puedas ver entre en el espacio del espíritu o empiece su turno a 1,5 m (5 pies) o menos de él, puedes obligarla a hacer una [[/save dex dc=@attributes.spell.dc format=long]] si el espíritu no tiene ninguna criatura &Reference[restrained apply=false]. Si la falla, el objetivo sufrirá 8d8 de daño del tipo del espíritu y tendrá el estado de &Reference[restrained apply=false] hasta que el conjuro termine. Al principio de cada uno de sus turnos, el objetivo &Reference[restrained apply=false] repite la Tirada de Salvación. Si la falla, sufrirá 448 de daño del tipo del espíritu. Si la supera, dejará de estar &Reference[restrained apply=false] por él.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño aumenta en 2d8 por cada nivel por encima de 5 que tenga el espacio.</p>",
+      "description": "<p>Invocas un espíritu Grande e intangible de los Planos Elementales, que aparece en un espacio sin ocupar dentro. del alcance. Elige el elemento del espíritu, que determina su tipo de daño: agua (frío), aire (relámpago), fuego (fuego) o tierra (trueno). El espíritu permanece hasta que el conjuro termine.</p><p>Siempre que una criatura que puedas ver entre en el espacio del espíritu o empiece su turno a 1,5 m (5 pies) o menos de él, puedes obligarla a hacer una [[/save dex dc=@attributes.spell.dc format=long]] si el espíritu no tiene ninguna criatura &Reference[restrained apply=false]. Si la falla, el objetivo sufrirá 8d8 de daño del tipo del espíritu y tendrá el estado de &Reference[restrained apply=false] hasta que el conjuro termine. Al principio de cada uno de sus turnos, el objetivo &Reference[restrained apply=false] repite la Tirada de Salvación. Si la falla, sufrirá 4d8 de daño del tipo del espíritu. Si la supera, dejará de estar &Reference[restrained apply=false] por él.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño aumenta en 2d8 por cada nivel por encima de 5 que tenga el espacio.</p>",
       "activities": {
         "Conjure": {
           "name": "Conjurar"
@@ -1530,7 +1530,7 @@
     },
     "Finger of Death": {
       "name": "Dedo de la Muerte",
-      "description": "<p>Desatas una energía negativa hacia una criatura que puedas ver dentro del alcance. El objetivo hace una [[/save con dc=@attributes.spell.dc format=long]]; sufrirá 748 + 30 de daño necrótico si la falla o la mitad del daño si la supera.</p><p>Si un humanoide muere a causa de este conjuro, se alzará al principio de tu siguiente turno como un zombi (consulta el apéndice B) y seguirá tus órdenes verbales.</p>",
+      "description": "<p>Desatas una energía negativa hacia una criatura que puedas ver dentro del alcance. El objetivo hace una [[/save con dc=@attributes.spell.dc format=long]]; sufrirá 7d8 + 30 de daño necrótico si la falla o la mitad del daño si la supera.</p><p>Si un humanoide muere a causa de este conjuro, se alzará al principio de tu siguiente turno como un zombi (consulta el apéndice B) y seguirá tus órdenes verbales.</p>",
       "activities": {
         "Negative Energy Save": {
           "name": "Salvación de Energía Negativa"
@@ -2333,7 +2333,7 @@
     },
     "Magic Missile": {
       "name": "Proyectil Mágico",
-      "description": "<p>Creas tres dardos brillantes de fuerza mágica y cada uno de ellos golpea a una criatura de tu elección a la que puedas ver dentro del alcance. Cada dardo inflige 144 +1 de daño de fuerza al objetivo. Todos los dardos aciertan a la vez y puedes dirigirlos para que acierten a una sola criatura o a varias.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El conjuro crea un dardo más por cada nivel por encima de 1 que tenga el espacio.</p>"
+      "description": "<p>Creas tres dardos brillantes de fuerza mágica y cada uno de ellos golpea a una criatura de tu elección a la que puedas ver dentro del alcance. Cada dardo inflige 1d4 +1 de daño de fuerza al objetivo. Todos los dardos aciertan a la vez y puedes dirigirlos para que acierten a una sola criatura o a varias.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El conjuro crea un dardo más por cada nivel por encima de 1 que tenga el espacio.</p><p>[[2 + @item.level]]{Nivel [[lookup @item.level]] dardos}</p>"
     },
     "Magic Mouth": {
       "name": "Boca Mágica",
@@ -2888,7 +2888,7 @@
     },
     "Produce Flame": {
       "name": "Crear Llama",
-      "description": "<p>En tu mano aparece una llama titilante, que permanece hasta que termine el conjuro. En tu mano, la llama no genera calor, no puede quemar nada y emite una luz brillante en un radio de 6 m (20 pies) y luz tenue 6 m (20 pies) más allá. El conjuro termina si lo vuelves a lanzar.</p><p>Hasta que el conjuro termine, puedes usar una acción de magia para arrojar la llama a una criatura u objeto a 18 m (60 pies) o menos de ti. Haz un ataque de conjuro a distancia. Si acierta, el objetivo recibe 148 de daño de fuego.</p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).</p>",
+      "description": "<p>En tu mano aparece una llama titilante, que permanece hasta que termine el conjuro. En tu mano, la llama no genera calor, no puede quemar nada y emite una luz brillante en un radio de 6 m (20 pies) y luz tenue 6 m (20 pies) más allá. El conjuro termina si lo vuelves a lanzar.</p><p>Hasta que el conjuro termine, puedes usar una acción de magia para arrojar la llama a una criatura u objeto a 18 m (60 pies) o menos de ti. Haz un ataque de conjuro a distancia. Si acierta, el objetivo recibe 1d8 de daño de fuego.</p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).</p>",
       "activities": {
         "Cast": {
           "name": "Lanzar"
@@ -3050,7 +3050,7 @@
     },
     "Reincarnate": {
       "name": "Reencarnar",
-      "description": "<p>Tocas a un humanoide muerto o una parte de sus restos. Siempre que la criatura no lleve muerta más de 10 días, el conjuro forma un nuevo cuerpo y llama al alma para que entre en él.</p><p>Tira 1d10 y consulta la tabla a continuación para determinar la especie del cuerpo, o bien tu DM elige otra especie jugable. 1d10 Especie 1410 Especie Aasimar Goliat Dracónido Humano Elfo Mediano Enano o) Orco >) Gnomo Tiefling La criatura reencarnada hace cualquier elección que ofrezca la descripción de la especie y recuerda su vida anterior. Conserva las capacidades que tenía en su forma original, pero los atributos de su especie nueva sustituyen a los de la anterior.</p>"
+      "description": "<p>Tocas a un humanoide muerto o una parte de sus restos. Siempre que la criatura no lleve muerta más de 10 días, el conjuro forma un nuevo cuerpo y llama al alma para que entre en él.</p><p>Tira 1d10 y consulta la tabla a continuación para determinar la especie del cuerpo, o bien tu DM elige otra especie jugable. 1d10 Especie 1d10 Especie Aasimar Goliat Dracónido Humano Elfo Mediano Enano o) Orco >) Gnomo Tiefling La criatura reencarnada hace cualquier elección que ofrezca la descripción de la especie y recuerda su vida anterior. Conserva las capacidades que tenía en su forma original, pero los atributos de su especie nueva sustituyen a los de la anterior.</p>"
     },
     "Remove Curse": {
       "name": "Levantar Maldición",
@@ -3058,7 +3058,7 @@
     },
     "Resistance": {
       "name": "Resistencia",
-      "description": "<p>Tocas a una criatura voluntaria y eliges un tipo de daño: ácido, contundente, cortante, frío, fuego, necrótico, perforante, radiante, relámpago, trueno o veneno. Cuando la criatura sufra daño del tipo elegido antes de que termine el conjuro, reduce el daño total recibido en 144. Una criatura solo puede beneficiarse de este conjuro una vez por turno.</p>",
+      "description": "<p>Tocas a una criatura voluntaria y eliges un tipo de daño: ácido, contundente, cortante, frío, fuego, necrótico, perforante, radiante, relámpago, trueno o veneno. Cuando la criatura sufra daño del tipo elegido antes de que termine el conjuro, reduce el daño total recibido en 1d4. Una criatura solo puede beneficiarse de este conjuro una vez por turno.</p>",
       "activities": {
         "utility": {
           "roll": "Reducción de Daño"
@@ -3431,7 +3431,7 @@
     },
     "Sorcerous Burst": {
       "name": "Estallido Mágico",
-      "description": "<p>Lanzas energía mágica contra una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 148 de daño del tipo que elijas: ácido, frío, fuego, psíquico, relámpago, trueno o veneno.</p><p>Si sacas un 8 en un d8 con este conjuro, puedes tirar otro d8 y sumarlo al daño. Cuando lances este conjuro, la cantidad máxima de d8 que puedes sumar al daño del conjuro es igual a tu modificador por aptitud mágica.</p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).</p>"
+      "description": "<p>Lanzas energía mágica contra una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d8 de daño del tipo que elijas: ácido, frío, fuego, psíquico, relámpago, trueno o veneno.</p><p>Si sacas un 8 en un d8 con este conjuro, puedes tirar otro d8 y sumarlo al daño. Cuando lances este conjuro, la cantidad máxima de d8 que puedes sumar al daño del conjuro es igual a tu modificador por aptitud mágica.</p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).</p>"
     },
     "Spare the Dying": {
       "name": "Piedad con los Moribundos",
@@ -3494,7 +3494,7 @@
     },
     "Spiritual Weapon": {
       "name": "Arma Espiritual",
-      "description": "<p>Creas una fuerza espectral flotante con el aspecto de un arma de tu elección que permanece hasta que termine el conjuro. La fuerza aparece dentro del alcance en un espacio de tu elección y puedes hacer inmediatamente un ataque de conjuro cuerpo a cuerpo contra una criatura que esté a 1,5 m (5 pies) o menos de ella. Si acierta, el objetivo recibe una cantidad de daño de fuerza igual a 148 más tu modificador por aptitud mágica.</p><p>Como acción adicional en tus siguientes turnos, puedes mover la fuerza hasta 6 m (20 pies) y repetir el ataque contra una criatura que esté a 1,5 m (5 pies) o menos de ella.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio.</p>"
+      "description": "<p>Creas una fuerza espectral flotante con el aspecto de un arma de tu elección que permanece hasta que termine el conjuro. La fuerza aparece dentro del alcance en un espacio de tu elección y puedes hacer inmediatamente un ataque de conjuro cuerpo a cuerpo contra una criatura que esté a 1,5 m (5 pies) o menos de ella. Si acierta, el objetivo recibe una cantidad de daño de fuerza igual a 1d8 más tu modificador por aptitud mágica.</p><p>Como acción adicional en tus siguientes turnos, puedes mover la fuerza hasta 6 m (20 pies) y repetir el ataque contra una criatura que esté a 1,5 m (5 pies) o menos de ella.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> El daño aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio.</p>"
     },
     "Staggering Smite": {
       "name": "Castigo Abrumador",
@@ -3848,7 +3848,7 @@
     },
     "Thorn Whip": {
       "name": "Látigo de Espinas",
-      "description": "<p>Creas un látigo similar a una enredadera cubierta de espinas que fustiga bajo tus órdenes a una criatura dentro del alcance. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Si acierta, el objetivo sufre 146 de daño perforante y, si es Grande o más pequeño, puedes arrastrarlo hasta 3 m (10 pies) hacia ti.</p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).</p>",
+      "description": "<p>Creas un látigo similar a una enredadera cubierta de espinas que fustiga bajo tus órdenes a una criatura dentro del alcance. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Si acierta, el objetivo sufre 1d6 de daño perforante y, si es Grande o más pequeño, puedes arrastrarlo hasta 3 m (10 pies) hacia ti.</p><p><strong>Mejora de Truco.</strong> El daño aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).</p>",
       "activities": {
         "Attack and Pull": {
           "name": "Atacar y Arrastrar"
@@ -3952,7 +3952,7 @@
     },
     "True Strike": {
       "name": "Impacto Certero",
-      "description": "<p>Un destello de perspicacia mágica te guía y haces un ataque con el arma empleada para lanzar el conjuro. El ataque usa tu aptitud mágica para las tiradas de ataque y de daño en lugar de la Fuerza o la Destreza. Si el ataque inflige daño, puede ser radiante o del tipo de daño normal del arma (a tu elección).</p><p><strong>Mejora de Truco.</strong> Independientemente de si haces daño radiante o del tipo normal del arma, el ataque inflige daño radiante adicional cuando alcanzas los niveles 5 (146), 11 (246) y 17 (346).</p>",
+      "description": "<p>Un destello de perspicacia mágica te guía y haces un ataque con el arma empleada para lanzar el conjuro. El ataque usa tu aptitud mágica para las tiradas de ataque y de daño en lugar de la Fuerza o la Destreza. Si el ataque inflige daño, puede ser radiante o del tipo de daño normal del arma (a tu elección).</p><p><strong>Mejora de Truco.</strong> Independientemente de si haces daño radiante o del tipo normal del arma, el ataque inflige daño radiante adicional cuando alcanzas los niveles 5 (1d6), 11 (2d6) y 17 (3d6).</p>",
       "activities": {
         "Enchant Weapon": {
           "name": "Encantar Arma"
@@ -4067,7 +4067,7 @@
     },
     "Wall of Thorns": {
       "name": "Muro de Espinas",
-      "description": "<p>Creas un muro de maleza enmarañada que está repleta de espinas puntiagudas como agujas. Este muro aparecerá dentro del alcance sobre una superficie sólida y durará hasta que termine el conjuro. Eliges si crear un muro recto de hasta 18 m (60 pies) de longitud, 3 m (10 pies) de altura y 1,5 m (5 pies) de grosor o un círculo de arbustos de hasta 6 m (20 pies) de diámetro, 6 m (20 pies) de altura y 1,5 m (5 pies) de grosor. El muro bloquea la línea de visión.</p><p>Cuando aparezca el muro, todas las criaturas situadas en su área hacen una [[/save dex dc=@attributes.spell.dc format=long]]; sufrirán 748 de daño perforante si la fallan o la mitad de daño si la superan.</p><p>Las criaturas pueden atravesar el muro, pero es un proceso lento y doloroso. Una criatura que atraviese el muro deberá gastar 4 m (13 pies) de movimiento por cada metro que avance. Además, la primera vez que una criatura entre en un espacio del muro o termine su turno allí, realizará una [[/save dex dc=@attributes.spell.dc format=long]]; sufrirá 748 de daño cortante si la falla o la mitad del daño si la supera Una criatura solo hace esta tirada una vez por turno.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Los dos tipos de daño aumentan en 1d8 por cada nivel por encima de 6 que tenga el espacio.</p>",
+      "description": "<p>Creas un muro de maleza enmarañada que está repleta de espinas puntiagudas como agujas. Este muro aparecerá dentro del alcance sobre una superficie sólida y durará hasta que termine el conjuro. Eliges si crear un muro recto de hasta 18 m (60 pies) de longitud, 3 m (10 pies) de altura y 1,5 m (5 pies) de grosor o un círculo de arbustos de hasta 6 m (20 pies) de diámetro, 6 m (20 pies) de altura y 1,5 m (5 pies) de grosor. El muro bloquea la línea de visión.</p><p>Cuando aparezca el muro, todas las criaturas situadas en su área hacen una [[/save dex dc=@attributes.spell.dc format=long]]; sufrirán 7d8 de daño perforante si la fallan o la mitad de daño si la superan.</p><p>Las criaturas pueden atravesar el muro, pero es un proceso lento y doloroso. Una criatura que atraviese el muro deberá gastar 4 m (13 pies) de movimiento por cada metro que avance. Además, la primera vez que una criatura entre en un espacio del muro o termine su turno allí, realizará una [[/save dex dc=@attributes.spell.dc format=long]]; sufrirá 7d8 de daño cortante si la falla o la mitad del daño si la supera Una criatura solo hace esta tirada una vez por turno.</p><p><strong>Con un Espacio de Conjuro de Nivel Superior.</strong> Los dos tipos de daño aumentan en 1d8 por cada nivel por encima de 6 que tenga el espacio.</p>",
       "activities": {
         "Create Wall": {
           "name": "Crear Muro"

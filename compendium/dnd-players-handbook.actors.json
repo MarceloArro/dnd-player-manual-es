@@ -376,10 +376,12 @@
           }
         },
         "Fist": {
-          "name": "Puño"
+          "name": "Puño",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo: </em>+5, alcance 1,5 m (5 pies). <em>Acierto:</em> 5 (1d4 + 3) daño Contundente.</p>"
         },
         "Rock": {
-          "name": "Roca"
+          "name": "Roca",
+          "description": "<p><em>Tirada de Ataque a Distancia: </em>+5, alcance 7,5/15 m (25/50 pies). <em>Acierto:</em> 10 (2d6 + 3) daño Contundente.</p>"
         }
       }
     },
@@ -421,7 +423,8 @@
       "tokenName": "Tejón",
       "items": {
         "Bite": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> +2, alcance 1,5 m (5 pies). <em>Acierto:</em> 1 daño Perforante.</p>"
         }
       }
     },
@@ -820,7 +823,8 @@
       "tokenName": "Murciélago",
       "items": {
         "Bite": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> +4, alcance 1,5 m (5 pies). <em>Acierto:</em> 1 daño Perforante.</p>"
         }
       }
     },
@@ -1008,7 +1012,8 @@
           }
         },
         "Rend": {
-          "name": "Desgarrar"
+          "name": "Desgarrar",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> +4, alcance 1,5 m (5 pies). <em>Acierto:</em> 5 (1d6 + 2) daño Cortante.</p>"
         }
       }
     },
@@ -1042,10 +1047,12 @@
           }
         },
         "Bite": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> +5, alcance 1,5 m (5 pies). <em>Acierto:</em> 7 (1d8 + 3) daño Perforante.</p>"
         },
         "Claw": {
-          "name": "Garra"
+          "name": "Garra",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo: </em>+5, alcance 1,5 m (5 pies). <em>Acierto:</em> 5 (1d4 + 3) daño Cortante, y el objetivo tiene el estado &amp;Reference[prone] si es Enorme o más pequeño.</p>"
         }
       }
     },
@@ -1054,7 +1061,8 @@
       "tokenName": "Camello",
       "items": {
         "Bite": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> +4, alcance 1,5 m (5 pies). <em>Acierto:</em> 4 (1d4 + 2) daño Contundente.</p>"
         }
       }
     },
@@ -1066,7 +1074,8 @@
           "name": "Saltador"
         },
         "Scratch": {
-          "name": "Arañazo"
+          "name": "Arañazo",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> +4, alcance 1,5 m (5 pies). <em>Acierto:</em> 1 daño Cortante.</p>"
         }
       }
     },
@@ -1535,7 +1544,8 @@
       "tokenName": "Serpiente Constrictora",
       "items": {
         "Bite": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> +4, alcance 1,5 m (5 pies). <em>Acierto: </em>6 (1d8 + 2) daño Perforante.</p>"
         },
         "Constrict": {
           "name": "Constreñir"
@@ -1596,7 +1606,8 @@
           "name": "Anfibia"
         },
         "Claw": {
-          "name": "Garra"
+          "name": "Garra",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> +2, alcance 1,5 m (5 pies). <em>Acierto: </em>1 daño Contundente.</p>"
         }
       }
     },
@@ -1730,7 +1741,8 @@
           "name": "Tácticas de Manada"
         },
         "Bite": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo: </em>+5, alcance 1,5 m (5 pies). <em>Acierto: </em>8 (1d10 + 3) daño Perforante, y el objetivo tiene el estado &amp;Reference[prone] si es Enorme o más pequeño.</p>"
         }
       }
     },
@@ -1800,7 +1812,8 @@
       "tokenName": "Caballo de Tiro",
       "items": {
         "Hooves": {
-          "name": "Pezuñas"
+          "name": "Pezuñas",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo: </em>+6, alcance 1,5 m (5 pies). <em>Acierto:</em> 6 (1d4 + 4) daño Contundente.</p>"
         }
       }
     },
@@ -2473,7 +2486,8 @@
           "name": "Salto sin Carrera"
         },
         "Bite": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> +3, alcance 1,5 m (5 pies). <em>Acierto:</em> 1 daño Perforante.</p>"
         }
       }
     },
@@ -2538,7 +2552,8 @@
       "tokenName": "Tejón Gigante",
       "items": {
         "Bite": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> +3, alcance 1,5 m (5 pies). <em>Acierto:</em> 6 (2d4 + 1) daño Perforante.</p>"
         }
       }
     },
@@ -2721,7 +2736,8 @@
       "tokenName": "Comadreja Gigante",
       "items": {
         "Bite": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> +5, alcance 1,5 m (5 pies). <em>Acierto:</em> 5 (1d4 + 3) daño Perforante.</p>"
         }
       }
     },
@@ -2769,7 +2785,8 @@
       "tokenName": "Halcón",
       "items": {
         "Talons": {
-          "name": "Garras"
+          "name": "Garras",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> +5, alcance 1,5 m (5 pies). <em>Acierto: </em>1 daño Cortante.</p>"
         }
       }
     },
@@ -2799,7 +2816,8 @@
           "name": "Resistencia a la Magia"
         },
         "Sting": {
-          "name": "Aguijón"
+          "name": "Aguijón",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> +5, alcance 1,5 m (5 pies). <em>Acierto:</em> 6 (1d6 + 3) daño Perforante más 7 (2d6) daño Veneno.</p>"
         },
         "Invisibility": {
           "name": "Invisibilidad"
@@ -2867,7 +2885,8 @@
           }
         },
         "Rend": {
-          "name": "Desgarrar"
+          "name": "Desgarrar",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> +5, alcance 1,5 m (5 pies). <em>Acierto: </em>7 (1d8 + 3) daño Cortante.</p>"
         },
         "Roar": {
           "name": "Rugido",
@@ -2887,7 +2906,8 @@
           "name": "Trepar cual Arácnido"
         },
         "Bite": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> +2, alcance 1,5 m (5 pies). <em>Acierto:</em> 1 daño Perforante.</p>"
         }
       }
     },
@@ -2901,7 +2921,8 @@
       "tokenName": "Mastín",
       "items": {
         "Bite": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> +3, alcance 1,5 m (5 pies). <em>Acierto: </em>4 (1d6 + 1) daño Perforante, y el objetivo tiene el estado &amp;Reference[prone] si es Grande o más pequeño.</p>"
         }
       }
     },
@@ -3203,7 +3224,8 @@
           "name": "Bestia de Carga"
         },
         "Hooves": {
-          "name": "Pezuñas"
+          "name": "Pezuñas",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> +4, alcance 1,5 m (5 pies). <em>Acierto: </em>4 (1d4 + 2) daño Contundente.</p>"
         }
       }
     },
@@ -3226,7 +3248,8 @@
           }
         },
         "Tentacles": {
-          "name": "Tentáculos"
+          "name": "Tentáculos",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> +4, alcance 1,5 m (5 pies). <em>Acierto:</em> 1 daño Contundente.</p>"
         }
       }
     },
@@ -3238,7 +3261,8 @@
           "name": "Pasar Volando"
         },
         "Talons": {
-          "name": "Garras"
+          "name": "Garras",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> +3, alcance 1,5 m (5 pies). <em>Acierto: </em>1 daño Cortante.</p>"
         }
       }
     },
@@ -3397,7 +3421,8 @@
       "tokenName": "Pantera",
       "items": {
         "Rend": {
-          "name": "Desgarrar"
+          "name": "Desgarrar",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "Nimble Escape": {
           "name": "Escape Ágil",
@@ -3429,7 +3454,8 @@
       "tokenName": "Poni",
       "items": {
         "Hooves": {
-          "name": "Pezuñas"
+          "name": "Pezuñas",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> +4, alcance 1,5 m (5 pies). <em>Acierto: </em>4 (1d4 + 2) daño Contundente.</p>"
         }
       }
     },
@@ -3449,7 +3475,8 @@
           }
         },
         "Bite": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo: </em>+4, alcance 1,5 m (5 pies). <em>Acierto:</em> 4 (1d4 + 2) daño Perforante.</p>"
         },
         "Sting": {
           "name": "Aguijón",
@@ -3786,7 +3813,8 @@
           "name": "Ágil"
         },
         "Bite": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> +2, alcance 1,5 m (5 pies). <em>Acierto:</em> 1 daño Perforante.</p>"
         }
       }
     },
@@ -3798,7 +3826,8 @@
           "name": "Imitación"
         },
         "Beak": {
-          "name": "Pico"
+          "name": "Pico",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> +4, alcance 1,5 m (5 pies). <em>Acierto:</em> 1 daño Perforante.</p>"
         }
       }
     },
@@ -3813,7 +3842,8 @@
           "name": "Respirar bajo el Agua"
         },
         "Bite": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo: </em>+4, alcance 1,5 m (5 pies). <em>Acierto: </em>7 (2d4 + 2) daño Perforante.</p>"
         }
       }
     },
@@ -3822,7 +3852,8 @@
       "tokenName": "Caballo de Monta",
       "items": {
         "Hooves": {
-          "name": "Pezuñas"
+          "name": "Pezuñas",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> +5, alcance 1,5 m (5 pies). <em>Acierto: </em>7 (1d8 + 3) daño Contundente.</p>"
         }
       }
     },
@@ -4015,7 +4046,8 @@
       "tokenName": "Escorpión",
       "items": {
         "Sting": {
-          "name": "Aguijón"
+          "name": "Aguijón",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> +2, alcance 1,5 m (5 pies). <em>Acierto: </em>1 daño Perforante más 3 (1d6) daño Veneno.</p>"
         }
       }
     },
@@ -4048,10 +4080,12 @@
       "tokenName": "Esqueleto",
       "items": {
         "Shortsword": {
-          "name": "Espada Corta"
+          "name": "Espada Corta",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> +5, alcance 1,5 m (5 pies). <em>Acierto:</em> 6 (1d6 + 3) daño Perforante.</p>"
         },
         "Shortbow": {
-          "name": "Arco Corto"
+          "name": "Arco Corto",
+          "description": "<p><em>Tirada de Ataque a Distancia: </em>+5, alcance 24/96 m (80/320 pies). <em>Acierto:</em> 6 (1d6 + 3) daño Perforante.</p>"
         }
       }
     },
@@ -4091,7 +4125,8 @@
           "name": "Resistencia a la Magia"
         },
         "Bite": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> +4, alcance 1,5 m (5 pies). <em>Acierto:</em> 5 (1d6 + 2) daño Perforante.</p>"
         }
       }
     },
@@ -4320,7 +4355,8 @@
           "name": "Resistencia a la Magia"
         },
         "Rend": {
-          "name": "Desgarrar"
+          "name": "Desgarrar",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> +5, alcance 1,5 m (5 pies). <em>Acierto:</em> 5 (1d4 + 3) daño Cortante más 7 (2d6) daño Radiante.</p>"
         },
         "Burst of Ingenuity": {
           "name": "Arranque de Ingenio"
@@ -4338,7 +4374,8 @@
           "name": "Caminante de Telarañas"
         },
         "Bite": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo: </em>+4, alcance 1,5 m (5 pies). <em>Acierto: </em>1 daño Perforante más 2 (1d4) daño Veneno.</p>"
         }
       }
     },
@@ -4357,7 +4394,8 @@
       "tokenName": "Sílfide",
       "items": {
         "Needle Sword": {
-          "name": "Espada Aguja"
+          "name": "Espada Aguja",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo: </em>+6, alcance 1,5 m (5 pies). <em>Acierto:</em> 6 (1d4 + 4) daño Perforante.</p>"
         },
         "Enchanting Bow": {
           "name": "Arco Encantador",
@@ -4536,7 +4574,8 @@
       "tokenName": "Serpiente Venenosa",
       "items": {
         "Bite": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo: </em>+4, alcance 1,5 m (5 pies). <em>Acierto: </em>4 (1d4 + 2) daño Perforante más 3 (1d6) daño Veneno.</p>"
         }
       }
     },
@@ -4904,7 +4943,8 @@
       "tokenName": "Comadreja",
       "items": {
         "Bite": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> +5, alcance 1,5 m (5 pies). <em>Acierto:</em> 1 daño Perforante.</p>"
         }
       }
     },
@@ -5107,7 +5147,8 @@
           "name": "Tácticas de Manada"
         },
         "Bite": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> +4, alcance 1,5 m (5 pies). <em>Acierto: </em>5 (1d6 + 2) daño Perforante, y el objetivo tiene el estado &amp;Reference[prone] si es Mediano o más pequeño.</p>"
         }
       }
     },
@@ -5147,7 +5188,8 @@
           "name": "Fortaleza de Muerto Viviente"
         },
         "Slam": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> +3, alcance 1,5 m (5 pies). <em>Acierto:</em> 4 (1d6 + 1) daño Contundente.</p>"
         }
       }
     },
@@ -5162,7 +5204,8 @@
           "name": "Caminante de Telarañas"
         },
         "Bite": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo: </em>+5, alcance 1,5 m (5 pies). <em>Acierto:</em> 7 (1d8 + 3) daño Perforante más 7 (2d6) daño Veneno.</p>"
         },
         "Web": {
           "name": "Telaraña"

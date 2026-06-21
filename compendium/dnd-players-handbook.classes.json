@@ -1906,7 +1906,7 @@
     },
     "Empowered Spell": {
       "name": "Conjuro Potenciado",
-      "description": "<p><em>Coste: 1 punto de hechicería</em></p><p>Cuando tiras el daño de un conjuro, puedes gastar 1 punto de hechicería para repetir la tirada de, como mucho, tantos dados de daño como tu modificador por Carisma (mínimo de un dado) y deberás usar los nuevos resultados.</p><p>Puedes usar Conjuro potenciado aunque ya hayas empleado una opción diferente de metamagia durante el lanzamiento del conjuro.</p>",
+      "description": "<blockquote><p>Coste: 1 Punto de Hechicería</p></blockquote><p>Cuando tiras el daño de un conjuro, puedes gastar 1 Punto de Hechicería para repetir la tirada de una cantidad de dados de daño de hasta tu modificador por Carisma (mínimo de uno, actualmente [[lookup @abilities.cha.mod]]) y debes usar las nuevas tiradas.</p><p>Puedes usar Conjuro Potenciado incluso si ya has usado una opción de Metamagia diferente durante el lanzamiento del conjuro.</p>",
       "activities": {
         "Empowered Spell": {
           "name": "Conjuro Potenciado",
@@ -3060,7 +3060,7 @@
     },
     "Metamagic": {
       "name": "Metamagia",
-      "description": "<p>Obtienes la capacidad de torcer tus conjuros para adaptarlos a tus necesidades. Obtienes dos opciones de Metamagia de tu elección. Obtienes otra en el nivel 10 y otra más en el nivel 17.</p><p>Puedes usar solo una opción de Metamagia en un conjuro cuando lo lanzas, a menos que se indique lo contrario.</p><section id=\"secret-IKw7Qq4qXvzx5Iqj\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Se te pedirá a choose Metamagic options as Tú/Usted level up.</p></section>"
+      "description": "<p>Como tu magia fluye desde tu interior, puedes alterar tus conjuros para adaptarlos a tus necesidades; obtienes dos opciones de Metamagia de tu elección de «Opciones de Metamagia». Usas las opciones elegidas para modificar temporalmente los conjuros que lanzas. Para usar una opción, debes gastar la cantidad de Puntos de Hechicería que cuesta.</p><p>Solo puedes usar una opción de Metamagia en un conjuro cuando lo lanzas, a menos que se indique lo contrario en una de esas opciones.</p><p>Siempre que ganas un nivel de Hechicero, puedes reemplazar una de tus opciones de Metamagia por una que no conozcas. Obtienes dos opciones más en el nivel 10 de Hechicero y dos más en el nivel 17 de Hechicero.</p><section id=\"secret-IKw7Qq4qXvzx5Iqj\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Se te pedirá que elijas opciones de Metamagia conforme subes de nivel.</p></section>"
     },
     "Mindless Rage": {
       "name": "Furia Irracional",
@@ -3781,7 +3781,7 @@
     },
     "Psionic Spells": {
       "name": "Conjuros Psiónicos",
-      "description": "<p>Siempre que alcances un nivel en esta clase, puedes reemplazar un conjuro obtenido de este rasgo con otro conjuro del mismo nivel. El conjuro nuevo debe ser un conjuro de Adivinación o Encantamiento de la lista de conjuros de Hechicero, Mago o Brujo.</p><table><thead><tr><th>Nivel</th><th>Conjuros</th></tr></thead><tbody><tr><td>1</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArms OfHadar]{Brazos de Hadar}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{Encantar Persona}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDissonantWhispers]{Susurros Disonantes}</td></tr><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCalmEmotions]{Calmar Emociones}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHungerHadar]{Hambre de Hadar}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbspl@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSending000]nnnn]{Enviar Mensaje}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAberration]{Invocar Aberración}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEvardBlackTent]{Tentáculos Negros de Evard}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAberration]{Invocar Aberración Superior}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRaryTelepath]{Vínculo Telepático de Rary}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTelekinesis]{Telequinesis}</td></tr></tbody></table><section class=\"secret\" id=\"secret-ZRp7VXEYNUsACyUR\"><p><strong>Nota Foundry</strong></p><p>The conjuros be automáticamente otorgado as Tú/Usted level up.</p> @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArmsofHada] @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCalmEmotio] @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou] @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDissonantW] @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMindSliver] @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHungerofHa] @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSending000] @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEvardsBlac] @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber] @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRarysTelep] @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTelekinesi]</section>"
+      "description": "<p>Cuando alcanzas un nivel de Hechicero especificado en la tabla Conjuros Psiónicos, a partir de entonces siempre tienes preparados los conjuros indicados.</p><table><caption>Conjuros Psiónicos</caption><thead><tr><td>Nivel de Hechicero</td><td>Conjuros</td></tr></thead><tbody><tr><td>3</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArmsofHada]{Brazos de Hadar}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCalmEmotio]{Calmar Emociones}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{Detectar Pensamientos}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDissonantW]{Susurros Discordantes}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMindSliver]{Fragmento Mental}</em></td></tr><tr><td>5</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHungerofHa]{Hambre de Hadar}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSending000]{Recado}</em></td></tr><tr><td>7</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEvardsBlac]{Tentáculos Negros de Evard}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonAber]{Invocar Aberración}</em></td></tr><tr><td>9</td><td><em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRarysTelep]{Enlace Telepático de Rary}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTelekinesi]{Telequinesis}</em></td></tr></tbody></table><section class=\"secret\" id=\"secret-ZRp7VXEYNUsACyUR\"><p><strong>Nota Foundry</strong></p><p>Los conjuros se otorgarán automáticamente conforme subes de nivel.</p></section>"
     },
     "Psychic Blade": {
       "name": "Hoja Psíquica",
@@ -3833,7 +3833,7 @@
     },
     "Quickened Spell": {
       "name": "Conjuro Acelerado",
-      "description": "<p>Cuando lanzas un conjuro que tiene un tiempo de lanzamiento de 1 acción, puedes gastar 2 puntos de hechicería para cambiar el tiempo de lanzamiento a 1 acción adicional para este lanzamiento.</p>",
+      "description": "<blockquote><p>Coste: 2 Puntos de Hechicería</p></blockquote><p>Cuando lanzas un conjuro que tiene un tiempo de lanzamiento de una acción, puedes gastar 2 Puntos de Hechicería para cambiar el tiempo de lanzamiento a una Acción Adicional para este lanzamiento. No puedes modificar un conjuro de esta manera si ya has lanzado un conjuro de nivel 1 o superior en el turno actual, ni puedes lanzar un conjuro de nivel 1 o superior en este turno después de modificar un conjuro de esta manera.</p>",
       "activities": {
         "Quickened Spell": {
           "name": "Conjuro Acelerado",
@@ -4079,7 +4079,7 @@
     },
     "Restore Balance": {
       "name": "Restaurar Equilibrio",
-      "description": "<p>Cuando una criatura que puedas ver a 18 metros esté a punto de hacer una tirada de ataque con ventaja o desventaja, puedes usar tu reacción para evitar que la tirada se vea afectada por ventaja o desventaja.</p>",
+      "description": "<p>Tu conexión con el plano del orden absoluto te permite ecualizar los momentos caóticos. Cuando una criatura que puedas ver a 18 m (60 pies) o menos de ti está a punto de tirar un d20 con Ventaja o Desventaja, puedes usar una Reacción para evitar que la tirada se vea afectada por la Ventaja y la Desventaja.</p><p>Puedes usar este rasgo una cantidad de veces igual a tu modificador por Carisma (mínimo de una vez), y recuperas todos los usos gastados cuando terminas un Descanso Largo.</p>",
       "activities": {
         "Prevent Advantage/Disadvantage": {
           "name": "Prevenir Ventaja/Desventaja",
@@ -4388,7 +4388,7 @@
     },
     "Sorcerous Restoration": {
       "name": "Restauración Hechicera",
-      "description": "<p>Recuperas 4 puntos de hechicería gastados cuando finalizas un descanso corto.</p><section id=\"secret-mYrbb0UHsBGBUVbN\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye 1 free usor por Descanso Largo. Use it automáticamente regain el/la correct number de Sorcery Points.</p></section>",
+      "description": "<p>Cuando terminas un Descanso Corto, puedes recuperar Puntos de Hechicería gastados, pero no más de una cantidad igual a la mitad de tu nivel de Hechicero (redondea hacia abajo). Una vez usas este rasgo, no puedes volver a hacerlo hasta que termines un Descanso Largo.</p><section id=\"secret-mYrbb0UHsBGBUVbN\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye 1 uso gratuito por Descanso Largo. Úsalo para recuperar automáticamente la cantidad correcta de Puntos de Hechicería.</p></section>",
       "activities": {
         "Restore Sorcery Points": {
           "name": "Restaurar Puntos de Hechicería"
@@ -4611,7 +4611,7 @@
     },
     "Subtle Spell": {
       "name": "Conjuro Sutil",
-      "description": "<p>Cuando lanzas un conjuro, puedes gastar 1 punto de hechicería para lanzarlo sin ningún componente somático o verbal.</p>",
+      "description": "<blockquote><p>Coste: 1 Punto de Hechicería</p></blockquote><p>Cuando lanzas un conjuro, puedes gastar 1 Punto de Hechicería para lanzarlo sin componentes Verbales, Somáticos ni Materiales, excepto los componentes Materiales que el conjuro consume o que tienen un coste especificado en el conjuro.</p>",
       "activities": {
         "Subtle Spell": {
           "name": "Conjuro Sutil",
@@ -4805,7 +4805,7 @@
     },
     "Telepathic Speech": {
       "name": "Habla Telepática",
-      "description": "<p>Puedes formar un vínculo telepático entre tu mente y la mente de otro. Como acción adicional, elige una criatura que puedas ver a 9 metros de ti. Tú y la criatura elegida podéis hablar telepáticamente entre vosotros mientras ambos estéis a 1,6 kilómetros uno del otro. Para entenderse mutuamente, cada uno de vosotros debe hablar mentalmente en un idioma que el otro conozca. La conexión telepática dura un número de minutos igual a tu nivel de brujo. Termina antes si tu concentración se rompe (como si estuvieras concentrándote en un conjuro). Puedes crear un vínculo telepático un número de veces igual a tu bonificador por competencia, y recuperas todos los usos gastados cuando finalices un descanso largo.</p>",
+      "description": "<p>Puedes formar una conexión telepática entre tu mente y la mente de otro. Con una Acción Adicional, elige una criatura que puedas ver a 9 m (30 pies) o menos de ti. Tú y la criatura elegida podéis comunicaros telepáticamente mientras estéis a una cantidad de millas el uno del otro igual a tu modificador por Carisma (mínimo de 1 milla [1,5 km], actualmente: [[lookup @abilities.cha.mod]]). Para entenderos, cada uno debe usar mentalmente un idioma que el otro conozca.</p><p>La conexión telepática dura una cantidad de minutos igual a tu nivel de Hechicero. Termina antes si usas esta capacidad para formar una conexión con una criatura diferente.</p>",
       "activities": {
         "Telepathic Speech": {
           "name": "Habla Telepática"
@@ -5354,7 +5354,7 @@
     },
     "Wild Magic Surge": {
       "name": "Oleada de Magia Salvaje",
-      "description": "<p>Tu lanzamiento de conjuros puede desencadenar oleadas de magia salvaje. Inmediatamente después de lanzar un conjuro de hechicero de nivel 1 o superior, el DM puede hacerte tirar un d20. Si tiras un 1, tira en la tabla de Oleada de Magia Salvaje para crear un efecto mágico aleatorio.</p>"
+      "description": "<p>Tu lanzamiento de conjuros puede desatar oleadas de magia indómita. Una vez por turno, puedes tirar 1d20 inmediatamente después de lanzar un conjuro de Hechicero con un espacio de conjuro. Si sacas un 20, tira en la tabla Oleada de Magia Salvaje para crear un efecto mágico.</p><p>Si el efecto mágico es un conjuro, es demasiado salvaje como para verse afectado por tu Metamagia.</p><p>@Embed[Compendium.dnd-players-handbook.tables.RollTable.phbWildMagicSurg rollable caption=false classes=\"wild-magic-surge\"]</p>"
     },
     "Wild Resurgence": {
       "name": "Resurgimiento Salvaje",

@@ -26,7 +26,7 @@
     "Airship": {
       "name": "Aeronave",
       "tokenName": "Aeronave",
-      "description": "<p><strong>Speed:</strong> 8 mph</p><p><strong>Crew:</strong> 10</p><p><strong>Passengers:</strong> 20</p><p><strong>Cargo (Tons):</strong> 1</p><p><strong>AC:</strong> 13</p><p><strong>HP:</strong> 300</p><p><strong>Damage Threshold:</strong> —</p><p><strong>Cost:</strong> 40,000 GP</p>",
+      "description": "<p><strong>Velocidad:</strong> 8 mph</p><p><strong>Tripulación:</strong> 10</p><p><strong>Pasajeros:</strong> 20</p><p><strong>Carga (toneladas):</strong> 1</p><p><strong>CA:</strong> 13</p><p><strong>PG:</strong> 300</p><p><strong>Umbral de Daño:</strong> —</p><p><strong>Coste:</strong> 40.000 po</p>",
       "items": {}
     },
     "Beast of the Land": {
@@ -112,15 +112,15 @@
       "items": {
         "Life Bond": {
           "name": "Vínculo Vital",
-          "description": "<p> When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if you’re within 5 feet of it.</p>"
+          "description": "<p> Cuando recuperas Puntos de Golpe gracias a un conjuro de nivel 1 o superior, el corcel recupera la misma cantidad de Puntos de Golpe si estás a 1,5 m (5 pies) o menos de él.</p>"
         },
         "Otherworldly Slam": {
           "name": "Golpe de Otro Mundo",
-          "description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d8 plus the spell’s level of Radiant damage.</p>"
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d8 + el nivel del conjuro de daño Radiante.</p>"
         },
         "Healing Touch": {
           "name": "Toque Curativo",
-          "description": "<p> One creature within 5 feet of the steed regains a number of Hit Points equal to 2d8 plus the spell’s level.</p>"
+          "description": "<p> Una criatura a 1,5 m (5 pies) o menos del corcel recupera una cantidad de Puntos de Golpe igual a 2d8 más el nivel del conjuro.</p>"
         }
       }
     },
@@ -131,15 +131,15 @@
       "items": {
         "Life Bond": {
           "name": "Vínculo Vital",
-          "description": "<p> When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if you’re within 5 feet of it.</p>"
+          "description": "<p> Cuando recuperas Puntos de Golpe gracias a un conjuro de nivel 1 o superior, el corcel recupera la misma cantidad de Puntos de Golpe si estás a 1,5 m (5 pies) o menos de él.</p>"
         },
         "Otherworldly Slam": {
           "name": "Golpe de Otro Mundo",
-          "description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d8 plus the spell’s level of Psychic damage.</p>"
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d8 + el nivel del conjuro de daño Psíquico.</p>"
         },
         "Fey Step": {
           "name": "Paso Feérico",
-          "description": "<p> The steed teleports, along with its rider, to an unoccupied space of your choice up to 60 feet away from itself.</p>",
+          "description": "<p> El corcel se teletransporta, junto con su jinete, a un espacio sin ocupar de tu elección a una distancia de hasta 18 m (60 pies) de sí mismo.</p>",
           "activities": {
             "Teleport": {
               "name": "Teletransporte"
@@ -155,15 +155,15 @@
       "items": {
         "Life Bond": {
           "name": "Vínculo Vital",
-          "description": "<p> When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if you’re within 5 feet of it.</p>"
+          "description": "<p> Cuando recuperas Puntos de Golpe gracias a un conjuro de nivel 1 o superior, el corcel recupera la misma cantidad de Puntos de Golpe si estás a 1,5 m (5 pies) o menos de él.</p>"
         },
         "Otherworldly Slam": {
           "name": "Golpe de Otro Mundo",
-          "description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> 1d8 plus the spell’s level of Necrotic damage.</p>"
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d8 + el nivel del conjuro de daño Necrótico.</p>"
         },
         "Fell Glare": {
           "name": "Mirada Funesta",
-          "description": "<p><em>Wisdom Saving Throw:</em> DC equals your spell save DC, one creature within 60 feet the steed can see. <em>Failure:</em> The target has the &amp;Reference[frightened] condition until the end of your next turn.</p>",
+          "description": "<p><em>Tirada de Salvación de Sabiduría:</em> CD igual a tu CD de salvación de conjuros, una criatura a 18 m (60 pies) o menos que el corcel pueda ver. <em>Fallo:</em> el objetivo tendrá el estado de &amp;Reference[frightened] hasta el final de tu siguiente turno.</p>",
           "effects": {
             "Frightened": {
               "name": "Asustado"
@@ -175,7 +175,7 @@
     "Galley": {
       "name": "Galera",
       "tokenName": "Galera",
-      "description": "<p><strong>Speed:</strong> 4 mph</p><p><strong>Crew:</strong> 80</p><p><strong>Passengers:</strong> —</p><p><strong>Cargo (Tons):</strong> 150</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 500</p><p><strong>Damage Threshold:</strong> 20</p><p><strong>Cost:</strong> 30,000 GP</p>",
+      "description": "<p><strong>Velocidad:</strong> 4 mph</p><p><strong>Tripulación:</strong> 80</p><p><strong>Pasajeros:</strong> —</p><p><strong>Carga (toneladas):</strong> 150</p><p><strong>CA:</strong> 15</p><p><strong>PG:</strong> 500</p><p><strong>Umbral de Daño:</strong> 20</p><p><strong>Coste:</strong> 30.000 po</p>",
       "items": {}
     },
     "Huge Animated Object": {
@@ -185,14 +185,14 @@
       "items": {
         "Slam": {
           "name": "Golpe",
-          "description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> Force damage equal to 2d12 + 3 + your spellcasting ability modifier.</p>"
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> daño de Fuerza igual a 2d12 + 3 + tu modificador de característica de lanzamiento de conjuros.</p>"
         }
       }
     },
     "Keelboat": {
       "name": "Barcaza",
       "tokenName": "Barcaza",
-      "description": "<p><strong>Speed:</strong> 1 mph</p><p><strong>Crew:</strong> 1</p><p><strong>Passengers:</strong> —</p><p><strong>Cargo (Tons):</strong> 1/2</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 100</p><p><strong>Damage Threshold:</strong> 10</p><p><strong>Cost:</strong> 3,000 GP</p>",
+      "description": "<p><strong>Velocidad:</strong> 1 mph</p><p><strong>Tripulación:</strong> 1</p><p><strong>Pasajeros:</strong> —</p><p><strong>Carga (toneladas):</strong> 1/2</p><p><strong>CA:</strong> 15</p><p><strong>PG:</strong> 100</p><p><strong>Umbral de Daño:</strong> 10</p><p><strong>Coste:</strong> 3.000 po</p>",
       "items": {}
     },
     "Large Animated Object": {
@@ -202,14 +202,14 @@
       "items": {
         "Slam": {
           "name": "Golpe",
-          "description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> Force damage equal to 2d6 + 3 + your spellcasting ability modifier.</p>"
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> daño de Fuerza igual a 2d6 + 3 + tu modificador de característica de lanzamiento de conjuros.</p>"
         }
       }
     },
     "Longship": {
       "name": "Drakkar",
       "tokenName": "Drakkar",
-      "description": "<p><strong>Speed:</strong> 3 mph</p><p><strong>Crew:</strong> 40</p><p><strong>Passengers:</strong> 150</p><p><strong>Cargo (Tons):</strong> 10</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 300</p><p><strong>Damage Threshold:</strong> 15</p><p><strong>Cost:</strong> 10,000 GP</p>",
+      "description": "<p><strong>Velocidad:</strong> 3 mph</p><p><strong>Tripulación:</strong> 40</p><p><strong>Pasajeros:</strong> 150</p><p><strong>Carga (toneladas):</strong> 10</p><p><strong>CA:</strong> 15</p><p><strong>PG:</strong> 300</p><p><strong>Umbral de Daño:</strong> 15</p><p><strong>Coste:</strong> 10.000 po</p>",
       "items": {}
     },
     "Medium Animated Object": {
@@ -219,20 +219,20 @@
       "items": {
         "Slam": {
           "name": "Golpe",
-          "description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> Force damage equal to 1d4 + 3.</p>"
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> daño de Fuerza igual a 1d4 + 3.</p>"
         }
       }
     },
     "Rowboat": {
       "name": "Bote de Remos",
       "tokenName": "Bote de Remos",
-      "description": "<p><strong>Speed:</strong> 1 1/2 mph</p><p><strong>Crew:</strong> 1</p><p><strong>Passengers:</strong> 3</p><p><strong>Cargo (Tons):</strong> —</p><p><strong>AC:</strong> 11</p><p><strong>HP:</strong> 50</p><p><strong>Damage Threshold:</strong> —</p><p><strong>Cost:</strong> 50 GP</p>",
+      "description": "<p><strong>Velocidad:</strong> 1 1/2 mph</p><p><strong>Tripulación:</strong> 1</p><p><strong>Pasajeros:</strong> 3</p><p><strong>Carga (toneladas):</strong> —</p><p><strong>CA:</strong> 11</p><p><strong>PG:</strong> 50</p><p><strong>Umbral de Daño:</strong> —</p><p><strong>Coste:</strong> 50 po</p>",
       "items": {}
     },
     "Sailing Ship": {
       "name": "Velero",
       "tokenName": "Velero",
-      "description": "<p><strong>Speed:</strong> 2 mph</p><p><strong>Crew:</strong> 20</p><p><strong>Passengers:</strong> 20</p><p><strong>Cargo (Tons):</strong> 100</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 300</p><p><strong>Damage Threshold:</strong> 15</p><p><strong>Cost:</strong> 10,000 GP</p>",
+      "description": "<p><strong>Velocidad:</strong> 2 mph</p><p><strong>Tripulación:</strong> 20</p><p><strong>Pasajeros:</strong> 20</p><p><strong>Carga (toneladas):</strong> 100</p><p><strong>CA:</strong> 15</p><p><strong>PG:</strong> 300</p><p><strong>Umbral de Daño:</strong> 15</p><p><strong>Coste:</strong> 10.000 po</p>",
       "items": {}
     },
     "Small Animated Object": {
@@ -242,7 +242,7 @@
       "items": {
         "Slam": {
           "name": "Golpe",
-          "description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> Force damage equal to 1d4 + 3.</p>"
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> daño de Fuerza igual a 1d4 + 3.</p>"
         }
       }
     },
@@ -290,14 +290,14 @@
       "items": {
         "Slam": {
           "name": "Golpe",
-          "description": "<p><em>Melee Attack Roll:</em> Bonus equals your spell attack modifier, reach 5 ft. <em>Hit:</em> Force damage equal to 1d4 + 3.</p>"
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> daño de Fuerza igual a 1d4 + 3.</p>"
         }
       }
     },
     "Warship": {
       "name": "Navío de Guerra",
       "tokenName": "Navío de Guerra",
-      "description": "<p><strong>Speed:</strong> 2 1/2 mph</p><p><strong>Crew:</strong> 60</p><p><strong>Passengers:</strong> 60</p><p><strong>Cargo (Tons):</strong> 200</p><p><strong>AC:</strong> 15</p><p><strong>HP:</strong> 500</p><p><strong>Damage Threshold:</strong> 20</p><p><strong>Cost:</strong> 25,000 GP</p>",
+      "description": "<p><strong>Velocidad:</strong> 2 1/2 mph</p><p><strong>Tripulación:</strong> 60</p><p><strong>Pasajeros:</strong> 60</p><p><strong>Carga (toneladas):</strong> 200</p><p><strong>CA:</strong> 15</p><p><strong>PG:</strong> 500</p><p><strong>Umbral de Daño:</strong> 20</p><p><strong>Coste:</strong> 25.000 po</p>",
       "items": {}
     },
     "Aberrant Spirit": {
@@ -2666,7 +2666,8 @@
       "tokenName": "Araña Gigante",
       "items": {
         "Spider Climb": {
-          "name": "Trepar cual Arácnido"
+          "name": "Trepar cual Arácnido",
+          "description": "<p> El insecto puede trepar por superficies difíciles, incluso por los techos, sin necesidad de hacer una prueba de característica.</p>"
         },
         "Multiattack": {
           "name": "Ataque Múltiple",
@@ -2674,10 +2675,12 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El insecto realiza una cantidad de ataques igual a la mitad del nivel de este conjuro (redondeado hacia abajo).</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{Número de ataques}</p>"
         },
         "Poison Jab": {
-          "name": "Pinchazo Venenoso"
+          "name": "Pinchazo Venenoso",
+          "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 3 m (10 pies). <em>Acierto:</em> 1d6 + 3 + el nivel del conjuro de daño Perforante más 1d4 de daño de Veneno.</p>"
         },
         "Web Bolt": {
           "name": "Saeta de Telaraña",
@@ -2685,7 +2688,8 @@
             "Webbed": {
               "name": "Atrapado en Telaraña"
             }
-          }
+          },
+          "description": "<p> <em>Tirada de Ataque a Distancia:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 18 m (60 pies). <em>Acierto:</em> 1d10 + 3 + el nivel del conjuro de daño Contundente, y la Velocidad del objetivo se reduce a 0 hasta el principio del siguiente turno del insecto.</p>"
         }
       }
     },

@@ -535,7 +535,8 @@
           "description": "<p>Puedes empapar de aceite a una criatura, un objeto o un espacio o utilizarlo como combustible, como se detalla a continuación.</p><p><strong>Empapar a una Criatura o un Objeto.</strong> Cuando lleves a cabo la Acción de Atacar, puedes sustituir uno de tus ataques por Lanzar un Frasco de Aceite. Haz objetivo a una criatura u Objeto a 20 pies (6m) o menos de ti. El objetivo deberá superar una Tirada de Salvación de Destreza (CD 8 más tu modificador por Destreza y tu Bonificador por Competencia) o quedará Cubierto de Aceite. Si el objetivo sufre Daño de Fuego antes de que el aceite se seque (tras 1 minuto), recibirá [[/damage 5 type=fire]] de daño de fuego adicional debido a que el aceite arderá.</p><p><strong>Empapar un espacio.</strong> Puedes llevar a cabo la Acción de Utilizar para verter un Frasco de Aceite sobre un suelo plano para cubrir una zona cuadrada de 5 pies (1,5 m) de lado a 5 pies (1,5 m) o menos de ti. Si se prende, el Aceite arderá durante 2 asaltos desde que se prendió (o 12 segundos) hasta el final de ese turno y hará [[/damage 5 type=fire]]  de daño de fuego a cualquier Criatura que entre en la zona o termine su turno en ella. Una Criatura solo puede sufrir este daño una vez por turno.</p><p><strong>Combustible.</strong> El aceite sirve de combustible para Lámparas y Linternas. Un Frasco de Aceite prendido arde durante 6 horas en una Lámpara o Linterna. Esa duración no tiene que ser consecutiva; puedes apagar el aceite ardiendo (como Acción de Utilizar) y volver a encenderlo hasta que haya ardido durante un total de 6 horas. </p>"
         },
         "Rations": {
-          "name": "Raciones"
+          "name": "Raciones",
+          "description": "<p>Las Raciones se componen de alimentos propicios para viajar, como cecina, fruta deshidratada, galletas y frutos secos. Consulta &Reference[Malnutrition] en el glosario de reglas para saber los riesgos que implica no comer.</p>"
         },
         "Tinderbox": {
           "name": "Yesquero",
@@ -738,7 +739,8 @@
           "description": "<p>Puedes empapar de aceite a una criatura, un objeto o un espacio o utilizarlo como combustible, como se detalla a continuación.</p><p><strong>Empapar a una Criatura o un Objeto.</strong> Cuando lleves a cabo la Acción de Atacar, puedes sustituir uno de tus ataques por Lanzar un Frasco de Aceite. Haz objetivo a una criatura u Objeto a 20 pies (6m) o menos de ti. El objetivo deberá superar una Tirada de Salvación de Destreza (CD 8 más tu modificador por Destreza y tu Bonificador por Competencia) o quedará Cubierto de Aceite. Si el objetivo sufre Daño de Fuego antes de que el aceite se seque (tras 1 minuto), recibirá [[/damage 5 type=fire]] de daño de fuego adicional debido a que el aceite arderá.</p><p><strong>Empapar un espacio.</strong> Puedes llevar a cabo la Acción de Utilizar para verter un Frasco de Aceite sobre un suelo plano para cubrir una zona cuadrada de 5 pies (1,5 m) de lado a 5 pies (1,5 m) o menos de ti. Si se prende, el Aceite arderá durante 2 asaltos desde que se prendió (o 12 segundos) hasta el final de ese turno y hará [[/damage 5 type=fire]]  de daño de fuego a cualquier Criatura que entre en la zona o termine su turno en ella. Una Criatura solo puede sufrir este daño una vez por turno.</p><p><strong>Combustible.</strong> El aceite sirve de combustible para Lámparas y Linternas. Un Frasco de Aceite prendido arde durante 6 horas en una Lámpara o Linterna. Esa duración no tiene que ser consecutiva; puedes apagar el aceite ardiendo (como Acción de Utilizar) y volver a encenderlo hasta que haya ardido durante un total de 6 horas. </p>"
         },
         "Rations": {
-          "name": "Raciones"
+          "name": "Raciones",
+          "description": "<p>Las Raciones se componen de alimentos propicios para viajar, como cecina, fruta deshidratada, galletas y frutos secos. Consulta &Reference[Malnutrition] en el glosario de reglas para saber los riesgos que implica no comer.</p>"
         },
         "Tinderbox": {
           "name": "Yesquero",
@@ -1397,7 +1399,8 @@
           "description": "<p>Una Lámpara quema @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite} como combustible para emitir luz brillante en un radio de 15 pies (4,5m) y luz tenue 30 pies (9m) más allá. Puede estar encendida hasta 6 horas con un frasco (1 pinta) de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}.</p>"
         },
         "Rations": {
-          "name": "Raciones"
+          "name": "Raciones",
+          "description": "<p>Las Raciones se componen de alimentos propicios para viajar, como cecina, fruta deshidratada, galletas y frutos secos. Consulta &Reference[Malnutrition] en el glosario de reglas para saber los riesgos que implica no comer.</p>"
         },
         "Robe": {
           "name": "Túnica",
@@ -1993,7 +1996,8 @@
           "description": "<p>Puedes empapar de aceite a una criatura, un objeto o un espacio o utilizarlo como combustible, como se detalla a continuación.</p><p><strong>Empapar a una Criatura o un Objeto.</strong> Cuando lleves a cabo la Acción de Atacar, puedes sustituir uno de tus ataques por Lanzar un Frasco de Aceite. Haz objetivo a una criatura u Objeto a 20 pies (6m) o menos de ti. El objetivo deberá superar una Tirada de Salvación de Destreza (CD 8 más tu modificador por Destreza y tu Bonificador por Competencia) o quedará Cubierto de Aceite. Si el objetivo sufre Daño de Fuego antes de que el aceite se seque (tras 1 minuto), recibirá [[/damage 5 type=fire]] de daño de fuego adicional debido a que el aceite arderá.</p><p><strong>Empapar un espacio.</strong> Puedes llevar a cabo la Acción de Utilizar para verter un Frasco de Aceite sobre un suelo plano para cubrir una zona cuadrada de 5 pies (1,5 m) de lado a 5 pies (1,5 m) o menos de ti. Si se prende, el Aceite arderá durante 2 asaltos desde que se prendió (o 12 segundos) hasta el final de ese turno y hará [[/damage 5 type=fire]]  de daño de fuego a cualquier Criatura que entre en la zona o termine su turno en ella. Una Criatura solo puede sufrir este daño una vez por turno.</p><p><strong>Combustible.</strong> El aceite sirve de combustible para Lámparas y Linternas. Un Frasco de Aceite prendido arde durante 6 horas en una Lámpara o Linterna. Esa duración no tiene que ser consecutiva; puedes apagar el aceite ardiendo (como Acción de Utilizar) y volver a encenderlo hasta que haya ardido durante un total de 6 horas. </p>"
         },
         "Rations": {
-          "name": "Raciones"
+          "name": "Raciones",
+          "description": "<p>Las Raciones se componen de alimentos propicios para viajar, como cecina, fruta deshidratada, galletas y frutos secos. Consulta &Reference[Malnutrition] en el glosario de reglas para saber los riesgos que implica no comer.</p>"
         },
         "Rope": {
           "name": "Cuerda",
@@ -2386,7 +2390,8 @@
           "description": "<p>Puedes empapar de aceite a una criatura, un objeto o un espacio o utilizarlo como combustible, como se detalla a continuación.</p><p><strong>Empapar a una Criatura o un Objeto.</strong> Cuando lleves a cabo la Acción de Atacar, puedes sustituir uno de tus ataques por Lanzar un Frasco de Aceite. Haz objetivo a una criatura u Objeto a 20 pies (6m) o menos de ti. El objetivo deberá superar una Tirada de Salvación de Destreza (CD 8 más tu modificador por Destreza y tu Bonificador por Competencia) o quedará Cubierto de Aceite. Si el objetivo sufre Daño de Fuego antes de que el aceite se seque (tras 1 minuto), recibirá [[/damage 5 type=fire]] de daño de fuego adicional debido a que el aceite arderá.</p><p><strong>Empapar un espacio.</strong> Puedes llevar a cabo la Acción de Utilizar para verter un Frasco de Aceite sobre un suelo plano para cubrir una zona cuadrada de 5 pies (1,5 m) de lado a 5 pies (1,5 m) o menos de ti. Si se prende, el Aceite arderá durante 2 asaltos desde que se prendió (o 12 segundos) hasta el final de ese turno y hará [[/damage 5 type=fire]]  de daño de fuego a cualquier Criatura que entre en la zona o termine su turno en ella. Una Criatura solo puede sufrir este daño una vez por turno.</p><p><strong>Combustible.</strong> El aceite sirve de combustible para Lámparas y Linternas. Un Frasco de Aceite prendido arde durante 6 horas en una Lámpara o Linterna. Esa duración no tiene que ser consecutiva; puedes apagar el aceite ardiendo (como Acción de Utilizar) y volver a encenderlo hasta que haya ardido durante un total de 6 horas. </p>"
         },
         "Rations": {
-          "name": "Raciones"
+          "name": "Raciones",
+          "description": "<p>Las Raciones se componen de alimentos propicios para viajar, como cecina, fruta deshidratada, galletas y frutos secos. Consulta &Reference[Malnutrition] en el glosario de reglas para saber los riesgos que implica no comer.</p>"
         },
         "Rope": {
           "name": "Cuerda",
@@ -3170,7 +3175,8 @@
           "description": "<p>Puedes empapar de aceite a una criatura, un objeto o un espacio o utilizarlo como combustible, como se detalla a continuación.</p><p><strong>Empapar a una Criatura o un Objeto.</strong> Cuando lleves a cabo la Acción de Atacar, puedes sustituir uno de tus ataques por Lanzar un Frasco de Aceite. Haz objetivo a una criatura u Objeto a 20 pies (6m) o menos de ti. El objetivo deberá superar una Tirada de Salvación de Destreza (CD 8 más tu modificador por Destreza y tu Bonificador por Competencia) o quedará Cubierto de Aceite. Si el objetivo sufre Daño de Fuego antes de que el aceite se seque (tras 1 minuto), recibirá [[/damage 5 type=fire]] de daño de fuego adicional debido a que el aceite arderá.</p><p><strong>Empapar un espacio.</strong> Puedes llevar a cabo la Acción de Utilizar para verter un Frasco de Aceite sobre un suelo plano para cubrir una zona cuadrada de 5 pies (1,5 m) de lado a 5 pies (1,5 m) o menos de ti. Si se prende, el Aceite arderá durante 2 asaltos desde que se prendió (o 12 segundos) hasta el final de ese turno y hará [[/damage 5 type=fire]]  de daño de fuego a cualquier Criatura que entre en la zona o termine su turno en ella. Una Criatura solo puede sufrir este daño una vez por turno.</p><p><strong>Combustible.</strong> El aceite sirve de combustible para Lámparas y Linternas. Un Frasco de Aceite prendido arde durante 6 horas en una Lámpara o Linterna. Esa duración no tiene que ser consecutiva; puedes apagar el aceite ardiendo (como Acción de Utilizar) y volver a encenderlo hasta que haya ardido durante un total de 6 horas. </p>"
         },
         "Rations": {
-          "name": "Raciones"
+          "name": "Raciones",
+          "description": "<p>Las Raciones se componen de alimentos propicios para viajar, como cecina, fruta deshidratada, galletas y frutos secos. Consulta &Reference[Malnutrition] en el glosario de reglas para saber los riesgos que implica no comer.</p>"
         },
         "Rope": {
           "name": "Cuerda",
@@ -3442,7 +3448,8 @@
           "description": "<p>Una Lámpara quema @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite} como combustible para emitir luz brillante en un radio de 15 pies (4,5m) y luz tenue 30 pies (9m) más allá. Puede estar encendida hasta 6 horas con un frasco (1 pinta) de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}.</p>"
         },
         "Rations": {
-          "name": "Raciones"
+          "name": "Raciones",
+          "description": "<p>Las Raciones se componen de alimentos propicios para viajar, como cecina, fruta deshidratada, galletas y frutos secos. Consulta &Reference[Malnutrition] en el glosario de reglas para saber los riesgos que implica no comer.</p>"
         },
         "Robe": {
           "name": "Túnica",
@@ -3795,7 +3802,8 @@
           "description": "<p>Puedes empapar de aceite a una criatura, un objeto o un espacio o utilizarlo como combustible, como se detalla a continuación.</p><p><strong>Empapar a una Criatura o un Objeto.</strong> Cuando lleves a cabo la Acción de Atacar, puedes sustituir uno de tus ataques por Lanzar un Frasco de Aceite. Haz objetivo a una criatura u Objeto a 20 pies (6m) o menos de ti. El objetivo deberá superar una Tirada de Salvación de Destreza (CD 8 más tu modificador por Destreza y tu Bonificador por Competencia) o quedará Cubierto de Aceite. Si el objetivo sufre Daño de Fuego antes de que el aceite se seque (tras 1 minuto), recibirá [[/damage 5 type=fire]] de daño de fuego adicional debido a que el aceite arderá.</p><p><strong>Empapar un espacio.</strong> Puedes llevar a cabo la Acción de Utilizar para verter un Frasco de Aceite sobre un suelo plano para cubrir una zona cuadrada de 5 pies (1,5 m) de lado a 5 pies (1,5 m) o menos de ti. Si se prende, el Aceite arderá durante 2 asaltos desde que se prendió (o 12 segundos) hasta el final de ese turno y hará [[/damage 5 type=fire]]  de daño de fuego a cualquier Criatura que entre en la zona o termine su turno en ella. Una Criatura solo puede sufrir este daño una vez por turno.</p><p><strong>Combustible.</strong> El aceite sirve de combustible para Lámparas y Linternas. Un Frasco de Aceite prendido arde durante 6 horas en una Lámpara o Linterna. Esa duración no tiene que ser consecutiva; puedes apagar el aceite ardiendo (como Acción de Utilizar) y volver a encenderlo hasta que haya ardido durante un total de 6 horas. </p>"
         },
         "Rations": {
-          "name": "Raciones"
+          "name": "Raciones",
+          "description": "<p>Las Raciones se componen de alimentos propicios para viajar, como cecina, fruta deshidratada, galletas y frutos secos. Consulta &Reference[Malnutrition] en el glosario de reglas para saber los riesgos que implica no comer.</p>"
         },
         "Rope": {
           "name": "Cuerda",
@@ -4017,7 +4025,8 @@
           "description": "<p>Una aljaba puede contener hasta 20 flechas</p>"
         },
         "Burglar’s Pack": {
-          "name": "Equipo de Ladrón"
+          "name": "Equipo de Ladrón",
+          "description": "<p>Un Paquete de Ladrón contiene los siguiente objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBallBearing]{Bolas de Metal}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBell0000000]{Campana}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCandle00000]{Velas}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagCrowbar0000]{Palanqueta}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagLanternHood]{Linterna Sorda}, 7 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Frascos de Aceite}, 5 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}, y una @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Cantimplora}.</p>"
         },
         "Ball Bearings": {
           "name": "Bolas de Metal",
@@ -4066,7 +4075,8 @@
           "description": "<p>Puedes empapar de aceite a una criatura, un objeto o un espacio o utilizarlo como combustible, como se detalla a continuación.</p><p><strong>Empapar a una Criatura o un Objeto.</strong> Cuando lleves a cabo la Acción de Atacar, puedes sustituir uno de tus ataques por Lanzar un Frasco de Aceite. Haz objetivo a una criatura u Objeto a 20 pies (6m) o menos de ti. El objetivo deberá superar una Tirada de Salvación de Destreza (CD 8 más tu modificador por Destreza y tu Bonificador por Competencia) o quedará Cubierto de Aceite. Si el objetivo sufre Daño de Fuego antes de que el aceite se seque (tras 1 minuto), recibirá [[/damage 5 type=fire]] de daño de fuego adicional debido a que el aceite arderá.</p><p><strong>Empapar un espacio.</strong> Puedes llevar a cabo la Acción de Utilizar para verter un Frasco de Aceite sobre un suelo plano para cubrir una zona cuadrada de 5 pies (1,5 m) de lado a 5 pies (1,5 m) o menos de ti. Si se prende, el Aceite arderá durante 2 asaltos desde que se prendió (o 12 segundos) hasta el final de ese turno y hará [[/damage 5 type=fire]]  de daño de fuego a cualquier Criatura que entre en la zona o termine su turno en ella. Una Criatura solo puede sufrir este daño una vez por turno.</p><p><strong>Combustible.</strong> El aceite sirve de combustible para Lámparas y Linternas. Un Frasco de Aceite prendido arde durante 6 horas en una Lámpara o Linterna. Esa duración no tiene que ser consecutiva; puedes apagar el aceite ardiendo (como Acción de Utilizar) y volver a encenderlo hasta que haya ardido durante un total de 6 horas. </p>"
         },
         "Rations": {
-          "name": "Raciones"
+          "name": "Raciones",
+          "description": "<p>Las Raciones se componen de alimentos propicios para viajar, como cecina, fruta deshidratada, galletas y frutos secos. Consulta &Reference[Malnutrition] en el glosario de reglas para saber los riesgos que implica no comer.</p>"
         },
         "Rope": {
           "name": "Cuerda",
@@ -4357,7 +4367,8 @@
           "description": "<p>Puedes empapar de aceite a una criatura, un objeto o un espacio o utilizarlo como combustible, como se detalla a continuación.</p><p><strong>Empapar a una Criatura o un Objeto.</strong> Cuando lleves a cabo la Acción de Atacar, puedes sustituir uno de tus ataques por Lanzar un Frasco de Aceite. Haz objetivo a una criatura u Objeto a 20 pies (6m) o menos de ti. El objetivo deberá superar una Tirada de Salvación de Destreza (CD 8 más tu modificador por Destreza y tu Bonificador por Competencia) o quedará Cubierto de Aceite. Si el objetivo sufre Daño de Fuego antes de que el aceite se seque (tras 1 minuto), recibirá [[/damage 5 type=fire]] de daño de fuego adicional debido a que el aceite arderá.</p><p><strong>Empapar un espacio.</strong> Puedes llevar a cabo la Acción de Utilizar para verter un Frasco de Aceite sobre un suelo plano para cubrir una zona cuadrada de 5 pies (1,5 m) de lado a 5 pies (1,5 m) o menos de ti. Si se prende, el Aceite arderá durante 2 asaltos desde que se prendió (o 12 segundos) hasta el final de ese turno y hará [[/damage 5 type=fire]]  de daño de fuego a cualquier Criatura que entre en la zona o termine su turno en ella. Una Criatura solo puede sufrir este daño una vez por turno.</p><p><strong>Combustible.</strong> El aceite sirve de combustible para Lámparas y Linternas. Un Frasco de Aceite prendido arde durante 6 horas en una Lámpara o Linterna. Esa duración no tiene que ser consecutiva; puedes apagar el aceite ardiendo (como Acción de Utilizar) y volver a encenderlo hasta que haya ardido durante un total de 6 horas. </p>"
         },
         "Rations": {
-          "name": "Raciones"
+          "name": "Raciones",
+          "description": "<p>Las Raciones se componen de alimentos propicios para viajar, como cecina, fruta deshidratada, galletas y frutos secos. Consulta &Reference[Malnutrition] en el glosario de reglas para saber los riesgos que implica no comer.</p>"
         },
         "Rope": {
           "name": "Cuerda",

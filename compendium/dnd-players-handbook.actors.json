@@ -1035,7 +1035,8 @@
             "Charging Attack": {
               "name": "Ataque de Carga"
             }
-          }
+          },
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo: </em>+3, alcance 1,5 m (5 pies). <em>Acierto: </em>4 (1d6 + 1) daño Perforante. Si el jabalí se movió al menos 6 m (20 pies) en línea recta hacia el objetivo justo antes del impacto, el objetivo sufre 3 (1d6) de daño Perforante adicional y, si es Grande o más pequeño, tiene el estado &amp;Reference[Prone].</p>"
         }
       }
     },
@@ -1556,7 +1557,8 @@
           "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> +4, alcance 1,5 m (5 pies). <em>Acierto: </em>6 (1d8 + 2) daño Perforante.</p>"
         },
         "Constrict": {
-          "name": "Constreñir"
+          "name": "Constreñir",
+          "description": "<p><em>Tirada de Salvación de Fuerza:</em> CD 12, una criatura Mediana o más pequeña a 1,5 m (5 pies) que la serpiente pueda ver. <em>Fallo:</em> 7 (3d4) de daño Contundente, y el objetivo tiene el estado &amp;Reference[grappled] (CD para liberarse 12).</p>"
         }
       }
     },
@@ -1632,7 +1634,8 @@
             "Grappled": {
               "name": "Agarrado"
             }
-          }
+          },
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> +4, alcance 1,5 m (5 pies). <em>Acierto:</em> 6 (1d8 + 2) daño Perforante. Si el objetivo es Mediano o más pequeño, tiene el estado &amp;Reference[grappled apply=false] (CD para liberarse 12). Mientras esté Agarrado, el objetivo tiene el estado &amp;Reference[restrained apply=false].</p>"
         }
       }
     },
@@ -2118,10 +2121,12 @@
           "description": "<p>El elefante realiza dos ataques de [[/item Gore]].</p>"
         },
         "Gore": {
-          "name": "Cornada"
+          "name": "Cornada",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo: </em>+8, alcance 1,5 m (5 pies). <em>Acierto:</em> 15 (2d8 + 6) daño Perforante. Si el elefante se movió al menos 6 m (20 pies) en línea recta hacia el objetivo justo antes del impacto, el objetivo también tiene el estado &amp;Reference[prone].</p>"
         },
         "Trample": {
-          "name": "Pisotear"
+          "name": "Pisotear",
+          "description": "<p> <em>Tirada de Salvación de Destreza:</em> CD 16, una criatura a 1,5 m (5 pies) que tenga el estado Derribado. <em>Fallo:</em> 17 (2d10 + 6) de daño Contundente. <em>Éxito:</em> Mitad de daño.</p>"
         }
       }
     },
@@ -2135,7 +2140,8 @@
             "Charging Attack": {
               "name": "Ataque de Carga"
             }
-          }
+          },
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> +5, alcance 1,5 m (5 pies). <em>Acierto: </em>6 (1d6 + 3) daño Contundente. Si el alce se movió al menos 6 m (20 pies) en línea recta hacia el objetivo justo antes del impacto, el objetivo sufre 3 (1d6) de daño Contundente adicional y, si es Enorme o más pequeño, tiene el estado &amp;Reference[prone].</p>"
         }
       }
     },
@@ -2612,7 +2618,8 @@
           "name": "Anfibia"
         },
         "Claw": {
-          "name": "Garra"
+          "name": "Garra",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo: </em>+3, alcance 1,5 m (5 pies). <em>Acierto:</em> 4 (1d6 + 1) daño Contundente. Si el objetivo es Mediano o más pequeño, tiene el estado &amp;Reference[grappled] (CD para liberarse 11). El cangrejo tiene dos pinzas, cada una de las cuales puede agarrar a un objetivo.</p>"
         }
       }
     },
@@ -2626,7 +2633,8 @@
             "Charging Attack": {
               "name": "Ataque de Carga"
             }
-          }
+          },
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> +5, alcance 1,5 m (5 pies). <em>Acierto: </em>6 (1d6 + 3) daño Contundente. Si la cabra se movió al menos 6 m (20 pies) en línea recta hacia el objetivo justo antes del impacto, el objetivo sufre 5 (2d4) de daño Contundente adicional y, si es Enorme o más pequeño, tiene el estado &amp;Reference[prone].</p>"
         }
       }
     },
@@ -2684,7 +2692,8 @@
             "Charging Attack": {
               "name": "Ataque de Carga"
             }
-          }
+          },
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo: </em>+4, alcance 1,5 m (5 pies). <em>Acierto: </em>9 (2d6 + 2) daño Contundente, o el caballito de mar inflige 11 (2d8 + 2) de daño Contundente si se movió al menos 6 m (20 pies) en línea recta hacia el objetivo justo antes del impacto.</p>"
         },
         "Bubble Dash": {
           "name": "Carrera Burbujeante"
@@ -2766,7 +2775,8 @@
             "Charging Attack": {
               "name": "Ataque de Carga"
             }
-          }
+          },
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo: </em>+2, alcance 1,5 m (5 pies). <em>Acierto: </em>1 daño Contundente, o la cabra inflige 2 (1d4) de daño Contundente si se movió al menos 6 m (20 pies) en línea recta hacia el objetivo justo antes del impacto.</p>"
         }
       }
     },
@@ -2912,7 +2922,8 @@
             "Frightened": {
               "name": "Asustado"
             }
-          }
+          },
+          "description": "<p><em>Tirada de Salvación de Sabiduría:</em> CD 11, una criatura a 4,5 m (15 pies). <em>Fallo:</em> El objetivo tiene el estado &amp;Reference[frightened apply=false] hasta el principio del siguiente turno del león.</p>"
         }
       }
     },
@@ -3512,7 +3523,8 @@
             "Unconscious": {
               "name": "Inconsciente"
             }
-          }
+          },
+          "description": "<p><em>Tirada de Salvación de Constitución:</em> CD 12, una criatura a 1,5 m (5 pies) que el pseudodragón pueda ver. <em>Fallo:</em> 5 (2d4 + 2) de daño Veneno, y el objetivo tiene el estado &amp;Reference[poisoned apply=false] durante 1 hora. <em>Fallo por 5 o Más:</em> El objetivo Envenenado también tiene el estado &amp;Reference[unconscious apply=false] hasta que sufra daño o que otra criatura emplee una acción para despertarlo sacudiéndolo.</p>"
         }
       }
     },
@@ -3562,7 +3574,8 @@
             "Poisoned": {
               "name": "Envenenado"
             }
-          }
+          },
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo: </em>+5, alcance 1,5 m (5 pies). <em>Acierto:</em> 5 (1d4 + 3) daño Cortante, y el objetivo tiene el estado &amp;Reference[poisoned apply=false] hasta el principio del siguiente turno del cuasit.</p>"
         },
         "Invisibility": {
           "name": "Invisibilidad",
@@ -3579,7 +3592,8 @@
             "Frightened": {
               "name": "Asustado"
             }
-          }
+          },
+          "description": "<p><em>Tirada de Salvación de Sabiduría:</em> CD 10, una criatura a 6 m (20 pies). <em>Fallo:</em> El objetivo tiene el estado &amp;Reference[frightened apply=false]. Al final de cada uno de sus turnos, el objetivo repite la tirada de salvación y, si tiene éxito, el efecto termina sobre él. Tras 1 minuto, tiene éxito automáticamente.</p>"
         },
         "Shape-Shift": {
           "name": "Cambiar de Forma",
@@ -4439,10 +4453,12 @@
             "Charmed": {
               "name": "Hechizado"
             }
-          }
+          },
+          "description": "<p><em>Tirada de Ataque a Distancia: </em>+6, alcance 12/48 m (40/160 pies). <em>Acierto:</em> 1 daño Perforante, y el objetivo tiene el estado &amp;Reference[charmed apply=false] hasta el principio del siguiente turno de la sílfide.</p>"
         },
         "Heart Sight": {
-          "name": "Visión del Corazón"
+          "name": "Visión del Corazón",
+          "description": "<p> <em>Tirada de Salvación de Carisma:</em> CD 10, una criatura a 1,5 m (5 pies) que la sílfide pueda ver. Los Celestiales, los Infernales y los Muertos Vivientes fallan automáticamente la tirada. <em>Fallo:</em> La sílfide conoce las emociones y el alineamiento del objetivo.</p>"
         },
         "Invisibility": {
           "name": "Invisibilidad",
@@ -4627,7 +4643,8 @@
             "Charging Attack": {
               "name": "Ataque de Carga"
             }
-          }
+          },
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> +6, alcance 1,5 m (5 pies). <em>Acierto:</em> 9 (2d4 + 4) daño Contundente. Si el caballo se movió al menos 6 m (20 pies) en línea recta hacia el objetivo justo antes del impacto, el objetivo sufre 5 (2d4) de daño Contundente adicional y, si es Enorme o más pequeño, tiene el estado &amp;Reference[prone].</p>"
         }
       }
     },
@@ -5249,7 +5266,8 @@
           "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo: </em>+5, alcance 1,5 m (5 pies). <em>Acierto:</em> 7 (1d8 + 3) daño Perforante más 7 (2d6) daño Veneno.</p>"
         },
         "Web": {
-          "name": "Telaraña"
+          "name": "Telaraña",
+          "description": "<p><em>Tirada de Salvación de Destreza:</em> CD 13, una criatura a 18 m (60 pies) que la araña pueda ver. <em>Fallo:</em> El objetivo tiene el estado &amp;Reference[restrained] hasta que la telaraña sea destruida (CA 10; PG 5; Vulnerabilidad al daño de Fuego; Inmunidad al daño de Veneno y Psíquico).</p>"
         }
       }
     }

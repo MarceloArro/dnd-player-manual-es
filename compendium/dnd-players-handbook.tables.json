@@ -1,388 +1,388 @@
 {
-	"label": "Tablas",
-	"folders": {
-		"Chapter 2": "Capítulo 2",
-		"Chapter 3": "Capítulo 3",
-		"Chapter 7": "Capítulo 7",
-		"Descriptions by Ability Score": "Descripciones por Puntuacion de Características",
-		"Personality Traits by Alignment": "Rasgos de Personalidad por Alineamiento",
-		"Reincarnated Lineages": "Linajes Reencarnados"
-	},
-	"entries": {
-		"Cardinal Directions": {
-			"name": "Direcciones Cardinales",
-			"results": {
-				"1-1": "Norte",
-				"2-2": "Sur",
-				"3-3": "Este",
-				"4-4": "Oeste"
-			}
-		},
-		"Chaotic Traits": {
-			"name": "Rasgos Caóticos",
-			"results": {
-				"1-1": "Engreído",
-				"2-2": "Impulsivo",
-				"3-3": "Rebelde",
-				"4-4": "Egocéntrico"
-			}
-		},
-		"Charisma": {
-			"name": "Carisma",
-			"description": "<p>Esta tabla de calificativos plantean sugerencias sobre cómo describir a tu personaje según sus puntuaciones de característica <strong>Altas</strong> o <strong>Bajas</strong>.</p>",
-			"results": {
-				"1-1": "<strong>Alta:</strong> Encantador.  <strong>Baja:</strong> Pedante.",
-				"2-2": "<strong>Alta:</strong> Dominante.<strong>Baja:</strong> Soso.",
-				"3-3": "<strong>Alta:</strong> Divertido. <strong>Baja:</strong> Reservado.",
-				"4-4": "<strong>Alta:</strong> Inspirador. <strong>Baja:</strong> Insensible."
-			}
-		},
-		"Confusion Behavior": {
-			"name": "Comportamiento de Confusión",
-			"description": "<p>Comportamiento del Turno</p>",
-			"results": {
-				"wOokSBLpTsUWBccD": "El objetivo no usa ninguna Acción y emplea todo su movimiento para desplazarse. Para determinar la dirección, Tira [[/r 1d4]]: con un 1, se moverá al norte; con un 2, al este; con un 3, al sur; con un 4, al oeste. ",
-				"2-6": "El objetivo no se mueve ni realiza acciones.",
-				"7-8": "El objetivo no se mueve y emplea la acción de atacar para hacer un ataque cuerpo a cuerpo contra una criatura aleatoria dentro de su alcance. Si no hay ninguna dentro de su alcance, el objetivo no hace ninguna acción.",
-				"9-10": "El objetivo elige su comportamiento"
-			}
-		},
-		"Constitution": {
-			"name": "Constitución",
-			"description": "<p>Esta tabla de calificativos plantean sugerencias sobre cómo describir a tu personaje según sus puntuaciones de característica <strong>Altas</strong> o <strong>Bajas</strong>.</p>",
-			"results": {
-				"1-1": "<strong>Alta:</strong> Enérgico. <strong>Baja:</strong> Frágil.",
-				"2-2": "<strong>Alta:</strong> Saludable. <strong>Baja:</strong> Aprensivo.",
-				"3-3": "<strong>Alta:</strong> Afable. <strong>Baja:</strong> Apático.",
-				"4-4": "<strong>Alta:</strong> Estable. <strong>Baja:</strong> Vulnerable."
-			}
-		},
-		"Dexterity": {
-			"name": "Destreza",
-			"description": "<p>Esta tabla de calificativos plantean sugerencias sobre cómo describir a tu personaje según sus puntuaciones de característica <strong>Altas</strong> o <strong>Bajas</strong>.</p>",
-			"results": {
-				"1-1": "<strong>Alta:</strong> Ágil. <strong>Baja:</strong> Nervioso.",
-				"2-2": "<strong>Alta:</strong> Dinamico. <strong>Baja:</strong> Torpe.",
-				"3-3": "<strong>Alta:</strong> Inquieto. <strong>Baja:</strong> Indeciso.",
-				"4-4": "<strong>Alta:</strong> Equilibrado. <strong>Baja:</strong> Inseguro."
-			}
-		},
-		"Elven Lineage": {
-			"name": "Elven Lineage",
-			"description": "<p>Formas parte de un linaje que te otorga habilidades sobrenaturales.</p>"
-		},
-		"Evil Traits": {
-			"name": "Rasgos Malvados",
-			"results": {
-				"1-1": "Deshonesto",
-				"2-2": "Vengativo",
-				"3-3": "Cruel",
-				"4-4": "Avaro"
-			}
-		},
-		"Feywild Gifts": {
-			"name": "Dádivas de los Parajes Feéricos ",
-			"results": {
-				"1-1": "Unas mariposas ilusorias revolotean a tu alrededor mientras haces un Descanso Corto o Largo. ",
-				"2-2": "Te brotan flores en el pelo cada amanecer.",
-				"3-3": "Emanas un ligero olor a canela, lavanda, nuez moscada u otra hierba o especia agradable.",
-				"4-4": "Tu sombra baila cuando nadie la mira directamente.",
-				"5-5": "De tu cabeza brotan cuernos o astas.",
-				"6-6": "Tupiel y tu cabello cambian de color cada amanecer."
-			}
-		},
-		"Fiendish Legacy": {
-			"name": "Fiendish Legacy",
-			"description": "<p>Eres el recipiente de un legado que te otorga habilidades sobrenaturales.</p>"
-		},
-		"Gnomish Lineage": {
-			"name": "Gnomish Lineage",
-			"description": "<p>Formas parte de un linaje que te otorga habilidades sobrenaturales.</p>"
-		},
-		"Good Traits": {
-			"name": "Rasgos Buenos",
-			"results": {
-				"1-1": "Compasivo",
-				"2-2": "Servicial",
-				"3-3": "Honesto",
-				"4-4": "Amable"
-			}
-		},
-		"Intelligence": {
-			"name": "Inteligencia",
-			"description": "<p>Esta tabla de calificativos plantean sugerencias sobre cómo describir a tu personaje según sus puntuaciones de característica <strong>Altas</strong> o <strong>Bajas</strong>.</p>",
-			"results": {
-				"1-1": "<strong>Alta:</strong> Decidido. <strong>Baja:</strong> Tosco.",
-				"2-2": "<strong>Alta:</strong> Lógico. <strong>Baja:</strong> Ilógico.",
-				"3-3": "<strong>Alta:</strong> Instructivo. <strong>Baja:</strong> Ignorante.",
-				"4-4": "<strong>Alta:</strong> Curioso. <strong>Baja:</strong> Frívolo."
-			}
-		},
-		"Lawful Traits": {
-			"name": "Rasgos Legales",
-			"results": {
-				"1-1": "Cooperativo",
-				"2-2": "Leal",
-				"3-3": "Crítico",
-				"4-4": "Metódico"
-			}
-		},
-		"Manifestations of Order": {
-			"name": "Manifestaciones del Orden",
-			"results": {
-				"1-1": "Unos engranajes espectrales levitan tras de ti.",
-				"2-2": "Las manecillas de un reloj giran en tus ojos.",
-				"3-3": "Tu piel resplandece con un brillo metálico. ",
-				"4-4": "Objetos geométricos y ecuaciones flotantes recubren tu cuerpo.",
-				"5-5": "Tu canalizador mágico adopta temporalmente la forma de un mecanismo de relojería Diminuto.",
-				"6-6": "Tanto tú como aquellos afectados por tu magia podéis escuchar el tictac de los engranajes o el timbre de un reloj."
-			}
-		},
-		"Neutral Traits": {
-			"name": "Rasgos Neutrales",
-			"results": {
-				"1-1": "Egoísta",
-				"2-2": "Indiferente",
-				"3-3": "Lacónico",
-				"4-4": "Pragmatico"
-			}
-		},
-		"Prismatic Layers": {
-			"name": "Capas Prismáticas",
-			"results": {
-				"1-1": "<p><strong>Rojo.</strong><em> Si falla la tirada: </em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"fire\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de Fuego. <em>Si supera la tirada:</em> La mitad de daño. <em>Efectos adicionales</em>: Los ataques a distancia no mágicos no pueden atravesar esta capa, que se destruye si recibe al menos 25 de daño de Frío.</p>",
-				"2-2": "<p><strong>Naranja.</strong><em> Si falla la tirada: </em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"acid\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de Ácido. <em>Si supera la tirada:</em> La mitad de daño. <em>Efectos adicionales:</em> Los ataques a distancia mágicos no atraviesan esta capa, que puede destruirse mediante un viento fuerte (como el que crea <em>Ráfaga de Viento</em>).</p>",
-				"3-3": "<p><strong>Amarilla.</strong><em> Si falla la tirada: </em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"lightning\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de Relámpago. <em>Si supera la tirada:</em> La mitad de daño. <em>Efectos adicionales:</em> La capa se destruye si recibe al menos 60 de daño de Fuerza. </p>",
-				"4-4": "<p><strong>Verde.</strong><em> Si falla la tirada: </em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"poison\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de Veneno. <em>Si supera la tirada:</em> La mitad de daño. <em>Efectos adicionales:</em> Un conjuro <em>Pasamuros</em> u otro del mismo nivel o superior que puedan abrir un portal en una superficie sólida destruirán esta capa.</p>",
-				"5-5": "<p><strong>Azul.</strong><em> Si falla la tirada: </em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"cold\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de Frio. <em>Si supera la tirada:</em> La mitad de daño. <em>Efectos adicionales:</em> La capa se destruye si recibe al menos 25 de daño de Fuego.</p>",
-				"6-6": "<p><strong>Añil.</strong><em> Si falla la tirada: </em> El objetivo tendrá el estado de <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Restrained</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"restrained\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> y hara una Tirada de Salvación de <span class=\"roll-link\" data-type=\"save\" data-ability=\"con\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Constitution</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> al final de cada uno de sus turnos. Si la supera tres veces, el estado terminará. Si la falla tres veces, tendra el estado de <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xaNDaW6NwQTgHSmi\" data-id=\"xaNDaW6NwQTgHSmi\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Petrified</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"petrified\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> hasta que lo libere un efecto como el del conjuro <em>Restablecimiento Mayor</em>. Los éxitos y los fallos no tienen por qué ser consecutivos: lleva la cuenta de ambos hasta que el objetivo tenga tres de un mismo tipo. <em>Efectos adicionales:</em> No es posible lanzar conjuros a través de esta capa, que puede destruirse mediante la luz brillante del conjuro <em>Luz del Día</em>.</p>",
-				"7-7": "<p><strong>Violeta.</strong><em> Si falla la tirada: </em> El objetivo tendrá el estado de <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.0b8N4FymGGfbZGpJ\" data-id=\"0b8N4FymGGfbZGpJ\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Blinded</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"blinded\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> y hara una Tirada de Salvación de <span class=\"roll-link\" data-type=\"save\" data-ability=\"wis\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Wisdom</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> al principio de tu siguiente turno. Si la supera, el estado terminará. Si la falla, el estado terminará y la criatura se teletransportará a otro plano de existencia (a elección de tu DM). <em>Efectos adicionales:</em> esta capa puede destruirse mediante <em>Disipar Magia</em>.</p>"
-			}
-		},
-		"Prismatic Rays": {
-			"name": "Rayos Prismáticos",
-			"results": {
-				"1-1": "<p><strong>Rojo.</strong><em> Si falla la tirada:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"fire\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de Fuego. <em>Si supera la tirada:</em> La mitad de daño.</p>",
-				"2-2": "<p><strong>Naranja.</strong><em> Si falla la tirada:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"acid\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de Acído. <em>Si supera la tirada:</em> La mitad de daño.</p>",
-				"3-3": "<p><strong>Amarillo.</strong><em> Si falla la tirada:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"lightning\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de relámpago. <em>Si supera la tirada:</em> La mitad de daño.</p>",
-				"4-4": "<p><strong>Verde.</strong><em> Si falla la tirada:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"poison\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de veneno. <em>Si supera la tirada:</em> La mitad de daño.</p>",
-				"5-5": "<p><strong>Azul.</strong><em> Si falla la tirada:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"cold\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de frío. <em>Si supera la tirada:</em> La mitad de daño.</p>",
-				"6-6": "<p><strong>Añil.</strong><em> Si falla la tirada:</em> el objetivo tendrá el estado  de <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Restrained</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"restrained\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> y hará una Tirada de Salvación de <span class=\"roll-link\" data-type=\"save\" data-ability=\"con\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Constitution</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> al final de cada uno de sus turnos. Si la falla tres veces, tendrá el estado de <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xaNDaW6NwQTgHSmi\" data-id=\"xaNDaW6NwQTgHSmi\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Petrified</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"petrified\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> hasta que lo libere un efecto como el del conjuro <em>Restablecimiento Mayor</em>. Los éxitos y los fallos no tienen por qué ser consecutivos; lleva la cuenta de ambos hasta que el objetivo tenga tres de un mismo tipo.</p>",
-				"7-7": "<p><strong>Violeta.</strong><em> Si falla la tirada:</em> el objetivo tendrá el estado  de <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.0b8N4FymGGfbZGpJ\" data-id=\"0b8N4FymGGfbZGpJ\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Blinded</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"blinded\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> y hará una Tirada de Salvación de <span class=\"roll-link\" data-type=\"save\" data-ability=\"wis\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Wisdom</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> al principio de tu siguiente turno. Si la supera, el estado terminará. Si la falla, el estado terminará y la criatura se teletransportará a otro plano de existencia (a elección de tu DM).</p>",
-				"8-8": "<p><strong>Especial.</strong> Dos rayos alcanzan al objetivo. Tira dos veces y repite los resultados de 8.</p>"
-			}
-		},
-		"Reincarnated Species": {
-			"name": "Reencarnar Especie",
-			"description": "<p>Has una tirada [[/r 1d10]] y consulta la tabla siguiente para determinar la especie del cuerpo, o el DM elige otra especie jugable.</p>"
-		},
-		"Standard Languages": {
-			"name": "Idiomas Estándar",
-			"results": {
-				"rViHFEn5WjhRbElK": "<strong>Idiomas:</strong> Común. <strong>Origen:</strong> Sigil."
-			}
-		},
-		"Star Map Forms": {
-			"name": "Forma del Mapa Estelar",
-			"results": {
-				"1-1": "Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapScroll]{Pergamino} donde están representadas las constelaciones",
-				"2-2": "Una @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapStoneT]{Tablilla de Piedra} perforada con pequeños agujeros",
-				"3-3": "La @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapOwlbea]{Piel de un Oso Lechuza} en la que hay símbolos estelares grabados",
-				"4-4": "Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapBoundI]{Conjunto de Mapas} encuadernados con una cubierta de ébano",
-				"5-5": "Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapCrysta]{Cristal} decorado con patrones de estrellas",
-				"6-6": "Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapGlassD]{Disco de Cristal } con grabados de constelaciones"
-			}
-		},
-		"Strength": {
-			"name": "Fuerza",
-			"description": "<p>Esta tabla de calificativos plantean sugerencias sobre cómo describir a tu personaje según sus puntuaciones de característica <strong>Altas</strong> o <strong>Bajas</strong>.</p>",
-			"results": {
-				"1-1": "<strong>Alta:</strong> Musculoso. <strong>Baja:</strong> Debíl.",
-				"2-2": "<strong>Alta:</strong> Fibroso. <strong>Baja:</strong> Flaco.",
-				"3-3": "<strong>Alta:</strong> Protector. <strong>Baja:</strong> Apocado.",
-				"4-4": "<strong>Alta:</strong> Directo. <strong>Baja:</strong> Evasivo."
-			}
-		},
-		"Sub-Languages Table": {
-			"name": "Tabla de Subidiomas",
-			"results": {
-				"1-1": "<strong>Idioma:</strong> Lenguaje de Signos Común. <strong>Origen:</strong> Sigil.",
-				"2-2": "<strong>Idioma:</strong> Dracónico. <strong>Origen:</strong> Dragones.",
-				"3-4": "<strong>Idioma:</strong> Enano. <strong>Origen:</strong> Enanos.",
-				"5-6": "<strong>Idioma:</strong> Elfo. <strong>Origen:</strong> Elfos.",
-				"7-7": "<strong>Idioma:</strong> Gigante. <strong>Origen:</strong> Gigantes.",
-				"8-8": "<strong>Idioma:</strong> Gnomo. <strong>Origen:</strong> Gnomos.",
-				"9-9": "<strong>Idioma:</strong> Goblin. <strong>Origen:</strong> Trasgos.",
-				"10-11": "<strong>Idioma:</strong> Mediano. <strong>Origen:</strong> Medianos.",
-				"12-12": "<strong>Idioma:</strong> Orco. <strong>Origen:</strong> Orcos."
-			}
-		},
-		"Teleport Percance": {
-			"name": "Percance de Teletransporte",
-			"description": "<p><strong>Daño del Percance:</strong> [[/damage 3d10 type=force]]</p><p><strong>Lejos del Objetivo:</strong> [[/r 2d12#Miles]]{2d12 x 1.5 Km} a una dirección al azar [[/r 1d8#Direction]]{Dirección}</p>. con un 1, al este; con un 2, al sureste; con un 3, al sur; con un 4, al suroeste; con un 5, al oeste; con un 6, al noroeste; con un 7, al norte, y con un 8, al noreste.",
-			"results": {
-				"RaCnOnLRcJPv11Vf": "<strong>Círculo Permanente:</strong> En el Objetivo",
-				"4W9YPHqIIDyt3WbV": "<strong>Objeto Vinculado:</strong> En el Objetivo",
-				"1-5": "<strong>Muy Familiar:</strong> Percance",
-				"6-13": "<strong>Muy Familiar:</strong> Área Similar",
-				"14-24": "<strong>Muy Familiar:</strong> Lejos del Objetivo",
-				"25-100": "<strong>Muy Familiar:</strong> En el Objetivo",
-				"1-33": "<strong>Visto Esporádicamente:</strong> Percance",
-				"34-43": "<strong>Visto Esporádicamente:</strong> Área Similar",
-				"5hV5vL7SYu53EPvb": "<strong>Visto Esporádicamente:</strong> Lejos del Objetivo",
-				"KShVQqILsbEKwNQ1": "<strong>Visto Esporádicamente:</strong> Lejos del Objetivo",
-				"1-43": "<strong>Visto una vez o Descrito:</strong> Percance",
-				"S3FXuqVgRazP23RK": "<strong>Visto una vez o Descrito:</strong> Área Similar",
-				"LWWefv3FEwkukueE": "<strong>Visto una vez o Descrito:</strong> Lejos del Objetivo",
-				"74-100": "<strong>Visto una vez o Descrito:</strong> En el Objetivo",
-				"1-50": "<strong>Destino Falso:</strong> Percance",
-				"51-100": "<strong>Destino Falso:</strong> Área Similar"
-			}
-		},
-		"Trinkets": {
-			"name": "Bagatelas",
-			"results": {
-				"1-1": "La mano momificada de un goblin",
-				"2-2": "Un trozo de cristal que brilla débilmente a la luz de la luna",
-				"3-3": "Una moneda de oro acuñada en una tierra desconocida",
-				"4-4": "Un diario escrito en un idioma que desconoces",
-				"5-5": "Un anillo de latón que nunca pierde su lustre",
-				"6-6": "Una antigua pieza de ajedrez hecha de vidrio",
-				"7-7": "Un par de dados de hueso, ambos con una calavera en lugar del seis",
-				"8-8": "Un pequeño ídolo que representa una criatura horrible y te provoca sueños inquietantes cuando duermes cerca de él",
-				"9-9": "Un mechón de pelo de alguien",
-				"10-10": "La cédula de propiedad de un terreno situado en un reino que no conoces",
-				"11-11": "Un bloque de 30 g de un material desconocido",
-				"12-12": "Una pequeña muñeca de trapo atravesada por agujas",
-				"13-13": "Un diente de una bestia desconocida",
-				"14-14": "Una escama enorme, quizás de un dragón",
-				"15-15": "Una pluma de un color verde intenso",
-				"16-16": "Una antigua carta para adivinar el futuro que lleva tu efigie",
-				"17-17": "Un orbe de cristal lleno de humo serpenteante",
-				"18-18": "Un huevo con una cáscara de color rojo intenso que pesa 0,5 kg",
-				"19-19": "Una pipa que expulsa burbujas",
-				"20-20": "Un tarro de cristal que contiene un extraño trozo de carne encurtida",
-				"21-21": "Una cajita de música fabricada por gnomos que toca una canción que recuerdas vagamente de tu infancia",
-				"22-22": "Una estatuilla de madera que representa a un mediano engreído",
-				"23-23": "Un orbe de latón grabado con runas extrañas",
-				"24-24": "Un disco de piedra multicolor",
-				"25-25": "Un icono de plata de un cuervo",
-				"26-26": "Una bolsa que contiene cuarenta y siete dientes, uno de ellos podrido",
-				"27-27": "Una esquirla de obsidiana que siempre está caliente al tacto",
-				"28-28": "Una garra de dragón atada a un colgante de cuero",
-				"29-29": "Un par de calcetines viejos",
-				"30-30": "Un libro en blanco cuyas páginas no retienen la tinta, la tiza, el grafito u otras sustancias para escribir",
-				"31-31": "Un emblema de plata con la forma de una estrella de cinco puntas",
-				"32-32": "Un cuchillo que pertenecía a un familiar",
-				"33-33": "Un vial de cristal lleno de uñas cortadas",
-				"34-34": "Un artilugio metálico y rectangular con dos minúsculas copas de metal en uno de sus lados que lanza chispas cuando se moja",
-				"35-35": "Un guante blanco con lentejuelas de talla humana",
-				"36-36": "Un chaleco con cien bolsillos diminutos",
-				"37-37": "Una piedra que no pesa nada",
-				"38-38": "Un boceto de un goblin",
-				"39-39": "Un vial de cristal vacío que huele a perfume",
-				"40-40": "Una gema que parece un pedazo de carbón cuando la mira alguien que no seas tú",
-				"41-41": "Un jirón de tela de un estandarte antiguo",
-				"42-42": "Una insignia que indica el rango de un legionario perdido",
-				"43-43": "Una campana de plata sin el badajo",
-				"44-44": "Un canario mecánico dentro de una lámpara",
-				"45-45": "Un cofre en miniatura tallado para que parezca que tiene muchos pies en la base",
-				"46-46": "Un duende muerto dentro de una botella de cristal",
-				"47-47": "Una lata de metal que no tiene abertura, pero suena como si estuviera llena de líquido, arena, arañas o cristales rotos (a tu elección)",
-				"48-48": "Un orbe de cristal lleno de agua en el que nada un pez mecánico",
-				"49-49": "Una cuchara de plata con una “M” grabada en el mango",
-				"50-50": "Un silbato de madera dorada",
-				"51-51": "Un escarabajo muerto del tamaño de tu mano",
-				"52-52": "Dos soldados de juguete, a uno de los cuales le falta la cabeza",
-				"53-53": "Una cajita llena de botones de diferentes tamaños",
-				"54-54": "Una vela imposible de encender",
-				"55-55": "Una jaula en miniatura sin puerta",
-				"56-56": "Una llave vieja",
-				"57-57": "Un mapa del tesoro indescifrable",
-				"58-58": "La empuñadura de una espada rota",
-				"59-59": "Una pata de conejo",
-				"60-60": "Un ojo de cristal",
-				"61-61": "Un camafeo tallado con la efigie de una persona horrorosa",
-				"62-62": "Una calavera de plata del tamaño de una moneda",
-				"63-63": "Una máscara de alabastro",
-				"64-64": "Un cono de incienso negro y pegajoso que apesta",
-				"65-65": "Un gorro de dormir que te produce sueños agradables cuando lo llevas puesto",
-				"66-66": "Un único abrojo hecho de hueso",
-				"67-67": "Una montura de monóculo dorada y sin lente",
-				"68-68": "Un cubo de 2,5 cm que tiene cada lado pintado de un color distinto",
-				"69-69": "Un pomo hecho de cristal",
-				"70-70": "Un paquete lleno de polvo rosa",
-				"71-71": "Un fragmento de una bella canción, escrita en forma de notas musicales en dos trozos de pergamino",
-				"72-72": "Un pendiente de plata con forma de lágrima que contiene una lágrima de verdad",
-				"73-73": "Una cáscara de huevo pintada con escenas perturbadoras de miseria muy detalladas",
-				"74-74": "Un abanico que muestra un gato durmiendo al abrirlo",
-				"75-75": "Un juego de pipas de hueso",
-				"76-76": "Un trébol de cuatro hojas prensado en el interior de un libro que habla de modales y etiqueta",
-				"77-77": "Un pergamino en el que hay dibujado un artilugio mecánico",
-				"78-78": "Una vaina ornamentada que no sirve para ninguna espada que hayas encontrado",
-				"79-79": "Una invitación a una fiesta en la que tuvo lugar un asesinato",
-				"80-80": "Un pentáculo de bronce con la cabeza de una rata grabada en el centro",
-				"81-81": "Un pañuelo violeta que lleva bordado el nombre de una archimaga",
-				"82-82": "La mitad del plano de un templo, castillo u otro edificio",
-				"83-83": "Un trozo de tela doblado que se convierte en un elegante gorro al desplegarlo",
-				"84-84": "Un recibo de un ingreso en un banco de una ciudad remota",
-				"85-85": "Un diario al que le faltan siete páginas",
-				"86-86": "Una tabaquera de plata vacía con la palabra “sueños” inscrita en la tapa",
-				"87-87": "Un símbolo sagrado de hierro dedicado a un dios desconocido",
-				"88-88": "Un libro sobre el auge y caída de un héroe legendario al que le falta el último capítulo",
-				"89-89": "Un vial de sangre de dragón",
-				"90-90": "Una flecha antigua de diseño élfico",
-				"91-91": "Una aguja que nunca se dobla",
-				"92-92": "Un broche ornamentado de diseño enano",
-				"93-93": "Una botella de vino vacía con una bonita etiqueta que dice: “Bodega El Mago de los Vinos, Cosecha del Dragón Rojo, 331422-W”",
-				"94-94": "Una loseta de un mosaico cuya superficie está vidriada y es multicolor",
-				"95-95": "Un ratón petrificado",
-				"96-96": "Una bandera pirata negra y adornada con un cráneo de dragón y dos tibias",
-				"97-97": "Un diminuto cangrejo o araña mecánico que se mueve cuando nadie lo mira",
-				"98-98": "Un tarro de cristal lleno de manteca cuya etiqueta reza: “Grasa de grifo”",
-				"99-99": "Una caja de madera con base de cerámica y que contiene un gusano vivo con una cabeza en cada extremo de su cuerpo",
-				"100-100": "Una urna de metal que contiene las cenizas de un héroe"
-			}
-		},
-		"Wild Magic Surge": {
-			"name": "Sobrecarga de Magia Salvaje",
-			"results": {
-				"1-4": "Tira en esta tabla al principio de cada uno de tus turnos durante el próximo minuto, ignorando este resultado en esas tiradas. ",
-				"5-8": "Una criatura amistosa contigo aparecerá en un espacio sin ocupar aleatorio a 60ft (18 m) o menos de ti. La criatura está bajo el control de tu DM y desaparecerá 1 minuto después. Tira [[/r 1d4]]  para determinar la criatura: si el resultado es 1, aparecerá un modron duodron; si es 2, aparecerá un flumph; si es 3, aparecerá un modron monodron; si es 4, aparecerá un unicornio. Consulta el Manual de Monstruos para conocer el perfil de la criatura.",
-				"9-12": "Durante el próximo minuto, recuperas 5 puntos de golpe al principio de cada uno de tus turnos. ",
-				"13-16": "Las criaturas tienen desventaja en las tiradas de salvación contra el siguiente conjuro que lances durante el próximo minuto y que implique hacer tiradas de salvación.",
-				"17-20": "Sufres un efecto que dura 1 minuto salvo que la descripción indique algo diferente. Tira [[/r 1d8]] para determinar el efecto: si el resultado es 1, te rodea una débil música etérea que solo tú y las criaturas a 5ft (1,5) m o menos de ti podéis oír; si es 2, tu tamaño aumenta en una categoría; si es 3, te crece una larga barba de plumas que permanece hasta que estornudas, momento en el cual las plumas salen despedidas de tu rostro y se desvanecen; si es 4, deberás gritar siempre que hables; si es 5, unas mariposas ilusorias revolotean a 10ft (3 m) o menos de ti; si es 6, te aparece un ojo en la frente, lo que te dará ventaja en Pruebas de Sabiduría (Percepción); si es 7, te saldrán burbujas rosas flotando de la boca al hablar; sies 8, tu piel se volverá de un brillante color azul durante 24 horas o hasta que se le ponga fin al efecto con un conjuro levantar maldición.",
-				"21-24": "Durante el próximo minuto, todos tus conjuros con un tiempo de lanzamiento de una acción poseen un tiempo de lanzamiento de una acción adicional.",
-				"25-28": "Te teletransportas al Plano Astral hasta el final de tu siguiente turno. A continuación, vuelves al espacio que ocupabas antes o al más cercano sin ocupar si ese espacio ya está ocupado. ",
-				"29-32": "La siguiente vez que lances un conjuro que cause daño durante el próximo minuto, no tiras los dados de daño del conjuro. En su lugar, usa el número más alto posible para cada dado de daño.",
-				"33-36": "Tienes resistencia a todo el daño durante el próximo minuto.",
-				"37-40": "Te transformas en una planta en una maceta hasta el principio de tu siguiente turno. Mientras seas una planta, tendrás el estado de &amp;Reference[Incapacitated] y serás vulnerable a todo el daño. Si tus puntos de golpe se reducen a 0 se romperá la maceta y volverás a tu forma anterior.",
-				"41-44": "Durante el próximo minuto, puedes teletransportarte hasta 20ft (6 m) como Acción Adicional durante cada uno de tus turnos.",
-				"45-48": "Tú y hasta tres criaturas que elijas a 30ft (9 m) o menos de ti tenéis el estado de Invisibles durante 1 minuto. Esta invisibilidad terminará inmediatamente después de que una criatura realice una Tirada de Ataque, cause daño o lance un conjuro.",
-				"49-52": "Un escudo espectral levita cerca de ti durante el próximo minuto, lo que te otorga un bonificador de +2 a la CA e inmunidad a proyectil mágico.",
-				"53-56": "Puedes realizar una Acción Extra durante este turno.",
-				"57-60": "Lanzas un conjuro aleatorio. Si normalmente requiere Concentración, no la necesitará en este caso; el conjuro se mantiene toda su duración. Tira [[/r 1d10]] para determinar el conjuro: si el resultado es 1, lanzas bola de fuego; si es 2, confusión; si es 3, grasa; si es 4, imagen múltiple; si es 5, levitar (sobre ti); si es 6, nube de oscurecimiento; si es 7, polimorfar (sobre ti), y si fallas la tirada de salvación, te conviertes en una cabra (consulta el apéndice B); si es 8 proyectil mágico (como conjuro de nivel 5); si es 9, ver invisibilidad; si es 10, volar (sobre una criatura aleatoria que esté a 60ft (18 m) o menos de ti).",
-				"61-64": "Durante el próximo minuto, cualquier objeto no mágico inflamable que toques y no esté llevando o vistiendo otra criatura se prenderá fuego, sufrirá [[/damage 1d14 type=fire]] de daño de Fuego y arderá.",
-				"65-68": "Si mueres durante la próxima hora, volverás inmediatamente a la vida como si te hubieran lanzado el conju o reencarnar.",
-				"69-72": "Tienes el estado de &amp;Reference[Frightened] hasta el final de tu siguiente turno. Tu DM establece el motivo del miedo.",
-				"73-76": "Te teletransportas hasta 60ft (18 m) a un espacio sin ocupar que puedas ver.",
-				"77-80": "Una criatura aleatoria a 60ft (18 m) o menos de ti tendrá el estado de envenenada durante [[/r 1d4]] horas.",
-				"81-84": "Durante el próximo minuto, emites una luz brillante en un radio de 30ft (9 m). Cualquier criatura que acabe su turno a 5ft (1,5 m) o menos de ti tendrá el estado de &amp;Reference[blinded] hasta el final de su siguiente turno.",
-				"85-88": "Hasta tres criaturas de tu elección que puedas ver a 30ft (9 m) o menos de ti sufren [[/damage 1d10 type=necrotic]] de daño. Recuperas una cantidad de puntos de golpe igual al daño necrótico causado.",
-				"89-92": "Hasta tres criaturas de tu elección que puedas ver a 30ft (9 m) menos de ti sufren [[/damage 4d10 type=lightning]] de daño.",
-				"93-96": "Tú y todas las criaturas que estén a 9 m o menos de ti tenéis vulnerabilidad al daño perforante durante el próximo minuto. ",
-				"97-100": "Tira [[/r 1d6]]: Si el resultado es 1, recuperas [[/healing 2d10]]{2d10} Puntos de Golpe; si es 2, un aliado de tu elección a 300ft (90 m) o menos de ti recupera [[/healing 2d10]]{2d10} Puntos de Golpe; si es 3, recuperas tu espacio de conjuro de menor nivel; si es 4, un aliado de tu elección a 300ft (90 m) o menos de ti  recupera su espacio de conjuro de menor nivel; si es 5, recuperas todos los puntos de hechicería; si es 6, se aplican a la vez todos los efectos de la fila 17-20."
-			}
-		},
-		"Wisdom": {
-			"name": "Sabiduría",
-			"description": "<p>Esta tabla de calificativos plantean sugerencias sobre cómo describir a tu personaje según sus puntuaciones de característica <strong>Altas</strong> o <strong>Bajas</strong>.</p>",
-			"results": {
-				"1-1": "<strong>Alta:</strong> Sereno. <strong>Baja:</strong> Impulsivo.",
-				"2-2": "<strong>Alta:</strong> Considerado. <strong>Baja:</strong> Distraído.",
-				"3-3": "<strong>Alta:</strong> Atento. <strong>Baja:</strong> Impasible.",
-				"4-4": "<strong>Alta:</strong> Precavido. <strong>Baja:</strong> Ingenuo."
-			}
-		}
-	}
+  "label": "Tablas",
+  "folders": {
+    "Chapter 2": "Capítulo 2",
+    "Chapter 3": "Capítulo 3",
+    "Chapter 7": "Capítulo 7",
+    "Descriptions by Ability Score": "Descripciones por Puntuación de Características",
+    "Personality Traits by Alignment": "Rasgos de Personalidad por Alineamiento",
+    "Reincarnated Lineages": "Linajes Reencarnados"
+  },
+  "entries": {
+    "Cardinal Directions": {
+      "name": "Direcciones Cardinales",
+      "results": {
+        "1-1": "Norte",
+        "2-2": "Sur",
+        "3-3": "Este",
+        "4-4": "Oeste"
+      }
+    },
+    "Chaotic Traits": {
+      "name": "Rasgos Caóticos",
+      "results": {
+        "1-1": "Engreído",
+        "2-2": "Impulsivo",
+        "3-3": "Rebelde",
+        "4-4": "Egocéntrico"
+      }
+    },
+    "Charisma": {
+      "name": "Carisma",
+      "description": "<p>Esta tabla de calificativos plantean sugerencias sobre cómo describir a tu personaje según sus puntuaciones de característica <strong>Altas</strong> o <strong>Bajas</strong>.</p>",
+      "results": {
+        "1-1": "<strong>Alta:</strong> Encantador.  <strong>Baja:</strong> Pedante.",
+        "2-2": "<strong>Alta:</strong> Dominante.<strong>Baja:</strong> Soso.",
+        "3-3": "<strong>Alta:</strong> Divertido. <strong>Baja:</strong> Reservado.",
+        "4-4": "<strong>Alta:</strong> Inspirador. <strong>Baja:</strong> Insensible."
+      }
+    },
+    "Confusion Behavior": {
+      "name": "Comportamiento de Confusión",
+      "description": "<p>Comportamiento del Turno</p>",
+      "results": {
+        "wOokSBLpTsUWBccD": "El objetivo no usa ninguna Acción y emplea todo su movimiento para desplazarse. Para determinar la dirección, Tira [[/r 1d4]]: con un 1, se moverá al norte; con un 2, al este; con un 3, al sur; con un 4, al oeste. ",
+        "2-6": "El objetivo no se mueve ni realiza acciones.",
+        "7-8": "El objetivo no se mueve y emplea la acción de atacar para hacer un ataque cuerpo a cuerpo contra una criatura aleatoria dentro de su alcance. Si no hay ninguna dentro de su alcance, el objetivo no hace ninguna acción.",
+        "9-10": "El objetivo elige su comportamiento"
+      }
+    },
+    "Constitution": {
+      "name": "Constitución",
+      "description": "<p>Esta tabla de calificativos plantean sugerencias sobre cómo describir a tu personaje según sus puntuaciones de característica <strong>Altas</strong> o <strong>Bajas</strong>.</p>",
+      "results": {
+        "1-1": "<strong>Alta:</strong> Enérgico. <strong>Baja:</strong> Frágil.",
+        "2-2": "<strong>Alta:</strong> Saludable. <strong>Baja:</strong> Aprensivo.",
+        "3-3": "<strong>Alta:</strong> Afable. <strong>Baja:</strong> Apático.",
+        "4-4": "<strong>Alta:</strong> Estable. <strong>Baja:</strong> Vulnerable."
+      }
+    },
+    "Dexterity": {
+      "name": "Destreza",
+      "description": "<p>Esta tabla de calificativos plantean sugerencias sobre cómo describir a tu personaje según sus puntuaciones de característica <strong>Altas</strong> o <strong>Bajas</strong>.</p>",
+      "results": {
+        "1-1": "<strong>Alta:</strong> Ágil. <strong>Baja:</strong> Nervioso.",
+        "2-2": "<strong>Alta:</strong> Dinamico. <strong>Baja:</strong> Torpe.",
+        "3-3": "<strong>Alta:</strong> Inquieto. <strong>Baja:</strong> Indeciso.",
+        "4-4": "<strong>Alta:</strong> Equilibrado. <strong>Baja:</strong> Inseguro."
+      }
+    },
+    "Elven Lineage": {
+      "name": "Linaje Élfico",
+      "description": "<p>Formas parte de un linaje que te otorga habilidades sobrenaturales.</p>"
+    },
+    "Evil Traits": {
+      "name": "Rasgos Malvados",
+      "results": {
+        "1-1": "Deshonesto",
+        "2-2": "Vengativo",
+        "3-3": "Cruel",
+        "4-4": "Avaro"
+      }
+    },
+    "Feywild Gifts": {
+      "name": "Dádivas de los Parajes Feéricos ",
+      "results": {
+        "1-1": "Unas mariposas ilusorias revolotean a tu alrededor mientras haces un Descanso Corto o Largo. ",
+        "2-2": "Te brotan flores en el pelo cada amanecer.",
+        "3-3": "Emanas un ligero olor a canela, lavanda, nuez moscada u otra hierba o especia agradable.",
+        "4-4": "Tu sombra baila cuando nadie la mira directamente.",
+        "5-5": "De tu cabeza brotan cuernos o astas.",
+        "6-6": "Tupiel y tu cabello cambian de color cada amanecer."
+      }
+    },
+    "Fiendish Legacy": {
+      "name": "Legado Infernal",
+      "description": "<p>Eres el recipiente de un legado que te otorga habilidades sobrenaturales.</p>"
+    },
+    "Gnomish Lineage": {
+      "name": "Linaje Gnomo",
+      "description": "<p>Formas parte de un linaje que te otorga habilidades sobrenaturales.</p>"
+    },
+    "Good Traits": {
+      "name": "Rasgos Buenos",
+      "results": {
+        "1-1": "Compasivo",
+        "2-2": "Servicial",
+        "3-3": "Honesto",
+        "4-4": "Amable"
+      }
+    },
+    "Intelligence": {
+      "name": "Inteligencia",
+      "description": "<p>Esta tabla de calificativos plantean sugerencias sobre cómo describir a tu personaje según sus puntuaciones de característica <strong>Altas</strong> o <strong>Bajas</strong>.</p>",
+      "results": {
+        "1-1": "<strong>Alta:</strong> Decidido. <strong>Baja:</strong> Tosco.",
+        "2-2": "<strong>Alta:</strong> Lógico. <strong>Baja:</strong> Ilógico.",
+        "3-3": "<strong>Alta:</strong> Instructivo. <strong>Baja:</strong> Ignorante.",
+        "4-4": "<strong>Alta:</strong> Curioso. <strong>Baja:</strong> Frívolo."
+      }
+    },
+    "Lawful Traits": {
+      "name": "Rasgos Legales",
+      "results": {
+        "1-1": "Cooperativo",
+        "2-2": "Leal",
+        "3-3": "Crítico",
+        "4-4": "Metódico"
+      }
+    },
+    "Manifestations of Order": {
+      "name": "Manifestaciones del Orden",
+      "results": {
+        "1-1": "Unos engranajes espectrales levitan tras de ti.",
+        "2-2": "Las manecillas de un reloj giran en tus ojos.",
+        "3-3": "Tu piel resplandece con un brillo metálico. ",
+        "4-4": "Objetos geométricos y ecuaciones flotantes recubren tu cuerpo.",
+        "5-5": "Tu canalizador mágico adopta temporalmente la forma de un mecanismo de relojería Diminuto.",
+        "6-6": "Tanto tú como aquellos afectados por tu magia podéis escuchar el tictac de los engranajes o el timbre de un reloj."
+      }
+    },
+    "Neutral Traits": {
+      "name": "Rasgos Neutrales",
+      "results": {
+        "1-1": "Egoísta",
+        "2-2": "Indiferente",
+        "3-3": "Lacónico",
+        "4-4": "Pragmatico"
+      }
+    },
+    "Prismatic Layers": {
+      "name": "Capas Prismáticas",
+      "results": {
+        "1-1": "<p><strong>Rojo.</strong><em> Si falla la tirada: </em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"fire\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de Fuego. <em>Si supera la tirada:</em> La mitad de daño. <em>Efectos adicionales</em>: Los ataques a distancia no mágicos no pueden atravesar esta capa, que se destruye si recibe al menos 25 de daño de Frío.</p>",
+        "2-2": "<p><strong>Naranja.</strong><em> Si falla la tirada: </em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"acid\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de Ácido. <em>Si supera la tirada:</em> La mitad de daño. <em>Efectos adicionales:</em> Los ataques a distancia mágicos no atraviesan esta capa, que puede destruirse mediante un viento fuerte (como el que crea <em>Ráfaga de Viento</em>).</p>",
+        "3-3": "<p><strong>Amarilla.</strong><em> Si falla la tirada: </em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"lightning\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de Relámpago. <em>Si supera la tirada:</em> La mitad de daño. <em>Efectos adicionales:</em> La capa se destruye si recibe al menos 60 de daño de Fuerza. </p>",
+        "4-4": "<p><strong>Verde.</strong><em> Si falla la tirada: </em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"poison\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de Veneno. <em>Si supera la tirada:</em> La mitad de daño. <em>Efectos adicionales:</em> Un conjuro <em>Pasamuros</em> u otro del mismo nivel o superior que puedan abrir un portal en una superficie sólida destruirán esta capa.</p>",
+        "5-5": "<p><strong>Azul.</strong><em> Si falla la tirada: </em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"cold\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de Frio. <em>Si supera la tirada:</em> La mitad de daño. <em>Efectos adicionales:</em> La capa se destruye si recibe al menos 25 de daño de Fuego.</p>",
+        "6-6": "<p><strong>Añil.</strong><em> Si falla la tirada: </em> El objetivo tendrá el estado de <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Restrained</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"restrained\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> y hara una Tirada de Salvación de <span class=\"roll-link\" data-type=\"save\" data-ability=\"con\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Constitution</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> al final de cada uno de sus turnos. Si la supera tres veces, el estado terminará. Si la falla tres veces, tendra el estado de <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xaNDaW6NwQTgHSmi\" data-id=\"xaNDaW6NwQTgHSmi\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Petrified</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"petrified\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> hasta que lo libere un efecto como el del conjuro <em>Restablecimiento Mayor</em>. Los éxitos y los fallos no tienen por qué ser consecutivos: lleva la cuenta de ambos hasta que el objetivo tenga tres de un mismo tipo. <em>Efectos adicionales:</em> No es posible lanzar conjuros a través de esta capa, que puede destruirse mediante la luz brillante del conjuro <em>Luz del Día</em>.</p>",
+        "7-7": "<p><strong>Violeta.</strong><em> Si falla la tirada: </em> El objetivo tendrá el estado de <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.0b8N4FymGGfbZGpJ\" data-id=\"0b8N4FymGGfbZGpJ\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Blinded</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"blinded\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> y hara una Tirada de Salvación de <span class=\"roll-link\" data-type=\"save\" data-ability=\"wis\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Wisdom</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> al principio de tu siguiente turno. Si la supera, el estado terminará. Si la falla, el estado terminará y la criatura se teletransportará a otro plano de existencia (a elección de tu DM). <em>Efectos adicionales:</em> esta capa puede destruirse mediante <em>Disipar Magia</em>.</p>"
+      }
+    },
+    "Prismatic Rays": {
+      "name": "Rayos Prismáticos",
+      "results": {
+        "1-1": "<p><strong>Rojo.</strong><em> Si falla la tirada:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"fire\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de Fuego. <em>Si supera la tirada:</em> La mitad de daño.</p>",
+        "2-2": "<p><strong>Naranja.</strong><em> Si falla la tirada:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"acid\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de Acído. <em>Si supera la tirada:</em> La mitad de daño.</p>",
+        "3-3": "<p><strong>Amarillo.</strong><em> Si falla la tirada:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"lightning\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de relámpago. <em>Si supera la tirada:</em> La mitad de daño.</p>",
+        "4-4": "<p><strong>Verde.</strong><em> Si falla la tirada:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"poison\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de veneno. <em>Si supera la tirada:</em> La mitad de daño.</p>",
+        "5-5": "<p><strong>Azul.</strong><em> Si falla la tirada:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"cold\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de frío. <em>Si supera la tirada:</em> La mitad de daño.</p>",
+        "6-6": "<p><strong>Añil.</strong><em> Si falla la tirada:</em> el objetivo tendrá el estado  de <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Restrained</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"restrained\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> y hará una Tirada de Salvación de <span class=\"roll-link\" data-type=\"save\" data-ability=\"con\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Constitution</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> al final de cada uno de sus turnos. Si la falla tres veces, tendrá el estado de <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xaNDaW6NwQTgHSmi\" data-id=\"xaNDaW6NwQTgHSmi\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Petrified</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"petrified\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> hasta que lo libere un efecto como el del conjuro <em>Restablecimiento Mayor</em>. Los éxitos y los fallos no tienen por qué ser consecutivos; lleva la cuenta de ambos hasta que el objetivo tenga tres de un mismo tipo.</p>",
+        "7-7": "<p><strong>Violeta.</strong><em> Si falla la tirada:</em> el objetivo tendrá el estado  de <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.0b8N4FymGGfbZGpJ\" data-id=\"0b8N4FymGGfbZGpJ\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Blinded</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"blinded\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> y hará una Tirada de Salvación de <span class=\"roll-link\" data-type=\"save\" data-ability=\"wis\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Wisdom</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> al principio de tu siguiente turno. Si la supera, el estado terminará. Si la falla, el estado terminará y la criatura se teletransportará a otro plano de existencia (a elección de tu DM).</p>",
+        "8-8": "<p><strong>Especial.</strong> Dos rayos alcanzan al objetivo. Tira dos veces y repite los resultados de 8.</p>"
+      }
+    },
+    "Reincarnated Species": {
+      "name": "Reencarnar Especie",
+      "description": "<p>Has una tirada [[/r 1d10]] y consulta la tabla siguiente para determinar la especie del cuerpo, o el DM elige otra especie jugable.</p>"
+    },
+    "Standard Languages": {
+      "name": "Idiomas Estándar",
+      "results": {
+        "rViHFEn5WjhRbElK": "<strong>Idiomas:</strong> Común. <strong>Origen:</strong> Sigil."
+      }
+    },
+    "Star Map Forms": {
+      "name": "Forma del Mapa Estelar",
+      "results": {
+        "1-1": "Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapScroll]{Pergamino} donde están representadas las constelaciones",
+        "2-2": "Una @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapStoneT]{Tablilla de Piedra} perforada con pequeños agujeros",
+        "3-3": "La @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapOwlbea]{Piel de un Oso Lechuza} en la que hay símbolos estelares grabados",
+        "4-4": "Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapBoundI]{Conjunto de Mapas} encuadernados con una cubierta de ébano",
+        "5-5": "Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapCrysta]{Cristal} decorado con patrones de estrellas",
+        "6-6": "Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbStarMapGlassD]{Disco de Cristal } con grabados de constelaciones"
+      }
+    },
+    "Strength": {
+      "name": "Fuerza",
+      "description": "<p>Esta tabla de calificativos plantean sugerencias sobre cómo describir a tu personaje según sus puntuaciones de característica <strong>Altas</strong> o <strong>Bajas</strong>.</p>",
+      "results": {
+        "1-1": "<strong>Alta:</strong> Musculoso. <strong>Baja:</strong> Debíl.",
+        "2-2": "<strong>Alta:</strong> Fibroso. <strong>Baja:</strong> Flaco.",
+        "3-3": "<strong>Alta:</strong> Protector. <strong>Baja:</strong> Apocado.",
+        "4-4": "<strong>Alta:</strong> Directo. <strong>Baja:</strong> Evasivo."
+      }
+    },
+    "Sub-Languages Table": {
+      "name": "Tabla de Subidiomas",
+      "results": {
+        "1-1": "<strong>Idioma:</strong> Lenguaje de Signos Común. <strong>Origen:</strong> Sigil.",
+        "2-2": "<strong>Idioma:</strong> Dracónico. <strong>Origen:</strong> Dragones.",
+        "3-4": "<strong>Idioma:</strong> Enano. <strong>Origen:</strong> Enanos.",
+        "5-6": "<strong>Idioma:</strong> Elfo. <strong>Origen:</strong> Elfos.",
+        "7-7": "<strong>Idioma:</strong> Gigante. <strong>Origen:</strong> Gigantes.",
+        "8-8": "<strong>Idioma:</strong> Gnomo. <strong>Origen:</strong> Gnomos.",
+        "9-9": "<strong>Idioma:</strong> Goblin. <strong>Origen:</strong> Trasgos.",
+        "10-11": "<strong>Idioma:</strong> Mediano. <strong>Origen:</strong> Medianos.",
+        "12-12": "<strong>Idioma:</strong> Orco. <strong>Origen:</strong> Orcos."
+      }
+    },
+    "Teleport Mishap": {
+      "name": "Percance de Teletransporte",
+      "description": "<p><strong>Daño del Percance:</strong> [[/damage 3d10 type=force]]</p><p><strong>Lejos del Objetivo:</strong> [[/r 2d12#Miles]]{2d12 x 1.5 Km} a una dirección al azar [[/r 1d8#Direction]]{Dirección}</p>. con un 1, al este; con un 2, al sureste; con un 3, al sur; con un 4, al suroeste; con un 5, al oeste; con un 6, al noroeste; con un 7, al norte, y con un 8, al noreste.",
+      "results": {
+        "RaCnOnLRcJPv11Vf": "<strong>Círculo Permanente:</strong> En el Objetivo",
+        "4W9YPHqIIDyt3WbV": "<strong>Objeto Vinculado:</strong> En el Objetivo",
+        "1-5": "<strong>Muy Familiar:</strong> Percance",
+        "6-13": "<strong>Muy Familiar:</strong> Área Similar",
+        "14-24": "<strong>Muy Familiar:</strong> Lejos del Objetivo",
+        "25-100": "<strong>Muy Familiar:</strong> En el Objetivo",
+        "1-33": "<strong>Visto Esporádicamente:</strong> Percance",
+        "34-43": "<strong>Visto Esporádicamente:</strong> Área Similar",
+        "5hV5vL7SYu53EPvb": "<strong>Visto Esporádicamente:</strong> Lejos del Objetivo",
+        "KShVQqILsbEKwNQ1": "<strong>Visto Esporádicamente:</strong> Lejos del Objetivo",
+        "1-43": "<strong>Visto una vez o Descrito:</strong> Percance",
+        "S3FXuqVgRazP23RK": "<strong>Visto una vez o Descrito:</strong> Área Similar",
+        "LWWefv3FEwkukueE": "<strong>Visto una vez o Descrito:</strong> Lejos del Objetivo",
+        "74-100": "<strong>Visto una vez o Descrito:</strong> En el Objetivo",
+        "1-50": "<strong>Destino Falso:</strong> Percance",
+        "51-100": "<strong>Destino Falso:</strong> Área Similar"
+      }
+    },
+    "Trinkets": {
+      "name": "Bagatelas",
+      "results": {
+        "1-1": "La mano momificada de un goblin",
+        "2-2": "Un trozo de cristal que brilla débilmente a la luz de la luna",
+        "3-3": "Una moneda de oro acuñada en una tierra desconocida",
+        "4-4": "Un diario escrito en un idioma que desconoces",
+        "5-5": "Un anillo de latón que nunca pierde su lustre",
+        "6-6": "Una antigua pieza de ajedrez hecha de vidrio",
+        "7-7": "Un par de dados de hueso, ambos con una calavera en lugar del seis",
+        "8-8": "Un pequeño ídolo que representa una criatura horrible y te provoca sueños inquietantes cuando duermes cerca de él",
+        "9-9": "Un mechón de pelo de alguien",
+        "10-10": "La cédula de propiedad de un terreno situado en un reino que no conoces",
+        "11-11": "Un bloque de 30 g de un material desconocido",
+        "12-12": "Una pequeña muñeca de trapo atravesada por agujas",
+        "13-13": "Un diente de una bestia desconocida",
+        "14-14": "Una escama enorme, quizás de un dragón",
+        "15-15": "Una pluma de un color verde intenso",
+        "16-16": "Una antigua carta para adivinar el futuro que lleva tu efigie",
+        "17-17": "Un orbe de cristal lleno de humo serpenteante",
+        "18-18": "Un huevo con una cáscara de color rojo intenso que pesa 0,5 kg",
+        "19-19": "Una pipa que expulsa burbujas",
+        "20-20": "Un tarro de cristal que contiene un extraño trozo de carne encurtida",
+        "21-21": "Una cajita de música fabricada por gnomos que toca una canción que recuerdas vagamente de tu infancia",
+        "22-22": "Una estatuilla de madera que representa a un mediano engreído",
+        "23-23": "Un orbe de latón grabado con runas extrañas",
+        "24-24": "Un disco de piedra multicolor",
+        "25-25": "Un icono de plata de un cuervo",
+        "26-26": "Una bolsa que contiene cuarenta y siete dientes, uno de ellos podrido",
+        "27-27": "Una esquirla de obsidiana que siempre está caliente al tacto",
+        "28-28": "Una garra de dragón atada a un colgante de cuero",
+        "29-29": "Un par de calcetines viejos",
+        "30-30": "Un libro en blanco cuyas páginas no retienen la tinta, la tiza, el grafito u otras sustancias para escribir",
+        "31-31": "Un emblema de plata con la forma de una estrella de cinco puntas",
+        "32-32": "Un cuchillo que pertenecía a un familiar",
+        "33-33": "Un vial de cristal lleno de uñas cortadas",
+        "34-34": "Un artilugio metálico y rectangular con dos minúsculas copas de metal en uno de sus lados que lanza chispas cuando se moja",
+        "35-35": "Un guante blanco con lentejuelas de talla humana",
+        "36-36": "Un chaleco con cien bolsillos diminutos",
+        "37-37": "Una piedra que no pesa nada",
+        "38-38": "Un boceto de un goblin",
+        "39-39": "Un vial de cristal vacío que huele a perfume",
+        "40-40": "Una gema que parece un pedazo de carbón cuando la mira alguien que no seas tú",
+        "41-41": "Un jirón de tela de un estandarte antiguo",
+        "42-42": "Una insignia que indica el rango de un legionario perdido",
+        "43-43": "Una campana de plata sin el badajo",
+        "44-44": "Un canario mecánico dentro de una lámpara",
+        "45-45": "Un cofre en miniatura tallado para que parezca que tiene muchos pies en la base",
+        "46-46": "Un duende muerto dentro de una botella de cristal",
+        "47-47": "Una lata de metal que no tiene abertura, pero suena como si estuviera llena de líquido, arena, arañas o cristales rotos (a tu elección)",
+        "48-48": "Un orbe de cristal lleno de agua en el que nada un pez mecánico",
+        "49-49": "Una cuchara de plata con una “M” grabada en el mango",
+        "50-50": "Un silbato de madera dorada",
+        "51-51": "Un escarabajo muerto del tamaño de tu mano",
+        "52-52": "Dos soldados de juguete, a uno de los cuales le falta la cabeza",
+        "53-53": "Una cajita llena de botones de diferentes tamaños",
+        "54-54": "Una vela imposible de encender",
+        "55-55": "Una jaula en miniatura sin puerta",
+        "56-56": "Una llave vieja",
+        "57-57": "Un mapa del tesoro indescifrable",
+        "58-58": "La empuñadura de una espada rota",
+        "59-59": "Una pata de conejo",
+        "60-60": "Un ojo de cristal",
+        "61-61": "Un camafeo tallado con la efigie de una persona horrorosa",
+        "62-62": "Una calavera de plata del tamaño de una moneda",
+        "63-63": "Una máscara de alabastro",
+        "64-64": "Un cono de incienso negro y pegajoso que apesta",
+        "65-65": "Un gorro de dormir que te produce sueños agradables cuando lo llevas puesto",
+        "66-66": "Un único abrojo hecho de hueso",
+        "67-67": "Una montura de monóculo dorada y sin lente",
+        "68-68": "Un cubo de 2,5 cm que tiene cada lado pintado de un color distinto",
+        "69-69": "Un pomo hecho de cristal",
+        "70-70": "Un paquete lleno de polvo rosa",
+        "71-71": "Un fragmento de una bella canción, escrita en forma de notas musicales en dos trozos de pergamino",
+        "72-72": "Un pendiente de plata con forma de lágrima que contiene una lágrima de verdad",
+        "73-73": "Una cáscara de huevo pintada con escenas perturbadoras de miseria muy detalladas",
+        "74-74": "Un abanico que muestra un gato durmiendo al abrirlo",
+        "75-75": "Un juego de pipas de hueso",
+        "76-76": "Un trébol de cuatro hojas prensado en el interior de un libro que habla de modales y etiqueta",
+        "77-77": "Un pergamino en el que hay dibujado un artilugio mecánico",
+        "78-78": "Una vaina ornamentada que no sirve para ninguna espada que hayas encontrado",
+        "79-79": "Una invitación a una fiesta en la que tuvo lugar un asesinato",
+        "80-80": "Un pentáculo de bronce con la cabeza de una rata grabada en el centro",
+        "81-81": "Un pañuelo violeta que lleva bordado el nombre de una archimaga",
+        "82-82": "La mitad del plano de un templo, castillo u otro edificio",
+        "83-83": "Un trozo de tela doblado que se convierte en un elegante gorro al desplegarlo",
+        "84-84": "Un recibo de un ingreso en un banco de una ciudad remota",
+        "85-85": "Un diario al que le faltan siete páginas",
+        "86-86": "Una tabaquera de plata vacía con la palabra “sueños” inscrita en la tapa",
+        "87-87": "Un símbolo sagrado de hierro dedicado a un dios desconocido",
+        "88-88": "Un libro sobre el auge y caída de un héroe legendario al que le falta el último capítulo",
+        "89-89": "Un vial de sangre de dragón",
+        "90-90": "Una flecha antigua de diseño élfico",
+        "91-91": "Una aguja que nunca se dobla",
+        "92-92": "Un broche ornamentado de diseño enano",
+        "93-93": "Una botella de vino vacía con una bonita etiqueta que dice: “Bodega El Mago de los Vinos, Cosecha del Dragón Rojo, 331422-W”",
+        "94-94": "Una loseta de un mosaico cuya superficie está vidriada y es multicolor",
+        "95-95": "Un ratón petrificado",
+        "96-96": "Una bandera pirata negra y adornada con un cráneo de dragón y dos tibias",
+        "97-97": "Un diminuto cangrejo o araña mecánico que se mueve cuando nadie lo mira",
+        "98-98": "Un tarro de cristal lleno de manteca cuya etiqueta reza: “Grasa de grifo”",
+        "99-99": "Una caja de madera con base de cerámica y que contiene un gusano vivo con una cabeza en cada extremo de su cuerpo",
+        "100-100": "Una urna de metal que contiene las cenizas de un héroe"
+      }
+    },
+    "Wild Magic Surge": {
+      "name": "Sobrecarga de Magia Salvaje",
+      "results": {
+        "1-4": "Tira en esta tabla al principio de cada uno de tus turnos durante el próximo minuto, ignorando este resultado en esas tiradas. ",
+        "5-8": "Una criatura amistosa contigo aparecerá en un espacio sin ocupar aleatorio a 60ft (18 m) o menos de ti. La criatura está bajo el control de tu DM y desaparecerá 1 minuto después. Tira [[/r 1d4]]  para determinar la criatura: si el resultado es 1, aparecerá un modron duodron; si es 2, aparecerá un flumph; si es 3, aparecerá un modron monodron; si es 4, aparecerá un unicornio. Consulta el Manual de Monstruos para conocer el perfil de la criatura.",
+        "9-12": "Durante el próximo minuto, recuperas 5 puntos de golpe al principio de cada uno de tus turnos. ",
+        "13-16": "Las criaturas tienen desventaja en las tiradas de salvación contra el siguiente conjuro que lances durante el próximo minuto y que implique hacer tiradas de salvación.",
+        "17-20": "Sufres un efecto que dura 1 minuto salvo que la descripción indique algo diferente. Tira [[/r 1d8]] para determinar el efecto: si el resultado es 1, te rodea una débil música etérea que solo tú y las criaturas a 5ft (1,5) m o menos de ti podéis oír; si es 2, tu tamaño aumenta en una categoría; si es 3, te crece una larga barba de plumas que permanece hasta que estornudas, momento en el cual las plumas salen despedidas de tu rostro y se desvanecen; si es 4, deberás gritar siempre que hables; si es 5, unas mariposas ilusorias revolotean a 10ft (3 m) o menos de ti; si es 6, te aparece un ojo en la frente, lo que te dará ventaja en Pruebas de Sabiduría (Percepción); si es 7, te saldrán burbujas rosas flotando de la boca al hablar; sies 8, tu piel se volverá de un brillante color azul durante 24 horas o hasta que se le ponga fin al efecto con un conjuro levantar maldición.",
+        "21-24": "Durante el próximo minuto, todos tus conjuros con un tiempo de lanzamiento de una acción poseen un tiempo de lanzamiento de una acción adicional.",
+        "25-28": "Te teletransportas al Plano Astral hasta el final de tu siguiente turno. A continuación, vuelves al espacio que ocupabas antes o al más cercano sin ocupar si ese espacio ya está ocupado. ",
+        "29-32": "La siguiente vez que lances un conjuro que cause daño durante el próximo minuto, no tiras los dados de daño del conjuro. En su lugar, usa el número más alto posible para cada dado de daño.",
+        "33-36": "Tienes resistencia a todo el daño durante el próximo minuto.",
+        "37-40": "Te transformas en una planta en una maceta hasta el principio de tu siguiente turno. Mientras seas una planta, tendrás el estado de &amp;Reference[Incapacitated] y serás vulnerable a todo el daño. Si tus puntos de golpe se reducen a 0 se romperá la maceta y volverás a tu forma anterior.",
+        "41-44": "Durante el próximo minuto, puedes teletransportarte hasta 20ft (6 m) como Acción Adicional durante cada uno de tus turnos.",
+        "45-48": "Tú y hasta tres criaturas que elijas a 30ft (9 m) o menos de ti tenéis el estado de Invisibles durante 1 minuto. Esta invisibilidad terminará inmediatamente después de que una criatura realice una Tirada de Ataque, cause daño o lance un conjuro.",
+        "49-52": "Un escudo espectral levita cerca de ti durante el próximo minuto, lo que te otorga un bonificador de +2 a la CA e inmunidad a proyectil mágico.",
+        "53-56": "Puedes realizar una Acción Extra durante este turno.",
+        "57-60": "Lanzas un conjuro aleatorio. Si normalmente requiere Concentración, no la necesitará en este caso; el conjuro se mantiene toda su duración. Tira [[/r 1d10]] para determinar el conjuro: si el resultado es 1, lanzas bola de fuego; si es 2, confusión; si es 3, grasa; si es 4, imagen múltiple; si es 5, levitar (sobre ti); si es 6, nube de oscurecimiento; si es 7, polimorfar (sobre ti), y si fallas la tirada de salvación, te conviertes en una cabra (consulta el apéndice B); si es 8 proyectil mágico (como conjuro de nivel 5); si es 9, ver invisibilidad; si es 10, volar (sobre una criatura aleatoria que esté a 60ft (18 m) o menos de ti).",
+        "61-64": "Durante el próximo minuto, cualquier objeto no mágico inflamable que toques y no esté llevando o vistiendo otra criatura se prenderá fuego, sufrirá [[/damage 1d14 type=fire]] de daño de Fuego y arderá.",
+        "65-68": "Si mueres durante la próxima hora, volverás inmediatamente a la vida como si te hubieran lanzado el conju o reencarnar.",
+        "69-72": "Tienes el estado de &amp;Reference[Frightened] hasta el final de tu siguiente turno. Tu DM establece el motivo del miedo.",
+        "73-76": "Te teletransportas hasta 60ft (18 m) a un espacio sin ocupar que puedas ver.",
+        "77-80": "Una criatura aleatoria a 60ft (18 m) o menos de ti tendrá el estado de envenenada durante [[/r 1d4]] horas.",
+        "81-84": "Durante el próximo minuto, emites una luz brillante en un radio de 30ft (9 m). Cualquier criatura que acabe su turno a 5ft (1,5 m) o menos de ti tendrá el estado de &amp;Reference[blinded] hasta el final de su siguiente turno.",
+        "85-88": "Hasta tres criaturas de tu elección que puedas ver a 30ft (9 m) o menos de ti sufren [[/damage 1d10 type=necrotic]] de daño. Recuperas una cantidad de puntos de golpe igual al daño necrótico causado.",
+        "89-92": "Hasta tres criaturas de tu elección que puedas ver a 30ft (9 m) menos de ti sufren [[/damage 4d10 type=lightning]] de daño.",
+        "93-96": "Tú y todas las criaturas que estén a 9 m o menos de ti tenéis vulnerabilidad al daño perforante durante el próximo minuto. ",
+        "97-100": "Tira [[/r 1d6]]: Si el resultado es 1, recuperas [[/healing 2d10]]{2d10} Puntos de Golpe; si es 2, un aliado de tu elección a 300ft (90 m) o menos de ti recupera [[/healing 2d10]]{2d10} Puntos de Golpe; si es 3, recuperas tu espacio de conjuro de menor nivel; si es 4, un aliado de tu elección a 300ft (90 m) o menos de ti  recupera su espacio de conjuro de menor nivel; si es 5, recuperas todos los puntos de hechicería; si es 6, se aplican a la vez todos los efectos de la fila 17-20."
+      }
+    },
+    "Wisdom": {
+      "name": "Sabiduría",
+      "description": "<p>Esta tabla de calificativos plantean sugerencias sobre cómo describir a tu personaje según sus puntuaciones de característica <strong>Altas</strong> o <strong>Bajas</strong>.</p>",
+      "results": {
+        "1-1": "<strong>Alta:</strong> Sereno. <strong>Baja:</strong> Impulsivo.",
+        "2-2": "<strong>Alta:</strong> Considerado. <strong>Baja:</strong> Distraído.",
+        "3-3": "<strong>Alta:</strong> Atento. <strong>Baja:</strong> Impasible.",
+        "4-4": "<strong>Alta:</strong> Precavido. <strong>Baja:</strong> Ingenuo."
+      }
+    }
+  }
 }

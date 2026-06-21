@@ -373,7 +373,8 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El simio realiza dos ataques de [[/item Fist]].</p>"
         },
         "Fist": {
           "name": "Puño",
@@ -1012,7 +1013,8 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El oso realiza dos ataques de [[/item Rend]].</p>"
         },
         "Rend": {
           "name": "Desgarrar",
@@ -1047,7 +1049,8 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El oso realiza un ataque de [[/item Bite]] y un ataque de [[/item Claw]].</p>"
         },
         "Bite": {
           "name": "Mordisco",
@@ -2111,7 +2114,8 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El elefante realiza dos ataques de [[/item Gore]].</p>"
         },
         "Gore": {
           "name": "Cornada"
@@ -2831,7 +2835,8 @@
           "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> +5, alcance 1,5 m (5 pies). <em>Acierto:</em> 6 (1d6 + 3) daño Perforante más 7 (2d6) daño Veneno.</p>"
         },
         "Invisibility": {
-          "name": "Invisibilidad"
+          "name": "Invisibilidad",
+          "description": "<p>El diablillo lanza [[/item oHafKbzbqYGiL4i1]] sobre sí mismo, sin necesidad de componentes de conjuro y usando Carisma como aptitud mágica para lanzarlo.</p><hr /><p>@Embed[.oHafKbzbqYGiL4i1 caption=false]</p>"
         },
         "Shape-Shift": {
           "name": "Cambiar de Forma",
@@ -2863,7 +2868,8 @@
             "Invisibility": {
               "name": "Invisibilidad"
             }
-          }
+          },
+          "description": "<p>Una criatura a la que toques tiene el estado &amp;Reference[invisible apply=false] hasta que el conjuro termine. El conjuro termina antes de tiempo justo después de que el objetivo haga una tirada de ataque, inflija daño o lance un conjuro.</p>"
         }
       }
     },
@@ -2893,7 +2899,8 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El león realiza dos ataques de [[/item Rend]]. Puede sustituir uno de estos ataques por un uso de [[/item Roar]].</p>"
         },
         "Rend": {
           "name": "Desgarrar",
@@ -3489,7 +3496,8 @@
             "Activate": {
               "name": "Activar"
             }
-          }
+          },
+          "description": "<p>El pseudodragón realiza dos ataques de [[/item Bite]].</p>"
         },
         "Bite": {
           "name": "Mordisco",
@@ -3562,7 +3570,8 @@
             "Cast": {
               "name": "Lanzar"
             }
-          }
+          },
+          "description": "<p>El cuasit lanza [[/item 7wNdT95XqhyGOpBd]] sobre sí mismo, sin necesidad de componentes de conjuro y usando Carisma como aptitud mágica para lanzarlo.</p><hr /><p>@Embed[.7wNdT95XqhyGOpBd caption=false]</p>"
         },
         "Scare": {
           "name": "Asustar",
@@ -3602,7 +3611,8 @@
             "Invisibility": {
               "name": "Invisibilidad"
             }
-          }
+          },
+          "description": "<p>Una criatura a la que toques tiene el estado &amp;Reference[invisible apply=false] hasta que el conjuro termine. El conjuro termina antes de tiempo justo después de que el objetivo haga una tirada de ataque, inflija daño o lance un conjuro.</p>"
         }
       }
     },
@@ -4384,7 +4394,8 @@
           "description": "<p> <em>Tirada de Ataque Cuerpo a Cuerpo:</em> +5, alcance 1,5 m (5 pies). <em>Acierto:</em> 5 (1d4 + 3) daño Cortante más 7 (2d6) daño Radiante.</p>"
         },
         "Burst of Ingenuity": {
-          "name": "Arranque de Ingenio"
+          "name": "Arranque de Ingenio",
+          "description": "<p> <em>Desencadenante:</em> La esfinge u otra criatura a 9 m (30 pies) hace una prueba de característica o una tirada de salvación. <em>Respuesta:</em> La esfinge suma 2 a la tirada.</p> "
         }
       }
     },
@@ -4439,7 +4450,8 @@
             "Cast": {
               "name": "Lanzar"
             }
-          }
+          },
+          "description": "<p>La sílfide lanza [[/item lO6diOZO5FReftK6]] sobre sí misma, sin necesidad de componentes de conjuro y usando Carisma como aptitud mágica para lanzarlo.</p><hr /><p>@Embed[.lO6diOZO5FReftK6 caption=false]</p>"
         },
         "lO6diOZO5FReftK6": {
           "name": "Invisibilidad",
@@ -4452,7 +4464,8 @@
             "Invisibility": {
               "name": "Invisibilidad"
             }
-          }
+          },
+          "description": "<p>Una criatura a la que toques tiene el estado &amp;Reference[invisible apply=false] hasta que el conjuro termine. El conjuro termina antes de tiempo justo después de que el objetivo haga una tirada de ataque, inflija daño o lance un conjuro.</p>"
         }
       }
     },

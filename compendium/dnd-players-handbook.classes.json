@@ -5004,7 +5004,7 @@
     },
     "Unarmed Strike": {
       "name": "Golpe sin Armas",
-      "description": "<p><em>See: &amp;Reference[unarmedstrike]</em></p>",
+      "description": "<p><em>Véase: &amp;Reference[unarmedstrike]</em></p>",
       "activities": {
         "Grapple/Shove": {
           "name": "Agarrar/Empujar"
@@ -5484,7 +5484,7 @@
     },
     "phbbrdUnarmedStr": {
       "name": "Golpe sin Armas",
-      "description": "<p><em>See: @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdDazzlingFo]{Dazzling Footwork (Bard)}</em></p>",
+      "description": "<p><em>Véase: @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdDazzlingFo]{Juego de Pies Deslumbrante (Bardo)}</em></p>",
       "activities": {
         "Grapple/Shove": {
           "name": "Agarrar/Empujar"
@@ -5533,7 +5533,7 @@
     },
     "phbmnkUnarmedStr": {
       "name": "Golpe sin Armas",
-      "description": "<p><em>See: @UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkMartialArt]{Martial Arts (Monk)}</em></p>",
+      "description": "<p><em>Véase: @UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkMartialArt]{Artes Marciales (Monje)}</em></p>",
       "activities": {
         "Grapple/Shove": {
           "name": "Agarrar/Empujar",

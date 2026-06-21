@@ -229,7 +229,7 @@
           "name": "Don del Espíritu de la Noche"
         },
         "Merged with Shadows": {
-          "name": "Fusionarse con las Sombras"
+          "name": "Fusionado con las Sombras"
         }
       }
     },
@@ -278,7 +278,7 @@
       "description": "<p><em>Dote General (Requisitos: Nivel 4 o más)</em></p><p>Obtienes los siguientes beneficios:</p><p><strong>Mejora de Característica.</strong> Aumenta tu puntuación de Fuerza o Constitución en 1, hasta un máximo de 20.</p><p><strong>Empujar.</strong> Una vez por turno, cuando aciertes a una criatura con un ataque que cause daño contundente, podrás moverla 1,5 m a un espacio sin ocupar, siempre que el tamaño del objetivo esté, como mucho, una categoría por encima de la tuya.</p><p><strong>Crítico Potenciado.</strong> Cuando causes un crítico que inflija daño contundente a una criatura, las tiradas de ataque contra esa criatura tendrán ventaja hasta el principio de tu siguiente turno.</p><section id=\"secret-Jx3RkyhIRZ7QLlyM\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Esta dote incluye un Efecto Activo que puede usarse para rastrear la Ventaja, aunque no la automatiza.</p></section>",
       "effects": {
         "Crushed": {
-          "name": "Triturador"
+          "name": "Triturado"
         }
       }
     },
@@ -301,7 +301,7 @@
       },
       "effects": {
         "Defensive Duelist": {
-          "name": "Duelista Defensiv"
+          "name": "Duelista Defensivo"
         }
       }
     },
@@ -427,7 +427,7 @@
       "description": "<p><em>Dote de Estilo de Combate (Requisitos: Rasgo Estilo de Combate)</em></p><p>Cuando una criatura que puedas ver acierte a otra criatura que esté a 1,5 m o menos de ti con una tirada de ataque, puedes llevar a cabo una Reacción para reducir el daño causado al objetivo en 1d10 más tu Bonificador por Competencia. Para usar esta Reacción, debes estar embrazando un escudo o empuñando un arma sencilla o marcial.</p><section class=\"secret\" id=\"secret-bOebMMgCjlpqzRnG\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Intercepción</strong> puede ser utilizada para reducir la cantidad correcta de daño.</p></section>",
       "activities": {
         "Intercept": {
-          "name": "Intercepción",
+          "name": "Interceptar",
           "condition": "uando una criatura que puedas ver acierte a otra criatura que esté a 1,5 m o menos de ti con una tirada de ataque"
         }
       }
@@ -706,13 +706,13 @@
       "description": "<p><em>Dote General (Requisitos: Nivel 4 o más)</em></p><p>Obtienes los siguientes beneficios:</p><p><strong>Mejora de Característica.</strong> Aumenta tu puntuación de Fuerza o Destreza en 1, hasta un máximo de 20.</p><p><strong>Lacerar.</strong> Una vez por turno, cuando aciertes a una criatura con un ataque que cause daño cortante, podrás reducir la velocidad del objetivo en 3 m hasta el principio de tu siguiente turno.</p><p><strong>Crítico Potenciado.</strong> Cuando causes un crítico que haga daño cortante a una criatura, esta tendrá desventaja en las tiradas de ataque hasta el principio de tu siguiente turno.</p><section class=\"secret\" id=\"secret-PMVAtAZfo61ryOmO\"><p><strong>Nota Foundry</strong></p><p>esta Dote incluye un Efecto Activo que se puede usar para rastrear los efectos de Lacerar y Crítico Potenciado. Reduce automáticamente la velocidad de la criatura en 3 metros.</p></section>",
       "effects": {
         "Slashed": {
-          "name": "Rebanador"
+          "name": "Rebanado"
         }
       }
     },
     "Speedy": {
       "name": "Veloz",
-      "description": "<p><em>Dote General (Requisitos: Nivel 4 o más, Destreza o Constitución 13 o más)</em></p><p>Obtienes los siguientes beneficios:</p><p><strong>Mejora de Característica.</strong> Aumenta tu puntuación de Destreza o Constitución en 1, hasta un máximo de 20.</p><p><strong>Aumento de Velocidad.</strong> Tu velocidad aumenta en 3 m.</p><p><strong>Correr por Terreno Difícil.</strong> Cuando realizas la Acción de Correr en tu turno, el terreno difícil no te cuesta movimiento adicional durante el resto de ese turno.</p><p><strong>Movimiento Ágil.</strong> Los ataques de oportunidad tienen desventaja contra ti.</p><section class=\"secret\" id=\"secret-mmDZHieZYuvYT5LG\"><p><strong>Nota Foundry</strong></p><p>esta Dote aumenta automáticamente tu Velocidad de movimiento caminando en 3 metros. Si tienes otros tipos de movimiento, deberás actualizarlos manualmente.</p></section>",
+      "description": "<p><em>Dote General (Requisitos: Nivel 4 o más, Destreza o Constitución 13 o más)</em></p><p>Obtienes los siguientes beneficios:</p><p><strong>Mejora de Característica.</strong> Aumenta tu puntuación de Destreza o Constitución en 1, hasta un máximo de 20.</p><p><strong>Aumento de Velocidad.</strong> Tu &amp;Reference[Speed] aumenta en 3 m.</p><p><strong>Correr por Terreno Difícil.</strong> Cuando realizas la Acción de Correr en tu turno, el terreno difícil no te cuesta movimiento adicional durante el resto de ese turno.</p><p><strong>Movimiento Ágil.</strong> Los ataques de oportunidad tienen desventaja contra ti.</p><section class=\"secret\" id=\"secret-mmDZHieZYuvYT5LG\"><p><strong>Nota Foundry</strong></p><p>esta Dote aumenta automáticamente tu Velocidad de movimiento caminando en 3 metros. Si tienes otros tipos de movimiento, deberás actualizarlos manualmente.</p></section>",
       "effects": {
         "Speedy": {
           "name": "Veloz"
@@ -721,7 +721,7 @@
     },
     "Spell Sniper": {
       "name": "Lanzador Preciso",
-      "description": "<p><em>Dote General (Requisitos: Nivel 4 o más, rasgo Lanzamiento de Conjuros o Magia del Pacto)</em></p><p>Obtienes los siguientes beneficios:</p><p><strong>Mejora de Característica.</strong> Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20.</p><p><strong>Sortear la Cobertura.</strong> Tus tiradas de ataque con conjuros ignoran las coberturas media y tres cuartos.</p><p><strong>Lanzar Conjuros Cuerpo a Cuerpo.</strong> Estar a 1,5 m o menos de un enemigo no impone desventaja en tus tiradas de ataque con conjuros.</p><p><strong>Alcance Aumentado.</strong> Cuando lances un conjuro que tenga un alcance de al menos 3 m y requiera una tirada de ataque, puedes aumentar el alcance del conjuro en 18 m.</p>"
+      "description": "<p><em>Dote General (Requisitos: Nivel 4 o más, rasgo Lanzamiento de Conjuros o Magia del Pacto)</em></p><p>Obtienes los siguientes beneficios:</p><p><strong>Mejora de Característica.</strong> Aumenta tu puntuación de Inteligencia, Sabiduría o Carisma en 1, hasta un máximo de 20.</p><p><strong>Sortear la Cobertura.</strong> Tus tiradas de ataque con conjuros ignoran la &amp;Reference[Half Cover] y la &amp;Reference[Three-Quarters Cover].</p><p><strong>Lanzar Conjuros Cuerpo a Cuerpo.</strong> Estar a 1,5 m o menos de un enemigo no impone desventaja en tus tiradas de ataque con conjuros.</p><p><strong>Alcance Aumentado.</strong> Cuando lances un conjuro que tenga un alcance de al menos 3 m y requiera una tirada de ataque, puedes aumentar el alcance del conjuro en 18 m.</p>"
     },
     "Tavern Brawler": {
       "name": "Matón de Taberna",

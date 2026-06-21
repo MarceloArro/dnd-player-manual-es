@@ -779,7 +779,7 @@
     },
     "Brutal Strike": {
       "name": "Golpe Brutal",
-      "description": "<p>Si usas Ataque Temerario, puedes renunciar a tu ventaja en tiradas de ataque durante tu turno. El primer ataque que golpees en este turno debe usar Fuerza, y obtienes una opción de Golpe Brutal de tu elección. Obtienes una opción adicional en los niveles 9 y 13.</p><p><strong>Golpe Contundente.</strong> El objetivo debe hacer una tirada de salvación de Constitución o tendrá desventaja en tiradas de ataque hasta el inicio de tu próximo turno.</p><p><strong>Golpe Derribador.</strong> El objetivo debe hacer una tirada de salvación de Fuerza o caerá derribado.</p><p><strong>Golpe Empujador.</strong> Puedes empujar al objetivo hasta 4,5 metros en línea recta lejos de ti.</p><p>La CD de salvación es igual a 8 + tu bonificador por competencia + tu modificador por Fuerza.</p><section class=\"secret\" id=\"secret-vLb1SoKHWW2796Ko\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo para el Golpe D esjarretador que puedes be applied a objetivo.</p><p>The <strong>daño</strong> activity automáticamente scales cuando gain Improved Brutal Strike (2).</p></section>",
+      "description": "<p>Si usas [[/item Reckless Attack]], puedes renunciar a cualquier Ventaja en una tirada de ataque basada en Fuerza de tu elección en tu turno. La tirada de ataque elegida no debe tener Desventaja. Si la tirada de ataque elegida acierta, el objetivo sufre [[lookup @scale.barbarian.brutal-strike]] de daño adicional del mismo tipo que inflige el arma o el Ataque sin Armas, y puedes causar un efecto de Golpe Brutal de tu elección. Tienes las siguientes opciones de efecto.</p><p><strong>Golpe Enérgico. </strong>El objetivo es empujado 4,5 m (15 pies) en línea recta lejos de ti. Luego puedes moverte hasta la mitad de tu Velocidad en línea recta hacia el objetivo sin provocar &amp;Reference[Opportunity Attacks].</p><p><strong>Golpe Ralentizador. </strong>La Velocidad del objetivo se reduce en 4,5 m (15 pies) hasta el principio de tu siguiente turno. Un objetivo solo puede verse afectado por un Golpe Ralentizador a la vez: el más reciente.</p><section class=\"secret\" id=\"secret-vLb1SoKHWW2796Ko\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo para el Golpe Ralentizador que puede aplicarse a un objetivo.</p><p>La actividad de <strong>daño</strong> escala automáticamente cuando obtienes Golpe Brutal Mejorado (2).</p></section>",
       "activities": {
         "Brutal Strike": {
           "name": "Golpe Brutal"
@@ -1322,7 +1322,7 @@
       "description": "<p>Mientras no lleves armadura ni portes un escudo, obtienes los siguientes beneficios.</p><p><strong>Virtuoso de la danza.</strong> Tienes ventaja en cualquier prueba de Carisma (Interpretación) que hagas que implique bailar.</p><p><strong>Defensa sin armadura.</strong> Tu clase de armadura base es igual a 10 más tus modificadores por Destreza y Carisma.</p><p><strong>Ataques ágiles.</strong> Cuando gastes un uso de tu Inspiración bárdica como parte de una acción, una acción adicional o una reacción, puedes realizar un ataque sin armas como parte de esa acción, acción adicional o reacción.</p><p><strong>Daño bárdico.</strong> Puedes usar tu Destreza en lugar de tu Fuerza para las tiradas de ataque de tus ataques sin armas. Cuando causas daño con un ataque sin armas, puedes infligir una cantidad de daño contundente igual al resultado de una tirada con tu dado de Inspiración bárdica más tu modificador por Destreza, en lugar del daño normal del ataque. No gastas el dado con esta tirada.</p><section class=\"secret\" id=\"secret-edFgTVLwqcuabKeK\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que configura tu Defensa sin Armadura que puedes be disabled si prefer a uso armor.</p><p>The <strong>Unarmed Strike</strong> activity usos Destreza y a Bardic Inspiration die por daño.</p><p>Tú/Usted are also otorgado an <strong>Unarmed Strike</strong> item que incluye el/la changes.</p></section>",
       "activities": {
         "Unarmed Strike": {
-          "name": "Golpe sin Armas"
+          "name": "Ataque sin Armas"
         }
       },
       "effects": {
@@ -2022,7 +2022,7 @@
     },
     "Fanatical Focus": {
       "name": "Concentración Fanática",
-      "description": "<p>Si fallas una tirada de salvación mientras estás furioso, puedes volver a tirarla, pero debes usar la nueva tirada. Puedes usar este rasgo solo una vez por Furia.</p>"
+      "description": "<p>Una vez por Furia activa, si fallas una tirada de salvación, puedes repetirla con una bonificación igual a tu bonificación de Daño por Furia (actualmente [[/r @scale.barbarian.rage-damage]]), y debes usar la nueva tirada.</p>"
     },
     "Fast Hands": {
       "name": "Manos Rápidas",
@@ -3631,7 +3631,7 @@
     },
     "Power of the Wilds": {
       "name": "Poder de lo Salvaje",
-      "description": "<p>Tu conexión con la naturaleza te da habilidades sobrenaturales. Obtienes un rasgo de Guardabosques de tu elección. Cada vez que obtengas un Nivel de Competencia de Guardabosques, puedes reemplazar un rasgo que elegiste para este rasgo con otro para el cual seas elegible.</p><section class=\"secret\" id=\"secret-xneCqbl2nZsx0YOE\"><p><strong>Nota Foundry</strong></p><p>Lactividad \\<strong\\>Ram\\</strong\\> incluye un Efecto Activo que applies el/la Prone condición.</p><p>The <strong>Falcon</strong> y <strong>Lion</strong> options are not automated.</p></section>",
+      "description": "<p>Siempre que activas tu Furia, obtienes una de las siguientes opciones a tu elección.</p><p><strong>Halcón.</strong> Mientras tu Furia está activa, tienes una Velocidad Volando igual a tu Velocidad si no llevas ninguna armadura.</p><p><strong>León.</strong> Mientras tu Furia está activa, cualquier enemigo a 1,5 m (5 pies) o menos de ti tiene Desventaja en las tiradas de ataque contra objetivos que no seas tú u otro Bárbaro que tenga esta opción activa.</p><p><strong>Carnero.</strong> Mientras tu Furia está activa, puedes hacer que una criatura Grande o más pequeña tenga el estado de &amp;Reference[Prone] cuando la golpeas con un ataque cuerpo a cuerpo.</p><section class=\"secret\" id=\"secret-xneCqbl2nZsx0YOE\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Carnero</strong> incluye un Efecto Activo que aplica el estado de Derribado.</p><p>Las opciones <strong>Halcón</strong> y <strong>León</strong> no están automatizadas.</p></section>",
       "activities": {
         "Falcon": {
           "name": "Halcón",
@@ -3879,7 +3879,7 @@
     },
     "Rage": {
       "name": "Furia",
-      "description": "<p>Puedes entrar en furia como acción adicional si no llevas armadura pesada.</p><p>Mientras estés enfurecido, obtienes los siguientes beneficios.</p><p><strong>Bonificación de Daño por Furia.</strong> Cuando haces un ataque cuerpo a cuerpo utilizando Fuerza, obtienes una bonificación al tirada de daño, según se indica en la columna de Daño por Furia de la tabla de Bárbaro.</p><p><strong>Resistencia.</strong> Tienes resistencia al daño contundente, cortante y perforante.</p><p><strong>Restricciones de Furia.</strong> Durante tu furia, no puedes lanzar conjuros ni concentrarte en conjuros, y tu habilidad para hablar se reduce (aunque puedes activar objetos mágicos).</p><p>La furia dura 10 minutos o hasta que elijas terminarla como acción adicional. También termina antes de tiempo si quedas inconsciente o si tu turno termina y no has atacado a una criatura hostil desde tu último turno ni has recibido daño desde entonces.</p><p>Has entrado en furia el número de veces mostrado en la columna de Furias de la tabla de Bárbaro para tu nivel. Recuperas todos los usos gastados al finalizar un descanso largo.</p><section class=\"secret\" id=\"secret-o72MSFMdhSQC7kYa\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que automatiza el/la Resistance, adicional daño, y Ventaja en Strength Checks y Saves. Este rasgo also automáticamente recharge tu Rage usos en a Short y Long Rest.</p></section>",
+      "description": "<p>Puedes imbuirte de un poder primario llamado Furia, una fuerza que te otorga un vigor y una resistencia extraordinarios. Puedes entrar en ella con una Acción Adicional si no llevas armadura Pesada.</p><p>Puedes entrar en tu Furia la cantidad de veces que se indica para tu nivel de Bárbaro en la columna Furias de la tabla de Rasgos del Bárbaro (actualmente [[lookup @scale.barbarian.rages]]). Recuperas un uso gastado cuando terminas un Descanso Corto, y recuperas todos los usos gastados cuando terminas un Descanso Largo.</p><p>Mientras está activa, tu Furia sigue las reglas siguientes.</p><p><strong>Resistencia al Daño.</strong> Tienes Resistencia al daño Contundente, Perforante y Cortante.</p><p><strong>Daño por Furia.</strong> Cuando haces un ataque usando Fuerza —con un arma o con un Ataque sin Armas— e infliges daño al objetivo, obtienes una bonificación al daño que aumenta conforme ganas niveles de Bárbaro, como se indica en la columna Daño por Furia de la tabla de Rasgos del Bárbaro.</p><p><strong>Ventaja en Fuerza.</strong> Tienes Ventaja en las pruebas de Fuerza y en las tiradas de salvación de Fuerza.</p><p><strong>Sin Concentración ni Conjuros.</strong> No puedes mantener la Concentración ni lanzar conjuros.</p><p><strong>Duración.</strong> La Furia dura hasta el final de tu siguiente turno y termina antes si te pones armadura Pesada o tienes el estado de Incapacitado. Si tu Furia sigue activa en tu siguiente turno, puedes prolongarla un asalto más haciendo una de las siguientes cosas:</p><ul><li>Hacer una tirada de ataque contra un enemigo.</li><li>Obligar a un enemigo a hacer una tirada de salvación.</li><li>Usar una Acción Adicional para prolongar tu Furia.</li></ul><p>Cada vez que se prolonga la Furia, dura hasta el final de tu siguiente turno. Puedes mantener una Furia hasta 10 minutos.</p><section class=\"secret\" id=\"secret-o72MSFMdhSQC7kYa\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que automatiza la Resistencia, el daño adicional y la Ventaja en pruebas y salvaciones de Fuerza. Este rasgo también recarga automáticamente tus usos de Furia en un Descanso Corto y Largo.</p></section>",
       "activities": {
         "Expend Rage": {
           "name": "Gastar Furia"
@@ -3894,7 +3894,7 @@
     },
     "Rage of the Gods": {
       "name": "Furia de los Dioses",
-      "description": "<p>A partir del nivel 14, cuando entres en Furia, puedes elegir transformarte. Cuando lo hagas, obtienes los siguientes beneficios durante la duración de tu Furia:</p><p>• Tienes velocidad volando igual a tu velocidad de caminar.</p><p>• Tu alcance para ataques cuerpo a cuerpo aumenta en 1,5 metros.</p><p>• Cuando golpees con un ataque con arma, la criatura objetivo debe hacer una tirada de salvación de Fuerza contra una CD igual a 8 + tu bonificador por competencia + tu modificador por Fuerza. En una salvación fallida, es derribada.</p><section class=\"secret\" id=\"secret-gWvozli4SOlo3KxS\"><p><strong>Nota Foundry</strong></p><p>Lactividad \\<strong\\>Rage de el/la Gods\\</strong\\> incluye un Efecto Activo por automáticamente añadir el/la resistances y hover but does not proporcionará el/la fly velocidad.</p><p>Lactividad \\<strong\\>Revivification\\</strong\\> incluye una healing roll de tu Barbarian level.</p></section>",
+      "description": "<p>Cuando activas tu Furia, puedes adoptar la forma de un guerrero divino. Esta forma dura 1 minuto o hasta que caigas a 0 Puntos de Golpe. Una vez usas este rasgo, no puedes volver a hacerlo hasta que termines un Descanso Largo.</p><p>Mientras estás en esta forma, obtienes los siguientes beneficios.</p><p><strong>Vuelo.</strong> Tienes una Velocidad Volando igual a tu Velocidad y puedes flotar.</p><p><strong>Resistencia.</strong> Tienes Resistencia al daño Necrótico, Psíquico y Radiante.</p><p><strong>Revivificación.</strong> Cuando una criatura a 9 m (30 pies) o menos de ti fuese a caer a 0 Puntos de Golpe, puedes usar una Reacción para gastar un uso de tu Furia y, en su lugar, cambiar los Puntos de Golpe del objetivo a una cantidad igual a tu nivel de Bárbaro (actualmente [[lookup @classes.barbarian.levels]]).</p><section class=\"secret\" id=\"secret-gWvozli4SOlo3KxS\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Furia de los Dioses</strong> incluye un Efecto Activo que añade automáticamente las resistencias y el flotar, pero no proporciona la Velocidad Volando.</p><p>La actividad <strong>Revivificación</strong> incluye una tirada de curación igual a tu nivel de Bárbaro.</p></section>",
       "activities": {
         "Revivification": {
           "name": "Revivificación",
@@ -5003,7 +5003,7 @@
       }
     },
     "Unarmed Strike": {
-      "name": "Golpe sin Armas",
+      "name": "Ataque sin Armas",
       "description": "<p><em>Véase: &amp;Reference[unarmedstrike]</em></p>",
       "activities": {
         "Grapple/Shove": {
@@ -5303,7 +5303,7 @@
     },
     "Warrior of the Gods": {
       "name": "Guerrero de los Dioses",
-      "description": "<p>Tu alma está marcada para una batalla sin fin en los planos. Si un conjuro tiene el efecto único de restaurarte a la vida (pero no No-muerte), el lanzador no necesita componentes materiales para lanzar el conjuro sobre ti.</p><section class=\"secret\" id=\"secret-er80mQOJaHK8ww7M\"><p><strong>Nota Foundry</strong></p><p>The pool size is automáticamente handled en Este rasgo's scale value advancement.</p></section>",
+      "description": "<p>Una entidad divina ayuda a asegurar que puedas continuar la lucha. Tienes una reserva de cuatro d12 que puedes gastar para curarte. Con una Acción Adicional, puedes gastar dados de la reserva, tirarlos y recuperar una cantidad de Puntos de Golpe igual al total de la tirada.</p><p>Tu reserva recupera todos los dados gastados cuando terminas un Descanso Largo.</p><p>El número máximo de dados de la reserva aumenta en uno cuando alcanzas los niveles de Bárbaro 6 (5 dados), 12 (6 dados) y 17 (7 dados).</p><section class=\"secret\" id=\"secret-er80mQOJaHK8ww7M\"><p><strong>Nota Foundry</strong></p><p>El tamaño de la reserva se gestiona automáticamente en el avance de valor de escala de este rasgo.</p></section>",
       "advancement": {
         "Pool Size": {
           "title": "Tamaño de Reserva"
@@ -5321,7 +5321,7 @@
     },
     "Weapon Mastery": {
       "name": "Maestría con Armas",
-      "description": "<p>Tu entrenamiento con armas te permite dominar sus propiedades únicas. Siempre que finalices un descanso largo, puedes tocar hasta tres armas y dominarlas hasta que uses este rasgo de nuevo.</p>"
+      "description": "<p>Tu entrenamiento con armas te permite usar las propiedades de maestría de dos tipos de armas Cuerpo a Cuerpo Sencillas o Marciales de tu elección, como las Hachas de Guerra y las Hachas de Mano. Siempre que terminas un Descanso Largo, puedes practicar ejercicios de armas y cambiar una de esas elecciones de arma.</p><p>Cuando alcanzas ciertos niveles de Bárbaro, obtienes la capacidad de usar las propiedades de maestría de más tipos de armas, como se indica en la columna Maestría con Armas de la tabla de Rasgos del Bárbaro.</p>"
     },
     "Whispers of the Grave": {
       "name": "Susurros de la Tumba",
@@ -5483,7 +5483,7 @@
       "description": "<p>Puedes atacar dos veces, en lugar de una, cuando realizas la acción de Ataque en tu turno.</p>"
     },
     "phbbrdUnarmedStr": {
-      "name": "Golpe sin Armas",
+      "name": "Ataque sin Armas",
       "description": "<p><em>Véase: @UUID[Compendium.dnd-players-handbook.classes.Item.phbbrdDazzlingFo]{Juego de Pies Deslumbrante (Bardo)}</em></p>",
       "activities": {
         "Grapple/Shove": {
@@ -5532,7 +5532,7 @@
       "description": "<p>Obtienes un @UUID[Compendium.dnd-players-handbook.classes.Item.phbclasEpicBoon]{Don Épico} de tu elección.</p><section id=\"secret-jF1SP5ddqgocevbp\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Se te pedirá por a choice while leveling up.</p> @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC] @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC#boon-of-irresistible-offense]</section>"
     },
     "phbmnkUnarmedStr": {
-      "name": "Golpe sin Armas",
+      "name": "Ataque sin Armas",
       "description": "<p><em>Véase: @UUID[Compendium.dnd-players-handbook.classes.Item.phbmnkMartialArt]{Artes Marciales (Monje)}</em></p>",
       "activities": {
         "Grapple/Shove": {

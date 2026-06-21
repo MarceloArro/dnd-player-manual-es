@@ -1448,7 +1448,7 @@
     },
     "Disciplined Survivor": {
       "name": "Superviviente Disciplinado",
-      "description": "<p>Tienes ventaja en salvaciones de Constitución.</p><section class=\"secret\" id=\"secret-VLGTfBDBcfExjSXG\"><p><strong>Nota Foundry</strong></p><p>automáticamente se te otorgará la tirada de salvación proficiencies as Tú/Usted level up.</p><p>Use Este rasgo a expend 1 Focus Point.</p></section>",
+      "description": "<p>Tu disciplina física y mental te otorga competencia en todas las tiradas de salvación.</p><p>Además, siempre que hagas una tirada de salvación y falles, puedes gastar 1 Punto de Concentración para repetirla, y debes usar la nueva tirada.</p><section class=\"secret\" id=\"secret-VLGTfBDBcfExjSXG\"><p><strong>Nota Foundry</strong></p><p>Se te otorgarán automáticamente las competencias adicionales en tiradas de salvación conforme subes de nivel.</p><p>Usa este rasgo para gastar 1 Punto de Concentración.</p></section>",
       "activities": {
         "Consume Focus Point": {
           "name": "Consumir Punto de Concentración"
@@ -1805,7 +1805,7 @@
     },
     "Elemental Attunement": {
       "name": "Sintonía Elemental",
-      "description": "<p>Tu vínculo con la naturaleza viva te conecta con los elementos. Obtienes resistencia a un tipo de daño asociado con tu elección del Círculo de la Tierra, según la tabla de Daño por Terreno del Círculo de la Tierra.</p><p>Además, conoces un truco de tu elección de la tabla de Trucos por Terreno del Círculo de la Tierra. No cuenta contra el número de trucos de druida que conoces.</p><section class=\"secret\" id=\"secret-vp1KD2I9NRrbbqRe\"><p><strong>Nota Foundry</strong></p><p>Lactividad \\<strong\\>Activate Attunement</strong> activity expends 1 Focus Point y self-enchants a proporcionará el/la two activities mentioned below. Añadiráitionally, cuando activated, this activity be renamed a \"<strong>End Attunement</strong>\" con no Focus Point cost y puede usarse a remove el/lattunement benefits once el/la duration ends.</p><p>The <strong>Elemental Strike</strong> activity puede usarse para tu Unarmed Strike y allow Tú/Usted a select el/la daño type en el/la roll dialog.</p><p>The <strong>Elemental Save\\</strong\\> incluye la Fuerza tirada de salvación.</p></section>",
+      "description": "<p>Al principio de tu turno, puedes gastar 1 Punto de Concentración para imbuirte de energía elemental. La energía dura 10 minutos o hasta que tengas el estado de Incapacitado. Obtienes los siguientes beneficios mientras este rasgo está activo.</p><p><strong>Alcance.</strong> Cuando haces un Ataque sin Armas, tu alcance es 3 m (10 pies) mayor de lo normal, pues la energía elemental se extiende desde ti.</p><p><strong>Golpes Elementales.</strong> Siempre que aciertas con tu Ataque sin Armas, puedes hacer que inflija daño de Ácido, Frío, Fuego, Relámpago o Trueno (a tu elección) en lugar de su tipo de daño normal. Cuando infliges uno de estos tipos con él, también puedes obligar al objetivo a hacer una [[/save]]{tirada de salvación de Fuerza.} Si falla la salvación, puedes mover al objetivo hasta 3 m (10 pies) hacia ti o lejos de ti, mientras la energía elemental se arremolina a su alrededor.</p><section class=\"secret\" id=\"secret-vp1KD2I9NRrbbqRe\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Activate Attunement</strong> gasta 1 Punto de Concentración y se autoencanta para proporcionar las dos actividades mencionadas abajo. Además, al activarse, esta actividad pasará a llamarse \"<strong>End Attunement</strong>\" sin coste de Punto de Concentración y puede usarse para eliminar los beneficios de la sintonía una vez que termina la duración.</p><p>La actividad <strong>Elemental Strike</strong> puede usarse con tu Ataque sin Armas y te permitirá seleccionar el tipo de daño en el diálogo de tirada.</p><p>La actividad <strong>Elemental Save</strong> incluye la tirada de salvación de Fuerza.</p></section>",
       "activities": {
         "Elemental Strike": {
           "name": "Golpe Elemental"
@@ -2226,7 +2226,7 @@
     },
     "Fleet Step": {
       "name": "Paso Veloz",
-      "description": "<p>Tu velocidad de caminar aumenta en 3 metros.</p>"
+      "description": "<p>Cuando llevas a cabo una Acción Adicional que no sea Paso del Viento, también puedes usar Paso del Viento justo después de esa Acción Adicional.</p>"
     },
     "Flurry of Healing and Harm": {
       "name": "Ráfaga de Curación y Daño",
@@ -2647,7 +2647,7 @@
     },
     "Improved Shadow Step": {
       "name": "Paso entre Sombras Mejorado",
-      "description": "<p>El alcance de tu Paso de Sombra aumenta a 36 metros.</p><section id=\"secret-YgbNq427MgTSg20W\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye an activity que expend a Focus Point.</p></section>",
+      "description": "<p>Puedes recurrir a tu conexión con el Páramo Sombrío para potenciar tu teletransporte. Cuando usas tu Paso entre Sombras, puedes gastar 1 Punto de Concentración para eliminar el requisito de empezar y terminar en Luz Tenue u Oscuridad para ese uso del rasgo. Como parte de esta Acción Adicional, puedes hacer un Ataque sin Armas justo después de teletransportarte.</p><section id=\"secret-YgbNq427MgTSg20W\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una actividad que gastará un Punto de Concentración.</p></section>",
       "activities": {
         "Improved Shadow Step": {
           "name": "Paso entre Sombras Mejorado"
@@ -2984,7 +2984,7 @@
     },
     "Manipulate Elements": {
       "name": "Manipular Elementos",
-      "description": "<p>Conoces un truco de Druida de tu elección de la tabla de Trucos por Terreno del Círculo de la Tierra (no cuenta contra el número de trucos de druida que conoces) y puedes lanzar un conjuro de nivel 1 de tu elección de la tabla de Conjuros por Terreno del Círculo de la Tierra. Recuperas la capacidad de lanzar el conjuro de esta manera cuando finalices un Descanso Largo.</p><section id=\"secret-xRJYc3vK4GbFn7Lm\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo existe solo para documentación. Los conjuros deben agregarse manualmente.</p> @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplElementali]</section>"
+      "description": "<p>Conoces el conjuro @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplElementali]{Elementalismo}. Sabiduría es tu característica de lanzamiento de conjuros para él.</p><section id=\"secret-hmtMNsgv0OHFC1ED\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Cuando alcanzas este nivel, el conjuro Elementalismo se añade a tu hoja con Sabiduría como característica de lanzamiento de conjuros.</p></section>"
     },
     "Mantle of Inspiration": {
       "name": "Manto de Inspiración",
@@ -3009,7 +3009,7 @@
     },
     "Martial Arts": {
       "name": "Artes Marciales",
-      "description": "<p>Tu práctica de artes marciales te otorga maestría con el combate desarmado y las armas de monje, que son espadas cortas y cualquier arma simple cuerpo a cuerpo que no tenga la propiedad Pesada o Dos Manos.</p><p>Obtienes los siguientes beneficios mientras estés desarmado o empuñando solo armas de monje y no lleves armadura ni uses escudo.</p><p><strong>Ataque Adicional.</strong> Cuando uses la acción de Ataque en tu turno con un ataque desarmado o arma de monje, puedes hacer un ataque desarmado como acción adicional. Por ejemplo, si tomas la acción de Ataque y atacas con un bastón, también puedes hacer un ataque desarmado como acción adicional.</p><p><strong>Dado de Artes Marciales.</strong> Puedes tirar un d6 en lugar del daño normal de tu ataque desarmado o arma de monje. Este dado cambia a medida que subes de nivel de monje, como se muestra en la columna Dado de Artes Marciales de la tabla de Monje.</p><p><strong>Uso de Destreza.</strong> Puedes usar Destreza en lugar de Fuerza para las tiradas de ataque y daño de tus ataques desarmados y armas de monje.</p><section class=\"secret\" id=\"secret-krbGYn2lplFe7kOG\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye unactivities para enchanting a weapon que adds a <strong>Monk Attack</strong> activity a it que integrates el/la changes mentioned above.</p></section>",
+      "description": "<p>Tu práctica de las artes marciales te otorga maestría con estilos de combate que usan tu Ataque sin Armas y las armas de Monje, que son las siguientes:</p><ul><li>Armas Cuerpo a Cuerpo Sencillas</li><li>Armas Cuerpo a Cuerpo Marciales que tengan la propiedad Ligera</li></ul><p>Obtienes los siguientes beneficios mientras estás desarmado o empuñas solo armas de Monje y no llevas armadura ni empuñas un Escudo.</p><p><strong>Ataque sin Armas Adicional.</strong> Puedes hacer un Ataque sin Armas con una Acción Adicional.</p><p><strong>Dado de Artes Marciales.</strong> Puedes tirar 1d6 en lugar del daño normal de tu Ataque sin Armas o de tus armas de Monje. Este dado cambia conforme ganas niveles de Monje, como se indica en la columna Artes Marciales de la tabla de Rasgos del Monje.</p><p><strong>Dado de Artes Marciales Actual:</strong> [[lookup @scale.monk.die]]</p><p><strong>Ataques Diestros.</strong>Puedes usar tu modificador por Destreza en lugar de tu modificador por Fuerza para las tiradas de ataque y daño de tus Ataques sin Armas y armas de Monje. Además, cuando usas la opción Agarrar o Empujar de tu Ataque sin Armas, puedes usar tu modificador por Destreza en lugar de tu modificador por Fuerza para determinar la CD de salvación.</p><section class=\"secret\" id=\"secret-krbGYn2lplFe7kOG\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye actividades para encantar un arma que le añaden una actividad <strong>Monk Attack</strong> que integra los cambios mencionados arriba.</p></section>",
       "activities": {
         "Master Simple Weapon": {
           "name": "Dominar Arma Simple"
@@ -4262,11 +4262,11 @@
     },
     "Self-Restoration": {
       "name": "Autorrestauración",
-      "description": "<p>Como acción adicional, puedes gastar un espacio de conjuro de Magia de Pacto para tirar un dado por cada punto de Foco gastado en el nivel del conjuro. Recuperas puntos de golpe iguales al total tirado.</p>"
+      "description": "<p>Mediante pura fuerza de voluntad, puedes eliminar de ti mismo uno de los siguientes estados al final de cada uno de tus turnos: &amp;Reference[Charmed apply=false], &amp;Reference[Frightened apply=false] o &amp;Reference[Poisoned apply=false].</p><p>Además, prescindir de comida y bebida no te da niveles de &amp;Reference[Exhaustion apply=false].</p>"
     },
     "Shadow Arts": {
       "name": "Artes de las Sombras",
-      "description": "<p>Obtienes el truco Ilusión Menor.</p><p>Además, puedes usar tu acción y gastar un Punto de Foco para lanzar @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Oscuridad}, Paso Brumoso, Pasar sin Rastro o Silencio sin componentes materiales. Sabiduría es tu habilidad de lanzamiento de conjuros para estos conjuros.</p><section id=\"secret-fVPbN5r8jQwK3Ym2\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una Actividad separada para lanzar cada conjuro que gasta un Punto de Foco.</p></section>",
+      "description": "<p>Has aprendido a recurrir al poder del Páramo Sombrío, obteniendo los siguientes beneficios.</p><p><strong>Oscuridad.</strong> Puedes gastar 1 Punto de Concentración para lanzar el conjuro @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00]{Oscuridad} sin componentes de conjuro. Puedes ver dentro del área del conjuro cuando lo lanzas con este rasgo. Mientras el conjuro persiste, puedes mover su área de Oscuridad a un espacio a 18 m (60 pies) o menos de ti al principio de cada uno de tus turnos.</p><p><strong>Visión en la Oscuridad.</strong> Obtienes Visión en la Oscuridad con un alcance de 18 m (60 pies). Si ya tienes Visión en la Oscuridad, su alcance aumenta en 18 m (60 pies).</p><p><strong>Espejismos Sombríos.</strong> Conoces el conjuro Ilusión Menor. Sabiduría es tu característica de lanzamiento de conjuros para él.</p><section class=\"secret\" id=\"secret-wd4smhB7uw8Awq0x\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Expend Focus Point</strong> gasta un uso y luego puedes usar el conjuro [[/item Darkness]] que se te otorga en este nivel.</p><p>Este rasgo incluye un Efecto Activo que aumenta tu Visión en la Oscuridad.</p><p>Se te otorga el conjuro Ilusión Menor cuando alcanzas este nivel.</p></section>",
       "activities": {
         "Expend Focus Point": {
           "name": "Gastar Punto de Foco"
@@ -5030,7 +5030,7 @@
     },
     "Unarmored Movement": {
       "name": "Movimiento sin Armadura",
-      "description": "<p>Tu velocidad aumenta en 3 metros mientras no lleves armadura ni uses escudo. Este bonificador aumenta cuando alcanzas ciertos niveles de monje, como se muestra en la tabla de Monje.</p><p>En el nivel 9, obtienes la capacidad de moverte a lo largo de paredes verticales y sobre líquidos en tu turno sin caer durante el movimiento.</p><section id=\"secret-2fH97uVacHRVqDCo\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye unan Unarmored Movement Efecto Activo que añade 10 feet a tu Movement. It puedes not automáticamente update as Tú/Usted level up though. Puedes edit el/la value a match tu current aumentará.</p></section>",
+      "description": "<p>Tu Velocidad aumenta en 3 m (10 pies) mientras no lleves armadura ni empuñes un Escudo. Esta bonificación aumenta cuando alcanzas ciertos niveles de Monje, como se indica en la tabla de Rasgos del Monje.</p><p><strong>Aumento Actual:</strong> [[lookup @scale.monk.unarmored-movement]]</p><section id=\"secret-2fH97uVacHRVqDCo\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo de Movimiento sin Armadura que añade 3 m (10 pies) a tu Movimiento. Sin embargo, no puede actualizarse automáticamente conforme subes de nivel. Puedes editar el valor para que coincida con tu aumento actual.</p></section>",
       "effects": {
         "Unarmored Movement": {
           "name": "Movimiento sin Armadura"
@@ -5329,7 +5329,7 @@
     },
     "Wholeness of Body": {
       "name": "Plenitud del Cuerpo",
-      "description": "<p>Obtienes la capacidad de curarte a ti mismo. Como acción, puedes recuperar puntos de golpe iguales a tres veces tu nivel de monje. Debes finalizar un descanso largo antes de poder usar este rasgo de nuevo.</p>"
+      "description": "<p>Obtienes la capacidad de curarte a ti mismo. Con una Acción Adicional, puedes tirar tu dado de Artes Marciales. Recuperas una cantidad de Puntos de Golpe igual al número obtenido más tu modificador por Sabiduría (mínimo de 1 Punto de Golpe recuperado).</p><p>Puedes usar este rasgo una cantidad de veces igual a tu modificador por Sabiduría (mínimo de una vez), y recuperas todos los usos gastados cuando terminas un Descanso Largo.</p>"
     },
     "Wild Companion": {
       "name": "Compañero Salvaje",

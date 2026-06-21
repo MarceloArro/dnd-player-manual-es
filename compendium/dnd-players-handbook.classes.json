@@ -38,7 +38,7 @@
     "Beast Master": "Señor de las Bestias",
     "Celestial Patron": "Patrón Celestial",
     "Champion": "Campeón",
-    "Circle of Land": "Círculo de la Tiera",
+    "Circle of Land": "Círculo de la Tierra",
     "Circle of Moon": "Círculo de la Luna",
     "Circle of Sea": "Círculo del Mar",
     "Circle of Stars": "Círculo de las Estrellas",
@@ -53,7 +53,7 @@
     "Eldritch Knight": "Caballero Arcano",
     "Evoker": "Evocador",
     "Fey Wanderer": "Errante Feérico",
-    "Fiend Patron": "Patóon Infernal",
+    "Fiend Patron": "Patrón Infernal",
     "Fighter": "Guerrero",
     "Glamour": "Glamour",
     "Gloom Stalker": "Acechador en la Penumbra",
@@ -72,7 +72,7 @@
     "Oath of Vengeance": "Juramento de Venganza",
     "Paladin": "Paladín",
     "Path of the Berserker": "Senda del Berserker",
-    "Path of the Wild Heart": "Senda del Corazon Salvaje",
+    "Path of the Wild Heart": "Senda del Corazón Salvaje",
     "Path of the World Tree": "Senda del Árbol del Mundo",
     "Path of the Zealot": "Senda del Fanático",
     "Psi Warrior": "Guerrero Psiónico",
@@ -1292,7 +1292,7 @@
       "description": "<p>Obtienes un sentido sobrenatural de cuándo las cosas cercanas no están como deberían, otorgándote una ventaja cuando evitas el peligro. Tienes ventaja en tiradas de salvación de Destreza contra efectos que puedas ver, como trampas y conjuros. Para obtener este beneficio, no debes estar cegado, ensordecido o incapacitado.</p><section id=\"secret-gIJELszWrIqRFCxF\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo automatiza la Ventaja en tiradas de salvación de Destrezas but is not automáticamente disabled cuando Incapacitated. It puedes be temporarily deactivated en el Efectos tab.</p></section>",
       "effects": {
         "Danger Sense": {
-          "name": "Sentido del Peligro",
+          "name": "Sentir el Peligro",
           "description": "<p>You have Advantage on Dexterity saving throws unless you have the &amp;Reference[Incapacitated] condition.</p>"
         }
       }
@@ -1322,7 +1322,7 @@
       "description": "<p>Mientras no lleves armadura ni portes un escudo, obtienes los siguientes beneficios.</p><p><strong>Virtuoso de la danza.</strong> Tienes ventaja en cualquier prueba de Carisma (Interpretación) que hagas que implique bailar.</p><p><strong>Defensa sin armadura.</strong> Tu clase de armadura base es igual a 10 más tus modificadores por Destreza y Carisma.</p><p><strong>Ataques ágiles.</strong> Cuando gastes un uso de tu Inspiración bárdica como parte de una acción, una acción adicional o una reacción, puedes realizar un ataque sin armas como parte de esa acción, acción adicional o reacción.</p><p><strong>Daño bárdico.</strong> Puedes usar tu Destreza en lugar de tu Fuerza para las tiradas de ataque de tus ataques sin armas. Cuando causas daño con un ataque sin armas, puedes infligir una cantidad de daño contundente igual al resultado de una tirada con tu dado de Inspiración bárdica más tu modificador por Destreza, en lugar del daño normal del ataque. No gastas el dado con esta tirada.</p><section class=\"secret\" id=\"secret-edFgTVLwqcuabKeK\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que configura tu Defensa sin Armadura que puedes be disabled si prefer a uso armor.</p><p>The <strong>Unarmed Strike</strong> activity usos Destreza y a Bardic Inspiration die por daño.</p><p>Tú/Usted are also otorgado an <strong>Unarmed Strike</strong> item que incluye el/la changes.</p></section>",
       "activities": {
         "Unarmed Strike": {
-          "name": "Ataque sin Armas"
+          "name": "Golpe sin Armas"
         }
       },
       "effects": {
@@ -1389,7 +1389,7 @@
       "description": "<p>Eres un maestro sin igual de la navegación del mundo natural, y reaccionas con rapidez y decisión cuando eres atacado. Obtienes los siguientes beneficios:</p><p><strong>Maestría Experta.</strong> Cuando uses la acción de Ayuda para ayudar a un aliado en un chequeo de habilidad, puedes hacer una cantidad de chequeos adicionales de Ayuda igual a tu bonificador por competencia (mínimo uno), siempre que cada uno beneficie a un aliado diferente.</p><p><strong>Vagabundo Cansado.</strong> Al finalizar un descanso largo, reduces tu nivel de agotamiento, si lo hay, en 1 adicional.</p><p><strong>Ambulante Experto.</strong> Tu velocidad de caminar aumenta en 1,5 metros.</p><section class=\"secret\" id=\"secret-MKYXod5Sdpyj2x7V\"><p><strong>Nota Foundry</strong></p><p>Se te pedirá para elegir opciones cuando añadas la clase de Explorador a tu character sheet.</p></section>"
     },
     "Devil's Sight": {
-      "name": "Visión del Diablo",
+      "name": "Vista del Diablo",
       "description": "<p>Puedes ver normalmente en oscuridad, tanto mágica como no mágica, hasta una distancia de 36 metros.</p><p>Dentro de ese rango, puedes ver en oscuridad como si fuera luz brillante, y en penumbra como si fuera luz brillante.</p><section class=\"secret\" id=\"secret-RVsijULbRFU2b9ZU\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que te otorga visión en la oscuridad a 120 feet.</p></section>",
       "effects": {
         "Devil's Sight": {
@@ -1499,7 +1499,7 @@
       "description": "<p>Has decidido dedicarte a uno de los siguientes órdenes sagrados de clérigos:</p><p>• @UUID[Compendium.dnd-players-handbook.classes.Item.phbclcProtector0]{Protector}</p><p>• @UUID[Compendium.dnd-players-handbook.classes.Item.phbclcThaumaturg] {Taumaturgo}</p><section class=\"secret\" id=\"secret-mBkdTF86GHVjdNKD\"><p><strong>Nota Foundry</strong></p><p>During advancement Tú/Usted be able a choose que option Tú/Usted prefer.</p> @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]</section>"
     },
     "Divine Order: Protector": {
-      "name": "Orden Divino: Protector",
+      "name": "Orden Divina: Protector",
       "description": "<p>Entrenado para la batalla, obtienes competencia con armadura pesada y el rasgo Protector Divino, que es una opción para tu Canalizar Divinidad.</p><section id=\"secret-Tsm148wTyiFWlMFv\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que grants el/la proficiency y training.</p></section>",
       "effects": {
         "Divine Order: Protector": {
@@ -1508,7 +1508,7 @@
       }
     },
     "Divine Order: Thaumaturge": {
-      "name": "Orden Divino: Taumaturgo",
+      "name": "Orden Divina: Taumaturgo",
       "description": "<p>Has dedicado tu vida al estudio de las artes místicas. Aprendes un truco de tu elección de la lista de conjuros de clérigo y un truco de tu elección de la lista de conjuros de mago.</p><p>Además, tu conexión con la magia divina te permite aprender conjuros normalmente fuera del alcance del poder del clérigo. Cuando alcances ciertos niveles de Clérigo, ganarás acceso a los conjuros listados para esos niveles en la tabla de Conjuros de Orden Divino: Taumaturgo.</p><p>Una vez que obtengas acceso a uno de estos conjuros, siempre lo tienes preparado, y no cuenta contra el número de conjuros que puedes preparar cada día. Si obtienes acceso a un conjuro que no aparece en la lista de conjuros de clérigo, el conjuro es sin embargo un conjuro de clérigo para ti.</p><section id=\"secret-9NLpq7kfc33QLf8I\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que aumenta el/la number de cantrips puedes know y otorga el/la bonificación a tu Intelligence (Arcana o Religion) checks.</p> @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]</section>",
       "effects": {
         "Thaumaturge": {
@@ -1517,7 +1517,7 @@
       }
     },
     "Diviner": {
-      "name": "Adivinador",
+      "name": "Adivino",
       "description": "<p>A partir del nivel 3, puedes usar tu portento durante un descanso largo para vislumbrar el futuro. Lanza dos d20 y regístralos. Durante las próximas 8 horas, puedes reemplazar cualquier tirada hecha por ti o una criatura que puedas ver.</p>",
       "advancement": {
         "Subclass Features": {
@@ -1585,7 +1585,7 @@
       }
     },
     "Dread Ambusher": {
-      "name": "Emboscador Terrible",
+      "name": "Emboscador Pavoroso",
       "description": "<p>A partir del nivel 3, dominas el arte de la iniciativa. Puedes añadir tu modificador por Sabiduría a tus tiradas de iniciativa.</p><p>En tu primer turno de cada combate, tu velocidad de caminar aumenta en 3 metros, que dura hasta el final del turno. Si realizas la acción de Ataque en ese turno, puedes hacer un ataque con arma adicional como parte de esa acción. Si ese ataque golpea, el objetivo recibe 1d8 de daño adicional del tipo de daño del arma.</p><section class=\"secret\" id=\"secret-QF11lzzOLRLzoSrk\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que automáticamente añade tu Wisdom modificador a tu Initiative roll.</p><p>Lactividad \\<strong\\>Dreadful Strike\\</strong\\> incluye el/ladicional daño y tracks tu limited number de usos. It's daño automáticamente aumentará cuando gain el/la @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrStalkersFl]{Stalker's Flurry} feature.</p><p>Lactividad \\<strong\\>Ambusher's Leap\\</strong\\> incluye un Efecto Activo que puede usarse aumentará tu velocidad por 10 feet.</p></section>",
       "activities": {
         "Dreadful Strike": {
@@ -1599,7 +1599,7 @@
       },
       "effects": {
         "Dread Ambusher": {
-          "name": "Emboscador Temible"
+          "name": "Emboscador Pavoroso"
         },
         "Ambusher's Leap": {
           "name": "Salto Emboscador"
@@ -1680,7 +1680,7 @@
       "description": "<p>Sabes druídico, el idioma secreto de los druidas. Mientras aprendías esta lengua antigua, accediste a la magia para ocultar mensajes de personas que no sean druidas. Puedes hablar el idioma y usarlo para dejar mensajes ocultos. Quienes conozcan esta lengua detectarán automáticamente tales mensajes. Otros advertirán la presencia del mensaje si tienen éxito en una prueba de Sabiduría (Percepción) CD 15, pero sin la ayuda de magia no podrán descifrarlo.</p><section class=\"secret\" id=\"secret-5uD3Qi61JX7q2Fk8\"><p><strong>Nota Foundry</strong></p><p>Druidic y Speak con Animals are automáticamente added during advancement.</p> @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]</section>"
     },
     "Elder Champion": {
-      "name": "Campeón Anciano",
+      "name": "Campeón Ancestral",
       "description": "<p>A partir del nivel 20, puedes asumir la forma de una fuerza ancestral de la naturaleza, tomando una apariencia que elijas. Por ejemplo, tu piel podría volverse verde o adoptar una textura de corteza, tu cabello podría volverse frondoso o musgo, o podrías brotar astas o una melena de león.</p><p>Usando tu acción, experimentas una transformación. Durante 1 minuto, obtienes los siguientes beneficios:</p><p>• Al inicio de cada uno de tus turnos, recuperas 10 puntos de golpe.</p><p>• Siempre que lances un conjuro de paladín de nivel 1 o superior, recuperas puntos de golpe iguales a 5 + el nivel del conjuro.</p><p>• Las criaturas enemigas a 3 metros de ti tienen desventaja en tiradas de salvación contra tus conjuros de paladín y opciones de Canalizar Divinidad.</p><p>Una vez que uses este rasgo, no puedes usarlo de nuevo hasta que finalices un descanso largo.</p><section id=\"secret-EKKHqruZyH8NdBEa\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Lactividad \\<strong\\>Elder Champion</strong> activity consume a uso y incluye un Efecto Activo que puede usarse para rastrear criaturas impacted por Diminished Defense.</p><p>The <strong>Regeneration\\</strong\\> incluye el/la 10 Hit Points puedes regain each turn.</p><p>The <strong>Restore Use</strong> activity consume a 5th level conjuro slot y restaurar a uso de Este rasgo.</p></section>",
       "activities": {
         "Elder Champion": {
@@ -2454,7 +2454,7 @@
       }
     },
     "Heightened Spell": {
-      "name": "Conjuro Elevado",
+      "name": "Conjuro Intensificado",
       "description": "<p>Cuando lanzas un conjuro que fuerza a una criatura a hacer una tirada de salvación para resistir sus efectos, puedes gastar 3 puntos de hechicería para dar a un objetivo del conjuro desventaja en su primera tirada de salvación contra el conjuro.</p>",
       "activities": {
         "Heightened Spell": {
@@ -2507,11 +2507,11 @@
       }
     },
     "Hurl Through Hell": {
-      "name": "Lanzar al Infierno",
+      "name": "Arrastrar por el Infierno",
       "description": "<p>A partir del nivel 14, cuando golpees a una criatura con un ataque, puedes usar este rasgo para transportar instantáneamente al objetivo a través de los planos inferiores. La criatura desaparece y atraviesa un paisaje de pesadilla.</p><p>Al final de tu próximo turno, el objetivo regresa al espacio que ocupó previamente, o al espacio desocupado más cercano. Si el objetivo no es un infernal, recibe 10d10 de daño psíquico mientras se tambalea debido a su experiencia horrible.</p><p>Una vez que uses este rasgo, no puedes usarlo de nuevo hasta que finalices un descanso largo.</p><section class=\"secret\" id=\"secret-gG3gHikiPJVXNkev\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye one limited uso.</p><p>The <strong>Regain Use</strong> activity expend a Pact Magic spell slot y restaurar a uso de Este rasgo.</p></section>",
       "activities": {
         "Hurl Through Hell": {
-          "name": "Arrojar al Infierno",
+          "name": "Arrastrar por el Infierno",
           "condition": "Once per turn when you hit a creature with an attack roll"
         },
         "Regain Use": {
@@ -2606,7 +2606,7 @@
       "description": "<p>Mientras estés en una forma de Forma Salvaje, obtienes los siguientes beneficios:</p><p><strong>Bestia Resistente.</strong> Obtienes 15 Puntos de Golpe temporales.</p><p><strong>Golpe Natural.</strong> Cuando golpees con un ataque usando un arma natural de la forma, el daño causado puede ser Fuerza o el tipo normal del arma.</p><section id=\"secret-5SxAo2RPwoSrFTGC\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que automatiza el/la bonus a Constitution tirada de salvacións.</p></section>",
       "effects": {
         "Improved Circle Forms": {
-          "name": "Formas de Círculo Mejoradas"
+          "name": "Formas del Círculo Mejoradas"
         }
       }
     },
@@ -2646,11 +2646,11 @@
       "description": "<p>Has aprendido secretos especiales para fortalecer tus ilusiones. Cuando lanzas un conjuro de ilusión que tiene una duración de 1 minuto o más, puedes duplicar su duración, hasta un máximo de 24 horas.</p><section id=\"secret-bPvrTfqAh0Wge0x9\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>The @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus]{Minor Illusion} cantrip is añadased a tu sheet as Tú/Usted level up.</p></section>"
     },
     "Improved Shadow Step": {
-      "name": "Paso de las Sombras Mejorado",
+      "name": "Paso entre Sombras Mejorado",
       "description": "<p>El alcance de tu Paso de Sombra aumenta a 36 metros.</p><section id=\"secret-YgbNq427MgTSg20W\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye an activity que expend a Focus Point.</p></section>",
       "activities": {
         "Improved Shadow Step": {
-          "name": "Paso Sombrío Mejorado"
+          "name": "Paso entre Sombras Mejorado"
         }
       }
     },
@@ -2821,7 +2821,7 @@
       "description": "<p>Puedes añadir la mitad de tu bonificador por competencia, redondeado hacia abajo, a cualquier chequeo de habilidad que hagas que no incluya ya tu bonificador por competencia.</p><section id=\"secret-su4PzYrZZDdS1qZg\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que automáticamente otorgará Tú/Usted half proficiency por all skills que Tú/Usted aren't currently proficient in.</p></section>",
       "effects": {
         "Jack of All Trades": {
-          "name": "Todoterreno"
+          "name": "Aprendiz de Mucho"
         }
       }
     },
@@ -2917,7 +2917,7 @@
       "description": "<p>A partir del nivel 15, puedes potenciar tu presencia en el campo de batalla. Como acción adicional, obtienes los siguientes beneficios durante 1 minuto:</p><p>• Cuando hagas un chequeo de Carisma o salvación de Carisma, puedes usar tu reacción para concederte ventaja en la tirada.</p><p>• Una vez en cada uno de tus turnos cuando falles un ataque con arma, puedes causar que ese ataque golpee en su lugar.</p><p>• Si fallas una salvación, puedes usar tu reacción para tener éxito en su lugar.</p><p>Una vez que uses este rasgo, no puedes hacerlo de nuevo hasta que finalices un descanso largo.</p><section class=\"secret\" id=\"secret-mhBj862IzYiWQQ5P\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que automatiza el/la Ventaja en all Charisma checks y puede usarse para tracking but el/la other benefits are not automated.</p><p>The <strong>Reroll Saving Throw</strong> activity is just para tracking Reaction uso.</p><p>The <strong>Restore Use</strong> activity puede usarse a consume a 5th level slot y restaurar a uso de Este rasgo.</p></section>",
       "activities": {
         "Restore Use": {
-          "name": "Restaurar Uso  "
+          "name": "Restaurar Uso"
         },
         "Reroll Saving Throw": {
           "name": "Repetir Tirada de Salvación"
@@ -3063,11 +3063,11 @@
       "description": "<p>Obtienes la capacidad de torcer tus conjuros para adaptarlos a tus necesidades. Obtienes dos opciones de Metamagia de tu elección. Obtienes otra en el nivel 10 y otra más en el nivel 17.</p><p>Puedes usar solo una opción de Metamagia en un conjuro cuando lo lanzas, a menos que se indique lo contrario.</p><section id=\"secret-IKw7Qq4qXvzx5Iqj\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Se te pedirá a choose Metamagic options as Tú/Usted level up.</p></section>"
     },
     "Mindless Rage": {
-      "name": "Furia Descerebrada",
+      "name": "Furia Irracional",
       "description": "<p>No puedes ser hechizado o asustado mientras estás furioso. Si estás hechizado o asustado cuando entras en Furia, el efecto se suspende durante la Furia.</p><section class=\"secret\" id=\"secret-CnCRD0Dyvx4FFGfV\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que otorga el/la Charmed y Frightened condición immunity. It is not applied automáticamente cuando begin tu Rage though.</p></section>",
       "effects": {
         "Mindless Rage": {
-          "name": "Ira Desconsiderada"
+          "name": "Furia Irracional"
         }
       }
     },
@@ -3172,7 +3172,7 @@
       }
     },
     "Moonlight Step": {
-      "name": "Paso de Luz Lunar",
+      "name": "Paso de la Luz Lunar",
       "description": "<p>A partir del nivel 10, puedes usar un bono de acción para teleportarte mágicamente hasta 9 metros a un espacio desocupado que puedas ver. Inmediatamente antes o después de teleportarte, cada criatura de tu elección que puedas ver a 1,5 metros del espacio que dejaste o del espacio al que apareces debe tener éxito en una tirada de salvación de Sabiduría contra tu CD de conjuros de brujo o recibir 2d10 de daño radiante.</p><p>Puedes usar este rasgo un número de veces igual a tu modi ficador por Sabiduría (mínimo una vez), y recuperas todos los usos gastados cuando finalices un descanso largo.</p><section class=\"secret\" id=\"secret-fQNfNPvTSXWuXepa\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye unan activity con un Efecto Activo por tracking cuando have Ventaja but it does not automate el/la Ventaja.</p><p>It also incluye una Recharge con Conjuro Slot activity que puede usarse a convert conjuro slots into usos de Este rasgo. Puedes select higher level slots por increasing el/la scale.</p></section>",
       "activities": {
         "Transport": {
@@ -3184,7 +3184,7 @@
       },
       "effects": {
         "Moonlight Step": {
-          "name": "Paso de la Luz de la Luna"
+          "name": "Paso de la Luz Lunar"
         }
       }
     },
@@ -3254,7 +3254,7 @@
       "description": "<p>No puedes ser Encantado o Asustado por Elementales o Feéricos.</p><section id=\"secret-kW9TvR2m5XpBs8Fr\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que otorga inmunidad a las condiciones Encantado y Asustado causadas por criaturas Feéricas o Elementales.</p></section>",
       "effects": {
         "Nature's Ward": {
-          "name": "Guardia de la Naturaleza"
+          "name": "Protección Natural"
         },
         "Nature's Ward: Arid": {
           "name": "Guardia de la Naturaleza: Árido"
@@ -3275,7 +3275,7 @@
       "description": "<p>Como acción mágica, puedes gastar un uso de tu Canalizar Divinidad para conjurar zarcillos espectrales que erucionan del suelo. Elige una criatura que puedas ver a 3 metros de ti. El objetivo debe tener éxito en una tirada de salvación de Fuerza o Destreza (su elección) o quedar Restringido por 1 minuto. Mientras esté Restringido, el objetivo repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo con un éxito.</p><section id=\"secret-0hFWoWfW8qGxYckC\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que applies el/la Restrained condición.</p></section>",
       "effects": {
         "Nature's Wrath": {
-          "name": "Cólera de la Naturaleza"
+          "name": "Ira de la Naturaleza"
         }
       }
     },
@@ -3730,7 +3730,7 @@
       }
     },
     "Psi Warrior": {
-      "name": "Guerrero Psíquico",
+      "name": "Guerrero Psiónico",
       "description": "<blockquote><p>Potencia tu combate con poder psiónico</p></blockquote><p>Los guerreros psíquicos aprenden a canalizar energía psiónica para potenciar su combate y realizar increíbles proezas de destreza marcial y poder sobrenatural.</p>",
       "advancement": {
         "Subclass Features": {
@@ -3887,7 +3887,7 @@
       },
       "effects": {
         "Rage": {
-          "name": "Ira",
+          "name": "Furia",
           "description": "<p><strong>Damage Resistance.</strong> You have Resistance to Bludgeoning, Piercing, and Slashing damage.</p><p><strong>Rage Damage.</strong> When you make an attack using Strength—with either a weapon or an Unarmed Strike—and deal damage to the target, you gain a bonus to the damage that increases as you gain levels as a Barbarian, as shown in the Rage Damage column of the Barbarian Features table.</p><p><strong>Strength Advantage.</strong> You have Advantage on Strength checks and Strength saving throws.</p>"
         }
       }
@@ -3902,7 +3902,7 @@
           "condition": "When a creature within 30 feet of you would drop to 0 Hit Points"
         },
         "Rage of the Gods": {
-          "name": "Ira de los Dioses",
+          "name": "Furia de los Dioses",
           "condition": "When you activate your Rage"
         }
       },
@@ -4031,16 +4031,16 @@
       }
     },
     "Remarkable Athlete": {
-      "name": "Atleta Extraordinario",
+      "name": "Atleta Sin Parangón",
       "description": "<p>Puedes añadir la mitad de tu bonificador por competencia (redondeado hacia arriba) a cualquier chequeo de Fuerza, Destreza o Constitución que hagas que no use ya tu bonificador por competencia.</p><p>Además, cuando hagas un salto de longitud con carrera, la distancia que puedes cubrir aumenta en una cantidad de pies igual a tu modificador por Fuerza.</p><section class=\"secret\" id=\"secret-uyi38uA0t76MZ3Ae\"><p><strong>Nota Foundry</strong></p><p>Este rasgo automáticamente grants Advantage en Initiative rolls.</p></section>",
       "effects": {
         "Remarkable Athlete": {
-          "name": "Atleta Notable"
+          "name": "Atleta Sin Parangón"
         }
       }
     },
     "Rend Mind": {
-      "name": "Rasgar Mente",
+      "name": "Desgarrar la Mente",
       "description": "<p>Puedes desgarrar la mente de una criatura. Como acción, elige una criatura que puedas ver a 18 metros de ti. Esa criatura debe hacer una tirada de salvación de Inteligencia contra tu CD de conjuros de brujo. En una salvación fallida, la criatura queda aturdida hasta el final de tu próximo turno, y recibe 6d8 de daño psíquico. En una salvación exitosa, recibe la mitad del daño y no queda aturdida.</p><p>Una vez que uses este rasgo, no puedes usarlo de nuevo hasta que finalices un descanso largo.</p><section id=\"secret-Zq3j5BJjksLsQv5k\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Lactividad \\<strong\\>Rend Mind (Free)\\</strong\\> incluye una free uso de Este rasgo. El/La <strong>Rend Mind</strong> activity consume three Psionic Energy Dice. Both activities include la salvación y un Efecto Activo que applies el/la Stunned condición.</p></section>",
       "activities": {
         "Rend Mind (Free)": {
@@ -4048,13 +4048,13 @@
           "condition": "When you deal Sneak Attack damage with your Psychic Blades"
         },
         "Rend Mind": {
-          "name": "Desgarrar Mente",
+          "name": "Desgarrar la Mente",
           "condition": "When you deal Sneak Attack damage with your Psychic Blades"
         }
       },
       "effects": {
         "Rend Mind": {
-          "name": "Desgarrar Mente",
+          "name": "Desgarrar la Mente",
           "description": "<p>The target has the Stunned condition for 1 minute. The Stunned target repeats the save at the end of each of its turns, ending the effect on itself on a success.</p>"
         }
       }
@@ -4186,7 +4186,7 @@
       }
     },
     "Roving": {
-      "name": "Itinerante",
+      "name": "Errante",
       "description": "<p>Tu velocidad de caminar aumenta en 1,5 metros, y obtienes una velocidad de escalada y natación igual a tu velocidad de caminar.</p><section class=\"secret\" id=\"secret-XnQYiG0fJWJSHkQw\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que aumenta tu velocidad por 10 feet. It does not automáticamente otorgará an equivalent Climb y Swim velocidad though. It puedes be disabled si choose a wear Heavy armor.</p></section>",
       "effects": {
         "Roving": {
@@ -4224,7 +4224,7 @@
       },
       "effects": {
         "Turn Undead": {
-          "name": "Rechazar No Muertos"
+          "name": "Expulsar Muertos Vivientes"
         }
       }
     },
@@ -4279,11 +4279,11 @@
       }
     },
     "Shadow Step": {
-      "name": "Paso de Sombra",
+      "name": "Paso entre Sombras",
       "description": "<p>Obtienes la capacidad de moverte de una sombra a otra. Cuando estés en luz tenue u oscuridad, como acción adicional puedes teleportarte hasta 18 metros a un espacio desocupado que puedas ver que también esté en luz tenue u oscuridad. Luego tienes ventaja en el primer ataque cuerpo a cuerpo que hagas antes del final del turno.</p>",
       "activities": {
         "Shadow Step": {
-          "name": "Paso Sombrío",
+          "name": "Paso entre Sombras",
           "condition": "While entirely within Dim Light or Darkness"
         }
       }
@@ -4340,7 +4340,7 @@
       }
     },
     "Smite of Protection": {
-      "name": "Castigo de Protección",
+      "name": "Castigo Protector",
       "description": "<p>Tu castigo mágico ahora irradia energía protectora. Siempre que uses tu Castigo Divino, tú y tus aliados a 1,5 metros obtenéis la misma cantidad de Puntos de Golpe Temporales, que duran 1 minuto.</p><section class=\"secret\" id=\"secret-zaNpOup6oPMC6RtV\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que proporciona el/la Half Cover status but it is not automáticamente otorgado as criaturas enter/exit tu aura.</p> @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDivineSmit]</section>",
       "effects": {
         "Smite of Protection": {
@@ -4424,7 +4424,7 @@
       "description": "<p>Cuando una criatura bajo el efecto de tu Voto de Enemistad hace un ataque, puedes usar tu reacción para hacer un ataque con arma cuerpo a cuerpo contra esa criatura si está a tu alcance.</p>"
     },
     "Soulknife": {
-      "name": "Cuchilla del Alma",
+      "name": "Rebanaalmas",
       "description": "<p><blockquote>Golpea Enemigos con Hojas Psíquicas</blockquote></p><p>Los pícaros que eligen el arquetipo Psychic Blade son conocidos como Soulknife. Su poder psionic les permite manifestar hojas psíquicas de energía mental pura con las que golpear a sus enemigos de cerca o a distancia.</p>",
       "advancement": {
         "Subclass Features": {
@@ -4862,7 +4862,7 @@
       "description": "<p><strong>Prerrequisito:</strong> Nivel 5+ de Brujo, invocación @UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactBlade0]{Pacto de la Hoja}</p><p>Cuando realizas la acción de Ataque con tu arma de pacto, puedes hacer dos ataques en lugar de uno.</p>"
     },
     "Thought Shield": {
-      "name": "Escudo de Pensamientos",
+      "name": "Escudo Mental",
       "description": "<p>A partir del nivel 10, tus pensamientos no pueden ser leídos por telepatía u otros medios a menos que lo permitas. También tienes resistencia al daño psíquico, y siempre que una criatura te cause daño psíquico, esa criatura recibe la misma cantidad de daño que tú.</p>",
       "effects": {
         "Thought Shield": {
@@ -4994,7 +4994,7 @@
       "description": "<p>Tu Dado de Superioridad se convierte en un d12.</p>"
     },
     "Umbral Sight": {
-      "name": "Vista Umbral",
+      "name": "Vista Umbría",
       "description": "<p>Obtienes Visión en la Oscuridad con un alcance de 18metros. Si ya tienes Visión en la Oscuridad, su alcance aumenta en 18 metros.</p><p>Mientras estés en Oscuridad, eres Invisible para cualquier criatura que dependa de Visión en la Oscuridad para verte.</p><section class=\"secret\" id=\"secret-EavrzDSgyIsjHyEj\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que automáticamente aumentará tu Darkvision range.</p></section>",
       "effects": {
         "Umbral Sight": {
@@ -5257,11 +5257,11 @@
       }
     },
     "Warping Implosion": {
-      "name": "Implosión Deformante",
+      "name": "Implosión Deformadora",
       "description": "<p>Puedes desatar tu distorsión espacial en un estallido destructivo. Como acción, puedes teleportarte a un espacio desocupado que puedas ver a 36 metros. Inmediatamente después de desaparecer, cada criatura a 9 metros del espacio que dejaste debe hacer una tirada de salvación de Fuerza. En una salvación fallida, una criatura recibe 3d10 de daño de fuerza y es atraída en línea recta hacia el espacio que dejaste, terminando en un espacio desocupado lo más cerca posible de ese espacio. En una salvación exitosa, la criatura recibe la mitad del daño y no es atraída.</p><p>Una vez que uses este rasgo, no puedes usarlo de nuevo hasta que finalices un descanso largo.</p>",
       "activities": {
         "Warping Implosion": {
-          "name": "Implosión Distorsionante"
+          "name": "Implosión Deformadora"
         }
       }
     },
@@ -5278,7 +5278,7 @@
       }
     },
     "Warrior of Shadow": {
-      "name": "Guerrero de las Sombras",
+      "name": "Guerrero de la Sombra",
       "description": "<blockquote><p>Emplea las artes de la oscuridad y las sombras</p></blockquote><p>Los guerreros de la sombra siguen una tradición monástica que aprovecha el poder de las sombras. Estos monjes se consideran un puente entre los mundos físico y espiritual, usando las sombras como medio de tránsito.</p>",
       "advancement": {
         "Subclass Features": {

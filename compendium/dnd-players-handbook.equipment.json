@@ -83,7 +83,7 @@
     },
     "Antitoxin": {
       "name": "Antitoxina",
-      "description": "Como Acción Adicional, puedes beber un vial de antitoxina para obtener ventaja en las tiradas de salvación para evitar o poner fin al estado de &Reference[poisoned] durante 1 hora. No obstante, no tendrá efecto en &Reference[undead] o &Reference[construct].</p>",
+      "description": "<p>Como Acción Adicional, puedes beber un vial de antitoxina para obtener ventaja en las tiradas de salvación para evitar o poner fin al estado de &Reference[poisoned] durante 1 hora. No obstante, no tendrá efecto en &Reference[undead] o &Reference[construct].</p>",
       "effects": {
         "Antitoxin": {
           "name": "Antitoxina"
@@ -116,7 +116,7 @@
     },
     "Ball Bearings": {
       "name": "Bolas de Metal",
-      "description": "<p>Como Acción de Utilizar, puedes verter las Bolas de Metal de su bolsa. Se esparcirán para cubrir una zona cuadrada y plana de 3 m (10 pies) de lado a 3 m (10 pies) o menos de ti. Las criaturas que entren en esta zona por primera vez en un turno deberán superar una tirada de Salvación de Destreza con CD 10 o tendrán el estado de &Reference[Prone]. Se tarda 10 minutos en recuperar las Bolas de Metal.<br></p></p><section class=\"secret\" id=\"secret-bbcC5syRGw0PCZnG\"><p><strong>Nota Foundry</strong></p><p>La Actividad <strong>Recuperar Bolas de Metal</strong> concede otro uso a este objeto.</p></section>",
+      "description": "<p>Como Acción de Utilizar, puedes verter las Bolas de Metal de su bolsa. Se esparcirán para cubrir una zona cuadrada y plana de 3 m (10 pies) de lado a 3 m (10 pies) o menos de ti. Las criaturas que entren en esta zona por primera vez en un turno deberán superar una tirada de Salvación de Destreza con CD 10 o tendrán el estado de &Reference[Prone]. Se tarda 10 minutos en recuperar las Bolas de Metal.<br></p><section class=\"secret\" id=\"secret-bbcC5syRGw0PCZnG\"><p><strong>Nota Foundry</strong></p><p>La Actividad <strong>Recuperar Bolas de Metal</strong> concede otro uso a este objeto.</p></section>",
       "activities": {
         "Spill Ball Bearings": {
           "name": "Verter Bolas de Metal"
@@ -169,7 +169,7 @@
     },
     "Book": {
       "name": "Libro",
-      "description": "<p><p>Un libro contiene ficción o no ficción. Si consultas un libro veraz de no ficción para saber algo sobre su materia, ganarás un bonificador de +5 a las pruebas de Inteligencia (&Reference[Arcana], &Reference[History], &Reference[Nature], or &Reference[Religion]) que hagas sobre esa materia.</p>"
+      "description": "<p>Un libro contiene ficción o no ficción. Si consultas un libro veraz de no ficción para saber algo sobre su materia, ganarás un bonificador de +5 a las pruebas de Inteligencia (&Reference[Arcana], &Reference[History], &Reference[Nature], or &Reference[Religion]) que hagas sobre esa materia.</p>"
     },
     "Bottle, Glass": {
       "name": "Botella de Cristal",
@@ -442,7 +442,7 @@
     },
     "Explorer's Pack": {
       "name": "Paquete de Explorador",
-      "description": "<p>Un Paquete de Explorador contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Petate}, 2 frascos de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones} para 10 días, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Antorchas}, y una @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Cantimplora}."
+      "description": "<p>Un Paquete de Explorador contiene los siguientes objetos: @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBackpack000]{Mochila}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagBedroll0000]{Petate}, 2 frascos de @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagOil00000000]{Aceite}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRations0000]{Raciones} para 10 días, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagRope0000000]{Cuerda}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTinderbox00]{Yesquero}, 10 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagTorch000000]{Antorchas}, y una @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagWaterskin00]{Cantimplora}.</p>"
     },
     "Fine Clothes": {
       "name": "Ropas de Calidad",
@@ -886,11 +886,11 @@
     },
     "Poison, Basic": {
       "name": "Veneno Básico",
-      "description": "<p>Como Acción Adicional, puedes usar un vial de Veneno Básico para impregnar un arma o hasta tres unidades de munición. Las criaturas que sufran daño cortante o perforante por el arma o munición envenenadas recibirán [[/damage 1d4 type=poison]] de daño de veneno adicional. Una vez aplicado, el veneno mantiene su efectividad durante 1 minuto o hasta que inflija su daño, lo que ocurra primero.</p></p><section class=\"secret\" id=\"secret-YwO5GX35V4XweNWL\"><p><strong>Nota Foundry</strong></p><p>Este objeto incluye una tirada para el daño de Veneno.</p></section>"
+      "description": "<p>Como Acción Adicional, puedes usar un vial de Veneno Básico para impregnar un arma o hasta tres unidades de munición. Las criaturas que sufran daño cortante o perforante por el arma o munición envenenadas recibirán [[/damage 1d4 type=poison]] de daño de veneno adicional. Una vez aplicado, el veneno mantiene su efectividad durante 1 minuto o hasta que inflija su daño, lo que ocurra primero.</p><section class=\"secret\" id=\"secret-YwO5GX35V4XweNWL\"><p><strong>Nota Foundry</strong></p><p>Este objeto incluye una tirada para el daño de Veneno.</p></section>"
     },
     "Poisoner's Kit": {
       "name": "Útiles de Envenenador",
-      "description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[int]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Detectar un objeto envenenado (CD 10) </p><pclass=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPoisonBasic]{Veneno, Básico} </p><p>Este juego de útiles incluye los viales, productos químicos y todo el equipo necesario para producir venenos. La competencia con ellos te permite añadir tu bonificador por competencia a las pruebas de característica para fabricar o usar venenos</p>",
+      "description": "<p class=\"phb-meta\"><strong>Característica:</strong> &Reference[int]</p> <p class=\"phb-meta\"><strong>Utilizar:</strong> Detectar un objeto envenenado (CD 10) </p><p class=\"phb-meta\"> <strong>Fabricar:</strong> @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPoisonBasic]{Veneno, Básico} </p><p>Este juego de útiles incluye los viales, productos químicos y todo el equipo necesario para producir venenos. La competencia con ellos te permite añadir tu bonificador por competencia a las pruebas de característica para fabricar o usar venenos</p>",
       "activities": {
         "Detect Poisoned Object": {
           "name": "Detectar Objeto Envenenado"

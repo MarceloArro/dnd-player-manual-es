@@ -1372,7 +1372,7 @@
     },
     "Deflect Energy": {
       "name": "Desviar Energía",
-      "description": "<p>Puedes usar tu reacción cuando eres golpeado por un ataque que causa daño de Ácido, Frío, Fuego, Relámpago o Trueno para reducir el daño que recibes. El daño se reduce en 1d10 más tu modificador por Destreza.</p><p>Si reduces el daño a 0 y el ataque era un ataque a distancia, puedes redirigir el daño como parte de la misma reacción si tienes un Punto de Concentración para gastar. Haces un ataque a distancia usando tu Arma Marcial dedicaa contra un objetivo a 18 metros de ti que puedas ver. Este ataque tiene el mismo alcance que el ataque detenido, y usa el ataque original y el tipo de daño, infligiendo daño igual al daño original reducido.</p><section id=\"secret-pLvObJ6oZuOHzMcM\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que reduce automáticamente el daño cuando se aplica.</p></section>",
+      "description": "<p>Puedes usar tu reacción cuando eres golpeado por un ataque que causa daño de Ácido, Frío, Fuego, Relámpago o Trueno para reducir el daño que recibes. El daño se reduce en 1d10 más tu modificador por Destreza.</p><p>Si reduces el daño a 0 y el ataque era un ataque a distancia, puedes redirigir el daño como parte de la misma reacción si tienes un Punto de Concentración para gastar. Haces un ataque a distancia usando tu Arma Marcial dedicaa contra un objetivo a 18 metros de ti que puedas ver. Este ataque tiene el mismo alcance que el ataque detenido, y usa el ataque original y el tipo de daño, infligiendo daño igual al daño original reducido.</p><section id=\"secret-XAQmFmc4TpSF2Oh1\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que reduce automáticamente el daño cuando se aplica.</p></section>",
       "activities": {
         "Reduce": {
           "name": "Reducir",
@@ -1850,7 +1850,7 @@
         },
         "Damage Resistance": {
           "name": "Resistencia al Daño",
-          "condition": "While your Elemental Attunement is active"
+          "condition": "Mientras tu Sintonía Elemental esté activa"
         }
       },
       "effects": {
@@ -2243,7 +2243,7 @@
     },
     "Font of Inspiration": {
       "name": "Fuente de Inspiración",
-      "description": "<p>Recuperas todos tus usos de Inspiración Bárdica gastados cuando finalices un Descanso Corto o Largo.</p><p>Además, si fallan en una Tirada de Salvación contra la Muerte al comienzo de tu turno, puedes usar tu reacción para gastar un uso de Inspiración Bárdica y tener éxito.</p><section id=\"secret-3xBRwmPWUvCE6wjr\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una Actividad que gasta un uso de Inspiración Bárdica y automáticamente tiene éxito en una tirada de salvación contra la Muerte.</p></section>",
+      "description": "<p>Recuperas todos tus usos de Inspiración Bárdica gastados cuando finalices un Descanso Corto o Largo.</p><p>Además, si fallan en una Tirada de Salvación contra la Muerte al comienzo de tu turno, puedes usar tu reacción para gastar un uso de Inspiración Bárdica y tener éxito.</p><section id=\"secret-KgQeVfHTLTrKK1s0\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una Actividad que gasta un uso de Inspiración Bárdica y automáticamente tiene éxito en una tirada de salvación contra la Muerte.</p></section>",
       "activities": {
         "Recharge with Spell Slot": {
           "name": "Recargar con Espacio de Conjuro"
@@ -2264,11 +2264,11 @@
     },
     "Frenzy": {
       "name": "Frenesí",
-      "description": "<p>Mientras estés furioso, puedes entrar en frenesí. Si lo haces, durante tu Furia, puedes hacer un ataque desarmado como acción adicional en cada uno de tus turnos. Cuando tu Furia termine, sufrirás 1 nivel de Agotamiento.</p><section id=\"secret-tY2oUVG8JFvH0p0f\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Lactividad <strong>Frenesí</strong> actúa como una simple actividad de ataque. Cuando tu Furia termine, deberás aumentar manualmente tu nivel de Agotamiento en 1.</p></section>"
+      "description": "<p>Mientras estés furioso, puedes entrar en frenesí. Si lo haces, durante tu Furia, puedes hacer un ataque desarmado como acción adicional en cada uno de tus turnos. Cuando tu Furia termine, sufrirás 1 nivel de Agotamiento.</p><section id=\"secret-EsDSGWYhmnmiS9Cu\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Lactividad <strong>Frenesí</strong> actúa como una simple actividad de ataque. Cuando tu Furia termine, deberás aumentar manualmente tu nivel de Agotamiento en 1.</p></section>"
     },
     "Full of Stars": {
       "name": "Lleno de Estrellas",
-      "description": "<p>Cuando empieces tu Forma Estelar, puedes elegir para que dos constelaciones brillen, y cada una otorga su beneficio.</p><section id=\"secret-4B8fR3F4c4gWV0gF\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye Efectos Activos separados para la Constelación del Dragón y la Constelación de la Estrella Fugaz. Estos efectos proporcionan las mecánicas de cada constelación.</p></section>",
+      "description": "<p>Cuando empieces tu Forma Estelar, puedes elegir para que dos constelaciones brillen, y cada una otorga su beneficio.</p><section id=\"secret-Do45Z2i70UArTlES\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye Efectos Activos separados para la Constelación del Dragón y la Constelación de la Estrella Fugaz. Estos efectos proporcionan las mecánicas de cada constelación.</p></section>",
       "effects": {
         "Full of Stars": {
           "name": "Lleno de Estrellas"
@@ -2629,7 +2629,7 @@
     },
     "Improved Duplicity": {
       "name": "Duplicidad Mejorada",
-      "description": "<p>Cuando uses Invocar Duplicado, en lugar de crear un duplicado de ti mismo, puedes crear hasta cuatro duplicados. Como Acción Adicional en tu turno, puedes mover cualesquiera de ellos hasta 9 metros, hasta un máximo de 36 metros de ti.</p><section class=\"secret\" id=\"secret-improved-dup\"><p><strong>Nota Foundry</strong></p><p>Deberás gestionar manualmente el movimiento de los duplicados usando lactividad <strong>Mover Duplicado</strong>.</p></section>",
+      "description": "<p>Cuando uses Invocar Duplicado, en lugar de crear un duplicado de ti mismo, puedes crear hasta cuatro duplicados. Como Acción Adicional en tu turno, puedes mover cualesquiera de ellos hasta 9 metros, hasta un máximo de 36 metros de ti.</p><section class=\"secret\" id=\"secret-uap8bgfMVCz4pnet\"><p><strong>Nota Foundry</strong></p><p>Deberás gestionar manualmente el movimiento de los duplicados usando lactividad <strong>Mover Duplicado</strong>.</p></section>",
       "activities": {
         "Healing Illusion": {
           "name": "Ilusión Curativa",
@@ -2660,7 +2660,7 @@
     },
     "Improved Warding Flare": {
       "name": "Destello Protector Mejorado",
-      "description": "<p>El beneficio de Destello Protector ahora te protege a ti o a otra criatura. Cuando una criatura que puedas ver a 9 metros o menos de ti es atacada, puedes usar tu Reacción para interponer luz divina entre el atacante y la criatura objetivo. El atacante tiene Desventaja en la tirada de ataque.</p><section class=\"secret\" id=\"secret-improved-warding\"><p><strong>Nota Foundry</strong></p><p>Lactividad <strong>Destello Protector Mejorado</strong> puede usarse tanto para protegerte a ti como a otra criatura.</p></section>"
+      "description": "<p>El beneficio de Destello Protector ahora te protege a ti o a otra criatura. Cuando una criatura que puedas ver a 9 metros o menos de ti es atacada, puedes usar tu Reacción para interponer luz divina entre el atacante y la criatura objetivo. El atacante tiene Desventaja en la tirada de ataque.</p><section class=\"secret\" id=\"secret-7WmcCKWWvsv7V9NG\"><p><strong>Nota Foundry</strong></p><p>Lactividad <strong>Destello Protector Mejorado</strong> puede usarse tanto para protegerte a ti como a otra criatura.</p></section>"
     },
     "Indomitable": {
       "name": "Indomable",
@@ -2814,7 +2814,7 @@
     },
     "Iron Mind": {
       "name": "Mente de Hierro",
-      "description": "<p>Obtienes competencia en tiradas de salvación de Sabiduría. Si ya tienes esta competencia, obtienes en su lugar competencia en tiradas de salvación de Inteligencia o Carisma (tu elección).</p><section id=\"secret-bK6KDrNzQpxLy8m9\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo existe solo para documentación. Las competencias deben agregarse manualmente.</p></section>"
+      "description": "<p>Obtienes competencia en tiradas de salvación de Sabiduría. Si ya tienes esta competencia, obtienes en su lugar competencia en tiradas de salvación de Inteligencia o Carisma (tu elección).</p><section id=\"secret-5dqxmon9VZi1vCwf\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo existe solo para documentación. Las competencias deben agregarse manualmente.</p></section>"
     },
     "Jack of All Trades": {
       "name": "Aprendiz de Mucho",
@@ -3392,7 +3392,7 @@
     },
     "Otherworldly Glamour": {
       "name": "Glamour de Otro Mundo",
-      "description": "<p>Tu apariencia adquiere una cualidad etérea. Como resultado, siempre que hagas una tirada de Carisma (Rendimiento) o Carisma (Persuasión), tiras dos veces y usas el resultado que prefieras.</p><section class=\"secret\" id=\"secret-glamour\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un efecto que te otorga Ventaja en tiradas de Carisma (Rendimiento) y Carisma (Persuasión).</p></section>",
+      "description": "<p>Tu apariencia adquiere una cualidad etérea. Como resultado, siempre que hagas una tirada de Carisma (Rendimiento) o Carisma (Persuasión), tiras dos veces y usas el resultado que prefieras.</p><section class=\"secret\" id=\"secret-G1217mPhZSkH8hBY\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un efecto que te otorga Ventaja en tiradas de Carisma (Rendimiento) y Carisma (Persuasión).</p></section>",
       "effects": {
         "Glamorous": {
           "name": "Fascinante"
@@ -3798,7 +3798,7 @@
     },
     "Psychic Defenses": {
       "name": "Defensas Psíquicas",
-      "description": "<p>Obtienes Resistencia al daño Psíquico y tienes Ventaja en tiradas de salvación para evitar o terminar el estado Encantado o Asustado sobre ti.</p><section class=\"secret\" id=\"secret-1FwurcMKAqX3YXMp\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un efecto que te da Resistencial daño Psíquico y Ventaja en salvaciones contra los estados Encantado y Asustado.</p></section>"
+      "description": "<p>Obtienes Resistencia al daño Psíquico y tienes Ventaja en tiradas de salvación para evitar o terminar el estado Encantado o Asustado sobre ti.</p><section class=\"secret\" id=\"secret-RsOEvBJWVWqSLQfY\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un efecto que te da Resistencial daño Psíquico y Ventaja en salvaciones contra los estados Encantado y Asustado.</p></section>"
     },
     "Psychic Spells": {
       "name": "Conjuros Psíquicos",
@@ -4950,7 +4950,7 @@
     },
     "Trickster's Transposition": {
       "name": "Transposición del Tramposo",
-      "description": "<p>Inmediatamente después de usar tu Ataque Furtivo, puedes usar tu reacción para intercambiar tus posiciones con un aliado a 9 metros de ti. Este movimiento no provoca Ataques de Oportunidad.</p><section id=\"secret-tK3LvR4m9XpBw7Hs\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo existe solo para documentación. El intercambio de posiciones debe realizarse manualmente.</p></section>",
+      "description": "<p>Inmediatamente después de usar tu Ataque Furtivo, puedes usar tu reacción para intercambiar tus posiciones con un aliado a 9 metros de ti. Este movimiento no provoca Ataques de Oportunidad.</p><section id=\"secret-V8lO0vrA6lgQvqq7\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo existe solo para documentación. El intercambio de posiciones debe realizarse manualmente.</p></section>",
       "activities": {
         "Transpose": {
           "name": "Transponer"

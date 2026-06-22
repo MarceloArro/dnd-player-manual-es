@@ -618,7 +618,7 @@
       "effects": {
         "Charmed": {
           "name": "Hechizado",
-          "description": "<p>El objetivo tendrá el estado de &Reference[charmed apply=false] hasta que el conjuro termine o hasta que tus aliados o tú le hagáis daño. La criatura hechizada es amistosa contigo, pero cuando el conjuro termine, sabrá que la hechizaste./p>"
+          "description": "<p>El objetivo tendrá el estado de &Reference[charmed apply=false] hasta que el conjuro termine o hasta que tus aliados o tú le hagáis daño. La criatura hechizada es amistosa contigo, pero cuando el conjuro termine, sabrá que la hechizaste.</p>"
         }
       }
     },
@@ -1954,7 +1954,7 @@
       "effects": {
         "Heated Metal": {
           "name": "Metal Calentado",
-          "description": "<p>Si una criatura sostiene o lleva puesto el objeto y recibe el daño de este, deberá superar una tirada de salvación de [[/save ability=con format=long]] o dejará caer el objeto si puede. Si no lo deja caer, tendrá desventaja en las tiradas de ataque y las pruebas de característica hasta el principio de tu siguiente turno."
+          "description": "<p>Si una criatura sostiene o lleva puesto el objeto y recibe el daño de este, deberá superar una tirada de salvación de [[/save ability=con format=long]] o dejará caer el objeto si puede. Si no lo deja caer, tendrá desventaja en las tiradas de ataque y las pruebas de característica hasta el principio de tu siguiente turno.</p>"
         }
       }
     },
@@ -2479,7 +2479,7 @@
       "effects": {
         "Spiked": {
           "name": "Clavado",
-          "description": "<p>Conocerás en todo momento la ubicación del objetivo hasta que el conjuro termine, pero solo mientras los dos estéis en el mismo plano de existencia. Mientras tengas este conocimiento, la criatura no podrá ocultarse de ti y, si tiene el estado de invisible, no se beneficiará de dicho estado contra ti./p>"
+          "description": "<p>Conocerás en todo momento la ubicación del objetivo hasta que el conjuro termine, pero solo mientras los dos estéis en el mismo plano de existencia. Mientras tengas este conocimiento, la criatura no podrá ocultarse de ti y, si tiene el estado de invisible, no se beneficiará de dicho estado contra ti.</p>"
         }
       }
     },

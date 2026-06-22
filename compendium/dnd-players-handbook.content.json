@@ -1161,6 +1161,950 @@
           "text": "<p>Todas las criaturas —personajes y monstruos— tienen seis características que miden rasgos físicos y mentales, como se muestra en la tabla «Descripciones de las Características».</p><table><caption>Descripciones de las Características</caption><thead><tr><th><p>Característica</p></th><th><p>La Puntuación Mide…</p></th></tr></thead><tbody><tr><td><p>Fuerza</p></td><td><p>El poderío físico</p></td></tr><tr><td><p>Destreza</p></td><td><p>La agilidad, los reflejos y el equilibrio</p></td></tr><tr><td><p>Constitución</p></td><td><p>La salud y el aguante</p></td></tr><tr><td><p>Inteligencia</p></td><td><p>El razonamiento y la memoria</p></td></tr><tr><td><p>Sabiduría</p></td><td><p>La perspicacia y la fortaleza mental</p></td></tr><tr><td><p>Carisma</p></td><td><p>La confianza, el aplomo y el encanto</p></td></tr></tbody></table><h2>Puntuaciones de Característica</h2><p>Cada característica tiene una puntuación de 1 a 20, aunque algunos monstruos tienen una puntuación de hasta 30. La puntuación representa la magnitud de una característica. La tabla «Puntuaciones de Característica» resume lo que significan las puntuaciones.</p><table><caption>Puntuaciones de Característica</caption><thead><tr><th><p>Puntuación</p></th><th><p>Significado</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p>Esta es la cifra más baja a la que normalmente puede llegar una puntuación. Si un efecto reduce una puntuación a 0, ese efecto explica lo que ocurre.</p></td></tr><tr><td><p>2-9</p></td><td><p>Representa una capacidad débil.</p></td></tr><tr><td><p>10-11</p></td><td><p>Representa la media humana.</p></td></tr><tr><td><p>12-19</p></td><td><p>Representa una capacidad fuerte.</p></td></tr><tr><td><p>20</p></td><td><p>Esta es la cifra más alta a la que puede llegar la puntuación de un aventurero, salvo que un rasgo indique lo contrario.</p></td></tr><tr><td><p>21-29</p></td><td><p>Representa una capacidad extraordinaria.</p></td></tr><tr><td><p>30</p></td><td><p>Esta es la cifra más alta a la que puede llegar una puntuación.</p></td></tr></tbody></table><h2>Modificadores por Característica</h2><p>Cada característica tiene un modificador que aplicas siempre que haces una &amp;Reference[d20test] con esa característica. Un modificador por característica se deriva de su puntuación, como se muestra en la tabla «Modificadores por Característica».</p><table><caption>Modificadores por Característica</caption><thead><tr><th><p>Puntuación</p></th><th><p>Modificador</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p>−5</p></td></tr><tr><td><p>2-3</p></td><td><p>−4</p></td></tr><tr><td><p>4-5</p></td><td><p>−3</p></td></tr><tr><td><p>6-7</p></td><td><p>−2</p></td></tr><tr><td><p>8-9</p></td><td><p>−1</p></td></tr><tr><td><p>10-11</p></td><td><p>+0</p></td></tr><tr><td><p>12-13</p></td><td><p>+1</p></td></tr><tr><td><p>14-15</p></td><td><p>+2</p></td></tr><tr><td><p>16-17</p></td><td><p>+3</p></td></tr><tr><td><p>18-19</p></td><td><p>+4</p></td></tr><tr><td><p>20-21</p></td><td><p>+5</p></td></tr><tr><td><p>22-23</p></td><td><p>+6</p></td></tr><tr><td><p>24-25</p></td><td><p>+7</p></td></tr><tr><td><p>26-27</p></td><td><p>+8</p></td></tr><tr><td><p>28-29</p></td><td><p>+9</p></td></tr><tr><td><p>30</p></td><td><p>+10</p></td></tr></tbody></table>"
         }
       }
+    },
+    "D20 Tests": {
+      "name": "Pruebas con d20",
+      "pages": {
+        "Overview": {
+          "name": "Resumen",
+          "text": "<p>Cuando el resultado de una acción es incierto, el juego usa una tirada de d20 para determinar el éxito o el fracaso. Estas tiradas se denominan &amp;Reference[d20test]{Pruebas con d20} y son de tres clases: pruebas de característica, tiradas de salvación y tiradas de ataque. Siguen estos pasos:</p><ol><li><strong>Tira 1d20.</strong> Siempre quieres sacar un número alto. Si la tirada tiene &amp;Reference[advantage] o &amp;Reference[disadvantage], tiras dos d20, pero usas el número de uno solo de ellos: el más alto si tienes Ventaja o el más bajo si tienes Desventaja.</li><li><p><strong>Suma los Modificadores.</strong> Suma estos modificadores al número obtenido en el d20:</p><ul><li class=\"Core-Styles_Core-Bulleted ParaOverride-2\"><strong>El Modificador por Característica Pertinente.</strong> Este capítulo y el glosario de reglas explican qué modificadores por característica usar para las distintas Pruebas con d20.</li><li class=\"Core-Styles_Core-Bulleted ParaOverride-2\"><strong>Tu Bonificador por Competencia, si Procede. </strong>Cada criatura tiene un Bonificador por Competencia, un número que se suma al hacer una Prueba con d20 que utiliza algo —como una habilidad— en lo que la criatura tiene competencia. Consulta @UUID[.zU9fgQbLaVbJvPRX]{Competencia}, más adelante en este capítulo.</li><li class=\"Core-Styles_Core-Bulleted ParaOverride-2\"><strong>Bonificaciones y Penalizaciones Circunstanciales.</strong> Un rasgo de clase, un conjuro u otra regla podría dar una bonificación o una penalización a la tirada.</li></ul></li><li><strong>Compara el Total con un Número Objetivo.</strong> Si el total del d20 y sus modificadores iguala o supera el número objetivo, la Prueba con d20 tiene éxito. Si no, falla. El Dungeon Master determina los números objetivo y dice a los jugadores si sus tiradas tienen éxito. El número objetivo de una prueba de característica o de una tirada de salvación se denomina &amp;Reference[difficultyclass] (CD). El número objetivo de una tirada de ataque se denomina &amp;Reference[armorclass] (CA), que aparece en una hoja de personaje o en un perfil de criatura.</li></ol>"
+        },
+        "Ability Checks": {
+          "name": "Pruebas de Característica",
+          "text": "<p>Una prueba de característica representa a una criatura que usa su talento y su adiestramiento para intentar superar un desafío, como forzar una puerta atascada, abrir una cerradura, entretener a una multitud o descifrar un mensaje cifrado. El DM y las reglas suelen pedir una prueba de característica cuando una criatura intenta algo —distinto de un ataque— que tiene posibilidades de fracasar de forma significativa. Cuando el resultado es incierto y narrativamente interesante, los dados determinan el resultado.</p><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh1ArtHandout.JournalEntryPage.ymfhWNYtvdIWdm7k]</p><h2>Modificador por Característica</h2><p>Una &amp;Reference[abilitycheck] toma su nombre del modificador por característica que utiliza: una prueba de Fuerza, una prueba de Inteligencia, etc. Se piden distintas pruebas de característica en distintas situaciones, según cuál sea la característica más pertinente. Consulta la tabla «Ejemplos de Pruebas de Característica» para ver ejemplos del uso de cada prueba.</p><table><caption>Ejemplos de Pruebas de Característica</caption><thead><tr><th><p>Característica</p></th><th><p>Haz una Prueba para…</p></th></tr></thead><tbody><tr><td><p>Fuerza</p></td><td><p>Levantar, empujar, tirar de algo o romperlo</p></td></tr><tr><td><p>Destreza</p></td><td><p>Moverte con agilidad, rapidez o sigilo</p></td></tr><tr><td><p>Constitución</p></td><td><p>Llevar tu cuerpo más allá de sus límites normales</p></td></tr><tr><td><p>Inteligencia</p></td><td><p>Razonar o recordar</p></td></tr><tr><td><p>Sabiduría</p></td><td><p>Percibir cosas del entorno o del comportamiento de las criaturas</p></td></tr><tr><td><p>Carisma</p></td><td><p>Influir, entretener o engañar</p></td></tr></tbody></table><h2>Bonificador por Competencia</h2><p>Suma tu Bonificador por Competencia a una prueba de característica cuando el DM determine que una competencia con una habilidad o una herramienta es pertinente para la prueba y tú tengas esa competencia. Por ejemplo, si una regla se refiere a una prueba de Fuerza (Acrobacias o Atletismo), puedes sumar tu Bonificador por Competencia a la prueba si tienes competencia en la habilidad de Acrobacias o de Atletismo. Consulta @UUID[.zU9fgQbLaVbJvPRX]{Competencia}, más adelante en este capítulo, para más información sobre las competencias con habilidades y herramientas.</p><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>Pruebas de Característica en Línea</h3><p>Las pruebas de característica en Foundry pueden resolverse con un clic. Por ejemplo, aquí tienes una prueba de Acrobacias con una CD de 10: [[/check 10 acr]].</p><p>Si tienes un Token seleccionado, puedes pulsar en el enlace para tirar la prueba, o puedes enviar la prueba al chat pulsando en el icono <span class=\"reference fa-solid fa-comment-dots\"> </span> para que todos puedan tirar por sí mismos.</p></article></section><h2>Clase de Dificultad</h2><p>La &amp;Reference[difficultyclass] de una prueba de característica representa la dificultad de la tarea. Cuanto más difícil sea la tarea, mayor será su CD. Las reglas proporcionan CD para ciertas pruebas, pero el DM es quien las fija en última instancia. La tabla «Clases de Dificultad Habituales» presenta un abanico de CD posibles para las pruebas de característica.</p><table><caption>Clases de Dificultad Habituales</caption><thead><tr><th><p>Dificultad de la Tarea</p></th><th><p>CD</p></th></tr></thead><tbody><tr><td><p>Muy fácil</p></td><td><p>5</p></td></tr><tr><td><p>Fácil</p></td><td><p>10</p></td></tr><tr><td><p>Media</p></td><td><p>15</p></td></tr><tr><td><p>Difícil</p></td><td><p>20</p></td></tr><tr><td><p>Muy difícil</p></td><td><p>25</p></td></tr><tr><td><p>Casi imposible</p></td><td><p>30</p></td></tr></tbody></table>"
+        },
+        "Saving Throws": {
+          "name": "Tiradas de Salvación",
+          "text": "<p>Una &amp;Reference[savingthrow] —también llamada salvación— representa un intento de evitar o resistir una amenaza, como una explosión ardiente, una ráfaga de gas venenoso o un conjuro que trata de invadir tu mente. Normalmente no eliges hacer una salvación; debes hacerla porque tu personaje o un monstruo (si eres el DM) está en riesgo. El resultado de una salvación se detalla en el efecto que la provocó.</p><p>Si no quieres resistir el efecto, puedes elegir fallar la salvación sin tirar.</p><h2>Modificador por Característica</h2><p>Las tiradas de salvación toman su nombre de los modificadores por característica que utilizan: una tirada de salvación de Constitución, una tirada de salvación de Sabiduría, etc. Se usan distintas tiradas de salvación para resistir distintos tipos de efectos, como se muestra en la tabla «Ejemplos de Tiradas de Salvación».</p><table><caption>Ejemplos de Tiradas de Salvación</caption><thead><tr><th><p>Característica</p></th><th><p>Haz una Salvación para…</p></th></tr></thead><tbody><tr><td><p>Fuerza</p></td><td><p>Resistir físicamente una fuerza directa</p></td></tr><tr><td><p>Destreza</p></td><td><p>Esquivar para apartarte del peligro</p></td></tr><tr><td><p>Constitución</p></td><td><p>Soportar un peligro tóxico</p></td></tr><tr><td><p>Inteligencia</p></td><td><p>Reconocer una ilusión como falsa</p></td></tr><tr><td><p>Sabiduría</p></td><td><p>Resistir un asalto mental</p></td></tr><tr><td><p>Carisma</p></td><td><p>Afirmar tu identidad</p></td></tr></tbody></table><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>Tiradas de Salvación en Línea</h3><p>Igual que las pruebas de característica, las tiradas de salvación en Foundry pueden resolverse con un clic. Por ejemplo, aquí tienes una tirada de salvación de Constitución con una CD de 10: [[/save 10 con]].</p><p>Si tienes un Token seleccionado, puedes pulsar en el enlace para tirar la salvación, o puedes enviar la prueba al chat pulsando en el icono <span class=\"reference fa-solid fa-comment-dots\"> </span> para que todos puedan tirar por sí mismos.</p></article></section><h2>Bonificador por Competencia</h2><p>Sumas tu Bonificador por Competencia a tu tirada de salvación si tienes competencia en esa clase de salvación. Consulta @UUID[.zU9fgQbLaVbJvPRX]{Competencia}, más adelante en este capítulo.</p><h2>Clase de Dificultad</h2><p>La &amp;Reference[difficultyclass] de una tirada de salvación la determina el efecto que la provoca o el DM. Por ejemplo, si un conjuro te obliga a hacer una salvación, la CD se determina por la característica de lanzamiento de conjuros del lanzador y su Bonificador por Competencia. Las capacidades de monstruo que piden salvaciones especifican la CD.</p>"
+        },
+        "Attack Rolls": {
+          "name": "Tiradas de Ataque",
+          "text": "<p>Una tirada de ataque determina si un ataque acierta a un objetivo. Una tirada de ataque acierta si el resultado iguala o supera la &amp;Reference[armorclass] del objetivo. Las tiradas de ataque suelen producirse en la batalla, descrita en @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCombat0000000]{Combate}, más adelante en este capítulo, pero el DM también podría pedir una tirada de ataque en otras situaciones, como una competición de tiro con arco.</p><h2>Modificador por Característica</h2><p>La tabla «Características de las Tiradas de Ataque» muestra qué modificador por característica usar para los distintos tipos de tiradas de ataque (&amp;Reference[attackrolls]).</p><table><caption>Características de las Tiradas de Ataque</caption><thead><tr><th><p>Característica</p></th><th><p>Tipo de Ataque</p></th></tr></thead><tbody><tr><td><p>Fuerza</p></td><td><p>Ataque cuerpo a cuerpo con un arma o un Ataque sin Armas (consulta el glosario de reglas)</p></td></tr><tr><td><p>Destreza</p></td><td><p>Ataque a distancia con un arma</p></td></tr><tr><td><p>Varía</p></td><td><p>Ataque con conjuro (la característica usada la determina el rasgo de lanzamiento de conjuros del lanzador, como se explica en @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.ujhsaI8nVkjXwMHD#attack-rolls]{el capítulo 7})</p></td></tr></tbody></table><p>Algunos rasgos te permiten usar modificadores por característica distintos de los indicados. Por ejemplo, la @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbEquipment0000.JournalEntryPage.7qSj8lqMAP0FBNKK#finesse]{propiedad Sutil} te permite usar Fuerza o Destreza con un arma que tenga esa propiedad.</p><h2>Bonificador por Competencia</h2><p>Sumas tu Bonificador por Competencia a tu tirada de ataque cuando atacas usando un arma con la que tienes competencia, así como cuando atacas con un conjuro. Consulta @UUID[.zU9fgQbLaVbJvPRX]{Competencia}, más adelante en este capítulo, para más información sobre las competencias con armas.</p><h2>Clase de Armadura</h2><p>La Clase de Armadura de una criatura representa lo bien que la criatura evita ser herida en combate. La CA de un personaje se determina durante la @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.l4eqkEUGLVS2jBhO]{creación de personaje}, mientras que la CA de un monstruo aparece en su perfil.</p><p><em><strong>Calcular la CA.</strong></em> Todas las criaturas parten del mismo cálculo de CA base:</p><p style=\"text-align:center\"><strong>CA Base</strong> = 10 + el modificador de Destreza de la criatura</p><p>La CA de una criatura puede modificarse después con armaduras, objetos mágicos, conjuros y más.</p><p><em><strong>Solo una CA Base.</strong></em> Algunos conjuros y rasgos de clase otorgan a los personajes una forma distinta de calcular su CA. Un personaje con varios rasgos que dan formas diferentes de calcular la CA debe elegir cuál usar; solo puede estar en vigor un cálculo base para una criatura.</p><h2>Sacar un 20 o un 1</h2><p>Si sacas un 20 en el d20 (lo que se llama un «20 natural») en una tirada de ataque, el ataque acierta sin importar los modificadores ni la CA del objetivo. Esto se llama &amp;Reference[Critical Hits]{Golpe Crítico} (consulta @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCombat0000000]{Combate}, más adelante en este capítulo).</p><p>Si sacas un 1 en el d20 (un «1 natural») en una tirada de ataque, el ataque falla sin importar los modificadores ni la CA del objetivo.</p>"
+        },
+        "Advantage/Disadvantage": {
+          "name": "Ventaja/Desventaja",
+          "text": "<p>A veces una Prueba con d20 se modifica por Ventaja o Desventaja. La Ventaja refleja las circunstancias positivas que rodean a una tirada de d20, mientras que la Desventaja refleja las circunstancias negativas.</p><p>Normalmente adquieres Ventaja o Desventaja mediante el uso de capacidades y acciones especiales. El DM también puede decidir que las circunstancias otorgan Ventaja o imponen Desventaja.</p><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh1ArtHandout.JournalEntryPage.idgUrCsM8U11Aq04 classes=\"right three\"]</p><h2>Tira Dos d20</h2><p>Cuando una tirada tiene Ventaja o Desventaja, tira un segundo d20 al hacer la tirada. Usa la más alta de las dos tiradas si tienes Ventaja, y usa la más baja si tienes Desventaja. Por ejemplo, si tienes Desventaja y sacas un 18 y un 3, usas el 3. Si en cambio tienes Ventaja y sacas esos números, usas el 18.</p><h2>No se Acumulan</h2><p>Si varias situaciones afectan a una tirada y todas le otorgan Ventaja, aun así tiras solo dos d20. Del mismo modo, si varias situaciones imponen Desventaja a una tirada, tiras solo dos d20.</p><p>Si las circunstancias hacen que una tirada tenga a la vez Ventaja y Desventaja, la tirada no tiene ninguna de las dos y tiras un solo d20. Esto es cierto incluso si varias circunstancias imponen Desventaja y solo una otorga Ventaja, o viceversa. En tal situación, no tienes ni Ventaja ni Desventaja.</p><h2>Interacciones con las Repeticiones de Tirada</h2><p>Cuando tienes Ventaja o Desventaja y algo en el juego te permite repetir o reemplazar el d20, solo puedes repetir o reemplazar uno de los dados, no ambos. Tú eliges cuál.</p><p>Por ejemplo, si tienes &amp;Reference[inspiration]{Inspiración Heroica} (ver más abajo) y sacas un 3 y un 18 en una prueba de característica con Ventaja o Desventaja, podrías gastar tu Inspiración Heroica para repetir uno de esos dados, no ambos.</p><aside class=\"notable\"><h3>Inspiración Heroica</h3><p>A veces el DM o una regla te concede Inspiración Heroica. Si tienes Inspiración Heroica, puedes gastarla para repetir cualquier dado inmediatamente después de tirarlo, y debes usar la nueva tirada.</p><p><em><strong>Solo Una a la Vez.</strong></em> Nunca puedes tener más de una instancia de Inspiración Heroica. Si algo te concede Inspiración Heroica y ya la tienes, puedes dársela a un personaje jugador de tu grupo que carezca de ella.</p><p><em><strong>Obtener Inspiración Heroica.</strong></em> Tu DM puede concederte Inspiración Heroica por diversos motivos. Normalmente, los DM la otorgan cuando haces algo especialmente heroico, fiel a tu personaje o entretenido. Es una recompensa por hacer que el juego sea más divertido para todos los que juegan.</p><p>Otras reglas podrían permitir a tu personaje obtener Inspiración Heroica independientemente de la decisión del DM. Por ejemplo, los personajes Humanos empiezan cada día con Inspiración Heroica.</p></aside><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>La Inspiración Heroica en tu Hoja de Personaje de Foundry</h3><p>Puedes llevar la cuenta de si tienes Inspiración Heroica o no con el botón de inspiración de la parte superior derecha de tu hoja de personaje, a la izquierda de tu nivel y a la derecha de tus botones de Descanso Corto y Largo.</p></article></section>"
+        },
+        "Proficiency": {
+          "name": "Competencia",
+          "text": "<p>Los personajes y los monstruos son buenos en cosas diversas. Algunos manejan con destreza muchas armas, mientras que otros solo pueden usar unas pocas. Algunos entienden mejor las motivaciones de la gente, y otros son mejores desvelando los secretos del multiverso. Todas las criaturas tienen un Bonificador por Competencia, que refleja el impacto que el adiestramiento tiene en las capacidades de la criatura. El Bonificador por Competencia de un personaje aumenta a medida que el personaje sube de nivel (descrito en @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar.JournalEntryPage.iHbj5aJvc1T7i5YI]{el capítulo 2}). El Bonificador por Competencia de un monstruo se basa en su &amp;Reference[challengerating]. La tabla «Bonificador por Competencia» muestra cómo se determina la bonificación.</p><p>Esta bonificación se aplica a una &amp;Reference[d20test] cuando la criatura tiene competencia en una habilidad, en una tirada de salvación o con un objeto que la criatura usa para hacer la Prueba con d20. La bonificación también se usa para los ataques con conjuro y para calcular la CD de las tiradas de salvación de los conjuros.</p><table><caption>Bonificador por Competencia</caption><thead><tr><th><p>Nivel o VD</p></th><th><p>Bonificación</p></th></tr></thead><tbody><tr><td><p>Hasta 4</p></td><td><p>+2</p></td></tr><tr><td><p>5-8</p></td><td><p>+3</p></td></tr><tr><td><p>9-12</p></td><td><p>+4</p></td></tr><tr><td><p>13-16</p></td><td><p>+5</p></td></tr><tr><td><p>17-20</p></td><td><p>+6</p></td></tr><tr><td><p>21-24</p></td><td><p>+7</p></td></tr><tr><td><p>25-28</p></td><td><p>+8</p></td></tr><tr><td><p>29-30</p></td><td><p>+9</p></td></tr></tbody></table><h2>La Bonificación no se Acumula</h2><p>Tu Bonificador por Competencia no puede sumarse a una tirada de dado ni a otro número más de una vez. Por ejemplo, si una regla te permite hacer una prueba de Carisma (Engaño o Persuasión), sumas tu Bonificador por Competencia si tienes competencia en cualquiera de las dos habilidades, pero no lo sumas dos veces si tienes competencia en ambas.</p><p>De vez en cuando, un Bonificador por Competencia podría multiplicarse o dividirse (duplicarse o reducirse a la mitad, por ejemplo) antes de sumarse. Por ejemplo, el rasgo &amp;Reference[expertise] duplica el Bonificador por Competencia para ciertas pruebas de característica. Siempre que se use la bonificación, solo puede multiplicarse una vez y dividirse una vez.</p><h2>Competencias con Habilidades</h2><p>La mayoría de las pruebas de característica implican usar una habilidad, que representa una categoría de cosas que las criaturas intentan hacer con una prueba de característica. Las descripciones de las acciones que llevas a cabo (consulta @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbActions000000]{Acciones}, más adelante en este capítulo) especifican qué habilidad se aplica si haces una prueba de característica para esa acción, y muchas otras reglas señalan cuándo una habilidad es pertinente. El DM tiene la última palabra sobre si una habilidad es pertinente en una situación.</p><p>Si una criatura tiene competencia en una habilidad, la criatura aplica su Bonificador por Competencia a las pruebas de característica que impliquen esa habilidad. Sin competencia en una habilidad, una criatura aún puede hacer pruebas de característica que impliquen esa habilidad, pero no suma su Bonificador por Competencia. Por ejemplo, si un personaje intenta escalar un risco, el DM podría pedir una prueba de Fuerza (Atletismo). Si el personaje tiene competencia en Atletismo, el personaje suma su Bonificador por Competencia a la prueba de Fuerza. Si el personaje carece de esa competencia, hace la prueba sin sumar su Bonificador por Competencia.</p><table><caption>Habilidades</caption><thead><tr><th><p>Habilidad</p></th><th><p>Característica</p></th><th><p>Usos de Ejemplo</p></th></tr></thead><tbody><tr><td><p>Acrobacias</p></td><td><p>Destreza</p></td><td><p>Mantenerte en pie en una situación delicada o ejecutar una pirueta acrobática.</p></td></tr><tr><td><p>Trato con Animales</p></td><td><p>Sabiduría</p></td><td><p>Calmar o adiestrar a un animal, o lograr que un animal se comporte de cierta manera.</p></td></tr><tr><td><p>Conocimiento Arcano</p></td><td><p>Inteligencia</p></td><td><p>Recordar saber sobre conjuros, objetos mágicos y los planos de existencia.</p></td></tr><tr><td><p>Atletismo</p></td><td><p>Fuerza</p></td><td><p>Saltar más lejos de lo normal, mantenerte a flote en aguas agitadas o romper algo.</p></td></tr><tr><td><p>Engaño</p></td><td><p>Carisma</p></td><td><p>Decir una mentira convincente o llevar un disfraz de forma convincente.</p></td></tr><tr><td><p>Historia</p></td><td><p>Inteligencia</p></td><td><p>Recordar saber sobre acontecimientos históricos, personas, naciones y culturas.</p></td></tr><tr><td><p>Perspicacia</p></td><td><p>Sabiduría</p></td><td><p>Discernir el estado de ánimo y las intenciones de una persona.</p></td></tr><tr><td><p>Intimidación</p></td><td><p>Carisma</p></td><td><p>Sobrecoger o amenazar a alguien para que haga lo que quieres.</p></td></tr><tr><td><p>Investigación</p></td><td><p>Inteligencia</p></td><td><p>Encontrar información recóndita en libros o deducir cómo funciona algo.</p></td></tr><tr><td><p>Medicina</p></td><td><p>Sabiduría</p></td><td><p>Diagnosticar una enfermedad o determinar qué mató a quien acaba de morir.</p></td></tr><tr><td><p>Naturaleza</p></td><td><p>Inteligencia</p></td><td><p>Recordar saber sobre el terreno, las plantas, los animales y el clima.</p></td></tr><tr><td><p>Percepción</p></td><td><p>Sabiduría</p></td><td><p>Usando una combinación de sentidos, percibir algo que es fácil pasar por alto.</p></td></tr><tr><td><p>Interpretación</p></td><td><p>Carisma</p></td><td><p>Actuar, contar una historia, interpretar música o bailar.</p></td></tr><tr><td><p>Persuasión</p></td><td><p>Carisma</p></td><td><p>Convencer a alguien de algo de forma honesta y cortés.</p></td></tr><tr><td><p>Religión</p></td><td><p>Inteligencia</p></td><td><p>Recordar saber sobre dioses, rituales religiosos y símbolos sagrados.</p></td></tr><tr><td><p>Juego de Manos</p></td><td><p>Destreza</p></td><td><p>Robar de un bolsillo, ocultar un objeto de mano o hacer prestidigitación.</p></td></tr><tr><td><p>Sigilo</p></td><td><p>Destreza</p></td><td><p>Pasar desapercibido moviéndote en silencio y escondiéndote tras las cosas.</p></td></tr><tr><td><p>Supervivencia</p></td><td><p>Sabiduría</p></td><td><p>Seguir rastros, forrajear, encontrar un sendero o evitar peligros naturales.</p></td></tr></tbody></table><aside class=\"notable three right\"><h3>Habilidades con Características Distintas</h3><p>Cada competencia con una habilidad está asociada a una prueba de característica. Por ejemplo, la habilidad de Intimidación está asociada al Carisma. En algunas situaciones, el DM podría permitirte aplicar tu competencia con una habilidad a una prueba de característica distinta. Por ejemplo, si un personaje intenta intimidar a alguien mediante una demostración de fuerza física, el DM podría pedir una prueba de Fuerza (Intimidación) en lugar de una de Carisma (Intimidación). Ese personaje haría una prueba de Fuerza y sumaría su Bonificador por Competencia si tiene competencia en Intimidación.</p></aside><h3>Lista de Habilidades</h3><p>Las habilidades se muestran en la tabla «Habilidades», que indica usos de ejemplo de cada competencia con una habilidad, así como la prueba de característica a la que la habilidad se aplica con mayor frecuencia.</p><h3>Determinar las Habilidades</h3><p>Las competencias iniciales de un personaje con habilidades se determinan en la creación de personaje, y las competencias de un monstruo con habilidades aparecen en su perfil.</p><h2>Competencias con Tiradas de Salvación</h2><p>La competencia en una &amp;Reference[savingthrow] permite a un personaje sumar su Bonificador por Competencia a las salvaciones que usan una característica concreta. Por ejemplo, la competencia en salvaciones de Sabiduría te permite sumar tu Bonificador por Competencia a tus salvaciones de Sabiduría. Algunos monstruos también tienen competencias con tiradas de salvación, como se indica en sus perfiles.</p><p>Cada clase otorga competencia en al menos dos tiradas de salvación, lo que representa el adiestramiento de esa clase para evadir o resistir ciertas amenazas. Los magos, por ejemplo, tienen competencia en salvaciones de Inteligencia y de Sabiduría; se adiestran para resistir el asalto mental.</p><h2>Competencias con Equipo</h2><p>Un personaje obtiene competencia con diversas armas y herramientas de su clase y su trasfondo. Hay dos categorías de competencia con equipo:</p><p><strong>Armas.</strong> Cualquiera puede empuñar un arma, pero la competencia te hace mejor al empuñarla. Si tienes competencia con un arma, sumas tu Bonificador por Competencia a las tiradas de ataque que hagas con ella.</p><p><strong>Herramientas.</strong> Si tienes competencia con una herramienta, puedes sumar tu Bonificador por Competencia a cualquier prueba de característica que hagas que use la herramienta. Si tienes competencia en la habilidad que también se usa con esa prueba, además tienes &amp;Reference[advantage] en la prueba. Esto significa que puedes beneficiarte tanto de la competencia con la habilidad como de la competencia con la herramienta en la misma prueba de característica.</p>"
+        }
+      }
+    },
+    "Welcome to Adventure": {
+      "name": "Bienvenido a la Aventura",
+      "pages": {
+        "Introduction from Jeremy Crawford": {
+          "name": "Introducción de Jeremy Crawford",
+          "text": "<blockquote><p>Esta historia comenzó hace 50 años, y tú formas parte de ella. En los años 70, Gary Gygax y Dave Arneson crearon un juego de imaginación que fusionaba las reglas con la narración de historias. Nunca había existido nada igual: un juego en el que cada jugador creaba su propio personaje de fantasía y se aliaba con sus amigos para emprender misiones. Una persona ejercía de narrador y árbitro —el Dungeon Master— y hacía todo lo posible por desafiar y deleitar a los demás jugadores. Aquel juego era, por supuesto, la primera versión de Dungeons &amp; Dragons, y ahora estás leyendo su versión más reciente.</p><p>A lo largo de las décadas, millones de personas han jugado a D&amp;D, y multitud de escritores, diseñadores de juegos y artistas han dejado su huella en él a través de sus diversas ediciones. Cuando nuestro equipo publicó la edición actual en 2014, nos sentimos abrumados por cuántos de vosotros la amasteis. Esta versión revisada es un homenaje a todos vosotros: los que lleváis años jugando a D&amp;D, los que habéis contribuido al juego con vuestros comentarios y los que estáis a punto de experimentar por primera vez la alegría de jugar.</p><p>De adolescente, conocí tanto a Gary como a Dave. Incluso pasé un día entero con Gary, e hicimos lo que hacen todos los aficionados a D&amp;D: compartir historias sobre nuestras aventuras en el multiverso de D&amp;D. Te invito a embarcarte de nuevo en aventuras así. Comparte todas las risas que puedas con tus amigos. Usa solo las reglas que sirvan a tu diversión y sigue siempre la felicidad de tu grupo. Tantísima gente lleva medio siglo disfrutando de la magia de D&amp;D. ¡Mantengámosla ardiendo otros 50 años!</p><p><cite>Jeremy Crawford</cite></p></blockquote>"
+        },
+        "Overview": {
+          "name": "Resumen",
+          "text": "<p>¿Estás listo para embarcarte en aventuras de fantasía con tus amigos? Dungeons &amp; Dragons te invita a interpretar a aventureros imaginarios que se adentran juntos en mazmorras y otros lugares peligrosos, se enfrentan a enemigos temibles como los dragones y forjan amistades en medio de peligros fantásticos.</p><p>Impulsado por la imaginación y las reglas, D&amp;D te invita a adoptar una identidad de fantasía —un poderoso Guerrero, un astuto Pícaro, un fiel Clérigo, un mágico Mago u otra cosa— y luego resolver problemas, combatir monstruos y visitar lugares prodigiosos.</p><p>En D&amp;D no hay ganar ni perder, al menos no en el sentido en que suelen entenderse esos términos. Juntos, tú y tus amigos creáis una emocionante historia de aventureros que afrontan peligros. A veces, un aventurero podría llegar a un trágico final. Aun así, los demás aventureros pueden buscar magia poderosa para revivir a su camarada caído, o el jugador del personaje podría crear un nuevo personaje para continuar. Pase lo que pase, si todos se lo pasan bien y crean una historia memorable, todos ganan.</p>"
+        },
+        "What You Need": {
+          "name": "Lo que Necesitas",
+          "text": "<p>Esto es lo que necesitas para jugar a D&amp;D con uno o más amigos (un grupo típico tiene cinco personas):</p><p><strong>Dungeon Master.</strong> Una persona asume el papel de Dungeon Master (DM), el narrador principal y árbitro del juego. El DM crea aventuras para los personajes de los jugadores, que sortean sus peligros y deciden qué caminos explorar. El DM también narra lo que experimentan e interpreta a los amigos y enemigos que encuentran por el camino. Aunque el DM desafía a los aventureros, el DM siempre se esfuerza por deleitar a todo el grupo.</p><p><strong>Jugadores.</strong> Cada jugador crea un aventurero que se alía con los aventureros de los demás jugadores. Trabajando juntos, el grupo podría explorar una mazmorra oscura, una ciudad en ruinas, un castillo encantado, un templo perdido, una montaña llena de lava u otro lugar descrito por el DM. Los aventureros también resuelven acertijos, hablan con otros personajes, combaten monstruos fantásticos y descubren objetos mágicos y otros tesoros, todo ello apoyando la diversión de los demás.</p><p>También necesitas estos recursos, ya sea en forma física o en DnDBeyond.com:</p><p><em><strong>Manual del Jugador.</strong></em> Este libro es tu referencia esencial para las reglas del juego, y te guía en la creación de tu propio aventurero.</p><p><em><strong>Guía del Dungeon Master</strong></em><strong> y </strong><em><strong>Manual de Monstruos</strong></em><strong>.</strong> El primero de estos libros guía al DM en la creación y dirección de aventuras, y el segundo contiene cientos de monstruos para poblar esas aventuras.</p><aside class=\"notable\"><h3>Aprende Mirando</h3><p>Una forma estupenda de aprender lo básico de D&amp;D es ver a otras personas jugarlo. Internet ofrece vídeos de partidas de D&amp;D que muestran la tremenda variedad de posibilidades que ofrece el juego. Mientras miras, presta atención a las formas en que algunos jugadores ayudan a que el juego sea divertido para todos los de su grupo. El único público al que debes entretener cuando juegas a D&amp;D sois tú y tu grupo.</p></aside><p><strong>Dados.</strong> Necesitas un juego de dados poliédricos (mostrados en el capítulo 1). Puedes encontrar dados como estos en tiendas de juegos y en comercios en línea. También existen aplicaciones para tirar dados.</p><p><strong>Hoja de Personaje.</strong> Para llevar la cuenta de información importante sobre tu personaje, necesitas una hoja de personaje, que puede ser tan sencilla como un trozo de papel en el que tomas notas o tan completa como un registro digital.</p><p>El DM también podría encontrar útiles estos accesorios:</p><p><strong>Pantalla del DM.</strong> A muchos DM les gusta usar una pantalla para ocultar sus notas y tiradas de dados de los jugadores. ¡Es de mala educación espiar por encima de la pantalla!</p><p><strong>Miniaturas y Cuadrícula de Combate.</strong> Algunos DM usan una cuadrícula de combate y miniaturas para dirigir los encuentros de combate, ya que ayudan a todos a visualizar la acción. Una cuadrícula de combate puede ser cualquier cosa marcada en cuadros de 1 pulgada, desde hojas de papel desechables hasta mapas de póster. Y las miniaturas van desde simples fichas hasta figuras detalladas. También hay mapas y miniaturas en línea, incluso en DnDBeyond.com.</p>"
+        },
+        "Using This Book": {
+          "name": "Usar Este Libro",
+          "text": "<p>Esto es lo que encontrarás en este libro:</p><p><strong>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbPlayingTheGam]{Capítulo 1: Jugar la Partida}.</strong> El primer capítulo explica los fundamentos del juego, con ejemplos que te ayudan a entender cómo se juega.</p><p><strong>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCreatingAChar]{Capítulo 2: Crear un Personaje}.</strong> El capítulo 2 te guía por los pasos de la creación de personaje.</p><p><strong>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCharacterClas]{Capítulo 3: Clases de Personaje}.</strong> Las capacidades de los personajes vienen determinadas en gran medida por la clase, como Guerrero o Mago. El capítulo 3 ofrece doce clases entre las que elegir, junto con cuarenta y ocho subclases.</p><p><strong>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCharacterOrig]{Capítulo 4: Orígenes de Personaje}.</strong> El trasfondo y la especie son elementos clave para definir el origen de un personaje, que perfila aún más las capacidades del personaje más allá de la elección de clase. Las opciones de trasfondo y especie se presentan en el capítulo 4.</p><p><strong>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbFeats00000000]{Capítulo 5: Dotes}.</strong> Las dotes del capítulo 5 son rasgos especiales que los personajes obtienen como parte de su trasfondo y su clase.</p><p><strong>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbEquipment0000]{Capítulo 6: Equipo}.</strong> En el capítulo 6 se encuentran armaduras, armas y equipo de aventurero.</p><p><strong>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000]{Capítulo 7: Conjuros}.</strong> Este capítulo contiene las descripciones de los conjuros que pueden lanzar los lanzadores de conjuros.</p><p><strong>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixATheM]{Apéndice A: El Multiverso}.</strong> Aquí encontrarás una visión general del multiverso mágico donde transcurren las aventuras de D&amp;D.</p><p><strong>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixBCrea]{Apéndice B: Perfiles de Criaturas}.</strong> Este apéndice rebosa de información de juego para criaturas con las que ciertos personajes pueden hacerse amigos o en las que pueden transformarse.</p><p><strong>@UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule]{Apéndice C: Glosario de Reglas}.</strong> La principal terminología de reglas del juego se resume en este apéndice, lo que lo convierte en una referencia inestimable durante la partida.</p><aside class=\"notable\"><h3>¿Qué Hay de Nuevo en la Versión de 2024?</h3><p>Esta es la versión de 2024 del <em>Manual del Jugador</em> de la quinta edición. Si has leído la versión de 2014, buena parte de este libro te resultará familiar, ya que las reglas fundamentales del juego son las mismas. Pero el libro contiene muchos elementos nuevos o rediseñados, y las versiones de las cosas de este libro reemplazan a las de libros anteriores. Estos son los aspectos destacados:</p><p><strong>Reglas Simplificadas.</strong> Las reglas del juego se han simplificado y ahora cuentan con el apoyo de un glosario de reglas.</p><p><strong>Creación de Personaje más Fácil.</strong> Con el capítulo 2, crear un personaje es más fácil que nunca.</p><p><strong>Clases Mejoradas.</strong> En el capítulo 3, cada clase y subclase se ha mejorado con nuevas opciones. Orígenes Reimaginados. Explorado en el capítulo 4, el origen de un personaje se define ahora por el trasfondo y la especie, cada uno de los cuales se ha rediseñado.</p><p><strong>Dotes Ampliadas.</strong> En el capítulo 5, las dotes se han rediseñado y se han añadido muchas.</p><p><strong>Armas, Herramientas y Fabricación Mejoradas.</strong> Las propiedades de maestría transforman la forma en que quienes empuñan armas las usan, y todos los personajes pueden disfrutar de nuevas reglas de herramientas y fabricación en el capítulo 6.</p><p><strong>Conjuros Deslumbrantes.</strong> El capítulo 7 estalla con conjuros nuevos y antiguos que se han mejorado.</p><p>Si no encuentras una regla, consulta el índice. Si el nombre de una regla ha cambiado respecto a lo impreso en el Manual del Jugador de 2014, el índice te remite al nuevo nombre. Por ejemplo, si buscas Inspiración en el índice, te remite a las reglas de la Inspiración Heroica en el glosario de reglas.</p></aside>"
+        },
+        "Worlds of Adventure": {
+          "name": "Mundos de Aventura",
+          "text": "<p>Los mundos de D&amp;D resplandecen con magia, monstruos y aventuras espectaculares. Partiendo de una base de fantasía medieval, estos mundos se elevan con posibilidades que van más allá de las de nuestra realidad.</p><p>Los mundos de D&amp;D existen en un multiverso y están conectados entre sí y con otros planos de existencia. Algunos de los mundos se han publicado como escenarios oficiales de D&amp;D, entre ellos los escenarios de Greyhawk, los Reinos Olvidados, Dragonlance, Spelljammer, Planescape, Dark Sun, Eberron y Ravenloft. Junto a estos mundos hay miles más, creados por generaciones de jugadores de D&amp;D para sus propias partidas. En medio de la riqueza del multiverso, podrías crear un mundo propio.</p><p>Los mundos del multiverso comparten características, pero cada mundo se distingue por su propia historia y geografía. Tu DM podría ambientar una campaña en uno de estos mundos o en un mundo de su propia invención. Como hay tanta variedad entre los mundos de D&amp;D, consulta con tu DM sobre el mundo de tus próximas aventuras.</p>"
+        },
+        "Cover": {
+          "name": "Cover",
+          "text": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbCh1ArtHandout.JournalEntryPage.sf9XsYrZ4T9e1nzd]</p>"
+        }
+      }
+    },
+    "phbCh1ArtHandout": {
+      "name": "Art Handouts",
+      "pages": {
+        "Wyvern Attacks Adventurers": {
+          "name": "Un Verme Alado Ataca a los Aventureros",
+          "src": "modules/dnd-players-handbook/assets/journal-art/wyvern-attacks-adventurers.webp",
+          "caption": "Mientras viven aventuras en el escenario de Dragonlance, los hermanos Caramon Majere, Raistlin Majere y Kitiara uth Matar provocan la furia de un verme alado."
+        },
+        "Line Up of Dice": {
+          "name": "Hilera de Dados",
+          "src": "modules/dnd-players-handbook/assets/journal-art/dice-lineup.webp",
+          "caption": "Un d4, un d6, un d8, un d10 (cifra de las unidades), un d10 (cifra de las decenas), un d12 y un d20."
+        },
+        "Depiction of Success and Failure": {
+          "name": "Representación del Éxito y el Fracaso",
+          "src": "modules/dnd-players-handbook/assets/journal-art/d20-success-failure.webp",
+          "caption": "Una Prueba con d20 puede dar como resultado un éxito espectacular, un logro sencillo o una catástrofe."
+        },
+        "Advantage/Disadvantage": {
+          "name": "Ventaja/Desventaja",
+          "src": "modules/dnd-players-handbook/assets/journal-art/advantage-disadvantage.webp",
+          "caption": "Si tienes Ventaja, usa el 18; si tienes Desventaja, usa el 3."
+        },
+        "Characters Charming/Bartering with a Hag": {
+          "name": "Personajes Engatusan/Regatean con una Bruja",
+          "src": "modules/dnd-players-handbook/assets/journal-art/characters-charming-bartering-with-hag.webp",
+          "caption": "Unos personajes despliegan su encanto mientras regatean objetos mágicos con una bruja verde."
+        },
+        "Social Interaction Example": {
+          "name": "Ejemplo de Interacción Social",
+          "src": "modules/dnd-players-handbook/assets/journal-art/dungeon-master-social-example.webp"
+        },
+        "Adventurers Exploring": {
+          "name": "Aventureros Explorando",
+          "src": "modules/dnd-players-handbook/assets/journal-art/adventurers-exploring.webp"
+        },
+        "Dungeon Master Social Example 2": {
+          "name": "Ejemplo Social del Dungeon Master 2",
+          "src": "modules/dnd-players-handbook/assets/journal-art/dungeon-master-social-example-2.webp"
+        },
+        "Adventurers Fighting": {
+          "name": "Aventureros Combatiendo",
+          "src": "modules/dnd-players-handbook/assets/journal-art/adventurers-fighting.webp"
+        },
+        "Creatures Occupy Space": {
+          "name": "Las Criaturas Ocupan Espacio",
+          "src": "modules/dnd-players-handbook/assets/journal-art/creatures-occupy-space.webp",
+          "caption": "Las criaturas ocupan espacios de tamaños diversos. Este Sabueso Fracasado ocupa un espacio de 3 por 3 m (10 por 10 pies), mientras que los aventureros ocupan espacios de 1,5 por 1,5 m (5 por 5 pies)."
+        },
+        "Tiefling Paladin on Seahorse": {
+          "name": "Paladín Tiefling sobre un Caballito de Mar",
+          "src": "modules/dnd-players-handbook/assets/journal-art/tiefling-paladin-on-seahorse.webp",
+          "caption": "A lomos de un caballito de mar gigante, un paladín vive aventuras bajo el agua."
+        },
+        "Group Rolls and Cheers": {
+          "name": "El Grupo Tira los Dados y Celebra",
+          "src": "modules/dnd-players-handbook/assets/journal-art/group-rolls-cheers.webp"
+        },
+        "Book Cover": {
+          "name": "Portada del Libro",
+          "src": "modules/dnd-players-handbook/assets/journal-art/phb-2024-cover.webp",
+          "caption": "Portada del Manual del Jugador de 2024, por Tyler Jacobsen"
+        }
+      }
+    },
+    "phbCh2ArtHandout": {
+      "name": "Art Handouts",
+      "pages": {
+        "Adventurers on Threshold of New Adventure": {
+          "name": "Aventureros en el Umbral de una Nueva Aventura",
+          "src": "modules/dnd-players-handbook/assets/journal-art/adventurers-ready-for-new-adventure.webp",
+          "caption": "Los exploradores trotamundos Hank, Bobby, Sheila, Diana y Presto se encuentran en el umbral de su próxima aventura."
+        },
+        "Adventurer Sketch": {
+          "name": "Boceto de Aventurero",
+          "src": "modules/dnd-players-handbook/assets/journal-art/consider-choices-sketch.webp",
+          "caption": "Piensa cómo se combinan tus elecciones para encaminar a tu personaje hacia la aventura."
+        },
+        "Strength": {
+          "name": "Fuerza",
+          "src": "modules/dnd-players-handbook/assets/journal-art/strength.webp"
+        },
+        "Dexterity": {
+          "name": "Destreza",
+          "src": "modules/dnd-players-handbook/assets/journal-art/dexterity.webp"
+        },
+        "Constitution": {
+          "name": "Constitución",
+          "src": "modules/dnd-players-handbook/assets/journal-art/constitution.webp"
+        },
+        "Intelligence": {
+          "name": "Inteligencia",
+          "src": "modules/dnd-players-handbook/assets/journal-art/intelligence.webp"
+        },
+        "Wisdom": {
+          "name": "Sabiduría",
+          "src": "modules/dnd-players-handbook/assets/journal-art/wisdom.webp"
+        },
+        "Charisma": {
+          "name": "Carisma",
+          "src": "modules/dnd-players-handbook/assets/journal-art/charisma.webp"
+        },
+        "Alignment Chart": {
+          "name": "Tabla de Alineamientos",
+          "src": "modules/dnd-players-handbook/assets/journal-art/alignment-chart.webp",
+          "caption": "Los alineamientos pueden visualizarse como una cuadrícula así, junto con criaturas que encarnan esos alineamientos."
+        },
+        "Adventuring Gear Sketch": {
+          "name": "Boceto de Equipo de Aventurero",
+          "src": "modules/dnd-players-handbook/assets/journal-art/adventuring-equipment-sketch.webp",
+          "caption": "El equipo de aventurero mejora a medida que un personaje progresa por los niveles de juego."
+        },
+        "Warlock and Tentacles": {
+          "name": "Brujo y Tentáculos",
+          "src": "modules/dnd-players-handbook/assets/journal-art/paladin-with-warlock-patron.webp",
+          "caption": "Un personaje con niveles de Paladín y de Brujo podría invocar tanto un poderoso juramento como un patrón de otro mundo."
+        },
+        "Key, egg, and claw": {
+          "name": "Llave, huevo y garra",
+          "src": "modules/dnd-players-handbook/assets/journal-art/key-egg-claw.webp"
+        },
+        "Mask, fish, and pin": {
+          "name": "Máscara, pez y broche",
+          "src": "modules/dnd-players-handbook/assets/journal-art/mask-fish-pin.webp"
+        }
+      }
+    },
+    "phbCh3ArtHandout": {
+      "name": "Art Handouts",
+      "pages": {
+        "Heroes Protecting a Portal": {
+          "name": "Héroes Protegiendo un Portal",
+          "src": "modules/dnd-players-handbook/assets/journal-art/heroes-protect-portal.webp",
+          "caption": "Los héroes Mercion, Molliver, Strongheart y Ringlerun protegen un portal a otro plano de unos invasores diabólicos."
+        },
+        "Barbarian": {
+          "name": "Bárbaro",
+          "src": "modules/dnd-players-handbook/assets/journal-art/barbarian.webp",
+          "caption": "Un Feroz Guerrero de Furia Primigenia"
+        },
+        "Sword, axe, and rock": {
+          "name": "Espada, hacha y roca",
+          "src": "modules/dnd-players-handbook/assets/journal-art/sword-axe-rock.webp"
+        },
+        "Path of the Berserker": {
+          "name": "Senda del Berserker",
+          "src": "modules/dnd-players-handbook/assets/journal-art/path-of-the-berserker.webp"
+        },
+        "Path of the Wild Heart": {
+          "name": "Senda del Corazón Salvaje",
+          "src": "modules/dnd-players-handbook/assets/journal-art/path-of-the-wild-heart.webp"
+        },
+        "Path of the World Tree": {
+          "name": "Senda del Árbol del Mundo",
+          "src": "modules/dnd-players-handbook/assets/journal-art/path-of-the-world-tree.webp"
+        },
+        "Path of the Zealot": {
+          "name": "Senda del Fanático",
+          "src": "modules/dnd-players-handbook/assets/journal-art/path-of-the-zealot.webp"
+        },
+        "Bard": {
+          "name": "Bardo",
+          "src": "modules/dnd-players-handbook/assets/journal-art/bard.webp",
+          "caption": "Un Inspirador Intérprete de Música, Danza y Magia"
+        },
+        "Bard Shapes Magic": {
+          "name": "El Bardo Moldea la Magia",
+          "src": "modules/dnd-players-handbook/assets/journal-art/bard-shapes-magic.webp",
+          "caption": "Un Bardo moldea la inspiración y la imaginación para convertirlas en magia."
+        },
+        "College of Dance": {
+          "name": "Colegio de la Danza",
+          "src": "modules/dnd-players-handbook/assets/journal-art/college-of-dance.webp"
+        },
+        "College of Glamour": {
+          "name": "Colegio del Glamour",
+          "src": "modules/dnd-players-handbook/assets/journal-art/college-of-glamour.webp"
+        },
+        "College of Lore": {
+          "name": "Colegio del Conocimiento",
+          "src": "modules/dnd-players-handbook/assets/journal-art/college-of-lore.webp"
+        },
+        "College of Valor": {
+          "name": "Colegio del Valor",
+          "src": "modules/dnd-players-handbook/assets/journal-art/college-of-valor.webp"
+        },
+        "Cleric": {
+          "name": "Clérigo",
+          "src": "modules/dnd-players-handbook/assets/journal-art/cleric.webp",
+          "caption": "Un Sacerdote Milagroso de Poder Divino"
+        },
+        "A Cleric Prays for the Day's Spells": {
+          "name": "Un Clérigo Reza por los Conjuros del Día",
+          "src": "modules/dnd-players-handbook/assets/journal-art/cleric-prays-for-spells.webp"
+        },
+        "Life Domain": {
+          "name": "Dominio de la Vida",
+          "src": "modules/dnd-players-handbook/assets/journal-art/life-domain.webp"
+        },
+        "Light Domain": {
+          "name": "Dominio de la Luz",
+          "src": "modules/dnd-players-handbook/assets/journal-art/light-domain.webp"
+        },
+        "Trickery Domain": {
+          "name": "Dominio del Engaño",
+          "src": "modules/dnd-players-handbook/assets/journal-art/trickery-domain.webp"
+        },
+        "War Domain": {
+          "name": "Dominio de la Guerra",
+          "src": "modules/dnd-players-handbook/assets/journal-art/war-domain.webp",
+          "caption": "Dominio de la Guerra"
+        },
+        "Druid": {
+          "name": "Druida",
+          "src": "modules/dnd-players-handbook/assets/journal-art/druid.webp",
+          "caption": "Un Sacerdote de la Naturaleza de Poder Primigenio"
+        },
+        "Druid Channeling Power": {
+          "name": "El Druida Canaliza Poder",
+          "src": "modules/dnd-players-handbook/assets/journal-art/druid-channels-power.webp",
+          "caption": "Un Druida canaliza el poder de la naturaleza a través de su magia."
+        },
+        "Circle of the Land": {
+          "name": "Círculo de la Tierra",
+          "src": "modules/dnd-players-handbook/assets/journal-art/circle-of-the-land.webp"
+        },
+        "Circle of the Moon": {
+          "name": "Círculo de la Luna",
+          "src": "modules/dnd-players-handbook/assets/journal-art/circle-of-the-moon.webp"
+        },
+        "A Druid in wolf form howls at the moon": {
+          "name": "Un Druida en forma de lobo aúlla a la luna",
+          "src": "modules/dnd-players-handbook/assets/journal-art/druid-in-wolf-form.webp"
+        },
+        "Circle of the Sea": {
+          "name": "Círculo del Mar",
+          "src": "modules/dnd-players-handbook/assets/journal-art/circle-of-the-sea.webp"
+        },
+        "Circle of the Stars": {
+          "name": "Círculo de las Estrellas",
+          "src": "modules/dnd-players-handbook/assets/journal-art/circle-of-the-stars.webp"
+        },
+        "Fighter": {
+          "name": "Guerrero",
+          "src": "modules/dnd-players-handbook/assets/journal-art/fighter.webp",
+          "caption": "Un Maestro de Todas las Armas y Armaduras"
+        },
+        "Fighter Stands Between Ally and Dragon": {
+          "name": "El Guerrero se Interpone entre un Aliado y un Dragón",
+          "src": "modules/dnd-players-handbook/assets/journal-art/fighter-stands-between-ally-dragon.webp",
+          "caption": "Un Guerrero se interpone entre un aliado y la embestida de un dragón negro."
+        },
+        "Battle Master": {
+          "name": "Maestro del Combate",
+          "src": "modules/dnd-players-handbook/assets/journal-art/battle-master.webp"
+        },
+        "Champion": {
+          "name": "Campeón",
+          "src": "modules/dnd-players-handbook/assets/journal-art/champion.webp"
+        },
+        "Eldritch Knight": {
+          "name": "Caballero Arcano",
+          "src": "modules/dnd-players-handbook/assets/journal-art/eldritch-knight.webp"
+        },
+        "Psi Warrior": {
+          "name": "Guerrero Psiónico",
+          "src": "modules/dnd-players-handbook/assets/journal-art/psi-warrior.webp"
+        },
+        "Monk": {
+          "name": "Monje",
+          "src": "modules/dnd-players-handbook/assets/journal-art/monk.webp",
+          "caption": "Un Artista Marcial de Concentración Sobrenatural"
+        },
+        "Warrior of Mercy": {
+          "name": "Guerrero de la Misericordia",
+          "src": "modules/dnd-players-handbook/assets/journal-art/warrior-of-mercy.webp"
+        },
+        "Warrior of Shadow": {
+          "name": "Guerrero de la Sombra",
+          "src": "modules/dnd-players-handbook/assets/journal-art/warrior-of-shadow.webp"
+        },
+        "Warrior of the Elements": {
+          "name": "Guerrero de los Elementos",
+          "src": "modules/dnd-players-handbook/assets/journal-art/warrior-of-the-elements.webp"
+        },
+        "Warrior of the Open Mind": {
+          "name": "Guerrero de la Mano Abierta",
+          "src": "modules/dnd-players-handbook/assets/journal-art/warrior-of-the-open-mind.webp"
+        },
+        "Paladin": {
+          "name": "Paladín",
+          "src": "modules/dnd-players-handbook/assets/journal-art/paladin.webp"
+        },
+        "A Paladin Dedicates Themselves": {
+          "name": "Un Paladín se Consagra",
+          "src": "modules/dnd-players-handbook/assets/journal-art/paladin-dedicating-themselves.webp",
+          "caption": "La consagración de una Paladín a sus garras se manifiesta como poderío mágico."
+        },
+        "Oath of Devotion": {
+          "name": "Juramento de Entrega",
+          "src": "modules/dnd-players-handbook/assets/journal-art/oath-of-devotion.webp"
+        },
+        "Oath of Glory": {
+          "name": "Juramento de Gloria",
+          "src": "modules/dnd-players-handbook/assets/journal-art/oath-of-glory.webp"
+        },
+        "Oath of the Ancients": {
+          "name": "Juramento de los Antiguos",
+          "src": "modules/dnd-players-handbook/assets/journal-art/oath-of-the-ancients.webp"
+        },
+        "Oath of Vengeance": {
+          "name": "Juramento de Venganza",
+          "src": "modules/dnd-players-handbook/assets/journal-art/oath-of-vengeance.webp"
+        },
+        "Ranger": {
+          "name": "Explorador",
+          "src": "modules/dnd-players-handbook/assets/journal-art/ranger.webp"
+        },
+        "Deer Watching a Ranger": {
+          "name": "Un Ciervo Observa a un Explorador",
+          "src": "modules/dnd-players-handbook/assets/journal-art/deer-watching-druid.webp"
+        },
+        "Hunter": {
+          "name": "Cazador",
+          "src": "modules/dnd-players-handbook/assets/journal-art/hunter.webp"
+        },
+        "Gloom Stalker": {
+          "name": "Acechador en la Penumbra",
+          "src": "modules/dnd-players-handbook/assets/journal-art/gloom-stalker.webp"
+        },
+        "Fey Wanderer": {
+          "name": "Errante Feérico",
+          "src": "modules/dnd-players-handbook/assets/journal-art/fey-wanderer.webp"
+        },
+        "Beast Master": {
+          "name": "Señor de las Bestias",
+          "src": "modules/dnd-players-handbook/assets/journal-art/beast-master.webp"
+        },
+        "Rogue": {
+          "name": "Pícaro",
+          "src": "modules/dnd-players-handbook/assets/journal-art/rogue-balancing-knife.webp"
+        },
+        "Arcane Trickster": {
+          "name": "Embaucador Arcano",
+          "src": "modules/dnd-players-handbook/assets/journal-art/arcane-trickster.webp"
+        },
+        "Rogue Running from Fire Breath": {
+          "name": "Pícaro Huyendo de un Aliento de Fuego",
+          "src": "modules/dnd-players-handbook/assets/journal-art/rogue-running-from-fire-breath.webp"
+        },
+        "Assassin": {
+          "name": "Asesino",
+          "src": "modules/dnd-players-handbook/assets/journal-art/assassin.webp"
+        },
+        "Soulknife": {
+          "name": "Rebanaalmas",
+          "src": "modules/dnd-players-handbook/assets/journal-art/soulknife.webp"
+        },
+        "Infiltrators Restraining Guards": {
+          "name": "Infiltrados Apresando a unos Guardias",
+          "src": "modules/dnd-players-handbook/assets/journal-art/infiltrators-restraining-guards.webp"
+        },
+        "Thief": {
+          "name": "Ladrón",
+          "src": "modules/dnd-players-handbook/assets/journal-art/thief.webp"
+        },
+        "Sorcerer": {
+          "name": "Hechicero",
+          "src": "modules/dnd-players-handbook/assets/journal-art/sorcerer.webp"
+        },
+        "Sorcerer on Rock": {
+          "name": "Hechicero sobre una Roca",
+          "src": "modules/dnd-players-handbook/assets/journal-art/sorcerer-on-rock.webp"
+        },
+        "Aberrant": {
+          "name": "Aberrante",
+          "src": "modules/dnd-players-handbook/assets/journal-art/aberrant.webp"
+        },
+        "Clockwork": {
+          "name": "Mecánica",
+          "src": "modules/dnd-players-handbook/assets/journal-art/clockwork.webp"
+        },
+        "Draconic": {
+          "name": "Dracónica",
+          "src": "modules/dnd-players-handbook/assets/journal-art/draconic.webp"
+        },
+        "Wild Magic": {
+          "name": "Magia Salvaje",
+          "src": "modules/dnd-players-handbook/assets/journal-art/wild-magic.webp"
+        },
+        "Delina Manipulates Wild Magic": {
+          "name": "Delina Manipula la Magia Salvaje",
+          "src": "modules/dnd-players-handbook/assets/journal-art/delina-manipulates-wild-magic.webp",
+          "caption": "La Hechicera Delina manipula la magia salvaje para crear prodigios impredecibles."
+        },
+        "Warlock": {
+          "name": "Brujo",
+          "src": "modules/dnd-players-handbook/assets/journal-art/warlock.webp"
+        },
+        "Skull and Spiders": {
+          "name": "Calavera y Arañas",
+          "src": "modules/dnd-players-handbook/assets/journal-art/skull-and-spiders.webp"
+        },
+        "Archfey": {
+          "name": "Archifeérico",
+          "src": "modules/dnd-players-handbook/assets/journal-art/archfey.webp"
+        },
+        "Celestial": {
+          "name": "Celestial",
+          "src": "modules/dnd-players-handbook/assets/journal-art/celestial.webp"
+        },
+        "Fiend": {
+          "name": "Infernal",
+          "src": "modules/dnd-players-handbook/assets/journal-art/fiend.webp"
+        },
+        "Great Old One": {
+          "name": "Gran Antiguo",
+          "src": "modules/dnd-players-handbook/assets/journal-art/great-old-one.webp"
+        },
+        "Wizard": {
+          "name": "Mago",
+          "src": "modules/dnd-players-handbook/assets/journal-art/wizard.webp"
+        },
+        "Elf Queen Yolande": {
+          "name": "La Reina Elfa Yolande",
+          "src": "modules/dnd-players-handbook/assets/journal-art/elf-queen-yolande.webp",
+          "caption": "La reina elfa Yolande sobrecoge a un dragón rojo con su conjuro Presencia Regia de Yolande."
+        },
+        "Spellbook and Potions": {
+          "name": "Libro de Conjuros y Pociones",
+          "src": "modules/dnd-players-handbook/assets/journal-art/spellbook-and-potions.webp"
+        },
+        "Leomund Studying": {
+          "name": "Leomund Estudiando",
+          "src": "modules/dnd-players-handbook/assets/journal-art/leomund-studying-spellbooks.webp",
+          "caption": "El Mago Leomund estudia sus libros de conjuros para preparar su magia."
+        },
+        "Abjurer": {
+          "name": "Abjurador",
+          "src": "modules/dnd-players-handbook/assets/journal-art/abjurer.webp"
+        },
+        "Diviner": {
+          "name": "Adivino",
+          "src": "modules/dnd-players-handbook/assets/journal-art/diviner.webp"
+        },
+        "Evoker": {
+          "name": "Evocador",
+          "src": "modules/dnd-players-handbook/assets/journal-art/evoker.webp"
+        },
+        "Illusionist": {
+          "name": "Ilusionista",
+          "src": "modules/dnd-players-handbook/assets/journal-art/illusionist.webp"
+        }
+      }
+    },
+    "phbCh4ArtHandout": {
+      "name": "Art Handouts",
+      "pages": {
+        "Heroes of the Forgotten Realm": {
+          "name": "Héroes de los Reinos Olvidados",
+          "src": "modules/dnd-players-handbook/assets/journal-art/heroes-of-the-forgotten-realm.webp",
+          "caption": "Ni siquiera la ira de un dragón blanco puede helar a estos héroes de los Reinos Olvidados: Laeral Silverhand, Drizzt Do'Urden y Vajra Safahr."
+        },
+        "Acolyte": {
+          "name": "Acólito",
+          "src": "modules/dnd-players-handbook/assets/journal-art/acolyte-origin.webp"
+        },
+        "Artisan": {
+          "name": "Artesano",
+          "src": "modules/dnd-players-handbook/assets/journal-art/artisan-origin.webp"
+        },
+        "Charlatan": {
+          "name": "Charlatán",
+          "src": "modules/dnd-players-handbook/assets/journal-art/charlatan-origin.webp"
+        },
+        "Criminal": {
+          "name": "Criminal",
+          "src": "modules/dnd-players-handbook/assets/journal-art/criminal-origin.webp"
+        },
+        "Entertainer": {
+          "name": "Animador",
+          "src": "modules/dnd-players-handbook/assets/journal-art/entertainer-origin.webp"
+        },
+        "Farmer": {
+          "name": "Campesino",
+          "src": "modules/dnd-players-handbook/assets/journal-art/farmer-origin.webp"
+        },
+        "Guard": {
+          "name": "Guardia",
+          "src": "modules/dnd-players-handbook/assets/journal-art/guard-origin.webp"
+        },
+        "Guide": {
+          "name": "Guía",
+          "src": "modules/dnd-players-handbook/assets/journal-art/guide.webp"
+        },
+        "Hermit": {
+          "name": "Ermitaño",
+          "src": "modules/dnd-players-handbook/assets/journal-art/hermit.webp"
+        },
+        "Merchant": {
+          "name": "Mercader",
+          "src": "modules/dnd-players-handbook/assets/journal-art/merchant.webp"
+        },
+        "Noble": {
+          "name": "Noble",
+          "src": "modules/dnd-players-handbook/assets/journal-art/noble.webp"
+        },
+        "Sage": {
+          "name": "Erudito",
+          "src": "modules/dnd-players-handbook/assets/journal-art/sage.webp"
+        },
+        "Sailor": {
+          "name": "Marinero",
+          "src": "modules/dnd-players-handbook/assets/journal-art/sailor.webp"
+        },
+        "Scribe": {
+          "name": "Escriba",
+          "src": "modules/dnd-players-handbook/assets/journal-art/scribe.webp"
+        },
+        "Soldier": {
+          "name": "Soldado",
+          "src": "modules/dnd-players-handbook/assets/journal-art/soldier.webp"
+        },
+        "Wayfarer": {
+          "name": "Vagabundo",
+          "src": "modules/dnd-players-handbook/assets/journal-art/wayfarer.webp"
+        },
+        "Aasimar Working": {
+          "name": "Aasimar Trabajando",
+          "src": "modules/dnd-players-handbook/assets/journal-art/aasimar-working.webp"
+        },
+        "Dragonborn Meeting": {
+          "name": "Reunión de Dracónidos",
+          "src": "modules/dnd-players-handbook/assets/journal-art/dragonborn-meeting.webp"
+        },
+        "Dwarves Working": {
+          "name": "Enanos Trabajando",
+          "src": "modules/dnd-players-handbook/assets/journal-art/dwarves-working.webp"
+        },
+        "Elves Socializing": {
+          "name": "Elfos Socializando",
+          "src": "modules/dnd-players-handbook/assets/journal-art/elves-socializing.webp"
+        },
+        "Ship Departs City": {
+          "name": "Un Barco Zarpa de una Ciudad",
+          "src": "modules/dnd-players-handbook/assets/journal-art/ship-departs-city.webp",
+          "caption": "Un barco zarpa de una ciudad construida por Altos Elfos."
+        },
+        "Gnomes Working on Armor": {
+          "name": "Gnomos Trabajando en una Armadura",
+          "src": "modules/dnd-players-handbook/assets/journal-art/gnomes-working-on-armor.webp"
+        },
+        "Goliaths Moving Stone": {
+          "name": "Goliats Moviendo Piedra",
+          "src": "modules/dnd-players-handbook/assets/journal-art/goliaths-transporting-stone.webp"
+        },
+        "Halflings Dining": {
+          "name": "Medianos Comiendo",
+          "src": "modules/dnd-players-handbook/assets/journal-art/halflings-dining.webp"
+        },
+        "Humans Celebrating": {
+          "name": "Humanos Celebrando",
+          "src": "modules/dnd-players-handbook/assets/journal-art/humans-celebrate.webp"
+        },
+        "Orcs Riding": {
+          "name": "Orcos Cabalgando",
+          "src": "modules/dnd-players-handbook/assets/journal-art/orcs-riding.webp"
+        },
+        "Cards, Map, and Knife": {
+          "name": "Cartas, mapa y cuchillo",
+          "src": "modules/dnd-players-handbook/assets/journal-art/cards-knife-map.webp"
+        },
+        "Tiefling": {
+          "name": "Tiefling",
+          "src": "modules/dnd-players-handbook/assets/journal-art/tiefling.webp"
+        },
+        "Tiefling Types": {
+          "name": "Tipos de Tiefling",
+          "src": "modules/dnd-players-handbook/assets/journal-art/tiefling-types.webp",
+          "caption": "Tiefling Infernal, Tiefling Ctónico y Tiefling Abisal"
+        },
+        "Tieflings Playing Cards": {
+          "name": "Tieflings Jugando a las Cartas",
+          "src": "modules/dnd-players-handbook/assets/journal-art/tieflings-playing-cards.webp"
+        }
+      }
+    },
+    "phbCh5ArtHandout": {
+      "name": "Art Handouts",
+      "pages": {
+        "Fighting to Escape the Horrors of Castle Ravenloft": {
+          "name": "Luchando por Escapar de los Horrores del Castillo Ravenloft",
+          "src": "modules/dnd-players-handbook/assets/journal-art/fighting-to-escape-castle-ravenloft.webp"
+        },
+        "Herbs and Bandages": {
+          "name": "Hierbas y Vendas",
+          "src": "modules/dnd-players-handbook/assets/journal-art/herbs-and-bandages.webp"
+        },
+        "Book and Potions": {
+          "name": "Libro y Pociones",
+          "src": "modules/dnd-players-handbook/assets/journal-art/book-and-potions.webp"
+        },
+        "Mushroom, leaf, acorn, butterfly": {
+          "name": "Seta, hoja, bellota, mariposa",
+          "src": "modules/dnd-players-handbook/assets/journal-art/mushroom-leaf-acorn-butterfly.webp"
+        },
+        "Shackles, Necklace, Orb": {
+          "name": "Grilletes, collar, orbe",
+          "src": "modules/dnd-players-handbook/assets/journal-art/shackles-necklace-orb.webp"
+        },
+        "Bowl, candle, necklace": {
+          "name": "Cuenco, vela, collar",
+          "src": "modules/dnd-players-handbook/assets/journal-art/bowl-candle-necklace.webp"
+        },
+        "Arrows, banner, sheath": {
+          "name": "Flechas, estandarte, vaina",
+          "src": "modules/dnd-players-handbook/assets/journal-art/arrows-banner-sheath.webp"
+        },
+        "Ax and Sword Stack": {
+          "name": "Montón de Hachas y Espadas",
+          "src": "modules/dnd-players-handbook/assets/journal-art/ax-sword-stack.webp"
+        },
+        "Paladin Sword, Napkin, and Star": {
+          "name": "Espada de Paladín, paño y estrella",
+          "src": "modules/dnd-players-handbook/assets/journal-art/paladin-sword-napkin-star.webp"
+        },
+        "Helmet, belt, necklace": {
+          "name": "Yelmo, cinturón, collar",
+          "src": "modules/dnd-players-handbook/assets/journal-art/helmet-belt-necklace.webp"
+        }
+      }
+    },
+    "phbCh6ArtHandout": {
+      "name": "Art Handouts",
+      "pages": {
+        "Vi Escapes the Lord of Blades": {
+          "name": "Vi Escapa del Señor de las Cuchillas",
+          "src": "modules/dnd-players-handbook/assets/journal-art/vi-escapes-lord-of-blades.webp",
+          "caption": "En los cielos de Eberron, la inventora Vi y sus Reparadores escapan del Señor de las Cuchillas y de una aeronave en picado que arde con llamas verdes."
+        },
+        "Glasses and Tools": {
+          "name": "Lentes y Herramientas",
+          "src": "modules/dnd-players-handbook/assets/journal-art/glasses-tools.webp"
+        },
+        "Dragonborn Warlock Channels Magic": {
+          "name": "Brujo Dracónido Canaliza Magia",
+          "src": "modules/dnd-players-handbook/assets/journal-art/dragonborn-warlock-channels-magic.webp",
+          "caption": "Un Brujo canaliza la magia a través de un Canalizador Arcano."
+        },
+        "Lantern and Net": {
+          "name": "Linterna y Red",
+          "src": "modules/dnd-players-handbook/assets/journal-art/lantern-net.webp"
+        },
+        "Dragonborn Exploring with Lantern": {
+          "name": "Dracónido Explorando con una Linterna",
+          "src": "modules/dnd-players-handbook/assets/journal-art/dragonborn-exploring-with-lantern.webp"
+        },
+        "Wizard and Familiar Shopping": {
+          "name": "Maga y Familiar de Compras",
+          "src": "modules/dnd-players-handbook/assets/journal-art/wizard-familiar-shopping.webp",
+          "caption": "Una Maga y su Familiar pasan una tarde de compras."
+        }
+      }
+    },
+    "phbCh7ArtHandout": {
+      "name": "Art Handouts",
+      "pages": {
+        "Otiluke Casts Cone of Cold": {
+          "name": "Otiluke Lanza Cono de Frío",
+          "src": "modules/dnd-players-handbook/assets/journal-art/otiluke-uses-cone-of-cold.webp",
+          "caption": "El gélido Mago Otiluke fulmina a unos monstruos con Cono de Frío."
+        },
+        "Archmages Prepare their Magic": {
+          "name": "Los Archimagos Preparan su Magia",
+          "src": "modules/dnd-players-handbook/assets/journal-art/archmages-prepare-magic.webp",
+          "caption": "Archimagos de Greyhawk —Jallarzi, Mordenkainen y Bigby— preparan su magia mientras abren un portal a otro plano."
+        },
+        "Aasimar Wizard Casts Cone of Cold": {
+          "name": "Maga Aasimar Lanza Cono de Frío",
+          "src": "modules/dnd-players-handbook/assets/journal-art/aasimar-wizard-casts-cone-of-cold.webp",
+          "caption": "Una Maga Aasimar usa un componente material de cristal para concentrar la magia de Cono de Frío."
+        },
+        "Point of Origin Chalk Board": {
+          "name": "Pizarra del Punto de Origen",
+          "src": "modules/dnd-players-handbook/assets/journal-art/point-of-origin-chalk-board.webp"
+        },
+        "Animated Brazier": {
+          "name": "Brasero Animado",
+          "src": "modules/dnd-players-handbook/assets/journal-art/animated-brazier.webp",
+          "caption": "Un Brasero afectado por el conjuro Animar Objetos"
+        },
+        "Goliath Warlock Casts Armor of Agathys": {
+          "name": "Brujo Goliat Lanza Armadura de Agathys",
+          "src": "modules/dnd-players-handbook/assets/journal-art/goliath-warlock-armor-agathys.webp",
+          "caption": "Un Brujo Goliat invoca Armadura de Agathys y Brazos de Hadar para combatir a enemigos de las profundidades."
+        },
+        "Bigby's Hand Holds Minotaur": {
+          "name": "La Mano de Bigby Sujeta a un Minotauro",
+          "src": "modules/dnd-players-handbook/assets/journal-art/bigbys-hand-holds-minotaur.webp",
+          "caption": "El Mago Bigby usa su conjuro insignia, Mano de Bigby, para evitar interrupciones en su investigación."
+        },
+        "Sorcerer Chastises Ghouls": {
+          "name": "El Hechicero Castiga a unos Necrófagos",
+          "src": "modules/dnd-players-handbook/assets/journal-art/sorcerer-chastises-ghouls.webp",
+          "caption": "Un Hechicero humano castiga a unos necrófagos con la energía impredecible de un Orbe Cromático."
+        },
+        "Brass Dragon Casts Control Weather": {
+          "name": "Dragón de Latón Lanza Controlar el Clima",
+          "src": "modules/dnd-players-handbook/assets/journal-art/brass-dragon-casts-control-weather.webp",
+          "caption": "Un dragón de latón lanza Controlar el Clima para salvar a una comunidad de una tormenta destructiva."
+        },
+        "Elf Cleric Casts Daylight": {
+          "name": "Clérigo Elfo Lanza Luz del Día",
+          "src": "modules/dnd-players-handbook/assets/journal-art/elf-cleric-casts-daylight.webp",
+          "caption": "Un Clérigo elfo usa el conjuro Luz del Día para llevar la luz del amanecer a una corte de vampiros."
+        },
+        "Tiefling Cleric Casts Dispel Evil and Good": {
+          "name": "Clérigo Tiefling Lanza Disipar el Bien y el Mal",
+          "src": "modules/dnd-players-handbook/assets/journal-art/tiefling-cleric-casts-dispel-evil-and-good.webp",
+          "caption": "Un Clérigo tiefling lanza Disipar el Bien y el Mal para expulsar a un espíritu maligno de un inocente poseído."
+        },
+        "Dwarf Paladin Uses Divine Smite": {
+          "name": "Paladín Enana Usa Castigo Divino",
+          "src": "modules/dnd-players-handbook/assets/journal-art/dwarf-paladin-uses-divine-smite.webp",
+          "caption": "Una Paladín enana potencia su arma con Castigo Divino, desatando una ira sagrada sobre unos mezzoloths infernales."
+        },
+        "Sprite Casts Druidcraft": {
+          "name": "Una Sílfide Lanza Saber Druídico",
+          "src": "modules/dnd-players-handbook/assets/journal-art/sprite-casts-druidcraft.webp",
+          "caption": "Una sílfide lanza Saber Druídico para hacer florecer unas flores."
+        },
+        "Dragonborn Druid Uses Entangle": {
+          "name": "Druida Dracónido Usa Enmarañar",
+          "src": "modules/dnd-players-handbook/assets/journal-art/dragonborn-druid-uses-entangle.webp",
+          "caption": "Un Druida dracónido usa Enmarañar para detener a unos gnolls desbocados."
+        },
+        "Evard's Black Tentacles": {
+          "name": "Tentáculos Negros de Evard",
+          "src": "modules/dnd-players-handbook/assets/journal-art/evards-black-tentacles.webp",
+          "caption": "El Mago Evard invoca su infame conjuro, Tentáculos Negros de Evard, para dar una lección a unos bandidos imprudentes."
+        },
+        "Summoned Familiars": {
+          "name": "Familiares Invocados",
+          "src": "modules/dnd-players-handbook/assets/journal-art/familiar-spirits.webp",
+          "caption": "Los espíritus invocados con Encontrar Familiar adoptan formas inspiradas por los magos que los conjuran."
+        },
+        "Elf Wizard Casts Fireball": {
+          "name": "Maga Elfa Lanza Bola de Fuego",
+          "src": "modules/dnd-players-handbook/assets/journal-art/elf-wizard-casts-fireball.webp",
+          "caption": "Una Maga elfa demuestra el potencial del conjuro Bola de Fuego para resolver problemas."
+        },
+        "Otto Casts Gate to the Outlands": {
+          "name": "Otto Lanza Portal a las Tierras Exteriores",
+          "src": "modules/dnd-players-handbook/assets/journal-art/otto-casts-gate-to-outlands.webp",
+          "caption": "Otto el Bardo lanza Portal para abrir un pasaje a las Tierras Exteriores."
+        },
+        "Halfling Cleric Casts Guardian of Faith": {
+          "name": "Clérigo Mediano Lanza Guardián de la Fe",
+          "src": "modules/dnd-players-handbook/assets/journal-art/halfling-cleric-casts-guardian-of-faith.webp",
+          "caption": "Un Clérigo mediano lanza Guardián de la Fe para repeler a un worg voraz."
+        },
+        "Heroes Feast": {
+          "name": "Festín de Héroes",
+          "src": "modules/dnd-players-handbook/assets/journal-art/heroes-feast.webp",
+          "caption": "El conjuro Festín de Héroes prepara a los aventureros para la grandeza."
+        },
+        "Aasimar Warlock Casts Hunger of Hadar": {
+          "name": "Brujo Aasimar Lanza Hambre de Hadar",
+          "src": "modules/dnd-players-handbook/assets/journal-art/aasimar-warlock-casts-hunger-of-hadar.webp",
+          "caption": "Un Brujo aasimar expone a sus enemigos al devorador Hambre de Hadar."
+        },
+        "Ice Knife": {
+          "name": "Cuchillo de Hielo",
+          "src": "modules/dnd-players-handbook/assets/journal-art/ice-knife.webp"
+        },
+        "Jallarzi's Storm of Radiance": {
+          "name": "Tormenta Resplandeciente de Jallarzi",
+          "src": "modules/dnd-players-handbook/assets/journal-art/jallarzis-storm-of-radiance.webp",
+          "caption": "Con su conjuro, Tormenta Resplandeciente de Jallarzi, la Bruja Jallarzi hace que unos vrocks se arrepientan de haber dejado el abismo."
+        },
+        "Human Druid Casts Lesser Restoration": {
+          "name": "Druida Humano Lanza Restablecimiento Menor",
+          "src": "modules/dnd-players-handbook/assets/journal-art/human-druid-casts-lesser-restoration.webp",
+          "caption": "Un Druida humano lanza Restablecimiento Menor para aliviar el sufrimiento de un amigo envenenado en combate."
+        },
+        "Human Wizard Fends Off Peril": {
+          "name": "Mago Humano Repele el Peligro",
+          "src": "modules/dnd-players-handbook/assets/journal-art/human-wizards-fends-off-peril.webp",
+          "caption": "Un Mago humano repele el peligro con Armadura de Mago y los proyectiles infalibles de Proyectil Mágico."
+        },
+        "Melf Takes Aim at a Rampaging Troll": {
+          "name": "Melf Apunta a un Troll Desbocado",
+          "src": "modules/dnd-players-handbook/assets/journal-art/melf-takes-aim.webp",
+          "caption": "El audaz Mago Melf apunta a un troll desbocado con la Flecha Ácida de Melf."
+        },
+        "Mordenkainen Welcomes Guests": {
+          "name": "Mordenkainen Recibe a sus Invitados",
+          "src": "modules/dnd-players-handbook/assets/journal-art/mordenkainen-welcomes-guests.webp",
+          "caption": "El Mago Mordenkainen recibe a sus invitados en su morada mágica, la Mansión Magnífica de Mordenkainen."
+        },
+        "Phantom Steed": {
+          "name": "Corcel Fantasmal",
+          "src": "modules/dnd-players-handbook/assets/journal-art/phantom-steed.webp"
+        },
+        "Dwarf Turned to Stone": {
+          "name": "Enano Convertido en Piedra",
+          "src": "modules/dnd-players-handbook/assets/journal-art/dwarf-turned-to-stone.webp",
+          "caption": "Un enano tuvo un desafortunado encuentro con el rayo índigo de Rociada Prismática."
+        },
+        "Programmed Illusion": {
+          "name": "Ilusión Programada",
+          "src": "modules/dnd-players-handbook/assets/journal-art/programmed-illusion.webp",
+          "caption": "Un lanzador de conjuros podría usar Ilusión Programada para hacer aparecer a un perro guardián que pida amablemente a los intrusos que se marchen."
+        },
+        "Human Cleric Casts Raise Dead": {
+          "name": "Clérigo Humano Lanza Alzar a los Muertos",
+          "src": "modules/dnd-players-handbook/assets/journal-art/human-cleric-casts-raise-dead.webp",
+          "caption": "Un Clérigo humano lanza Alzar a los Muertos para devolver a la vida a un camarada caído."
+        },
+        "Gnome Bard Casts Scrying Spell": {
+          "name": "Bardo Gnomo Lanza el Conjuro Escudriñar",
+          "src": "modules/dnd-players-handbook/assets/journal-art/gnome-bard-casts-scrying-spell.webp",
+          "caption": "El conjuro Escudriñar ayuda a un Bardo gnomo a mantener el contacto con amigos y familiares de todo el mundo."
+        },
+        "Rival Mages Use Shapechange": {
+          "name": "Magos Rivales Usan Cambiar de Forma",
+          "src": "modules/dnd-players-handbook/assets/journal-art/rival-mages-battle-in-shapechange.webp",
+          "caption": "Unos magos rivales usan Cambiar de Forma para transformarse en un Contemplador y un Behir durante un duelo mágico."
+        },
+        "Silent Image Illusion": {
+          "name": "Ilusión de Imagen Silenciosa",
+          "src": "modules/dnd-players-handbook/assets/journal-art/silent-image-illusion.webp",
+          "caption": "Imagen Silenciosa puede urdir ilusiones de lo mundano y lo caprichoso."
+        },
+        "Human Druid with Bear": {
+          "name": "Druida Humano con un Oso",
+          "src": "modules/dnd-players-handbook/assets/journal-art/human-druid-with-bear.webp",
+          "caption": "Un Druida humano usa Hablar con los Animales para charlar con su mejor amigo oso."
+        },
+        "Goliath Cleric Casts Spiritual Weapon": {
+          "name": "Clérigo Goliat Lanza Arma Espiritual",
+          "src": "modules/dnd-players-handbook/assets/journal-art/goliath-cleric-casts-spiritual-weapon.webp",
+          "caption": "Un Clérigo goliat lanza Arma Espiritual en combate contra un descomunal de ámbar."
+        },
+        "Ranger Casts Summon Fey": {
+          "name": "Explorador Lanza Invocar Feérico",
+          "src": "modules/dnd-players-handbook/assets/journal-art/ranger-casts-summon-fey.webp",
+          "caption": "Un Explorador lanza Invocar Feérico, conjurando a un furioso espíritu feérico para enfrentarse a un merrow saqueador."
+        },
+        "Tasha Casts Tasha's Bubbling Cauldron": {
+          "name": "Tasha Lanza el Caldero Burbujeante de Tasha",
+          "src": "modules/dnd-players-handbook/assets/journal-art/tashas-casts-bubbling-cauldron.webp",
+          "caption": "La legendaria bruja Tasha usa su conjuro, Caldero Burbujeante de Tasha, para producir una poción mágica."
+        },
+        "Red Wizard Orders Skeletal Servants": {
+          "name": "Mago Rojo Ordena a sus Sirvientes Esqueléticos",
+          "src": "modules/dnd-players-handbook/assets/journal-art/red-wizard-orders-skeletal-servants.webp",
+          "caption": "Un Mago Rojo de Thay ordena a sus sirvientes esqueléticos amontonar riquezas sobre el disco del Disco Flotante de Tenser."
+        },
+        "Trees as a Transportation Network": {
+          "name": "Árboles como Red de Transporte",
+          "src": "modules/dnd-players-handbook/assets/journal-art/trees-are-a-transportation-network.webp",
+          "caption": "Viajar mediante Plantas y Paso Arbóreo convierten los árboles en una red de transporte."
+        },
+        "Gnome Bard Casts Vicious Mockery": {
+          "name": "Bardo Gnomo Lanza Burla Dañina",
+          "src": "modules/dnd-players-handbook/assets/journal-art/gnome-bard-casts-vicious-mockery.webp",
+          "caption": "Un Bardo gnomo lanza Burla Dañina para ensartar a un kóbold con insultos mágicos."
+        },
+        "Tiefling Sorcerer Unleashes Vitriolic Sphere": {
+          "name": "Hechicero Tiefling Desata Esfera Vitriólica",
+          "src": "modules/dnd-players-handbook/assets/journal-art/tiefling-sorcerer-unleashes-vitriolic-sphere.webp",
+          "caption": "Un Hechicero tiefling desata Esfera Vitriólica sobre unos nothics."
+        },
+        "Visit Aquatic Realms": {
+          "name": "Visitar Reinos Acuáticos",
+          "src": "modules/dnd-players-handbook/assets/journal-art/visit-aquatic-realms.webp",
+          "caption": "Conjuros como Respirar bajo el Agua y Caminar sobre el Agua facilitan las visitas a reinos acuáticos."
+        },
+        "Halfling Warlock Zaps Zombie": {
+          "name": "Brujo Mediano Fulmina a un Zombi",
+          "src": "modules/dnd-players-handbook/assets/journal-art/halfling-warlock-zaps-zombie.webp",
+          "caption": "Un Brujo mediano fulmina a un zombi con el relámpago atenazador de Rayo de Hechicería."
+        }
+      }
     }
   }
 }

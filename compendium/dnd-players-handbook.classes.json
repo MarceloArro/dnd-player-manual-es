@@ -509,7 +509,7 @@
         },
         "Primal Knowledge": {
           "title": "Conocimiento Primigenio",
-          "hint": "You gain proficiency in another skill of your choice from the skill list available to Barbarians at level 1."
+          "hint": "Obtienes competencia en otra habilidad de tu elección de la lista de habilidades disponibles para los Bárbaros a nivel 1."
         },
         "Brutal Strike": {
           "title": "Golpe Brutal"
@@ -528,7 +528,7 @@
         },
         "Weapon Mastery": {
           "title": "Maestría con Armas",
-          "hint": "Your training with weapons allows you to use the mastery properties of additional weapons."
+          "hint": "Tu adiestramiento con armas te permite usar las propiedades de maestría de armas adicionales."
         },
         "Rages": {
           "title": "Furias"
@@ -788,7 +788,7 @@
       "effects": {
         "Hamstrung": {
           "name": "Desjarretado",
-          "description": "<p>Hit by a hamstring blow, this character's Speed has been reduced by 15 feet until the start of the attacker's next turn.</p>"
+          "description": "<p>Alcanzado por un golpe ralentizador, la Velocidad de este personaje se ha reducido en 4,5 m (15 pies) hasta el inicio del siguiente turno del atacante.</p>"
         }
       }
     },
@@ -1293,7 +1293,7 @@
       "effects": {
         "Danger Sense": {
           "name": "Sentir el Peligro",
-          "description": "<p>You have Advantage on Dexterity saving throws unless you have the &amp;Reference[Incapacitated] condition.</p>"
+          "description": "<p>Tienes Ventaja en las tiradas de salvación de Destreza a menos que tengas el estado &amp;Reference[Incapacitated].</p>"
         }
       }
     },
@@ -1313,7 +1313,7 @@
         "Luck": {
           "name": "Suerte",
           "roll": "Bonus",
-          "condition": "When you make an ability check or saving throw"
+          "condition": "Cuando haces una prueba de característica o una tirada de salvación"
         }
       }
     },
@@ -1337,7 +1337,7 @@
       "activities": {
         "Death Strike": {
           "name": "Golpe Mortal",
-          "condition": "When you hit with your Sneak Attack on the first round of a combat"
+          "condition": "Cuando aciertas con tu Ataque Furtivo en el primer asalto de un combate"
         }
       }
     },
@@ -1347,7 +1347,7 @@
       "activities": {
         "Multiattack Defense": {
           "name": "Defensa contra Ataques Múltiples",
-          "condition": "When a creature hits you with an attack roll"
+          "condition": "Cuando una criatura te acierta con una tirada de ataque"
         }
       },
       "effects": {
@@ -1362,11 +1362,11 @@
       "activities": {
         "Reduce": {
           "name": "Reducir",
-          "condition": "When an attack roll hits you and its damage includes Bludgeoning, Piercing, or Slashing damage"
+          "condition": "Cuando una tirada de ataque te acierta y su daño incluye daño Contundente, Perforante o Cortante"
         },
         "Redirect": {
           "name": "Redirigir",
-          "condition": "If you reduce the damage to 0"
+          "condition": "Si reduces el daño a 0"
         }
       }
     },
@@ -1376,11 +1376,11 @@
       "activities": {
         "Reduce": {
           "name": "Reducir",
-          "condition": "When an attack roll hits you and its damage includes Bludgeoning, Piercing, or Slashing damage"
+          "condition": "Cuando una tirada de ataque te acierta y su daño incluye daño Contundente, Perforante o Cortante"
         },
         "Redirect": {
           "name": "Redirigir",
-          "condition": "If you reduce the damage to 0"
+          "condition": "Si reduces el daño a 0"
         }
       }
     },
@@ -1403,29 +1403,29 @@
       "activities": {
         "Daze": {
           "name": "Aturdir",
-          "condition": "When you deal Sneak Attack damage"
+          "condition": "Cuando causas daño de Ataque Furtivo"
         },
         "Knock Out": {
           "name": "Noquear",
-          "condition": "When you deal Sneak Attack damage"
+          "condition": "Cuando causas daño de Ataque Furtivo"
         },
         "Obscure": {
           "name": "Oscurecer",
-          "condition": "When you deal Sneak Attack damage"
+          "condition": "Cuando causas daño de Ataque Furtivo"
         }
       },
       "effects": {
         "Devious Strikes: Dazed": {
           "name": "Golpes Astutos: Aturdido",
-          "description": "<p>On its next turn, the target can do only one of the following: move or take an action or a Bonus Action.</p>"
+          "description": "<p>En su siguiente turno, el objetivo solo puede hacer una de las siguientes cosas: moverse, realizar una acción o realizar una Acción Adicional.</p>"
         },
         "Devious Strikes: Knocked Out": {
           "name": "Golpes Astutos: Noqueado",
-          "description": "<p>The target has the Unconscious condition for 1 minute or until it takes any damage. The Unconscious target repeats the save at the end of each of its turns, ending the effect on itself on a success.</p>"
+          "description": "<p>El objetivo tiene el estado Inconsciente durante 1 minuto o hasta que reciba cualquier daño. El objetivo Inconsciente repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito.</p>"
         },
         "Devious Strikes: Blinded": {
           "name": "Golpes Astutos: Cegado",
-          "description": "<p>The target has the Blinded condition until the end of its next turn</p>"
+          "description": "<p>El objetivo tiene el estado Cegado hasta el final de su siguiente turno</p>"
         }
       }
     },
@@ -1438,7 +1438,7 @@
       "description": "<p>Cuando golpees a una criatura con un ataque con arma, puedes gastar un Dado de Supremacía para intentar desarmar al objetivo, forzándolo a soltar un objeto de tu elección que esté sosteniendo. Añades el Dado de Supremacía a la tirada de daño del ataque, y el objetivo debe hacer una tirada de salvación de Fuerza. En un fallo, suelta el objeto que elijas. El objeto cae a sus pies.</p><section class=\"secret\" id=\"secret-OIeqhDE1w3MxjygU\"><p><strong>Nota Foundry</strong></p><p>Este rasgo automáticamente usa el mayor entre tu Fuerza/Destreza por la salvación.</p><p>The Daño included en la salvación allows Tú/Usted a select el/la type de daño it debería deal en el/la roll dialog. It remember tu choice going porwards.</p></section>",
       "activities": {
         "save": {
-          "condition": "When you hit a creature with an attack roll"
+          "condition": "Cuando aciertas a una criatura con una tirada de ataque"
         }
       }
     },
@@ -1461,7 +1461,7 @@
       "activities": {
         "Distant Spell": {
           "name": "Conjuro Distante",
-          "condition": "When you cast a spell that has a range of at least 5 feet or when you cast a spell that has a range of Touch"
+          "condition": "Cuando lanzas un conjuro que tiene un alcance de al menos 1,5 m (5 pies) o cuando lanzas un conjuro que tiene un alcance de Toque"
         }
       }
     },
@@ -1580,7 +1580,7 @@
       "effects": {
         "Winged": {
           "name": "Alado",
-          "description": "<p>he wings last for 1 hour or until you dismiss them (no action required). For the duration, you have a Fly Speed of 60 feet.</p>"
+          "description": "<p>Las alas duran 1 hora o hasta que las disipes (no requiere acción). Mientras duren, tienes una Velocidad de Vuelo de 18 m (60 pies).</p>"
         }
       }
     },
@@ -1590,11 +1590,11 @@
       "activities": {
         "Dreadful Strike": {
           "name": "Golpe Temible",
-          "condition": "When you attack and hit a creature with a weapon"
+          "condition": "Cuando atacas y aciertas a una criatura con un arma"
         },
         "Ambusher's Leap": {
           "name": "Salto Emboscador",
-          "condition": "At the start of your first turn of each combat"
+          "condition": "Al inicio de tu primer turno de cada combate"
         }
       },
       "effects": {
@@ -1611,7 +1611,7 @@
       "description": "<p>Obtienes la habilidad de infundir tus ataques con magia psíquica. Una vez en cada uno de tus turnos cuando golpees a una criatura con un ataque de arma, puedes causar 1d6 de daño psíquico adicional al objetivo. Cuando alcances el nivel 11 en esta clase, el daño adicional aumenta a 2d6.</p><p>También puedes causar que el objetivo quede asustado de ti hasta el inicio de tu próximo turno, a menos que tenga éxito en una tirada de salvación de Sabiduría contra tu CD de conjuros de brujo. No puedes usar este rasgo en la misma criatura más de una vez por combate.</p><section class=\"secret\" id=\"secret-4bJV0nAffRomytFv\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Daño</strong> incluye el daño extra. Escala automáticamente a medida que subes de nivel.</p></section>",
       "activities": {
         "damage": {
-          "condition": "When you hit a creature with a weapon"
+          "condition": "Cuando aciertas a una criatura con un arma"
         }
       }
     },
@@ -1642,7 +1642,7 @@
         },
         "Primal Order": {
           "title": "Orden Primigenio",
-          "hint": "You have dedicated yourself to one of the following sacred roles of your choice."
+          "hint": "Te has consagrado a uno de los siguientes papeles sagrados de tu elección."
         },
         "Elemental Fury": {
           "title": "Furia Elemental",
@@ -1668,7 +1668,7 @@
         },
         "Druidic": {
           "title": "Druídico",
-          "hint": "You know Druidic, the secret language of Druids."
+          "hint": "Conoces el Druídico, la lengua secreta de los Druidas."
         },
         "Epic Boon": {
           "title": "Don Épico"
@@ -1728,7 +1728,7 @@
       "activities": {
         "Eldritch Master": {
           "name": "Maestro Sobrenatural",
-          "condition": "When you use Magical Cunning"
+          "condition": "Cuando usas Astucia Mágica"
         }
       }
     },
@@ -1747,7 +1747,7 @@
       "activities": {
         "Smite": {
           "name": "Castigo",
-          "condition": "Hit a creature with your pact weapon"
+          "condition": "Aciertas a una criatura con tu arma de pacto"
         }
       }
     },
@@ -1783,23 +1783,23 @@
       "activities": {
         "Acid": {
           "name": "Ácido",
-          "condition": "When you cast a spell that deals damage of your elemental affinity"
+          "condition": "Cuando lanzas un conjuro que causa daño de tu afinidad elemental"
         },
         "Cold": {
           "name": "Frío",
-          "condition": "When you cast a spell that deals damage of your elemental affinity"
+          "condition": "Cuando lanzas un conjuro que causa daño de tu afinidad elemental"
         },
         "Fire": {
           "name": "Fuego",
-          "condition": "When you cast a spell that deals damage of your elemental affinity"
+          "condition": "Cuando lanzas un conjuro que causa daño de tu afinidad elemental"
         },
         "Lightning": {
           "name": "Relámpago",
-          "condition": "When you cast a spell that deals damage of your elemental affinity"
+          "condition": "Cuando lanzas un conjuro que causa daño de tu afinidad elemental"
         },
         "Poison": {
           "name": "Veneno",
-          "condition": "When you cast a spell that deals damage of your elemental affinity"
+          "condition": "Cuando lanzas un conjuro que causa daño de tu afinidad elemental"
         }
       }
     },
@@ -1812,7 +1812,7 @@
         },
         "Elemental Save": {
           "name": "Salvación Elemental",
-          "condition": "When you deal Elemental Strike damage"
+          "condition": "Cuando causas daño de Golpe Elemental"
         },
         "Activate Attunement": {
           "name": "Activar Sintonización"
@@ -1842,11 +1842,11 @@
       "activities": {
         "Destructive Stride": {
           "name": "Zancada Destructiva",
-          "condition": "When you use your Step of the Wind"
+          "condition": "Cuando usas tu Paso del Viento"
         },
         "Empowered Strike": {
           "name": "Golpe Potenciado",
-          "condition": "Once on each of your turns when you hit with an Unarmed Strike"
+          "condition": "Una vez en cada uno de tus turnos cuando aciertas con un Ataque sin Armas"
         },
         "Damage Resistance": {
           "name": "Resistencia al Daño",
@@ -1900,7 +1900,7 @@
       "description": "<p>Puedes añadir tu modificador por Inteligencia a una tirada de daño de cualquier conjuro de Evocación de mago que lances. El bonificador al daño se aplica a una tirada de daño del conjuro, no a múltiples tiradas.</p><section class=\"secret\" id=\"secret-3cdT0RlurgG5XV4o\"><p><strong>Nota Foundry</strong></p><p>Puedes añadas tu Intelligence modificador al conjuro's Situational Bonificación en el/la daño dialog o uso Este rasgo's <strong>Daño</strong> activity que allows Tú/Usted a select el/la type en el/la daño dialog.</p></section>",
       "activities": {
         "damage": {
-          "condition": "Whenever you cast a Wizard spell from the Evocation school"
+          "condition": "Siempre que lanzas un conjuro de Mago de la escuela de Evocación"
         }
       }
     },
@@ -1910,7 +1910,7 @@
       "activities": {
         "Empowered Spell": {
           "name": "Conjuro Potenciado",
-          "condition": "When you roll damage for a spell"
+          "condition": "Cuando tiras el daño de un conjuro"
         }
       }
     },
@@ -1929,7 +1929,7 @@
       "activities": {
         "Poison": {
           "name": "Veneno",
-          "condition": "When you deal Sneak Attack damage"
+          "condition": "Cuando causas daño de Ataque Furtivo"
         }
       }
     },
@@ -1953,7 +1953,7 @@
       "effects": {
         "Evasive AC": {
           "name": "CA Evasiva",
-          "description": "<p>Your AC is increased by one roll of your Superiority Die until the start of your next turn.</p>"
+          "description": "<p>Tu CA aumenta en una tirada de tu Dado de Supremacía hasta el inicio de tu siguiente turno.</p>"
         }
       }
     },
@@ -1985,7 +1985,7 @@
       "effects": {
         "Exceptionally Trained": {
           "name": "Excepcionalmente Entrenado",
-          "description": "<p>Whenever the Companion hits with an attack roll and deals damage, it can deal your choice of Force damage or its normal damage type.</p>"
+          "description": "<p>Siempre que el Compañero acierta con una tirada de ataque y causa daño, puede causar, a tu elección, daño de Fuerza o su tipo de daño normal.</p>"
         }
       }
     },
@@ -2008,7 +2008,7 @@
       "activities": {
         "Extended Spell": {
           "name": "Conjuro Extendido",
-          "condition": "When you cast a spell that has a duration of 1 minute or longer"
+          "condition": "Cuando lanzas un conjuro que tiene una duración de 1 minuto o más"
         }
       }
     },
@@ -2290,7 +2290,7 @@
       "effects": {
         "Water Breathing & Swim Speed": {
           "name": "Respiración Acuática y Velocidad de Natación",
-          "description": "<p>You can breathe underwater, and you gain a Swim Speed equal to your Speed.</p>"
+          "description": "<p>Puedes respirar bajo el agua y obtienes una Velocidad de Nado igual a tu Velocidad.</p>"
         }
       }
     },
@@ -2300,7 +2300,7 @@
       "activities": {
         "Protect": {
           "name": "Proteger",
-          "condition": "When any creature whose name is on the page is reduced to 0 Hit Points but not killed outright"
+          "condition": "Cuando cualquier criatura cuyo nombre esté en la página es reducida a 0 Puntos de Golpe pero no muere de inmediato"
         },
         "Write Name": {
           "name": "Escribir Nombre"
@@ -2340,7 +2340,7 @@
         "Glorious Defense": {
           "name": "Defensa Gloriosa",
           "roll": "AC Bonus",
-          "condition": "When you or another creature you can see within 10 feet of you is hit by an attack roll"
+          "condition": "Cuando tú u otra criatura que puedas ver a 3 m (10 pies) o menos de ti sois alcanzados por una tirada de ataque"
         }
       }
     },
@@ -2349,13 +2349,13 @@
       "description": "<p>Cuando aciertas a una criatura con una tirada de ataque, puedes gastar un Dado de Supremacía para intentar provocar al objetivo a que te ataque. Añade el [[/damage @scale.battle-master.superiority.die]]{Dado de Supremacía} a la tirada de daño del ataque. El objetivo debe superar una tirada de salvación de Sabiduría o tendrá Desventaja en las tiradas de ataque contra objetivos que no seas tú hasta el final de tu siguiente turno.</p><section class=\"secret\" id=\"secret-BS37R5kndzjT5lCr\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye actividades para salvar contra tu <strong>Strength</strong> o <strong>Dexterity</strong>. Puedes usar la tirada de daño en línea para el daño adicional o la actividad <strong>Damage</strong>.</p><p>La actividad <strong>Damage</strong> te permite seleccionar el tipo de daño que debe infligir en el diálogo de tirada.</p></section>",
       "activities": {
         "save": {
-          "condition": "When you hit a creature with an attack roll"
+          "condition": "Cuando aciertas a una criatura con una tirada de ataque"
         }
       },
       "effects": {
         "Goaded": {
           "name": "Provocado",
-          "description": "<p>The target has Disadvantage on attack rolls against targets other than you until the end of your next turn.</p>"
+          "description": "<p>El objetivo tiene Desventaja en las tiradas de ataque contra objetivos que no seas tú hasta el final de tu siguiente turno.</p>"
         }
       }
     },
@@ -2406,11 +2406,11 @@
       "activities": {
         "Guide Yourself": {
           "name": "Guiarte a Ti Mismo",
-          "condition": "When you miss with an attack roll"
+          "condition": "Cuando fallas con una tirada de ataque"
         },
         "Guide Another Creature": {
           "name": "Guiar a Otra Criatura",
-          "condition": "When you or a creature within 30 feet of you misses with an attack roll"
+          "condition": "Cuando tú o una criatura a 9 m (30 pies) o menos de ti falláis con una tirada de ataque"
         }
       }
     },
@@ -2419,7 +2419,7 @@
       "description": "<p>Cuando golpees a una criatura con un ataque desarmado, puedes gastar 1 punto de foco para causar daño necrótico adicional igual a un tirón de tu Dado de Artes Marciales + tu modificador por Sabiduría.</p><p>Puedes usar este rasgo solo una vez por turno.</p>",
       "activities": {
         "damage": {
-          "condition": "Once per turn when you hit a creature with an Unarmed Strike and deal damage"
+          "condition": "Una vez por turno cuando aciertas a una criatura con un Ataque sin Armas y causas daño"
         }
       }
     },
@@ -2449,7 +2449,7 @@
         },
         "Patient Defense": {
           "name": "Defensa Paciente",
-          "condition": "When you expend a Focus Point to use Patient Defense"
+          "condition": "Cuando gastas un Punto de Concentración para usar Defensa Paciente"
         }
       }
     },
@@ -2459,7 +2459,7 @@
       "activities": {
         "Heightened Spell": {
           "name": "Conjuro Intensificado",
-          "condition": "When you cast a spell that forces a creature to make a saving throw"
+          "condition": "Cuando lanzas un conjuro que obliga a una criatura a hacer una tirada de salvación"
         }
       }
     },
@@ -2502,7 +2502,7 @@
       "description": "<p>En el nivel 3, obtienes una de las siguientes características de tu elección.</p><p><strong>Asesino de Colosos.</strong> Tu tenacidad puede desgastar a los enemigos más poderosos. Cuando golpees a una criatura con un ataque con arma, la criatura recibe 1d8 de daño adicional si está por debajo de sus puntos de golpe máximos. Solo puedes causar este daño adicional una vez por turno.</p><p><strong>Asesino de Gigantes.</strong> Cuando una criatura Grande o más grande a 1,5 metros de ti te golpee o falle con un ataque, puedes usar tu reacción para atacar a esa criatura inmediatamente después de su ataque, siempre que puedas ver la criatura.</p><p><strong>Asesino de Hordas.</strong> Una vez en cada uno de tus turnos cuando hagas un ataque con arma, puedes hacer otro ataque con la misma arma contra una criatura diferente que esté a 1,5 metros del objetivo original y dentro del alcance de tu arma.</p><section class=\"secret\" id=\"secret-I2q5Nm7g6mkLjH5Y\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una <strong>Colossus Slayer</strong> activity para el/ladicional daño. Puedes select el/la correct daño type en el/la roll dialog.</p><p>Por el/la <strong>Horde Breaker</strong> option simply make another ataque.</p></section>",
       "activities": {
         "damage": {
-          "condition": "Once per turn when you hit a creature with a weapon"
+          "condition": "Una vez por turno cuando aciertas a una criatura con un arma"
         }
       }
     },
@@ -2512,7 +2512,7 @@
       "activities": {
         "Hurl Through Hell": {
           "name": "Arrastrar por el Infierno",
-          "condition": "Once per turn when you hit a creature with an attack roll"
+          "condition": "Una vez por turno cuando aciertas a una criatura con una tirada de ataque"
         },
         "Regain Use": {
           "name": "Recuperar Uso"
@@ -2535,7 +2535,7 @@
         },
         "Phantasmal Creatures": {
           "title": "Criaturas Fantasmales",
-          "hint": "You always have the Summon Beast and Summon Fey spells prepared."
+          "hint": "Siempre tienes preparados los conjuros Invocar Bestia e Invocar Feérico."
         }
       }
     },
@@ -2554,7 +2554,7 @@
       "activities": {
         "Interpose": {
           "name": "Interponer",
-          "condition": "When a creature hits you with an attack roll"
+          "condition": "Cuando una criatura te acierta con una tirada de ataque"
         },
         "Restore Use": {
           "name": "Restaurar Uso"
@@ -2571,7 +2571,7 @@
       "activities": {
         "Potent Spellcasting: Heal": {
           "name": "Lanzamiento Potente: Curar",
-          "condition": "When you cast a Cleric cantrip and deal damage to a creature with it"
+          "condition": "Cuando lanzas un truco de Clérigo y causas daño a una criatura con él"
         }
       }
     },
@@ -2589,11 +2589,11 @@
       "effects": {
         "Staggered": {
           "name": "Tambaleado",
-          "description": "<p>Hit by a staggering blow, this character has Disadvantage on the next Saving Throw it makes, and it can't make Opportunity Attacks until the start of the attacker's next turn.</p>"
+          "description": "<p>Alcanzado por un golpe tambaleante, este personaje tiene Desventaja en la siguiente Tirada de Salvación que haga y no puede hacer Ataques de Oportunidad hasta el inicio del siguiente turno del atacante.</p>"
         },
         "Sundered": {
           "name": "Demolido",
-          "description": "<p>Hit by a sundering blow, the next attack roll made by another creature against the target gains a +5 bonus to the roll.</p>"
+          "description": "<p>Alcanzado por un golpe demoledor, la siguiente tirada de ataque que haga otra criatura contra el objetivo obtiene una bonificación de +5 a la tirada.</p>"
         }
       }
     },
@@ -2633,7 +2633,7 @@
       "activities": {
         "Healing Illusion": {
           "name": "Ilusión Curativa",
-          "condition": "When the illusion ends"
+          "condition": "Cuando la ilusión termina"
         }
       }
     },
@@ -2690,7 +2690,7 @@
       "effects": {
         "Innate Sorcery": {
           "name": "Hechicería Innata",
-          "description": "<p>The spell save DC of your Sorcerer spells increases by 1. (Automated)</p><p>You have Advantage on the attack rolls of Sorcerer spells you cast. (Not automated)</p>"
+          "description": "<p>La CD de salvación de tus conjuros de Hechicero aumenta en 1. (Automatizado)</p><p>Tienes Ventaja en las tiradas de ataque de los conjuros de Hechicero que lanzas. (No automatizado)</p>"
         }
       }
     },
@@ -2700,7 +2700,7 @@
       "activities": {
         "Move": {
           "name": "Mover",
-          "condition": "When an enemy you can see ends it turns within 5 feet o fyou"
+          "condition": "Cuando un enemigo que puedas ver termina su turno a 1,5 m (5 pies) o menos de ti"
         }
       }
     },
@@ -2884,15 +2884,15 @@
       "description": "<blockquote><p>Prerrequisito: Brujo de Nivel 9 o superior, invocación @UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactBlade0]{Pacto de la Hoja}</p></blockquote><p>Una vez por turno, cuando aciertas a una criatura con tu arma de pacto, puedes infligir a la criatura 1d6 de daño Necrótico, Psíquico o Radiante adicional (a tu elección), y puedes gastar uno de tus Dados de Golpe para tirarlo y recuperar una cantidad de Puntos de Golpe igual al resultado más tu modificador por Constitución (mínimo de 1 Punto de Golpe).</p><section class=\"secret\" id=\"secret-1Hta9I4donszrwIQ\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Damage</strong> te permite elegir el tipo de daño en el diálogo de la tirada. Recordará tu elección en adelante.</p><p>Las actividades <strong>Heal (Largest Hit Die)</strong> y <strong>Smallest Hit Die</strong> gastan el Dado de Golpe correspondiente y proporcionan una tirada de curación con tu modificador por Constitución incluido. Cuál elijas solo importa si eres multiclase con varios tipos de Dado de Golpe.</p></section>",
       "activities": {
         "damage": {
-          "condition": "Once per turn when you hit a creature with your pact weapon"
+          "condition": "Una vez por turno cuando aciertas a una criatura con tu arma de pacto"
         },
         "Heal (Largest Hit Die)": {
           "name": "Curar (Dado de Golpe Mayor)",
-          "condition": "Once per turn when you hit a creature with your pact weapon"
+          "condition": "Una vez por turno cuando aciertas a una criatura con tu arma de pacto"
         },
         "Heal (Smallest Hit Die)": {
           "name": "Curar (Dado de Golpe Menor)",
-          "condition": "Once per turn when you hit a creature with your pact weapon"
+          "condition": "Una vez por turno cuando aciertas a una criatura con tu arma de pacto"
         }
       }
     },
@@ -2929,7 +2929,7 @@
       "effects": {
         "Living Legend: Charismatic": {
           "name": "Leyenda Viviente: Carismático",
-          "description": "<p>You are blessed with an otherworldly presence and have Advantage on all Charisma checks.</p>"
+          "description": "<p>Estás bendecido con una presencia sobrenatural y tienes Ventaja en todas las pruebas de Carisma.</p>"
         }
       }
     },
@@ -2938,7 +2938,7 @@
       "description": "<p>Obtienes una mejor afinidad con una de las fases lunares que elijas. Siempre que uses tu Forma Estelar y elijas la fase lunar, obtienes ese beneficio adicional mientras la forma esté activa:</p><p><strong>Luna Nueva.</strong> Tienes ventaja en chequeos de Destreza (Sigilo).</p><p><strong>Luna Llena.</strong> Tu velocidad de caminar aumenta en 3 metros.</p><section class=\"secret\" id=\"secret-6Sw7VQQgJ2Ghklrl\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye unan activity para dealing el/la Radiant damage.</p></section>",
       "activities": {
         "damage": {
-          "condition": "Once per turn when you hit a target with a Wild Shape form's attack"
+          "condition": "Una vez por turno cuando aciertas a un objetivo con el ataque de una forma de Forma Salvaje"
         }
       }
     },
@@ -2978,7 +2978,7 @@
         "Maneuver": {
           "name": "Maniobra",
           "roll": "Attack Bonus",
-          "condition": "When you hit a creature with an attack roll"
+          "condition": "Cuando aciertas a una criatura con una tirada de ataque"
         }
       }
     },
@@ -3021,7 +3021,7 @@
       "effects": {
         "Dexterous Attacks & Martial Arts Damage": {
           "name": "Ataques Diestros y Daño de Artes Marciales",
-          "description": "<p><strong>Martial Arts Die.</strong> You can roll [[lookup @scale.monk.die]] in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.</p><p><strong>Dexterous Attacks.</strong> You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.</p><p></p>",
+          "description": "<p><strong>Dado de Artes Marciales.</strong> Puedes tirar [[lookup @scale.monk.die]] en lugar del daño normal de tu Ataque sin Armas o de tus armas de Monje. Este dado cambia a medida que ganas niveles de Monje, como se muestra en la columna Artes Marciales de la tabla de Rasgos del Monje.</p><p><strong>Ataques Diestros.</strong> Puedes usar tu modificador de Destreza en lugar de tu modificador de Fuerza para las tiradas de ataque y de daño de tus Ataques sin Armas y armas de Monje. Además, cuando usas la opción de Agarrar o Empujar de tu Ataque sin Armas, puedes usar tu modificador de Destreza en lugar del de Fuerza para determinar la CD de salvación.</p><p></p>",
           "changes": {
             "name": "{} (Martial Arts)"
           }
@@ -3049,7 +3049,7 @@
       "description": "<p>Cuando golpees a una criatura con un ataque con arma, puedes gastar un Dado de Supremacía para intentar asustar al objetivo. Añades el Dado de Supremacía a la tirada de daño del ataque, y el objetivo debe hacer una tirada de salvación de Sabiduría. En un fallo, el objetivo tiene la condición Asustado hasta el final de tu próximo turno.</p><section class=\"secret\" id=\"secret-sPNAs2sYsogCvvxn\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una <strong>Strength Save</strong> activity y a <strong>Destreza Save</strong> activity que consume a uso de tu Superiority Die.</p><p>The <strong>Daño</strong> activity allows Tú/Usted a select el/la type de daño it debería deal en el/la roll dialog.</p></section>",
       "activities": {
         "save": {
-          "condition": "When you hit a creature with an attack roll"
+          "condition": "Cuando aciertas a una criatura con una tirada de ataque"
         }
       },
       "effects": {
@@ -3201,7 +3201,7 @@
         },
         "Recover Spell Slots": {
           "name": "Recuperar Espacios de Conjuro",
-          "condition": "When you finish a Short Rest"
+          "condition": "Cuando terminas un Descanso Corto"
         }
       }
     },
@@ -3370,15 +3370,15 @@
       "activities": {
         "Addle": {
           "name": "Confundir",
-          "condition": "Whenever you hit a creature with an attack granted by your Flurry of Blows"
+          "condition": "Siempre que aciertas a una criatura con un ataque otorgado por tu Ráfaga de Golpes"
         },
         "Push": {
           "name": "Empujar",
-          "condition": "Whenever you hit a creature with an attack granted by your Flurry of Blows"
+          "condition": "Siempre que aciertas a una criatura con un ataque otorgado por tu Ráfaga de Golpes"
         },
         "Topple": {
           "name": "Derribar",
-          "condition": "Whenever you hit a creature with an attack granted by your Flurry of Blows"
+          "condition": "Siempre que aciertas a una criatura con un ataque otorgado por tu Ráfaga de Golpes"
         }
       },
       "effects": {
@@ -3409,11 +3409,11 @@
       "activities": {
         "Second+ Use": {
           "name": "Segundo+ Uso",
-          "condition": "When you cast a Wizard spell with a spell slot of levels 1-5 that deals damage"
+          "condition": "Cuando lanzas un conjuro de Mago con un espacio de conjuro de nivel 1-5 que causa daño"
         },
         "First Use": {
           "name": "Primer Uso",
-          "condition": "When you cast a Wizard spell with a spell slot of levels 1-5 that deals damage"
+          "condition": "Cuando lanzas un conjuro de Mago con un espacio de conjuro de nivel 1-5 que causa daño"
         }
       }
     },
@@ -3510,7 +3510,7 @@
       "description": "<p>Cuando otra criatura te cause daño con un ataque cuerpo a cuerpo, puedes usar tu reacción y gastar un Dado de Supremacía para reducir el daño por la cantidad que obtengas al tirar tu Dado de Supremacía + tu modificador por Destreza.</p><section class=\"secret\" id=\"secret-0wY3O9dAMQDKj066\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una Healing Reaction activity que puede usarse a retroactively recover el/la received damage.</p></section>",
       "activities": {
         "heal": {
-          "condition": "When another creature damages you with a melee attack roll"
+          "condition": "Cuando otra criatura te causa daño con una tirada de ataque cuerpo a cuerpo"
         }
       }
     },
@@ -3563,7 +3563,7 @@
       "effects": {
         "Peerless Athlete": {
           "name": "Atleta Sin Par",
-          "description": "<p>For 1 hour, you have Advantage on Strength (Athletics) and Dexterity (Acrobatics) checks, and the distance of your Long and High Jumps increases by 10 feet (this extra distance costs movement as normal).</p>"
+          "description": "<p>Durante 1 hora, tienes Ventaja en las pruebas de Fuerza (Atletismo) y de Destreza (Acrobacias), y la distancia de tus Saltos de Longitud y de Altura aumenta en 3 m (10 pies) (esta distancia adicional cuesta movimiento como de costumbre).</p>"
         }
       }
     },
@@ -3573,7 +3573,7 @@
       "activities": {
         "utility": {
           "roll": "Bardic Inspiration",
-          "condition": "When you fail an ability check or attack roll"
+          "condition": "Cuando fallas una prueba de característica o una tirada de ataque"
         }
       }
     },
@@ -3587,7 +3587,7 @@
       "activities": {
         "Recharge Rage on Initiative": {
           "name": "Recargar Ira en Iniciativa",
-          "condition": "When you roll initiative"
+          "condition": "Cuando tiras iniciativa"
         }
       }
     },
@@ -3609,7 +3609,7 @@
       "activities": {
         "Hand of Harm": {
           "name": "Mano del Daño",
-          "condition": "Once per turn when you hit a creature with an Unarmed Strike and deal damage"
+          "condition": "Una vez por turno cuando aciertas a una criatura con un Ataque sin Armas y causas daño"
         },
         "Healing Hand": {
           "name": "Mano Sanadora"
@@ -3635,14 +3635,14 @@
       "activities": {
         "Falcon": {
           "name": "Halcón",
-          "chatFlavor": "You gain a Fly Speed equal to your Speed if you aren't wearing any armor."
+          "chatFlavor": "Obtienes una Velocidad de Vuelo igual a tu Velocidad si no llevas ninguna armadura."
         },
         "Lion": {
           "name": "León"
         },
         "Ram": {
           "name": "Carnero",
-          "condition": "When you a Large or smaller creature with a melee attack"
+          "condition": "Cuando aciertas a una criatura Grande o más pequeña con un ataque cuerpo a cuerpo"
         }
       },
       "effects": {
@@ -3661,7 +3661,7 @@
       "activities": {
         "utility": {
           "roll": "Bonus",
-          "condition": "When you miss with an attack roll"
+          "condition": "Cuando fallas con una tirada de ataque"
         }
       }
     },
@@ -3725,7 +3725,7 @@
       "activities": {
         "Project Ward": {
           "name": "Proyectar Guardia",
-          "condition": "When a creature that you can see within 30 feet of yourself takes damage"
+          "condition": "Cuando una criatura que puedas ver a 9 m (30 pies) o menos de ti recibe daño"
         }
       }
     },
@@ -3754,19 +3754,19 @@
       "activities": {
         "Protective Field": {
           "name": "Campo Protector",
-          "condition": "When you or another creature you can see within 30 feet takes damage"
+          "condition": "Cuando tú u otra criatura que puedas ver a 9 m (30 pies) o menos recibís daño"
         },
         "Psionic Strike": {
           "name": "Golpe Psiónico",
-          "condition": "Once on each of your turns, immediately after you hit a target within 30 feet of yourself with an attack and deal damage to it with a weapon"
+          "condition": "Una vez en cada uno de tus turnos, inmediatamente después de acertar a un objetivo a 9 m (30 pies) o menos de ti con un ataque y causarle daño con un arma"
         },
         "Telekinetic Movement": {
           "name": "Movimiento Telequinético",
-          "condition": "One target within 30 feet, if an object it must be Large or smaller, if a creature, it must be willing"
+          "condition": "Un objetivo a 9 m (30 pies) o menos; si es un objeto debe ser Grande o más pequeño, si es una criatura debe estar dispuesta"
         },
         "Telekinetic Movement Using Psionic Energy": {
           "name": "Movimiento Telequinético Usando Energía Psiónica",
-          "condition": "One target within 30 feet, if an object it must be Large or smaller, if a creature, it must be willing"
+          "condition": "Un objetivo a 9 m (30 pies) o menos; si es un objeto debe ser Grande o más pequeño, si es una criatura debe estar dispuesta"
         }
       }
     },
@@ -3818,7 +3818,7 @@
       "effects": {
         "Veiled": {
           "name": "Velado",
-          "description": "<p>You gain the Invisible condition for 1 hour or until you dismiss this effect (no action required). This invisibility ends early immediately after you deal damage to a creature or you force a creature to make a saving throw.</p>"
+          "description": "<p>Obtienes el estado Invisible durante 1 hora o hasta que disipes este efecto (no requiere acción). Esta invisibilidad termina antes inmediatamente después de que causes daño a una criatura o de que obligues a una criatura a hacer una tirada de salvación.</p>"
         }
       }
     },
@@ -3827,7 +3827,7 @@
       "description": "<p>Cuando golpees a una criatura con un ataque con arma, puedes gastar un Dado de Supremacía para intentar empujar al objetivo. Añades el Dado de Supremacía a la tirada de daño del ataque, y si el objetivo es Grande o más pequeño, debe hacer una tirada de salvación de Fuerza. En un fallo, empujas al objetivo hasta 4,5 metros lejos de ti.</p><section id=\"secret-S6d1XbWlRjPp1t0t\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una <strong>Strength Save</strong> activity y a <strong>Destreza Save</strong> activity que consume a uso de tu Superiority Die.</p><p>The <strong>Daño</strong> activity allows Tú/Usted a select el/la type de daño it debería deal en el/la roll dialog.</p></section>",
       "activities": {
         "save": {
-          "condition": "When you hit a creature with an attack roll"
+          "condition": "Cuando aciertas a una criatura con una tirada de ataque"
         }
       }
     },
@@ -3837,7 +3837,7 @@
       "activities": {
         "Quickened Spell": {
           "name": "Conjuro Acelerado",
-          "condition": "When you cast a spell that has a casting time of an action"
+          "condition": "Cuando lanzas un conjuro que tiene un tiempo de lanzamiento de una acción"
         }
       }
     },
@@ -3847,11 +3847,11 @@
       "activities": {
         "End Vibrations": {
           "name": "Finalizar Vibraciones",
-          "condition": "When you take the Attack action on your turn"
+          "condition": "Cuando realizas la acción de Atacar en tu turno"
         },
         "Instill Vibrations": {
           "name": "Infundir Vibraciones",
-          "condition": "When you hit a creature with an Unarmed Strike"
+          "condition": "Cuando aciertas a una criatura con un Ataque sin Armas"
         }
       },
       "effects": {
@@ -3888,7 +3888,7 @@
       "effects": {
         "Rage": {
           "name": "Furia",
-          "description": "<p><strong>Damage Resistance.</strong> You have Resistance to Bludgeoning, Piercing, and Slashing damage.</p><p><strong>Rage Damage.</strong> When you make an attack using Strength—with either a weapon or an Unarmed Strike—and deal damage to the target, you gain a bonus to the damage that increases as you gain levels as a Barbarian, as shown in the Rage Damage column of the Barbarian Features table.</p><p><strong>Strength Advantage.</strong> You have Advantage on Strength checks and Strength saving throws.</p>"
+          "description": "<p><strong>Resistencia al Daño.</strong> Tienes Resistencia al daño Contundente, Perforante y Cortante.</p><p><strong>Daño de Furia.</strong> Cuando haces un ataque usando Fuerza —con un arma o un Ataque sin Armas— e infliges daño al objetivo, obtienes una bonificación al daño que aumenta a medida que ganas niveles de Bárbaro, como se muestra en la columna Daño de Furia de la tabla de Rasgos del Bárbaro.</p><p><strong>Ventaja en Fuerza.</strong> Tienes Ventaja en las pruebas de Fuerza y en las tiradas de salvación de Fuerza.</p>"
         }
       }
     },
@@ -3899,17 +3899,17 @@
         "Revivification": {
           "name": "Revivificación",
           "roll": "Barbarian Level",
-          "condition": "When a creature within 30 feet of you would drop to 0 Hit Points"
+          "condition": "Cuando una criatura a 9 m (30 pies) o menos de ti quedaría reducida a 0 Puntos de Golpe"
         },
         "Rage of the Gods": {
           "name": "Furia de los Dioses",
-          "condition": "When you activate your Rage"
+          "condition": "Cuando activas tu Furia"
         }
       },
       "effects": {
         "Rage of the Gods": {
           "name": "Furia de los Dioses",
-          "description": "<p>While in this form, you gain the benefits below.</p><p><strong>Flight.</strong> You have a Fly Speed equal to your Speed and can hover.</p><p><strong>Resistance.</strong> You have Resistance to Necrotic, Psychic, and Radiant damage.</p><p><strong>Revivification.</strong> When a creature within 30 feet of you would drop to 0 Hit Points, you can take a Reaction to expend a use of your Rage to instead change the target's Hit Points to a number equal to your Barbarian level.</p>"
+          "description": "<p>Mientras estés en esta forma, obtienes los beneficios de abajo.</p><p><strong>Vuelo.</strong> Tienes una Velocidad de Vuelo igual a tu Velocidad y puedes flotar.</p><p><strong>Resistencia.</strong> Tienes Resistencia al daño Necrótico, Psíquico y Radiante.</p><p><strong>Revivificación.</strong> Cuando una criatura a 9 m (30 pies) o menos de ti quedaría reducida a 0 Puntos de Golpe, puedes usar una Reacción para gastar un uso de tu Furia y, en su lugar, cambiar los Puntos de Golpe del objetivo a un número igual a tu nivel de Bárbaro.</p>"
         }
       }
     },
@@ -3933,7 +3933,7 @@
         },
         "Rage of the Wolf": {
           "name": "Furia del Lobo",
-          "description": "<p>Your allies have Advantage on attack rolls against any enemy of yours within 5 feet of you.</p>"
+          "description": "<p>Tus aliados tienen Ventaja en las tiradas de ataque contra cualquier enemigo tuyo que esté a 1,5 m (5 pies) o menos de ti.</p>"
         }
       }
     },
@@ -4045,17 +4045,17 @@
       "activities": {
         "Rend Mind (Free)": {
           "name": "Desgarrar Mente (Gratis)",
-          "condition": "When you deal Sneak Attack damage with your Psychic Blades"
+          "condition": "Cuando causas daño de Ataque Furtivo con tus Hojas Psíquicas"
         },
         "Rend Mind": {
           "name": "Desgarrar la Mente",
-          "condition": "When you deal Sneak Attack damage with your Psychic Blades"
+          "condition": "Cuando causas daño de Ataque Furtivo con tus Hojas Psíquicas"
         }
       },
       "effects": {
         "Rend Mind": {
           "name": "Desgarrar la Mente",
-          "description": "<p>The target has the Stunned condition for 1 minute. The Stunned target repeats the save at the end of each of its turns, ending the effect on itself on a success.</p>"
+          "description": "<p>El objetivo tiene el estado Aturdido durante 1 minuto. El objetivo Aturdido repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito.</p>"
         }
       }
     },
@@ -4070,7 +4070,7 @@
       "effects": {
         "Repelling Blast": {
           "name": "Explosión Repelente",
-          "description": "<p>Choose one of your known Warlock cantrips that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 feet straight away from you.</p>",
+          "description": "<p>Elige uno de los trucos de Brujo que conoces que requiera una tirada de ataque. Cuando aciertas a una criatura Grande o más pequeña con ese truco, puedes empujar a la criatura hasta 3 m (10 pies) en línea recta alejándola de ti.</p>",
           "changes": {
             "name": ", Repelling"
           }
@@ -4083,7 +4083,7 @@
       "activities": {
         "Prevent Advantage/Disadvantage": {
           "name": "Prevenir Ventaja/Desventaja",
-          "condition": "When a creature you can see within 60 feet is about to roll d20 with Advantage/Disadvantage"
+          "condition": "Cuando una criatura que puedas ver a 18 m (60 pies) o menos está a punto de tirar un d20 con Ventaja/Desventaja"
         }
       }
     },
@@ -4097,7 +4097,7 @@
       "activities": {
         "Retaliate": {
           "name": "Retaliar",
-          "condition": "When you take damage from a creature within 5 feet of you"
+          "condition": "Cuando recibes daño de una criatura a 1,5 m (5 pies) o menos de ti"
         }
       }
     },
@@ -4130,7 +4130,7 @@
       "activities": {
         "Riposte Damage": {
           "name": "Daño de Estocada",
-          "condition": "When a creature misses you with a melee attack roll"
+          "condition": "Cuando una criatura falla contra ti con una tirada de ataque cuerpo a cuerpo"
         }
       }
     },
@@ -4160,7 +4160,7 @@
           "hint": "Aprendiste varios idiomas en las comunidades donde ejerciste tus talentos pícaros. Conoces la Jerga de Ladrones y otro idioma de tu elección, que puedes elegir de los idiomas a continuación."
         },
         "FiaNLovfP6tnY4tD": {
-          "hint": "Your cunning mind is exceptionally difficult to control. You gain proficiency in Wisdom and Charisma saving throws."
+          "hint": "Tu mente astuta es excepcionalmente difícil de controlar. Obtienes competencia en las tiradas de salvación de Sabiduría y Carisma."
         },
         "Weapon Mastery": {
           "title": "Maestría con Armas"
@@ -4233,7 +4233,7 @@
       "description": "<p>Cuando tú o un aliado a 18 m (60 pies) o menos de ti estáis a punto de hacer una Tirada de Salvación contra la Muerte, puedes desatar energía radiante para salvar a la criatura. La criatura recupera Puntos de Golpe iguales a la mitad de su máximo de Puntos de Golpe y puede terminar el estado de &amp;Reference[Prone] sobre sí misma. Cada criatura de tu elección a 9 m (30 pies) o menos de la criatura sufre daño Radiante igual a 2d8 más tu modificador por Carisma, y cada una tiene el estado de &amp;Reference[Blinded] hasta el final del turno actual.</p><p>Una vez usas este rasgo, no puedes volver a usarlo hasta que termines un Descanso Largo.</p><section id=\"secret-fOSDxWyY7FdboIM7\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>La curación de hasta la mitad de su máximo de Puntos de Golpe no está automatizada, pero la actividad <strong>Damage</strong> incluye la plantilla de objetivo y la tirada de daño correspondientes. También incluye un Efecto Activo que aplica el estado de Cegado.</p></section>",
       "activities": {
         "damage": {
-          "condition": "When you or an ally within 60 feet of you is about to make a Death Saving Throw"
+          "condition": "Cuando tú o un aliado a 18 m (60 pies) o menos de ti está a punto de hacer una Tirada de Salvación contra la Muerte"
         }
       },
       "effects": {
@@ -4256,7 +4256,7 @@
       "activities": {
         "Seeking Spell": {
           "name": "Conjuro Buscador",
-          "condition": "When you make an attack roll for a spell and miss"
+          "condition": "Cuando haces una tirada de ataque de un conjuro y fallas"
         }
       }
     },
@@ -4294,7 +4294,7 @@
       "activities": {
         "Shadowy Dodge": {
           "name": "Esquiva Sombría",
-          "condition": "When a creature makes an attack roll against you"
+          "condition": "Cuando una criatura hace una tirada de ataque contra ti"
         }
       }
     },
@@ -4319,7 +4319,7 @@
       "effects": {
         "Signature": {
           "name": "Firma",
-          "description": "<p>Choose two level 3 spells in your spellbook as your signature spells. You always have these spells prepared, and you can cast each of them once at level 3 without expending a spell slot. When you do so, you can’t cast them in this way again until you finish a Short or Long Rest. To cast either spell at a higher level, you must expend a spell slot.</p>",
+          "description": "<p>Elige dos conjuros de nivel 3 de tu libro de conjuros como tus conjuros distintivos. Siempre tienes estos conjuros preparados y puedes lanzar cada uno una vez a nivel 3 sin gastar un espacio de conjuro. Cuando lo haces, no puedes volver a lanzarlos de esta forma hasta que termines un Descanso Corto o Largo. Para lanzar cualquiera de los dos conjuros a un nivel superior, debes gastar un espacio de conjuro.</p>",
           "changes": {
             "name": ", Signature"
           }
@@ -4411,7 +4411,7 @@
         "Homing Strikes": {
           "name": "Golpes Rastreadores",
           "roll": "Psionic Bonus",
-          "condition": "Miss an Attack Roll with your Psychic Blades"
+          "condition": "Fallas una Tirada de Ataque con tus Hojas Psíquicas"
         },
         "Psychic Teleportation": {
           "name": "Teletransportación Psíquica",
@@ -4436,7 +4436,7 @@
         },
         "Psychic Blade": {
           "title": "Hoja Psíquica",
-          "hint": "You are granted a Psychic Blade which can be used for your Psychic Blades features."
+          "hint": "Se te concede una Hoja Psíquica que puedes usar para tus rasgos de Hojas Psíquicas."
         }
       }
     },
@@ -4471,13 +4471,13 @@
       "activities": {
         "Spell Thief": {
           "name": "Ladrón de Conjuros",
-          "condition": "Immediately after a creature casts a spell that targets you or includes you in its area of effect"
+          "condition": "Inmediatamente después de que una criatura lance un conjuro que te tenga por objetivo o te incluya en su área de efecto"
         }
       },
       "effects": {
         "Stolen Spell": {
           "name": "Conjuro Robado",
-          "description": "<p>This creature has had a spell stolen from it and cannot cast it for 8 hours.</p>"
+          "description": "<p>A esta criatura le han robado un conjuro y no puede lanzarlo durante 8 horas.</p>"
         }
       }
     },
@@ -4491,7 +4491,7 @@
       "activities": {
         "Mass Fear": {
           "name": "Miedo Masivo",
-          "condition": "When you use the Dreadful Strike effect"
+          "condition": "Cuando usas el efecto de Golpe Temible"
         }
       }
     },
@@ -4513,7 +4513,7 @@
         },
         "Chalice": {
           "name": "Cáliz",
-          "condition": "Whenever you cast a spell using a spell slot that restores Hit Points"
+          "condition": "Siempre que lanzas un conjuro usando un espacio de conjuro que restaura Puntos de Golpe"
         },
         "Dragon": {
           "name": "Dragón"
@@ -4525,7 +4525,7 @@
       "effects": {
         "Dragon Form": {
           "name": "Forma de Dragón",
-          "description": "<p>A constellation of a wise dragon appears on you. When you make an Intelligence or a Wisdom check or a Constitution saving throw to maintain Concentration, you can treat a roll of 9 or lower on the d20 as a 10.</p>"
+          "description": "<p>Una constelación de un dragón sabio aparece sobre ti. Cuando haces una prueba de Inteligencia o de Sabiduría, o una tirada de salvación de Constitución para mantener la Concentración, puedes tratar una tirada de 9 o menos en el d20 como un 10.</p>"
         },
         "Starry Form": {
           "name": "Forma Estelar"
@@ -4557,7 +4557,7 @@
       "effects": {
         "Taunted": {
           "name": "Provocado",
-          "description": "<p>This creature has Disadvantage on attack rolls against creatures other than you until the start of your next turn.</p>"
+          "description": "<p>Esta criatura tiene Desventaja en las tiradas de ataque contra criaturas que no seas tú hasta el inicio de tu siguiente turno.</p>"
         }
       }
     },
@@ -4580,7 +4580,7 @@
       "activities": {
         "Stroke of Luck": {
           "name": "Golpe de Suerte",
-          "condition": "When you fail a D20 Test"
+          "condition": "Cuando fallas una Prueba con d20"
         }
       }
     },
@@ -4597,7 +4597,7 @@
       "description": "<p>Cuando golpeas a otra criatura con un ataque con arma cuerpo a cuerpo, puedes gastar 1 punto de foco para intentar aturdir al objetivo. El objetivo debe superar una tirada de salvación de Constitución o queda aturdido hasta el final de tu próximo turno.</p><section class=\"secret\" id=\"secret-bfJBOqZfcoIiBtoP\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye el/la Saving Throw y a Stunned Efecto Activo que applies el/la Stunned status si they fail y a Slowed Efecto Activo para tracking que their velocidad is halved y que el/la next attack roll made against them has Ventaja si they succeed.</p></section>",
       "activities": {
         "save": {
-          "condition": "Once per turn when you hit a creature with a Monk weapon or an Unarmed Strike"
+          "condition": "Una vez por turno cuando aciertas a una criatura con un arma de Monje o un Ataque sin Armas"
         }
       },
       "effects": {
@@ -4615,7 +4615,7 @@
       "activities": {
         "Subtle Spell": {
           "name": "Conjuro Sutil",
-          "condition": "When you cast a spell"
+          "condition": "Cuando lanzas un conjuro"
         }
       }
     },
@@ -4633,7 +4633,7 @@
       "description": "<p>En el nivel 15, obtienes una de las siguientes características de tu elección. Tu elección debe mejorar una de las características que elegiste para tu rasgo Defensa del Cazador.</p><section id=\"secret-jojCvqn1dDjsyTzI\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo expend 3 Focus Points y incluye un Efecto Activo que aplicar el/la relevant Resistances.</p></section>",
       "activities": {
         "utility": {
-          "condition": "At the start of your turn"
+          "condition": "Al inicio de tu turno"
         }
       },
       "effects": {
@@ -4648,7 +4648,7 @@
       "activities": {
         "Resistances": {
           "name": "Resistencias",
-          "condition": "When you take damage"
+          "condition": "Cuando recibes daño"
         }
       },
       "effects": {
@@ -4721,7 +4721,7 @@
       "effects": {
         "Defy Death": {
           "name": "Desafiar a la Muerte",
-          "description": "<p><strong>Note:</strong> This effect does not modify the behavior of rolling an 18 or 19 on a Death Saving Throw.</p>"
+          "description": "<p><strong>Nota:</strong> Este efecto no modifica el comportamiento de sacar un 18 o un 19 en una Tirada de Salvación contra la Muerte.</p>"
         }
       }
     },
@@ -4735,7 +4735,7 @@
       "activities": {
         "utility": {
           "roll": "Bonus",
-          "condition": "When you make an Intelligence (History or Investigation) check or a Wisdom (Insight) check"
+          "condition": "Cuando haces una prueba de Inteligencia (Historia o Investigación) o de Sabiduría (Perspicacia)"
         }
       }
     },
@@ -4755,7 +4755,7 @@
         "Expend Second Wind": {
           "name": "Gastar Segundo Aliento",
           "roll": "Bonus",
-          "condition": "When you fail an ability check"
+          "condition": "Cuando fallas una prueba de característica"
         }
       }
     },
@@ -4774,7 +4774,7 @@
         "Initiative Bonus": {
           "name": "Bonificación a Iniciativa",
           "roll": "Bardic Inspiration",
-          "condition": "When rolling initiative and not Incapacitated."
+          "condition": "Al tirar iniciativa y sin estar Incapacitado."
         }
       }
     },
@@ -4787,7 +4787,7 @@
         },
         "Telekinetic Thrust": {
           "name": "Empuje Telequinético",
-          "condition": "When you deal damage to a target with your Psionic Strike"
+          "condition": "Cuando causas daño a un objetivo con tu Golpe Psiónico"
         },
         "Psi-Powered Leap Using Psionic Energy": {
           "name": "Salto Psiónico Usando Energía Psiónica"
@@ -4829,11 +4829,11 @@
       "effects": {
         "Third Eye: Darkvision": {
           "name": "Tercer Ojo: Visión en la Oscuridad",
-          "description": "<p>The Third Eye feature grants you Darkvision with a range of 120 feet.</p>"
+          "description": "<p>El rasgo Tercer Ojo te concede Visión en la Oscuridad con un alcance de 36 m (120 pies).</p>"
         },
         "Third Eye: Greater Comprehension": {
           "name": "Tercer Ojo: Comprensión Mayor",
-          "description": "<p>The Third Eye feature grants you the ability to read any language.</p>"
+          "description": "<p>El rasgo Tercer Ojo te concede la capacidad de leer cualquier idioma.</p>"
         },
         "See Invisibility": {
           "name": "Ver Invisibilidad"
@@ -4867,7 +4867,7 @@
       "effects": {
         "Thought Shield": {
           "name": "Escudo Mental",
-          "description": "<p>Your thoughts can’t be read by telepathy or other means unless you allow it. You also have Resistance to Psychic damage, and whenever a creature deals Psychic damage to you, that creature takes the same amount of damage that you take.</p>"
+          "description": "<p>Tus pensamientos no pueden ser leídos mediante telepatía u otros medios a menos que lo permitas. Además, tienes Resistencia al daño Psíquico y, siempre que una criatura te causa daño Psíquico, esa criatura recibe la misma cantidad de daño que recibes tú.</p>"
         }
       }
     },
@@ -4888,7 +4888,7 @@
         },
         "Decrease Exhaustion": {
           "name": "Disminuir Agotamiento",
-          "condition": "Whenever you finish a Short Rest"
+          "condition": "Siempre que terminas un Descanso Corto"
         }
       }
     },
@@ -4906,7 +4906,7 @@
       "effects": {
         "Trance of Order": {
           "name": "Trance del Orden",
-          "description": "<p>For the duration, attack rolls against you can’t benefit from Advantage, and whenever you make a D20 Test, you can treat a roll of 9 or lower on the d20 as a 10.</p>"
+          "description": "<p>Mientras dure, las tiradas de ataque contra ti no pueden beneficiarse de Ventaja y, siempre que hagas una Prueba con d20, puedes tratar una tirada de 9 o menos en el d20 como un 10.</p>"
         }
       }
     },
@@ -4916,7 +4916,7 @@
       "activities": {
         "Transmuted Spell": {
           "name": "Conjuro Transmutado",
-          "condition": "When you cast a spell that deals Acid, Cold, Fire, Lightning, Poison, or Thunder damage"
+          "condition": "Cuando lanzas un conjuro que causa daño de Ácido, Frío, Fuego, Relámpago, Veneno o Trueno"
         }
       }
     },
@@ -4962,7 +4962,7 @@
       "description": "<p>Cuando aciertas a una criatura con una tirada de ataque usando un arma o un Ataque sin Armas, puedes gastar un Dado de Supremacía y añadir el dado a la tirada de daño del ataque. Si el objetivo es Grande o más pequeño, debe superar una tirada de salvación de Fuerza o tendrá el estado de &amp;Reference[Prone].</p><section class=\"secret\" id=\"secret-QeXYRpr665AxyLvo\"><p><strong>Nota Foundry</strong></p><p>Este rasgo usará automáticamente el mayor de tu Fuerza/Destreza para la salvación.</p><p>El daño incluido en la salvación te permite seleccionar el tipo de daño que debe infligir en el diálogo de tirada. Recordará tu elección en adelante.</p></section>",
       "activities": {
         "save": {
-          "condition": "When you hit a creature with an attack roll"
+          "condition": "Cuando aciertas a una criatura con una tirada de ataque"
         }
       },
       "effects": {
@@ -4981,7 +4981,7 @@
       "activities": {
         "Twinned Spell": {
           "name": "Conjuro Gemelo",
-          "condition": "When you cast a spell that can be upcast to target an additional creature"
+          "condition": "Cuando lanzas un conjuro que puede potenciarse para tener por objetivo a una criatura adicional"
         }
       }
     },
@@ -5043,7 +5043,7 @@
       "activities": {
         "Recoil Save": {
           "name": "Salvación de Retroceso",
-          "condition": "a creature hits you with an attack roll for the first time on a turn"
+          "condition": "una criatura te acierta con una tirada de ataque por primera vez en un turno"
         },
         "Assume Majestic Presence": {
           "name": "Asumir Presencia Majestuosa"
@@ -5061,7 +5061,7 @@
       "activities": {
         "Uncanny Dodge": {
           "name": "Esquiva Asombrosa",
-          "condition": "When an attacker that you can see hits you with an attack roll"
+          "condition": "Cuando un atacante que puedas ver te acierta con una tirada de ataque"
         }
       }
     },
@@ -5071,7 +5071,7 @@
       "activities": {
         "Uncanny Metabolism": {
           "name": "Metabolismo Asombroso",
-          "condition": "When you roll initiative"
+          "condition": "Cuando tiras iniciativa"
         }
       }
     },
@@ -5080,7 +5080,7 @@
       "description": "<p>Cuando tendrías que hacer un tiro de salvación contra la muerte, en su lugar puedes subir a 1 punto de golpe. Una vez que uses este rasgo, no puedes usarlo de nuevo hasta que finalices un descanso largo.</p><p>Además, sufres ninguno de los inconvenientes de envejecimiento, y no puedes envejecer mágicamente.</p>",
       "activities": {
         "heal": {
-          "condition": "When you are reduced to 0 Hit Points"
+          "condition": "Cuando eres reducido a 0 Puntos de Golpe"
         }
       }
     },
@@ -5090,7 +5090,7 @@
       "effects": {
         "Attunement Bonus": {
           "name": "Bonificación de Sintonización",
-          "description": "<p>The Use Magic Device feature allows you to attune to up to four magic items at once.</p>"
+          "description": "<p>El rasgo Usar Objeto Mágico te permite sintonizar con hasta cuatro objetos mágicos a la vez.</p>"
         }
       }
     },
@@ -5108,11 +5108,11 @@
       "activities": {
         "Vitality Surge": {
           "name": "Oleada de Vitalidad",
-          "condition": "When you activate your Rage"
+          "condition": "Cuando activas tu Furia"
         },
         "Life-Giving Force": {
           "name": "Fuerza Vivificante",
-          "condition": "Start of each of your turns while your Rage is active"
+          "condition": "Al inicio de cada uno de tus turnos mientras tu Furia está activa"
         }
       }
     },
@@ -5121,7 +5121,7 @@
       "description": "<p>Como acción adicional, puedes proferir un voto de enemistad contra una criatura que puedas ver a 3 metros de ti, usando tu Canalizar Divinidad. Obtienes ventaja en tiradas de ataque contra la criatura durante 1 minuto o hasta que caiga a 0 puntos de golpe o quede inconsciente.</p><section class=\"secret\" id=\"secret-Y9AmNgpQoEkUuCHU\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo para rastrear la criatura contra la que has jurado, pero no automatiza la Ventaja.</p></section>",
       "activities": {
         "utility": {
-          "condition": "When you take the Attack action"
+          "condition": "Cuando realizas la acción de Atacar"
         }
       },
       "effects": {
@@ -5145,7 +5145,7 @@
       "effects": {
         "War Bond": {
           "name": "Vínculo de Guerra",
-          "description": "<p>Once you have bonded a weapon to yourself, you can't be disarmed of that weapon unless you have the Incapacitated condition. If it is on the same plane of existence, you can summon that weapon as a Bonus Action, causing it to teleport instantly to your hand.</p>",
+          "description": "<p>Una vez que has vinculado un arma a ti, no puedes ser desarmado de esa arma a menos que tengas el estado Incapacitado. Si está en el mismo plano de existencia, puedes invocar esa arma como una Acción Adicional, haciendo que se teletransporte al instante a tu mano.</p>",
           "changes": {
             "name": ", War Bonded"
           }
@@ -5196,7 +5196,7 @@
       "activities": {
         "Flare": {
           "name": "Destello",
-          "condition": "When a creature you can see within 30 feet makes an attack roll"
+          "condition": "Cuando una criatura que puedas ver a 9 m (30 pies) o menos hace una tirada de ataque"
         }
       }
     },
@@ -5362,11 +5362,11 @@
       "activities": {
         "Regain Spell Slot": {
           "name": "Recuperar Espacio de Conjuro",
-          "condition": "Once on each of your turns"
+          "condition": "Una vez en cada uno de tus turnos"
         },
         "Regain Wild Shape": {
           "name": "Recuperar Forma Salvaje",
-          "condition": "Once on each of your turns"
+          "condition": "Una vez en cada uno de tus turnos"
         }
       }
     },
@@ -5452,7 +5452,7 @@
       "effects": {
         "Manifesting Ocean Spray": {
           "name": "Manifestando Rocío Oceánico",
-          "description": "<p>A [[lookup @scale.sea.wrath-range]]-ft.  Emanation of ocean spray surrounds you for 10 minutes. It ends early if you dismiss it (no action required), manifest it again, or have the Incapacitated condition.</p>"
+          "description": "<p>Una Emanación de aspersión oceánica de [[lookup @scale.sea.wrath-range]] pies te rodea durante 10 minutos. Termina antes si la disipas (no requiere acción), la manifiestas de nuevo o tienes el estado Incapacitado.</p>"
         }
       }
     },
@@ -5470,7 +5470,7 @@
       "effects": {
         "Zealous Presence": {
           "name": "Presencia Fanática",
-          "description": "<p>You gain Advantage on attack rolls and saving throws until the start of Zealots next turn.</p>"
+          "description": "<p>Obtienes Ventaja en las tiradas de ataque y en las tiradas de salvación hasta el inicio del siguiente turno del Fanático.</p>"
         }
       }
     },
@@ -5607,7 +5607,7 @@
         "Psi-Bolstered Knack": {
           "name": "Habilidad Reforzada Psíquicamente",
           "roll": "Bonus",
-          "condition": "When you fail an ability check using a skill or tool with which you're proficient"
+          "condition": "Cuando fallas una prueba de característica usando una habilidad o herramienta con la que tienes competencia"
         },
         "Psychic Whispers (Free)": {
           "name": "Susurros Psíquicos (Gratis)",
@@ -5621,7 +5621,7 @@
       "effects": {
         "Psychic Whispers": {
           "name": "Susurros Psíquicos",
-          "description": "<p>The chosen creatures can speak telepathically with you, and you can speak telepathically with them. To send or receive a message (no action required), you and the other creature must be within 1 mile of each other. A creature can end the telepathic connection at any time (no action required).</p>"
+          "description": "<p>Las criaturas elegidas pueden hablarte telepáticamente y tú puedes hablarles telepáticamente. Para enviar o recibir un mensaje (no requiere acción), tú y la otra criatura debéis estar a no más de 1,5 km (1 milla) la una de la otra. Una criatura puede terminar la conexión telepática en cualquier momento (no requiere acción).</p>"
         }
       }
     },

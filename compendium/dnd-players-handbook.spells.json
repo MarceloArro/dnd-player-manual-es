@@ -2773,7 +2773,7 @@
         "transform": {
           "profiles": {
             "Creature into Creature": {
-              "name": "Creature into Creature"
+              "name": "Criatura en Criatura"
             }
           }
         }
@@ -3923,10 +3923,10 @@
         "transform": {
           "profiles": {
             "Creature into Creature": {
-              "name": "Creature into Creature"
+              "name": "Criatura en Criatura"
             },
             "Object into Creature": {
-              "name": "Object into Creature"
+              "name": "Objeto en Criatura"
             }
           }
         }

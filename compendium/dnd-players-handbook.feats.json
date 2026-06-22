@@ -72,7 +72,7 @@
     },
     "Blind Fighting": {
       "name": "Lucha a Ciegas",
-      "description": "<p><em>Dote de Estilo de Combate (Requisitos: Rasgo Estilo de Combate)</em></p><p>Tienes Visión Cipega hasta 3 m (10 pies).</p><section id=\"secret-eG5EudF8gmfHBBul\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Esta dote incluye un Efecto Activo que otorga la Visión Ciega.</p></section>",
+      "description": "<p><em>Dote de Estilo de Combate (Requisitos: Rasgo Estilo de Combate)</em></p><p>Tienes Visión Ciega hasta 3 m (10 pies).</p><section id=\"secret-eG5EudF8gmfHBBul\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Esta dote incluye un Efecto Activo que otorga la Visión Ciega.</p></section>",
       "effects": {
         "Blind Fighting": {
           "name": "Lucha a Ciegas"

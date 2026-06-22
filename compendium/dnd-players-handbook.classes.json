@@ -117,7 +117,7 @@
     },
     "Abjure Foes": {
       "name": "Rechazar Enemigos",
-      "description": "<p>Como acción Mágica, puedes gastar un uso de Canalizar Divinidad de esta clase para abrumar a tus enemigos. Mientras presentas tu Símbolo Sagrado o tu arma, puedes designar como objetivo a un número de criaturas igual a tu modificador de Carisma (mínimo de una criatura) que puedas ver a 60ft (18m) o menos de ti. Cada objetivo debe superar una tirada de salvación de Sabiduría o recibir el estado de &Reference[Frightened] durante 1 minuto o hasta que sufra cualquier daño. Mientras se encuentra asustado de esta manera, un objetivo solo puede hacer una de las siguientes acciones en su turno: moverse, realizar una acción o realizar una acción adicional.</p><section class=\"secret\" id=\"secret-lu2BuwFj2pnJ367b\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que aplica el estado de Asustado.</p></section>",
+      "description": "<p>Como acción Mágica, puedes gastar un uso de Canalizar Divinidad de esta clase para abrumar a tus enemigos. Mientras presentas tu Símbolo Sagrado o tu arma, puedes designar como objetivo a un número de criaturas igual a tu modificador de Carisma (mínimo de una criatura) que puedas ver a 18 m (60 pies) o menos de ti. Cada objetivo debe superar una tirada de salvación de Sabiduría o recibir el estado de &Reference[Frightened] durante 1 minuto o hasta que sufra cualquier daño. Mientras se encuentra asustado de esta manera, un objetivo solo puede hacer una de las siguientes acciones en su turno: moverse, realizar una acción o realizar una acción adicional.</p><section class=\"secret\" id=\"secret-lu2BuwFj2pnJ367b\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que aplica el estado de Asustado.</p></section>",
       "effects": {
         "Abjured": {
           "name": "Rechazado"
@@ -182,7 +182,7 @@
     },
     "Aquatic Affinity": {
       "name": "Afinidad Acuática",
-      "description": "<p>El tamaño de la emanación creada con tu Ira de los mares aumenta a 3m (10ft).</p><p>Además, obtienes una velocidad nadando igual a tu velocidad.</p><section id=\"secret-LWG2vV8HTOk84VXW\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>El tamaño de la emanación aumentautomáticamente, pero este rasgo no añade automáticamente la velocidad de nado.</p></section>"
+      "description": "<p>El tamaño de la emanación creada con tu Ira de los mares aumenta a 3 m (10 pies).</p><p>Además, obtienes una velocidad nadando igual a tu velocidad.</p><section id=\"secret-LWG2vV8HTOk84VXW\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>El tamaño de la emanación aumentautomáticamente, pero este rasgo no añade automáticamente la velocidad de nado.</p></section>"
     },
     "Arcane Apotheosis": {
       "name": "Apoteosis Arcana",
@@ -190,7 +190,7 @@
     },
     "Arcane Charge": {
       "name": "Carga Arcana",
-      "description": "<p>Cuando utilices tu rasgo Arrebato de Acción, podrás teletransportarte hasta 9m (30ft) a un espacio sin ocupar que puedas ver. Puedes teletransportarte antes o después de la acción adicional.</p>"
+      "description": "<p>Cuando utilices tu rasgo Arrebato de Acción, podrás teletransportarte hasta 9 m (30 pies) a un espacio sin ocupar que puedas ver. Puedes teletransportarte antes o después de la acción adicional.</p>"
     },
     "Arcane Recovery": {
       "name": "Recuperación Arcana",
@@ -277,7 +277,7 @@
     },
     "Aspect of the Wilds": {
       "name": "Aspecto de lo Salvaje",
-      "description": "<p>Obtienes una de las siguientes opciones, a tu elección. Tras finalizar un Descanso Largo, puedes cambiar de opción.</p><p><strong>Búho.</strong> Tienes Visión en la Oscuridad hasta 18m (60ft). Si ya posees Visión en la Oscuridad, su alcance aumenta en 18m (60ft).</p><p><strong>Pantera.</strong> Tienes una velocidad trepando igual a tu velocidad.</p><p><strong>Salmón.</strong> Tienes una velocidad nadando igual a tu velocidad.</p><section class=\"secret\" id=\"secret-CKbkC1Dm8i7Nz9TV\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye unactividad con un Efecto Activo que automatiza los cambios de Visión en la Oscuridad de la opción <strong>Búho</strong>. Los cambios de velocidad no se aplican automáticamente.</p></section>",
+      "description": "<p>Obtienes una de las siguientes opciones, a tu elección. Tras finalizar un Descanso Largo, puedes cambiar de opción.</p><p><strong>Búho.</strong> Tienes Visión en la Oscuridad hasta 18 m (60 pies). Si ya posees Visión en la Oscuridad, su alcance aumenta en 18 m (60 pies).</p><p><strong>Pantera.</strong> Tienes una velocidad trepando igual a tu velocidad.</p><p><strong>Salmón.</strong> Tienes una velocidad nadando igual a tu velocidad.</p><section class=\"secret\" id=\"secret-CKbkC1Dm8i7Nz9TV\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye unactividad con un Efecto Activo que automatiza los cambios de Visión en la Oscuridad de la opción <strong>Búho</strong>. Los cambios de velocidad no se aplican automáticamente.</p></section>",
       "activities": {
         "Owl": {
           "name": "Búho"
@@ -292,7 +292,7 @@
       "effects": {
         "Aspect of the Owl": {
           "name": "Aspecto del Búho",
-          "description": "<p>Tienes Visión en la Oscuridad hasta 18m (60ft). Si ya posees Visión en la Oscuridad, su alcance aumenta en 18m (60ft).</p>"
+          "description": "<p>Tienes Visión en la Oscuridad hasta 18 m (60 pies). Si ya posees Visión en la Oscuridad, su alcance aumenta en 18 m (60 pies).</p>"
         }
       }
     },
@@ -334,11 +334,11 @@
     },
     "Aura Expansion": {
       "name": "Expansión del Aura",
-      "description": "<p>Tu Aura de Protección ahora es una emanación de 9m (30ft).</p><section id=\"secret-gH6lYObbkvAgLL2q\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>El alcance de tus auras se actualizautomáticamente a medida que subes de nivel.</p></section>"
+      "description": "<p>Tu Aura de Protección ahora es una emanación de 9 m (30 pies).</p><section id=\"secret-gH6lYObbkvAgLL2q\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>El alcance de tus auras se actualizautomáticamente a medida que subes de nivel.</p></section>"
     },
     "Aura of Alacrity": {
       "name": "Aura de Celeridad",
-      "description": "<p>Tu velocidad aumenta en 3m (10ft).</p><p>Además, siempre que un aliado entre en tu Aura de Protección por primera vez en un turno o comience su turno allí, la velocidad del aliado aumenta en 3m (10ft) hasta el final de su siguiente turno.</p><section id=\"secret-kOizvMlalbKjwbX4\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que aumenta tu velocidad en 3m (10ft). No se aplicautomáticamente a las criaturas dentro de tu aura.</p></section>",
+      "description": "<p>Tu velocidad aumenta en 3 m (10 pies).</p><p>Además, siempre que un aliado entre en tu Aura de Protección por primera vez en un turno o comience su turno allí, la velocidad del aliado aumenta en 3 m (10 pies) hasta el final de su siguiente turno.</p><section id=\"secret-kOizvMlalbKjwbX4\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que aumenta tu velocidad en 3 m (10 pies). No se aplicautomáticamente a las criaturas dentro de tu aura.</p></section>",
       "effects": {
         "Alacrity": {
           "name": "Celeridad"
@@ -370,7 +370,7 @@
     },
     "Aura of Protection": {
       "name": "Aura de Protección",
-      "description": "<p>Irradias un aura protectora e invisible en una emanación de 3m (10ft) que se origina de ti. El aura estará inactiva mientras tengas el estado de &Reference[Incapacitated apply=false].</p><p>Tus aliados dentro del aura y tú obtenéis un bonificador a las tiradas de salvación igual a tu modificador por Carisma (mínimo de +1, actualmente [[lookup @abilities.cha.mod]]).</p><p>Si hay otro paladín presente, una criatura solo puede beneficiarse de un Aura de Protección a la vez; esa criatura elegirá cuál de ellas mientras esté dentro de ambas.</p><section class=\"secret\" id=\"secret-PEdASVYFq26DP4Fq\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que mejorautomáticamente tus tiradas de salvación, pero no debería usarse para otros personajes impactados porque añadirá su modificador de Carisma y no el del paladín. Ellos deberían añadir tu modificador manualmente.</p></section>",
+      "description": "<p>Irradias un aura protectora e invisible en una emanación de 3 m (10 pies) que se origina de ti. El aura estará inactiva mientras tengas el estado de &Reference[Incapacitated apply=false].</p><p>Tus aliados dentro del aura y tú obtenéis un bonificador a las tiradas de salvación igual a tu modificador por Carisma (mínimo de +1, actualmente [[lookup @abilities.cha.mod]]).</p><p>Si hay otro paladín presente, una criatura solo puede beneficiarse de un Aura de Protección a la vez; esa criatura elegirá cuál de ellas mientras esté dentro de ambas.</p><section class=\"secret\" id=\"secret-PEdASVYFq26DP4Fq\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que mejorautomáticamente tus tiradas de salvación, pero no debería usarse para otros personajes impactados porque añadirá su modificador de Carisma y no el del paladín. Ellos deberían añadir tu modificador manualmente.</p></section>",
       "effects": {
         "Protected": {
           "name": "Protegido"
@@ -402,7 +402,7 @@
     },
     "Avenging Angel": {
       "name": "Ángel Vengador",
-      "description": "<p>Como acción adicional, obtienes los beneficios que se indican a continuación durante 10 minutos o hasta que los termines (no requiere acción). Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un Descanso Largo. También puedes restablecer su uso gastando un espacio de conjuro de nivel 5 (no requiere acción).</p><p><strong>Vuelo.</strong> Te brotan alas espectrales en la espalda, tienes una velocidad de vuelo de 18m (60ft) y puedes planear.</p><p><strong>Aura aterradora.</strong> Siempre que un enemigo comience su turno en tu Aura de Protección, esa criatura debe superar una tirada de salvación de Sabiduría o recibir el estado de Asustado durante 1 minuto o hasta que reciba cualquier daño. Las tiradas de ataque contra la criatura &Reference[Frightened] tienen ventaja.</p><section id=\"secret-tmmMrdRJYHiqTIh1\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Lactividad <strong>Ángel Vengador</strong> consumirá un uso de este rasgo e incluye un Efecto Activo que otorga la velocidad de vuelo y la capacidad de planear.</p><p>Lactividad <strong>Aura Aterradora</strong> incluye la tirada de salvación y un Efecto Activo que aplica el estado de Asustado.</p><p>Lactividad <strong>Restaurar Uso</strong> consume un espacio de conjuro de nivel 5 y restaura un uso de este rasgo.</p></section>",
+      "description": "<p>Como acción adicional, obtienes los beneficios que se indican a continuación durante 10 minutos o hasta que los termines (no requiere acción). Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un Descanso Largo. También puedes restablecer su uso gastando un espacio de conjuro de nivel 5 (no requiere acción).</p><p><strong>Vuelo.</strong> Te brotan alas espectrales en la espalda, tienes una velocidad de vuelo de 18 m (60 pies) y puedes planear.</p><p><strong>Aura aterradora.</strong> Siempre que un enemigo comience su turno en tu Aura de Protección, esa criatura debe superar una tirada de salvación de Sabiduría o recibir el estado de Asustado durante 1 minuto o hasta que reciba cualquier daño. Las tiradas de ataque contra la criatura &Reference[Frightened] tienen ventaja.</p><section id=\"secret-tmmMrdRJYHiqTIh1\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Lactividad <strong>Ángel Vengador</strong> consumirá un uso de este rasgo e incluye un Efecto Activo que otorga la velocidad de vuelo y la capacidad de planear.</p><p>Lactividad <strong>Aura Aterradora</strong> incluye la tirada de salvación y un Efecto Activo que aplica el estado de Asustado.</p><p>Lactividad <strong>Restaurar Uso</strong> consume un espacio de conjuro de nivel 5 y restaura un uso de este rasgo.</p></section>",
       "activities": {
         "Avenging Angel": {
           "name": "Ángel Vengador"
@@ -426,7 +426,7 @@
     },
     "Awakened Mind": {
       "name": "Mente Despierta",
-      "description": "<p>Puedes formar una conexión telepática entre tu mente y la mente de otro. Como acción adicional, elige una criatura que puedas ver a 9m (30ft) o menos de ti. La criatura elegida y tú podéis comunicaros telepáticamente mientras estéis a una cantidad de kilómetros igual a tu modificador de Carisma (mínimo de 1,5 km, actualmente [[lookup @abilities.cha.mod]]). Para entenderos, cada uno de vosotros debéis utilizar mentalmente un idioma conocido por el otro.</p><p>La conexión telepática dura una cantidad de minutos igual a tu nivel de brujo. Termina antes si usas este rasgo para conectarte con una criatura diferente.</p>",
+      "description": "<p>Puedes formar una conexión telepática entre tu mente y la mente de otro. Como acción adicional, elige una criatura que puedas ver a 9 m (30 pies) o menos de ti. La criatura elegida y tú podéis comunicaros telepáticamente mientras estéis a una cantidad de kilómetros igual a tu modificador de Carisma (mínimo de 1,5 km, actualmente [[lookup @abilities.cha.mod]]). Para entenderos, cada uno de vosotros debéis utilizar mentalmente un idioma conocido por el otro.</p><p>La conexión telepática dura una cantidad de minutos igual a tu nivel de brujo. Termina antes si usas este rasgo para conectarte con una criatura diferente.</p>",
       "activities": {
         "Telepathic Connection": {
           "name": "Conexión Telepática"
@@ -435,12 +435,12 @@
     },
     "Bait and Switch": {
       "name": "Señuelo e Intercambio",
-      "description": "<p>Cuando estés a 1,5m (5ft) o menos de una criatura en tu turno, puedes gastar un Dado de Supremacía e intercambiar posiciones con esa criatura, siempre y cuando gastes al menos 1,5m (5ft) de movimiento y la criatura esté dispuesta y no tenga el estado de Incapacitado. Este movimiento no provoca ataques de oportunidad.</p><p>Tira el Dado de Supremacía. Hasta el principio de tu siguiente turno, la criatura elegida o tú (tú eliges) obtenéis un bonificador a la CA igual al número obtenido.</p><section class=\"secret\" id=\"secret-L87MUloqB18hV04V\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye Efectos Activos para cada posible valor del Dado de Supremacía, que otorga el bonificador de CA indicado.</p></section>",
+      "description": "<p>Cuando estés a 1,5 m (5 pies) o menos de una criatura en tu turno, puedes gastar un Dado de Supremacía e intercambiar posiciones con esa criatura, siempre y cuando gastes al menos 1,5 m (5 pies) de movimiento y la criatura esté dispuesta y no tenga el estado de Incapacitado. Este movimiento no provoca ataques de oportunidad.</p><p>Tira el Dado de Supremacía. Hasta el principio de tu siguiente turno, la criatura elegida o tú (tú eliges) obtenéis un bonificador a la CA igual al número obtenido.</p><section class=\"secret\" id=\"secret-L87MUloqB18hV04V\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye Efectos Activos para cada posible valor del Dado de Supremacía, que otorga el bonificador de CA indicado.</p></section>",
       "activities": {
         "Switch Places": {
           "name": "Cambiar Posiciones",
           "roll": "Bonificador de Clase de Armadura",
-          "condition": "Cuando estés a 1,5m (5ft) o menos de una criatura en tu turno"
+          "condition": "Cuando estés a 1,5 m (5 pies) o menos de una criatura en tu turno"
         }
       },
       "effects": {
@@ -592,7 +592,7 @@
     },
     "Bastion of Law": {
       "name": "Bastión de la Ley",
-      "description": "<p>Puedes acceder a la gran ecuación de la existencia para imbuir a una criatura de un escudo resplandeciente de orden. Como acción de magia, puedes gastar de 1 a 5 puntos de hechicería para crear una protección mágica a tu alrededor o alrededor de otra criatura que puedas ver a 9m (30ft) o menos de ti. Esta protección está representada por un número de d8 igual a la cantidad de puntos de hechicería gastados para crearla. Cuando la criatura protegida recibe daño, puede gastar varios de esos dados, tirarlos y restar el resultado al daño recibido.</p><p>La protección durará hasta que finalices un Descanso Largo o hasta que vuelvas a usar este rasgo.</p><section id=\"secret-O9GfdJl9WWz3Wnli\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Lactividad <strong>Gastar Puntos de Hechicería</strong> te permite gastar la cantidad deseada de Puntos de Hechicería. Incluye un Efecto Activo que se puede usar para rastrear la criatura protegida. También incluye una tirada de \"Dado de Protección\" que tira 1d8. Tendrás que rastrear manualmente el número de dados disponibles.</p></section>",
+      "description": "<p>Puedes acceder a la gran ecuación de la existencia para imbuir a una criatura de un escudo resplandeciente de orden. Como acción de magia, puedes gastar de 1 a 5 puntos de hechicería para crear una protección mágica a tu alrededor o alrededor de otra criatura que puedas ver a 9 m (30 pies) o menos de ti. Esta protección está representada por un número de d8 igual a la cantidad de puntos de hechicería gastados para crearla. Cuando la criatura protegida recibe daño, puede gastar varios de esos dados, tirarlos y restar el resultado al daño recibido.</p><p>La protección durará hasta que finalices un Descanso Largo o hasta que vuelvas a usar este rasgo.</p><section id=\"secret-O9GfdJl9WWz3Wnli\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Lactividad <strong>Gastar Puntos de Hechicería</strong> te permite gastar la cantidad deseada de Puntos de Hechicería. Incluye un Efecto Activo que se puede usar para rastrear la criatura protegida. También incluye una tirada de \"Dado de Protección\" que tira 1d8. Tendrás que rastrear manualmente el número de dados disponibles.</p></section>",
       "activities": {
         "Create Shield": {
           "name": "Crear Escudo",
@@ -608,7 +608,7 @@
     },
     "Battering Roots": {
       "name": "Raíces Apaleadoras",
-      "description": "<p>Durante tu turno, tu alcance es 3m (10ft) superior con cualquier arma cuerpo a cuerpo que tenga la propiedad de Pesada o Versátil, ya que los zarcillos del Árbol del Mundo se extienden desde ti. Cuando aciertes con dicha arma en tu turno, puedes activar la propiedad de maestría Empujar o Derribar además de una propiedad de maestría diferente que estés usando con esa arma.</p><section id=\"secret-2uKFL0ICeFFIOlns\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que te otorga la propiedad de maestría Empujar y Derribar.</p></section>",
+      "description": "<p>Durante tu turno, tu alcance es 3 m (10 pies) superior con cualquier arma cuerpo a cuerpo que tenga la propiedad de Pesada o Versátil, ya que los zarcillos del Árbol del Mundo se extienden desde ti. Cuando aciertes con dicha arma en tu turno, puedes activar la propiedad de maestría Empujar o Derribar además de una propiedad de maestría diferente que estés usando con esa arma.</p><section id=\"secret-2uKFL0ICeFFIOlns\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que te otorga la propiedad de maestría Empujar y Derribar.</p></section>",
       "effects": {
         "Battering Roots": {
           "name": "Raíces Apaleadoras"
@@ -665,7 +665,7 @@
     },
     "Beguiling Magic": {
       "name": "Magia Cautivadora",
-      "description": "<p>Siempre tienes los conjuros @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{Hechizar Persona} e @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMirrorImag]{Imagen Múltiple} preparados.</p><p>Además, inmediatamente después de lanzar un conjuro de Encantamiento o Ilusionismo usando un espacio de conjuro, puedes hacer que una criatura que puedas ver a 18m (60ft) o menos de ti realice una tirada de salvación de Sabiduría contra tu CD de salvación de conjuros. Si falla la salvación, el objetivo tiene el estado &Reference[Charmed] o &Reference[Frightened] (tú eliges) durante 1 minuto. El objetivo repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito.</p><p>Una vez uses este beneficio, no podrás usarlo de nuevo hasta que finalices un Descanso Largo. También puedes restaurar su uso gastando un uso de tu Inspiración del Bardo (no requiere acción).</p><section class=\"secret\" id=\"secret-yJ0pYJyjePrUp7wQ\"><p><strong>Nota Foundry</strong></p><p>Lactividad <strong>Salvación</strong> incluye un Efecto Activo tanto para el estado Hechizado como Asustado.</p><p>Lactividad <strong>Recargar con Inspiración</strong> restaura un uso de este rasgo.</p><p>Los conjuros se añaden automáticamente a tu hoja como Siempre Preparados.</p></section>",
+      "description": "<p>Siempre tienes los conjuros @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{Hechizar Persona} e @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMirrorImag]{Imagen Múltiple} preparados.</p><p>Además, inmediatamente después de lanzar un conjuro de Encantamiento o Ilusionismo usando un espacio de conjuro, puedes hacer que una criatura que puedas ver a 18 m (60 pies) o menos de ti realice una tirada de salvación de Sabiduría contra tu CD de salvación de conjuros. Si falla la salvación, el objetivo tiene el estado &Reference[Charmed] o &Reference[Frightened] (tú eliges) durante 1 minuto. El objetivo repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito.</p><p>Una vez uses este beneficio, no podrás usarlo de nuevo hasta que finalices un Descanso Largo. También puedes restaurar su uso gastando un uso de tu Inspiración del Bardo (no requiere acción).</p><section class=\"secret\" id=\"secret-yJ0pYJyjePrUp7wQ\"><p><strong>Nota Foundry</strong></p><p>Lactividad <strong>Salvación</strong> incluye un Efecto Activo tanto para el estado Hechizado como Asustado.</p><p>Lactividad <strong>Recargar con Inspiración</strong> restaura un uso de este rasgo.</p><p>Los conjuros se añaden automáticamente a tu hoja como Siempre Preparados.</p></section>",
       "activities": {
         "save": {
           "condition": "Después de lanzar un conjuro de encantamiento o ilusionismo usando un espacio de conjuro"
@@ -685,7 +685,7 @@
     },
     "Beguiling Twist": {
       "name": "Giro Cautivador",
-      "description": "<p>La magia de los Parajes Feéricos protege tu mente. Tienes ventaja en las tiradas de salvación para evitar o terminar el estado Hechizado o Asustado.</p><p>Además, siempre que tú o una criatura que puedas ver a 36m (120ft) de ti tenga éxito en una tirada de salvación para evitar o terminar el estado Hechizado o Asustado, puedes usar una reacción para forzar a una criatura diferente que puedas ver a 36m (120ft) de ti a realizar una tirada de salvación de Sabiduría contra tu CD de salvación de conjuros. Si falla la salvación, el objetivo queda &Reference[Charmed] o &Reference[Frightened] (tú eliges) durante 1 minuto. El objetivo repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito.</p>"
+      "description": "<p>La magia de los Parajes Feéricos protege tu mente. Tienes ventaja en las tiradas de salvación para evitar o terminar el estado Hechizado o Asustado.</p><p>Además, siempre que tú o una criatura que puedas ver a 36 m (120 pies) de ti tenga éxito en una tirada de salvación para evitar o terminar el estado Hechizado o Asustado, puedes usar una reacción para forzar a una criatura diferente que puedas ver a 36 m (120 pies) de ti a realizar una tirada de salvación de Sabiduría contra tu CD de salvación de conjuros. Si falla la salvación, el objetivo queda &Reference[Charmed] o &Reference[Frightened] (tú eliges) durante 1 minuto. El objetivo repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito.</p>"
     },
     "Bend Luck": {
       "name": "Doblar la Suerte",
@@ -737,7 +737,7 @@
     },
     "Blessing of the Trickster": {
       "name": "Bendición del Embaucador",
-      "description": "<p>Como acción de magia, puedes escogerte a ti o a una criatura voluntaria a 9m (30ft) o menos de ti para que tenga ventaja en las pruebas de Destreza (Sigilo). Esta bendición dura hasta que finalices un Descanso Largo o hasta que vuelvas a usar este rasgo.</p><section class=\"secret\" id=\"secret-HR9knJJry8NACRET\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo para rastrear la bendición, pero no automatiza la ventaja en las pruebas de Sigilo ni terminautomáticamente cuando uses este rasgo de nuevo.</p></section>",
+      "description": "<p>Como acción de magia, puedes escogerte a ti o a una criatura voluntaria a 9 m (30 pies) o menos de ti para que tenga ventaja en las pruebas de Destreza (Sigilo). Esta bendición dura hasta que finalices un Descanso Largo o hasta que vuelvas a usar este rasgo.</p><section class=\"secret\" id=\"secret-HR9knJJry8NACRET\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo para rastrear la bendición, pero no automatiza la ventaja en las pruebas de Sigilo ni terminautomáticamente cuando uses este rasgo de nuevo.</p></section>",
       "activities": {
         "Blessing": {
           "name": "Bendición"
@@ -764,10 +764,10 @@
     },
     "Branches of the Tree": {
       "name": "Ramas del Árbol",
-      "description": "<p>Cuando una criatura que puedas ver comience su turno a 9m (30ft) o menos de ti mientras estás enfurecido, podrás llevar a cabo una reacción para invocar unas ramas espectrales del Árbol del Mundo a su alrededor. El objetivo deberá superar una tirada de salvación de Fuerza (CD 8 más tu modificador por Fuerza y tu bonificador por competencia) o se teletransportará a un espacio sin ocupar que puedas ver a 1,5m (5ft) de ti o al espacio sin ocupar más cercano que puedas ver. Después de que el objetivo se teletransporte, puedes reducir su velocidad a 0 hasta el final del turno actual.</p><section id=\"secret-iHFpYS3WUCeaQIVP\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que se puede aplicar al objetivo y reducirá su velocidad.</p></section>",
+      "description": "<p>Cuando una criatura que puedas ver comience su turno a 9 m (30 pies) o menos de ti mientras estás enfurecido, podrás llevar a cabo una reacción para invocar unas ramas espectrales del Árbol del Mundo a su alrededor. El objetivo deberá superar una tirada de salvación de Fuerza (CD 8 más tu modificador por Fuerza y tu bonificador por competencia) o se teletransportará a un espacio sin ocupar que puedas ver a 1,5 m (5 pies) de ti o al espacio sin ocupar más cercano que puedas ver. Después de que el objetivo se teletransporte, puedes reducir su velocidad a 0 hasta el final del turno actual.</p><section id=\"secret-iHFpYS3WUCeaQIVP\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que se puede aplicar al objetivo y reducirá su velocidad.</p></section>",
       "activities": {
         "save": {
-          "condition": "Cuando una criatura que puedas ver comience su turno a 9m (30ft) o menos de ti mientras estás enfurecido"
+          "condition": "Cuando una criatura que puedas ver comience su turno a 9 m (30 pies) o menos de ti mientras estás enfurecido"
         }
       },
       "effects": {
@@ -794,7 +794,7 @@
     },
     "Bulwark of Force": {
       "name": "Baluarte de Fuerza",
-      "description": "<p>Puedes protegerte a ti mismo y a otros con fuerza telequinética. Como acción adicional, puedes elegir criaturas, incluyéndote a ti mismo, a 9m (30ft) o menos de ti, hasta una cantidad de criaturas igual a tu modificador de Inteligencia (mínimo una criatura). Cada una de las criaturas elegidas tiene &Reference[Half Cover] durante 1 minuto o hasta que tengas el estado de Incapacitado.</p><p>Una vez uses este rasgo, no podrás hacerlo de nuevo hasta que finalices un Descanso Largo a menos que gastes un Dado de Energía Psiónica (no requiere acción) para restaurar su uso.</p><section class=\"secret\" id=\"secret-w0D7Z8wuNFjGsQai\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que aplica el estado de Cobertura Media pero no terminautomáticamente.</p><p>Lactividad <strong>Recargar con Energía Psiónica</strong> consumirá un uso de tu Dado de Energía Psiónica y otorgará otro uso de este rasgo automáticamente.</p></section>",
+      "description": "<p>Puedes protegerte a ti mismo y a otros con fuerza telequinética. Como acción adicional, puedes elegir criaturas, incluyéndote a ti mismo, a 9 m (30 pies) o menos de ti, hasta una cantidad de criaturas igual a tu modificador de Inteligencia (mínimo una criatura). Cada una de las criaturas elegidas tiene &Reference[Half Cover] durante 1 minuto o hasta que tengas el estado de Incapacitado.</p><p>Una vez uses este rasgo, no podrás hacerlo de nuevo hasta que finalices un Descanso Largo a menos que gastes un Dado de Energía Psiónica (no requiere acción) para restaurar su uso.</p><section class=\"secret\" id=\"secret-w0D7Z8wuNFjGsQai\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que aplica el estado de Cobertura Media pero no terminautomáticamente.</p><p>Lactividad <strong>Recargar con Energía Psiónica</strong> consumirá un uso de tu Dado de Energía Psiónica y otorgará otro uso de este rasgo automáticamente.</p></section>",
       "activities": {
         "Bulwark of Force": {
           "name": "Baluarte de Fuerza"
@@ -1057,7 +1057,7 @@
     },
     "Clockwork Cavalcade": {
       "name": "Cabalgata Mecánica",
-      "description": "<p>Invocas momentáneamente espíritus del orden para expurgar el desorden a tu alrededor. Como acción de magia, invocas los espíritus en un cubo de 9m (30ft) que se origina de ti. Los espíritus parecen modrones u otros Constructos de tu elección. Los espíritus son intangibles e invulnerables, y crean los efectos que se indican a continuación dentro del cubo antes de desvanecerse. Una vez uses esta acción, no podrás usarla de nuevo hasta que finalices un Descanso Largo a menos que gastes 7 puntos de hechicería (no requiere acción) para restaurar su uso.</p><p><strong>Curar.</strong> Los espíritus restauran hasta 100 puntos de golpe, divididos como elijas entre cualquier número de criaturas de tu elección en el cubo.</p><p><strong>Reparar.</strong> Cualquier objeto dañado completamente en el cubo se repara instantáneamente.</p><p><strong>Disipar.</strong> Todos los conjuros de nivel 6 e inferior terminan en criaturas y objetos de tu elección en el cubo.</p><section id=\"secret-wH5odny5bILRv7eY\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Lactividad <strong>Cabalgata (Gratis)</strong> incluye un uso gratuito y lactividad <strong>Cabalgata (Puntos de Hechicería)</strong> gasta el número correcto de puntos de hechicería. Ambas incluyen una plantilla para rastrear el área impactada.</p></section>",
+      "description": "<p>Invocas momentáneamente espíritus del orden para expurgar el desorden a tu alrededor. Como acción de magia, invocas los espíritus en un cubo de 9 m (30 pies) que se origina de ti. Los espíritus parecen modrones u otros Constructos de tu elección. Los espíritus son intangibles e invulnerables, y crean los efectos que se indican a continuación dentro del cubo antes de desvanecerse. Una vez uses esta acción, no podrás usarla de nuevo hasta que finalices un Descanso Largo a menos que gastes 7 puntos de hechicería (no requiere acción) para restaurar su uso.</p><p><strong>Curar.</strong> Los espíritus restauran hasta 100 puntos de golpe, divididos como elijas entre cualquier número de criaturas de tu elección en el cubo.</p><p><strong>Reparar.</strong> Cualquier objeto dañado completamente en el cubo se repara instantáneamente.</p><p><strong>Disipar.</strong> Todos los conjuros de nivel 6 e inferior terminan en criaturas y objetos de tu elección en el cubo.</p><section id=\"secret-wH5odny5bILRv7eY\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Lactividad <strong>Cabalgata (Gratis)</strong> incluye un uso gratuito y lactividad <strong>Cabalgata (Puntos de Hechicería)</strong> gasta el número correcto de puntos de hechicería. Ambas incluyen una plantilla para rastrear el área impactada.</p></section>",
       "activities": {
         "Cavalcade (Free)": {
           "name": "Cabalgata (Gratis)"
@@ -1174,7 +1174,7 @@
     },
     "Corona of Light": {
       "name": "Corona de Luz",
-      "description": "<p>Como acción de magia, haces que emanes un aura de luz solar que dura 1 minuto o hasta que la descartes (no requiere acción). Emites luz brillante en un radio de 18m (60ft) y luz tenue en 9m (30ft) adicionales. Tus enemigos en la luz brillante tienen desventaja en las tiradas de salvación contra tu Resplandor del Alba y cualquier conjuro que cause daño de Fuego o Radiante.</p><p>Puedes usar este rasgo una cantidad de veces igual a tu modificador de Sabiduría (mínimo una vez), y recuperas todos los usos gastados cuando finalizas un Descanso Largo.</p><section class=\"secret\" id=\"secret-4qUkzR393EmbQxig\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una plantilla de objetivo de 18m para rastrear la luz brillante emitida y un Efecto Activo para marcar criaturas afectadas, pero no automatiza la desventaja.</p></section>",
+      "description": "<p>Como acción de magia, haces que emanes un aura de luz solar que dura 1 minuto o hasta que la descartes (no requiere acción). Emites luz brillante en un radio de 18 m (60 pies) y luz tenue en 9 m (30 pies) adicionales. Tus enemigos en la luz brillante tienen desventaja en las tiradas de salvación contra tu Resplandor del Alba y cualquier conjuro que cause daño de Fuego o Radiante.</p><p>Puedes usar este rasgo una cantidad de veces igual a tu modificador de Sabiduría (mínimo una vez), y recuperas todos los usos gastados cuando finalizas un Descanso Largo.</p><section class=\"secret\" id=\"secret-4qUkzR393EmbQxig\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una plantilla de objetivo de 18m para rastrear la luz brillante emitida y un Efecto Activo para marcar criaturas afectadas, pero no automatiza la desventaja.</p></section>",
       "activities": {
         "Emit Aura of Sunlight": {
           "name": "Emitir Aura de Luz Solar"
@@ -1188,7 +1188,7 @@
     },
     "Cosmic Omen": {
       "name": "Presagio Cósmico",
-      "description": "<p>Siempre que finalices un Descanso Largo, puedes consultar tu Mapa Estelar en busca de presagios y tirar un dado. Hasta que finalices tu siguiente Descanso Largo, obtienes acceso a una reacción especial basada en si obtuviste un número par o impar en el dado:</p><p><strong>Dicha (Par).</strong> Siempre que una criatura que puedas ver a 9m (30ft) o menos de ti esté a punto de hacer una Prueba d20, puedes usar una reacción para tirar 1d6 y sumar el número obtenido al total.</p><p><strong>Desgracia (Impar).</strong> Siempre que una criatura que puedas ver a 9m (30ft) o menos de ti esté a punto de hacer una Prueba d20, puedes usar una reacción para tirar 1d6 y restar el número obtenido del total.</p><p>Puedes usar esta reacción una cantidad de veces igual a tu modificador de Sabiduría (mínimo una vez), y recuperas todos los usos gastados cuando finalizas un Descanso Largo.</p><section class=\"secret\" id=\"secret-4KkQJd5AOz4q4G76\"><p><strong>Nota Foundry</strong></p><p>Las actividades <strong>Dicha</strong> y <strong>Desgracia</strong> consumirán un uso de este rasgo y proporcionarán una tirada de Sumar o Restar.</p></section>",
+      "description": "<p>Siempre que finalices un Descanso Largo, puedes consultar tu Mapa Estelar en busca de presagios y tirar un dado. Hasta que finalices tu siguiente Descanso Largo, obtienes acceso a una reacción especial basada en si obtuviste un número par o impar en el dado:</p><p><strong>Dicha (Par).</strong> Siempre que una criatura que puedas ver a 9 m (30 pies) o menos de ti esté a punto de hacer una Prueba d20, puedes usar una reacción para tirar 1d6 y sumar el número obtenido al total.</p><p><strong>Desgracia (Impar).</strong> Siempre que una criatura que puedas ver a 9 m (30 pies) o menos de ti esté a punto de hacer una Prueba d20, puedes usar una reacción para tirar 1d6 y restar el número obtenido del total.</p><p>Puedes usar esta reacción una cantidad de veces igual a tu modificador de Sabiduría (mínimo una vez), y recuperas todos los usos gastados cuando finalizas un Descanso Largo.</p><section class=\"secret\" id=\"secret-4KkQJd5AOz4q4G76\"><p><strong>Nota Foundry</strong></p><p>Las actividades <strong>Dicha</strong> y <strong>Desgracia</strong> consumirán un uso de este rasgo y proporcionarán una tirada de Sumar o Restar.</p></section>",
       "activities": {
         "Weal (Even)": {
           "name": "Dicha (Par)",
@@ -1204,7 +1204,7 @@
     },
     "Countercharm": {
       "name": "Contraencantamiento",
-      "description": "<p>Puedes usar notas musicales o palabras de poder para interrumpir efectos que influyen en la mente. Si tú o una criatura a 9m (30ft) o menos de ti falla una tirada de salvación contra un efecto que aplica el estado de Hechizado o Asustado, puedes usar una reacción para hacer que se repita la salvación, y la nueva tirada tiene ventaja.</p>",
+      "description": "<p>Puedes usar notas musicales o palabras de poder para interrumpir efectos que influyen en la mente. Si tú o una criatura a 9 m (30 pies) o menos de ti falla una tirada de salvación contra un efecto que aplica el estado de Hechizado o Asustado, puedes usar una reacción para hacer que se repita la salvación, y la nueva tirada tiene ventaja.</p>",
       "activities": {
         "utility": {
           "condition": "Tú o una criatura a 9m o menos de ti falla una tirada de salvación contra un efecto que aplica el estado de Hechizado o Asustado"
@@ -1278,7 +1278,7 @@
     },
     "Cutting Words": {
       "name": "Palabras Cortantes",
-      "description": "<p>Aprendes a usar tu astucia para distraer, confundir y minar la confianza y las aptitudes de los demás de manera sobrenatural. Cuando una criatura que puedas ver a 18m (60ft) o menos de ti haga una tirada de daño o tenga éxito en una prueba de característica o una tirada de ataque, puedes llevar a cabo una reacción para gastar un uso de tu Inspiración Bárdica; tira tu dado de Inspiración Bárdica y resta el número obtenido al resultado de la tirada de la criatura, lo que reducirá el daño o quizá convertirá el éxito en un fallo.</p>",
+      "description": "<p>Aprendes a usar tu astucia para distraer, confundir y minar la confianza y las aptitudes de los demás de manera sobrenatural. Cuando una criatura que puedas ver a 18 m (60 pies) o menos de ti haga una tirada de daño o tenga éxito en una prueba de característica o una tirada de ataque, puedes llevar a cabo una reacción para gastar un uso de tu Inspiración Bárdica; tira tu dado de Inspiración Bárdica y resta el número obtenido al resultado de la tirada de la criatura, lo que reducirá el daño o quizá convertirá el éxito en un fallo.</p>",
       "activities": {
         "Cut with Words": {
           "name": "Cortar con Palabras",
@@ -2296,7 +2296,7 @@
     },
     "Gift of the Protectors": {
       "name": "Don de los Protectores",
-      "description": "<p>En el nivel 15, puedes vincular almas en un pacto de protección mutua. Obtienes un libro especial cuyas páginas están en blanco. Al final de un descanso largo, toque el libro con un nombre de hasta 6 criaturas consentidoras (incluyéndote potencialmente a ti mismo), inscribiéndolas mágicamente en el libro durante las próximas 24 horas. Mientras estés dentro de 30 pies de una criatura inscrita, cuando esa criatura caiga a 0 puntos de golpe, puedes usar tu reacción para caer a 1 punto de golpe en su lugar. Una vez que tu reacción salve a una criatura de esta manera, no puedes salvarla de nuevo hasta que finalices un descanso largo.</p><section id=\"secret-VzLQ7nRPLs0fIkvE\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>The <strong>Protect</strong> activity consumes a uso de its activity que refreshes every Long Rest.</p><p>The <strong>Write Name</strong> activity consumes a uso de el/la item que puede usarse para rastrear how many names Tú/Usted've written down.</p><p>The <strong>Erase Name</strong> activity restaurar a uso de el/la item y allows Tú/Usted añadas another name.</p> @UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactTome00] @UUID[Compendium.dnd5e.items.Item.CwWbeQ6XyqFzbMYw]</section>",
+      "description": "<p>En el nivel 15, puedes vincular almas en un pacto de protección mutua. Obtienes un libro especial cuyas páginas están en blanco. Al final de un descanso largo, toque el libro con un nombre de hasta 6 criaturas consentidoras (incluyéndote potencialmente a ti mismo), inscribiéndolas mágicamente en el libro durante las próximas 24 horas. Mientras estés dentro de 9 m (30 pies) de una criatura inscrita, cuando esa criatura caiga a 0 puntos de golpe, puedes usar tu reacción para caer a 1 punto de golpe en su lugar. Una vez que tu reacción salve a una criatura de esta manera, no puedes salvarla de nuevo hasta que finalices un descanso largo.</p><section id=\"secret-VzLQ7nRPLs0fIkvE\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>The <strong>Protect</strong> activity consumes a uso de its activity que refreshes every Long Rest.</p><p>The <strong>Write Name</strong> activity consumes a uso de el/la item que puede usarse para rastrear how many names Tú/Usted've written down.</p><p>The <strong>Erase Name</strong> activity restaurar a uso de el/la item y allows Tú/Usted añadas another name.</p> @UUID[Compendium.dnd-players-handbook.classes.Item.phbinvPactTome00] @UUID[Compendium.dnd5e.items.Item.CwWbeQ6XyqFzbMYw]</section>",
       "activities": {
         "Protect": {
           "name": "Proteger",

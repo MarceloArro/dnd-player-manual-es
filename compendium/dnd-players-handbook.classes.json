@@ -1299,10 +1299,10 @@
     },
     "Dark One's Blessing": {
       "name": "Bendición del Oscuro",
-      "description": "<p>Cuando reduzcas a 0 los puntos de golpe de un enemigo, obtienes una cantidad de puntos de golpe temporales igual a tu modificador por Carisma más tu nivel de brujo (mínimo de 1 punto de golpe temporal). También obtienes este beneficio si otra criatura reduce a 0 los puntos de golpe de un enemigo a 3 m o menos de ti.</p>",
+      "description": "<p>Cuando reduzcas a 0 los puntos de golpe de un enemigo, obtienes una cantidad de puntos de golpe temporales igual a tu modificador por Carisma más tu nivel de brujo (mínimo de 1 punto de golpe temporal). También obtienes este beneficio si otra criatura reduce a 0 los puntos de golpe de un enemigo a 3 m (10 pies) o menos de ti.</p>",
       "activities": {
         "heal": {
-          "condition": "Cuando reduzcas a 0 los puntos de golpe de un enemigo o un enemigo a 3 m o menos de ti sea reducido a 0 puntos de golpe"
+          "condition": "Cuando reduzcas a 0 los puntos de golpe de un enemigo o un enemigo a 3 m (10 pies) o menos de ti sea reducido a 0 puntos de golpe"
         }
       }
     },
@@ -1457,7 +1457,7 @@
     },
     "Distant Spell": {
       "name": "Conjuro Distante",
-      "description": "<p><em>Coste: 1 punto de hechicería</em></p><p>Cuando lanzas un conjuro que tenga como mínimo un alcance de 1,5 m, puedes gastar 1 punto de hechicería para duplicar el alcance del conjuro. Como alternativa, cuando lanzas un conjuro que tenga un alcance de toque, puedes gastar 1 punto de hechicería para hacer que su alcance sea de 9 m.</p>",
+      "description": "<p><em>Coste: 1 punto de hechicería</em></p><p>Cuando lanzas un conjuro que tenga como mínimo un alcance de 1,5 m (5 pies), puedes gastar 1 punto de hechicería para duplicar el alcance del conjuro. Como alternativa, cuando lanzas un conjuro que tenga un alcance de toque, puedes gastar 1 punto de hechicería para hacer que su alcance sea de 9 m (30 pies).</p>",
       "activities": {
         "Distant Spell": {
           "name": "Conjuro Distante",

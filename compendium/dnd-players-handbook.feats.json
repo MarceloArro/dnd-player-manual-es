@@ -587,7 +587,7 @@
       "description": "<p><em>Dote de Estilo de Combate (Requisitos: Rasgo Estilo de Combate)</em></p><p>Cuando una criatura que puedas ver ataque a un objetivo que no seas tú y esté a 1,5 m (5 pies) o menos de ti, puedes llevar a cabo una Reacción para interponer tu escudo si estás embrazando uno. Impones desventaja a la tirada de ataque a la que reaccionas y al resto de tiradas de ataque contra el objetivo hasta el principio de tu siguiente turno si permaneces a 1,5 m (5 pies) o menos del objetivo.</p><section id=\"secret-omzqnTg5Wlirj4sK\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>esta Dote incluye un Efecto Activo para rastrear a la criatura protegida, pero no automatiza la Desventaja.</p></section>",
       "activities": {
         "Protect": {
-          "name": "proteger",
+          "name": "Proteger",
           "condition": "Cuando una criatura que puedas ver ataque a un objetivo que no seas tú y esté a 1,5 m (5 pies) o menos de ti"
         }
       },
@@ -760,7 +760,7 @@
           "name": "Habla Telepática"
         },
         "Expend Use": {
-          "name": "Gastar Espacio"
+          "name": "Gastar Uso"
         }
       }
     },

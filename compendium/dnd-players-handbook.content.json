@@ -15,7 +15,7 @@
       "name": "Acciones",
       "pages": {
         "Overview": {
-          "name": "Descripción General",
+          "name": "Resumen",
           "text": "<p>Cuando haces algo que no sea moverte o comunicarte, normalmente debes llevar a cabo una acción. La tabla “Acciones” enumera las principales acciones del juego, que se definen de forma más detallada en el glosario de reglas.</p><table><caption>Acciones</caption><thead><tr><th><p>Acción</p></th><th><p>Resumen</p></th></tr></thead><tbody><tr><td><p>&amp;Reference[Attack]</p></td><td><p>Atacas con un Arma o un Ataque Sin Armas.</p></td></tr><tr><td><p>&amp;Reference[Dash]</p></td><td><p>Durante el resto del turno, te concedes movimiento <span>adicional</span> equivalente a tu Velocidad.</p></td></tr><tr><td><p>&amp;Reference[Disengage]</p></td><td><p>Tu movimiento no provocará Ataques de Oportunidad durante el resto del turno.</p></td></tr><tr><td><p>&amp;Reference[Dodge]</p></td><td><p>Hasta el principio de tu siguiente turno, Las Tiradas de Ataque contra ti tendrán Desventaja y realizarás las Tiradas de Salvación de Destreza con ventaja. Perderás este beneficio si tienes el estado de Incapacitado o si tu Velocidad es 0.</p></td></tr><tr><td><p>&amp;Reference[Help]</p></td><td><p>Ayudas a otra criatura en una Prueba de Característica o Tirada de Ataque, o administras primeros auxilios.</p></td></tr><tr><td><p>&amp;Reference[Hide]</p></td><td><p>Haces una prueba de Destreza (Sigilo).</p></td></tr><tr><td><p>&amp;Reference[Influence]</p></td><td><p>Haces una prueba de Carisma (Engaño, Interpretación, Intimidación o Persuasión) o Sabiduría (Trato con animales) para cambiar la actitud de una criatura.</p></td></tr><tr><td><p>&amp;Reference[Magic]</p></td><td><p>Lanzas un conjuro, utilizas un objeto mágico o empleas un rasgo mágico.</p></td></tr><tr><td><p>&amp;Reference[Ready]</p></td><td><p>Te preparas para llevar a cabo una acción en respuesta a un suceso que tú definas.</p></td></tr><tr><td><p>&amp;Reference[Search]</p></td><td><p>Haces una prueba de Sabiduría (Medicina, Percepción, Perspicacia o Supervivencia).</p></td></tr><tr><td><p>&amp;Reference[Study]</p></td><td><p>Haces una prueba de Inteligencia (Conocimiento arcano, Historia, Investigación, Naturaleza o Religión).</p></td></tr><tr><td><p>&amp;Reference[Utilize]</p></td><td><p>Usas un objeto no mágico.</p></td></tr></tbody></table><p>Los personajes de los jugadores y los monstruos pueden hacer otras cosas que no se abarcan en estas acciones. Muchos rasgos de clase y otras características proporcionan opciones adicionales para tus acciones, y también puedes improvisar otras acciones. Para realizar una acción que no aparezca en las reglas, tu DM te dirá si esa acción es posible y qué tipo de &amp;Reference[D20 Test] tienes que realizar (si fuera necesario).</p>"
         },
         "One Thing at a Time": {
@@ -61,7 +61,7 @@
       "name": "Apéndice A: El Multiverso",
       "pages": {
         "Overview": {
-          "name": "Descripción General",
+          "name": "Resumen",
           "text": "<p>Este apéndice proporciona un vistazo general del multiverso, la realidad dominante que abarca los innumerables mundos y aventuras de D&amp;D. Estos reinos se exploran con más detalle en la <em>Guía del Dungeon Master</em> junto con otros planos como el Reino Lejano, el Plano Negativo y el Plano Positivo.</p><p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppArtHandout.JournalEntryPage.YTVDDaudskR5tott caption=false]</p>"
         },
         "The Material Realms": {
@@ -86,7 +86,7 @@
       "name": "Apéndice B: Bloques de Estadísticas de Criaturas",
       "pages": {
         "Overview": {
-          "name": "Descripción General",
+          "name": "Resumen",
           "text": "<p>Este apéndice ofrece bloques de estadísticas de las criaturas mencionadas en otras partes del libro, sobre todo en los capítulos de clases, equipo y conjuros. Consulta el glosario de reglas para saber cómo leer un bloque de estadísticas, y consulta el <em>Manual de Monstruos</em> para encontrar aún más criaturas.</p><p>Los siguientes bloques de estadísticas se presentan en orden alfabético. Cuando el Dungeon Master usa un bloque de estadísticas, puede cambiar los detalles que contiene.</p>"
         },
         "Companions": {
@@ -703,7 +703,7 @@
           "text": "<p>Una tirada de ataque es una &amp;Reference[D20 Test] que representa hacer un ataque con un arma, un Ataque sin Armas o un conjuro.</p>"
         },
         "Armor Training": {
-          "name": "Entrenamiento con Armaduras",
+          "name": "Entrenamiento con Armadura",
           "text": "<p>El entrenamiento con armaduras te permite usar una armadura de una categoría determinada sin los siguientes inconvenientes. Si llevas una armadura Ligera, Media o Pesada pero no tienes entrenamiento con ella, tienes Desventaja en cualquier Prueba con d20 que implique Fuerza o Destreza, y no puedes lanzar conjuros.</p>"
         },
         "Armor Class": {
@@ -711,7 +711,7 @@
           "text": "<p>Una Clase de Armadura (CA) es el número objetivo para una tirada de ataque. La CA representa lo difícil que es acertar a un objetivo.</p>"
         },
         "Attunement": {
-          "name": "Sintonía",
+          "name": "Sintonización",
           "text": "<p>Algunos objetos mágicos requieren que una criatura forme un vínculo (llamado Sintonía) con ellos antes de que la criatura pueda usar las propiedades mágicas del objeto.</p>"
         },
         "Bloodied": {
@@ -779,7 +779,7 @@
           "name": "Conjuros del Juramento de Venganza"
         },
         "Fey Wanderer Spells": {
-          "name": "Conjuros de Errante Feérico"
+          "name": "Conjuros del Errante Feérico"
         },
         "Gloom Stalker Spells": {
           "name": "Conjuros del Acechador en la Penumbra"
@@ -2021,7 +2021,7 @@
           "caption": "El Mago Mordenkainen recibe a sus invitados en su morada mágica, la Mansión Magnífica de Mordenkainen."
         },
         "Phantom Steed": {
-          "name": "Corcel Fantasmal",
+          "name": "Corcel Fantasma",
           "src": "modules/dnd-players-handbook/assets/journal-art/phantom-steed.webp"
         },
         "Dwarf Turned to Stone": {

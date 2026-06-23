@@ -36,11 +36,11 @@
       "items": {
         "Primal Bond": {
           "name": "Vínculo Primigenio",
-          "description": "<p>Suma tu bonificador por competencia a cualquier prueba de característica o tirada de salvación que realice la bestia.</p><section class=\"secret\" id=\"secret-pNoLkUZKFbyzHTbF\"><p><strong>Nota Foundry</strong></p><p>Esta bonificación se ha incluido en las Bonificaciones Globales de la bestia.</p></section>"
+          "description": "<p>Suma tu bonificador por competencia a cualquier prueba de característica o tirada de salvación que realice la bestia.</p><section class=\"secret\" id=\"secret-CfXBtyjBnCMQ2fmp\"><p><strong>Nota Foundry</strong></p><p>Esta bonificación se ha incluido en las Bonificaciones Globales de la bestia.</p></section>"
         },
         "Beast's Strike": {
           "name": "Golpe de Bestia",
-          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d8 + 2 más tu modificador por Sabiduría de daño Contundente, Cortante o Perforante (a tu elección cuando invocas a la bestia). Si la bestia recorrió al menos 6 m (20 pies) en línea recta hacia el objetivo antes de acertarle, este recibe 1d6 de Daño Adicional del mismo tipo y, si es una criatura Grande o más pequeña, tendrá el estado de &amp;Reference[prone].</p><section class=\"secret\" id=\"secret-EslplTbdjSBUKz5n\"><p><strong>Foundry Note</strong></p><p>The <strong>Attack</strong> and <strong>Charging Attack</strong> activities will allow you to choose the damage type in the roll dialog. You should choose one damage type and use it consistently until resummoning your companion.</p><p>The <strong>Charging Attack</strong> activity includes the additional damage.</p><p>Additionally, they have force as a damage option which should only be used once you reach level 7 and get the @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrExceptiona]{Exceptional Training} feature.</p></section>",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d8 + 2 más tu modificador por Sabiduría de daño Contundente, Cortante o Perforante (a tu elección cuando invocas a la bestia). Si la bestia recorrió al menos 6 m (20 pies) en línea recta hacia el objetivo antes de acertarle, este recibe 1d6 de Daño Adicional del mismo tipo y, si es una criatura Grande o más pequeña, tendrá el estado de &amp;Reference[prone].</p><section class=\"secret\" id=\"secret-fxROphHp3AaFzUXp\"><p><strong>Foundry Note</strong></p><p>The <strong>Attack</strong> and <strong>Charging Attack</strong> activities will allow you to choose the damage type in the roll dialog. You should choose one damage type and use it consistently until resummoning your companion.</p><p>The <strong>Charging Attack</strong> activity includes the additional damage.</p><p>Additionally, they have force as a damage option which should only be used once you reach level 7 and get the @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrExceptiona]{Exceptional Training} feature.</p></section>",
           "activities": {
             "Charge": {
               "name": "Carga",
@@ -70,7 +70,7 @@
         },
         "Beast's Strike": {
           "name": "Golpe de Bestia",
-          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d6 + más tu modificador por Sabiduría de daño Contundente o Perforante (a tu elección cuando invocas a la bestia) y el objetivo tendrá el estado de &amp;Reference[grappled] (CD para escapar igual a tu CD de salvación de conjuros).</p><section class=\"secret\" id=\"secret-zGW1whEmGkycnc94\"><p><strong>Nota Foundry</strong></p><p>La Actividad de <strong>Ataque</strong> te permitira elejir el tipo de daño del ataque. Debes elegir un tipo de daño y usarlo de forma constante hasta que vuelvas a invocar a tu compañero.</p><p>Además, tienen el tipo Fuerza como opción de daño, que sólo debe utilizarse una vez alcanzado el nivel 7 y conseguido @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrExceptiona]{Entrenamiento Excepcional}.</p></section>",
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d6 + más tu modificador por Sabiduría de daño Contundente o Perforante (a tu elección cuando invocas a la bestia) y el objetivo tendrá el estado de &amp;Reference[grappled] (CD para escapar igual a tu CD de salvación de conjuros).</p><section class=\"secret\" id=\"secret-AoVM7zkUrdX0Ny38\"><p><strong>Nota Foundry</strong></p><p>La Actividad de <strong>Ataque</strong> te permitira elejir el tipo de daño del ataque. Debes elegir un tipo de daño y usarlo de forma constante hasta que vuelvas a invocar a tu compañero.</p><p>Además, tienen el tipo Fuerza como opción de daño, que sólo debe utilizarse una vez alcanzado el nivel 7 y conseguido @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrExceptiona]{Entrenamiento Excepcional}.</p></section>",
           "activities": {
             "Escape Check": {
               "name": "Tirada para Escapar",
@@ -97,7 +97,7 @@
         },
         "Primal Bond": {
           "name": "Vínculo Primigenio",
-          "description": "<p>Suma tu bonificador por competencia a cualquier prueba de característica o tirada de salvación que realice la bestia.</p><section class=\"secret\" id=\"secret-pNoLkUZKFbyzHTbF\"><p><strong>Nota Foundry</strong></p><p>Esta bonificación se ha incluido en las Bonificaciones Globales de la bestia.</p></section>"
+          "description": "<p>Suma tu bonificador por competencia a cualquier prueba de característica o tirada de salvación que realice la bestia.</p><section class=\"secret\" id=\"secret-beTIv7xucaHGX104\"><p><strong>Nota Foundry</strong></p><p>Esta bonificación se ha incluido en las Bonificaciones Globales de la bestia.</p></section>"
         },
         "Beast's Strike": {
           "name": "Golpe de Bestia",
@@ -1436,10 +1436,10 @@
           "description": "<p>Has decidido dedicarte a uno de los siguientes órdenes sagrados de clérigos:</p><p>• @UUID[Compendium.dnd-players-handbook.classes.Item.phbclcProtector0]{Protector}</p><p>• @UUID[Compendium.dnd-players-handbook.classes.Item.phbclcThaumaturg] {Taumaturgo}</p><section class=\"secret\" id=\"secret-mBkdTF86GHVjdNKD\"><p><strong>Nota Foundry</strong></p><p>During advancement Tú/Usted be able a choose que option Tú/Usted prefer.</p> @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]</section>"
         },
         "Divine Order: Protector": {
-          "name": "Orden Divino: Protector",
+          "name": "Orden Divina: Protector",
           "effects": {
             "Divine Order: Protector": {
-              "name": "Orden Divino: Protector"
+              "name": "Orden Divina: Protector"
             }
           },
           "description": "<p>Entrenado para la batalla, obtienes competencia con armadura pesada y el rasgo Protector Divino, que es una opción para tu Canalizar Divinidad.</p><section id=\"secret-Tsm148wTyiFWlMFv\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que grants el/la proficiency y training.</p></section>"

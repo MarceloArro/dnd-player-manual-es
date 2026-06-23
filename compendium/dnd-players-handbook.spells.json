@@ -1048,7 +1048,7 @@
       "description": "<p>Hasta que el conjuro termine, percibes la ubicación de venenos, criaturas venenosas y enfermedades mágicas a 9 mo menos de ti, e identificas el tipo de veneno, criatura o enfermedad en cada caso.</p><p>El conjuro no puede atravesar 30 cm de piedra, tierra o madera, 2,5 cm de metal o una lámina fina de plomo. DIsco</p>",
       "effects": {
         "Detect Poison and Disease": {
-          "name": "Detectar Veneno y Enfermedades"
+          "name": "Detectar Venenos y Enfermedades"
         }
       }
     },
@@ -1399,7 +1399,7 @@
       },
       "effects": {
         "Etherealness": {
-          "name": "Forma Etérea"
+          "name": "Excursión Etérea"
         }
       }
     },
@@ -3242,7 +3242,7 @@
       "description": "<p>Hasta que termine el conjuro, ves a las criaturas y objetos que tengan el estado de &Reference[invisible apply=false] como si fueran visibles y puedes ver en el Plano Etéreo. Las criaturas y objetos que haya en él tendrán un aspecto fantasmal.</p>",
       "effects": {
         "See Invisibility": {
-          "name": "Ver lo Invisible"
+          "name": "Ver Invisibilidad"
         }
       }
     },
@@ -3538,7 +3538,7 @@
       "description": "<p>Hasta que el conjuro termine, una criatura voluntaria a la que toques tiene resistencia al daño contundente, cortante y perforante.</p>",
       "effects": {
         "Stoneskin": {
-          "name": "Piel de Piedra"
+          "name": "Piel Pétrea"
         }
       }
     },
@@ -3746,7 +3746,7 @@
           "name": "Dolor"
         },
         "Sleep": {
-          "name": "Sueño"
+          "name": "Dormir"
         },
         "Stunning": {
           "name": "Aturdimiento"
@@ -4096,7 +4096,7 @@
       "description": "<p>Este conjuro concede a hasta diez criaturas voluntarias que elijas dentro del alcance la capacidad de respirar bajo el agua hasta que el conjuro termine. Las criaturas afectadas también conservan su modo de respiración normal.</p>",
       "effects": {
         "Water Breathing": {
-          "name": "Respiración Acuática"
+          "name": "Respirar bajo el Agua"
         }
       }
     },

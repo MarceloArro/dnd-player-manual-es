@@ -567,7 +567,7 @@
           "title": "Competencias con Herramientas"
         },
         "Armor Training": {
-          "title": "Entrenamiento con Armaduras"
+          "title": "Entrenamiento con Armadura"
         },
         "Epic Boon": {
           "title": "Don Épico"
@@ -1033,7 +1033,7 @@
           "title": "Competencias con Armas"
         },
         "Armor Training": {
-          "title": "Entrenamiento con Armaduras"
+          "title": "Entrenamiento con Armadura"
         },
         "Epic Boon": {
           "title": "Don Épico"
@@ -1241,7 +1241,7 @@
       },
       "effects": {
         "Hiding": {
-          "name": "Escondiéndose"
+          "name": "Esconderse"
         }
       }
     },
@@ -2107,7 +2107,7 @@
       }
     },
     "Fey Wanderer Spells": {
-      "name": "Conjuros de Errante Feérico",
+      "name": "Conjuros del Errante Feérico",
       "description": "<p>Tu conexión con el Feywild infunde cierta magia feérica en ti.</p><table><thead><tr><th>Nivel de Explorador</th><th>Conjuros</th></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{Encantar Persona}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Paso Brumoso}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Disipar Magia}</td></tr><tr><td>13</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDimension0]{Puerta Dimensional}</td></tr><tr><td>17</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbspl@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMislead000]nnn]{Desorientar}</td></tr></tbody></table><section class=\"secret\" id=\"secret-iOmJyauf3eYFUSIM\"><p><strong>Nota Foundry</strong></p><p>The conjuros be automáticamente otorgado as Tú/Usted level up.</p> @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonFey0] @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDimensionD] @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMislead000]</section>"
     },
     "Fiend Patron": {
@@ -2174,7 +2174,7 @@
       "description": "<p>Puedes lanzar @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0]{Falsa Vida} sobre ti mismo a voluntad como un conjuro de nivel 1, sin gastar un espacio de conjuro o componentes materiales.</p><p>Cada vez que lances el conjuro de esta manera, obtienes 1d4 + 4 puntos de golpe temporales durante 1 hora.</p><section class=\"secret\" id=\"secret-9kRkRSKEmbOaga6L\"><p><strong>Nota Foundry</strong></p><p>Lactividad \\<strong\\>False Life\\</strong\\> incluye el/la maximum amount de healing.</p></section>",
       "activities": {
         "False Life": {
-          "name": "Vida Falsa"
+          "name": "Falsa Vida"
         }
       }
     },
@@ -3446,7 +3446,7 @@
       "description": "<p>Aprendes el conjuro @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFindFamilia]{Encontrar familiar} y puedes lanzarlo como ritual sin gastar un espacio de conjuro.</p><p>Cuando lanzas el conjuro, puedes elegir una de las formas normales de familiar o una de las siguientes formas especiales: @UUID[Compendium.dnd-players-handbook.actors.Actor.phb@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobImp0000000]00000000]{Diablillo}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbPseudodragon]{Pseudodragón}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbQuasit000000]{@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobQuasit0000]{Quasit}} o @UUID[Compendium.dnd-players-handbook.actors.Actor.phb@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobSprite0000]000000]{Duende}.</p><section id=\"secret-aKbhLPfPD3R9Y1KL\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Lactividad \\<strong\\>Summon Familiar\\</strong\\> incluye el/la normal invocación options y Lactividad \\<strong\\>Summon Familiar (Expanded Options)\\</strong\\> incluye el/ladditional options.</p> @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFindFamili] @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobImp0000000] @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobPseudodrag] @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobSkeleton00] @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobSlaadTadpo] @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobSphinxofWo] @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobSprite0000] @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobVenomousSn]</section>",
       "activities": {
         "Find Familiar": {
-          "name": "Buscar Familiar",
+          "name": "Encontrar Familiar",
           "profiles": {
             "CR 0 Beast": {
               "name": "CR 0 Beast"
@@ -4925,7 +4925,7 @@
       "description": "<p>Puedes teletransportarte al Árbol del Mundo. Como acción, gastas un uso de tu Furia y te teletransportas hasta 18 metros a un espacio desocupado que puedas ver. Espectros del Árbol del Mundo aparecen momentáneamente en el espacio que dejas y el espacio al que viajas.</p>",
       "activities": {
         "Teleport": {
-          "name": "Teletransportar"
+          "name": "Teletransporte"
         },
         "Extended Teleport": {
           "name": "Teletransporte Extendido"
@@ -5236,7 +5236,7 @@
           "hint": "Has desenterrado Invocaciones Sobrenaturales, piezas de conocimiento prohibido que te infunden con una habilidad mágica perdurable u otras lecciones."
         },
         "Contact Patron": {
-          "title": "Contactar Patrón",
+          "title": "Contactar con el Patrón",
           "hint": "En el pasado, generalmente contactabas a tu patrón a través de intermediarios. Ahora puedes comunicarte directamente; siempre tienes el conjuro Contactar Otro Plano preparado."
         },
         "Saving Throw Proficiencies": {

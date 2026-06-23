@@ -127,7 +127,7 @@
       },
       "effects": {
         "Tripped": {
-          "name": "Derribado"
+          "name": "Tropezado"
         }
       }
     },
@@ -736,7 +736,7 @@
       "description": "<p>Como Acción de Utilizar, puedes esposar a una criatura Pequeña o Mediana no voluntaria que esté a 1,5 m (5 pies) o menos de ti que tenga el estado de &amp;Reference[Grappled], &amp;Reference[Restrained] O &amp;Reference[Incapacitated] si superas una prueba de Destreza ([[/check slt dc=13]]) con CD 13. Mientras esté esposada, la criatura tendrá desventaja en las tiradas de ataque y estará &Reference[Restrained] si las esposas están sujetas a una cadena o garfio fijados en el sitio. Para liberarse de las esposas, deberá superar una prueba de Destreza (Juego de manos | [[/check slt dc=20]]) con CD 20 como Acción. Para romperlas, deberá superar una prueba de Fuerza (Atletismo | [[/check ath dc=25]]) con CD 25 como Acción. </p><p>Cada juego de esposas viene con una llave. Sin la llave, una criatura puede usar @UUID[Compendium.dnd-players-handbook.equipment.Item.phbtulThievesToo]{Herramientas de Ladrón} para forzar la cerradura de las esposas si supera una prueba de Destreza (Juego de manos | [[/tool thief dex 15]]) con CD 15.</p>",
       "activities": {
         "Bind": {
-          "name": "Esposar"
+          "name": "Atar"
         },
         "Escape Check": {
           "name": "Tirada para Liberarse de las Esposas"
@@ -1121,7 +1121,7 @@
       "description": "<p>Un Yesquero es un pequeño recipiente que contiene un pedernal, un chispero y yescas (normalmente, tela seca untada en aceite) y se utiliza para encender un fuego.</p><p>Se necesita una Acción Adicional para prender con él una Antorcha, Lámpara, Linterna o Vela (o cualquier otra cosa con combustible expuesto). Encender cualquier otro tipo de fuego lleva 1 minuto.</p>",
       "activities": {
         "Light": {
-          "name": "Prender"
+          "name": "Luz"
         }
       }
     },
@@ -1147,11 +1147,11 @@
       "description": "<p>Una lanza con varias puntas diseñada para empalar a un objetivo en varios lugares, inmovilizándolo. A menudo se utiliza en combinación con una red para atrapar y hostigar a los enemigos.</p>"
     },
     "Unarmed Strike": {
-      "name": "Ataque Sin Armas",
+      "name": "Ataque sin Armas",
       "description": "<p>Puedes atacar en cuerpo a cuerpo estando desarmado mediante un ataque sin armas, ya se trate de un puñetazo, patada, cabezazo o cualquier otro impacto enérgico. En caso de impactar, causarás 1 + tu modificador de Fuerza de daño contundente. Siempre eres competente con tus ataques sin armas.<em>&amp;Reference[unarmedstrike]</em></p>",
       "activities": {
         "Grapple/Shove": {
-          "name": "Agarre/Empujon",
+          "name": "Agarrar/Empujar",
           "chatFlavor": "Intento de Aggarrar o Empujar"
         }
       }

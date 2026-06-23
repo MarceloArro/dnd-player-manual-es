@@ -345,7 +345,7 @@
       }
     },
     "Wild Magic Surge": {
-      "name": "Sobrecarga de Magia Salvaje",
+      "name": "Oleada de Magia Salvaje",
       "results": {
         "1-4": "Tira en esta tabla al principio de cada uno de tus turnos durante el próximo minuto, ignorando este resultado en esas tiradas. ",
         "5-8": "Una criatura amistosa contigo aparecerá en un espacio sin ocupar aleatorio a 18 m (60 pies) o menos de ti. La criatura está bajo el control de tu DM y desaparecerá 1 minuto después. Tira [[/r 1d4]]  para determinar la criatura: si el resultado es 1, aparecerá un modron duodron; si es 2, aparecerá un flumph; si es 3, aparecerá un modron monodron; si es 4, aparecerá un unicornio. Consulta el Manual de Monstruos para conocer el perfil de la criatura.",

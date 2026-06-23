@@ -1,0 +1,59 @@
+name: Release módulo
+
+# Se ejecuta cuando publicas (o editas) una release en GitHub con un tag vX.Y.Z.
+# Crear release: https://github.com/MarceloArro/dnd-player-manual-es/releases/new
+#   -> nuevo tag «v1.0.0», título, descripción, Publicar.
+# El workflow pone la versión = el tag en module.json, empaqueta el .zip y sube
+# module.json + module.zip como assets del release. Los usuarios instalan con la URL
+# .../releases/latest/download/module.json (siempre apunta a la última release).
+
+on:
+  release:
+    types: [published, edited]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Versión desde el tag
+        id: ver
+        run: echo "version=${GITHUB_REF_NAME#v}" >> "$GITHUB_OUTPUT"
+
+      - name: Actualizar module.json (versión + URLs de release)
+        env:
+          V: ${{ steps.ver.outputs.version }}
+          REPO: ${{ github.repository }}
+        run: |
+          python3 - <<'PY'
+          import json, os
+          m = json.load(open("module.json"))
+          m["version"] = os.environ["V"]
+          base = f"https://github.com/{os.environ['REPO']}/releases/latest/download"
+          m["manifest"] = f"{base}/module.json"
+          m["download"] = f"{base}/module.zip"
+          json.dump(m, open("module.json", "w"), ensure_ascii=False, indent=2)
+          print("module.json -> version", m["version"])
+          PY
+
+      - name: Empaquetar module.zip
+        run: |
+          zip -r module.zip \
+            module.json \
+            babele-register.js \
+            compendium \
+            assets \
+            README.md \
+            CHANGELOG.md \
+            LICENSE
+
+      - name: Subir assets al release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            module.json
+            module.zip

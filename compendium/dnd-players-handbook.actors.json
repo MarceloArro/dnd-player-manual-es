@@ -101,7 +101,7 @@
         },
         "Beast's Strike": {
           "name": "Golpe de Bestia",
-          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d4 + 3 más tu modificador por Sabiduría de daño cortante.</p><section class=\"secret\" id=\"secret-zGW1whEmGkycnc94\"><p><strong>Nota Foundry</strong></p><p>La Actividad de <strong>Ataque</strong> te permitira elejir el tipo de daño del ataque. Debes elegir un tipo de daño y usarlo de forma constante hasta que vuelvas a invocar a tu compañero.</p><p>Además, tienen el tipo Fuerza como opción de daño, que sólo debe utilizarse una vez alcanzado el nivel 7 y conseguido @UUID[Compendium.dnd-players-handbook.classes.Item.phbrgrExceptiona]{Entrenamiento Excepcional}.</p></section>"
+          "description": "<p><em>Tirada de Ataque Cuerpo a Cuerpo:</em> bonificador igual a tu modificador de ataque de conjuros, alcance 1,5 m (5 pies). <em>Acierto:</em> 1d4 + 3 más tu modificador por Sabiduría de daño cortante.</p>"
         }
       }
     },
@@ -4361,7 +4361,7 @@
         },
         "Wand": {
           "name": "Varita",
-          "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Canalizador Arcano} que está enjoyado o tallado para canalizar magia arcana. Un Hechicero, Brujo o Mago puede usar este objeto como Foco para Lanzamiento de Conjuros.</p><p>Este objeto funciona como un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}</p><section class=\"secret\" id=\"secret-wJ4SJVg9unbYSBJb\"><p><strong>Notas Foundry</strong></p><p>Este objeto se ha configurado con las propiedades adicionales de un Bastón.</p></section>"
+          "description": "<p>Un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagArcaneFocus]{Canalizador Arcano} que está enjoyado o tallado para canalizar magia arcana. Un Hechicero, Brujo o Mago puede usar este objeto como Foco para Lanzamiento de Conjuros.</p><p>Este objeto funciona como un @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepQuartersta]{Bastón}</p>"
         },
         "Caltrops": {
           "name": "Abrojos",

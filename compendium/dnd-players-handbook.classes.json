@@ -4215,11 +4215,11 @@
 			"description": "<p>Puedes crear hendiduras de efectos evocadores para proteger a criaturas que designes de daño. Cuando lances un conjuro de Evocación que afecte a otras criaturas que puedas ver, puedes elegir un número de ellas igual a 1 + el nivel del conjuro. Las criaturas elegidas automáticamente tienen éxito en sus tiradas de salvación contra el conjuro, y no reciben daño si normalmente recibirían la mitad del daño en una salvación exitosa.</p>"
 		},
 		"Sear Undead": {
-			"name": "Abrasar No Muerto",
+			"name": "Abrasar Muerto Viviente",
 			"description": "<p>Siempre que usas Expulsar Muertos Vivientes, puedes tirar una cantidad de d8 igual a tu modificador por Sabiduría (mínimo de 1d8, actualmente [[lookup @abilities.wis.mod]]) y sumar las tiradas. Cada Muerto Viviente que falle su tirada de salvación contra ese uso de Expulsar Muertos Vivientes sufre daño Radiante igual al total de la tirada. Este daño no termina el efecto de expulsión.</p><section class=\"secret\" id=\"secret-VJPPRFTlu1fFg8XB\"><p><strong>Nota Foundry</strong></p><p>Este rasgo puede usarse en lugar de Expulsar Muertos Vivientes. Consume un uso de Canalizar Divinidad e incluye la tirada de salvación, los Efectos Activos para los estados y la tirada de daño de este rasgo.</p></section>",
 			"activities": {
 				"Channel Divinity: Turn Undead": {
-					"name": "Canalizar Divinidad: Rechazar No Muertos"
+					"name": "Canalizar Divinidad: Rechazar Muertos Vivientes"
 				}
 			},
 			"effects": {

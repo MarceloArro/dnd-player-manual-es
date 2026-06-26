@@ -2191,7 +2191,7 @@
 			"effects": {
 				"Invisible": {
 					"name": "Invisible",
-					"description": "<p>El conjuro termina antes inmediatamente después de que el objetivo realice una tirada de ataque, inflija daño o lance un conjuro.</p>"
+					"description": "<p>El conjuro terminará inmediatamente después de que el objetivo haga una tirada de ataque, cause daño o lance un conjuro.</p>"
 				}
 			}
 		},
@@ -2539,7 +2539,7 @@
 			"effects": {
 				"Invisible": {
 					"name": "Invisible",
-					"description": "<p>La condición de &Reference[invisible apply=false] termina inmediatamente después de que realices una tirada de ataque, inflijas daño o lances un conjuro.</p>"
+					"description": "<p>La condición de &Reference[invisible apply=false] terminará de inmediato después de que hagas una tirada de ataque, causes daño o lances un conjuro.</p>"
 				}
 			}
 		},

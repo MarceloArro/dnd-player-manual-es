@@ -107,7 +107,7 @@
 				},
 				"Psychic Defenses": {
 					"title": "Defensas Psíquicas",
-					"hint": "Tienes resistencia al daño psíquico y ventaja en las tiradas de salvación para evitar o poner fin a los estados de asustado o hechizado."
+					"hint": "Tienes resistencia al daño psíquico y ventaja en las Tiradas de Salvación para evitar o poner fin a los estados de &Reference[frightened apply=false] o &Reference[charmed apply=false]"
 				}
 			}
 		},
@@ -1372,11 +1372,11 @@
 		},
 		"Deflect Energy": {
 			"name": "Desviar Energía",
-			"description": "<p>Puedes usar tu reacción cuando eres golpeado por un ataque que causa daño de Ácido, Frío, Fuego, Relámpago o Trueno para reducir el daño que recibes. El daño se reduce en 1d10 más tu modificador por Destreza.</p><p>Si reduces el daño a 0 y el ataque era un ataque a distancia, puedes redirigir el daño como parte de la misma reacción si tienes un Punto de Concentración para gastar. Haces un ataque a distancia usando tu Arma Marcial dedicaa contra un objetivo a 18 metros de ti que puedas ver. Este ataque tiene el mismo alcance que el ataque detenido, y usa el ataque original y el tipo de daño, infligiendo daño igual al daño original reducido.</p><section id=\"secret-XAQmFmc4TpSF2Oh1\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que reduce automáticamente el daño cuando se aplica.</p></section>",
+			"description": "<p>Ahora puedes usar tu rasgo Desviar Ataques contra Ataques que causen cualquier tipo de daño, no solo Contundente, Cortante o Perforante.</p><section id=\"secret-XAQmFmc4TpSF2Oh1\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Reducir</strong> puede usarse para curarte y reducir el daño total si no es suficiente para reducirlo a 0.</p><p>La actividad <strong>Redirigir</strong> puede usarse para tirar daño y consumir un uso de tus Puntos de Concentración si puedes reducirlo a 0. Puedes hacer clic derecho en la tarjeta de chat del daño y seleccionar <span class=\\\"reference\\\"><em class=\\\"fas fa-user-injured\\\"> </em>Aplicar Daño</span> para aplicar el daño al objetivo. El dado incrementa automaticamente con tu nivel.</p></section>",
 			"activities": {
 				"Reduce": {
 					"name": "Reducir",
-					"condition": "Cuando una tirada de ataque te acierta y su daño incluye daño Contundente, Perforante o Cortante"
+					"condition": "Cuando una tirada de ataque te acierta y ta hace daño."
 				},
 				"Redirect": {
 					"name": "Redirigir",
@@ -2243,7 +2243,7 @@
 		},
 		"Font of Inspiration": {
 			"name": "Fuente de Inspiración",
-			"description": "<p>Recuperas todos tus usos de Inspiración Bárdica gastados cuando finalices un Descanso Corto o Largo.</p><p>Además, si fallan en una Tirada de Salvación contra la Muerte al comienzo de tu turno, puedes usar tu reacción para gastar un uso de Inspiración Bárdica y tener éxito.</p><section id=\"secret-KgQeVfHTLTrKK1s0\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una Actividad que gasta un uso de Inspiración Bárdica y automáticamente tiene éxito en una tirada de salvación contra la Muerte.</p></section>",
+			"description": "<p>Ahora recuperas todos los usos de Inspiración bárdica tras finalizar un descanso corto o largo.</p><p>Además, puedes gastar un espacio de conjuro (no requiere acción) para recuperar un uso gastado de Inspiración Bárdica.</p><section id=\"secret-KgQeVfHTLTrKK1s0\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p><p>Debes actualizar la Inspiración Bárdica en tu hoja de personaje para que se recarge en un Descanso Corto ya que esta configurado por defecto para un Descanso Largo</p>Este rasgo incluye una Actividad que gasta un uso de Inspiración Bárdica y automáticamente tiene éxito en una Tirada de Salvación contra la Muerte.</p></section>",
 			"activities": {
 				"Recharge with Spell Slot": {
 					"name": "Recargar con Espacio de Conjuro"
@@ -2264,11 +2264,11 @@
 		},
 		"Frenzy": {
 			"name": "Frenesí",
-			"description": "<p>Mientras estés furioso, puedes entrar en frenesí. Si lo haces, durante tu Furia, puedes hacer un ataque desarmado como acción adicional en cada uno de tus turnos. Cuando tu Furia termine, sufrirás 1 nivel de Agotamiento.</p><section id=\"secret-EsDSGWYhmnmiS9Cu\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Lactividad <strong>Frenesí</strong> actúa como una simple actividad de ataque. Cuando tu Furia termine, deberás aumentar manualmente tu nivel de Agotamiento en 1.</p></section>"
+			"description": "<p>Si utilizas Ataque temerario mientras estás enfurecido, causarás daño adicional al primer objetivo al que aciertes en tu turno con un ataque basado en la Fuerza. Para determinar el daño adicional, tira una cantidad de d6 igual a tu bonificación de daño por furia y suma los resultados. El daño será del mismo tipo que el del arma o ataque sin armas utilizado para el ataque.</p><section id=\"secret-EsDSGWYhmnmiS9Cu\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Daño</strong> escala automaticamente mientras subas de nivel y te permite seleccionar el tipo de daño a usar en el díalogo de la tirada de ataque. Recordara tu elección anterior</p></section>"
 		},
 		"Full of Stars": {
-			"name": "Lleno de Estrellas",
-			"description": "<p>Cuando empieces tu Forma Estelar, puedes elegir para que dos constelaciones brillen, y cada una otorga su beneficio.</p><section id=\"secret-Do45Z2i70UArTlES\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye Efectos Activos separados para la Constelación del Dragón y la Constelación de la Estrella Fugaz. Estos efectos proporcionan las mecánicas de cada constelación.</p></section>",
+			"name": "Colmado de Luz Estelar",
+			"description": "<p>Mientras estés en tu Forma Estelar, te vuelves parcialmente incorpóreo, lo que te da resistencia al daño contundente, cortante y perforante.</p><section id=\"secret-Do45Z2i70UArTlES\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que automatiza la adición a las resistencias. Si no se aplica automáticamente al entrar en tu Forma Estelar. Se puede activar utilizando esta función y aplicándola, o bien activando el efecto activo en la pestaña «Efectos» de la ficha de tu personaje.</p></section>",
 			"effects": {
 				"Full of Stars": {
 					"name": "Lleno de Estrellas"
@@ -2629,7 +2629,7 @@
 		},
 		"Improved Duplicity": {
 			"name": "Duplicidad Mejorada",
-			"description": "<p>Cuando uses Invocar Duplicado, en lugar de crear un duplicado de ti mismo, puedes crear hasta cuatro duplicados. Como Acción Adicional en tu turno, puedes mover cualesquiera de ellos hasta 9 metros, hasta un máximo de 36 metros de ti.</p><section class=\"secret\" id=\"secret-uap8bgfMVCz4pnet\"><p><strong>Nota Foundry</strong></p><p>Deberás gestionar manualmente el movimiento de los duplicados usando lactividad <strong>Mover Duplicado</strong>.</p></section>",
+			"description": "<p>La ilusión de Invocar Duplicidad se vuelve más poderosa de las siguientes formas:</p><p><Strong>Distracción compartida.</Strong> Cuando tus aliados y tú hagáis tiradas de ataque contra una criatura que se encuentre a 1,5 m (5 pies) o menos de la ilusión, esas tiradas de ataque tendrán ventaja.</p><p><strong>Ilusión sanadora.</strong> Cuando la ilusión desaparezca, tú o una criatura de tu elección a 1,5 m (5 pies) o menos de ella recuperaréis una cantidad de Puntos de Golpe igual a tu nivel de clérigo.</p><section class=\"secret\" id=\"secret-uap8bgfMVCz4pnet\"><p><strong>Nota Foundry</strong></p><p>Deberás gestionar manualmente el movimiento de los duplicados usando lactividad <strong>Mover Duplicado</strong>.</p></section>",
 			"activities": {
 				"Healing Illusion": {
 					"name": "Ilusión Curativa",
@@ -2659,8 +2659,8 @@
 			"description": "<p>Cuando llevas a cabo la acción de Atacar en tu turno, puedes reemplazar dos de los ataques por el lanzamiento de uno de tus conjuros de Mago de nivel 1 o nivel 2 que tenga un tiempo de lanzamiento de una acción.</p>"
 		},
 		"Improved Warding Flare": {
-			"name": "Destello Protector Mejorado",
-			"description": "<p>El beneficio de Destello Protector ahora te protege a ti o a otra criatura. Cuando una criatura que puedas ver a 9 metros o menos de ti es atacada, puedes usar tu Reacción para interponer luz divina entre el atacante y la criatura objetivo. El atacante tiene Desventaja en la tirada de ataque.</p><section class=\"secret\" id=\"secret-7WmcCKWWvsv7V9NG\"><p><strong>Nota Foundry</strong></p><p>Lactividad <strong>Destello Protector Mejorado</strong> puede usarse tanto para protegerte a ti como a otra criatura.</p></section>"
+			"name": "Fulgor Protector Mejorado",
+			"description": "<p>Recuperas todos los usos de tu Fulgor protector tras finalizar un Descanso Corto o Largo.</p><p>Además, cuando uses tu Fulgor protector, puedes conceder al objetivo del ataque al que reaccionas una cantidad de Puntos de Golpe temporales igual a 2d6 + tu modificador por Sabiduría.</p><section class=\"secret\" id=\"secret-7WmcCKWWvsv7V9NG\"><p><strong>Nota Foundry</strong></p><p>La actividad no actualiza automáticamente Fulgor Protector para que se recargue tras un Descanso Corto. Debes editar el objeto y establecer el periodo de recuperación en «Descanso corto».</p><p>La actividad «Curar» incluye la recuperación de Puntos de Golpe Temporales.</p></section>"
 		},
 		"Indomitable": {
 			"name": "Indomable",
@@ -2814,7 +2814,7 @@
 		},
 		"Iron Mind": {
 			"name": "Mente de Hierro",
-			"description": "<p>Obtienes competencia en tiradas de salvación de Sabiduría. Si ya tienes esta competencia, obtienes en su lugar competencia en tiradas de salvación de Inteligencia o Carisma (tu elección).</p><section id=\"secret-5dqxmon9VZi1vCwf\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo existe solo para documentación. Las competencias deben agregarse manualmente.</p></section>"
+			"description": "<p>Has mejorado tu habilidad para resistir los poderes que alteran la mente. Ganas competencia en las Tiradas de Salvación de Sabiduría. Si ya tienes esta competencia, obtienes competencia en las Tiradas de Salvación de Inteligencia o Carisma (a tu elección).</p><section id=\"secret-5dqxmon9VZi1vCwf\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Cuando adquieras esta característica al subir de nivel, se te pedirá que elijas tu Tirada de Salvación. Debes seleccionar Sabiduría, a menos que ya tengas competencia en ella.</p></section>"
 		},
 		"Jack of All Trades": {
 			"name": "Aprendiz de Mucho",
@@ -3143,7 +3143,7 @@
 			}
 		},
 		"Monk's Focus": {
-			"name": "Concentración del Monje",
+			"name": "Concentración de Monje",
 			"description": "<p>Tu entrenamiento marcial te permite aprovechar la energía mística llamada foco. Tu acceso a esta energía está representado por un número de puntos de foco.</p><p><strong>Puntos de Concentración.</strong> Tu nivel de monje determina el número de puntos de foco que tienes, como se muestra en la columna Puntos de Concentración de la tabla de Monje. Puedes gastar estos puntos para alimentar ciertos rasgos de monje. Comienzas conociendo uno de esos rasgos: Ráfaga de Golpes.</p><p>Cuando gastas un punto de foco, no está disponible hasta que finalizas un descanso corto o largo, al final del cual recuperas todos tus puntos de foco gastados.</p><p><strong>Ráfaga de Golpes.</strong> Inmediatamente después de realizar la acción de Ataque en tu turno, puedes gastar 1 punto de foco para realizar dos ataques desarmados como acción adicional.</p><p><strong>CD de Salvación del Foco.</strong> Algunos rasgos que usan foco requieren que tu objetivo haga una tirada de salvación. La CD se calcula así:</p><p><strong>CD de Salvación del Foco</strong> = 8 + tu bonificador por competencia + tu modificador por Sabiduría</p><section class=\"secret\" id=\"secret-Kb8gEVefEUz6IHer\"><p><strong>Nota Foundry</strong></p><p>The <strong>Flurry de Blows</strong> activity is a Bonificación Action que expends a Focus Point y incluye el/la Ataque Roll y Daño por an Unarmored Strike usando tu Martial Arts Die que automáticamente scales as Tú/Usted level up. Sir [[/item Unarmed Strike]] is impacted por other magic items, puedes uso el/la <strong>Expend Focus Point</strong> activity y then uso tu Unarmed Strike as usual.</p><p>The <strong>Patient Defense</strong> Bonificación Action actividad incluye un Efecto Activo por tracking que Tú/Usted're Disengaged. El/La <strong>Patient Defense (Focus Point)</strong> activity expends a Focus Point y incluye un Efecto Activo que añade el/la Dodging status.</p><p>The <strong>Step de el/la Wind</strong> Bonificación Action activity expends 1 Focus Point y incluye un Efecto Activo por tracking que Tú/Usted're Disengaged.</p></section>",
 			"activities": {
 				"Flurry of Blows": {
@@ -3391,8 +3391,8 @@
 			}
 		},
 		"Otherworldly Glamour": {
-			"name": "Glamour de Otro Mundo",
-			"description": "<p>Tu apariencia adquiere una cualidad etérea. Como resultado, siempre que hagas una tirada de Carisma (Rendimiento) o Carisma (Persuasión), tiras dos veces y usas el resultado que prefieras.</p><section class=\"secret\" id=\"secret-G1217mPhZSkH8hBY\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un efecto que te otorga Ventaja en tiradas de Carisma (Rendimiento) y Carisma (Persuasión).</p></section>",
+			"name": "Glamur Sobrenatural",
+			"description": "<p>Siempre que hagas una Prueba de Carisma, obtienes un bonificador igual a tu modificador por Sabiduría (mínimo de +1).</p><p>También ganas competencia en una de las siguientes habilidades a tu elección: Engaño, Interpretación o Persuasión.</p><section class=\"secret\" id=\"secret-G1217mPhZSkH8hBY\"><p><strong>Nota Foundry</strong></p><p>Esta rasgo incluye un Efecto Activo que añadirá automáticamente la bonificación a tus Pruebas de Carisma.</p><p>Se te pedirá que elijas tu competencia al subir de nivel.</p></section>",
 			"effects": {
 				"Glamorous": {
 					"name": "Fascinante"
@@ -3798,7 +3798,7 @@
 		},
 		"Psychic Defenses": {
 			"name": "Defensas Psíquicas",
-			"description": "<p>Obtienes Resistencia al daño Psíquico y tienes Ventaja en tiradas de salvación para evitar o terminar el estado Encantado o Asustado sobre ti.</p><section class=\"secret\" id=\"secret-RsOEvBJWVWqSLQfY\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un efecto que te da Resistencial daño Psíquico y Ventaja en salvaciones contra los estados Encantado y Asustado.</p></section>"
+			"description": "<p>Tienes resistencia al daño Psíquico y ventaja en las Tiradas de Salvación para evitar o poner fin a los estados de &Reference[frightened apply=false] o &Reference[charmed apply=false].</p><section class=\"secret\" id=\"secret-RsOEvBJWVWqSLQfY\"><p><strong>Nota Foundry</strong></p><p>Obtendrás la Resistencia al daño Psíquico a medida que subas de nivel. La Ventaja en las Tiradas de Salvación no se aplica automáticamente.</p></section>"
 		},
 		"Psychic Spells": {
 			"name": "Conjuros Psíquicos",
@@ -4949,8 +4949,8 @@
 			"description": "<p>La magia de tu dominio asegura que siempre tengas ciertos conjuros preparados; cuando alcanzas un nivel de clérigo especificado en la tabla de Conjuros del Dominio del Engaño, a partir de entonces siempre tienes los conjuros indicados preparados.</p><table><caption>Conjuros del Dominio del Engaño</caption><thead><tr><td>Nivel de Clérigo</td><td>Conjuros</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{Charm Person}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSel]{@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe]{Disguise Self}}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili]{Invisibility}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou]{Pass without Trace}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBestowCurs]{Bestow Curse}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHypnoticPat]{@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHypnoticPa]{Hypnotic Pattern}}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConfusion0]{Confusion}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDimensionDo]{@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDimensionD]{Dimension Door}}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDominatePe]{Dominate Person}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplModifyMemor]{@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplModifyMemo]{Modify Memory}}</td></tr></tbody></table><section class=\"secret\" id=\"secret-1AoObJM20S7dzOx9\"><p><strong>Nota Foundry</strong></p><p>These conjuros are otorgado automáticamente as Tú/Usted advance.</p> @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplNondetecti]</section>"
 		},
 		"Trickster's Transposition": {
-			"name": "Transposición del Tramposo",
-			"description": "<p>Inmediatamente después de usar tu Ataque Furtivo, puedes usar tu reacción para intercambiar tus posiciones con un aliado a 9 metros de ti. Este movimiento no provoca Ataques de Oportunidad.</p><section id=\"secret-V8lO0vrA6lgQvqq7\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo existe solo para documentación. El intercambio de posiciones debe realizarse manualmente.</p></section>",
+			"name": "Transposición del Embaucador",
+			"description": "<p>Siempre que utilices una acción adicional para crear o mover la ilusión de Invocar duplicidad, podrás teletransportarte y cambiarle el lugar a la ilusión.</p><section id=\"secret-V8lO0vrA6lgQvqq7\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una actividad de «Transposición» para llevar un control del uso de tu Acción Extra, pero tendrás que intercambiar manualmente la posición de tu Token y la del Duplicado.</p></section>",
 			"activities": {
 				"Transpose": {
 					"name": "Transponer"
@@ -5191,11 +5191,11 @@
 			}
 		},
 		"Warding Flare": {
-			"name": "Destello Protector",
+			"name": "Fulgor Protector",
 			"description": "<p>Cuando una criatura que puedas ver a 9 m (30 pies) o menos de ti hace una tirada de ataque, puedes usar una Reacción para imponer Desventaja en la tirada de ataque, haciendo que la luz destelle antes de que acierte o falle.</p><p>Puedes usar este rasgo una cantidad de veces igual a tu modificador por Sabiduría (mínimo de una vez, actualmente [[lookup @abilities.wis.mod]]). Recuperas todos los usos gastados cuando terminas un Descanso Largo.</p><section class=\"secret\" id=\"secret-FVDTK9yzluaZoQ0v\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Flare</strong> incluye una emanación de 9 m (30 pies) para identificar a las criaturas afectadas. No automatiza la Desventaja.</p></section>",
 			"activities": {
 				"Flare": {
-					"name": "Destello",
+					"name": "Fulgor",
 					"condition": "Cuando una criatura que puedas ver a 9 m (30 pies) o menos hace una tirada de ataque"
 				}
 			}

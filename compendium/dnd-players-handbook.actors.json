@@ -4064,7 +4064,7 @@
 							"name": "Tropezado"
 						}
 					},
-					"description": "<p>Como Acción de Utilizar, puedes verter las Bolas de Metal de su bolsa. Se esparcirán para cubrir una zona cuadrada y plana de 3 m (10 pies) de lado a 3 m (10 pies) o menos de ti. Las criaturas que entren en esta zona por primera vez en un turno deberán superar una tirada de Salvación de Destreza con CD 10 o tendrán el estado de &Reference[Prone]. Se tarda 10 minutos en recuperar las Bolas de Metal.<br></p><section class=\"secret\" id=\"secret-bbcC5syRGw0PCZnG\"><p><strong>Notas Foundry</strong></p><p>La Actividad <strong>Recuperar Bolas de Metal</strong> concede otro uso a este objeto.</p></section>"
+					"description": "<p>Como Acción de Utilizar, puedes verter las Bolas de Metal de su bolsa. Se esparcirán para cubrir una zona cuadrada y plana de 3 m (10 pies) de lado a 3 m (10 pies) o menos de ti. Las criaturas que entren en esta zona por primera vez en un turno deberán superar una tirada de Salvación de Destreza con CD 10 o tendrán el estado de &Reference[Prone]. Se tarda 10 minutos en recuperar las Bolas de Metal.</p><section class=\"secret\" id=\"secret-bbcC5syRGw0PCZnG\"><p><strong>Notas Foundry</strong></p><p>La Actividad <strong>Recuperar Bolas de Metal</strong> concede otro uso a este objeto.</p></section>"
 				},
 				"Bell": {
 					"name": "Campana",

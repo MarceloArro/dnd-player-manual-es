@@ -4886,7 +4886,7 @@
 				},
 				"Book of Shadows": {
 					"name": "Libro de las Sombras",
-					"description": "<p>Un grimorio que te ha entregado tu patrón. Elige tres trucos de la lista de conjuros de cualquier clase (los tres no tienen por qué ser de la misma lista). Mientras el libro esté en tu poder, puedes lanzar esos trucos a voluntad. No cuentan para tu número de trucos conocidos. Aunque no aparezcan en la lista de conjuros de brujo, para ti son conjuros de brujo. </p>\n<p>Si pierdes tu Libro de las Sombras, puedes realizar una ceremonia de 1 hora para recibir un reemplazo de tu patrón. Esta ceremonia puede realizarse durante un descanso corto o largo, y destruye el libro anterior. El libro se convierte en cenizas cuando mueres.</p>"
+					"description": "<p>Un grimorio que te ha entregado tu patrón. Elige tres trucos de la lista de conjuros de cualquier clase (los tres no tienen por qué ser de la misma lista). Mientras el libro esté en tu poder, puedes lanzar esos trucos a voluntad. No cuentan para tu número de trucos conocidos. Aunque no aparezcan en la lista de conjuros de brujo, para ti son conjuros de brujo. </p><p>Si pierdes tu Libro de las Sombras, puedes realizar una ceremonia de 1 hora para recibir un reemplazo de tu patrón. Esta ceremonia puede realizarse durante un descanso corto o largo, y destruye el libro anterior. El libro se convierte en cenizas cuando mueres.</p>"
 				},
 				"Comprehend Languages": {
 					"name": "Entender Idiomas",

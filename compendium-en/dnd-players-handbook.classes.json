@@ -1301,7 +1301,7 @@
 			"description": "<p>When you reduce an enemy to 0 Hit Points, you gain Temporary Hit Points equal to your Charisma modifier plus your Warlock level (minimum of 1 Temporary Hit Point). You also gain this benefit if someone else reduces an enemy within 10 feet of you to 0 Hit Points.</p>",
 			"activities": {
 				"heal": {
-					"condition": "When you reduce an enemy to 0 Hit Points or  an enemy within 10 feet of you is reduced to 0 Hit Points"
+					"condition": "When you reduce an enemy to 0 Hit Points or an enemy within 10 feet of you is reduced to 0 Hit Points"
 				}
 			}
 		},
@@ -1548,7 +1548,7 @@
 					"hint": "When you reach a Sorcerer level specified in the Draconic Spells table, you thereafter always have the listed spells prepared."
 				},
 				"8UnvG3X4TR3MpCGe": {
-					"hint": "Your draconic magic has an affinity with a damage type associated with dragons. Choose one of those types: Acid, Cold, Fire, Lightning, or Poison.\n                \n                You have Resistance to that damage type."
+					"hint": "Your draconic magic has an affinity with a damage type associated with dragons. Choose one of those types: Acid, Cold, Fire, Lightning, or Poison. You have Resistance to that damage type."
 				}
 			}
 		},
@@ -3914,7 +3914,7 @@
 		},
 		"Rage of the Wilds": {
 			"name": "Rage of the Wilds",
-			"description": "<p>Your Rage taps into the primal power of animals. Whenever you activate your Rage, you gain one of the following options of your choice.</p><p><strong>Bear.</strong> While your Rage is active, you have Resistance to every damage type except Force, Necrotic, Psychic, and Radiant.</p><p><strong>Eagle.</strong> When you activate your Rage, you can take the Disengage and Dash actions as part of that Bonus Action. While your Rage is active, you can take a Bonus Action to take both of those actions.</p><p><strong>Wolf.</strong> While your Rage is active, your allies have Advantage on attack rolls against any enemy of yours within 5 feet of you.</p><section class=\"secret\" id=\"secret-NkFSYzGdf370PpSv\"><p><strong>Foundry Note</strong></p><p>The <strong>Bear</strong> activity includes an Active Effect which can automate the addition of the resistances.</p><p>The <strong>Eagle</strong> activity uses a Bonus Action  for Disengage and Dash.</p><p>The <strong>Wolf</strong> activity includes a 5 foot target template for identifying impacted creatures.</p></section>",
+			"description": "<p>Your Rage taps into the primal power of animals. Whenever you activate your Rage, you gain one of the following options of your choice.</p><p><strong>Bear.</strong> While your Rage is active, you have Resistance to every damage type except Force, Necrotic, Psychic, and Radiant.</p><p><strong>Eagle.</strong> When you activate your Rage, you can take the Disengage and Dash actions as part of that Bonus Action. While your Rage is active, you can take a Bonus Action to take both of those actions.</p><p><strong>Wolf.</strong> While your Rage is active, your allies have Advantage on attack rolls against any enemy of yours within 5 feet of you.</p><section class=\"secret\" id=\"secret-NkFSYzGdf370PpSv\"><p><strong>Foundry Note</strong></p><p>The <strong>Bear</strong> activity includes an Active Effect which can automate the addition of the resistances.</p><p>The <strong>Eagle</strong> activity uses a Bonus Action for Disengage and Dash.</p><p>The <strong>Wolf</strong> activity includes a 5 foot target template for identifying impacted creatures.</p></section>",
 			"activities": {
 				"Eagle": {
 					"name": "Eagle"
@@ -5451,7 +5451,7 @@
 			"effects": {
 				"Manifesting Ocean Spray": {
 					"name": "Manifesting Ocean Spray",
-					"description": "<p>A [[lookup @scale.sea.wrath-range]]-ft.  Emanation of ocean spray surrounds you for 10 minutes. It ends early if you dismiss it (no action required), manifest it again, or have the Incapacitated condition.</p>"
+					"description": "<p>A [[lookup @scale.sea.wrath-range]]-ft. Emanation of ocean spray surrounds you for 10 minutes. It ends early if you dismiss it (no action required), manifest it again, or have the Incapacitated condition.</p>"
 				}
 			}
 		},

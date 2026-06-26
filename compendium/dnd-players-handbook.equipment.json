@@ -61,7 +61,7 @@
 		},
 		"Alchemist's Fire": {
 			"name": "Fuego de Alquimista",
-			"description": "<p>Cuando lleves a cabo la Acción de Atacar, puedes sustituir uno de tus ataques por lanzar un frasco de Fuego de Alquimista. Haz objetivo a una criatura u objeto que puedas ver a 6 m (20 pies) o menos de ti. El objetivo deberá superar una tirada de Salvación de Destreza (CD 8 más tu modificador por Destreza y tu bonificador por competencia) o sufrirá [[/damage 1d4 type=fire]]  y comenzará a &Reference[burning]. (consulta el glosario de reglas).</p>",
+			"description": "<p>Cuando lleves a cabo la Acción de Atacar, puedes sustituir uno de tus ataques por lanzar un frasco de Fuego de Alquimista. Haz objetivo a una criatura u objeto que puedas ver a 6 m (20 pies) o menos de ti. El objetivo deberá superar una tirada de Salvación de Destreza (CD 8 más tu modificador por Destreza y tu bonificador por competencia) o sufrirá [[/damage 1d4 type=fire]] y comenzará a &Reference[burning]. (consulta el glosario de reglas).</p>",
 			"effects": {
 				"Burning.": {
 					"name": "Ardiendo.",
@@ -217,7 +217,7 @@
 		},
 		"Caltrops": {
 			"name": "Abrojos",
-			"description": "<p>Como Acción de Utilizar, puedes esparcir los abrojos de tu bolsa para cubrir una zona cuadrada de 1,5 m (5 pies) de lado a 1,5 m (5 pies) o menos de ti. Las criaturas que entren en esta zona por primera vez en un turno deberán superar una tirada de salvación de Destreza con CD 15 o sufrirán [[/damage 1 type=piercing]] de daño  y su Velocidad se reducirá a 0 hasta el principio de su siguiente turno. Se tarda 10 minutos en recuperar los abrojos.</p>",
+			"description": "<p>Como Acción de Utilizar, puedes esparcir los abrojos de tu bolsa para cubrir una zona cuadrada de 1,5 m (5 pies) de lado a 1,5 m (5 pies) o menos de ti. Las criaturas que entren en esta zona por primera vez en un turno deberán superar una tirada de salvación de Destreza con CD 15 o sufrirán [[/damage 1 type=piercing]] de daño y su Velocidad se reducirá a 0 hasta el principio de su siguiente turno. Se tarda 10 minutos en recuperar los abrojos.</p>",
 			"effects": {
 				"Slowed": {
 					"name": "Ralentizado"
@@ -562,7 +562,7 @@
 		},
 		"Holy Water": {
 			"name": "Agua Bendita",
-			"description": "<p>Cuando lleves a cabo la Acción de Atacar, puedes sustituir uno de tus ataques por lanzar un frasco de Agua Bendita. Haz objetivo a una criatura que puedas ver a 6 m (20 pies) o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador por Destreza y tu bonificador por competencia) o sufrirá [[/damage 2d8 type=radiant]] de daño radiante si es un &Reference[fiend] o un &Reference[undead]  radiante si es un infernal o un muerto viviente. </p>",
+			"description": "<p>Cuando lleves a cabo la Acción de Atacar, puedes sustituir uno de tus ataques por lanzar un frasco de Agua Bendita. Haz objetivo a una criatura que puedas ver a 6 m (20 pies) o menos de ti. El objetivo deberá superar una tirada de salvación de Destreza (CD 8 más tu modificador por Destreza y tu bonificador por competencia) o sufrirá [[/damage 2d8 type=radiant]] de daño radiante si es un &Reference[fiend] o un &Reference[undead] radiante si es un infernal o un muerto viviente. </p>",
 			"activities": {
 				"Throw": {
 					"name": "Lanzar"
@@ -587,7 +587,7 @@
 		},
 		"Hunting Trap": {
 			"name": "Trampa para Cazar",
-			"description": "<p>Como Acción de Utilizar, puedes poner una trampa para cazar, que consiste en una anilla dentada de acero que se cierra cuando una criatura pisa una placa de presión situada en su centro. La trampa se fija mediante una pesada cadena a cualquier objeto inmóvil, como un árbol o una estaca clavada en el suelo. Si una criatura pisa la placa, deberá superar una tirada de salvación de Destreza [[/save dex dc=13]] o sufrirá [[/damage 1d4 type=piercing]] de daño perforante y su velocidad se reducirá a O hasta el principio de su siguiente turno.</p><p>A partir de ese momento y hasta que la criatura se libere de la trampa, su movimiento se verá limitado por la longitud de la cadena (normalmente 3 pies o 90 cm).</p><p>Una criatura puede emplear su Acción para hacer una Prueba de Fuerza (Atletismo) [[/check ath dc=13]] para liberarse a sí misma o a otra criatura que esté a su alcance si la supera. Cada prueba fallida causa [[/damage 1 type=piercing]]  de daño perforante a la criatura atrapada.</p>",
+			"description": "<p>Como Acción de Utilizar, puedes poner una trampa para cazar, que consiste en una anilla dentada de acero que se cierra cuando una criatura pisa una placa de presión situada en su centro. La trampa se fija mediante una pesada cadena a cualquier objeto inmóvil, como un árbol o una estaca clavada en el suelo. Si una criatura pisa la placa, deberá superar una tirada de salvación de Destreza [[/save dex dc=13]] o sufrirá [[/damage 1d4 type=piercing]] de daño perforante y su velocidad se reducirá a O hasta el principio de su siguiente turno.</p><p>A partir de ese momento y hasta que la criatura se libere de la trampa, su movimiento se verá limitado por la longitud de la cadena (normalmente 3 pies o 90 cm).</p><p>Una criatura puede emplear su Acción para hacer una Prueba de Fuerza (Atletismo) [[/check ath dc=13]] para liberarse a sí misma o a otra criatura que esté a su alcance si la supera. Cada prueba fallida causa [[/damage 1 type=piercing]] de daño perforante a la criatura atrapada.</p>",
 			"activities": {
 				"save": {
 					"condition": "Pisar Placa"
@@ -810,7 +810,7 @@
 		},
 		"Oil": {
 			"name": "Aceite",
-			"description": "<p>Puedes empapar de aceite a una criatura, un objeto o un espacio o utilizarlo como combustible, como se detalla a continuación.</p><p><strong>Empapar a una Criatura o un Objeto.</strong> Cuando lleves a cabo la Acción de Atacar, puedes sustituir uno de tus ataques por Lanzar un Frasco de Aceite. Haz objetivo a una criatura u Objeto a 6 m (20 pies) o menos de ti. El objetivo deberá superar una Tirada de Salvación de Destreza (CD 8 más tu modificador por Destreza y tu Bonificador por Competencia) o quedará Cubierto de Aceite. Si el objetivo sufre Daño de Fuego antes de que el aceite se seque (tras 1 minuto), recibirá [[/damage 5 type=fire]] de daño de fuego adicional debido a que el aceite arderá.</p><p><strong>Empapar un espacio.</strong> Puedes llevar a cabo la Acción de Utilizar para verter un Frasco de Aceite sobre un suelo plano para cubrir una zona cuadrada de 1,5 m (5 pies) de lado a 1,5 m (5 pies) o menos de ti. Si se prende, el Aceite arderá durante 2 asaltos desde que se prendió (o 12 segundos) hasta el final de ese turno y hará [[/damage 5 type=fire]]  de daño de fuego a cualquier Criatura que entre en la zona o termine su turno en ella. Una Criatura solo puede sufrir este daño una vez por turno.</p><p><strong>Combustible.</strong> El aceite sirve de combustible para Lámparas y Linternas. Un Frasco de Aceite prendido arde durante 6 horas en una Lámpara o Linterna. Esa duración no tiene que ser consecutiva; puedes apagar el aceite ardiendo (como Acción de Utilizar) y volver a encenderlo hasta que haya ardido durante un total de 6 horas. </p>",
+			"description": "<p>Puedes empapar de aceite a una criatura, un objeto o un espacio o utilizarlo como combustible, como se detalla a continuación.</p><p><strong>Empapar a una Criatura o un Objeto.</strong> Cuando lleves a cabo la Acción de Atacar, puedes sustituir uno de tus ataques por Lanzar un Frasco de Aceite. Haz objetivo a una criatura u Objeto a 6 m (20 pies) o menos de ti. El objetivo deberá superar una Tirada de Salvación de Destreza (CD 8 más tu modificador por Destreza y tu Bonificador por Competencia) o quedará Cubierto de Aceite. Si el objetivo sufre Daño de Fuego antes de que el aceite se seque (tras 1 minuto), recibirá [[/damage 5 type=fire]] de daño de fuego adicional debido a que el aceite arderá.</p><p><strong>Empapar un espacio.</strong> Puedes llevar a cabo la Acción de Utilizar para verter un Frasco de Aceite sobre un suelo plano para cubrir una zona cuadrada de 1,5 m (5 pies) de lado a 1,5 m (5 pies) o menos de ti. Si se prende, el Aceite arderá durante 2 asaltos desde que se prendió (o 12 segundos) hasta el final de ese turno y hará [[/damage 5 type=fire]] de daño de fuego a cualquier Criatura que entre en la zona o termine su turno en ella. Una Criatura solo puede sufrir este daño una vez por turno.</p><p><strong>Combustible.</strong> El aceite sirve de combustible para Lámparas y Linternas. Un Frasco de Aceite prendido arde durante 6 horas en una Lámpara o Linterna. Esa duración no tiene que ser consecutiva; puedes apagar el aceite ardiendo (como Acción de Utilizar) y volver a encenderlo hasta que haya ardido durante un total de 6 horas. </p>",
 			"activities": {
 				"Throw": {
 					"name": "Lanzar"

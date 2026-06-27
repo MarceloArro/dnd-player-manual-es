@@ -177,8 +177,8 @@
 			}
 		},
 		"Animal Speaker": {
-			"name": "Orador de Animales",
-			"description": "<p>Puedes lanzar los conjuros Sentidos de la Bestia y Comunicarse con Animales, pero solo como rituales. La Sabiduría es tu aptitud mágica para ellos.</p><section class=\"secret\" id=\"secret-BXxC4W21QpMgqgeQ\"><p><strong>Nota Foundry</strong></p><p>Cuando avances al nivel 3, estos conjuros se añaden a tu pestaña de Conjuros como Rituales usando tu modificador de Sabiduría.</p> @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBeastSense] @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]</section>"
+			"name": "Portavoz de los Animales",
+			"description": "<p>Puedes lanzar los conjuros @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]{Hablar con los Animales} y @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBeastSense]{Sentido de la Bestia}, pero solo como Rituales. La Sabiduría es tu aptitud mágica para lanzarlos.</p><section class=\"secret\" id=\"secret-BXxC4W21QpMgqgeQ\"><p><strong>Nota Foundry</strong></p><p>Cuando alcances el nivel 3, estos conjuros se añaden a tu pestaña de Conjuros como Rituales usando tu modificador de Sabiduría.</p> </section>"
 		},
 		"Aquatic Affinity": {
 			"name": "Afinidad Acuática",
@@ -277,7 +277,7 @@
 		},
 		"Aspect of the Wilds": {
 			"name": "Aspecto de lo Salvaje",
-			"description": "<p>Obtienes una de las siguientes opciones, a tu elección. Tras finalizar un Descanso Largo, puedes cambiar de opción.</p><p><strong>Búho.</strong> Tienes Visión en la Oscuridad hasta 18 m (60 pies). Si ya posees Visión en la Oscuridad, su alcance aumenta en 18 m (60 pies).</p><p><strong>Pantera.</strong> Tienes una velocidad trepando igual a tu velocidad.</p><p><strong>Salmón.</strong> Tienes una velocidad nadando igual a tu velocidad.</p><section class=\"secret\" id=\"secret-CKbkC1Dm8i7Nz9TV\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye unactividad con un Efecto Activo que automatiza los cambios de Visión en la Oscuridad de la opción <strong>Búho</strong>. Los cambios de velocidad no se aplican automáticamente.</p></section>",
+			"description": "<p>Obtienes una de las siguientes opciones, a tu elección. Tras finalizar un Descanso Largo, puedes cambiar de opción.</p><p><strong>Búho.</strong> Tienes Visión en la Oscuridad hasta 18 m (60 pies). Si ya posees Visión en la Oscuridad, su alcance aumenta en 18 m (60 pies).</p><p><strong>Pantera.</strong> Tienes una velocidad trepando igual a tu velocidad.</p><p><strong>Salmón.</strong> Tienes una velocidad nadando igual a tu velocidad.</p><section class=\"secret\" id=\"secret-CKbkC1Dm8i7Nz9TV\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una actividad con un Efecto Activo que automatiza los cambios de Visión en la Oscuridad de la opción <strong>Búho</strong>. Los cambios de velocidad no se aplican automáticamente.</p></section>",
 			"activities": {
 				"Owl": {
 					"name": "Búho"
@@ -496,10 +496,10 @@
 		},
 		"Barbarian": {
 			"name": "Bárbaro",
-			"description": "<blockquote><p>Un Feroz Guerrero de Furia Primigenia</p></blockquote><h3>Atributos Básicos de Bárbaro</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p>Característica Principal</p></th><td><p>Fuerza</p></td></tr><tr><th><p><strong>Dado de Puntos de Golpe</strong></p></th><td><p>D12 por nivel de bárbaro</p></td></tr><tr><th><p><strong>Competencias en Tiradas de Salvación</strong></p></th><td><p>Fuerza y Constitución</p></td></tr><tr><th><p><strong>Competencias en Habilidades</strong></p></th><td><p><em>Elige 2:</em> Atletismo, Intimidación, Naturaleza, Percepción, Supervivencia o Trato con animales</p></td></tr><tr><th><p><strong>Competencias con Armas</strong></p></th><td><p>Armas sencillas y marciales</p></td></tr><tr><th><p><strong>Entrenamiento con Armaduras</strong></p></th><td><p>Armaduras ligeras y medias y escudos</p></td></tr><tr><th><p><strong>Equipo Inicial</strong></p></th><td><p><em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreataxe00]{Hacha a dos manos}, 4 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepHandaxe000]{Hachas de mano}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagExplorersPa]{Paquete de explorador}, y [[/award 15GP]]; o (B) [[/award 75GP]]</p></td></tr></tbody></table><p>Los bárbaros son poderosos combatientes que se alimentan de las fuerzas primigenias del multiverso y las manifiestan a modo de furia. No se trata de una simple emoción, ni mucho menos un enfado: esta furia refleja la ferocidad de un depredador, la violencia de una tormenta y la agitación de un mar.</p><p>Algunos bárbaros conciben su furia como si fuera un espíritu feroz o un antepasado al que veneran. Otros la ven como una conexión con el dolor y la angustia del mundo, como una maraña impersonal de magia salvaje o como la expresión de su yo más profundo. Para todos los bárbaros, la furia es un poder que no solo aviva su arrojo en el combate, sino que también afila sus asombrosos reflejos y agudiza sus sentidos.</p><p>Los bárbaros normalmente actúan de protectores y líderes de sus comunidades, por lo que no dudan en lanzarse al peligro para evitar que sean sus protegidos quienes pasen por ello. El valor frente a la adversidad los convierte en excelentes aventureros.</p><h2>Convertirse en Bárbaro …</h2><h3>Como Personaje de Nivel 1</h3><ul><li>Obtienes todos los atributos de la tabla \\\"Atributos básicos de bárbaro\\\".</li><li>Obtienes los rasgos de nivel 1 de bárbaro, que se muestran en la tabla \\\"Rasgos de bárbaro\\\".</li></ul><h3>Como Personaje Multiclase</h3><ul><li>Obtienes los siguientes atributos de la tabla \\\"Atributos básicos de bárbaro\\\": dado de puntos de golpe, competencia con armas marciales y entrenamiento con escudos.</li><li>Obtienes los rasgos de nivel 1 de bárbaro, que se muestran en la tabla \\\"Rasgos de bárbaro\\\".</li></ul>",
+			"description": "<blockquote><p>Luchadores feroces con una Furia Primigenia</p></blockquote><h3>Atributos Básicos de Bárbaro</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p>Característica Principal</p></th><td><p>Fuerza</p></td></tr><tr><th><p><strong>Dado de Puntos de Golpe</strong></p></th><td><p>1d12 por nivel de Bárbaro</p></td></tr><tr><th><p><strong>Competencias en Tiradas de Salvación</strong></p></th><td><p>Fuerza y Constitución</p></td></tr><tr><th><p><strong>Competencias en Habilidades</strong></p></th><td><p><em>Elige 2:</em> Atletismo, Intimidación, Naturaleza, Percepción, Supervivencia o Trato con animales</p></td></tr><tr><th><p><strong>Competencias con Armas</strong></p></th><td><p>Armas Sencillas y Marciales</p></td></tr><tr><th><p><strong>Entrenamiento con Armaduras</strong></p></th><td><p>Armaduras Ligeras y Medias y Escudos</p></td></tr><tr><th><p><strong>Equipo Inicial</strong></p></th><td><p><em>Elige A o B:</em> (A) @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepGreataxe00]{Hacha a dos manos}, 4 @UUID[Compendium.dnd-players-handbook.equipment.Item.phbwepHandaxe000]{Hachas de mano}, @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagExplorersPa]{Paquete de explorador}, y [[/award 15GP]]; o (B) [[/award 75GP]]</p></td></tr></tbody></table><p>Los Bárbaros son poderosos combatientes que se alimentan de las fuerzas primigenias del multiverso y las manifiestan a modo de furia. No se trata de una simple emoción, ni mucho menos un enfado: esta furia refleja la ferocidad de un depredador, la violencia de una tormenta y la agitación de un mar.</p><p>Algunos Bárbaros conciben su furia como si fuera un espíritu feroz o un antepasado al que veneran. Otros la ven como una conexión con el dolor y la angustia del mundo, como una maraña impersonal de magia salvaje o como la expresión de su yo más profundo. Para todos los Bárbaros, la furia es un poder que no solo aviva su arrojo en el combate, sino que también afila sus asombrosos reflejos y agudiza sus sentidos.</p><p>Los Bárbaros normalmente actúan de protectores y líderes de sus comunidades, por lo que no dudan en lanzarse al peligro para evitar que sean sus protegidos quienes pasen por ello. El valor frente a la adversidad los convierte en excelentes aventureros.</p><h2>Convertirse en Bárbaro …</h2><h3>Como Personaje de Nivel 1</h3><ul><li>Obtienes todos los atributos de la tabla \\\"Atributos básicos de Bárbaro\\\".</li><li>Obtienes los rasgos de nivel 1 de Bárbaro, que se muestran en la tabla \\\"Rasgos de Bárbaro\\\".</li></ul><h3>Como Personaje Multiclase</h3><ul><li>Obtienes los siguientes atributos de la tabla \\\"Atributos básicos de Bárbaro\\\": dado de Puntos de Golpe, competencia con armas marciales y entrenamiento con escudos.</li><li>Obtienes los rasgos de nivel 1 de Bárbaro, que se muestran en la tabla \\\"Rasgos de Bárbaro\\\".</li></ul>",
 			"advancement": {
 				"Rage Damage": {
-					"title": "Daño de Furia"
+					"title": "Daño por Furia"
 				},
 				"Weapon Masteries Known": {
 					"title": "Maestrías con Armas Conocidas"
@@ -509,7 +509,7 @@
 				},
 				"Primal Knowledge": {
 					"title": "Conocimiento Primigenio",
-					"hint": "Obtienes competencia en otra habilidad de tu elección de la lista de habilidades disponibles para los Bárbaros a nivel 1."
+					"hint": "Ganas competencia en otra habilidad de tu elección de la lista de habilidades disponibles para los bárbaros en el nivel 1."
 				},
 				"Brutal Strike": {
 					"title": "Golpe Brutal"
@@ -524,11 +524,11 @@
 					"title": "Competencias con Armas"
 				},
 				"Armor Training": {
-					"title": "Entrenamiento con Armadura"
+					"title": "Entrenamiento con Armaduras"
 				},
 				"Weapon Mastery": {
 					"title": "Maestría con Armas",
-					"hint": "Tu adiestramiento con armas te permite usar las propiedades de maestría de armas adicionales."
+					"hint": "Tu entrenamiento con armas te permite utilizar las propiedades de maestría con dos tipos de armas cuerpo a cuerpo sencillas o marciales de tu elección."
 				},
 				"Rages": {
 					"title": "Furias"
@@ -764,10 +764,10 @@
 		},
 		"Branches of the Tree": {
 			"name": "Ramas del Árbol",
-			"description": "<p>Cuando una criatura que puedas ver comience su turno a 9 m (30 pies) o menos de ti mientras estás enfurecido, podrás llevar a cabo una reacción para invocar unas ramas espectrales del Árbol del Mundo a su alrededor. El objetivo deberá superar una tirada de salvación de Fuerza (CD 8 más tu modificador por Fuerza y tu bonificador por competencia) o se teletransportará a un espacio sin ocupar que puedas ver a 1,5 m (5 pies) de ti o al espacio sin ocupar más cercano que puedas ver. Después de que el objetivo se teletransporte, puedes reducir su velocidad a 0 hasta el final del turno actual.</p><section id=\"secret-iHFpYS3WUCeaQIVP\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que se puede aplicar al objetivo y reducirá su velocidad.</p></section>",
+			"description": "<p>Cuando una criatura que puedas ver comience su turno a 9 m (30 pies) o menos de ti mientras estás enfurecido, podrás llevar a cabo una reacción para invocar unas ramas espectrales del Árbol del Mundo a su alrededor. El objetivo deberá superar una Tirada de Salvación de Fuerza (CD 8 más tu modificador por Fuerza y tu bonificador por competencia) o se teletransportará a un espacio sin ocupar que puedas ver a 1,5 m (5 pies) de ti o al espacio sin ocupar más cercano que puedas ver. Después de que el objetivo se teletransporte, puedes reducir su velocidad a 0 hasta el final del turno actual.</p><section id=\"secret-iHFpYS3WUCeaQIVP\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que se puede aplicar al objetivo y reducirá su Velocidad de Movimiento.</p></section>",
 			"activities": {
 				"save": {
-					"condition": "Cuando una criatura que puedas ver comience su turno a 9 m (30 pies) o menos de ti mientras estás enfurecido"
+					"condition": "Cuando una criatura que puedas ver comience su turno a 9 mo menos de ti mientras estás enfurecido"
 				}
 			},
 			"effects": {
@@ -779,7 +779,7 @@
 		},
 		"Brutal Strike": {
 			"name": "Golpe Brutal",
-			"description": "<p>Si usas [[/item Reckless Attack]], puedes renunciar a cualquier Ventaja en una tirada de ataque basada en Fuerza de tu elección en tu turno. La tirada de ataque elegida no debe tener Desventaja. Si la tirada de ataque elegida acierta, el objetivo sufre [[lookup @scale.barbarian.brutal-strike]] de daño adicional del mismo tipo que inflige el arma o el Ataque sin Armas, y puedes causar un efecto de Golpe Brutal de tu elección. Tienes las siguientes opciones de efecto.</p><p><strong>Golpe Enérgico. </strong>El objetivo es empujado 4,5 m (15 pies) en línea recta lejos de ti. Luego puedes moverte hasta la mitad de tu Velocidad en línea recta hacia el objetivo sin provocar &amp;Reference[Opportunity Attacks].</p><p><strong>Golpe Ralentizador. </strong>La Velocidad del objetivo se reduce en 4,5 m (15 pies) hasta el principio de tu siguiente turno. Un objetivo solo puede verse afectado por un Golpe Ralentizador a la vez: el más reciente.</p><section class=\"secret\" id=\"secret-vLb1SoKHWW2796Ko\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo para el Golpe Ralentizador que puede aplicarse a un objetivo.</p><p>La actividad de <strong>daño</strong> escala automáticamente cuando obtienes Golpe Brutal Mejorado (2).</p></section>",
+			"description": "<p>Si utilizas [[/item Reckless Attack]], puedes renunciar a cualquier ventaja en una tirada de ataque de tu elección basada en la Fuerza en tu turno. La tirada de ataque elegida no debe tener desventaja. Si la tirada de ataque elegida acierta, el objetivo sufre[[lookup @scale.barbarian.brutal-strike]] dde daño adicional del mismo tipo que inflija el arma o el ataque sin armas y puedes causar un efecto de Golpe brutal de tu elección. Tienes las siguientes opciones de efectos.</p><p><strong>Golpe Enérgico. </strong>El objetivo es empujado 4,5 m respecto a ti en línea recta. Luego puedes moverte hasta la mitad de tu velocidad directamente hacia el objetivo sin provocar &amp;Reference[Opportunity Attacks].</p><p><strong>Golpe Ralentizador. </strong>La velocidad del objetivo se reduce en 4,5 m hasta el principio de tu siguiente turno. Un objetivo solo puede sufrir un golpe ralentizador cada vez: el más reciente.</p><section class=\"secret\" id=\"secret-vLb1SoKHWW2796Ko\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo para el Golpe Ralentizador que puede aplicarse a un objetivo.</p><p>La actividad de <strong>Daño</strong> escala automáticamente cuando obtienes Golpe Brutal Mejorado (2).</p></section>",
 			"activities": {
 				"Brutal Strike": {
 					"name": "Golpe Brutal"
@@ -788,7 +788,7 @@
 			"effects": {
 				"Hamstrung": {
 					"name": "Desjarretado",
-					"description": "<p>Alcanzado por un golpe ralentizador, la Velocidad de este personaje se ha reducido en 4,5 m (15 pies) hasta el inicio del siguiente turno del atacante.</p>"
+					"description": "<p>Alcanzado por un Golpe Ralentizador, la Velocidad de este personaje se ha reducido en 4,5 m (15 pies) hasta el principio del siguiente turno del atacante.</p>"
 				}
 			}
 		},
@@ -1289,11 +1289,11 @@
 		},
 		"Danger Sense": {
 			"name": "Sentir el Peligro",
-			"description": "<p>Obtienes un sentido sobrenatural de cuándo las cosas no son como deberían, lo que te da ventaja al esquivar peligros. Tienes Ventaja en las tiradas de salvación de Destreza a menos que tengas el estado de &amp;Reference[Incapacitated].</p><section id=\"secret-gIJELszWrIqRFCxF\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo automatiza la Ventaja en las tiradas de salvación de Destreza, pero no se desactiva automáticamente cuando estás Incapacitado. Puede desactivarse temporalmente en la pestaña de Efectos.</p></section>",
+			"description": "<p>Eres capaz de percibir de forma casi sobrenatural cuándo las cosas no son como deberían. Gracias a ello, se te da bien evitar el peligro. Tienes ventaja en las Tiradas de Salvación de Destreza salvo que tengas el estado de &amp;Reference[Incapacitated].</p><section id=\"secret-gIJELszWrIqRFCxF\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo automatiza la Ventaja en las Tiradas de Salvación de Destreza, pero no se desactiva automáticamente cuando estás Incapacitado. Puede desactivarse temporalmente en la pestaña de Efectos.</p></section>",
 			"effects": {
 				"Danger Sense": {
 					"name": "Sentir el Peligro",
-					"description": "<p>Tienes Ventaja en las tiradas de salvación de Destreza a menos que tengas el estado &amp;Reference[Incapacitated].</p>"
+					"description": "<p>Tienes Ventaja en las Tiradas de Salvación de Destreza a menos que tengas el estado &amp;Reference[Incapacitated].</p>"
 				}
 			}
 		},
@@ -1480,7 +1480,7 @@
 		},
 		"Divine Fury": {
 			"name": "Furia Divina",
-			"description": "<p>Puedes canalizar furia divina en tus golpes de arma. Mientras estés furioso, la primera criatura que golpees en cada uno de tus turnos con un ataque con arma recibe 1d6 de daño necrótico o radiante adicional (tu elección). El daño adicional aumenta cuando alcanzas ciertos niveles en esta clase.</p><section class=\"secret\" id=\"secret-qDE2QhFtf1aiHWmx\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye an activity para each type de damage.</p></section>",
+			"description": "<p>Puedes canalizar el poder divino hacia tus ataques. En cada uno de tus turnos mientras estés enfurecido, la primera criatura a la que aciertes con un arma o un ataque sin armas sufrirá una cantidad de daño adicional igual a 1d6 más la mitad de tu nivel de bárbaro (redondeando hacia abajo). El daño adicional es necrótico o radiante, que eliges cada vez que lo causas.</p><section class=\"secret\" id=\"secret-qDE2QhFtf1aiHWmx\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una actividad para cada tipo de daño.</p></section>",
 			"activities": {
 				"Necrotic Divine Fury": {
 					"name": "Furia Divina Necrótica"
@@ -2014,15 +2014,15 @@
 		},
 		"Extra Attack": {
 			"name": "Ataque Adicional",
-			"description": "<p>Puedes atacar dos veces, en lugar de una, cuando realizas la acción de Ataque en tu turno.</p>"
+			"description": "<p>Cuando lleves a cabo la Acción de Atacar en tu turno, podrás hacer dos Ataques en lugar de uno.</p>"
 		},
 		"Faithful Steed": {
 			"name": "Corcel Fiel",
 			"description": "<p>Puedes llamar a la ayuda de una montura de otro mundo. Como acción mágica, lanzas Invocar Montura sin gastar un espacio de conjuro. La montura tiene una velocidad de caminar de 30 metros. Puedes usar esta característica una vez, y recuperas la capacidad de hacerlo cuando finalices un Descanso Largo.</p><section class=\"secret\" id=\"secret-XC2S9ToogFr41act\"><p><strong>Nota Foundry</strong></p><p>The @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFindSteed0]{Find Steed} conjuro is añadased a tu conjuro list as always prepared y con a free uso por Descanso Largo cuando reach this level.</p></section>"
 		},
 		"Fanatical Focus": {
-			"name": "Concentración Fanática",
-			"description": "<p>Una vez por Furia activa, si fallas una tirada de salvación, puedes repetirla con una bonificación igual a tu bonificación de Daño por Furia (actualmente [[/r @scale.barbarian.rage-damage]]), y debes usar la nueva tirada.</p>"
+			"name": "Foco Fanático",
+			"description": "<p>Una vez por Furia, si fallas una Tirada de Salvación, podrás repetirla con un bonificador igual a tu Bonificación de Daño por Furia (actualmente [[/r @scale.barbarian.rage-damage]]), y deberás utilizar el nuevo resultado.</p>"
 		},
 		"Fast Hands": {
 			"name": "Manos Rápidas",
@@ -2041,7 +2041,7 @@
 		},
 		"Fast Movement": {
 			"name": "Movimiento Rápido",
-			"description": "<p>Tu velocidad aumenta en 3 metros mientras no lleves armadura pesada.</p><section id=\"secret-6cmMiIJhUk5cpOGz\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un efecto que automáticamente añade 3 metros de velocidad cuando no llevas armadura pesada.</p></section>",
+			"description": "<p>Tu velocidad aumenta en 3 m (10 pies) si no llevas armadura pesada.</p><section id=\"secret-6cmMiIJhUk5cpOGz\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un efecto que automáticamente añade 3 metros (10 pies) de velocidad cuando no llevas armadura pesada.</p></section>",
 			"effects": {
 				"Fast Movement": {
 					"name": "Movimiento Rápido"
@@ -2063,7 +2063,7 @@
 		},
 		"Feral Instinct": {
 			"name": "Instinto Salvaje",
-			"description": "<p>Tus instintos están tan afinados que tienes Ventaja en las tiradas de Iniciativa.</p>",
+			"description": "<p>Tus instintos están tan afinados que tienes ventaja en las tiradas de iniciativa.</p>",
 			"effects": {
 				"Feral Instinct": {
 					"name": "Instinto Salvaje"
@@ -2264,7 +2264,7 @@
 		},
 		"Frenzy": {
 			"name": "Frenesí",
-			"description": "<p>Si utilizas Ataque temerario mientras estás enfurecido, causarás daño adicional al primer objetivo al que aciertes en tu turno con un ataque basado en la Fuerza. Para determinar el daño adicional, tira una cantidad de d6 igual a tu bonificación de daño por furia y suma los resultados. El daño será del mismo tipo que el del arma o ataque sin armas utilizado para el ataque.</p><section id=\"secret-EsDSGWYhmnmiS9Cu\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Daño</strong> escala automaticamente mientras subas de nivel y te permite seleccionar el tipo de daño a usar en el díalogo de la tirada de ataque. Recordara tu elección anterior</p></section>"
+			"description": "<p>Si utilizas Ataque temerario mientras estás enfurecido, causarás daño adicional al primer objetivo al que aciertes en tu turno con un ataque basado en la Fuerza. Para determinar el daño adicional, tira una cantidad de d6 igual a tu bonificación de daño por furia y suma los resultados. El daño será del mismo tipo que el del arma o ataque sin armas utilizado para el ataque.</p><section id=\"secret-EsDSGWYhmnmiS9Cu\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Daño</strong> escala automaticamente mientras subas de nivel y te permite seleccionar el tipo de daño a usar en el díalogo de la Tirada de Ataque. Recordara tu elección anterior</p></section>"
 		},
 		"Full of Stars": {
 			"name": "Colmado de Luz Estelar",
@@ -2577,29 +2577,29 @@
 		},
 		"Improved Brutal Strike": {
 			"name": "Golpe Brutal Mejorado",
-			"description": "<p>Has perfeccionado nuevas formas de atacar con furia. Los siguientes efectos están ahora entre tus opciones de Golpe Brutal.</p><p><strong>Golpe Aturdidor.</strong> El objetivo tiene Desventaja en la siguiente tirada de salvación que haga y no puede realizar Ataques de Oportunidad hasta el principio de tu siguiente turno.</p><p><strong>Golpe Destrozador.</strong> Antes del principio de tu siguiente turno, la siguiente tirada de ataque hecha por otra criatura contra el objetivo obtiene un bonificador de +5 a la tirada. Una tirada de ataque solo puede obtener un bonificador de Golpe Destrozador.</p><section class=\"secret\" id=\"secret-5KFPx8fyh5NldmJp\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una actividad para cada opción, que incluye un Efecto Activo para llevar la cuenta de los Golpes Aturdidor y Destrozador, pero no automatiza sus efectos.</p></section>",
+			"description": "<p>Has perfeccionado tus formas de atacar con fiereza. Entre las opciones de Golpe brutal se encuentran ahora los siguientes efectos:</p><p><strong>Golpe Abrumador.</strong> El objetivo tiene desventaja en la siguiente tirada de salvación que haga y no puede llevar a cabo ataques de oportunidad hasta el principio de tu siguiente turno.</p><p><strong>Golpe Desgarrador.</strong> Antes del principio de tu siguiente turno, la próxima tirada de ataque realizada por otra criatura contra el objetivo obtiene un bonificador de +5. Una tirada de ataque puede obtener solo un bonificador de un golpe desgarrador.</p><section class=\"secret\" id=\"secret-5KFPx8fyh5NldmJp\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una actividad para cada opción, que incluye un Efecto Activo para llevar la cuenta del Golpe Abrumador y Desgarrador, pero no automatiza sus efectos.</p></section>",
 			"activities": {
 				"Sundering Blow": {
-					"name": "Golpe Demoledor"
+					"name": "Golpe Desgarrador"
 				},
 				"Staggering Blow": {
-					"name": "Golpe Tambaleante"
+					"name": "Golpe Abrumador"
 				}
 			},
 			"effects": {
 				"Staggered": {
-					"name": "Tambaleado",
-					"description": "<p>Alcanzado por un golpe tambaleante, este personaje tiene Desventaja en la siguiente Tirada de Salvación que haga y no puede hacer Ataques de Oportunidad hasta el inicio del siguiente turno del atacante.</p>"
+					"name": "Abrumado",
+					"description": "<p>Alcanzado por un Golpe Abrumador, este personaje tiene Desventaja en la siguiente Tirada de Salvación que haga y no puede hacer Ataques de Oportunidad hasta el principio del siguiente turno del atacante.</p>"
 				},
 				"Sundered": {
-					"name": "Demolido",
-					"description": "<p>Alcanzado por un golpe demoledor, la siguiente tirada de ataque que haga otra criatura contra el objetivo obtiene una bonificación de +5 a la tirada.</p>"
+					"name": "Desgarrado",
+					"description": "<p>Alcanzado por un Holpe Desgarrador, la siguiente Tirada de Ataque que haga otra criatura contra el objetivo obtiene una bonificación de +5 a la tirada.</p>"
 				}
 			}
 		},
 		"Improved Brutal Strike (2)": {
 			"name": "Golpe Brutal Mejorado (2)",
-			"description": "<p>El daño adicional de tu Golpe Brutal aumenta: el daño de 1d10 se vuelve 2d10, y el daño de 1d6 se vuelve 2d6.</p><section id=\"secret-XCUecJBPB6amtvj9\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>el daño roll en Brutal Strike automáticamente scale a uso this new value.</p></section>"
+			"description": "<p>El daño adicional de tu Golpe brutal aumenta a 2d10. Además, puedes utilizar dos efectos diferentes de Golpe brutal siempre que uses tu rasgo Golpe brutal.</p><section id=\"secret-XCUecJBPB6amtvj9\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>La Tirada de Ataque de Golpe Brutal automáticamente escala para usar este nuevo valor.</p></section>"
 		},
 		"Improved Circle Forms": {
 			"name": "Formas del Círculo Mejoradas",
@@ -2672,8 +2672,8 @@
 			}
 		},
 		"Indomitable Might": {
-			"name": "Poderío Indomable",
-			"description": "<p>Si tu tirada total de un chequeo de Fuerza es menor que tu puntuación de Fuerza, puedes usar esa puntuación en lugar de la tirada.</p>"
+			"name": "Poderío Indómito",
+			"description": "<p>Si tu resultado en una prueba de Fuerza o una Tirada de Salvación de Fuerza es inferior a tu puntuación de Fuerza, puedes usar esa puntuación en lugar del resultado.</p>"
 		},
 		"Infiltration Expertise": {
 			"name": "Pericia en Infiltración",
@@ -2715,14 +2715,14 @@
 		},
 		"Instinctive Pounce": {
 			"name": "Salto Instintivo",
-			"description": "<p>Como parte de la acción adicional que realizas para entrar en tu Furia, puedes moverte hasta la mitad de tu velocidad.</p>"
+			"description": "<p>Como parte de la acción adicional para dejarte llevar por la furia, puedes moverte hasta la mitad de tu velocidad</p>"
 		},
 		"Intimidating Presence": {
 			"name": "Presencia Intimidante",
 			"description": "<p>Con una Acción Adicional, puedes infundir terror en los demás con tu presencia amenazante y tu poder primario. Cuando lo haces, cada criatura de tu elección en una Emanación de 9 m (30 pies) que se origine en ti debe hacer una tirada de salvación de Sabiduría (CD 8 más tu modificador por Fuerza y tu Bonificador por Competencia). Si falla la salvación, la criatura tiene el estado de Asustado durante 1 minuto. Al final de cada uno de los turnos de la criatura &amp;Reference[Frightened], esta repite la salvación y termina el efecto sobre sí misma si tiene éxito.</p><p>Una vez usas este rasgo, no puedes volver a usarlo hasta que termines un Descanso Largo, a menos que gastes un uso de tu Furia (no requiere acción) para restaurar su uso.</p><section class=\"secret\" id=\"secret-vRQdGrtACAbxH4Tm\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Save</strong> incluye un Efecto Activo que añade el estado de Asustado.</p><p>La actividad <strong>Recharge</strong> consume un uso de Furia y recarga tu uso de Presencia Intimidante.</p></section>",
 			"activities": {
 				"Recharge with Rage": {
-					"name": "Recargar con Ira"
+					"name": "Recargar con Furia"
 				}
 			},
 			"effects": {
@@ -3064,7 +3064,7 @@
 		},
 		"Mindless Rage": {
 			"name": "Furia Irracional",
-			"description": "<p>Tienes Inmunidad a los estados de &amp;Reference[Charmed] y &amp;Reference[Frightened] mientras tu Furia está activa. Si estás Hechizado o Asustado cuando entras en tu Furia, el estado termina sobre ti.</p><section class=\"secret\" id=\"secret-CnCRD0Dyvx4FFGfV\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que otorga inmunidad a los estados Hechizado y Asustado. Sin embargo, no se aplica automáticamente cuando empiezas tu Furia.</p></section>",
+			"description": "<p>Tienes Inmunidad a los estados de &amp;Reference[Charmed] y &amp;Reference[Frightened] mientras estés enfurecido. Si estás asustado o hechizado cuando te dejes llevar por la furia, el estado terminará para ti.</p><section class=\"secret\" id=\"secret-CnCRD0Dyvx4FFGfV\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que otorga inmunidad a los estados &Reference[charmed apply=false] y &Reference[frightened apply=false]. Sin embargo, no se aplican automáticamente cuando empiezas tu Furia.</p></section>",
 			"effects": {
 				"Mindless Rage": {
 					"name": "Furia Irracional"
@@ -3143,7 +3143,7 @@
 			}
 		},
 		"Monk's Focus": {
-			"name": "Concentración de Monje",
+			"name": "Concentración del Monje",
 			"description": "<p>Tu entrenamiento marcial te permite aprovechar la energía mística llamada foco. Tu acceso a esta energía está representado por un número de puntos de foco.</p><p><strong>Puntos de Concentración.</strong> Tu nivel de monje determina el número de puntos de foco que tienes, como se muestra en la columna Puntos de Concentración de la tabla de Monje. Puedes gastar estos puntos para alimentar ciertos rasgos de monje. Comienzas conociendo uno de esos rasgos: Ráfaga de Golpes.</p><p>Cuando gastas un punto de foco, no está disponible hasta que finalizas un descanso corto o largo, al final del cual recuperas todos tus puntos de foco gastados.</p><p><strong>Ráfaga de Golpes.</strong> Inmediatamente después de realizar la acción de Ataque en tu turno, puedes gastar 1 punto de foco para realizar dos ataques desarmados como acción adicional.</p><p><strong>CD de Salvación del Foco.</strong> Algunos rasgos que usan foco requieren que tu objetivo haga una tirada de salvación. La CD se calcula así:</p><p><strong>CD de Salvación del Foco</strong> = 8 + tu bonificador por competencia + tu modificador por Sabiduría</p><section class=\"secret\" id=\"secret-Kb8gEVefEUz6IHer\"><p><strong>Nota Foundry</strong></p><p>The <strong>Flurry de Blows</strong> activity is a Bonificación Action que expends a Focus Point y incluye el/la Ataque Roll y Daño por an Unarmored Strike usando tu Martial Arts Die que automáticamente scales as Tú/Usted level up. Sir [[/item Unarmed Strike]] is impacted por other magic items, puedes uso el/la <strong>Expend Focus Point</strong> activity y then uso tu Unarmed Strike as usual.</p><p>The <strong>Patient Defense</strong> Bonificación Action actividad incluye un Efecto Activo por tracking que Tú/Usted're Disengaged. El/La <strong>Patient Defense (Focus Point)</strong> activity expends a Focus Point y incluye un Efecto Activo que añade el/la Dodging status.</p><p>The <strong>Step de el/la Wind</strong> Bonificación Action activity expends 1 Focus Point y incluye un Efecto Activo por tracking que Tú/Usted're Disengaged.</p></section>",
 			"activities": {
 				"Flurry of Blows": {
@@ -3206,8 +3206,8 @@
 			}
 		},
 		"Nature Speaker": {
-			"name": "Hablante con la Naturaleza",
-			"description": "<p>Aprendes a hablar, leer y escribir Silvano. Además, las bestias pueden entender tu habla, y obtienes la capacidad de descifrar sus sonidos y movimientos. La mayoría de bestias carecen de inteligencia para transmitir o entender conceptos sofisticados, pero puedes aprender sus necesidades, emociones y amenazas.</p><section class=\"secret\" id=\"secret-Lh8GxpVm1IY5QkLL\"><p><strong>Nota Foundry</strong></p><p>The conjuro is otorgado a Tú/Usted as ritual-only conjuro y is pre-configured con Wisdom as tu conjurocasting modificador.</p> @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommunewit]</section>"
+			"name": "Hablante de la Naturaleza",
+			"description": "<p>Puedes lanzar el conjuro @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommunewit]{Comunión con la Naturaleza}, pero solo como Ritual. La Sabiduría es tu aptitud mágica para lanzarlo.</p><section class=\"secret\" id=\"secret-Lh8GxpVm1IY5QkLL\"><p><strong>Nota Foundry</strong></p><p>El Conjuro se te otorga automaticamente como un Conjuro Ritual y esta configurado para utilizar el modificador de Sabiduría como aptitud mágica</p> </section>"
 		},
 		"Nature's Sanctuary": {
 			"name": "Santuario Natural",
@@ -3516,7 +3516,7 @@
 		},
 		"Path of the Berserker": {
 			"name": "Senda del Berserker",
-			"description": "<blockquote><p>Sigue tu furia al frenesí de batalla</p></blockquote><p>Los bárbaros que recorren la senda del berserker dirigen su furia principalmente hacia la violencia. Su camino es el de la furia desenfrenada, y se deleitan con el caos de la batalla mientras permiten que su furia los domine y empodere.</p>",
+			"description": "<blockquote><p>Canaliza la furia en una violencia indómita.</p></blockquote><p>Los bárbaros que recorren la senda del berserker ponen su furia principalmente al servicio de la violencia. Su senda se asienta en una rabia sin cortapisas y estos bárbaros se embriagan del caos del combate mientras dejan que su furia se apodere de ellos y los fortalezca.</p>",
 			"advancement": {
 				"Subclass Features": {
 					"title": "Rasgos de Subclase"
@@ -3525,23 +3525,23 @@
 		},
 		"Path of the Wild Heart": {
 			"name": "Senda del Corazón Salvaje",
-			"description": "<blockquote><p>Comunícate con el espíritu bestial de la naturaleza</p></blockquote><p>Los bárbaros que siguen la senda del corazón salvaje se consideran parientes de los animales del mundo natural. Aprenden medios mágicos para comunicarse con los animales, y su furia aumenta su conexión con ellos mientras los llena de poder sobrenatural.</p>",
+			"description": "<blockquote><p>Camina en comunión con el mundo animal.</p></blockquote><p>Los bárbaros que siguen la senda del corazón salvaje sienten afinidad por los animales. Aprenden métodos mágicos de comunicarse con ellos y su furia aumenta su conexión, ya que los imbuye de una fuerza sobrenatural.</p>",
 			"advancement": {
 				"Subclass Features": {
 					"title": "Rasgos de Subclase"
 				},
 				"Animal Speaker": {
-					"title": "Hablante con Animales",
-					"hint": "El rasgo Hablante de Animales te otorga los conjuros Sentidos de Bestia y Hablar con Animales, pero solo puedes lanzarlos como rituales."
+					"title": "Portavoz de los Animales",
+					"hint": "El rasgo Portavoz de los Animales te otorga los conjuros Hablar con los Animales y Sentidos de la Bestia, pero solo como rituales. La Sabiduría es tu aptitud mágica para lanzarlos."
 				},
 				"Nature Speaker": {
-					"title": "Hablante con la Naturaleza"
+					"title": "Hablante de la Naturaleza"
 				}
 			}
 		},
 		"Path of the World Tree": {
 			"name": "Senda del Árbol del Mundo",
-			"description": "<blockquote><p>Localiza las raíces y las ramas del multiverso</p></blockquote><p>Los bárbaros que siguen la senda del Árbol del Mundo conectan con el árbol cósmico Yggdrasil a través de su furia. Este árbol crece entre los Planos Exteriores, a los que vincula entre sí además de con el Plano Material. Estos bárbaros recurren a la magia del árbol para obtener vitalidad y como medio de transporte dimensional.</p>",
+			"description": "<blockquote><p>Localiza las raíces y las ramas del multiverso</p></blockquote><p>Los bárbaros que siguen la senda del Árbol del Mundo conectan con el árbol cósmico Yggdrasil a través de su furia. Este árbol crece entre los Planos Exteriores, a los que vincula entre sí además de con el Plano Material. Estos Bárbaros recurren a la magia del árbol para obtener vitalidad y como medio de transporte dimensional.</p>",
 			"advancement": {
 				"Subclass Features": {
 					"title": "Rasgos de Subclase"
@@ -3550,7 +3550,7 @@
 		},
 		"Path of the Zealot": {
 			"name": "Senda del Fanático",
-			"description": "<blockquote><p>Canaliza la furia divina en batalla</p></blockquote><p>Algunos bárbaros son guerreros espirituales a los que los dioses llaman para librar a su ira sobre los enemigos de la fe. Los seguidores de la senda del fanático consideran su furia como un don divino y una expresión externa del celo que alimenta su devoción.</p>",
+			"description": "<blockquote><p>Expresa tu furia en una eufórica unión con una divinidad.</p></blockquote><p>Los bárbaros que siguen la senda del fanático reciben beneficios de un dios o panteón. Estos bárbaros experimentan su furia como un episodio eufórico de unión divina que les imbuye de poder. Habitualmente, se alían con sacerdotes y otros seguidores de su dios o panteón.</p>",
 			"advancement": {
 				"Subclass Features": {
 					"title": "Rasgos de Subclase"
@@ -3583,11 +3583,11 @@
 		},
 		"Persistent Rage": {
 			"name": "Furia Persistente",
-			"description": "<p>Cuando tiras Iniciativa, puedes recuperar todos los usos gastados de Furia. Después de recuperar usos de Furia de esta manera, no puedes volver a hacerlo hasta que termines un Descanso Largo.</p><p>Además, tu Furia es tan feroz que ahora dura 10 minutos sin que necesites hacer nada para prolongarla de asalto en asalto. Tu Furia termina antes si tienes el estado de &amp;Reference[Unconscious] (no solo el estado de &amp;Reference[Incapacitated]) o te pones armadura Pesada.</p><section class=\"secret\" id=\"secret-3IS0iUbWZ04tp74k\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una actividad que puede usarse cuando tiras Iniciativa, que recargará todos tus usos de Furia.</p></section>",
+			"description": "<p>Cuando tires iniciativa, puedes recuperar todos los usos gastados de la furia. Tras recuperar los usos de la furia de esta manera, no podrás volver a hacerlo hasta que finalices un descanso largo.</p><p>Además, tu furia es tan intensa que ahora dura 10 minutos sin necesidad de hacer nada para prolongarla de un asalto a otro. Tu furia termina antes si recibes el estado de &amp;Reference[Unconscious] (no solo el de &amp;Reference[Incapacitated]) o te pones una armadura pesada.</p><section class=\"secret\" id=\"secret-3IS0iUbWZ04tp74k\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye una actividad que puede usarse cuando tiras Iniciativa, que recargará todos tus usos de Furia.</p></section>",
 			"activities": {
 				"Recharge Rage on Initiative": {
-					"name": "Recargar Ira en Iniciativa",
-					"condition": "Cuando tiras iniciativa"
+					"name": "Recargar Furia en Iniciativa",
+					"condition": "Cuando tires iniciativa, puedes recuperar todos los usos gastados de la furia. Tras recuperar los usos de la furia de esta manera, no podrás volver a hacerlo hasta que finalices un descanso largo."
 				}
 			}
 		},
@@ -3642,7 +3642,7 @@
 				},
 				"Ram": {
 					"name": "Carnero",
-					"condition": "Cuando aciertas a una criatura Grande o más pequeña con un ataque cuerpo a cuerpo"
+					"condition": "Cuando aciertas a una criatura Grande o más pequeña con un ataque Cuerpo a Cuerpo y estés enfurecido."
 				}
 			},
 			"effects": {
@@ -3670,8 +3670,8 @@
 			"description": "<p>Con una acción de Magia, presentas tu Símbolo Sagrado y gastas un uso de tu Canalizar Divinidad para evocar energía curativa que puede restaurar una cantidad de Puntos de Golpe igual a cinco veces tu nivel de Clérigo. Elige criaturas &amp;Reference[Bloodied] a 9 m (30 pies) o menos de ti (entre las que puedes incluirte) y reparte esos Puntos de Golpe entre ellas. Este rasgo no puede restaurar a una criatura a más de la mitad de su máximo de Puntos de Golpe.</p><section class=\"secret\" id=\"secret-vybBdwcDQO3jMVDo\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Heal</strong> no restringe automáticamente los PG obtenidos al 50 % del máximo del objetivo.</p></section>"
 		},
 		"Primal Champion": {
-			"name": "Campeón Primigenio",
-			"description": "<p>Encarnas el poder de la naturaleza salvaje. Tus puntuaciones de Fuerza y Constitución aumentan en 4. Tu máximo para esas puntuaciones ahora es 24.</p>"
+			"name": "Campeón Primordial",
+			"description": "<p>Encarnas un poder primigenio. Tus puntuaciones de Fuerza y Constitución aumentan en 4, hasta un máximo de 25.</p>"
 		},
 		"Primal Companion": {
 			"name": "Compañero Primigenio",
@@ -3690,7 +3690,7 @@
 		},
 		"Primal Knowledge": {
 			"name": "Conocimiento Primigenio",
-			"description": "<p>Obtienes competencia en una habilidad de tu elección de la lista de habilidades disponibles para bárbaros en el nivel 1.</p><p>En el nivel 10, puedes usar tu acción para elegir automáticamente tener éxito en un chequeo de Sabiduría (Supervivencia) o Inteligencia (Naturaleza). Puedes usar este beneficio un número de veces igual a tu modificador por Sabiduría (mínimo una vez). Recuperas todos los usos gastados cuando finalizas un descanso largo.</p><section class=\"secret\" id=\"secret-himIRZuFGInNkZgU\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que causo those skills a usautomáticamente tu Strength modificador si it is higher than el/la normal Habilidad Score associated con el/la Skill.</p></section>",
+			"description": "<p>Ganas competencia en otra habilidad de tu elección de la lista de habilidades disponibles para los bárbaros en el nivel 1.</p><p>Además, mientras estés enfurecido, puedes canalizar el poder primigenio cuando intentes determinadas tareas. Siempre que hagas una Prueba de Característica con una de las siguientes habilidades, podrás hacerla como una prueba de Fuerza incluso si normalmente utiliza otra característica: Acrobacias, Intimidación, Percepción, Sigilo o Supervivencia. Cuando utilizas esta capacidad, tu Fuerza representa el poder primigenio que fluye por ti y agudiza tu agilidad, porte y sentidos.</p><section class=\"secret\" id=\"secret-himIRZuFGInNkZgU\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que hace que que esas habilitades ocupen automaticamente tu Fuerza como modificador si es más alta que la puntuación de caracteristica normal asociada a esa habilidad</p></section>",
 			"effects": {
 				"Primal Knowledge": {
 					"name": "Conocimiento Primigenio"
@@ -3879,7 +3879,7 @@
 		},
 		"Rage": {
 			"name": "Furia",
-			"description": "<p>Puedes imbuirte de un poder primario llamado Furia, una fuerza que te otorga un vigor y una resistencia extraordinarios. Puedes entrar en ella con una Acción Adicional si no llevas armadura Pesada.</p><p>Puedes entrar en tu Furia la cantidad de veces que se indica para tu nivel de Bárbaro en la columna Furias de la tabla de Rasgos del Bárbaro (actualmente [[lookup @scale.barbarian.rages]]). Recuperas un uso gastado cuando terminas un Descanso Corto, y recuperas todos los usos gastados cuando terminas un Descanso Largo.</p><p>Mientras está activa, tu Furia sigue las reglas siguientes.</p><p><strong>Resistencia al Daño.</strong> Tienes Resistencia al daño Contundente, Perforante y Cortante.</p><p><strong>Daño por Furia.</strong> Cuando haces un ataque usando Fuerza —con un arma o con un Ataque sin Armas— e infliges daño al objetivo, obtienes una bonificación al daño que aumenta conforme ganas niveles de Bárbaro, como se indica en la columna Daño por Furia de la tabla de Rasgos del Bárbaro.</p><p><strong>Ventaja en Fuerza.</strong> Tienes Ventaja en las pruebas de Fuerza y en las tiradas de salvación de Fuerza.</p><p><strong>Sin Concentración ni Conjuros.</strong> No puedes mantener la Concentración ni lanzar conjuros.</p><p><strong>Duración.</strong> La Furia dura hasta el final de tu siguiente turno y termina antes si te pones armadura Pesada o tienes el estado de Incapacitado. Si tu Furia sigue activa en tu siguiente turno, puedes prolongarla un asalto más haciendo una de las siguientes cosas:</p><ul><li>Hacer una tirada de ataque contra un enemigo.</li><li>Obligar a un enemigo a hacer una tirada de salvación.</li><li>Usar una Acción Adicional para prolongar tu Furia.</li></ul><p>Cada vez que se prolonga la Furia, dura hasta el final de tu siguiente turno. Puedes mantener una Furia hasta 10 minutos.</p><section class=\"secret\" id=\"secret-o72MSFMdhSQC7kYa\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que automatiza la Resistencia, el daño adicional y la Ventaja en pruebas y salvaciones de Fuerza. Este rasgo también recarga automáticamente tus usos de Furia en un Descanso Corto y Largo.</p></section>",
+			"description": "<p>Puedes imbuirte de un poder primigenio llamado furia, que te otorga una fuerza y resistencia extraordinarias. Puedes dejarte llevar por ella como acción adicional si no llevas puesta una armadura pesada.</p><p>uedes dejarte llevar por la furia tantas veces como se indica para tu nivel de bárbaro (actualmente [[lookup @scale.barbarian.rages]]) en la columna “N.° de furias” de la tabla “Rasgos de Bárbaro”. Recuperas uno de los usos gastados tras finalizar un descanso corto y todos tras finalizar un descanso largo.</p><p>Mientras estés enfurecido, usa las siguientes reglas.</p><p><strong>Resistencia al Daño.</strong> Tienes Resistencia al daño Contundente Cortante y Perforante.</p><p><strong>Daño por Furia.</strong> Cuando llevas a cabo un ataque que use la Fuerza (ya sea con un arma o un ataque sin armas) y causas daño al objetivo, obtienes un bonificador al daño que aumenta conforme subes de nivel de bárbaro, como se muestra en la columna “Daño por furia” de la tabla “Rasgos de bárbaro”.</p><p><strong>Ventaja en Fuerza.</strong> Tienes ventaja en las pruebas de Fuerza y en las Tiradas de Salvación de Fuerza.</p><p><strong>Sin Concentración ni Conjuros.</strong> No puedes mantener la Concentración ni lanzar conjuros.</p><p><strong>Duración.</strong> La furia dura hasta el final de tu siguiente turno y termina antes si te pones una armadura pesada o recibes el estado de &Reference[incapacitated apply=false]. Si la furia sigue activa en tu siguiente turno, puedes prolongarla otro asalto de una de las siguientes formas:</p><ul><li>Haces una Tirada de Ataque contra un enemigo.</li><li>Obligar a un enemigo a hacer una Tirada de Salvación.</li><li>Empleas una Acción Adicional para prolongar tu furia.</li></ul><p>Cada vez que prolongues la furia, durará hasta el final de tu siguiente turno. Puedes mantener una furia hasta 10 minutos.</p><section class=\"secret\" id=\"secret-o72MSFMdhSQC7kYa\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo que automatiza la Resistencia, el Daño Adicional y la Ventaja en Pruebas y Salvaciones de Fuerza. Este rasgo también recarga automáticamente tus usos de Furia en un Descanso Corto y Largo.</p></section>",
 			"activities": {
 				"Expend Rage": {
 					"name": "Gastar Furia"
@@ -3888,34 +3888,34 @@
 			"effects": {
 				"Rage": {
 					"name": "Furia",
-					"description": "<p><strong>Resistencia al Daño.</strong> Tienes Resistencia al daño Contundente, Perforante y Cortante.</p><p><strong>Daño de Furia.</strong> Cuando haces un ataque usando Fuerza —con un arma o un Ataque sin Armas— e infliges daño al objetivo, obtienes una bonificación al daño que aumenta a medida que ganas niveles de Bárbaro, como se muestra en la columna Daño de Furia de la tabla de Rasgos del Bárbaro.</p><p><strong>Ventaja en Fuerza.</strong> Tienes Ventaja en las pruebas de Fuerza y en las tiradas de salvación de Fuerza.</p>"
+					"description": "<p><strong>Resistencia al Daño.</strong> Tienes Resistencia al daño Contundente, Perforante y Cortante.</p><p><strong>Daño por Furia.</strong> Cuando llevas a cabo un Ataque que use la Fuerza (ya sea con un arma o un Ataque sin Armas) y causas daño al objetivo, obtienes un bonificador al daño que aumenta conforme subes de nivel de Bárbaro, como se muestra en la columna “Daño por furia” de la tabla “Rasgos de Bárbaro”.</p><p><strong>Ventaja en Fuerza.</strong> Tienes Ventaja en las pruebas de Fuerza y en las Tiradas de Salvación de Fuerza.</p>"
 				}
 			}
 		},
 		"Rage of the Gods": {
 			"name": "Furia de los Dioses",
-			"description": "<p>Cuando activas tu Furia, puedes adoptar la forma de un guerrero divino. Esta forma dura 1 minuto o hasta que caigas a 0 Puntos de Golpe. Una vez usas este rasgo, no puedes volver a hacerlo hasta que termines un Descanso Largo.</p><p>Mientras estás en esta forma, obtienes los siguientes beneficios.</p><p><strong>Vuelo.</strong> Tienes una Velocidad Volando igual a tu Velocidad y puedes flotar.</p><p><strong>Resistencia.</strong> Tienes Resistencia al daño Necrótico, Psíquico y Radiante.</p><p><strong>Revivificación.</strong> Cuando una criatura a 9 m (30 pies) o menos de ti fuese a caer a 0 Puntos de Golpe, puedes usar una Reacción para gastar un uso de tu Furia y, en su lugar, cambiar los Puntos de Golpe del objetivo a una cantidad igual a tu nivel de Bárbaro (actualmente [[lookup @classes.barbarian.levels]]).</p><section class=\"secret\" id=\"secret-gWvozli4SOlo3KxS\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Furia de los Dioses</strong> incluye un Efecto Activo que añade automáticamente las resistencias y el flotar, pero no proporciona la Velocidad Volando.</p><p>La actividad <strong>Revivificación</strong> incluye una tirada de curación igual a tu nivel de Bárbaro.</p></section>",
+			"description": "<p>Cuando te enfureces, puedes adoptar la forma de un guerrero divino. Esta forma dura 1 minuto o hasta que tus Puntos de Golpe se reduzcan a 0. Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un descanso largo.</p><p>Mientras tengas esta forma, obtendrás los siguientes beneficios:</p><p><strong>Resistencia.</strong> Tienes Resistencia al daño Necrótico, Psíquico y Radiante.</p><p><strong>Revitalización.</strong> Cuando los Puntos de Golpe de una criatura que esté a 9 m (30 pies) o menos de ti fueran a reducirse a O, puedes llevar a cabo una Reacción para gastar un uso de tu furia y hacer que los Puntos de Golpe del objetivo cambien a una cantidad igual a tu nivel de bárbaro. (actualmente [[lookup @classes.barbarian.levels]]).</p><p><strong>Vuelo.</strong> Tienes una velocidad volando igual a tu velocidad y puedes levitar.</p><section class=\"secret\" id=\"secret-gWvozli4SOlo3KxS\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Furia de los Dioses</strong> incluye un Efecto Activo que añade automáticamente las resistencias y la Levitación, pero no proporciona la Velocidad Volando.</p><p>La actividad <strong>Revitalización</strong> incluye una tirada de Curación igual a tu nivel de Bárbaro.</p></section>",
 			"activities": {
 				"Revivification": {
-					"name": "Revivificación",
+					"name": "Revitalización",
 					"roll": "Barbarian Level",
-					"condition": "Cuando una criatura a 9 m (30 pies) o menos de ti quedaría reducida a 0 Puntos de Golpe"
+					"condition": "Cuando los Puntos de Golpe de una criatura que esté a 9 m (30 pies) o menos de ti fueran a reducirse a O."
 				},
 				"Rage of the Gods": {
 					"name": "Furia de los Dioses",
-					"condition": "Cuando activas tu Furia"
+					"condition": "Cuando activas tu Furia."
 				}
 			},
 			"effects": {
 				"Rage of the Gods": {
 					"name": "Furia de los Dioses",
-					"description": "<p>Mientras estés en esta forma, obtienes los beneficios de abajo.</p><p><strong>Vuelo.</strong> Tienes una Velocidad de Vuelo igual a tu Velocidad y puedes flotar.</p><p><strong>Resistencia.</strong> Tienes Resistencia al daño Necrótico, Psíquico y Radiante.</p><p><strong>Revivificación.</strong> Cuando una criatura a 9 m (30 pies) o menos de ti quedaría reducida a 0 Puntos de Golpe, puedes usar una Reacción para gastar un uso de tu Furia y, en su lugar, cambiar los Puntos de Golpe del objetivo a un número igual a tu nivel de Bárbaro.</p>"
+					"description": "<p>Mientras tengas esta forma, obtendrás los siguientes beneficios:</p><p><strong>Resistencia.</strong> Tienes Resistencia al daño Necrótico, Psíquico y Radiante.</p><p><strong>Revitalización.</strong> uando los Puntos de Golpe de una criatura que esté a 9 m (30 pies) o menos de ti fueran a reducirse a O, puedes llevar a cabo una reacción para gastar un uso de tu furia y hacer que los Puntos de Golpe del objetivo cambien a una cantidad igual a tu nivel de bárbaro.</p><p><strong>Vuelo.</strong> Tienes una Velocidad de Vuelo igual a tu Velocidad y puedes Levitar.</p>"
 				}
 			}
 		},
 		"Rage of the Wilds": {
 			"name": "Furia de lo Salvaje",
-			"description": "<p>A partir del nivel 14, cuando uses tu Forma Salvaje para transformarte en una bestia, puedes añadir la mitad de tu nivel de druida (redondeado hacia abajo) a los ataques que hagas con formas de bestia. Además, cualquier ataque de bestia que hagas cuenta como mágico para propósitos de superar resistencia e inmunidad a ataques y daño no mágicos.</p><section class=\"secret\" id=\"secret-NkFSYzGdf370PpSv\"><p><strong>Nota Foundry</strong></p><p>Lactividad \\<strong\\>Bear\\</strong\\> incluye un Efecto Activo que puedes automate el/laddition de el/la resistances.</p><p>Lactividad \\<strong\\>Eagle</strong> activity usos a Bonus Action para Disengage y Dash.</p><p>The <strong>Wolf\\</strong\\> incluye una 5 foot target template para identifying impacted creatures.</p></section>",
+			"description": "<p>Tu furia se sirve del poder primigenio de los animales. Cuando te enfurezcas, obtendrás una de las siguientes opciones, a tu elección.</p><p><strong>Águila.</strong> Cuando te enfurezcas, podrás llevar a cabo las acciones de destrabarse y correr como parte de esa Acción Adicional. Mientras estés enfurecido, puedes usar una acción adicional para llevar a cabo ambas acciones.</p><p><strong>Lobo.</strong> Mientras estés enfurecido, tus aliados tendrán ventaja en las tiradas de ataque contra cualquiera de tus enemigos que se encuentre a 1,5 m (5 pies) o menos de ti.</p><p><strong>Oso.</strong> Mientras estés enfurecido, tendrás resistencia a todos los tipos de daño salvo de fuerza, necrótico, psíquico y radiante.</p><section class=\"secret\" id=\"secret-NkFSYzGdf370PpSv\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Águila</strong> usa como Acción Adicional destrabarse y correr.</p><p>La actividad <strong>Lobo</strong> incluye una plantilla de 1,5 m (5 pies) para identificar a las criaturas impactadas</p><p>La actividad <strong>Oso</strong> incluye un Efecto Activo que puedes automatizar las resistencias</p></section>",
 			"activities": {
 				"Eagle": {
 					"name": "Águila"
@@ -3988,7 +3988,7 @@
 		},
 		"Reckless Attack": {
 			"name": "Ataque Temerario",
-			"description": "<p>Puedes dejar de lado toda preocupación por la defensa para atacar con un desprecio feroz. Cuando hagas tu primer ataque en tu turno, puedes decidir atacar temerariamente. Hacerlo te da ventaja en las tiradas de ataque con armas cuerpo a cuerpo usando Fuerza durante este turno, pero las tiradas de ataque contra ti tienen ventaja hasta tu próximo turno.</p><section id=\"secret-W7MI2ZVKsMQcSW6d\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo por tracking whether Tú/Usted are reckless o not but it does not automate Ventaja en tu ataques o ataques contra Tú/Usted.</p></section>",
+			"description": "<p>Puedes abandonar por completo tu defensa para atacar con una mayor fiereza. Cuando vayas a realizar la primera Tirada de Ataque de tu turno, puedes decidir atacar temerariamente. Si lo haces, tendrás ventaja en las tiradas de ataque que utilicen la Fuerza hasta el principio de tu siguiente turno, pero las tiradas de ataque contra ti también tendrán ventaja durante ese tiempo.</p><section id=\"secret-W7MI2ZVKsMQcSW6d\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye un Efecto Activo para realizar un seguimiento si eres forma temerario o no, pero no activa automáticamente la Ventaja en tus ataques ni en los ataques contra ti.</p></section>",
 			"effects": {
 				"Reckless": {
 					"name": "Temerario"
@@ -4018,8 +4018,8 @@
 			"description": "<p>Recibir daño no puede romper tu concentración en Marca del Cazador.</p>"
 		},
 		"Relentless Rage": {
-			"name": "Furia Incansable",
-			"description": "<p>Tu furia puede mantenerte luchando a pesar de heridas graves. Si caes a 0 puntos de golpe mientras estás enfurecido y no mueres directamente, puedes hacer una tirada de salvación de Constitución CD 10. Si tienes éxito, caes a 1 punto de golpe en su lugar.</p><p>Cada vez que uses este rasgo después de la primera, la CD aumenta en 5. Cuando finalices un descanso corto o largo, la CD se reinicia a 10.</p><section class=\"secret\" id=\"secret-GTpuSHXh1ZobcQYd\"><p><strong>Nota Foundry</strong></p><p>Este rasgo automáticamente aumentará el/la DC por 5 si consume el/la resource cuando activating it. It also automáticamente reset a 10 Después a Short o Long Rest.</p></section>"
+			"name": "Furia Implacable",
+			"description": "<p>Tu furia te permite seguir luchando incluso tras sufrir Heridas Graves. Si tus Puntos de Golpe se reducen a O mientras estas enfurecido, pero no mueres inmediatamente, puedes hacer una Tirada de Salvación de Constitución con CD 10. Si la superas, tus Puntos de Golpe pasarán a ser una cantidad igual al doble de tu nivel de Bárbaro.</p><p>Siempre que uses este rasgo después de la primera vez, la CD aumenta en 5. Tras finalizar un descanso Corto o Largo, la CD vuelve a ser 10.</p><section class=\"secret\" id=\"secret-GTpuSHXh1ZobcQYd\"><p><strong>Nota Foundry</strong></p><p>Este rasgo automáticamente aumentará la DC en 5 si consumes el recurso cuando lo activas. Ademas automaticamente se reiniciara a 10 despues de un Descanso Corto o Largo</p></section>"
 		},
 		"Reliable Talent": {
 			"name": "Talento Confiable",
@@ -4093,11 +4093,11 @@
 		},
 		"Retaliation": {
 			"name": "Represalia",
-			"description": "<p>Cuando recibes daño de una criatura a 1,5 metros de ti, puedes usar tu reacción para hacer un ataque con arma cuerpo a cuerpo contra esa criatura.</p>",
+			"description": "<p>Cuando recibas daño de una criatura que esté a 1,5 m (5 pies) o menos de ti, puedes llevar a cabo una reacción para hacer un ataque cuerpo a cuerpo contra esa criatura usando un arma o un ataque sin armas.</p>",
 			"activities": {
 				"Retaliate": {
-					"name": "Retaliar",
-					"condition": "Cuando recibes daño de una criatura a 1,5 m (5 pies) o menos de ti"
+					"name": "Tomar Represalia",
+					"condition": "Cuando recibes daño de una criatura a 1,5 m (5 pies) o menos de ti."
 				}
 			}
 		},
@@ -4922,7 +4922,7 @@
 		},
 		"Travel Along the Tree": {
 			"name": "Viajar por el Árbol",
-			"description": "<p>Puedes teletransportarte al Árbol del Mundo. Como acción, gastas un uso de tu Furia y te teletransportas hasta 18 metros a un espacio desocupado que puedas ver. Espectros del Árbol del Mundo aparecen momentáneamente en el espacio que dejas y el espacio al que viajas.</p>",
+			"description": "<p>Cuando te enfureces y como acción adicional mientras estés enfurecido, puedes teletransportarte hasta 18 m (60 pies) a un espacio sin ocupar que puedas ver.</p><p>Asimismo, una vez por furia, puedes aumentar el alcance del teletransporte a 45 m (150 pies). Si lo haces, también puedes transportar hasta seis criaturas voluntarias que estén a 3 m (10 pies) o menos de ti. Cada criatura se teletransportará a un espacio sin ocupar de tu elección a 3 m (10 pies) o menos de tu espacio de destino.</p>",
 			"activities": {
 				"Teleport": {
 					"name": "Teletransporte"
@@ -5021,7 +5021,7 @@
 		},
 		"Unarmored Defense": {
 			"name": "Defensa sin Armadura",
-			"description": "<p>Mientras no lleves armadura ni uses escudo, tu clase de armadura es igual a 10 + tu modificador por Destreza + tu modificador por Constitución.</p>",
+			"description": "<p>Mientras no lleves armadura alguna, tu clase de armadura base será igual a 10 más tus modificadores por Destreza y Constitución. Obtienes este beneficio aunque lleves un escudo.</p>",
 			"effects": {
 				"Unarmored Defense": {
 					"name": "Defensa sin Armadura"
@@ -5104,15 +5104,15 @@
 		},
 		"Vitality of the Tree": {
 			"name": "Vitalidad del Árbol",
-			"description": "<p>Tu vínculo con el Árbol del Mundo te permite tomar un poco de sustento de él. Cuando tu Furia termine y no estás Incapacitado, recuperas Puntos de Golpe iguales a tu nivel de Bárbaro.</p><p>Además, cuando determines cuánto tiempo puedes pasar viajando en un día, dobla tu bonificador por Constitución añadido a tu total.</p><section class=\"secret\" id=\"secret-6DP7OmiyG1ibcVqP\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye unan activity por <strong>Vitality Surge</strong> y <strong>Life-Giving Porce</strong> que puede usarse a roll el/la Temporary HP. It does not automáticamente remove Life-Giving Porce's Temporary Hit Points cuandor Rage ends.</p></section>",
+			"description": "<p>Tu furia se nutre de la fuerza vital del Árbol del Mundo. Obtienes los siguientes beneficios:</p><p><strong>Oleada de Vitalidad.</strong> Cuando te enfurezcas, obtendrás una cantidad de Puntos de Golpe Temporales igual a tu nivel de Bárbaro.</p><p><strong>Fuerza Revitalizante.</strong> Al principio de cada uno de tus turnos mientras estés enfurecido, puedes elegir a otra criatura a 3 m (10 pies) o menos de ti para que obtenga Puntos de Golpe Temporales. Para determinarlos, tira una cantidad de d6 igual a tu Bonificación de Daño por Furia y suma los resultados. Si algunos de estos Puntos de Golpe Temporales permanecen cuando dejes de estar enfurecido, se desvanecerán.</p><section class=\"secret\" id=\"secret-6DP7OmiyG1ibcVqP\"><p><strong>Nota Foundry</strong></p><p>Este rasgo incluye unan activity para <strong>Oleada de Vitalidad</strong> y <strong>Fuerza Revitalizante</strong> que puede usarse para lanzar los Puntos de Golpes Temporales. Si lo hace no remueve automaticamente los Puntos de Golpes Temporales dados por Fuerza Revitalizante cuando tu furia termina.</p></section>",
 			"activities": {
 				"Vitality Surge": {
 					"name": "Oleada de Vitalidad",
-					"condition": "Cuando activas tu Furia"
+					"condition": "Cuando te enfurezcas."
 				},
 				"Life-Giving Force": {
-					"name": "Fuerza Vivificante",
-					"condition": "Al inicio de cada uno de tus turnos mientras tu Furia está activa"
+					"name": "Fuerza Revitalizante",
+					"condition": "Al principio de cada uno de tus turnos mientras estés enfurecido."
 				}
 			}
 		},
@@ -5191,11 +5191,11 @@
 			}
 		},
 		"Warding Flare": {
-			"name": "Fulgor Protector",
+			"name": "Destello Protector",
 			"description": "<p>Cuando una criatura que puedas ver a 9 m (30 pies) o menos de ti hace una tirada de ataque, puedes usar una Reacción para imponer Desventaja en la tirada de ataque, haciendo que la luz destelle antes de que acierte o falle.</p><p>Puedes usar este rasgo una cantidad de veces igual a tu modificador por Sabiduría (mínimo de una vez, actualmente [[lookup @abilities.wis.mod]]). Recuperas todos los usos gastados cuando terminas un Descanso Largo.</p><section class=\"secret\" id=\"secret-FVDTK9yzluaZoQ0v\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Flare</strong> incluye una emanación de 9 m (30 pies) para identificar a las criaturas afectadas. No automatiza la Desventaja.</p></section>",
 			"activities": {
 				"Flare": {
-					"name": "Fulgor",
+					"name": "Destello",
 					"condition": "Cuando una criatura que puedas ver a 9 m (30 pies) o menos hace una tirada de ataque"
 				}
 			}
@@ -5303,7 +5303,7 @@
 		},
 		"Warrior of the Gods": {
 			"name": "Guerrero de los Dioses",
-			"description": "<p>Una entidad divina ayuda a asegurar que puedas continuar la lucha. Tienes una reserva de cuatro d12 que puedes gastar para curarte. Con una Acción Adicional, puedes gastar dados de la reserva, tirarlos y recuperar una cantidad de Puntos de Golpe igual al total de la tirada.</p><p>Tu reserva recupera todos los dados gastados cuando terminas un Descanso Largo.</p><p>El número máximo de dados de la reserva aumenta en uno cuando alcanzas los niveles de Bárbaro 6 (5 dados), 12 (6 dados) y 17 (7 dados).</p><section class=\"secret\" id=\"secret-er80mQOJaHK8ww7M\"><p><strong>Nota Foundry</strong></p><p>El tamaño de la reserva se gestiona automáticamente en el avance de valor de escala de este rasgo.</p></section>",
+			"description": "<p>Una entidad divina ayuda a garantizar que continúes la batalla. Cuentas con una reserva de cuatro d12 que puedes gastar para curarte. Como acción adicional, puedes gastar dados de la reserva, tirarlos y recuperar una cantidad de puntos de golpe igual al resultado total de la tirada.</p><p>Tu reserva recupera todos los dados gastados tras finalizar un descanso largo.</p><p>El número máximo de dados de la reserva aumenta en uno cuando alcanzas los niveles 6 (5 dados), 12 (6 dados) y 17 (7 dados) de bárbaro.</p><section class=\"secret\" id=\"secret-er80mQOJaHK8ww7M\"><p><strong>Nota Foundry</strong></p><p>El tamaño de la reserva se gestiona automáticamente en el avance de valor de escala de este rasgo.</p></section>",
 			"advancement": {
 				"Pool Size": {
 					"title": "Tamaño de Reserva"
@@ -5321,7 +5321,7 @@
 		},
 		"Weapon Mastery": {
 			"name": "Maestría con Armas",
-			"description": "<p>Tu entrenamiento con armas te permite usar las propiedades de maestría de dos tipos de armas Cuerpo a Cuerpo Sencillas o Marciales de tu elección, como las Hachas de Guerra y las Hachas de Mano. Siempre que terminas un Descanso Largo, puedes practicar ejercicios de armas y cambiar una de esas elecciones de arma.</p><p>Cuando alcanzas ciertos niveles de Bárbaro, obtienes la capacidad de usar las propiedades de maestría de más tipos de armas, como se indica en la columna Maestría con Armas de la tabla de Rasgos del Bárbaro.</p>"
+			"description": "<p>Tu entrenamiento con armas te permite utilizar las propiedades de maestría con dos tipos de armas cuerpo a cuerpo sencillas o marciales de tu elección, como las hachas a dos manos y las hachas de mano. Tras finalizar un descanso largo, puedes llevar a cabo ejercicios con armas y cambiar una de dichas elecciones.</p><p>Cuando alcances ciertos niveles de bárbaro, adquirirás la capacidad de usar las propiedades de maestría con más tipos de armas, como se muestra en la columna “Maestría con armas” de la tabla “Rasgos de bárbaro”.</p>"
 		},
 		"Whispers of the Grave": {
 			"name": "Susurros de la Tumba",
@@ -5457,20 +5457,20 @@
 			}
 		},
 		"Zealous Presence": {
-			"name": "Presencia Fanática",
-			"description": "<p>Obtienes la capacidad de canalizar energía divina para inspirar celo en batalla. Como acción adicional, pronuncias una exhortación celestial que otorga a ti y a cualquier aliado a 18 metros un bonificador a las tiradas de ataque y de salvación igual a tu modificador por Carisma (mínimo +1) hasta el inicio de tu próximo turno.</p><p>Una vez que uses este rasgo, no puedes usarlo de nuevo hasta que finalices un descanso largo.</p><section class=\"secret\" id=\"secret-jLt4ZN8yZicBocd7\"><p><strong>Nota Foundry</strong></p><p>This <strong>Battle Cry</strong> actividad incluye un Efecto Activo para tracking impacted creatures but does not automate el/ladvantage en attack rolls y tirada de salvacións.</p><p>The <strong>Recharge con Rage</strong> expends a Rage y restaurars a uso de Este rasgo.</p></section>",
+			"name": "Presencia Ferviente",
+			"description": "<p>Como Acción Adicional, profieres un grito de guerra imbuido de energía divina. Hasta diez criaturas de tu elección que estén a 18 m (60 pies) o menos de ti obtendrán ventaja en las Tiradas de Ataque y Tiradas de Salvación hasta el principio de tu siguiente turno.</p><p>Cuando uses este rasgo, no podrás volver a hacerlo hasta que finalices un Descanso Largo, a menos que gastes un uso de tu furia (no requiere Acción) para restablecer su uso.</p><section class=\"secret\" id=\"secret-jLt4ZN8yZicBocd7\"><p><strong>Nota Foundry</strong></p><p>La actividad <strong>Grito de Guerra</strong> incluye un Efecto Activo para seguir alas criaturas impactadas pero no automatiza la Ventaja en Tiradas de Atque ni en las Tiradas de Salvación.</p><p>La Actividad <strong>Recargar con Furia</strong> consume la furia y restaura el uso de este rasgo.</p></section>",
 			"activities": {
 				"Battle Cry": {
-					"name": "Grito de Batalla"
+					"name": "Grito de Guerra"
 				},
 				"Recharge with Rage": {
-					"name": "Recargar con Ira"
+					"name": "Recargar con Furia"
 				}
 			},
 			"effects": {
 				"Zealous Presence": {
-					"name": "Presencia Fanática",
-					"description": "<p>Obtienes Ventaja en las tiradas de ataque y en las tiradas de salvación hasta el inicio del siguiente turno del Fanático.</p>"
+					"name": "Presencia Ferviente",
+					"description": "<p>Obtienes Ventaja en las Tiradas deAtaque y en las Tiradas de Salvación hasta el inicio del siguiente turno del Ferviente.</p>"
 				}
 			}
 		},

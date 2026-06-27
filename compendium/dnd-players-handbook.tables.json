@@ -4,7 +4,7 @@
 		"Chapter 2": "Capítulo 2",
 		"Chapter 3": "Capítulo 3",
 		"Chapter 7": "Capítulo 7",
-		"Descriptions by Ability Score": "Descripciones por Puntuacion de Características",
+		"Descriptions by Ability Score": "Descripciones por Puntuación de Características",
 		"Personality Traits by Alignment": "Rasgos de Personalidad por Alineamiento",
 		"Reincarnated Lineages": "Linajes Reencarnados"
 	},
@@ -31,7 +31,7 @@
 			"name": "Carisma",
 			"description": "<p>Esta tabla de calificativos plantean sugerencias sobre cómo describir a tu personaje según sus puntuaciones de característica <strong>Altas</strong> o <strong>Bajas</strong>.</p>",
 			"results": {
-				"1-1": "<strong>Alta:</strong> Encantador.  <strong>Baja:</strong> Pedante.",
+				"1-1": "<strong>Alta:</strong> Encantador. <strong>Baja:</strong> Pedante.",
 				"2-2": "<strong>Alta:</strong> Dominante.<strong>Baja:</strong> Soso.",
 				"3-3": "<strong>Alta:</strong> Divertido. <strong>Baja:</strong> Reservado.",
 				"4-4": "<strong>Alta:</strong> Inspirador. <strong>Baja:</strong> Insensible."
@@ -68,7 +68,7 @@
 			}
 		},
 		"Elven Lineage": {
-			"name": "Elven Lineage",
+			"name": "Linaje Élfico",
 			"description": "<p>Formas parte de un linaje que te otorga habilidades sobrenaturales.</p>"
 		},
 		"Evil Traits": {
@@ -92,11 +92,11 @@
 			}
 		},
 		"Fiendish Legacy": {
-			"name": "Fiendish Legacy",
+			"name": "Legado Infernal",
 			"description": "<p>Eres el recipiente de un legado que te otorga habilidades sobrenaturales.</p>"
 		},
 		"Gnomish Lineage": {
-			"name": "Gnomish Lineage",
+			"name": "Linaje Gnomo",
 			"description": "<p>Formas parte de un linaje que te otorga habilidades sobrenaturales.</p>"
 		},
 		"Good Traits": {
@@ -167,8 +167,8 @@
 				"3-3": "<p><strong>Amarillo.</strong><em> Si falla la tirada:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"lightning\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de relámpago. <em>Si supera la tirada:</em> La mitad de daño.</p>",
 				"4-4": "<p><strong>Verde.</strong><em> Si falla la tirada:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"poison\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de veneno. <em>Si supera la tirada:</em> La mitad de daño.</p>",
 				"5-5": "<p><strong>Azul.</strong><em> Si falla la tirada:</em> <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"cold\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>12d6</a></span> daño</span> de frío. <em>Si supera la tirada:</em> La mitad de daño.</p>",
-				"6-6": "<p><strong>Añil.</strong><em> Si falla la tirada:</em> el objetivo tendrá el estado  de <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Restrained</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"restrained\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> y hará una Tirada de Salvación de <span class=\"roll-link\" data-type=\"save\" data-ability=\"con\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Constitution</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> al final de cada uno de sus turnos. Si la falla tres veces, tendrá el estado de <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xaNDaW6NwQTgHSmi\" data-id=\"xaNDaW6NwQTgHSmi\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Petrified</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"petrified\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> hasta que lo libere un efecto como el del conjuro <em>Restablecimiento Mayor</em>. Los éxitos y los fallos no tienen por qué ser consecutivos; lleva la cuenta de ambos hasta que el objetivo tenga tres de un mismo tipo.</p>",
-				"7-7": "<p><strong>Violeta.</strong><em> Si falla la tirada:</em> el objetivo tendrá el estado  de <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.0b8N4FymGGfbZGpJ\" data-id=\"0b8N4FymGGfbZGpJ\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Blinded</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"blinded\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> y hará una Tirada de Salvación de <span class=\"roll-link\" data-type=\"save\" data-ability=\"wis\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Wisdom</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> al principio de tu siguiente turno. Si la supera, el estado terminará. Si la falla, el estado terminará y la criatura se teletransportará a otro plano de existencia (a elección de tu DM).</p>",
+				"6-6": "<p><strong>Añil.</strong><em> Si falla la tirada:</em> el objetivo tendrá el estado de <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Restrained</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"restrained\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> y hará una Tirada de Salvación de <span class=\"roll-link\" data-type=\"save\" data-ability=\"con\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Constitution</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> al final de cada uno de sus turnos. Si la falla tres veces, tendrá el estado de <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xaNDaW6NwQTgHSmi\" data-id=\"xaNDaW6NwQTgHSmi\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Petrified</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"petrified\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> hasta que lo libere un efecto como el del conjuro <em>Restablecimiento Mayor</em>. Los éxitos y los fallos no tienen por qué ser consecutivos; lleva la cuenta de ambos hasta que el objetivo tenga tres de un mismo tipo.</p>",
+				"7-7": "<p><strong>Violeta.</strong><em> Si falla la tirada:</em> el objetivo tendrá el estado de <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.0b8N4FymGGfbZGpJ\" data-id=\"0b8N4FymGGfbZGpJ\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Blinded</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"blinded\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> y hará una Tirada de Salvación de <span class=\"roll-link\" data-type=\"save\" data-ability=\"wis\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>Wisdom</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> al principio de tu siguiente turno. Si la supera, el estado terminará. Si la falla, el estado terminará y la criatura se teletransportará a otro plano de existencia (a elección de tu DM).</p>",
 				"8-8": "<p><strong>Especial.</strong> Dos rayos alcanzan al objetivo. Tira dos veces y repite los resultados de 8.</p>"
 			}
 		},
@@ -217,7 +217,7 @@
 				"12-12": "<strong>Idioma:</strong> Orco. <strong>Origen:</strong> Orcos."
 			}
 		},
-		"Teleport Percance": {
+		"Teleport Mishap": {
 			"name": "Percance de Teletransporte",
 			"description": "<p><strong>Daño del Percance:</strong> [[/damage 3d10 type=force]]</p><p><strong>Lejos del Objetivo:</strong> [[/r 2d12#Miles]]{2d12 x 1.5 Km} a una dirección al azar [[/r 1d8#Direction]]{Dirección}</p>. con un 1, al este; con un 2, al sureste; con un 3, al sur; con un 4, al suroeste; con un 5, al oeste; con un 6, al noroeste; con un 7, al norte, y con un 8, al noreste.",
 			"results": {
@@ -345,33 +345,33 @@
 			}
 		},
 		"Wild Magic Surge": {
-			"name": "Sobrecarga de Magia Salvaje",
+			"name": "Oleada de Magia Salvaje",
 			"results": {
 				"1-4": "Tira en esta tabla al principio de cada uno de tus turnos durante el próximo minuto, ignorando este resultado en esas tiradas. ",
-				"5-8": "Una criatura amistosa contigo aparecerá en un espacio sin ocupar aleatorio a 60ft (18 m) o menos de ti. La criatura está bajo el control de tu DM y desaparecerá 1 minuto después. Tira [[/r 1d4]]  para determinar la criatura: si el resultado es 1, aparecerá un modron duodron; si es 2, aparecerá un flumph; si es 3, aparecerá un modron monodron; si es 4, aparecerá un unicornio. Consulta el Manual de Monstruos para conocer el perfil de la criatura.",
+				"5-8": "Una criatura amistosa contigo aparecerá en un espacio sin ocupar aleatorio a 18 m (60 pies) o menos de ti. La criatura está bajo el control de tu DM y desaparecerá 1 minuto después. Tira [[/r 1d4]] para determinar la criatura: si el resultado es 1, aparecerá un modron duodron; si es 2, aparecerá un flumph; si es 3, aparecerá un modron monodron; si es 4, aparecerá un unicornio. Consulta el Manual de Monstruos para conocer el perfil de la criatura.",
 				"9-12": "Durante el próximo minuto, recuperas 5 puntos de golpe al principio de cada uno de tus turnos. ",
 				"13-16": "Las criaturas tienen desventaja en las tiradas de salvación contra el siguiente conjuro que lances durante el próximo minuto y que implique hacer tiradas de salvación.",
-				"17-20": "Sufres un efecto que dura 1 minuto salvo que la descripción indique algo diferente. Tira [[/r 1d8]] para determinar el efecto: si el resultado es 1, te rodea una débil música etérea que solo tú y las criaturas a 5ft (1,5) m o menos de ti podéis oír; si es 2, tu tamaño aumenta en una categoría; si es 3, te crece una larga barba de plumas que permanece hasta que estornudas, momento en el cual las plumas salen despedidas de tu rostro y se desvanecen; si es 4, deberás gritar siempre que hables; si es 5, unas mariposas ilusorias revolotean a 10ft (3 m) o menos de ti; si es 6, te aparece un ojo en la frente, lo que te dará ventaja en Pruebas de Sabiduría (Percepción); si es 7, te saldrán burbujas rosas flotando de la boca al hablar; sies 8, tu piel se volverá de un brillante color azul durante 24 horas o hasta que se le ponga fin al efecto con un conjuro levantar maldición.",
+				"17-20": "Sufres un efecto que dura 1 minuto salvo que la descripción indique algo diferente. Tira [[/r 1d8]] para determinar el efecto: si el resultado es 1, te rodea una débil música etérea que solo tú y las criaturas a 1,5 m (5 pies) (1,5) m o menos de ti podéis oír; si es 2, tu tamaño aumenta en una categoría; si es 3, te crece una larga barba de plumas que permanece hasta que estornudas, momento en el cual las plumas salen despedidas de tu rostro y se desvanecen; si es 4, deberás gritar siempre que hables; si es 5, unas mariposas ilusorias revolotean a 3 m (10 pies) o menos de ti; si es 6, te aparece un ojo en la frente, lo que te dará ventaja en Pruebas de Sabiduría (Percepción); si es 7, te saldrán burbujas rosas flotando de la boca al hablar; sies 8, tu piel se volverá de un brillante color azul durante 24 horas o hasta que se le ponga fin al efecto con un conjuro levantar maldición.",
 				"21-24": "Durante el próximo minuto, todos tus conjuros con un tiempo de lanzamiento de una acción poseen un tiempo de lanzamiento de una acción adicional.",
 				"25-28": "Te teletransportas al Plano Astral hasta el final de tu siguiente turno. A continuación, vuelves al espacio que ocupabas antes o al más cercano sin ocupar si ese espacio ya está ocupado. ",
 				"29-32": "La siguiente vez que lances un conjuro que cause daño durante el próximo minuto, no tiras los dados de daño del conjuro. En su lugar, usa el número más alto posible para cada dado de daño.",
 				"33-36": "Tienes resistencia a todo el daño durante el próximo minuto.",
 				"37-40": "Te transformas en una planta en una maceta hasta el principio de tu siguiente turno. Mientras seas una planta, tendrás el estado de &amp;Reference[Incapacitated] y serás vulnerable a todo el daño. Si tus puntos de golpe se reducen a 0 se romperá la maceta y volverás a tu forma anterior.",
-				"41-44": "Durante el próximo minuto, puedes teletransportarte hasta 20ft (6 m) como Acción Adicional durante cada uno de tus turnos.",
-				"45-48": "Tú y hasta tres criaturas que elijas a 30ft (9 m) o menos de ti tenéis el estado de Invisibles durante 1 minuto. Esta invisibilidad terminará inmediatamente después de que una criatura realice una Tirada de Ataque, cause daño o lance un conjuro.",
+				"41-44": "Durante el próximo minuto, puedes teletransportarte hasta 6 m (20 pies) como Acción Adicional durante cada uno de tus turnos.",
+				"45-48": "Tú y hasta tres criaturas que elijas a 9 m (30 pies) o menos de ti tenéis el estado de Invisibles durante 1 minuto. Esta invisibilidad terminará inmediatamente después de que una criatura realice una Tirada de Ataque, cause daño o lance un conjuro.",
 				"49-52": "Un escudo espectral levita cerca de ti durante el próximo minuto, lo que te otorga un bonificador de +2 a la CA e inmunidad a proyectil mágico.",
 				"53-56": "Puedes realizar una Acción Extra durante este turno.",
-				"57-60": "Lanzas un conjuro aleatorio. Si normalmente requiere Concentración, no la necesitará en este caso; el conjuro se mantiene toda su duración. Tira [[/r 1d10]] para determinar el conjuro: si el resultado es 1, lanzas bola de fuego; si es 2, confusión; si es 3, grasa; si es 4, imagen múltiple; si es 5, levitar (sobre ti); si es 6, nube de oscurecimiento; si es 7, polimorfar (sobre ti), y si fallas la tirada de salvación, te conviertes en una cabra (consulta el apéndice B); si es 8 proyectil mágico (como conjuro de nivel 5); si es 9, ver invisibilidad; si es 10, volar (sobre una criatura aleatoria que esté a 60ft (18 m) o menos de ti).",
+				"57-60": "Lanzas un conjuro aleatorio. Si normalmente requiere Concentración, no la necesitará en este caso; el conjuro se mantiene toda su duración. Tira [[/r 1d10]] para determinar el conjuro: si el resultado es 1, lanzas bola de fuego; si es 2, confusión; si es 3, grasa; si es 4, imagen múltiple; si es 5, levitar (sobre ti); si es 6, nube de oscurecimiento; si es 7, polimorfar (sobre ti), y si fallas la tirada de salvación, te conviertes en una cabra (consulta el apéndice B); si es 8 proyectil mágico (como conjuro de nivel 5); si es 9, ver invisibilidad; si es 10, volar (sobre una criatura aleatoria que esté a 18 m (60 pies) o menos de ti).",
 				"61-64": "Durante el próximo minuto, cualquier objeto no mágico inflamable que toques y no esté llevando o vistiendo otra criatura se prenderá fuego, sufrirá [[/damage 1d14 type=fire]] de daño de Fuego y arderá.",
 				"65-68": "Si mueres durante la próxima hora, volverás inmediatamente a la vida como si te hubieran lanzado el conju o reencarnar.",
 				"69-72": "Tienes el estado de &amp;Reference[Frightened] hasta el final de tu siguiente turno. Tu DM establece el motivo del miedo.",
-				"73-76": "Te teletransportas hasta 60ft (18 m) a un espacio sin ocupar que puedas ver.",
-				"77-80": "Una criatura aleatoria a 60ft (18 m) o menos de ti tendrá el estado de envenenada durante [[/r 1d4]] horas.",
-				"81-84": "Durante el próximo minuto, emites una luz brillante en un radio de 30ft (9 m). Cualquier criatura que acabe su turno a 5ft (1,5 m) o menos de ti tendrá el estado de &amp;Reference[blinded] hasta el final de su siguiente turno.",
-				"85-88": "Hasta tres criaturas de tu elección que puedas ver a 30ft (9 m) o menos de ti sufren [[/damage 1d10 type=necrotic]] de daño. Recuperas una cantidad de puntos de golpe igual al daño necrótico causado.",
-				"89-92": "Hasta tres criaturas de tu elección que puedas ver a 30ft (9 m) menos de ti sufren [[/damage 4d10 type=lightning]] de daño.",
+				"73-76": "Te teletransportas hasta 18 m (60 pies) a un espacio sin ocupar que puedas ver.",
+				"77-80": "Una criatura aleatoria a 18 m (60 pies) o menos de ti tendrá el estado de envenenada durante [[/r 1d4]] horas.",
+				"81-84": "Durante el próximo minuto, emites una luz brillante en un radio de 9 m (30 pies). Cualquier criatura que acabe su turno a 1,5 m (5 pies) o menos de ti tendrá el estado de &amp;Reference[blinded] hasta el final de su siguiente turno.",
+				"85-88": "Hasta tres criaturas de tu elección que puedas ver a 9 m (30 pies) o menos de ti sufren [[/damage 1d10 type=necrotic]] de daño. Recuperas una cantidad de puntos de golpe igual al daño necrótico causado.",
+				"89-92": "Hasta tres criaturas de tu elección que puedas ver a 9 m (30 pies) menos de ti sufren [[/damage 4d10 type=lightning]] de daño.",
 				"93-96": "Tú y todas las criaturas que estén a 9 m o menos de ti tenéis vulnerabilidad al daño perforante durante el próximo minuto. ",
-				"97-100": "Tira [[/r 1d6]]: Si el resultado es 1, recuperas [[/healing 2d10]]{2d10} Puntos de Golpe; si es 2, un aliado de tu elección a 300ft (90 m) o menos de ti recupera [[/healing 2d10]]{2d10} Puntos de Golpe; si es 3, recuperas tu espacio de conjuro de menor nivel; si es 4, un aliado de tu elección a 300ft (90 m) o menos de ti  recupera su espacio de conjuro de menor nivel; si es 5, recuperas todos los puntos de hechicería; si es 6, se aplican a la vez todos los efectos de la fila 17-20."
+				"97-100": "Tira [[/r 1d6]]: Si el resultado es 1, recuperas [[/healing 2d10]]{2d10} Puntos de Golpe; si es 2, un aliado de tu elección a 90 m (300 pies) o menos de ti recupera [[/healing 2d10]]{2d10} Puntos de Golpe; si es 3, recuperas tu espacio de conjuro de menor nivel; si es 4, un aliado de tu elección a 90 m (300 pies) o menos de ti recupera su espacio de conjuro de menor nivel; si es 5, recuperas todos los puntos de hechicería; si es 6, se aplican a la vez todos los efectos de la fila 17-20."
 			}
 		},
 		"Wisdom": {

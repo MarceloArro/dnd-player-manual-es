@@ -3,6 +3,7 @@
 # ============================================
 # compendium-en/ - Referencia EN para tracking de cambios
 # uploads/ - Archivos de documentación/imágenes de Babele wiki
+# glossary/ - Datos de trabajo curados (EN->ES). Local, no se publican con el módulo.
 
 # ============================================
 # DIRECTORIOS TEMPORALES Y DE TRABAJO
@@ -11,6 +12,7 @@
 chapters/
 reports/
 scripts/
+glossary/
 
 # ============================================
 # ARCHIVOS DE BACKUP
@@ -81,4 +83,6 @@ package-lock.json
 
 books/**
 uploads/**
+glossary/**
+CLAUDE.md
 BABELE_WIKI.md
